@@ -27,3 +27,10 @@ Desktop.ini
 *.bak
 *.docx
 *.zip
+
+# OCR caches and generated review artifacts
+**/*_mineru_cache/
+**/_raw_mineru/
+**/_reports/
+project-architecture.*
+feishu-project-report.xml
