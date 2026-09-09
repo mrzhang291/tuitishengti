@@ -1,0 +1,1429 @@
+{
+  "question_id": "szzx2024g2week2_q015",
+  "source_exam": "示例学校高二周测（2）",
+  "source_file": "sources/示例学校高二周测（2）.docx",
+  "solution_file": "sources/示例学校高二周测（2）解析.docx",
+  "grade": "高二",
+  "subject": "数学",
+  "question_number": 15,
+  "question_type": "solution",
+  "stem_markdown": "15．已知函数$f(x)=(e^x-a)/(x)-alnx(a∈R)$．\n$(1)$求曲线$y=f(x)$在点$(1,f(1))$处的切线方程；\n$(2)$求$f(x)$的单调区间．",
+  "stem_text": "15．已知函数f(x)=(e^x-a)/(x)-alnx(a∈R)．\n(1)求曲线y=f(x)在点(1,f(1))处的切线方程；\n(2)求f(x)的单调区间．",
+  "stem_html": "<p>15．已知函数<span class=\"formula\" data-formula-id=\"f001\">f(x)=(e^x-a)/(x)-alnx(a∈R)</span>．</p>\n<p><span class=\"formula\" data-formula-id=\"f002\">(1)</span>求曲线<span class=\"formula\" data-formula-id=\"f003\">y=f(x)</span>在点<span class=\"formula\" data-formula-id=\"f004\">(1,f(1))</span>处的切线方程；</p>\n<p><span class=\"formula\" data-formula-id=\"f005\">(2)</span>求<span class=\"formula\" data-formula-id=\"f006\">f(x)</span>的单调区间．</p>",
+  "stem_blocks": [
+    {
+      "type": "text",
+      "text": "15"
+    },
+    {
+      "type": "text",
+      "text": "．"
+    },
+    {
+      "type": "text",
+      "text": "已知函数"
+    },
+    {
+      "type": "math",
+      "formula_id": "f001",
+      "text_approx": "f(x)=(e^x-a)/(x)-alnx(a∈R)"
+    },
+    {
+      "type": "text",
+      "text": "．"
+    },
+    {
+      "type": "math",
+      "formula_id": "f002",
+      "text_approx": "(1)"
+    },
+    {
+      "type": "text",
+      "text": "求曲线"
+    },
+    {
+      "type": "math",
+      "formula_id": "f003",
+      "text_approx": "y=f(x)"
+    },
+    {
+      "type": "text",
+      "text": "在点"
+    },
+    {
+      "type": "math",
+      "formula_id": "f004",
+      "text_approx": "(1,f(1))"
+    },
+    {
+      "type": "text",
+      "text": "处的切线方程；"
+    },
+    {
+      "type": "math",
+      "formula_id": "f005",
+      "text_approx": "(2)"
+    },
+    {
+      "type": "text",
+      "text": "求"
+    },
+    {
+      "type": "math",
+      "formula_id": "f006",
+      "text_approx": "f(x)"
+    },
+    {
+      "type": "text",
+      "text": "的单调区间．"
+    }
+  ],
+  "answer": "【解】(1)由f(x)=(e^x-a)/(x)-alnx，可得f'(x)=(e^x(x-1)-ax+a)/(x^2)，则f'(1)=0且f(1)=e-a，所以曲线y=f(x)在点(1,f(1))处的切线方程为y=e-a．",
+  "solution_markdown": "15．【解】$(1)$由$f(x)=(e^x-a)/(x)-alnx$，可得$f'(x)=(e^x(x-1)-ax+a)/(x^2)$，则$f'(1)=0$且$f(1)=e-a$，所以曲线$y=f(x)$在点$(1,f(1))$处的切线方程为$y=e-a$．\n$(2)$由函数$f(x)=(e^x-a)/(x)-alnx$的定义域为$(0,+∞)$，且$f'(x)=((x-1)(e^x-a))/(x^2)$，若$a≤0$，令$f'(x)=0$，解得$x=1$，当$x∈(0,1)$时，$f'(x)<0$，$f(x)$单调递减，当$x∈(1,+∞)$时，$f'(x)>0$，$f(x)$单调递增，所以函数$f(x)$的单调递减区间为$(0,1)$，单调递增区间为$(1,+∞).$若$a>0$，令$f'(x)=0$，解得$x=1$或$x=lna$，  $①$若$lna≤0$，即$0<a≤1$时，当$x∈(0,1)$时，$f'(x)<0$，$f(x)$单调递减，当$x∈(1,+∞)$时，$f'(x)>0$，$f(x)$单调递增，所以函数$f(x)$的单调递减区间为$(0,1)$，单调递增区间为$(1,+∞).$  $②$若$0<lna<1$，即$1<a<e$时，当$x∈(0,lna)$时，$f'(x)>0$，$f(x)$单调递增，当$x∈(lna,1)$时，$f'(x)<0$，$f(x)$单调递减，当$x∈(1,+∞)$时，$f'(x)>0$，$f(x)$单调递增，所以函数$f(x)$的单调递减区间为$(lna,1)$，单调递增区间为$(0,lna)$，$(1,+∞).$  $③$若$lna=1$，即$a=e$时，可得$f'(x)≥0$且等号不恒成立，则$f(x)$单调递增，所以函数$f(x)$的单调递增区间为$(0,+∞).$  $④$若$lna>1$，即$a>e$时，当$x∈(0,1)$时，$f'(x)>0$，$f(x)$单调递增，当$x∈(1,lna)$时，$f'(x)<0$，$f(x)$单调递减，当$x∈(lna,+∞)$时，$f'(x)>0$，$f(x)$单调递增，所以函数$f(x)$的单调递减区间为$(1,lna)$，单调递增区间为$(0,1)$，$(lna,+∞)$．",
+  "solution_text": "15．【解】(1)由f(x)=(e^x-a)/(x)-alnx，可得f'(x)=(e^x(x-1)-ax+a)/(x^2)，则f'(1)=0且f(1)=e-a，所以曲线y=f(x)在点(1,f(1))处的切线方程为y=e-a．\n(2)由函数f(x)=(e^x-a)/(x)-alnx的定义域为(0,+∞)，且f'(x)=((x-1)(e^x-a))/(x^2)，若a≤0，令f'(x)=0，解得x=1，当x∈(0,1)时，f'(x)<0，f(x)单调递减，当x∈(1,+∞)时，f'(x)>0，f(x)单调递增，所以函数f(x)的单调递减区间为(0,1)，单调递增区间为(1,+∞).若a>0，令f'(x)=0，解得x=1或x=lna，  ①若lna≤0，即0<a≤1时，当x∈(0,1)时，f'(x)<0，f(x)单调递减，当x∈(1,+∞)时，f'(x)>0，f(x)单调递增，所以函数f(x)的单调递减区间为(0,1)，单调递增区间为(1,+∞).  ②若0<lna<1，即1<a<e时，当x∈(0,lna)时，f'(x)>0，f(x)单调递增，当x∈(lna,1)时，f'(x)<0，f(x)单调递减，当x∈(1,+∞)时，f'(x)>0，f(x)单调递增，所以函数f(x)的单调递减区间为(lna,1)，单调递增区间为(0,lna)，(1,+∞).  ③若lna=1，即a=e时，可得f'(x)≥0且等号不恒成立，则f(x)单调递增，所以函数f(x)的单调递增区间为(0,+∞).  ④若lna>1，即a>e时，当x∈(0,1)时，f'(x)>0，f(x)单调递增，当x∈(1,lna)时，f'(x)<0，f(x)单调递减，当x∈(lna,+∞)时，f'(x)>0，f(x)单调递增，所以函数f(x)的单调递减区间为(1,lna)，单调递增区间为(0,1)，(lna,+∞)．",
+  "solution_html": "<p>15．【解】<span class=\"formula\" data-formula-id=\"f007\">(1)</span>由<span class=\"formula\" data-formula-id=\"f008\">f(x)=(e^x-a)/(x)-alnx</span>，可得<span class=\"formula\" data-formula-id=\"f009\">f&#x27;(x)=(e^x(x-1)-ax+a)/(x^2)</span>，则<span class=\"formula\" data-formula-id=\"f010\">f&#x27;(1)=0</span>且<span class=\"formula\" data-formula-id=\"f011\">f(1)=e-a</span>，所以曲线<span class=\"formula\" data-formula-id=\"f012\">y=f(x)</span>在点<span class=\"formula\" data-formula-id=\"f013\">(1,f(1))</span>处的切线方程为<span class=\"formula\" data-formula-id=\"f014\">y=e-a</span>．</p>\n<p><span class=\"formula\" data-formula-id=\"f015\">(2)</span>由函数<span class=\"formula\" data-formula-id=\"f016\">f(x)=(e^x-a)/(x)-alnx</span>的定义域为<span class=\"formula\" data-formula-id=\"f017\">(0,+∞)</span>，且<span class=\"formula\" data-formula-id=\"f018\">f&#x27;(x)=((x-1)(e^x-a))/(x^2)</span>，若<span class=\"formula\" data-formula-id=\"f019\">a≤0</span>，令<span class=\"formula\" data-formula-id=\"f020\">f&#x27;(x)=0</span>，解得<span class=\"formula\" data-formula-id=\"f021\">x=1</span>，当<span class=\"formula\" data-formula-id=\"f022\">x∈(0,1)</span>时，<span class=\"formula\" data-formula-id=\"f023\">f&#x27;(x)&lt;0</span>，<span class=\"formula\" data-formula-id=\"f024\">f(x)</span>单调递减，当<span class=\"formula\" data-formula-id=\"f025\">x∈(1,+∞)</span>时，<span class=\"formula\" data-formula-id=\"f026\">f&#x27;(x)&gt;0</span>，<span class=\"formula\" data-formula-id=\"f027\">f(x)</span>单调递增，所以函数<span class=\"formula\" data-formula-id=\"f028\">f(x)</span>的单调递减区间为<span class=\"formula\" data-formula-id=\"f029\">(0,1)</span>，单调递增区间为<span class=\"formula\" data-formula-id=\"f030\">(1,+∞).</span>若<span class=\"formula\" data-formula-id=\"f031\">a&gt;0</span>，令<span class=\"formula\" data-formula-id=\"f032\">f&#x27;(x)=0</span>，解得<span class=\"formula\" data-formula-id=\"f033\">x=1</span>或<span class=\"formula\" data-formula-id=\"f034\">x=lna</span>，  <span class=\"formula\" data-formula-id=\"f035\">①</span>若<span class=\"formula\" data-formula-id=\"f036\">lna≤0</span>，即<span class=\"formula\" data-formula-id=\"f037\">0&lt;a≤1</span>时，当<span class=\"formula\" data-formula-id=\"f038\">x∈(0,1)</span>时，<span class=\"formula\" data-formula-id=\"f039\">f&#x27;(x)&lt;0</span>，<span class=\"formula\" data-formula-id=\"f040\">f(x)</span>单调递减，当<span class=\"formula\" data-formula-id=\"f041\">x∈(1,+∞)</span>时，<span class=\"formula\" data-formula-id=\"f042\">f&#x27;(x)&gt;0</span>，<span class=\"formula\" data-formula-id=\"f043\">f(x)</span>单调递增，所以函数<span class=\"formula\" data-formula-id=\"f044\">f(x)</span>的单调递减区间为<span class=\"formula\" data-formula-id=\"f045\">(0,1)</span>，单调递增区间为<span class=\"formula\" data-formula-id=\"f046\">(1,+∞).</span>  <span class=\"formula\" data-formula-id=\"f047\">②</span>若<span class=\"formula\" data-formula-id=\"f048\">0&lt;lna&lt;1</span>，即<span class=\"formula\" data-formula-id=\"f049\">1&lt;a&lt;e</span>时，当<span class=\"formula\" data-formula-id=\"f050\">x∈(0,lna)</span>时，<span class=\"formula\" data-formula-id=\"f051\">f&#x27;(x)&gt;0</span>，<span class=\"formula\" data-formula-id=\"f052\">f(x)</span>单调递增，当<span class=\"formula\" data-formula-id=\"f053\">x∈(lna,1)</span>时，<span class=\"formula\" data-formula-id=\"f054\">f&#x27;(x)&lt;0</span>，<span class=\"formula\" data-formula-id=\"f055\">f(x)</span>单调递减，当<span class=\"formula\" data-formula-id=\"f056\">x∈(1,+∞)</span>时，<span class=\"formula\" data-formula-id=\"f057\">f&#x27;(x)&gt;0</span>，<span class=\"formula\" data-formula-id=\"f058\">f(x)</span>单调递增，所以函数<span class=\"formula\" data-formula-id=\"f059\">f(x)</span>的单调递减区间为<span class=\"formula\" data-formula-id=\"f060\">(lna,1)</span>，单调递增区间为<span class=\"formula\" data-formula-id=\"f061\">(0,lna)</span>，<span class=\"formula\" data-formula-id=\"f062\">(1,+∞).</span>  <span class=\"formula\" data-formula-id=\"f063\">③</span>若<span class=\"formula\" data-formula-id=\"f064\">lna=1</span>，即<span class=\"formula\" data-formula-id=\"f065\">a=e</span>时，可得<span class=\"formula\" data-formula-id=\"f066\">f&#x27;(x)≥0</span>且等号不恒成立，则<span class=\"formula\" data-formula-id=\"f067\">f(x)</span>单调递增，所以函数<span class=\"formula\" data-formula-id=\"f068\">f(x)</span>的单调递增区间为<span class=\"formula\" data-formula-id=\"f069\">(0,+∞).</span>  <span class=\"formula\" data-formula-id=\"f070\">④</span>若<span class=\"formula\" data-formula-id=\"f071\">lna&gt;1</span>，即<span class=\"formula\" data-formula-id=\"f072\">a&gt;e</span>时，当<span class=\"formula\" data-formula-id=\"f073\">x∈(0,1)</span>时，<span class=\"formula\" data-formula-id=\"f074\">f&#x27;(x)&gt;0</span>，<span class=\"formula\" data-formula-id=\"f075\">f(x)</span>单调递增，当<span class=\"formula\" data-formula-id=\"f076\">x∈(1,lna)</span>时，<span class=\"formula\" data-formula-id=\"f077\">f&#x27;(x)&lt;0</span>，<span class=\"formula\" data-formula-id=\"f078\">f(x)</span>单调递减，当<span class=\"formula\" data-formula-id=\"f079\">x∈(lna,+∞)</span>时，<span class=\"formula\" data-formula-id=\"f080\">f&#x27;(x)&gt;0</span>，<span class=\"formula\" data-formula-id=\"f081\">f(x)</span>单调递增，所以函数<span class=\"formula\" data-formula-id=\"f082\">f(x)</span>的单调递减区间为<span class=\"formula\" data-formula-id=\"f083\">(1,lna)</span>，单调递增区间为<span class=\"formula\" data-formula-id=\"f084\">(0,1)</span>，<span class=\"formula\" data-formula-id=\"f085\">(lna,+∞)</span>．</p>",
+  "solution_blocks": [
+    {
+      "type": "text",
+      "text": "15"
+    },
+    {
+      "type": "text",
+      "text": "．"
+    },
+    {
+      "type": "text",
+      "text": "【解】"
+    },
+    {
+      "type": "math",
+      "formula_id": "f007",
+      "text_approx": "(1)"
+    },
+    {
+      "type": "text",
+      "text": "由"
+    },
+    {
+      "type": "math",
+      "formula_id": "f008",
+      "text_approx": "f(x)=(e^x-a)/(x)-alnx"
+    },
+    {
+      "type": "text",
+      "text": "，可得"
+    },
+    {
+      "type": "math",
+      "formula_id": "f009",
+      "text_approx": "f'(x)=(e^x(x-1)-ax+a)/(x^2)"
+    },
+    {
+      "type": "text",
+      "text": "，则"
+    },
+    {
+      "type": "math",
+      "formula_id": "f010",
+      "text_approx": "f'(1)=0"
+    },
+    {
+      "type": "text",
+      "text": "且"
+    },
+    {
+      "type": "math",
+      "formula_id": "f011",
+      "text_approx": "f(1)=e-a"
+    },
+    {
+      "type": "text",
+      "text": "，所以曲线"
+    },
+    {
+      "type": "math",
+      "formula_id": "f012",
+      "text_approx": "y=f(x)"
+    },
+    {
+      "type": "text",
+      "text": "在点"
+    },
+    {
+      "type": "math",
+      "formula_id": "f013",
+      "text_approx": "(1,f(1))"
+    },
+    {
+      "type": "text",
+      "text": "处的切线方程为"
+    },
+    {
+      "type": "math",
+      "formula_id": "f014",
+      "text_approx": "y=e-a"
+    },
+    {
+      "type": "text",
+      "text": "．"
+    },
+    {
+      "type": "math",
+      "formula_id": "f015",
+      "text_approx": "(2)"
+    },
+    {
+      "type": "text",
+      "text": "由函数"
+    },
+    {
+      "type": "math",
+      "formula_id": "f016",
+      "text_approx": "f(x)=(e^x-a)/(x)-alnx"
+    },
+    {
+      "type": "text",
+      "text": "的定义域为"
+    },
+    {
+      "type": "math",
+      "formula_id": "f017",
+      "text_approx": "(0,+∞)"
+    },
+    {
+      "type": "text",
+      "text": "，且"
+    },
+    {
+      "type": "math",
+      "formula_id": "f018",
+      "text_approx": "f'(x)=((x-1)(e^x-a))/(x^2)"
+    },
+    {
+      "type": "text",
+      "text": "，若"
+    },
+    {
+      "type": "math",
+      "formula_id": "f019",
+      "text_approx": "a≤0"
+    },
+    {
+      "type": "text",
+      "text": "，令"
+    },
+    {
+      "type": "math",
+      "formula_id": "f020",
+      "text_approx": "f'(x)=0"
+    },
+    {
+      "type": "text",
+      "text": "，解得"
+    },
+    {
+      "type": "math",
+      "formula_id": "f021",
+      "text_approx": "x=1"
+    },
+    {
+      "type": "text",
+      "text": "，当"
+    },
+    {
+      "type": "math",
+      "formula_id": "f022",
+      "text_approx": "x∈(0,1)"
+    },
+    {
+      "type": "text",
+      "text": "时，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f023",
+      "text_approx": "f'(x)<0"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f024",
+      "text_approx": "f(x)"
+    },
+    {
+      "type": "text",
+      "text": "单调递减，当"
+    },
+    {
+      "type": "math",
+      "formula_id": "f025",
+      "text_approx": "x∈(1,+∞)"
+    },
+    {
+      "type": "text",
+      "text": "时，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f026",
+      "text_approx": "f'(x)>0"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f027",
+      "text_approx": "f(x)"
+    },
+    {
+      "type": "text",
+      "text": "单调递增，所以函数"
+    },
+    {
+      "type": "math",
+      "formula_id": "f028",
+      "text_approx": "f(x)"
+    },
+    {
+      "type": "text",
+      "text": "的单调递减区间为"
+    },
+    {
+      "type": "math",
+      "formula_id": "f029",
+      "text_approx": "(0,1)"
+    },
+    {
+      "type": "text",
+      "text": "，单调递增区间为"
+    },
+    {
+      "type": "math",
+      "formula_id": "f030",
+      "text_approx": "(1,+∞)."
+    },
+    {
+      "type": "text",
+      "text": "若"
+    },
+    {
+      "type": "math",
+      "formula_id": "f031",
+      "text_approx": "a>0"
+    },
+    {
+      "type": "text",
+      "text": "，令"
+    },
+    {
+      "type": "math",
+      "formula_id": "f032",
+      "text_approx": "f'(x)=0"
+    },
+    {
+      "type": "text",
+      "text": "，解得"
+    },
+    {
+      "type": "math",
+      "formula_id": "f033",
+      "text_approx": "x=1"
+    },
+    {
+      "type": "text",
+      "text": "或"
+    },
+    {
+      "type": "math",
+      "formula_id": "f034",
+      "text_approx": "x=lna"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "text",
+      "text": "  "
+    },
+    {
+      "type": "math",
+      "formula_id": "f035",
+      "text_approx": "①"
+    },
+    {
+      "type": "text",
+      "text": "若"
+    },
+    {
+      "type": "math",
+      "formula_id": "f036",
+      "text_approx": "lna≤0"
+    },
+    {
+      "type": "text",
+      "text": "，即"
+    },
+    {
+      "type": "math",
+      "formula_id": "f037",
+      "text_approx": "0<a≤1"
+    },
+    {
+      "type": "text",
+      "text": "时，当"
+    },
+    {
+      "type": "math",
+      "formula_id": "f038",
+      "text_approx": "x∈(0,1)"
+    },
+    {
+      "type": "text",
+      "text": "时，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f039",
+      "text_approx": "f'(x)<0"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f040",
+      "text_approx": "f(x)"
+    },
+    {
+      "type": "text",
+      "text": "单调递减，当"
+    },
+    {
+      "type": "math",
+      "formula_id": "f041",
+      "text_approx": "x∈(1,+∞)"
+    },
+    {
+      "type": "text",
+      "text": "时，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f042",
+      "text_approx": "f'(x)>0"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f043",
+      "text_approx": "f(x)"
+    },
+    {
+      "type": "text",
+      "text": "单调递增，所以函数"
+    },
+    {
+      "type": "math",
+      "formula_id": "f044",
+      "text_approx": "f(x)"
+    },
+    {
+      "type": "text",
+      "text": "的单调递减区间为"
+    },
+    {
+      "type": "math",
+      "formula_id": "f045",
+      "text_approx": "(0,1)"
+    },
+    {
+      "type": "text",
+      "text": "，单调递增区间为"
+    },
+    {
+      "type": "math",
+      "formula_id": "f046",
+      "text_approx": "(1,+∞)."
+    },
+    {
+      "type": "text",
+      "text": "  "
+    },
+    {
+      "type": "math",
+      "formula_id": "f047",
+      "text_approx": "②"
+    },
+    {
+      "type": "text",
+      "text": "若"
+    },
+    {
+      "type": "math",
+      "formula_id": "f048",
+      "text_approx": "0<lna<1"
+    },
+    {
+      "type": "text",
+      "text": "，即"
+    },
+    {
+      "type": "math",
+      "formula_id": "f049",
+      "text_approx": "1<a<e"
+    },
+    {
+      "type": "text",
+      "text": "时，当"
+    },
+    {
+      "type": "math",
+      "formula_id": "f050",
+      "text_approx": "x∈(0,lna)"
+    },
+    {
+      "type": "text",
+      "text": "时，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f051",
+      "text_approx": "f'(x)>0"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f052",
+      "text_approx": "f(x)"
+    },
+    {
+      "type": "text",
+      "text": "单调递增，当"
+    },
+    {
+      "type": "math",
+      "formula_id": "f053",
+      "text_approx": "x∈(lna,1)"
+    },
+    {
+      "type": "text",
+      "text": "时，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f054",
+      "text_approx": "f'(x)<0"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f055",
+      "text_approx": "f(x)"
+    },
+    {
+      "type": "text",
+      "text": "单调递减，当"
+    },
+    {
+      "type": "math",
+      "formula_id": "f056",
+      "text_approx": "x∈(1,+∞)"
+    },
+    {
+      "type": "text",
+      "text": "时，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f057",
+      "text_approx": "f'(x)>0"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f058",
+      "text_approx": "f(x)"
+    },
+    {
+      "type": "text",
+      "text": "单调递增，所以函数"
+    },
+    {
+      "type": "math",
+      "formula_id": "f059",
+      "text_approx": "f(x)"
+    },
+    {
+      "type": "text",
+      "text": "的单调递减区间为"
+    },
+    {
+      "type": "math",
+      "formula_id": "f060",
+      "text_approx": "(lna,1)"
+    },
+    {
+      "type": "text",
+      "text": "，单调递增区间为"
+    },
+    {
+      "type": "math",
+      "formula_id": "f061",
+      "text_approx": "(0,lna)"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f062",
+      "text_approx": "(1,+∞)."
+    },
+    {
+      "type": "text",
+      "text": "  "
+    },
+    {
+      "type": "math",
+      "formula_id": "f063",
+      "text_approx": "③"
+    },
+    {
+      "type": "text",
+      "text": "若"
+    },
+    {
+      "type": "math",
+      "formula_id": "f064",
+      "text_approx": "lna=1"
+    },
+    {
+      "type": "text",
+      "text": "，即"
+    },
+    {
+      "type": "math",
+      "formula_id": "f065",
+      "text_approx": "a=e"
+    },
+    {
+      "type": "text",
+      "text": "时，可得"
+    },
+    {
+      "type": "math",
+      "formula_id": "f066",
+      "text_approx": "f'(x)≥0"
+    },
+    {
+      "type": "text",
+      "text": "且等号不恒成立，则"
+    },
+    {
+      "type": "math",
+      "formula_id": "f067",
+      "text_approx": "f(x)"
+    },
+    {
+      "type": "text",
+      "text": "单调递增，所以函数"
+    },
+    {
+      "type": "math",
+      "formula_id": "f068",
+      "text_approx": "f(x)"
+    },
+    {
+      "type": "text",
+      "text": "的单调递增区间为"
+    },
+    {
+      "type": "math",
+      "formula_id": "f069",
+      "text_approx": "(0,+∞)."
+    },
+    {
+      "type": "text",
+      "text": "  "
+    },
+    {
+      "type": "math",
+      "formula_id": "f070",
+      "text_approx": "④"
+    },
+    {
+      "type": "text",
+      "text": "若"
+    },
+    {
+      "type": "math",
+      "formula_id": "f071",
+      "text_approx": "lna>1"
+    },
+    {
+      "type": "text",
+      "text": "，即"
+    },
+    {
+      "type": "math",
+      "formula_id": "f072",
+      "text_approx": "a>e"
+    },
+    {
+      "type": "text",
+      "text": "时，当"
+    },
+    {
+      "type": "math",
+      "formula_id": "f073",
+      "text_approx": "x∈(0,1)"
+    },
+    {
+      "type": "text",
+      "text": "时，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f074",
+      "text_approx": "f'(x)>0"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f075",
+      "text_approx": "f(x)"
+    },
+    {
+      "type": "text",
+      "text": "单调递增，当"
+    },
+    {
+      "type": "math",
+      "formula_id": "f076",
+      "text_approx": "x∈(1,lna)"
+    },
+    {
+      "type": "text",
+      "text": "时，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f077",
+      "text_approx": "f'(x)<0"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f078",
+      "text_approx": "f(x)"
+    },
+    {
+      "type": "text",
+      "text": "单调递减，当"
+    },
+    {
+      "type": "math",
+      "formula_id": "f079",
+      "text_approx": "x∈(lna,+∞)"
+    },
+    {
+      "type": "text",
+      "text": "时，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f080",
+      "text_approx": "f'(x)>0"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f081",
+      "text_approx": "f(x)"
+    },
+    {
+      "type": "text",
+      "text": "单调递增，所以函数"
+    },
+    {
+      "type": "math",
+      "formula_id": "f082",
+      "text_approx": "f(x)"
+    },
+    {
+      "type": "text",
+      "text": "的单调递减区间为"
+    },
+    {
+      "type": "math",
+      "formula_id": "f083",
+      "text_approx": "(1,lna)"
+    },
+    {
+      "type": "text",
+      "text": "，单调递增区间为"
+    },
+    {
+      "type": "math",
+      "formula_id": "f084",
+      "text_approx": "(0,1)"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f085",
+      "text_approx": "(lna,+∞)"
+    },
+    {
+      "type": "text",
+      "text": "．"
+    }
+  ],
+  "assets": [],
+  "formulas": [
+    {
+      "id": "f001",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)=(e^x-a)/(x)-alnx(a∈R)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>(</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>)=</ns0:t></ns0:r><ns0:f><ns0:fPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:fPr><ns0:num><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /><ns1:sz ns1:val=\"24\" /><ns1:szCs ns1:val=\"24\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /><ns1:sz ns1:val=\"24\" /><ns1:szCs ns1:val=\"24\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:sup></ns0:sSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /><ns1:sz ns1:val=\"24\" /><ns1:szCs ns1:val=\"24\" /></ns1:rPr><ns0:t>-</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /><ns1:sz ns1:val=\"24\" /><ns1:szCs ns1:val=\"24\" /></ns1:rPr><ns0:t>a</ns0:t></ns0:r></ns0:num><ns0:den><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /><ns1:sz ns1:val=\"24\" /><ns1:szCs ns1:val=\"24\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:den></ns0:f><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>-</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>a</ns0:t></ns0:r><ns0:r><ns0:rPr><ns0:sty ns0:val=\"p\" /></ns0:rPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>ln</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>(</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>a</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>∈</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>R</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f002",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(1)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>(1)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f003",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "y=f(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>y=f(x)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f004",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(1,f(1))",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>(1,f(1))</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f005",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(2)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>(2)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f006",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f(x)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f007",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(1)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>(1)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f008",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)=(e^x-a)/(x)-alnx",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f(x)=</ns0:t></ns0:r><ns0:f><ns0:fPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:fPr><ns0:num><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /><ns1:sz ns1:val=\"24\" /><ns1:szCs ns1:val=\"24\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /><ns1:sz ns1:val=\"24\" /><ns1:szCs ns1:val=\"24\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:sup></ns0:sSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /><ns1:sz ns1:val=\"24\" /><ns1:szCs ns1:val=\"24\" /></ns1:rPr><ns0:t>-a</ns0:t></ns0:r></ns0:num><ns0:den><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /><ns1:sz ns1:val=\"24\" /><ns1:szCs ns1:val=\"24\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:den></ns0:f><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>-a</ns0:t></ns0:r><ns0:r><ns0:rPr><ns0:sty ns0:val=\"p\" /></ns0:rPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>ln</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f009",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f'(x)=(e^x(x-1)-ax+a)/(x^2)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f'(x)=</ns0:t></ns0:r><ns0:f><ns0:fPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:fPr><ns0:num><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /><ns1:sz ns1:val=\"24\" /><ns1:szCs ns1:val=\"24\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /><ns1:sz ns1:val=\"24\" /><ns1:szCs ns1:val=\"24\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:sup></ns0:sSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /><ns1:sz ns1:val=\"24\" /><ns1:szCs ns1:val=\"24\" /></ns1:rPr><ns0:t>(x-1)-ax+a</ns0:t></ns0:r></ns0:num><ns0:den><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /><ns1:sz ns1:val=\"24\" /><ns1:szCs ns1:val=\"24\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /><ns1:sz ns1:val=\"24\" /><ns1:szCs ns1:val=\"24\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r></ns0:sup></ns0:sSup></ns0:den></ns0:f></ns0:oMath>"
+    },
+    {
+      "id": "f010",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f'(1)=0",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f'(1)=0</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f011",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(1)=e-a",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f(1)=e-a</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f012",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "y=f(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>y=f(x)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f013",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(1,f(1))",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>(1,f(1))</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f014",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "y=e-a",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>y=e-a</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f015",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(2)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>(2)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f016",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)=(e^x-a)/(x)-alnx",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f(x)=</ns0:t></ns0:r><ns0:f><ns0:fPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:fPr><ns0:num><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /><ns1:sz ns1:val=\"24\" /><ns1:szCs ns1:val=\"24\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /><ns1:sz ns1:val=\"24\" /><ns1:szCs ns1:val=\"24\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:sup></ns0:sSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /><ns1:sz ns1:val=\"24\" /><ns1:szCs ns1:val=\"24\" /></ns1:rPr><ns0:t>-a</ns0:t></ns0:r></ns0:num><ns0:den><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /><ns1:sz ns1:val=\"24\" /><ns1:szCs ns1:val=\"24\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:den></ns0:f><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>-a</ns0:t></ns0:r><ns0:r><ns0:rPr><ns0:sty ns0:val=\"p\" /></ns0:rPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>ln</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f017",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(0,+∞)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>(0,+∞)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f018",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f'(x)=((x-1)(e^x-a))/(x^2)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f'(x)=</ns0:t></ns0:r><ns0:f><ns0:fPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:fPr><ns0:num><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /><ns1:sz ns1:val=\"24\" /><ns1:szCs ns1:val=\"24\" /></ns1:rPr><ns0:t>(x-1)</ns0:t></ns0:r><ns0:d><ns0:dPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /><ns1:sz ns1:val=\"24\" /><ns1:szCs ns1:val=\"24\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /><ns1:sz ns1:val=\"24\" /><ns1:szCs ns1:val=\"24\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:sup></ns0:sSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /><ns1:sz ns1:val=\"24\" /><ns1:szCs ns1:val=\"24\" /></ns1:rPr><ns0:t>-a</ns0:t></ns0:r></ns0:e></ns0:d></ns0:num><ns0:den><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /><ns1:sz ns1:val=\"24\" /><ns1:szCs ns1:val=\"24\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /><ns1:sz ns1:val=\"24\" /><ns1:szCs ns1:val=\"24\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r></ns0:sup></ns0:sSup></ns0:den></ns0:f></ns0:oMath>"
+    },
+    {
+      "id": "f019",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "a≤0",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>a≤0</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f020",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f'(x)=0",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f'(x)=0</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f021",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "x=1",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>x=1</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f022",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "x∈(0,1)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>x∈(0,1)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f023",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f'(x)<0",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f'(x)&lt;0</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f024",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f(x)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f025",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "x∈(1,+∞)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>x∈(1,+∞)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f026",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f'(x)>0",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f'(x)&gt;0</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f027",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f(x)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f028",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f(x)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f029",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(0,1)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>(0,1)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f030",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(1,+∞).",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>(1,+∞).</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f031",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "a>0",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>a&gt;0</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f032",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f'(x)=0",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f'(x)=0</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f033",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "x=1",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>x=1</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f034",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "x=lna",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>x=</ns0:t></ns0:r><ns0:r><ns0:rPr><ns0:sty ns0:val=\"p\" /></ns0:rPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>ln</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>a</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f035",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "①",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>①</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f036",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "lna≤0",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns0:rPr><ns0:sty ns0:val=\"p\" /></ns0:rPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>ln</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>a≤0</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f037",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "0<a≤1",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>0&lt;a≤1</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f038",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "x∈(0,1)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>x∈(0,1)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f039",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f'(x)<0",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f'(x)&lt;0</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f040",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f(x)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f041",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "x∈(1,+∞)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>x∈(1,+∞)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f042",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f'(x)>0",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f'(x)&gt;0</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f043",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f(x)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f044",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f(x)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f045",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(0,1)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>(0,1)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f046",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(1,+∞).",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>(1,+∞).</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f047",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "②",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>②</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f048",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "0<lna<1",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>0&lt;</ns0:t></ns0:r><ns0:r><ns0:rPr><ns0:sty ns0:val=\"p\" /></ns0:rPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>ln</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>a&lt;1</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f049",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "1<a<e",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>1&lt;a&lt;e</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f050",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "x∈(0,lna)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>x∈(0,</ns0:t></ns0:r><ns0:r><ns0:rPr><ns0:sty ns0:val=\"p\" /></ns0:rPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>ln</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>a)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f051",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f'(x)>0",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f'(x)&gt;0</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f052",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f(x)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f053",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "x∈(lna,1)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>x∈(</ns0:t></ns0:r><ns0:r><ns0:rPr><ns0:sty ns0:val=\"p\" /></ns0:rPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>ln</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>a,1)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f054",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f'(x)<0",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f'(x)&lt;0</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f055",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f(x)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f056",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "x∈(1,+∞)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>x∈(1,+∞)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f057",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f'(x)>0",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f'(x)&gt;0</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f058",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f(x)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f059",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f(x)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f060",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(lna,1)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>(</ns0:t></ns0:r><ns0:r><ns0:rPr><ns0:sty ns0:val=\"p\" /></ns0:rPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>ln</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>a,1)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f061",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(0,lna)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>(0,</ns0:t></ns0:r><ns0:r><ns0:rPr><ns0:sty ns0:val=\"p\" /></ns0:rPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>ln</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>a)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f062",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(1,+∞).",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>(1,+∞).</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f063",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "③",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>③</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f064",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "lna=1",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns0:rPr><ns0:sty ns0:val=\"p\" /></ns0:rPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>ln</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>a=1</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f065",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "a=e",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>a=e</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f066",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f'(x)≥0",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f'(x)≥0</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f067",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f(x)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f068",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f(x)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f069",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(0,+∞).",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>(0,+∞).</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f070",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "④",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>④</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f071",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "lna>1",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns0:rPr><ns0:sty ns0:val=\"p\" /></ns0:rPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>ln</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>a&gt;1</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f072",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "a>e",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>a&gt;e</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f073",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "x∈(0,1)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>x∈(0,1)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f074",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f'(x)>0",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f'(x)&gt;0</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f075",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f(x)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f076",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "x∈(1,lna)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>x∈(1,</ns0:t></ns0:r><ns0:r><ns0:rPr><ns0:sty ns0:val=\"p\" /></ns0:rPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>ln</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>a)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f077",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f'(x)<0",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f'(x)&lt;0</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f078",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f(x)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f079",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "x∈(lna,+∞)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>x∈(</ns0:t></ns0:r><ns0:r><ns0:rPr><ns0:sty ns0:val=\"p\" /></ns0:rPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>ln</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>a,+∞)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f080",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f'(x)>0",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f'(x)&gt;0</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f081",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f(x)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f082",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f(x)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f083",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(1,lna)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>(1,</ns0:t></ns0:r><ns0:r><ns0:rPr><ns0:sty ns0:val=\"p\" /></ns0:rPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>ln</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>a)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f084",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(0,1)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>(0,1)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f085",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(lna,+∞)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>(</ns0:t></ns0:r><ns0:r><ns0:rPr><ns0:sty ns0:val=\"p\" /></ns0:rPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>ln</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>a,+∞)</ns0:t></ns0:r></ns0:oMath>"
+    }
+  ],
+  "ole_objects": [],
+  "extraction": {
+    "source_paragraph_range": [
+      46,
+      49
+    ],
+    "solution_paragraph_range": [
+      36,
+      38
+    ],
+    "formula_count": 85,
+    "image_count": 0,
+    "ole_count": 0,
+    "quality_flags": [
+      "contains_omml"
+    ]
+  }
+}

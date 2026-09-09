@@ -1,0 +1,377 @@
+{
+  "question_id": "szzx_2024_g2_week1_q014",
+  "source_exam": "示例学校高二周测（1）",
+  "source_file": "sources/示例学校高二周测（1）.docx",
+  "solution_file": "sources/示例学校高二周测（1）解析.docx",
+  "grade": "高二",
+  "subject": "数学",
+  "question_number": 14,
+  "question_type": "fill_blank",
+  "stem_markdown": "14．已知函数$f(x)=|e^x-1|,x_1<0,x_2>0$，函数$f(x)$的图象在点$A(x_1,f(x_1))$和点$B(x_2,f(x_2))$的两条切线互相垂直，且分别交y轴于M，N两点，则$(|AM|)/(|BN|)$取值范围是_______．",
+  "stem_text": "14．已知函数f(x)=|e^x-1|,x_1<0,x_2>0，函数f(x)的图象在点A(x_1,f(x_1))和点B(x_2,f(x_2))的两条切线互相垂直，且分别交y轴于M，N两点，则(|AM|)/(|BN|)取值范围是_______．",
+  "stem_html": "<p>14．已知函数<span class=\"formula\" data-formula-id=\"f001\">f(x)=|e^x-1|,x_1&lt;0,x_2&gt;0</span>，函数<span class=\"formula\" data-formula-id=\"f002\">f(x)</span>的图象在点<span class=\"formula\" data-formula-id=\"f003\">A(x_1,f(x_1))</span>和点<span class=\"formula\" data-formula-id=\"f004\">B(x_2,f(x_2))</span>的两条切线互相垂直，且分别交y轴于M，N两点，则<span class=\"formula\" data-formula-id=\"f005\">(|AM|)/(|BN|)</span>取值范围是_______．</p>",
+  "stem_blocks": [
+    {
+      "type": "text",
+      "text": "1"
+    },
+    {
+      "type": "text",
+      "text": "4"
+    },
+    {
+      "type": "text",
+      "text": "．已知函数"
+    },
+    {
+      "type": "math",
+      "formula_id": "f001",
+      "text_approx": "f(x)=|e^x-1|,x_1<0,x_2>0"
+    },
+    {
+      "type": "text",
+      "text": "，函数"
+    },
+    {
+      "type": "math",
+      "formula_id": "f002",
+      "text_approx": "f(x)"
+    },
+    {
+      "type": "text",
+      "text": "的图象在点"
+    },
+    {
+      "type": "math",
+      "formula_id": "f003",
+      "text_approx": "A(x_1,f(x_1))"
+    },
+    {
+      "type": "text",
+      "text": "和点"
+    },
+    {
+      "type": "math",
+      "formula_id": "f004",
+      "text_approx": "B(x_2,f(x_2))"
+    },
+    {
+      "type": "text",
+      "text": "的两条切线互相垂直，且分别交"
+    },
+    {
+      "type": "text",
+      "text": "y"
+    },
+    {
+      "type": "text",
+      "text": "轴于"
+    },
+    {
+      "type": "text",
+      "text": "M"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "text",
+      "text": "N"
+    },
+    {
+      "type": "text",
+      "text": "两点，则"
+    },
+    {
+      "type": "math",
+      "formula_id": "f005",
+      "text_approx": "(|AM|)/(|BN|)"
+    },
+    {
+      "type": "text",
+      "text": "取值范围是"
+    },
+    {
+      "type": "text",
+      "text": "_______"
+    },
+    {
+      "type": "text",
+      "text": "．"
+    }
+  ],
+  "answer": "(0,1)",
+  "solution_markdown": "14. $(0,1)$【详解】由题意，$f(x)=|e^x-1|={1-e^x,x<0e^x-1,x≥0$，则$f^'(x)={-e^x,x<0e^x,x>0$，\n所以点$A(x_1,1-e^x_1)$和点$B(x_2,e^x_2-1)$，$k_AM=-e^x_1,k_BN=e^x_2$,\n所以$-e^x_1⋅e^x_2=-1,x_1+x_2=0$，所以$AM:y-1+e^x_1=-e^x_1(x-x_1),M(0,e^x_1x_1-e^x_1+1)$，所以$|AM|=sqrt(x_1^2+(e^x_1x_1)^2)=sqrt(1+e^2x_1)⋅|x_1|$，同理$|BN|=sqrt(1+e^2x_2)⋅|x_2|$,\n所以$(|AM|)/(|BN|)=(sqrt(1+e^2x_1)⋅|x_1|)/(sqrt(1+e^2x_2)⋅|x_2|)=sqrt((1+e^2x_1)/(1+e^2x_2))=sqrt((1+e^2x_1)/(1+e^-2x_1))=e^x_1∈(0,1)$.故答案为：$(0,1)$",
+  "solution_text": "14. (0,1)【详解】由题意，f(x)=|e^x-1|={1-e^x,x<0e^x-1,x≥0，则f^'(x)={-e^x,x<0e^x,x>0，\n所以点A(x_1,1-e^x_1)和点B(x_2,e^x_2-1)，k_AM=-e^x_1,k_BN=e^x_2,\n所以-e^x_1⋅e^x_2=-1,x_1+x_2=0，所以AM:y-1+e^x_1=-e^x_1(x-x_1),M(0,e^x_1x_1-e^x_1+1)，所以|AM|=sqrt(x_1^2+(e^x_1x_1)^2)=sqrt(1+e^2x_1)⋅|x_1|，同理|BN|=sqrt(1+e^2x_2)⋅|x_2|,\n所以(|AM|)/(|BN|)=(sqrt(1+e^2x_1)⋅|x_1|)/(sqrt(1+e^2x_2)⋅|x_2|)=sqrt((1+e^2x_1)/(1+e^2x_2))=sqrt((1+e^2x_1)/(1+e^-2x_1))=e^x_1∈(0,1).故答案为：(0,1)",
+  "solution_html": "<p>14. <span class=\"formula\" data-formula-id=\"f006\">(0,1)</span>【详解】由题意，<span class=\"formula\" data-formula-id=\"f007\">f(x)=|e^x-1|={1-e^x,x&lt;0e^x-1,x≥0</span>，则<span class=\"formula\" data-formula-id=\"f008\">f^&#x27;(x)={-e^x,x&lt;0e^x,x&gt;0</span>，</p>\n<p>所以点<span class=\"formula\" data-formula-id=\"f009\">A(x_1,1-e^x_1)</span>和点<span class=\"formula\" data-formula-id=\"f010\">B(x_2,e^x_2-1)</span>，<span class=\"formula\" data-formula-id=\"f011\">k_AM=-e^x_1,k_BN=e^x_2</span>,</p>\n<p>所以<span class=\"formula\" data-formula-id=\"f012\">-e^x_1⋅e^x_2=-1,x_1+x_2=0</span>，所以<span class=\"formula\" data-formula-id=\"f013\">AM:y-1+e^x_1=-e^x_1(x-x_1),M(0,e^x_1x_1-e^x_1+1)</span>，所以<span class=\"formula\" data-formula-id=\"f014\">|AM|=sqrt(x_1^2+(e^x_1x_1)^2)=sqrt(1+e^2x_1)⋅|x_1|</span>，同理<span class=\"formula\" data-formula-id=\"f015\">|BN|=sqrt(1+e^2x_2)⋅|x_2|</span>,</p>\n<p>所以<span class=\"formula\" data-formula-id=\"f016\">(|AM|)/(|BN|)=(sqrt(1+e^2x_1)⋅|x_1|)/(sqrt(1+e^2x_2)⋅|x_2|)=sqrt((1+e^2x_1)/(1+e^2x_2))=sqrt((1+e^2x_1)/(1+e^-2x_1))=e^x_1∈(0,1)</span>.故答案为：<span class=\"formula\" data-formula-id=\"f017\">(0,1)</span></p>",
+  "solution_blocks": [
+    {
+      "type": "text",
+      "text": "14"
+    },
+    {
+      "type": "text",
+      "text": ". "
+    },
+    {
+      "type": "math",
+      "formula_id": "f006",
+      "text_approx": "(0,1)"
+    },
+    {
+      "type": "text",
+      "text": "【详解】由题意，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f007",
+      "text_approx": "f(x)=|e^x-1|={1-e^x,x<0e^x-1,x≥0"
+    },
+    {
+      "type": "text",
+      "text": "，则"
+    },
+    {
+      "type": "math",
+      "formula_id": "f008",
+      "text_approx": "f^'(x)={-e^x,x<0e^x,x>0"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "text",
+      "text": "所以点"
+    },
+    {
+      "type": "math",
+      "formula_id": "f009",
+      "text_approx": "A(x_1,1-e^x_1)"
+    },
+    {
+      "type": "text",
+      "text": "和点"
+    },
+    {
+      "type": "math",
+      "formula_id": "f010",
+      "text_approx": "B(x_2,e^x_2-1)"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f011",
+      "text_approx": "k_AM=-e^x_1,k_BN=e^x_2"
+    },
+    {
+      "type": "text",
+      "text": ","
+    },
+    {
+      "type": "text",
+      "text": "所以"
+    },
+    {
+      "type": "math",
+      "formula_id": "f012",
+      "text_approx": "-e^x_1⋅e^x_2=-1,x_1+x_2=0"
+    },
+    {
+      "type": "text",
+      "text": "，所以"
+    },
+    {
+      "type": "math",
+      "formula_id": "f013",
+      "text_approx": "AM:y-1+e^x_1=-e^x_1(x-x_1),M(0,e^x_1x_1-e^x_1+1)"
+    },
+    {
+      "type": "text",
+      "text": "，所以"
+    },
+    {
+      "type": "math",
+      "formula_id": "f014",
+      "text_approx": "|AM|=sqrt(x_1^2+(e^x_1x_1)^2)=sqrt(1+e^2x_1)⋅|x_1|"
+    },
+    {
+      "type": "text",
+      "text": "，同理"
+    },
+    {
+      "type": "math",
+      "formula_id": "f015",
+      "text_approx": "|BN|=sqrt(1+e^2x_2)⋅|x_2|"
+    },
+    {
+      "type": "text",
+      "text": ","
+    },
+    {
+      "type": "text",
+      "text": "所以"
+    },
+    {
+      "type": "math",
+      "formula_id": "f016",
+      "text_approx": "(|AM|)/(|BN|)=(sqrt(1+e^2x_1)⋅|x_1|)/(sqrt(1+e^2x_2)⋅|x_2|)=sqrt((1+e^2x_1)/(1+e^2x_2))=sqrt((1+e^2x_1)/(1+e^-2x_1))=e^x_1∈(0,1)"
+    },
+    {
+      "type": "text",
+      "text": "."
+    },
+    {
+      "type": "text",
+      "text": "故答案为："
+    },
+    {
+      "type": "math",
+      "formula_id": "f017",
+      "text_approx": "(0,1)"
+    }
+  ],
+  "assets": [],
+  "formulas": [
+    {
+      "id": "f001",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)=|e^x-1|,x_1<0,x_2>0",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>f(x)=|</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:sup></ns0:sSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>-1|,</ns0:t></ns0:r><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1</ns0:t></ns0:r></ns0:sub></ns0:sSub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>&lt;0,</ns0:t></ns0:r><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r></ns0:sub></ns0:sSub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>&gt;0</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f002",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>f(x)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f003",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "A(x_1,f(x_1))",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>A(</ns0:t></ns0:r><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1</ns0:t></ns0:r></ns0:sub></ns0:sSub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>,f(</ns0:t></ns0:r><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1</ns0:t></ns0:r></ns0:sub></ns0:sSub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>))</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f004",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "B(x_2,f(x_2))",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>B(</ns0:t></ns0:r><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r></ns0:sub></ns0:sSub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>,f(</ns0:t></ns0:r><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r></ns0:sub></ns0:sSub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>))</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f005",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(|AM|)/(|BN|)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:f><ns0:fPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:fPr><ns0:num><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>|AM|</ns0:t></ns0:r></ns0:num><ns0:den><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>|BN|</ns0:t></ns0:r></ns0:den></ns0:f></ns0:oMath>"
+    },
+    {
+      "id": "f006",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(0,1)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>(0,1)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f007",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)=|e^x-1|={1-e^x,x<0e^x-1,x≥0",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>f(x)=|</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:sup></ns0:sSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>-1|={</ns0:t></ns0:r><ns0:eqArr><ns0:eqArrPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:eqArrPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1-</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:sup></ns0:sSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>,x&lt;0</ns0:t></ns0:r></ns0:e><ns0:e><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:sup></ns0:sSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>-1,x≥0</ns0:t></ns0:r></ns0:e></ns0:eqArr></ns0:oMath>"
+    },
+    {
+      "id": "f008",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f^'(x)={-e^x,x<0e^x,x>0",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>f</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>'</ns0:t></ns0:r></ns0:sup></ns0:sSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>(x)={</ns0:t></ns0:r><ns0:eqArr><ns0:eqArrPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:eqArrPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>-</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:sup></ns0:sSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>,x&lt;0</ns0:t></ns0:r></ns0:e><ns0:e><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:sup></ns0:sSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>,x&gt;0</ns0:t></ns0:r></ns0:e></ns0:eqArr></ns0:oMath>"
+    },
+    {
+      "id": "f009",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "A(x_1,1-e^x_1)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>A(</ns0:t></ns0:r><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1</ns0:t></ns0:r></ns0:sub></ns0:sSub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>,1-</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1</ns0:t></ns0:r></ns0:sub></ns0:sSub></ns0:sup></ns0:sSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f010",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "B(x_2,e^x_2-1)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>B(</ns0:t></ns0:r><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r></ns0:sub></ns0:sSub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>,</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r></ns0:sub></ns0:sSub></ns0:sup></ns0:sSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>-1)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f011",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "k_AM=-e^x_1,k_BN=e^x_2",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>k</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>AM</ns0:t></ns0:r></ns0:sub></ns0:sSub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>=-</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1</ns0:t></ns0:r></ns0:sub></ns0:sSub></ns0:sup></ns0:sSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>,</ns0:t></ns0:r><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>k</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>BN</ns0:t></ns0:r></ns0:sub></ns0:sSub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>=</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r></ns0:sub></ns0:sSub></ns0:sup></ns0:sSup></ns0:oMath>"
+    },
+    {
+      "id": "f012",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "-e^x_1⋅e^x_2=-1,x_1+x_2=0",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>-</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1</ns0:t></ns0:r></ns0:sub></ns0:sSub></ns0:sup></ns0:sSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>⋅</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r></ns0:sub></ns0:sSub></ns0:sup></ns0:sSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>=-1,</ns0:t></ns0:r><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1</ns0:t></ns0:r></ns0:sub></ns0:sSub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>+</ns0:t></ns0:r><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r></ns0:sub></ns0:sSub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>=0</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f013",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "AM:y-1+e^x_1=-e^x_1(x-x_1),M(0,e^x_1x_1-e^x_1+1)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>AM:y-1+</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1</ns0:t></ns0:r></ns0:sub></ns0:sSub></ns0:sup></ns0:sSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>=-</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1</ns0:t></ns0:r></ns0:sub></ns0:sSub></ns0:sup></ns0:sSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>(x-</ns0:t></ns0:r><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1</ns0:t></ns0:r></ns0:sub></ns0:sSub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>),M(0,</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1</ns0:t></ns0:r></ns0:sub></ns0:sSub></ns0:sup></ns0:sSup><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1</ns0:t></ns0:r></ns0:sub></ns0:sSub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>-</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1</ns0:t></ns0:r></ns0:sub></ns0:sSub></ns0:sup></ns0:sSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>+1)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f014",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "|AM|=sqrt(x_1^2+(e^x_1x_1)^2)=sqrt(1+e^2x_1)⋅|x_1|",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>|AM|=</ns0:t></ns0:r><ns0:rad><ns0:radPr><ns0:degHide ns0:val=\"1\" /><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:radPr><ns0:deg /><ns0:e><ns0:sSubSup><ns0:sSubSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1</ns0:t></ns0:r></ns0:sub><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r></ns0:sup></ns0:sSubSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>+</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>(</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1</ns0:t></ns0:r></ns0:sub></ns0:sSub></ns0:sup></ns0:sSup><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1</ns0:t></ns0:r></ns0:sub></ns0:sSub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>)</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r></ns0:sup></ns0:sSup></ns0:e></ns0:rad><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>=</ns0:t></ns0:r><ns0:rad><ns0:radPr><ns0:degHide ns0:val=\"1\" /><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:radPr><ns0:deg /><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1+</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1</ns0:t></ns0:r></ns0:sub></ns0:sSub></ns0:sup></ns0:sSup></ns0:e></ns0:rad><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>⋅|</ns0:t></ns0:r><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1</ns0:t></ns0:r></ns0:sub></ns0:sSub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>|</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f015",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "|BN|=sqrt(1+e^2x_2)⋅|x_2|",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>|BN|=</ns0:t></ns0:r><ns0:rad><ns0:radPr><ns0:degHide ns0:val=\"1\" /><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:radPr><ns0:deg /><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1+</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r></ns0:sub></ns0:sSub></ns0:sup></ns0:sSup></ns0:e></ns0:rad><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>⋅|</ns0:t></ns0:r><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r></ns0:sub></ns0:sSub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>|</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f016",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(|AM|)/(|BN|)=(sqrt(1+e^2x_1)⋅|x_1|)/(sqrt(1+e^2x_2)⋅|x_2|)=sqrt((1+e^2x_1)/(1+e^2x_2))=sqrt((1+e^2x_1)/(1+e^-2x_1))=e^x_1∈(0,1)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:f><ns0:fPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:fPr><ns0:num><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>|AM|</ns0:t></ns0:r></ns0:num><ns0:den><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>|BN|</ns0:t></ns0:r></ns0:den></ns0:f><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>=</ns0:t></ns0:r><ns0:f><ns0:fPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:fPr><ns0:num><ns0:rad><ns0:radPr><ns0:degHide ns0:val=\"1\" /><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:radPr><ns0:deg /><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1+</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1</ns0:t></ns0:r></ns0:sub></ns0:sSub></ns0:sup></ns0:sSup></ns0:e></ns0:rad><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>⋅|</ns0:t></ns0:r><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1</ns0:t></ns0:r></ns0:sub></ns0:sSub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>|</ns0:t></ns0:r></ns0:num><ns0:den><ns0:rad><ns0:radPr><ns0:degHide ns0:val=\"1\" /><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:radPr><ns0:deg /><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1+</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r></ns0:sub></ns0:sSub></ns0:sup></ns0:sSup></ns0:e></ns0:rad><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>⋅|</ns0:t></ns0:r><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r></ns0:sub></ns0:sSub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>|</ns0:t></ns0:r></ns0:den></ns0:f><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>=</ns0:t></ns0:r><ns0:rad><ns0:radPr><ns0:degHide ns0:val=\"1\" /><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:radPr><ns0:deg /><ns0:e><ns0:f><ns0:fPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:fPr><ns0:num><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1+</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1</ns0:t></ns0:r></ns0:sub></ns0:sSub></ns0:sup></ns0:sSup></ns0:num><ns0:den><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1+</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r></ns0:sub></ns0:sSub></ns0:sup></ns0:sSup></ns0:den></ns0:f></ns0:e></ns0:rad><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>=</ns0:t></ns0:r><ns0:rad><ns0:radPr><ns0:degHide ns0:val=\"1\" /><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:radPr><ns0:deg /><ns0:e><ns0:f><ns0:fPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:fPr><ns0:num><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1+</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1</ns0:t></ns0:r></ns0:sub></ns0:sSub></ns0:sup></ns0:sSup></ns0:num><ns0:den><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1+</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>-2</ns0:t></ns0:r><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1</ns0:t></ns0:r></ns0:sub></ns0:sSub></ns0:sup></ns0:sSup></ns0:den></ns0:f></ns0:e></ns0:rad><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>=</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>e</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:sSub><ns0:sSubPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSubPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sub><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>1</ns0:t></ns0:r></ns0:sub></ns0:sSub></ns0:sup></ns0:sSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>∈(0,1)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f017",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(0,1)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>(0,1)</ns0:t></ns0:r></ns0:oMath>"
+    }
+  ],
+  "ole_objects": [],
+  "extraction": {
+    "source_paragraph_range": [
+      43,
+      49
+    ],
+    "solution_paragraph_range": [
+      60,
+      63
+    ],
+    "formula_count": 17,
+    "image_count": 0,
+    "ole_count": 0,
+    "quality_flags": [
+      "contains_omml"
+    ]
+  }
+}

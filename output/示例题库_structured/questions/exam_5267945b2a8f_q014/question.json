@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_5267945b2a8f_q014",
+  "display_id": "EXAM-5267945B2A8F-Q014",
+  "source_exam": "深圳中学 2024 级高二数学 五一作业",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学２０２４级高二数学五一作业 试卷.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学２０２４级高二数学五一作业 答案.md",
+  "question_number": 14,
+  "question_type": "fill_blank",
+  "stem_markdown": "### 14. 已知函数 $f(x) = a \\ln x - 2x (a > 0)$ ，若不等式 $x^a e^{-2x} \\geq 3f(x) + 1$ 对 $x > 0$ 恒成立，则实数 $a$ 的取值范围为 \\_\\_\\_\\_.\n\n#",
+  "stem_html": "<h3>14. 已知函数 $f(x) = a \\ln x - 2x (a &gt; 0)$ ，若不等式 $x^a e^{-2x} \\geq 3f(x) + 1$ 对 $x &gt; 0$ 恒成立，则实数 $a$ 的取值范围为 ____.</h3>\n<h1></h1>",
+  "options": {},
+  "answer": "(0,2e]",
+  "solution_markdown": "### 14. (0,2e]\n\n**详解**不等式 $x^{a}e^{-2x} \\geq 3f(x) + 1$ 对 x > 0 恒成立，\n\n等价于 $e^{a\\ln x - 2x} \\geq 3f(x) + 1$ ，所以 $e^{f(x)} - 3f(x) - 1 \\geq 0$ ，\n\n设 $g(t) = e^{t} - 3t - 1$ ，其中 $t = f(x)$ ，则 $g'(t) = e^{t} - 3$ ，令 $g'(t) = 0$ 得 $t = \\ln 3$ ，\n\n所以当 $t < \\ln 3$ 时， $g'(t) < 0, g(t)$ 单调递减，当 $t > \\ln 3$ 时， $g'(t) > 0, g(t)$ 单调递增，\n\n所以 $g(x)_{\\min} = g(\\ln 3) = 2 - 3\\ln 3 < 0$ ，又 $g(0) = 0, g(2) = e^{2} - 7 > 0,$ 所以存在 $t_{0} \\in (\\ln 3, 2)$ 使得 $g(t_{0}) = 0$ ，\n\n所以若 $g(t) \\geq 0$ ，则 $t \\leq 0$ 或 $t \\geq t_{0}$ ，即 $f(x) \\leq 0$ 或 $f(x) \\geq t_{0}$ ， $f'(x) = \\frac{a}{x} - 2 = \\frac{a - 2x}{x}, x > 0$ ，\n\n所以在 $\\left(0, \\frac{a}{2}\\right)$ 上， $f'(x) > 0, f(x)$ 单调递增，\n\n在 $\\left(\\frac{a}{2}, +\\infty\\right)$ 上， $f'(x) < 0, f(x)$ 单调递减，\n\n所以 $f(x)_{\\max} = f\\left(\\frac{a}{2}\\right) = a\\ln\\frac{a}{2} - a$ ，所以只有 $a\\ln\\frac{a}{2} - a \\leq 0$ 才能满足要求，\n\n即 $a\\left(\\ln\\frac{a}{2} - 1\\right) \\leq 0$ ，又 a > 0，解得 $0 < a \\leq 2e$ ，\n\n所以实数 $a$ 的取值范围为 $(0,2\\mathrm{e}]$ . 故答案为： $(0,2\\mathrm{e}]$",
+  "solution_html": "<h3>14. (0,2e]</h3>\n<p><strong>详解</strong>不等式 $x^{a}e^{-2x} \\geq 3f(x) + 1$ 对 x &gt; 0 恒成立，</p>\n<p>等价于 $e^{a\\ln x - 2x} \\geq 3f(x) + 1$ ，所以 $e^{f(x)} - 3f(x) - 1 \\geq 0$ ，</p>\n<p>设 $g(t) = e^{t} - 3t - 1$ ，其中 $t = f(x)$ ，则 $g'(t) = e^{t} - 3$ ，令 $g'(t) = 0$ 得 $t = \\ln 3$ ，</p>\n<p>所以当 $t &lt; \\ln 3$ 时， $g'(t) &lt; 0, g(t)$ 单调递减，当 $t &gt; \\ln 3$ 时， $g'(t) &gt; 0, g(t)$ 单调递增，</p>\n<p>所以 $g(x)_{\\min} = g(\\ln 3) = 2 - 3\\ln 3 &lt; 0$ ，又 $g(0) = 0, g(2) = e^{2} - 7 &gt; 0,$ 所以存在 $t_{0} \\in (\\ln 3, 2)$ 使得 $g(t_{0}) = 0$ ，</p>\n<p>所以若 $g(t) \\geq 0$ ，则 $t \\leq 0$ 或 $t \\geq t_{0}$ ，即 $f(x) \\leq 0$ 或 $f(x) \\geq t_{0}$ ， $f'(x) = \\frac{a}{x} - 2 = \\frac{a - 2x}{x}, x &gt; 0$ ，</p>\n<p>所以在 $\\left(0, \\frac{a}{2}\\right)$ 上， $f'(x) &gt; 0, f(x)$ 单调递增，</p>\n<p>在 $\\left(\\frac{a}{2}, +\\infty\\right)$ 上， $f'(x) &lt; 0, f(x)$ 单调递减，</p>\n<p>所以 $f(x)_{\\max} = f\\left(\\frac{a}{2}\\right) = a\\ln\\frac{a}{2} - a$ ，所以只有 $a\\ln\\frac{a}{2} - a \\leq 0$ 才能满足要求，</p>\n<p>即 $a\\left(\\ln\\frac{a}{2} - 1\\right) \\leq 0$ ，又 a &gt; 0，解得 $0 &lt; a \\leq 2e$ ，</p>\n<p>所以实数 $a$ 的取值范围为 $(0,2\\mathrm{e}]$ . 故答案为： $(0,2\\mathrm{e}]$</p>",
+  "score": null,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.261537+00:00",
+    "question_source_sha256": "15514af6ceb54dc08cbfc8100c7df26b356cb6688fdd3bfe5c4f436c61261dd5",
+    "solution_source_sha256": "07f1865be56a487b402afb470f20fe230f42fb97bd927cee85afc49913075760"
+  }
+}

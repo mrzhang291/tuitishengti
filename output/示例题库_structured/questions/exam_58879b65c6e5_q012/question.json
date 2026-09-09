@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_58879b65c6e5_q012",
+  "display_id": "EXAM-58879B65C6E5-Q012",
+  "source_exam": "深圳中学 2024 级高二数学周测（7）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（7）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（7）参考答案.md",
+  "question_number": 12,
+  "question_type": "fill_blank",
+  "stem_markdown": "### 12. 湘绣, 是中国优秀的民族传统工艺之一, 有着两千多年的历史. 湘绣的制作工艺繁杂, 只有设计图案通过后才能进行刺绣. 某绣坊准备制作 $A, B, C$ 三幅不同的湘绣作品, 已知 $A, B, C$ 三幅作品通过设计图案环节的概率依次为 $\\frac{3}{4}, \\frac{2}{3}, \\frac{4}{5}$ . $A, B, C$ 三幅中恰有一幅作品通过设计图案环节的概率为 \\_\\_\\_\\_.",
+  "stem_html": "<h3>12. 湘绣, 是中国优秀的民族传统工艺之一, 有着两千多年的历史. 湘绣的制作工艺繁杂, 只有设计图案通过后才能进行刺绣. 某绣坊准备制作 $A, B, C$ 三幅不同的湘绣作品, 已知 $A, B, C$ 三幅作品通过设计图案环节的概率依次为 $\\frac{3}{4}, \\frac{2}{3}, \\frac{4}{5}$ . $A, B, C$ 三幅中恰有一幅作品通过设计图案环节的概率为 ____.</h3>",
+  "options": {},
+  "answer": "$\\frac{3}{20}$",
+  "solution_markdown": "### 12. $\\frac{3}{20}$ \n\n**详解** $P(A\\overline{B}\\overline{C}) + P(\\overline{A} B\\overline{C}) + P(\\overline{A}\\overline{B} C) = \\frac{3}{4}\\times \\frac{1}{3}\\times \\frac{1}{5} +\\frac{1}{4}\\times \\frac{2}{3}\\times \\frac{1}{5} +\\frac{1}{4}\\times \\frac{1}{3}\\times \\frac{4}{5} = \\frac{3}{20}.$",
+  "solution_html": "<h3>12. $\\frac{3}{20}$</h3>\n<p><strong>详解</strong> $P(A\\overline{B}\\overline{C}) + P(\\overline{A} B\\overline{C}) + P(\\overline{A}\\overline{B} C) = \\frac{3}{4}\\times \\frac{1}{3}\\times \\frac{1}{5} +\\frac{1}{4}\\times \\frac{2}{3}\\times \\frac{1}{5} +\\frac{1}{4}\\times \\frac{1}{3}\\times \\frac{4}{5} = \\frac{3}{20}.$</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.001489+00:00",
+    "question_source_sha256": "9124b78ea7842e994e399ed6bc49d2368b80f63f7683e1cfae2de4c1c9e936aa",
+    "solution_source_sha256": "73a0816208baeeb9d64155c667182408d96461e4b8769a726123ba1edb89fe5b"
+  }
+}

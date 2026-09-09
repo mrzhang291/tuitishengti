@@ -1,0 +1,4 @@
+interface:
+  display_name: "Generating Math Variants"
+  short_description: "Generate teaching-chain math variants."
+  default_prompt: "Use $generating-math-variants to generate three structurally distinct variants for prototype consolidation, method variation, and transfer practice, solve each independently, validate the saved variant set, and recommend one."

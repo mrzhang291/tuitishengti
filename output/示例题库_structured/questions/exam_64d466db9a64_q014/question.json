@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_64d466db9a64_q014",
+  "display_id": "EXAM-64D466DB9A64-Q014",
+  "source_exam": "深圳中学 2024 级高二数学周测（5）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二数学周测（5）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二数学周测（5）参考答案.md",
+  "question_number": 14,
+  "question_type": "fill_blank",
+  "stem_markdown": "### 14. 已知函数 $f(x) = \\begin{cases} 6\\ln x, & x > 0, \\\\ mx^2 + 6x, & x < 0. \\end{cases}$ 若关于 $a$ 的方程 $f(a) = f(-a)$ 恰有四个不同的解，则正数 $m$ 的取值范围为 \\_\\_\\_\\_.\n\n#",
+  "stem_html": "<h3>14. 已知函数 $f(x) = \\begin{cases} 6\\ln x, &amp; x &gt; 0, \\\\ mx^2 + 6x, &amp; x &lt; 0. \\end{cases}$ 若关于 $a$ 的方程 $f(a) = f(-a)$ 恰有四个不同的解，则正数 $m$ 的取值范围为 ____.</h3>\n<h1></h1>",
+  "options": {},
+  "answer": "(0,6)",
+  "solution_markdown": "14.] (0,6) 由方程 $f(a) = f(-a)$ ，则当 $a > 0$ 时，可得 $6\\ln a = ma^2 - 6a$ ；当 $a < 0$ 时，可得 $6\\ln(-a) = ma^2 + 6a$ ，则可得关于 $x$ 的方程 $6\\ln x = mx^2 - 6x$ 有两个不等的正根，关于 $x$ 的方程 $6\\ln(-x) = mx^2 + 6x$ 有两个不等的负根，即函数 $h(x) = 6\\ln x - mx^2 + 6x$ 恰好有两个零点，函数 $g(x) = 6\\ln(-x) - mx^2 - 6x$ 恰好有两个零点，由 $g(x) = h(-x)$ ，则只需研究函数 $h(x) = 6\\ln x - mx^2 + 6x$ 恰好有两个零点即可，求导可得 $h'(x) = \\frac{6}{x} - 2mx + 6 = -\\frac{2mx^2 - 6x - 6}{x}$ ，令 $g(x) = 2mx^2 - 6x - 6(x > 0)$ ，因为 $2m > 0$ ，且 $g(0) = -6 < 0, x = \\frac{3}{2m} > 0$ ，所以 $g(x)$ 在 $(0, +\\infty)$ 上有一个零点，记为 $x_0$ . 当 $x \\in (0, x_0)$ 时， $g(x) < 0$ ， $h'(x) > 0$ ; 当 $x \\in (x_0, +\\infty)$ 时， $g(x) > 0$ ， $h'(x) < 0$ .\n所以 $h(x)$ 在 $(0, x_0)$ 上单调递增，在 $(x_0, +\\infty)$ 上单调递减，\n当 $x \\to 0$ 或 $x \\to +\\infty$ 时， $h(x) < 0$ ，则 $h(x_0) > 0$ ，即\n\n$6\\ln x_{0}-mx_{0}^{2}+6x_{0}>0$ ．因为 $g(x_{0})=2mx_{0}^{2}-6x_{0}-6=0$ ，所以 $mx_{0}^{2}=3x_{0}+3$ ，则 $2\\ln x_{0}+x_{0}-1>0$ ．因为函数 $t(x)=2\\ln x+x-1$ 在 $(0,+\\infty)$ 上单调递增，且 $t(1)=0$ ，所以 $x_{0}>1$ ，则 $0<\\frac{1}{x_{0}}<1$ ，由 $2mx_{0}^{2}-6x_{0}-6=0$ ，得 $m=3\\left(\\frac{1}{x_{0}}\\right)^{2}+\\frac{3}{x_{0}}=3\\left(\\frac{1}{x_{0}}+\\frac{1}{2}\\right)^{2}-\\frac{3}{4}$ ，又 $0<\\frac{1}{x_{0}}<1$ ，所以0<m<6.",
+  "solution_html": "<p>14.] (0,6) 由方程 $f(a) = f(-a)$ ，则当 $a &gt; 0$ 时，可得 $6\\ln a = ma^2 - 6a$ ；当 $a &lt; 0$ 时，可得 $6\\ln(-a) = ma^2 + 6a$ ，则可得关于 $x$ 的方程 $6\\ln x = mx^2 - 6x$ 有两个不等的正根，关于 $x$ 的方程 $6\\ln(-x) = mx^2 + 6x$ 有两个不等的负根，即函数 $h(x) = 6\\ln x - mx^2 + 6x$ 恰好有两个零点，函数 $g(x) = 6\\ln(-x) - mx^2 - 6x$ 恰好有两个零点，由 $g(x) = h(-x)$ ，则只需研究函数 $h(x) = 6\\ln x - mx^2 + 6x$ 恰好有两个零点即可，求导可得 $h'(x) = \\frac{6}{x} - 2mx + 6 = -\\frac{2mx^2 - 6x - 6}{x}$ ，令 $g(x) = 2mx^2 - 6x - 6(x &gt; 0)$ ，因为 $2m &gt; 0$ ，且 $g(0) = -6 &lt; 0, x = \\frac{3}{2m} &gt; 0$ ，所以 $g(x)$ 在 $(0, +\\infty)$ 上有一个零点，记为 $x_0$ . 当 $x \\in (0, x_0)$ 时， $g(x) &lt; 0$ ， $h'(x) &gt; 0$ ; 当 $x \\in (x_0, +\\infty)$ 时， $g(x) &gt; 0$ ， $h'(x) &lt; 0$ .\n所以 $h(x)$ 在 $(0, x_0)$ 上单调递增，在 $(x_0, +\\infty)$ 上单调递减，\n当 $x \\to 0$ 或 $x \\to +\\infty$ 时， $h(x) &lt; 0$ ，则 $h(x_0) &gt; 0$ ，即</p>\n<p>$6\\ln x_{0}-mx_{0}^{2}+6x_{0}&gt;0$ ．因为 $g(x_{0})=2mx_{0}^{2}-6x_{0}-6=0$ ，所以 $mx_{0}^{2}=3x_{0}+3$ ，则 $2\\ln x_{0}+x_{0}-1&gt;0$ ．因为函数 $t(x)=2\\ln x+x-1$ 在 $(0,+\\infty)$ 上单调递增，且 $t(1)=0$ ，所以 $x_{0}&gt;1$ ，则 $0&lt;\\frac{1}{x_{0}}&lt;1$ ，由 $2mx_{0}^{2}-6x_{0}-6=0$ ，得 $m=3\\left(\\frac{1}{x_{0}}\\right)^{2}+\\frac{3}{x_{0}}=3\\left(\\frac{1}{x_{0}}+\\frac{1}{2}\\right)^{2}-\\frac{3}{4}$ ，又 $0&lt;\\frac{1}{x_{0}}&lt;1$ ，所以0&lt;m&lt;6.</p>",
+  "score": null,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.422280+00:00",
+    "question_source_sha256": "0a947743971a67ef971955fddba3a1d96fa8478a9c0c36d10f0c4ee174efd496",
+    "solution_source_sha256": "8c53a21b6d71e1b67f1664b079fb0452db52b9a6b9c5c668ce4dbeedf2a2958c"
+  }
+}

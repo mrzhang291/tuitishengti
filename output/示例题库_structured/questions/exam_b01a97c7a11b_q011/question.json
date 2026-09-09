@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_b01a97c7a11b_q011",
+  "display_id": "EXAM-B01A97C7A11B-Q011",
+  "source_exam": "深圳中学2024级高二周测（8）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（8）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（8）参考答案.md",
+  "question_number": 11,
+  "question_type": "multiple_choice",
+  "stem_markdown": "### 11. 甲罐中有5个红球，2个白球和3个黑球，乙罐中有4个红球，3个白球和3个黑球.先从甲罐中随机取出一球放入乙罐，分别以 $A_{1}$ ， $A_{2}$ 和 $A_{3}$ 表示由甲罐取出的球是红球，白球和黑球的事件；再从乙罐中随机取出一球，以 $B$ 表示由乙罐取出的球是红球的事件，则下列结论中正确的是\n\nA. $P(B) = \\frac{2}{5}$\n\nB. $P(B|A_1) = \\frac{5}{11}$\n\nC. 事件 $B$ 与事件 $A_{1}$ 相互独立\n\nD. $A_{1}, A_{2}, A_{3}$ 是两两互斥的事件\n\n#",
+  "stem_html": "<h3>11. 甲罐中有5个红球，2个白球和3个黑球，乙罐中有4个红球，3个白球和3个黑球.先从甲罐中随机取出一球放入乙罐，分别以 $A_{1}$ ， $A_{2}$ 和 $A_{3}$ 表示由甲罐取出的球是红球，白球和黑球的事件；再从乙罐中随机取出一球，以 $B$ 表示由乙罐取出的球是红球的事件，则下列结论中正确的是</h3>\n<p>A. $P(B) = \\frac{2}{5}$</p>\n<p>B. $P(B|A_1) = \\frac{5}{11}$</p>\n<p>C. 事件 $B$ 与事件 $A_{1}$ 相互独立</p>\n<p>D. $A_{1}, A_{2}, A_{3}$ 是两两互斥的事件</p>\n<h1></h1>",
+  "options": {
+    "A": "$P(B) = \\frac{2}{5}$",
+    "B": "$P(B|A_1) = \\frac{5}{11}$",
+    "C": "事件 $B$ 与事件 $A_{1}$ 相互独立",
+    "D": "$A_{1}, A_{2}, A_{3}$ 是两两互斥的事件\n\n#"
+  },
+  "answer": "BD",
+  "solution_markdown": "",
+  "solution_html": "",
+  "score": 6,
+  "assets": [],
+  "quality_flags": [
+    "missing_solution"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.100975+00:00",
+    "question_source_sha256": "c94eca08c58bedc15524121a680136ba270a64c9922023c3005a12c4fc409761",
+    "solution_source_sha256": "2c305966ce196e8a17833cd59778cae810c6b4e24eca072eeecc711059b85d1d"
+  }
+}

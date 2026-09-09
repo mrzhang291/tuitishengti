@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_58879b65c6e5_q001",
+  "display_id": "EXAM-58879B65C6E5-Q001",
+  "source_exam": "深圳中学 2024 级高二数学周测（7）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（7）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（7）参考答案.md",
+  "question_number": 1,
+  "question_type": "single_choice",
+  "stem_markdown": "### 1. 下列求导结果正确的是（）\n\nA. $(\\sin3)'=\\cos3$\n\nB. $(\\cos x)'=\\sin x$\n\nC. $\\left(\\frac{\\mathrm{e}^{x}}{x}\\right)^{\\prime}=\\frac{\\mathrm{e}^{x}(x-1)}{x^{2}}$\n\nD. $(\\ln 2x)'=\\frac{1}{2x}$",
+  "stem_html": "<h3>1. 下列求导结果正确的是（）</h3>\n<p>A. $(\\sin3)'=\\cos3$</p>\n<p>B. $(\\cos x)'=\\sin x$</p>\n<p>C. $\\left(\\frac{\\mathrm{e}^{x}}{x}\\right)^{\\prime}=\\frac{\\mathrm{e}^{x}(x-1)}{x^{2}}$</p>\n<p>D. $(\\ln 2x)'=\\frac{1}{2x}$</p>",
+  "options": {
+    "A": "$(\\sin3)'=\\cos3$",
+    "B": "$(\\cos x)'=\\sin x$",
+    "C": "$\\left(\\frac{\\mathrm{e}^{x}}{x}\\right)^{\\prime}=\\frac{\\mathrm{e}^{x}(x-1)}{x^{2}}$",
+    "D": "$(\\ln 2x)'=\\frac{1}{2x}$"
+  },
+  "answer": "C",
+  "solution_markdown": "",
+  "solution_html": "",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [
+    "missing_solution"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.929070+00:00",
+    "question_source_sha256": "9124b78ea7842e994e399ed6bc49d2368b80f63f7683e1cfae2de4c1c9e936aa",
+    "solution_source_sha256": "73a0816208baeeb9d64155c667182408d96461e4b8769a726123ba1edb89fe5b"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_982ba095d8f8_q001",
+  "display_id": "EXAM-982BA095D8F8-Q001",
+  "source_exam": "深圳中学 2024 级高二数学周测（9）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（9）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（9）参考答案.md",
+  "question_number": 1,
+  "question_type": "single_choice",
+  "stem_markdown": "### 1. 一批零件共有10个，其中有4个不合格。从这批零件中随机抽取3个零件进行检测，恰好有1件不合格的概率是（）\n\nA. $\\frac{C_4^2C_6^1}{C_{10}^3}$\n\nB. $\\frac{C_4^1C_6^2}{C_{10}^3}$\n\nC. $\\frac{C_4^1C_{10}^2}{C_{10}^3}$\n\nD. $\\frac{C_4^2C_{10}^1}{C_{10}^3}$",
+  "stem_html": "<h3>1. 一批零件共有10个，其中有4个不合格。从这批零件中随机抽取3个零件进行检测，恰好有1件不合格的概率是（）</h3>\n<p>A. $\\frac{C_4^2C_6^1}{C_{10}^3}$</p>\n<p>B. $\\frac{C_4^1C_6^2}{C_{10}^3}$</p>\n<p>C. $\\frac{C_4^1C_{10}^2}{C_{10}^3}$</p>\n<p>D. $\\frac{C_4^2C_{10}^1}{C_{10}^3}$</p>",
+  "options": {
+    "A": "$\\frac{C_4^2C_6^1}{C_{10}^3}$",
+    "B": "$\\frac{C_4^1C_6^2}{C_{10}^3}$",
+    "C": "$\\frac{C_4^1C_{10}^2}{C_{10}^3}$",
+    "D": "$\\frac{C_4^2C_{10}^1}{C_{10}^3}$"
+  },
+  "answer": "B",
+  "solution_markdown": "### 1. B\n\n**详解**从 $^{10}$ 个零件中随机抽取 $^{3}$ 个，总的抽取方法数为组合数 $C_{10}^{3}$ ，要求恰好 $^{1}$ 件不合格，即从4个不合格零件中抽1个，从6个合格零件中抽2个，符合条件的方法数为 $C_{4}^{1}C_{6}^{2}$ ，故恰好1件不合格的概率为 $\\frac{C_{4}^{1}C_{6}^{2}}{C_{10}^{3}}$ 。故选：B.",
+  "solution_html": "<h3>1. B</h3>\n<p><strong>详解</strong>从 $^{10}$ 个零件中随机抽取 $^{3}$ 个，总的抽取方法数为组合数 $C_{10}^{3}$ ，要求恰好 $^{1}$ 件不合格，即从4个不合格零件中抽1个，从6个合格零件中抽2个，符合条件的方法数为 $C_{4}^{1}C_{6}^{2}$ ，故恰好1件不合格的概率为 $\\frac{C_{4}^{1}C_{6}^{2}}{C_{10}^{3}}$ 。故选：B.</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.125166+00:00",
+    "question_source_sha256": "fd7e09e7361b1a3c423e4a90022e45ec754d1b93b61dd929ba983ee3da41d367",
+    "solution_source_sha256": "49045cdfd752f9f34d7cc2aa89ea2bcec7753750c2327e42b2d465641a0aa9fa"
+  }
+}

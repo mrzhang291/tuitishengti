@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_58879b65c6e5_q003",
+  "display_id": "EXAM-58879B65C6E5-Q003",
+  "source_exam": "深圳中学 2024 级高二数学周测（7）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（7）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（7）参考答案.md",
+  "question_number": 3,
+  "question_type": "single_choice",
+  "stem_markdown": "### 3. 当 $x = 1$ 时，函数 $f(x) = a\\ln x + \\frac{b}{x}$ 取得最大值-2，则 $f^{\\prime}(2) = (\\quad)$\n\nA. -1\n\nB. $-\\frac{1}{2}$\n\nC. $\\frac{1}{2}$\n\nD. 1",
+  "stem_html": "<h3>3. 当 $x = 1$ 时，函数 $f(x) = a\\ln x + \\frac{b}{x}$ 取得最大值-2，则 $f^{\\prime}(2) = (\\quad)$</h3>\n<p>A. -1</p>\n<p>B. $-\\frac{1}{2}$</p>\n<p>C. $\\frac{1}{2}$</p>\n<p>D. 1</p>",
+  "options": {
+    "A": "-1",
+    "B": "$-\\frac{1}{2}$",
+    "C": "$\\frac{1}{2}$",
+    "D": "1"
+  },
+  "answer": "B",
+  "solution_markdown": "",
+  "solution_html": "",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [
+    "missing_solution"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.935552+00:00",
+    "question_source_sha256": "9124b78ea7842e994e399ed6bc49d2368b80f63f7683e1cfae2de4c1c9e936aa",
+    "solution_source_sha256": "73a0816208baeeb9d64155c667182408d96461e4b8769a726123ba1edb89fe5b"
+  }
+}

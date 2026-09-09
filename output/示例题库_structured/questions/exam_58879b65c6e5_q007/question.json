@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_58879b65c6e5_q007",
+  "display_id": "EXAM-58879B65C6E5-Q007",
+  "source_exam": "深圳中学 2024 级高二数学周测（7）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（7）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（7）参考答案.md",
+  "question_number": 7,
+  "question_type": "single_choice",
+  "stem_markdown": "### 7. 设 $a \\neq 0$ ，若 $a$ 为函数 $f(x) = a(x - a)^2(x - b)$ 的极大值点，则（）\n\nA. $a < b$\n\nB. $a > b$\n\nC. $ab < a^2$\n\nD. $ab > a^2$",
+  "stem_html": "<h3>7. 设 $a \\neq 0$ ，若 $a$ 为函数 $f(x) = a(x - a)^2(x - b)$ 的极大值点，则（）</h3>\n<p>A. $a &lt; b$</p>\n<p>B. $a &gt; b$</p>\n<p>C. $ab &lt; a^2$</p>\n<p>D. $ab &gt; a^2$</p>",
+  "options": {
+    "A": "$a < b$",
+    "B": "$a > b$",
+    "C": "$ab < a^2$",
+    "D": "$ab > a^2$"
+  },
+  "answer": "D",
+  "solution_markdown": "### 7. D\n\n**详解**若 $a = b$ ，则 $f(x) = a(x - a)^3$ 为无极值点，不符合题意， $\\therefore f(x)$ 有 $a$ 和 $b$ 两个不同零点，且在 $x = a$ 左右附近是不变号，在 $x = b$ 左右附近是变号的。依题意， $a$ 为函数 $f(x) = a(x - a)^2(x - b)$ 的极大值点， $\\therefore$ 在 $x = a$ 左右附近都是小于零的。\n\n当 $a < 0$ 时，由 $x > b$ ， $f(x) \\leq 0$ ，画出 $f(x)$ 的图象如图左所示。由图可知 $b < a$ ， $a < 0$ ，故$ab > a^{2}$ . 当 a > 0 时，由 x > b 时， $f(x) > 0$ ，画出 $f(x)$ 的图象如图右所示. 由图可知 b > a，\na > 0, 故 $ab > a^{2}$ . 综上所述， $ab > a^{2}$ 成立.\n\n![](assets/206c0b9d3a629f2b9acd26ef5f9f1b011f0a87bfa378a064009b365d8968e37d.jpg)\n\n![](assets/7ea695b6968f1d43d2188fd6302b72e04d0767898ba0453e4e1be9d095d0e8d9.jpg)",
+  "solution_html": "<h3>7. D</h3>\n<p><strong>详解</strong>若 $a = b$ ，则 $f(x) = a(x - a)^3$ 为无极值点，不符合题意， $\\therefore f(x)$ 有 $a$ 和 $b$ 两个不同零点，且在 $x = a$ 左右附近是不变号，在 $x = b$ 左右附近是变号的。依题意， $a$ 为函数 $f(x) = a(x - a)^2(x - b)$ 的极大值点， $\\therefore$ 在 $x = a$ 左右附近都是小于零的。</p>\n<p>当 $a &lt; 0$ 时，由 $x &gt; b$ ， $f(x) \\leq 0$ ，画出 $f(x)$ 的图象如图左所示。由图可知 $b &lt; a$ ， $a &lt; 0$ ，故$ab &gt; a^{2}$ . 当 a &gt; 0 时，由 x &gt; b 时， $f(x) &gt; 0$ ，画出 $f(x)$ 的图象如图右所示. 由图可知 b &gt; a，\na &gt; 0, 故 $ab &gt; a^{2}$ . 综上所述， $ab &gt; a^{2}$ 成立.</p>\n<p><img alt=\"\" src=\"assets/206c0b9d3a629f2b9acd26ef5f9f1b011f0a87bfa378a064009b365d8968e37d.jpg\" /></p>\n<p><img alt=\"\" src=\"assets/7ea695b6968f1d43d2188fd6302b72e04d0767898ba0453e4e1be9d095d0e8d9.jpg\" /></p>",
+  "score": 5,
+  "assets": [
+    {
+      "original_ref": "images/206c0b9d3a629f2b9acd26ef5f9f1b011f0a87bfa378a064009b365d8968e37d.jpg",
+      "alt": "",
+      "saved": true,
+      "file_name": "206c0b9d3a629f2b9acd26ef5f9f1b011f0a87bfa378a064009b365d8968e37d.jpg",
+      "relative_path": "assets/206c0b9d3a629f2b9acd26ef5f9f1b011f0a87bfa378a064009b365d8968e37d.jpg",
+      "sha256": "54c26cadeff6dfd73077d9405ed90e87c476339e2f21d4bbbed9f07cfac70047"
+    },
+    {
+      "original_ref": "images/7ea695b6968f1d43d2188fd6302b72e04d0767898ba0453e4e1be9d095d0e8d9.jpg",
+      "alt": "",
+      "saved": true,
+      "file_name": "7ea695b6968f1d43d2188fd6302b72e04d0767898ba0453e4e1be9d095d0e8d9.jpg",
+      "relative_path": "assets/7ea695b6968f1d43d2188fd6302b72e04d0767898ba0453e4e1be9d095d0e8d9.jpg",
+      "sha256": "31a93d9adaf23a639c0f529ef6719da7d72a4f78978c81db3fae71af148d85ce"
+    }
+  ],
+  "quality_flags": [
+    "contains_images"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.982139+00:00",
+    "question_source_sha256": "9124b78ea7842e994e399ed6bc49d2368b80f63f7683e1cfae2de4c1c9e936aa",
+    "solution_source_sha256": "73a0816208baeeb9d64155c667182408d96461e4b8769a726123ba1edb89fe5b"
+  }
+}

@@ -1,0 +1,1698 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "深圳中学 2024 级高二数学 五一作业"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                268,
+                92,
+                729,
+                114
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "姓名：____ 班级：____ 考号：____"
+                    }
+                ]
+            },
+            "bbox": [
+                268,
+                141,
+                726,
+                158
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "一、单选题"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                146,
+                159,
+                243,
+                175
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1. 下列导数运算正确的是（）\nA.   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left(\\ln x + \\cos x\\right)' = \\frac{1}{x} + \\sin x"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \nB.   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left(\\sqrt{x}\\right)' = \\frac{1}{\\sqrt{x}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \nC. 若   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)=3x^{2}-f'(1)x"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(1)=3"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \nD.   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left(x^{3}e^{x}\\right)' = 3x^{2}e^{x}"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                181,
+                636,
+                272
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2. 设  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a \\in \\mathbb{R}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，若函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x) = \\frac{2}{3} x^3 - \\frac{a}{2} x^2 + x + 2"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(1,2)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 内存在极值点，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的取值范围是（）A.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left[3, \\frac{9}{2}\\right]"
+                    },
+                    {
+                        "type": "text",
+                        "content": " B.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left(3, \\frac{9}{2}\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " C.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(- \\infty, 3)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " D.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left[\\frac{9}{2}, +\\infty\\right)"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                282,
+                850,
+                351
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3. 已知  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P(B) = 0.4"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P(B|A) = 0.8"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P(B|\\overline{A}) = 0.3"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P(A) = (\\quad)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " A.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{3}{4}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " B.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{3}{8}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " C.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{1}{3}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " D.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{1}{5}"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                361,
+                722,
+                425
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "4. 已知随机变量  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "X"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的分布列为"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                432,
+                394,
+                448
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/2ca33bbcef847f7bbc512797b2151d201c91f1b04176024ff41aebbf3bb7fa1a.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td>X</td><td>-1</td><td>0</td><td>1</td><td>2</td><td>3</td></tr><tr><td>P</td><td>0.3</td><td>a</td><td>0.3</td><td>0.2</td><td>0.1</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                137,
+                454,
+                774,
+                530
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "设函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x) = P(X < x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，若  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x \\in [0,2]"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，则函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的值域为（）A.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\{0.2, 0.3, 0.4\\}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " B.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\{0.3, 0.5, 0.7\\}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " C.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\{0.3, 0.4, 0.7\\}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " D.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\{0.4, 0.7, 0.9\\}"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                536,
+                800,
+                582
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "5. 设   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "m \\in (0,1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，随机变量 X 的分布列为"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                596,
+                463,
+                613
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/796a9cdd2f83b0307036ae37f00b63116f3d7f96630bc5ae694d386cb5150924.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td>X</td><td>0</td><td>m</td><td>1</td></tr><tr><td>p</td><td> $\\frac{m}{2}$ </td><td> $\\frac{1}{2}$ </td><td> $\\frac{1-m}{2}$ </td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                137,
+                621,
+                324,
+                707
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "A.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D(X)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(0,1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 上单调递增 B.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D(X)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(0,1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 上单调递减 C.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D(X)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的最小值为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{1}{8}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " D.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D(X)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的最大值为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{1}{4}"
+                    }
+                ]
+            },
+            "bbox": [
+                166,
+                744,
+                726,
+                807
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "6. 当前，AI 已从一个研究领域变成一类赋能技术。在医药健康领域，AI 已应用于靶点发现、药物设计及临床试验等方面，显著提升了科研效率。假设某实验室 AI 辅助新药分子筛选，事件 A 是“AI 模型筛选出候选分子 M”，事件 B 是“AI 模型筛选出候选分子 N”。已知"
+                    }
+                ]
+            },
+            "bbox": [
+                142,
+                816,
+                848,
+                889
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "第1页共4页"
+                    }
+                ]
+            },
+            "bbox": [
+                438,
+                928,
+                557,
+                942
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "P(A)=0.3,\\quad P(B)=0.4,\\quad P(B\\mid\\overline{A})=0.2"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P(A\\mid B)=()"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \nA.   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{13}{20}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  B.   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{9}{10}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  C.   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{3}{4}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  D.   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{33}{40}"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                92,
+                731,
+                158
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "7. 已知函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x) = \\mathrm{e}^x - a\\ln (ax - a) + a (a > 0)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，若对于任意的  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x > 1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 使得不等式  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x) \\geq 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 成立，则实数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的取值范围（）A.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(0, \\mathrm{e}^2]"
+                    },
+                    {
+                        "type": "text",
+                        "content": " B.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(0, \\mathrm{e}^{\\mathrm{e}}]"
+                    },
+                    {
+                        "type": "text",
+                        "content": " C.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "[\\mathrm{e}^2, +\\infty)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " D.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "[\\mathrm{e}^{\\mathrm{e}}, +\\infty)"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                168,
+                845,
+                255
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "8. 已知函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x) = x + \\frac{a}{2x}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，过点(1,0)作曲线  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的两条切线，切点为\n "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "A(x_1, f(x_1)), B(x_2, f(x_2))"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，其中  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "0 < x_1 < x_2"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". 若在区间  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(x_1, x_2)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 中存在唯一整数，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的取值范围是（）\nA.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(-\\infty, -2)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "\nB.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "[-1, -2)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "\nC.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left[-\\frac{8}{3}, -2\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "\nD.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left(-\\frac{8}{3}, -2\\right)"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                265,
+                850,
+                399
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "二、多选题"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                146,
+                437,
+                243,
+                453
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "9. 某班开设了“打球”“弹琴”“跳舞”“唱歌”4个课外活动项目。在一次活动中，甲、乙、丙3名学生每人至少选1个、至多选2个项目，且每个项目恰有1人选择。设事件  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "A_{1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " =“甲选打球”，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "A_{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " =“甲选唱歌”，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "A_{3}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " =“乙选跳舞”，则（）\n\nA.   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "A_{1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  与   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "A_{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  互斥\n\nB.   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P(A_{2})=\\frac{1}{3}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \n\nC.   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "A_{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  与   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "A_{3}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  相互独立\n\nD.   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P(A_{3}|A_{2})=\\frac{5}{12}"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                461,
+                850,
+                627
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "10. 下列不等关系中，正确的是（）\nA.   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\ln2<\\frac{2}{e}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  B.   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{\\ln3}{\\ln\\pi}<\\frac{3}{\\pi}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  C.   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{e}{2}>\\ln3"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  D.   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sqrt{e}>2-\\ln2"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                636,
+                798,
+                695
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "11. 已知函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x) = a^{2x} - x (a > 0, a \\neq 1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，则下列结论中正确的是（）\nA. 函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 恒有 1 个极值点\nB. 当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a = e"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时，曲线  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y = f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 恒在曲线  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y = \\ln x + 2"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 上方\nC. 若函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 有 2 个零点，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 < a < e^{\\frac{1}{2e}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "\nD. 若过点  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P(0, t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 存在 2 条直线与曲线  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y = f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 相切，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "0 < t < 1"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                705,
+                695,
+                873
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "第2页共4页"
+                    }
+                ]
+            },
+            "bbox": [
+                438,
+                928,
+                557,
+                942
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "三、填空题"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                144,
+                85,
+                243,
+                101
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "12. 函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x) = \\frac{1}{2} x - \\sin x"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left[0, \\frac{\\pi}{2}\\right]"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 上的最大值为 ____."
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                105,
+                596,
+                137
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "13. 若函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x) = \\ln x"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 与函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x) = ax^2 (a > 0)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 有两个公切线，则实数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 取值范围是 ____."
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                149,
+                794,
+                200
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "14. 已知函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x) = a \\ln x - 2x (a > 0)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，若不等式  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x^a e^{-2x} \\geq 3f(x) + 1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 对  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x > 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 恒成立，则实数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的取值范围为 ____."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                214,
+                850,
+                265
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "四、解答题"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                146,
+                307,
+                242,
+                324
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "15. 已知函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x) = \\frac{1}{2} ax^2 + (a - 1)x - \\ln x"
+                    },
+                    {
+                        "type": "text",
+                        "content": "."
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                329,
+                475,
+                359
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)讨论  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的单调性;"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                372,
+                329,
+                388
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)当a>0时，求函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "[1,2]"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的最小值  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(a)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                409,
+                532,
+                426
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "16. 某篮球运动员在训练中进行投篮练习. 已知其 2 分球的命中率为 0.8, 3 分球的命中率为"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                552,
+                848,
+                570
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "0.5，且每次投篮结果相互独立。在每次投篮前，他可以根据场上情况选择投2分球或3分球。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                581,
+                848,
+                598
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)若该运动员等可能地选择投2分球或3分球，求他投一次篮命中的概率："
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                609,
+                727,
+                625
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)现该运动员拥有连续2次投篮的机会，他制定了如下策略："
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                636,
+                621,
+                653
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "若第一次命中，则第二次继续选择同一类型的投篮；若第一次未命中，则第二次更换为另一种类型的投篮，求该策略下，这名运动员第一次投篮应该怎么选择可以使得两次投篮总得分的期望最大."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                664,
+                850,
+                737
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "第3页共4页"
+                    }
+                ]
+            },
+            "bbox": [
+                438,
+                928,
+                557,
+                942
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "17. 已知函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x) = x^{2} - 2ax + a, a \\in \\mathbb{R}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "."
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                93,
+                453,
+                111
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)若函数   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x)=x\\cdot f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  在 x=1 处有极值，且关于 x 的方程   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x)=t"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  有 3 个不同的实根，求实数 t 的取值范围；"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                131,
+                845,
+                180
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)记  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h(x) = -\\ln x"
+                    },
+                    {
+                        "type": "text",
+                        "content": " .若对任意  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x_{1},x_{2}\\in (0,1]"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 且  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x_{1} > x_{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时，均有  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left|f(x_1) - f(x_2)\\right| <   \\left|h(x_1) - h(x_2)\\right|"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 成立，求实数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的取值范围."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                195,
+                857,
+                246
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "18. 已知函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x) = \\ln (x + 1) + \\frac{1}{2} x^2"
+                    },
+                    {
+                        "type": "text",
+                        "content": "."
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                338,
+                428,
+                368
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)若函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h(x)=f(x)-a(x+1)^{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 不单调，求实数a的取值范围；"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                381,
+                631,
+                399
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)若曲线   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y = f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  与直线 y = ax 有且仅有一个交点，求实数 a 的取值范围."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                418,
+                714,
+                435
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "19. 已知函数   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)=x\\ln(x-1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ."
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                567,
+                393,
+                583
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)求曲线  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y=f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在x=2处的切线方程;"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                604,
+                468,
+                620
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)设   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x)=f'(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，求函数   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  的最小值；"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                640,
+                480,
+                658
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)若  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{f(x)}{x - a} > 2"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，求实数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的值."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                670,
+                389,
+                703
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "第4页共4页"
+                    }
+                ]
+            },
+            "bbox": [
+                438,
+                928,
+                557,
+                942
+            ]
+        }
+    ]
+]

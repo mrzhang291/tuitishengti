@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_58879b65c6e5_q002",
+  "display_id": "EXAM-58879B65C6E5-Q002",
+  "source_exam": "深圳中学 2024 级高二数学周测（7）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（7）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（7）参考答案.md",
+  "question_number": 2,
+  "question_type": "single_choice",
+  "stem_markdown": "### 2. 某地的中学生中有 $60 \\%$ 的同学爱好滑冰, $50 \\%$ 的同学爱好滑雪, $70 \\%$ 的同学爱好滑冰或爱好滑雪.在该地的中学生中随机调查一位同学, 若该同学爱好滑雪, 则该同学也爱好滑冰的概率为 ( )\n\nA. 0.8\n\nB. 0.6\n\nC. 0.5\n\nD. 0.4",
+  "stem_html": "<h3>2. 某地的中学生中有 $60 \\%$ 的同学爱好滑冰, $50 \\%$ 的同学爱好滑雪, $70 \\%$ 的同学爱好滑冰或爱好滑雪.在该地的中学生中随机调查一位同学, 若该同学爱好滑雪, 则该同学也爱好滑冰的概率为 ( )</h3>\n<p>A. 0.8</p>\n<p>B. 0.6</p>\n<p>C. 0.5</p>\n<p>D. 0.4</p>",
+  "options": {
+    "A": "0.8",
+    "B": "0.6",
+    "C": "0.5",
+    "D": "0.4"
+  },
+  "answer": "A",
+  "solution_markdown": "",
+  "solution_html": "",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [
+    "missing_solution"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.932511+00:00",
+    "question_source_sha256": "9124b78ea7842e994e399ed6bc49d2368b80f63f7683e1cfae2de4c1c9e936aa",
+    "solution_source_sha256": "73a0816208baeeb9d64155c667182408d96461e4b8769a726123ba1edb89fe5b"
+  }
+}

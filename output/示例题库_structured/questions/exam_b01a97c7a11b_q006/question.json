@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_b01a97c7a11b_q006",
+  "display_id": "EXAM-B01A97C7A11B-Q006",
+  "source_exam": "深圳中学2024级高二周测（8）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（8）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（8）参考答案.md",
+  "question_number": 6,
+  "question_type": "single_choice",
+  "stem_markdown": "### 6. 长时间玩手机可能影响视力, 据调查, 某学校学生中, 大约有 $\\frac{1}{5}$ 的学生每天玩手机超过 $1 \\mathrm{~h}$ , 这些人近视率约为 $\\frac{1}{2}$ , 其余学生的近视率约为 $\\frac{3}{8}$ , 现从该校任意调查一名学生, 他近视的概率大约是 ( )\n\nA. $\\frac{1}{5}$\n\nB. $\\frac{7}{16}$\n\nC. $\\frac{2}{5}$\n\nD. $\\frac{7}{8}$",
+  "stem_html": "<h3>6. 长时间玩手机可能影响视力, 据调查, 某学校学生中, 大约有 $\\frac{1}{5}$ 的学生每天玩手机超过 $1 \\mathrm{~h}$ , 这些人近视率约为 $\\frac{1}{2}$ , 其余学生的近视率约为 $\\frac{3}{8}$ , 现从该校任意调查一名学生, 他近视的概率大约是 ( )</h3>\n<p>A. $\\frac{1}{5}$</p>\n<p>B. $\\frac{7}{16}$</p>\n<p>C. $\\frac{2}{5}$</p>\n<p>D. $\\frac{7}{8}$</p>",
+  "options": {
+    "A": "$\\frac{1}{5}$",
+    "B": "$\\frac{7}{16}$",
+    "C": "$\\frac{2}{5}$",
+    "D": "$\\frac{7}{8}$"
+  },
+  "answer": "C",
+  "solution_markdown": "### 6. \n\n**详解**设事件 A 为“任意调查一名学生，每天玩手机超过 1h”，事件 B 为“任意调查一名学生，该学生近视”，\n\n则 $P(A) = \\frac{1}{5}$ , $P(B|A) = \\frac{1}{2}$ , 所以 $P(\\overline{A}) = 1 - P(A) = \\frac{4}{5}$ , $P(B|\\overline{A}) = \\frac{3}{8}$\n\n则 $P(B) = P(A)P(B|A) + P(B|\\overline{A})P(\\overline{A}) = \\frac{1}{5}\\times \\frac{1}{2} +\\frac{4}{5}\\times \\frac{3}{8} = \\frac{2}{5}$ 故选：C",
+  "solution_html": "<h3>6.</h3>\n<p><strong>详解</strong>设事件 A 为“任意调查一名学生，每天玩手机超过 1h”，事件 B 为“任意调查一名学生，该学生近视”，</p>\n<p>则 $P(A) = \\frac{1}{5}$ , $P(B|A) = \\frac{1}{2}$ , 所以 $P(\\overline{A}) = 1 - P(A) = \\frac{4}{5}$ , $P(B|\\overline{A}) = \\frac{3}{8}$</p>\n<p>则 $P(B) = P(A)P(B|A) + P(B|\\overline{A})P(\\overline{A}) = \\frac{1}{5}\\times \\frac{1}{2} +\\frac{4}{5}\\times \\frac{3}{8} = \\frac{2}{5}$ 故选：C</p>",
+  "score": null,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.057475+00:00",
+    "question_source_sha256": "c94eca08c58bedc15524121a680136ba270a64c9922023c3005a12c4fc409761",
+    "solution_source_sha256": "2c305966ce196e8a17833cd59778cae810c6b4e24eca072eeecc711059b85d1d"
+  }
+}

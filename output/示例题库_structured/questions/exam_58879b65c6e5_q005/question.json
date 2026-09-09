@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_58879b65c6e5_q005",
+  "display_id": "EXAM-58879B65C6E5-Q005",
+  "source_exam": "深圳中学 2024 级高二数学周测（7）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（7）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（7）参考答案.md",
+  "question_number": 5,
+  "question_type": "single_choice",
+  "stem_markdown": "### 5. 若经过点 $(0, -2)$ 的直线 l 与曲线 $y = \\ln x$ 相切，也与曲线 $y = e^{x} - a (a \\in \\mathbb{R})$ 相切，则 $a = (\\quad)$\n\nA. $\\frac{3}{2}$\n\nB. 1\n\nC. 2\n\nD. e",
+  "stem_html": "<h3>5. 若经过点 $(0, -2)$ 的直线 l 与曲线 $y = \\ln x$ 相切，也与曲线 $y = e^{x} - a (a \\in \\mathbb{R})$ 相切，则 $a = (\\quad)$</h3>\n<p>A. $\\frac{3}{2}$</p>\n<p>B. 1</p>\n<p>C. 2</p>\n<p>D. e</p>",
+  "options": {
+    "A": "$\\frac{3}{2}$",
+    "B": "1",
+    "C": "2",
+    "D": "e"
+  },
+  "answer": "C",
+  "solution_markdown": "### 5. C\n\n**详解**设曲线 $y = \\ln x$ 的切点为 $(x_{1}, \\ln x_{1})$ ，则由 $y' = \\frac{1}{x}$ ，可得切线方程为\n\n$y=\\frac{1}{x_{1}}(x-x_{1})+\\ln x_{1}=\\frac{1}{x_{1}}x-1+\\ln x_{1}$ ，因为切线过点 $(0,-2)$ ，所以 $-1+\\ln x_{1}=-2$ ，解得 $x_{1}=\\frac{1}{e}$\n\n所以切线方程为 $y = \\mathrm{e}x - 2$ ；设曲线 $y = \\mathrm{e}^x - a$ 的切点为 $(x_2, \\mathrm{e}^{x_2} - a)$ ，由 $y' = \\mathrm{e}^x$ ，所以切线的斜率 $k = \\mathrm{e}^{x_2}$ ，因为直线 $l$ 的方程为 $y = \\mathrm{e}x - 2$ ，可得 $\\mathrm{e}^{x_2} = \\mathrm{e}$ ，解得 $x_2 = 1$ ，即切点为 $(1, \\mathrm{e} - a)$ ，所以切线方程为 $y - (\\mathrm{e} - a) = \\mathrm{e}(x - 1)$ ，即 $y = \\mathrm{e}x - a$ ，所以 $-a = -2$ ，解得 $a = 2$ 。",
+  "solution_html": "<h3>5. C</h3>\n<p><strong>详解</strong>设曲线 $y = \\ln x$ 的切点为 $(x_{1}, \\ln x_{1})$ ，则由 $y' = \\frac{1}{x}$ ，可得切线方程为</p>\n<p>$y=\\frac{1}{x_{1}}(x-x_{1})+\\ln x_{1}=\\frac{1}{x_{1}}x-1+\\ln x_{1}$ ，因为切线过点 $(0,-2)$ ，所以 $-1+\\ln x_{1}=-2$ ，解得 $x_{1}=\\frac{1}{e}$</p>\n<p>所以切线方程为 $y = \\mathrm{e}x - 2$ ；设曲线 $y = \\mathrm{e}^x - a$ 的切点为 $(x_2, \\mathrm{e}^{x_2} - a)$ ，由 $y' = \\mathrm{e}^x$ ，所以切线的斜率 $k = \\mathrm{e}^{x_2}$ ，因为直线 $l$ 的方程为 $y = \\mathrm{e}x - 2$ ，可得 $\\mathrm{e}^{x_2} = \\mathrm{e}$ ，解得 $x_2 = 1$ ，即切点为 $(1, \\mathrm{e} - a)$ ，所以切线方程为 $y - (\\mathrm{e} - a) = \\mathrm{e}(x - 1)$ ，即 $y = \\mathrm{e}x - a$ ，所以 $-a = -2$ ，解得 $a = 2$ 。</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.958369+00:00",
+    "question_source_sha256": "9124b78ea7842e994e399ed6bc49d2368b80f63f7683e1cfae2de4c1c9e936aa",
+    "solution_source_sha256": "73a0816208baeeb9d64155c667182408d96461e4b8769a726123ba1edb89fe5b"
+  }
+}

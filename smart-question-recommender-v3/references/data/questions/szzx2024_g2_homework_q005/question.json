@@ -1,0 +1,250 @@
+{
+  "question_id": "szzx2024_g2_homework_q005",
+  "source_exam": "示例学校高二数学五一作业",
+  "source_file": "sources/示例学校高二数学五一作业 试卷.docx",
+  "solution_file": "sources/示例学校高二数学五一作业 答案.docx",
+  "grade": "高二",
+  "subject": "数学",
+  "question_number": 5,
+  "question_type": "single_choice",
+  "stem_markdown": "5．设$m∈(0,1)$，随机变量$X$的分布列为\n则（   ）\nA．$D(X)$在$(0,1)$上单调递增 B．$D(X)$在$(0,1)$上单调递减\nC．$D(X)$的最小值为$(1)/(8)$ D．$D(X)$的最大值为$(1)/(4)$",
+  "stem_text": "5．设m∈(0,1)，随机变量X的分布列为\n则（   ）\nA．D(X)在(0,1)上单调递增 B．D(X)在(0,1)上单调递减\nC．D(X)的最小值为(1)/(8) D．D(X)的最大值为(1)/(4)",
+  "stem_html": "<p>5．设<span class=\"formula\" data-formula-id=\"f001\">m∈(0,1)</span>，随机变量<span class=\"formula\" data-formula-id=\"f002\">X</span>的分布列为</p>\n<p>则（   ）</p>\n<p>A．<span class=\"formula\" data-formula-id=\"f003\">D(X)</span>在<span class=\"formula\" data-formula-id=\"f004\">(0,1)</span>上单调递增 B．<span class=\"formula\" data-formula-id=\"f005\">D(X)</span>在<span class=\"formula\" data-formula-id=\"f006\">(0,1)</span>上单调递减</p>\n<p>C．<span class=\"formula\" data-formula-id=\"f007\">D(X)</span>的最小值为<span class=\"formula\" data-formula-id=\"f008\">(1)/(8)</span> D．<span class=\"formula\" data-formula-id=\"f009\">D(X)</span>的最大值为<span class=\"formula\" data-formula-id=\"f010\">(1)/(4)</span></p>",
+  "stem_blocks": [
+    {
+      "type": "text",
+      "text": "5"
+    },
+    {
+      "type": "text",
+      "text": "．设"
+    },
+    {
+      "type": "math",
+      "formula_id": "f001",
+      "text_approx": "m∈(0,1)"
+    },
+    {
+      "type": "text",
+      "text": "，随机变量"
+    },
+    {
+      "type": "math",
+      "formula_id": "f002",
+      "text_approx": "X"
+    },
+    {
+      "type": "text",
+      "text": "的分布列为"
+    },
+    {
+      "type": "text",
+      "text": "则（"
+    },
+    {
+      "type": "text",
+      "text": "   "
+    },
+    {
+      "type": "text",
+      "text": "）"
+    },
+    {
+      "type": "text",
+      "text": "A"
+    },
+    {
+      "type": "text",
+      "text": "．"
+    },
+    {
+      "type": "math",
+      "formula_id": "f003",
+      "text_approx": "D(X)"
+    },
+    {
+      "type": "text",
+      "text": "在"
+    },
+    {
+      "type": "math",
+      "formula_id": "f004",
+      "text_approx": "(0,1)"
+    },
+    {
+      "type": "text",
+      "text": "上单调递增"
+    },
+    {
+      "type": "text",
+      "text": " "
+    },
+    {
+      "type": "text",
+      "text": "B"
+    },
+    {
+      "type": "text",
+      "text": "．"
+    },
+    {
+      "type": "math",
+      "formula_id": "f005",
+      "text_approx": "D(X)"
+    },
+    {
+      "type": "text",
+      "text": "在"
+    },
+    {
+      "type": "math",
+      "formula_id": "f006",
+      "text_approx": "(0,1)"
+    },
+    {
+      "type": "text",
+      "text": "上单调递减"
+    },
+    {
+      "type": "text",
+      "text": "C"
+    },
+    {
+      "type": "text",
+      "text": "．"
+    },
+    {
+      "type": "math",
+      "formula_id": "f007",
+      "text_approx": "D(X)"
+    },
+    {
+      "type": "text",
+      "text": "的最小值为"
+    },
+    {
+      "type": "math",
+      "formula_id": "f008",
+      "text_approx": "(1)/(8)"
+    },
+    {
+      "type": "text",
+      "text": " "
+    },
+    {
+      "type": "text",
+      "text": "D"
+    },
+    {
+      "type": "text",
+      "text": "．"
+    },
+    {
+      "type": "math",
+      "formula_id": "f009",
+      "text_approx": "D(X)"
+    },
+    {
+      "type": "text",
+      "text": "的最大值为"
+    },
+    {
+      "type": "math",
+      "formula_id": "f010",
+      "text_approx": "(1)/(4)"
+    }
+  ],
+  "answer": "C",
+  "solution_markdown": "",
+  "solution_text": "",
+  "solution_html": "",
+  "solution_blocks": [],
+  "assets": [],
+  "formulas": [
+    {
+      "id": "f001",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "m∈(0,1)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>m</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>∈</ns0:t></ns0:r><ns0:d><ns0:dPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>0,1</ns0:t></ns0:r></ns0:e></ns0:d></ns0:oMath>"
+    },
+    {
+      "id": "f002",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "X",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>X</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f003",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "D(X)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>D</ns0:t></ns0:r><ns0:d><ns0:dPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>X</ns0:t></ns0:r></ns0:e></ns0:d></ns0:oMath>"
+    },
+    {
+      "id": "f004",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(0,1)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:d><ns0:dPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>0,1</ns0:t></ns0:r></ns0:e></ns0:d></ns0:oMath>"
+    },
+    {
+      "id": "f005",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "D(X)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>D</ns0:t></ns0:r><ns0:d><ns0:dPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>X</ns0:t></ns0:r></ns0:e></ns0:d></ns0:oMath>"
+    },
+    {
+      "id": "f006",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(0,1)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:d><ns0:dPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>0,1</ns0:t></ns0:r></ns0:e></ns0:d></ns0:oMath>"
+    },
+    {
+      "id": "f007",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "D(X)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>D</ns0:t></ns0:r><ns0:d><ns0:dPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>X</ns0:t></ns0:r></ns0:e></ns0:d></ns0:oMath>"
+    },
+    {
+      "id": "f008",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(1)/(8)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:f><ns0:fPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:fPr><ns0:num><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>1</ns0:t></ns0:r></ns0:num><ns0:den><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>8</ns0:t></ns0:r></ns0:den></ns0:f></ns0:oMath>"
+    },
+    {
+      "id": "f009",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "D(X)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>D</ns0:t></ns0:r><ns0:d><ns0:dPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>X</ns0:t></ns0:r></ns0:e></ns0:d></ns0:oMath>"
+    },
+    {
+      "id": "f010",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(1)/(4)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:f><ns0:fPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:fPr><ns0:num><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>1</ns0:t></ns0:r></ns0:num><ns0:den><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>4</ns0:t></ns0:r></ns0:den></ns0:f></ns0:oMath>"
+    }
+  ],
+  "ole_objects": [],
+  "extraction": {
+    "source_paragraph_range": [
+      14,
+      17
+    ],
+    "solution_paragraph_range": null,
+    "formula_count": 10,
+    "image_count": 0,
+    "ole_count": 0,
+    "quality_flags": [
+      "contains_omml",
+      "missing_solution"
+    ]
+  }
+}

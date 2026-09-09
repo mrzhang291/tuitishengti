@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_58879b65c6e5_q010",
+  "display_id": "EXAM-58879B65C6E5-Q010",
+  "source_exam": "深圳中学 2024 级高二数学周测（7）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（7）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（7）参考答案.md",
+  "question_number": 10,
+  "question_type": "multiple_choice",
+  "stem_markdown": "### 10. 若将一边长为4的正方形铁片的四角截去四个边长均为x的小正方形，然后做成一个无盖的方盒，则下列说法正确的是（）\n\nA. 当 $x=\\frac{2}{3}$ 时，方盒的容积最大\nB. 方盒的容积没有最小值\nC. 方盒容积的最大值为 $\\frac{128}{27}$\n\nD. 方盒容积的最大值为 $\\frac{64}{27}$",
+  "stem_html": "<h3>10. 若将一边长为4的正方形铁片的四角截去四个边长均为x的小正方形，然后做成一个无盖的方盒，则下列说法正确的是（）</h3>\n<p>A. 当 $x=\\frac{2}{3}$ 时，方盒的容积最大\nB. 方盒的容积没有最小值\nC. 方盒容积的最大值为 $\\frac{128}{27}$</p>\n<p>D. 方盒容积的最大值为 $\\frac{64}{27}$</p>",
+  "options": {
+    "A": "当 $x=\\frac{2}{3}$ 时，方盒的容积最大",
+    "B": "方盒的容积没有最小值",
+    "C": "方盒容积的最大值为 $\\frac{128}{27}$",
+    "D": "方盒容积的最大值为 $\\frac{64}{27}$"
+  },
+  "answer": "ABC",
+  "solution_markdown": "### 10. ABC\n\n**详解**由题意知：方盒的底面为边长为 4 - 2x 的正方形，高为 x，其中 0 < x < 2，则方盒的容积为 $V(x) = x(4 - 2x)^{2}(0 < x < 2)$ ，\n\n$$\\therefore V ^ {\\prime} (x) = (4 - 2 x) ^ {2} - 4 x (4 - 2 x) = (2 x - 4) (6 x - 4) = 4 (x - 2) (3 x - 2)$$\n\n则当 $x \\in \\left(0, \\frac{2}{3}\\right)$ 时， $V'(x) > 0$ ；当 $x \\in \\left(\\frac{2}{3}, 2\\right)$ 时， $V'(x) < 0$ ； $\\therefore V(x)$ 在 $\\left(0, \\frac{2}{3}\\right)$ 上单调递增，\n\n在 $\\left(\\frac{2}{3},2\\right)$ 上单调递减， $\\therefore V(x)_{\\max}=V\\left(\\frac{2}{3}\\right)=\\frac{128}{27}$ ，无最小值，ABC正确，D错误.",
+  "solution_html": "<h3>10. ABC</h3>\n<p><strong>详解</strong>由题意知：方盒的底面为边长为 4 - 2x 的正方形，高为 x，其中 0 &lt; x &lt; 2，则方盒的容积为 $V(x) = x(4 - 2x)^{2}(0 &lt; x &lt; 2)$ ，</p>\n<p>$$\\therefore V ^ {\\prime} (x) = (4 - 2 x) ^ {2} - 4 x (4 - 2 x) = (2 x - 4) (6 x - 4) = 4 (x - 2) (3 x - 2)$$</p>\n<p>则当 $x \\in \\left(0, \\frac{2}{3}\\right)$ 时， $V'(x) &gt; 0$ ；当 $x \\in \\left(\\frac{2}{3}, 2\\right)$ 时， $V'(x) &lt; 0$ ； $\\therefore V(x)$ 在 $\\left(0, \\frac{2}{3}\\right)$ 上单调递增，</p>\n<p>在 $\\left(\\frac{2}{3},2\\right)$ 上单调递减， $\\therefore V(x)_{\\max}=V\\left(\\frac{2}{3}\\right)=\\frac{128}{27}$ ，无最小值，ABC正确，D错误.</p>",
+  "score": 6,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.992995+00:00",
+    "question_source_sha256": "9124b78ea7842e994e399ed6bc49d2368b80f63f7683e1cfae2de4c1c9e936aa",
+    "solution_source_sha256": "73a0816208baeeb9d64155c667182408d96461e4b8769a726123ba1edb89fe5b"
+  }
+}

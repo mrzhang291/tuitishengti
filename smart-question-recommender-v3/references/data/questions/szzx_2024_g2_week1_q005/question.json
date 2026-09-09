@@ -1,0 +1,313 @@
+{
+  "question_id": "szzx_2024_g2_week1_q005",
+  "source_exam": "示例学校高二周测（1）",
+  "source_file": "sources/示例学校高二周测（1）.docx",
+  "solution_file": "sources/示例学校高二周测（1）解析.docx",
+  "grade": "高二",
+  "subject": "数学",
+  "question_number": 5,
+  "question_type": "single_choice",
+  "stem_markdown": "5．点$P$在曲线$y=x^3-x+(2)/(3)$上，设曲线在点$P$处切线的倾斜角为$α$，则角$α$的取值范围是（    ）\nA．$[0,(π)/(2))$ B．$[0,(π)/(2))∪(-(π)/(2),0)$\nC．$[(3π)/(4),π)$ D．$[0,(π)/(2))∪[(3π)/(4),π)$",
+  "stem_text": "5．点P在曲线y=x^3-x+(2)/(3)上，设曲线在点P处切线的倾斜角为α，则角α的取值范围是（    ）\nA．[0,(π)/(2)) B．[0,(π)/(2))∪(-(π)/(2),0)\nC．[(3π)/(4),π) D．[0,(π)/(2))∪[(3π)/(4),π)",
+  "stem_html": "<p>5．点<span class=\"formula\" data-formula-id=\"f001\">P</span>在曲线<span class=\"formula\" data-formula-id=\"f002\">y=x^3-x+(2)/(3)</span>上，设曲线在点<span class=\"formula\" data-formula-id=\"f003\">P</span>处切线的倾斜角为<span class=\"formula\" data-formula-id=\"f004\">α</span>，则角<span class=\"formula\" data-formula-id=\"f005\">α</span>的取值范围是（    ）</p>\n<p>A．<span class=\"formula\" data-formula-id=\"f006\">[0,(π)/(2))</span> B．<span class=\"formula\" data-formula-id=\"f007\">[0,(π)/(2))∪(-(π)/(2),0)</span></p>\n<p>C．<span class=\"formula\" data-formula-id=\"f008\">[(3π)/(4),π)</span> D．<span class=\"formula\" data-formula-id=\"f009\">[0,(π)/(2))∪[(3π)/(4),π)</span></p>",
+  "stem_blocks": [
+    {
+      "type": "text",
+      "text": "5"
+    },
+    {
+      "type": "text",
+      "text": "．点"
+    },
+    {
+      "type": "math",
+      "formula_id": "f001",
+      "text_approx": "P"
+    },
+    {
+      "type": "text",
+      "text": "在曲线"
+    },
+    {
+      "type": "math",
+      "formula_id": "f002",
+      "text_approx": "y=x^3-x+(2)/(3)"
+    },
+    {
+      "type": "text",
+      "text": "上，设曲线在点"
+    },
+    {
+      "type": "math",
+      "formula_id": "f003",
+      "text_approx": "P"
+    },
+    {
+      "type": "text",
+      "text": "处切线的倾斜角为"
+    },
+    {
+      "type": "math",
+      "formula_id": "f004",
+      "text_approx": "α"
+    },
+    {
+      "type": "text",
+      "text": "，则角"
+    },
+    {
+      "type": "math",
+      "formula_id": "f005",
+      "text_approx": "α"
+    },
+    {
+      "type": "text",
+      "text": "的取值范围是（"
+    },
+    {
+      "type": "text",
+      "text": "    "
+    },
+    {
+      "type": "text",
+      "text": "）"
+    },
+    {
+      "type": "text",
+      "text": "A"
+    },
+    {
+      "type": "text",
+      "text": "．"
+    },
+    {
+      "type": "math",
+      "formula_id": "f006",
+      "text_approx": "[0,(π)/(2))"
+    },
+    {
+      "type": "text",
+      "text": " "
+    },
+    {
+      "type": "text",
+      "text": "B"
+    },
+    {
+      "type": "text",
+      "text": "．"
+    },
+    {
+      "type": "math",
+      "formula_id": "f007",
+      "text_approx": "[0,(π)/(2))∪(-(π)/(2),0)"
+    },
+    {
+      "type": "text",
+      "text": "C"
+    },
+    {
+      "type": "text",
+      "text": "．"
+    },
+    {
+      "type": "math",
+      "formula_id": "f008",
+      "text_approx": "[(3π)/(4),π)"
+    },
+    {
+      "type": "text",
+      "text": " "
+    },
+    {
+      "type": "text",
+      "text": "D"
+    },
+    {
+      "type": "text",
+      "text": "．"
+    },
+    {
+      "type": "math",
+      "formula_id": "f009",
+      "text_approx": "[0,(π)/(2))∪[(3π)/(4),π)"
+    }
+  ],
+  "answer": "D",
+  "solution_markdown": "5．D【详解】由题意得$y^'=3x^2-1≥-1$，即$tanα≥-1$，\n又$α∈[0,π)$，所以$α∈[0,(π)/(2))∪[(3π)/(4),π)$，故选：D.",
+  "solution_text": "5．D【详解】由题意得y^'=3x^2-1≥-1，即tanα≥-1，\n又α∈[0,π)，所以α∈[0,(π)/(2))∪[(3π)/(4),π)，故选：D.",
+  "solution_html": "<p>5．D【详解】由题意得<span class=\"formula\" data-formula-id=\"f010\">y^&#x27;=3x^2-1≥-1</span>，即<span class=\"formula\" data-formula-id=\"f011\">tanα≥-1</span>，</p>\n<p>又<span class=\"formula\" data-formula-id=\"f012\">α∈[0,π)</span>，所以<span class=\"formula\" data-formula-id=\"f013\">α∈[0,(π)/(2))∪[(3π)/(4),π)</span>，故选：D.</p>",
+  "solution_blocks": [
+    {
+      "type": "text",
+      "text": "5"
+    },
+    {
+      "type": "text",
+      "text": "．"
+    },
+    {
+      "type": "text",
+      "text": "D"
+    },
+    {
+      "type": "text",
+      "text": "【详解】由题意得"
+    },
+    {
+      "type": "math",
+      "formula_id": "f010",
+      "text_approx": "y^'=3x^2-1≥-1"
+    },
+    {
+      "type": "text",
+      "text": "，即"
+    },
+    {
+      "type": "math",
+      "formula_id": "f011",
+      "text_approx": "tanα≥-1"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "text",
+      "text": "又"
+    },
+    {
+      "type": "math",
+      "formula_id": "f012",
+      "text_approx": "α∈[0,π)"
+    },
+    {
+      "type": "text",
+      "text": "，所以"
+    },
+    {
+      "type": "math",
+      "formula_id": "f013",
+      "text_approx": "α∈[0,(π)/(2))∪[(3π)/(4),π)"
+    },
+    {
+      "type": "text",
+      "text": "，故选："
+    },
+    {
+      "type": "text",
+      "text": "D."
+    }
+  ],
+  "assets": [],
+  "formulas": [
+    {
+      "id": "f001",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "P",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>P</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f002",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "y=x^3-x+(2)/(3)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>y=</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>3</ns0:t></ns0:r></ns0:sup></ns0:sSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>-x+</ns0:t></ns0:r><ns0:f><ns0:fPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:fPr><ns0:num><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r></ns0:num><ns0:den><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>3</ns0:t></ns0:r></ns0:den></ns0:f></ns0:oMath>"
+    },
+    {
+      "id": "f003",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "P",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>P</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f004",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "α",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>α</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f005",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "α",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>α</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f006",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "[0,(π)/(2))",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:d><ns0:dPr><ns0:begChr ns0:val=\"[\" /><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>0,</ns0:t></ns0:r><ns0:f><ns0:fPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:fPr><ns0:num><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>π</ns0:t></ns0:r></ns0:num><ns0:den><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r></ns0:den></ns0:f></ns0:e></ns0:d></ns0:oMath>"
+    },
+    {
+      "id": "f007",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "[0,(π)/(2))∪(-(π)/(2),0)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:d><ns0:dPr><ns0:begChr ns0:val=\"[\" /><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>0,</ns0:t></ns0:r><ns0:f><ns0:fPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:fPr><ns0:num><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>π</ns0:t></ns0:r></ns0:num><ns0:den><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r></ns0:den></ns0:f></ns0:e></ns0:d><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>∪</ns0:t></ns0:r><ns0:d><ns0:dPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>-</ns0:t></ns0:r><ns0:f><ns0:fPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:fPr><ns0:num><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>π</ns0:t></ns0:r></ns0:num><ns0:den><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r></ns0:den></ns0:f><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>,0</ns0:t></ns0:r></ns0:e></ns0:d></ns0:oMath>"
+    },
+    {
+      "id": "f008",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "[(3π)/(4),π)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:d><ns0:dPr><ns0:begChr ns0:val=\"[\" /><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:f><ns0:fPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:fPr><ns0:num><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>3</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>π</ns0:t></ns0:r></ns0:num><ns0:den><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>4</ns0:t></ns0:r></ns0:den></ns0:f><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>,</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>π</ns0:t></ns0:r></ns0:e></ns0:d></ns0:oMath>"
+    },
+    {
+      "id": "f009",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "[0,(π)/(2))∪[(3π)/(4),π)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:d><ns0:dPr><ns0:begChr ns0:val=\"[\" /><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>0,</ns0:t></ns0:r><ns0:f><ns0:fPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:fPr><ns0:num><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>π</ns0:t></ns0:r></ns0:num><ns0:den><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r></ns0:den></ns0:f></ns0:e></ns0:d><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>∪</ns0:t></ns0:r><ns0:d><ns0:dPr><ns0:begChr ns0:val=\"[\" /><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:f><ns0:fPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:fPr><ns0:num><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>3</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>π</ns0:t></ns0:r></ns0:num><ns0:den><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>4</ns0:t></ns0:r></ns0:den></ns0:f><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>,</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>π</ns0:t></ns0:r></ns0:e></ns0:d></ns0:oMath>"
+    },
+    {
+      "id": "f010",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "y^'=3x^2-1≥-1",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>y</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>'</ns0:t></ns0:r></ns0:sup></ns0:sSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>=3</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r></ns0:sup></ns0:sSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>-1≥-1</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f011",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "tanα≥-1",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns0:rPr><ns0:sty ns0:val=\"p\" /></ns0:rPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>tan</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>α≥-1</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f012",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "α∈[0,π)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>α∈</ns0:t></ns0:r><ns0:d><ns0:dPr><ns0:begChr ns0:val=\"[\" /><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>0,</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>π</ns0:t></ns0:r></ns0:e></ns0:d></ns0:oMath>"
+    },
+    {
+      "id": "f013",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "α∈[0,(π)/(2))∪[(3π)/(4),π)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>α∈</ns0:t></ns0:r><ns0:d><ns0:dPr><ns0:begChr ns0:val=\"[\" /><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>0,</ns0:t></ns0:r><ns0:f><ns0:fPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:fPr><ns0:num><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>π</ns0:t></ns0:r></ns0:num><ns0:den><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r></ns0:den></ns0:f></ns0:e></ns0:d><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>∪</ns0:t></ns0:r><ns0:d><ns0:dPr><ns0:begChr ns0:val=\"[\" /><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:f><ns0:fPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:fPr><ns0:num><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>3</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>π</ns0:t></ns0:r></ns0:num><ns0:den><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>4</ns0:t></ns0:r></ns0:den></ns0:f><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>,</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" ns1:cs=\"Cambria Math\" /></ns1:rPr><ns0:t>π</ns0:t></ns0:r></ns0:e></ns0:d></ns0:oMath>"
+    }
+  ],
+  "ole_objects": [],
+  "extraction": {
+    "source_paragraph_range": [
+      16,
+      18
+    ],
+    "solution_paragraph_range": [
+      8,
+      9
+    ],
+    "formula_count": 13,
+    "image_count": 0,
+    "ole_count": 0,
+    "quality_flags": [
+      "contains_omml"
+    ]
+  }
+}

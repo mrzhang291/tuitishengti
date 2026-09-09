@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_f6e940cd31a8_q008",
+  "display_id": "EXAM-F6E940CD31A8-Q008",
+  "source_exam": "深圳中学 2024 级高二数学周测（3）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（3）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（3）参考答案.md",
+  "question_number": 8,
+  "question_type": "single_choice",
+  "stem_markdown": "### 8. 已知 $a \\in \\mathbf{R}$ ，设函数 $f(x) = \\begin{cases} x^2 - 2ax + 2a, & x,, 1, \\\\ x - a\\ln x, & x > 1, \\end{cases}$ 若关于 $x$ 的不等式 $f(x)$ .0 在 $\\mathbf{R}$ 上恒成立，则 $a$ 的取值范围为\n\nA. [0,1]\n\nB. [0,2]\n\nC. [0,e]\n\nD. [1,e]\n\n#",
+  "stem_html": "<h3>8. 已知 $a \\in \\mathbf{R}$ ，设函数 $f(x) = \\begin{cases} x^2 - 2ax + 2a, &amp; x,, 1, \\\\ x - a\\ln x, &amp; x &gt; 1, \\end{cases}$ 若关于 $x$ 的不等式 $f(x)$ .0 在 $\\mathbf{R}$ 上恒成立，则 $a$ 的取值范围为</h3>\n<p>A. [0,1]</p>\n<p>B. [0,2]</p>\n<p>C. [0,e]</p>\n<p>D. [1,e]</p>\n<h1></h1>",
+  "options": {
+    "A": "[0,1]",
+    "B": "[0,2]",
+    "C": "[0,e]",
+    "D": "[1,e]\n\n#"
+  },
+  "answer": "C",
+  "solution_markdown": "### 8. C\n\n**详解**当 $x = 1$ 时， $f(1) = 1 - 2a + 2a = 1 > 0$ 恒成立；\n\n当 $x < 1$ 时， $f(x) = x^2 - 2ax + 2a \\geqslant 0 \\Leftrightarrow 2a \\geqslant \\frac{x^2}{x - 1}$ 恒成立，令\n\n$$g (x) = \\frac {x ^ {2}}{x - 1} = - \\frac {x ^ {2}}{1 - x} = - \\frac {(1 - x - 1) ^ {2}}{1 - x} = - \\frac {(1 - x) ^ {2} - 2 (1 - x) + 1}{1 - x} =$$\n\n$-(1 - x) + \\frac{1}{1 - x} - 2 \\leqslant -\\left(2\\sqrt{(1 - x) \\cdot \\frac{1}{1 - x}} - 2\\right) = 0$ ，所以 $2a \\geqslant g(x)_{\\max} = 0$ ，即 $a > 0$ 。\n\n当 $x > 1$ 时， $f(x) = x - a \\ln x \\geqslant 0 \\Leftrightarrow a \\leqslant \\frac{x}{\\ln x}$ 恒成立，令 $h(x) = \\frac{x}{\\ln x}$ ，则 $h'(x) = \\frac{\\ln x - x \\cdot \\frac{1}{x}}{(\\ln x)^2} = \\frac{\\ln x - 1}{(\\ln x)^2}$ .\n\n当 $x > \\mathrm{e}$ 时， $h'(x) > 0$ ， $h(x)$ 递增，当 $1 < x < \\mathrm{e}$ 时， $h'(x) < 0$ ， $h(x)$ 递减，\n\n所以当 $x = \\mathsf{e}$ 时， $h(x)$ 取得最小值 $h(\\mathsf{e}) = \\mathsf{e}$ . 所以 $a \\leqslant h(x)_{\\min} = \\mathsf{e}$ .\n\n综上，a 的取值范围是 $[0, e]$ .",
+  "solution_html": "<h3>8. C</h3>\n<p><strong>详解</strong>当 $x = 1$ 时， $f(1) = 1 - 2a + 2a = 1 &gt; 0$ 恒成立；</p>\n<p>当 $x &lt; 1$ 时， $f(x) = x^2 - 2ax + 2a \\geqslant 0 \\Leftrightarrow 2a \\geqslant \\frac{x^2}{x - 1}$ 恒成立，令</p>\n<p>$$g (x) = \\frac {x ^ {2}}{x - 1} = - \\frac {x ^ {2}}{1 - x} = - \\frac {(1 - x - 1) ^ {2}}{1 - x} = - \\frac {(1 - x) ^ {2} - 2 (1 - x) + 1}{1 - x} =$$</p>\n<p>$-(1 - x) + \\frac{1}{1 - x} - 2 \\leqslant -\\left(2\\sqrt{(1 - x) \\cdot \\frac{1}{1 - x}} - 2\\right) = 0$ ，所以 $2a \\geqslant g(x)_{\\max} = 0$ ，即 $a &gt; 0$ 。</p>\n<p>当 $x &gt; 1$ 时， $f(x) = x - a \\ln x \\geqslant 0 \\Leftrightarrow a \\leqslant \\frac{x}{\\ln x}$ 恒成立，令 $h(x) = \\frac{x}{\\ln x}$ ，则 $h'(x) = \\frac{\\ln x - x \\cdot \\frac{1}{x}}{(\\ln x)^2} = \\frac{\\ln x - 1}{(\\ln x)^2}$ .</p>\n<p>当 $x &gt; \\mathrm{e}$ 时， $h'(x) &gt; 0$ ， $h(x)$ 递增，当 $1 &lt; x &lt; \\mathrm{e}$ 时， $h'(x) &lt; 0$ ， $h(x)$ 递减，</p>\n<p>所以当 $x = \\mathsf{e}$ 时， $h(x)$ 取得最小值 $h(\\mathsf{e}) = \\mathsf{e}$ . 所以 $a \\leqslant h(x)_{\\min} = \\mathsf{e}$ .</p>\n<p>综上，a 的取值范围是 $[0, e]$ .</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.749810+00:00",
+    "question_source_sha256": "78a4bb6656c35dbe613a79b0ed7dccc993b5c108f4f5c32b995a022aaa492633",
+    "solution_source_sha256": "86a4c5fab883e5128818dbb75724d3042d0c55a8ea81c7cdffedbb262214e02c"
+  }
+}

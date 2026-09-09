@@ -1,0 +1,284 @@
+{
+  "question_id": "szzx_2025_2026_g2_midterm_q009",
+  "source_exam": "示例学校2025-2026学年度第二学期期中考试",
+  "source_file": "sources/示例学校2025-2026学年度第二学期期中考试试题.docx",
+  "solution_file": "sources/示例学校2025-2026学年度第二学期期中考试参考答案.docx",
+  "grade": "高二",
+  "subject": "数学",
+  "question_number": 9,
+  "question_type": "multiple_choice",
+  "score": 6,
+  "score_source": "section_rule",
+  "score_note": "多选题：每小题6分",
+  "stem_markdown": "9．如图是$y=f(x)$的导数$y=f^'(x)$的图象，则下面判断正确的是（   ）\n[image:rId7]\nA．在$(-3,1)$内$f(x)$是增函数 B．在$(3,4)$内$f(x)$是减函数\nC．在$x=1$时$f(x)$取得极大值 D．当$x=4$时$f(x)$取得极小值",
+  "stem_text": "9．如图是y=f(x)的导数y=f^'(x)的图象，则下面判断正确的是（   ）\n[image:rId7]\nA．在(-3,1)内f(x)是增函数 B．在(3,4)内f(x)是减函数\nC．在x=1时f(x)取得极大值 D．当x=4时f(x)取得极小值",
+  "stem_html": "<p>9．如图是<span class=\"formula\" data-formula-id=\"f001\">y=f(x)</span>的导数<span class=\"formula\" data-formula-id=\"f002\">y=f^&#x27;(x)</span>的图象，则下面判断正确的是（   ）</p>\n<p><img src=\"assets/szzx_2025_2026_g2_midterm_q009_image_01.png\" alt=\"img001\"></p>\n<p>A．在<span class=\"formula\" data-formula-id=\"f003\">(-3,1)</span>内<span class=\"formula\" data-formula-id=\"f004\">f(x)</span>是增函数 B．在<span class=\"formula\" data-formula-id=\"f005\">(3,4)</span>内<span class=\"formula\" data-formula-id=\"f006\">f(x)</span>是减函数</p>\n<p>C．在<span class=\"formula\" data-formula-id=\"f007\">x=1</span>时<span class=\"formula\" data-formula-id=\"f008\">f(x)</span>取得极大值 D．当<span class=\"formula\" data-formula-id=\"f009\">x=4</span>时<span class=\"formula\" data-formula-id=\"f010\">f(x)</span>取得极小值</p>",
+  "stem_blocks": [
+    {
+      "type": "text",
+      "text": "9"
+    },
+    {
+      "type": "text",
+      "text": "．如图是"
+    },
+    {
+      "type": "math",
+      "formula_id": "f001",
+      "text_approx": "y=f(x)"
+    },
+    {
+      "type": "text",
+      "text": "的导数"
+    },
+    {
+      "type": "math",
+      "formula_id": "f002",
+      "text_approx": "y=f^'(x)"
+    },
+    {
+      "type": "text",
+      "text": "的"
+    },
+    {
+      "type": "text",
+      "text": "图象"
+    },
+    {
+      "type": "text",
+      "text": "，则下面判断正确的是（"
+    },
+    {
+      "type": "text",
+      "text": "   "
+    },
+    {
+      "type": "text",
+      "text": "）"
+    },
+    {
+      "type": "image",
+      "rel_id": "rId7",
+      "origin": "source",
+      "asset_id": "img001",
+      "path": "assets/szzx_2025_2026_g2_midterm_q009_image_01.png"
+    },
+    {
+      "type": "text",
+      "text": "A"
+    },
+    {
+      "type": "text",
+      "text": "．在"
+    },
+    {
+      "type": "math",
+      "formula_id": "f003",
+      "text_approx": "(-3,1)"
+    },
+    {
+      "type": "text",
+      "text": "内"
+    },
+    {
+      "type": "math",
+      "formula_id": "f004",
+      "text_approx": "f(x)"
+    },
+    {
+      "type": "text",
+      "text": "是增函数"
+    },
+    {
+      "type": "text",
+      "text": " "
+    },
+    {
+      "type": "text",
+      "text": "B"
+    },
+    {
+      "type": "text",
+      "text": "．在"
+    },
+    {
+      "type": "math",
+      "formula_id": "f005",
+      "text_approx": "(3,4)"
+    },
+    {
+      "type": "text",
+      "text": "内"
+    },
+    {
+      "type": "math",
+      "formula_id": "f006",
+      "text_approx": "f(x)"
+    },
+    {
+      "type": "text",
+      "text": "是减函数"
+    },
+    {
+      "type": "text",
+      "text": "C"
+    },
+    {
+      "type": "text",
+      "text": "．在"
+    },
+    {
+      "type": "math",
+      "formula_id": "f007",
+      "text_approx": "x=1"
+    },
+    {
+      "type": "text",
+      "text": "时"
+    },
+    {
+      "type": "math",
+      "formula_id": "f008",
+      "text_approx": "f(x)"
+    },
+    {
+      "type": "text",
+      "text": "取得极大值"
+    },
+    {
+      "type": "text",
+      "text": " "
+    },
+    {
+      "type": "text",
+      "text": "D"
+    },
+    {
+      "type": "text",
+      "text": "．当"
+    },
+    {
+      "type": "math",
+      "formula_id": "f009",
+      "text_approx": "x=4"
+    },
+    {
+      "type": "text",
+      "text": "时"
+    },
+    {
+      "type": "math",
+      "formula_id": "f010",
+      "text_approx": "f(x)"
+    },
+    {
+      "type": "text",
+      "text": "取得极小值"
+    }
+  ],
+  "answer": "BD",
+  "solution_markdown": "",
+  "solution_text": "",
+  "solution_html": "",
+  "solution_blocks": [],
+  "assets": [
+    {
+      "id": "img001",
+      "type": "image",
+      "origin": "source",
+      "rel_id": "rId7",
+      "source": "word/media/image1.png",
+      "path": "assets/szzx_2025_2026_g2_midterm_q009_image_01.png",
+      "original_path": "assets/szzx_2025_2026_g2_midterm_q009_image_01.png",
+      "preview_generated": false
+    }
+  ],
+  "formulas": [
+    {
+      "id": "f001",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "y=f(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>y=f</ns0:t></ns0:r><ns0:d><ns0:dPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e></ns0:d></ns0:oMath>"
+    },
+    {
+      "id": "f002",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "y=f^'(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>y=</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>'</ns0:t></ns0:r></ns0:sup></ns0:sSup><ns0:d><ns0:dPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e></ns0:d></ns0:oMath>"
+    },
+    {
+      "id": "f003",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(-3,1)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:d><ns0:dPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>-3,1</ns0:t></ns0:r></ns0:e></ns0:d></ns0:oMath>"
+    },
+    {
+      "id": "f004",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f</ns0:t></ns0:r><ns0:d><ns0:dPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e></ns0:d></ns0:oMath>"
+    },
+    {
+      "id": "f005",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(3,4)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:d><ns0:dPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>3,4</ns0:t></ns0:r></ns0:e></ns0:d></ns0:oMath>"
+    },
+    {
+      "id": "f006",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f</ns0:t></ns0:r><ns0:d><ns0:dPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e></ns0:d></ns0:oMath>"
+    },
+    {
+      "id": "f007",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "x=1",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>x=1</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f008",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f</ns0:t></ns0:r><ns0:d><ns0:dPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e></ns0:d></ns0:oMath>"
+    },
+    {
+      "id": "f009",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "x=4",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>x=4</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f010",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f</ns0:t></ns0:r><ns0:d><ns0:dPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>x</ns0:t></ns0:r></ns0:e></ns0:d></ns0:oMath>"
+    }
+  ],
+  "ole_objects": [],
+  "extraction": {
+    "source_paragraph_range": [
+      29,
+      32
+    ],
+    "solution_paragraph_range": null,
+    "formula_count": 10,
+    "image_count": 1,
+    "ole_count": 0,
+    "quality_flags": [
+      "contains_images",
+      "contains_omml",
+      "missing_solution"
+    ]
+  }
+}

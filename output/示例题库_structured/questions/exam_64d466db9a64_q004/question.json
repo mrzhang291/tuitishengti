@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_64d466db9a64_q004",
+  "display_id": "EXAM-64D466DB9A64-Q004",
+  "source_exam": "深圳中学 2024 级高二数学周测（5）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二数学周测（5）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二数学周测（5）参考答案.md",
+  "question_number": 4,
+  "question_type": "single_choice",
+  "stem_markdown": "### 4. 设 $x \\in \\mathbb{R}$ ，则“ $x - \\sin x < 0$ ”是“ $x < 0$ ”的（）\n\nA. 充分不必要条件\n\nB. 必要不充分条件\nC. 充要条件\n\nD. 既不充分也不必要条件\n\n![](assets/a92caf660a963cc5690494661c9b6665798bc7a3961e280b4764b4da389f4ae3.jpg)",
+  "stem_html": "<h3>4. 设 $x \\in \\mathbb{R}$ ，则“ $x - \\sin x &lt; 0$ ”是“ $x &lt; 0$ ”的（）</h3>\n<p>A. 充分不必要条件</p>\n<p>B. 必要不充分条件\nC. 充要条件</p>\n<p>D. 既不充分也不必要条件</p>\n<p><img alt=\"\" src=\"assets/a92caf660a963cc5690494661c9b6665798bc7a3961e280b4764b4da389f4ae3.jpg\" /></p>",
+  "options": {
+    "A": "充分不必要条件",
+    "B": "必要不充分条件",
+    "C": "充要条件",
+    "D": "既不充分也不必要条件\n\n![](assets/a92caf660a963cc5690494661c9b6665798bc7a3961e280b4764b4da389f4ae3.jpg)"
+  },
+  "answer": "C",
+  "solution_markdown": "### 4. C 对应 $f(x) = x - \\sin x$ ，有 $f'(x) = 1 - \\cos x \\geq 0$ ，故 $f(x)$ 在 R 上单调递增，若 $f(x) = x - \\sin x < f(0) = 0$ ，即 $x < 0$ ，所以 “ $x - \\sin x < 0$ ” 是 “ $x < 0$ ” 的充要条件.",
+  "solution_html": "<h3>4. C 对应 $f(x) = x - \\sin x$ ，有 $f'(x) = 1 - \\cos x \\geq 0$ ，故 $f(x)$ 在 R 上单调递增，若 $f(x) = x - \\sin x &lt; f(0) = 0$ ，即 $x &lt; 0$ ，所以 “ $x - \\sin x &lt; 0$ ” 是 “ $x &lt; 0$ ” 的充要条件.</h3>",
+  "score": null,
+  "assets": [
+    {
+      "original_ref": "images/a92caf660a963cc5690494661c9b6665798bc7a3961e280b4764b4da389f4ae3.jpg",
+      "alt": "",
+      "saved": true,
+      "file_name": "a92caf660a963cc5690494661c9b6665798bc7a3961e280b4764b4da389f4ae3.jpg",
+      "relative_path": "assets/a92caf660a963cc5690494661c9b6665798bc7a3961e280b4764b4da389f4ae3.jpg",
+      "sha256": "100978f8ed44f772aeebca0cc22d5d21ce00e0744e1d9086b404955e5897ee2b"
+    }
+  ],
+  "quality_flags": [
+    "contains_images"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.309797+00:00",
+    "question_source_sha256": "0a947743971a67ef971955fddba3a1d96fa8478a9c0c36d10f0c4ee174efd496",
+    "solution_source_sha256": "8c53a21b6d71e1b67f1664b079fb0452db52b9a6b9c5c668ce4dbeedf2a2958c"
+  }
+}

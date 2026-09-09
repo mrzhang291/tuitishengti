@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_ed507f8efdc5_q012",
+  "display_id": "EXAM-ED507F8EFDC5-Q012",
+  "source_exam": "深圳中学 2024 级高二数学周测（2）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（2）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（2）解析.md",
+  "question_number": 12,
+  "question_type": "fill_blank",
+  "stem_markdown": "### 12. 已知函数 $f(x) = \\ln x + x^2 + ax$ 的单调递减区间为 $\\left(\\frac{1}{2}, 1\\right)$ ，则 $a$ 的取值范围为 \\_\\_\\_\\_.",
+  "stem_html": "<h3>12. 已知函数 $f(x) = \\ln x + x^2 + ax$ 的单调递减区间为 $\\left(\\frac{1}{2}, 1\\right)$ ，则 $a$ 的取值范围为 ____.</h3>",
+  "options": {},
+  "answer": "$\\{-3\\}$",
+  "solution_markdown": "### 12. $\\{-3\\}$ \n\n**详解** $f^{\\prime}(x) = \\frac{2x^{2} + ax + 1}{x}$ ，又 $f(x)$ 的单调递减区间是 $\\left(\\frac{1}{2}, 1\\right)$ ，所以 $\\frac{1}{2}$ 和 1 是方程 $2x^{2} + ax + 1 = 0$ 的两个根，代入得 $a = -3$ 。经检验满足题意。",
+  "solution_html": "<h3>12. $\\{-3\\}$</h3>\n<p><strong>详解</strong> $f^{\\prime}(x) = \\frac{2x^{2} + ax + 1}{x}$ ，又 $f(x)$ 的单调递减区间是 $\\left(\\frac{1}{2}, 1\\right)$ ，所以 $\\frac{1}{2}$ 和 1 是方程 $2x^{2} + ax + 1 = 0$ 的两个根，代入得 $a = -3$ 。经检验满足题意。</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.653223+00:00",
+    "question_source_sha256": "7cb6872dd8f9092683f4d213bfc976e0e2eecfc7cc5919b7f6cfa19ef958a3d1",
+    "solution_source_sha256": "ee82da0a88dd9857c44efb8cd3b554ae670a59b5aa1d62f710078f748a7f8a4e"
+  }
+}

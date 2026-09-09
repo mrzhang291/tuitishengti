@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_7bee64bb5191_q012",
+  "display_id": "EXAM-7BEE64BB5191-Q012",
+  "source_exam": "深圳中学 2024 级高二数学周测（1）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（1）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（1）解析.md",
+  "question_number": 12,
+  "question_type": "fill_blank",
+  "stem_markdown": "### 12. 写出一个同时具有下列性质①②③的函数 $f(x)$ : \\_\\_\\_\\_.\n\n① $f(x_{1}x_{2})=f(x_{1})f(x_{2})$ ; ②当 $x\\in(0,+\\infty)$ 时， $f'(x)>0$ ; ③ $f'(x)$ 是奇函数.",
+  "stem_html": "<h3>12. 写出一个同时具有下列性质①②③的函数 $f(x)$ : ____.</h3>\n<p>① $f(x_{1}x_{2})=f(x_{1})f(x_{2})$ ; ②当 $x\\in(0,+\\infty)$ 时， $f'(x)&gt;0$ ; ③ $f'(x)$ 是奇函数.</p>",
+  "options": {},
+  "answer": "\\(f(x)=x^{4}\\) （答案不唯一， \\(f(x)=x^{2n}(n\\in N^{\\*})\\) 均满足）",
+  "solution_markdown": "### 12. \\(f(x)=x^{4}\\) （答案不唯一， \\(f(x)=x^{2n}(n\\in N^{\\*})\\) 均满足）\n\n**详解**取 \\(f(x)=x^{4}\\) ，则 \\(f(x_{1}x_{2})=(x_{1}x_{2})^{4}=x_{1}^{4}x_{2}^{4}=f(x_{1})f(x_{2})\\) ，满足①，\n\\(f'(x)=4x^{3}, x>0\\) 时有 \\(f'(x)>0\\) ，满足②，\n\n\\(f'(x)=4x^{3}\\) 的定义域为R，又 \\(f'(-x)=-4x^{3}=-f'(x)\\) ，故 \\(f'(x)\\) 是奇函数，满足③.\n\n故答案为： \\(f(x)=x^{4}\\) （答案不唯一）",
+  "solution_html": "<h3>12. \\(f(x)=x^{4}\\) （答案不唯一， \\(f(x)=x^{2n}(n\\in N^{\\*})\\) 均满足）</h3>\n<p><strong>详解</strong>取 \\(f(x)=x^{4}\\) ，则 \\(f(x_{1}x_{2})=(x_{1}x_{2})^{4}=x_{1}^{4}x_{2}^{4}=f(x_{1})f(x_{2})\\) ，满足①，\n\\(f'(x)=4x^{3}, x&gt;0\\) 时有 \\(f'(x)&gt;0\\) ，满足②，</p>\n<p>\\(f'(x)=4x^{3}\\) 的定义域为R，又 \\(f'(-x)=-4x^{3}=-f'(x)\\) ，故 \\(f'(x)\\) 是奇函数，满足③.</p>\n<p>故答案为： \\(f(x)=x^{4}\\) （答案不唯一）</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.593325+00:00",
+    "question_source_sha256": "8fa1d650b2c1959ec549afd5bfc248cdd4ddda5307791163f79f93a33acf3cac",
+    "solution_source_sha256": "5b5d55d680204d0e0f86a02ed377845f5652a058ffb31385ed378ad99f44b5f7"
+  }
+}

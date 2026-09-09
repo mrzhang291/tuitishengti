@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_ed507f8efdc5_q010",
+  "display_id": "EXAM-ED507F8EFDC5-Q010",
+  "source_exam": "深圳中学 2024 级高二数学周测（2）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（2）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（2）解析.md",
+  "question_number": 10,
+  "question_type": "multiple_choice",
+  "stem_markdown": "### 10. 已知 $0 < x_{1} < x_{2} < 1$ ，则下列不等式恒成立的是（）\n\nA. $x_{2} \\cdot e^{x_{1}} > x_{1} \\cdot e^{x_{2}}$\n\nB. $e^{x_{1}} - e^{x_{2}} > \\ln x_{2} - \\ln x_{1}$\n\nC. $x_{2} \\cdot e^{x_{1}} < x_{1} \\cdot e^{x_{2}}$\n\nD. $e^{x_{1}} - e^{x_{2}} < \\ln x_{2} - \\ln x_{1}$",
+  "stem_html": "<h3>10. 已知 $0 &lt; x_{1} &lt; x_{2} &lt; 1$ ，则下列不等式恒成立的是（）</h3>\n<p>A. $x_{2} \\cdot e^{x_{1}} &gt; x_{1} \\cdot e^{x_{2}}$</p>\n<p>B. $e^{x_{1}} - e^{x_{2}} &gt; \\ln x_{2} - \\ln x_{1}$</p>\n<p>C. $x_{2} \\cdot e^{x_{1}} &lt; x_{1} \\cdot e^{x_{2}}$</p>\n<p>D. $e^{x_{1}} - e^{x_{2}} &lt; \\ln x_{2} - \\ln x_{1}$</p>",
+  "options": {
+    "A": "$x_{2} \\cdot e^{x_{1}} > x_{1} \\cdot e^{x_{2}}$",
+    "B": "$e^{x_{1}} - e^{x_{2}} > \\ln x_{2} - \\ln x_{1}$",
+    "C": "$x_{2} \\cdot e^{x_{1}} < x_{1} \\cdot e^{x_{2}}$",
+    "D": "$e^{x_{1}} - e^{x_{2}} < \\ln x_{2} - \\ln x_{1}$"
+  },
+  "answer": "AD",
+  "solution_markdown": "### 10. AD\n\n**详解**令 $f(x)=e^{x}+\\ln x(0<x<1)$ ，所以 $f'(x)=e^{x}+\\frac{1}{x}>0$ ，故 $f(x)$ 在 $(0,1)$ 上单调递增，因为 $0<x_{1}<x_{2}<1$ ，所以 $f(x_{1})<f(x_{2})$ ，所以 $e^{x_{1}}+\\ln x_{1}<e^{x_{2}}+\\ln x_{2}$ ，可得 $e^{x_{1}}-e^{x_{2}}<\\ln x_{2}-\\ln x_{1}$ ，故B错误，D正确；令 $g(x)=\\frac{e^{x}}{x}(0<x<1)$ ，所以 $g'(x)=\\frac{e^{x}(x-1)}{x^{2}}$ ，因为0<x<1，所以 $g'(x)<0$ ，故 $g(x)$ 在 $(0,1)$ 上单调递减，因为 $0<x_{1}<x_{2}<1$ ，所以 $g(x_{1})>g(x_{2})$ ，所以 $\\frac{e^{x_{1}}}{x_{1}}>\\frac{e^{x_{2}}}{x_{2}}$ ，即 $x_{2}\\cdot e^{x_{1}}>x_{1}\\cdot e^{x_{2}}$ ，故A正确，C错误.",
+  "solution_html": "<h3>10. AD</h3>\n<p><strong>详解</strong>令 $f(x)=e^{x}+\\ln x(0&lt;x&lt;1)$ ，所以 $f'(x)=e^{x}+\\frac{1}{x}&gt;0$ ，故 $f(x)$ 在 $(0,1)$ 上单调递增，因为 $0&lt;x_{1}&lt;x_{2}&lt;1$ ，所以 $f(x_{1})&lt;f(x_{2})$ ，所以 $e^{x_{1}}+\\ln x_{1}&lt;e^{x_{2}}+\\ln x_{2}$ ，可得 $e^{x_{1}}-e^{x_{2}}&lt;\\ln x_{2}-\\ln x_{1}$ ，故B错误，D正确；令 $g(x)=\\frac{e^{x}}{x}(0&lt;x&lt;1)$ ，所以 $g'(x)=\\frac{e^{x}(x-1)}{x^{2}}$ ，因为0&lt;x&lt;1，所以 $g'(x)&lt;0$ ，故 $g(x)$ 在 $(0,1)$ 上单调递减，因为 $0&lt;x_{1}&lt;x_{2}&lt;1$ ，所以 $g(x_{1})&gt;g(x_{2})$ ，所以 $\\frac{e^{x_{1}}}{x_{1}}&gt;\\frac{e^{x_{2}}}{x_{2}}$ ，即 $x_{2}\\cdot e^{x_{1}}&gt;x_{1}\\cdot e^{x_{2}}$ ，故A正确，C错误.</p>",
+  "score": 6,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.645984+00:00",
+    "question_source_sha256": "7cb6872dd8f9092683f4d213bfc976e0e2eecfc7cc5919b7f6cfa19ef958a3d1",
+    "solution_source_sha256": "ee82da0a88dd9857c44efb8cd3b554ae670a59b5aa1d62f710078f748a7f8a4e"
+  }
+}

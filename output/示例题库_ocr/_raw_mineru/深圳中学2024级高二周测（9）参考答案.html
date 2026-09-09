@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>full</title>
+  <style>
+
+html {
+color: #1a1a1a;
+background-color: #fdfdfd;
+}
+body {
+margin: 0 auto;
+max-width: 36em;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
+hyphens: auto;
+overflow-wrap: break-word;
+text-rendering: optimizeLegibility;
+font-kerning: normal;
+}
+@media (max-width: 600px) {
+body {
+font-size: 0.9em;
+padding: 12px;
+}
+h1 {
+font-size: 1.8em;
+}
+}
+@media print {
+html {
+background-color: white;
+}
+body {
+background-color: transparent;
+color: black;
+font-size: 12pt;
+}
+p, h2, h3 {
+orphans: 3;
+widows: 3;
+}
+h2, h3, h4 {
+page-break-after: avoid;
+}
+}
+p {
+margin: 1em 0;
+}
+a {
+color: #1a1a1a;
+}
+a:visited {
+color: #1a1a1a;
+}
+img {
+max-width: 100%;
+}
+svg {
+height: auto;
+max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+margin-top: 1.4em;
+}
+h5, h6 {
+font-size: 1em;
+font-style: italic;
+}
+h6 {
+font-weight: normal;
+}
+ol, ul {
+padding-left: 1.7em;
+margin-top: 1em;
+}
+li > ol, li > ul {
+margin-top: 0;
+}
+blockquote {
+margin: 1em 0 1em 1.7em;
+padding-left: 1em;
+border-left: 2px solid #e6e6e6;
+color: #606060;
+}
+code {
+font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+font-size: 85%;
+margin: 0;
+hyphens: manual;
+}
+pre {
+margin: 1em 0;
+overflow: auto;
+}
+pre code {
+padding: 0;
+overflow: visible;
+overflow-wrap: normal;
+}
+.sourceCode {
+background-color: transparent;
+overflow: visible;
+}
+hr {
+border: none;
+border-top: 1px solid #1a1a1a;
+height: 1px;
+margin: 1em 0;
+}
+table {
+margin: 1em 0;
+border-collapse: collapse;
+width: 100%;
+overflow-x: auto;
+display: block;
+font-variant-numeric: lining-nums tabular-nums;
+}
+table caption {
+margin-bottom: 0.75em;
+}
+tbody {
+margin-top: 0.5em;
+border-top: 1px solid #1a1a1a;
+border-bottom: 1px solid #1a1a1a;
+}
+th {
+border-top: 1px solid #1a1a1a;
+padding: 0.25em 0.5em 0.25em 0.5em;
+}
+td {
+padding: 0.125em 0.5em 0.25em 0.5em;
+}
+header {
+margin-bottom: 4em;
+text-align: center;
+}
+#TOC li {
+list-style: none;
+}
+#TOC ul {
+padding-left: 1.3em;
+}
+#TOC > ul {
+padding-left: 0;
+}
+#TOC a:not(:hover) {
+text-decoration: none;
+}
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+table {
+display: table; overflow: auto;
+max-width: 100%;
+border-collapse: collapse;
+page-break-inside: avoid;
+}
+table th {
+text-align: center;
+font-weight: bold;
+}
+table td,table th {
+border: 1px solid #dfe2e5;
+padding: 6px 13px;
+}
+table tr {
+background-color: #fff;
+border-top: 1px solid #c6cbd1;
+}
+table tr:nth-child(2n) {
+background-color: #f6f8fa;
+}
+</style>
+</head>
+<body>
+<p>《深圳中学2024级高二数学周测（9）》参考答案1-8 BDADBCDB 9. ABC 10. AC
+11. BCD 12. e 13.
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mfrac><mn>23</mn><mn>9</mn></mfrac><annotation encoding="application/x-tex">\frac{23}{9}</annotation></semantics></math>
+14.
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mfrac><mn>12</mn><mn>625</mn></mfrac><annotation encoding="application/x-tex">\frac{12}{625}</annotation></semantics></math>
+, 6</p>
+<ol type="1">
+<li><p>B[详解]从
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>10</mn></msup><annotation encoding="application/x-tex">^{10}</annotation></semantics></math>
+个零件中随机抽取
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>3</mn></msup><annotation encoding="application/x-tex">^{3}</annotation></semantics></math>
+个，总的抽取方法数为组合数
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msubsup><mi>C</mi><mn>10</mn><mn>3</mn></msubsup><annotation encoding="application/x-tex">C_{10}^{3}</annotation></semantics></math>
+，要求恰好
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>1</mn></msup><annotation encoding="application/x-tex">^{1}</annotation></semantics></math>
+件不合格，即从4个不合格零件中抽1个，从6个合格零件中抽2个，符合条件的方法数为
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msubsup><mi>C</mi><mn>4</mn><mn>1</mn></msubsup><msubsup><mi>C</mi><mn>6</mn><mn>2</mn></msubsup></mrow><annotation encoding="application/x-tex">C_{4}^{1}C_{6}^{2}</annotation></semantics></math>
+，故恰好1件不合格的概率为
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mfrac><mrow><msubsup><mi>C</mi><mn>4</mn><mn>1</mn></msubsup><msubsup><mi>C</mi><mn>6</mn><mn>2</mn></msubsup></mrow><msubsup><mi>C</mi><mn>10</mn><mn>3</mn></msubsup></mfrac><annotation encoding="application/x-tex">\frac{C_{4}^{1}C_{6}^{2}}{C_{10}^{3}}</annotation></semantics></math>
+。故选：B.</p></li>
+<li><p>D[详解]由题意可得
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo>+</mo><mn>2</mn><mi>a</mi><mo>+</mo><mn>3</mn><mi>a</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">a + 2a + 3a = 1</annotation></semantics></math>
+，解得
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo>=</mo><mfrac><mn>1</mn><mn>6</mn></mfrac></mrow><annotation encoding="application/x-tex">a = \frac{1}{6}</annotation></semantics></math>
+，所以
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>X</mi><mo>≥</mo><mn>2</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>X</mi><mo>=</mo><mn>2</mn><mo stretchy="false" form="postfix">)</mo><mo>+</mo><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>X</mi><mo>=</mo><mn>3</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>2</mn><mi>a</mi><mo>+</mo><mn>3</mn><mi>a</mi><mo>=</mo><mfrac><mn>5</mn><mn>6</mn></mfrac></mrow><annotation encoding="application/x-tex">P(X \geq 2) = P(X = 2) + P(X = 3) = 2a + 3a = \frac{5}{6}</annotation></semantics></math>
+. 故选：D.</p></li>
+<li><p>A[详解]由题可得
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>6</mn><mi>x</mi><mo>=</mo><mn>3</mn><mi>x</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f&#39;(x)=3x^{2}-6x=3x(x-2)</annotation></semantics></math>
+，令
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">f&#39;(x)=0</annotation></semantics></math>
+，解得：x=0 或 x=2， 当 x&lt;0 或 x&gt;2 时，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">f&#39;(x)&gt;0</annotation></semantics></math>
+，当 0&lt;x&lt;2 时，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>&lt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">f&#39;(x)&lt;0</annotation></semantics></math>
+，所以
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f(x)</annotation></semantics></math>
+的单调递增区间为：
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mi>−</mi><mi>∞</mi><mo>,</mo><mn>0</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">(-∞,0)</annotation></semantics></math>
+和
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mn>2</mn><mo>,</mo><mi>+</mi><mi>∞</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">(2,+∞)</annotation></semantics></math>
+，单调递减区间为
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mn>0</mn><mo>,</mo><mn>2</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">(0,2)</annotation></semantics></math>
+，所以
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f(x)</annotation></semantics></math>
+的极大值为
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mn>0</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">f(0)=0</annotation></semantics></math>
+，极小值为
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mn>2</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>−</mi><mn>4</mn></mrow><annotation encoding="application/x-tex">f(2)=-4</annotation></semantics></math>
+，则函数
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">f(x)=x^{3}-3x^{2}</annotation></semantics></math>
+的所有极值的和为 -4．故选：A.</p></li>
+<li><p>D[详解]设甲获胜为事件A，甲第一局获胜为事件B，则</p></li>
+</ol>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>A</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>×</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>×</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>×</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>×</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>×</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mn>0</mn></mrow><mrow><mn>2</mn><mn>7</mn></mrow></mfrac><mo>,</mo><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>A</mi><mi>B</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>×</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>×</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>×</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>=</mo><mfrac><mrow><mn>1</mn><mn>6</mn></mrow><mrow><mn>2</mn><mn>7</mn></mrow></mfrac><mo>,</mo></mrow><annotation encoding="application/x-tex">
+P (A) = \frac {2}{3} \times \frac {2}{3} + \frac {2}{3} \times \frac {1}{3} \times \frac {2}{3} + \frac {1}{3} \times \frac {2}{3} \times \frac {2}{3} = \frac {2 0}{2 7}, P (A B) = \frac {2}{3} \times \frac {2}{3} + \frac {2}{3} \times \frac {1}{3} \times \frac {2}{3} = \frac {1 6}{2 7},
+</annotation></semantics></math></p>
+<p>所以在甲获胜的条件下，甲第一局获胜的概率是
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>B</mi><mo stretchy="false" form="prefix">|</mo><mi>A</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mfrac><mrow><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>A</mi><mi>B</mi><mo stretchy="false" form="postfix">)</mo></mrow><mrow><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>A</mi><mo stretchy="false" form="postfix">)</mo></mrow></mfrac><mo>=</mo><mfrac><mfrac><mn>16</mn><mn>27</mn></mfrac><mfrac><mn>20</mn><mn>27</mn></mfrac></mfrac><mo>=</mo><mfrac><mn>4</mn><mn>5</mn></mfrac></mrow><annotation encoding="application/x-tex">P(B|A) = \frac{P(AB)}{P(A)} = \frac{\frac{16}{27}}{\frac{20}{27}} = \frac{4}{5}</annotation></semantics></math>
+. 故选：D.</p>
+<ol start="5" type="1">
+<li>B[详解]方法一：依题意，当
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>X</mi><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">X &gt; 0</annotation></semantics></math>
+时，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>X</mi><annotation encoding="application/x-tex">X</annotation></semantics></math>
+的可能取值为1,3,5，所以</li>
+</ol>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>X</mi><mo>&gt;</mo><mn>0</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>X</mi><mo>=</mo><mn>5</mn><mo stretchy="false" form="postfix">)</mo><mo>+</mo><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>X</mi><mo>=</mo><mn>3</mn><mo stretchy="false" form="postfix">)</mo><mo>+</mo><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>X</mi><mo>=</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><msup><mrow><mo stretchy="true" form="prefix">(</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo stretchy="true" form="postfix">)</mo></mrow><mn>5</mn></msup><mo>+</mo><msubsup><mi>C</mi><mn>5</mn><mn>1</mn></msubsup><msup><mrow><mo stretchy="true" form="prefix">(</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo stretchy="true" form="postfix">)</mo></mrow><mn>4</mn></msup><mrow><mo stretchy="true" form="prefix">(</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo stretchy="true" form="postfix">)</mo></mrow><mo>+</mo><msubsup><mi>C</mi><mn>5</mn><mn>2</mn></msubsup><msup><mrow><mo stretchy="true" form="prefix">(</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo stretchy="true" form="postfix">)</mo></mrow><mn>3</mn></msup><msup><mrow><mo stretchy="true" form="prefix">(</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo stretchy="true" form="postfix">)</mo></mrow><mn>2</mn></msup><mo>=</mo><mfrac><mrow><mn>1</mn><mn>7</mn></mrow><mrow><mn>8</mn><mn>1</mn></mrow></mfrac><mi>.</mi></mrow><annotation encoding="application/x-tex">
+P (X &gt; 0) = P (X = 5) + P (X = 3) + P (X = 1) = \left(\frac {1}{3}\right) ^ {5} + C _ {5} ^ {1} \left(\frac {1}{3}\right) ^ {4} \left(\frac {2}{3}\right) + C _ {5} ^ {2} \left(\frac {1}{3}\right) ^ {3} \left(\frac {2}{3}\right) ^ {2} = \frac {1 7}{8 1}.
+</annotation></semantics></math></p>
+<p>方法二：设5次移动中向右移动的次数为
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>Y</mi><annotation encoding="application/x-tex">Y</annotation></semantics></math>
+，则
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>Y</mi><mo>∼</mo><mi>B</mi><mrow><mo stretchy="true" form="prefix">(</mo><mn>5</mn><mo>,</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">Y\sim B\left(5,\frac{1}{3}\right)</annotation></semantics></math>
+，则</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>X</mi><mo>&gt;</mo><mn>0</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>Y</mi><mo>=</mo><mn>5</mn><mo stretchy="false" form="postfix">)</mo><mo>+</mo><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>Y</mi><mo>=</mo><mn>4</mn><mo stretchy="false" form="postfix">)</mo><mo>+</mo><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>Y</mi><mo>=</mo><mn>3</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>…</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">
+P (X &gt; 0) = P (Y = 5) + P (Y = 4) + P (Y = 3) = \dots)
+</annotation></semantics></math></p>
+<ol start="6" type="1">
+<li>C[详解]由题意可得：
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0</mn><mo>&lt;</mo><mi>a</mi><mo>&lt;</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">0 &lt; a &lt; 1</annotation></semantics></math>
+。因为若
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo>&gt;</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">a &gt; 1</annotation></semantics></math>
+，当
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>→</mo><mn>0</mn><mo>+</mo></mrow><annotation encoding="application/x-tex">x \to 0+</annotation></semantics></math>
+时，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mrow><mi mathvariant="normal">log</mi><mo>⁡</mo></mrow><mi>a</mi></msub><mi>x</mi><mo>→</mo><mi>−</mi><mi>∞</mi></mrow><annotation encoding="application/x-tex">\log_{a} x \to -\infty</annotation></semantics></math>
+，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>8</mn><mi>x</mi></msup><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">8^{x} &gt; 0</annotation></semantics></math>
+，</li>
+</ol>
+<p>则
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>8</mn><mi>x</mi></msup><mo>≤</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>+</mo><msub><mrow><mi mathvariant="normal">log</mi><mo>⁡</mo></mrow><mi>a</mi></msub><mi>x</mi></mrow><annotation encoding="application/x-tex">8^{x} \leq \frac{3}{2} + \log_{a} x</annotation></semantics></math>
+不能恒成立. 当
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0</mn><mo>&lt;</mo><mi>a</mi><mo>&lt;</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">0 &lt; a &lt; 1</annotation></semantics></math>
+时,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mn>8</mn><mi>x</mi></msup><annotation encoding="application/x-tex">8^{x}</annotation></semantics></math>
+单调递增,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mrow><mi mathvariant="normal">log</mi><mo>⁡</mo></mrow><mi>a</mi></msub><mi>x</mi></mrow><annotation encoding="application/x-tex">\log_{a} x</annotation></semantics></math>
+单调递减, 要使</p>
+<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>8</mn><mi>x</mi></msup><mo>≤</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>+</mo><msub><mrow><mi mathvariant="normal">log</mi><mo>⁡</mo></mrow><mi>a</mi></msub><mi>x</mi></mrow><annotation encoding="application/x-tex">8^{x} \leq \frac{3}{2} + \log_{a} x</annotation></semantics></math>
+在
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>∈</mo><mrow><mo stretchy="true" form="prefix">(</mo><mn>0</mn><mo>,</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo stretchy="true" form="postfix">]</mo></mrow></mrow><annotation encoding="application/x-tex">x \in \left(0, \frac{1}{3}\right]</annotation></semantics></math>
+上恒成立，只需要
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>8</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></msup><mo>≤</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>+</mo><msub><mrow><mi mathvariant="normal">log</mi><mo>⁡</mo></mrow><mi>a</mi></msub><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>⇒</mo><msub><mrow><mi mathvariant="normal">log</mi><mo>⁡</mo></mrow><mi>a</mi></msub><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>≥</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><msub><mrow><mi mathvariant="normal">log</mi><mo>⁡</mo></mrow><mi>a</mi></msub><msup><mi>a</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></msup><mo>⇒</mo><msup><mi>a</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></msup><mo>≥</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow><annotation encoding="application/x-tex">8^{\frac{1}{3}} \leq \frac{3}{2} + \log_{a} \frac{1}{3} \Rightarrow \log_{a} \frac{1}{3} \geq \frac{1}{2} = \log_{a} a^{\frac{1}{2}} \Rightarrow a^{\frac{1}{2}} \geq \frac{1}{3}</annotation></semantics></math></p>
+<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>⇒</mo><mi>a</mi><mo>≥</mo><mfrac><mn>1</mn><mn>9</mn></mfrac></mrow><annotation encoding="application/x-tex">\Rightarrow a \geq \frac{1}{9}</annotation></semantics></math>
+，所以实数
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math>
+的取值范围为：
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>≤</mo><mi>a</mi><mo>&lt;</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">\frac{1}{9} \leq a &lt; 1</annotation></semantics></math>
+。故选：C</p>
+<ol start="7" type="1">
+<li>D[详解]方法一：设
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>Y</mi><annotation encoding="application/x-tex">Y</annotation></semantics></math>
+为正面向上的次数，则
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>Y</mi><mo>∼</mo><mi>B</mi><mrow><mo stretchy="true" form="prefix">(</mo><mn>8</mn><mo>,</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">Y \sim B\left(8, \frac{1}{2}\right)</annotation></semantics></math>
+，总得分</li>
+</ol>
+<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>X</mi><mo>=</mo><mn>2</mn><mi>Y</mi><mo>+</mo><mo stretchy="false" form="prefix">(</mo><mi>−</mi><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mo>×</mo><mo stretchy="false" form="prefix">(</mo><mn>8</mn><mo>−</mo><mi>Y</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>3</mn><mi>Y</mi><mo>−</mo><mn>8</mn></mrow><annotation encoding="application/x-tex">X=2Y+(-1)\times(8-Y)=3Y-8</annotation></semantics></math>
+，由于
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>E</mi><mo stretchy="false" form="prefix">(</mo><mi>Y</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>8</mn><mo>×</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mn>4</mn></mrow><annotation encoding="application/x-tex">E(Y)=8\times\frac{1}{2}=4</annotation></semantics></math>
+，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>D</mi><mo stretchy="false" form="prefix">(</mo><mi>Y</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>8</mn><mo>×</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>×</mo><mrow><mo stretchy="true" form="prefix">(</mo><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo stretchy="true" form="postfix">)</mo></mrow><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">D(Y)=8\times\frac{1}{2}\times\left(1-\frac{1}{2}\right)=2</annotation></semantics></math>
+，所以</p>
+<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>E</mi><mo stretchy="false" form="prefix">(</mo><mi>X</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>E</mi><mo stretchy="false" form="prefix">(</mo><mn>3</mn><mi>Y</mi><mo>−</mo><mn>8</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>3</mn><mi>E</mi><mo stretchy="false" form="prefix">(</mo><mi>Y</mi><mo stretchy="false" form="postfix">)</mo><mo>−</mo><mn>8</mn><mo>=</mo><mn>4</mn></mrow><annotation encoding="application/x-tex">E(X)=E(3Y-8)=3E(Y)-8=4</annotation></semantics></math>
+,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>D</mi><mo stretchy="false" form="prefix">(</mo><mi>X</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>D</mi><mo stretchy="false" form="prefix">(</mo><mn>3</mn><mi>Y</mi><mo>−</mo><mn>8</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>9</mn><mi>D</mi><mo stretchy="false" form="prefix">(</mo><mi>Y</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>9</mn><mo>×</mo><mn>2</mn><mo>=</mo><mn>18</mn></mrow><annotation encoding="application/x-tex">D(X)=D(3Y-8)=9D(Y)=9\times2=18</annotation></semantics></math>
+, 故选: D.</p>
+<p>方法二：记第i次抛掷硬币的得分为随机变量
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>X</mi><mi>i</mi></msub><mo stretchy="false" form="prefix">(</mo><mi>i</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mi>⋯</mi><mo>,</mo><mn>8</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">X_{i}(i=1,2,\cdots,8)</annotation></semantics></math>
+，故
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>X</mi><mi>i</mi></msub><annotation encoding="application/x-tex">X_{i}</annotation></semantics></math>
+的可能取值为2,-1，且</p>
+<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false" form="prefix">(</mo><msub><mi>X</mi><mi>i</mi></msub><mo>=</mo><mn>2</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>P</mi><mo stretchy="false" form="prefix">(</mo><msub><mi>X</mi><mi>i</mi></msub><mo>=</mo><mi>−</mi><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">P(X_{i} = 2) = P(X_{i} = -1) = \frac{1}{2}</annotation></semantics></math>
+, 所以
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>E</mi><mo stretchy="false" form="prefix">(</mo><msub><mi>X</mi><mi>i</mi></msub><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>2</mn><mo>×</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mo stretchy="false" form="prefix">(</mo><mi>−</mi><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mo>×</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">E(X_{i}) = 2 \times \frac{1}{2} + (-1) \times \frac{1}{2} = \frac{1}{2}</annotation></semantics></math>
+,</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>E</mi><mrow><mo stretchy="true" form="prefix">(</mo><msubsup><mi>X</mi><mi>i</mi><mn>2</mn></msubsup><mo stretchy="true" form="postfix">)</mo></mrow><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>×</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mo stretchy="false" form="prefix">(</mo><mi>−</mi><mn>1</mn><msup><mo stretchy="false" form="postfix">)</mo><mn>2</mn></msup><mo>×</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>2</mn></mfrac><mo>,</mo><mtext mathvariant="normal">则</mtext><mi>D</mi><mrow><mo stretchy="true" form="prefix">(</mo><msub><mi>X</mi><mi>i</mi></msub><mo stretchy="true" form="postfix">)</mo></mrow><mo>=</mo><mi>E</mi><mrow><mo stretchy="true" form="prefix">(</mo><msubsup><mi>X</mi><mi>i</mi><mn>2</mn></msubsup><mo stretchy="true" form="postfix">)</mo></mrow><mo>−</mo><msup><mi>E</mi><mn>2</mn></msup><mrow><mo stretchy="true" form="prefix">(</mo><msub><mi>X</mi><mi>i</mi></msub><mo stretchy="true" form="postfix">)</mo></mrow><mo>=</mo><mfrac><mn>9</mn><mn>4</mn></mfrac><mi>.</mi></mrow><annotation encoding="application/x-tex">
+E \left(X _ {i} ^ {2}\right) = 2 ^ {2} \times \frac {1}{2} + (- 1) ^ {2} \times \frac {1}{2} = \frac {5}{2}, \text {则} D \left(X _ {i}\right) = E \left(X _ {i} ^ {2}\right) - E ^ {2} \left(X _ {i}\right) = \frac {9}{4}.
+</annotation></semantics></math></p>
+<p>由题意可知：
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>X</mi><mo>=</mo><msub><mi>X</mi><mn>1</mn></msub><mo>+</mo><msub><mi>X</mi><mn>2</mn></msub><mo>+</mo><mi>⋯</mi><msub><mi>X</mi><mn>8</mn></msub></mrow><annotation encoding="application/x-tex">X=X_{1}+X_{2}+\cdots X_{8}</annotation></semantics></math>
+，则
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>E</mi><mo stretchy="false" form="prefix">(</mo><mi>X</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>E</mi><mo stretchy="false" form="prefix">(</mo><msub><mi>X</mi><mn>1</mn></msub><mo stretchy="false" form="postfix">)</mo><mo>+</mo><mi>E</mi><mo stretchy="false" form="prefix">(</mo><msub><mi>X</mi><mn>2</mn></msub><mo stretchy="false" form="postfix">)</mo><mo>+</mo><mi>⋯</mi><mi>E</mi><mo stretchy="false" form="prefix">(</mo><msub><mi>X</mi><mn>8</mn></msub><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>8</mn><mo>×</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mn>4</mn></mrow><annotation encoding="application/x-tex">E(X)=E(X_{1})+E(X_{2})+\cdots E(X_{8})=8\times\frac{1}{2}=4</annotation></semantics></math></p>
+<p>因为
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>X</mi><mn>1</mn></msub><mo>,</mo><msub><mi>X</mi><mn>2</mn></msub><mo>,</mo><mi>⋯</mi><mo>,</mo><msub><mi>X</mi><mn>8</mn></msub></mrow><annotation encoding="application/x-tex">X_{1},X_{2},\cdots,X_{8}</annotation></semantics></math>
+之间相互独立，则
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>D</mi><mo stretchy="false" form="prefix">(</mo><mi>X</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>D</mi><mo stretchy="false" form="prefix">(</mo><msub><mi>X</mi><mn>1</mn></msub><mo stretchy="false" form="postfix">)</mo><mo>+</mo><mi>D</mi><mo stretchy="false" form="prefix">(</mo><msub><mi>X</mi><mn>2</mn></msub><mo stretchy="false" form="postfix">)</mo><mo>+</mo><mi>⋯</mi><mi>D</mi><mo stretchy="false" form="prefix">(</mo><msub><mi>X</mi><mn>8</mn></msub><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>8</mn><mo>×</mo><mfrac><mn>9</mn><mn>4</mn></mfrac><mo>=</mo><mn>18</mn></mrow><annotation encoding="application/x-tex">D(X)=D(X_{1})+D(X_{2})+\cdots D(X_{8})=8\times\frac{9}{4}=18</annotation></semantics></math></p>
+<ol start="8" type="1">
+<li>B[详解]由
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>3</mn></mrow></mfrac><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">\frac{f&#39;(x)}{2x - 3} &gt;0</annotation></semantics></math>
+得，当
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>&gt;</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">x &gt; \frac{3}{2}</annotation></semantics></math>
+时，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">f&#39;(x) &gt; 0</annotation></semantics></math>
+，当
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>&lt;</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">x &lt; \frac{3}{2}</annotation></semantics></math>
+时，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>&lt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">f&#39;(x) &lt; 0</annotation></semantics></math>
+，所以
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f(x)</annotation></semantics></math></li>
+</ol>
+<p>在
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="true" form="prefix">(</mo><mi>−</mi><mi>∞</mi><mo>,</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo stretchy="true" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">\left(-\infty,\frac{3}{2}\right)</annotation></semantics></math>
+单调递减，在
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="true" form="prefix">(</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>,</mo><mi>+</mi><mi>∞</mi><mo stretchy="true" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">\left(\frac{3}{2},+\infty\right)</annotation></semantics></math>
+单调递增．又
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>x</mi><mo>+</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">f\left(x+\frac{3}{2}\right)</annotation></semantics></math>
+是偶函数，所以直线
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">x=\frac{3}{2}</annotation></semantics></math>
+为
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f(x)</annotation></semantics></math>
+的 对称轴，故
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><msup><mn>0.2</mn><mn>3</mn></msup><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mn>3</mn><mo>−</mo><msup><mn>0.2</mn><mn>3</mn></msup><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mn>2.992</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f(0.2^{3})=f(3-0.2^{3})=f(2.992)</annotation></semantics></math>
+. 因为
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>=</mo><msub><mrow><mi mathvariant="normal">log</mi><mo>⁡</mo></mrow><mn>2</mn></msub><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>&lt;</mo><msub><mrow><mi mathvariant="normal">log</mi><mo>⁡</mo></mrow><mn>2</mn></msub><mn>3</mn><mo>&lt;</mo><mn>2</mn><mo>&lt;</mo><mn>2.992</mn></mrow><annotation encoding="application/x-tex">\frac{3}{2}=\log_{2}2\sqrt{2}&lt;\log_{2}3&lt;2&lt;2.992</annotation></semantics></math>
+，且
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f(x)</annotation></semantics></math>
+在
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="true" form="prefix">(</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>,</mo><mi>+</mi><mi>∞</mi><mo stretchy="true" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">\left(\frac{3}{2},+\infty\right)</annotation></semantics></math>
+单调递增，所以
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><msub><mrow><mi mathvariant="normal">log</mi><mo>⁡</mo></mrow><mn>2</mn></msub><mn>3</mn><mo stretchy="false" form="postfix">)</mo><mo>&lt;</mo><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mn>2</mn><mo stretchy="false" form="postfix">)</mo><mo>&lt;</mo><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mn>2.992</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f(\log_{2}3)&lt;f(2)&lt;f(2.992)</annotation></semantics></math>
+，故b&lt;c&lt;a．故选：B.</p>
+<ol start="9" type="1">
+<li>ABC[详解]对于选项A，有放回抽取时，显然
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>A</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>B</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow><annotation encoding="application/x-tex">P(A) = P(B) = \frac{1}{3}</annotation></semantics></math>
+，故A正确．对于选项</li>
+</ol>
+<p>B，不放回抽取时，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>A</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow><annotation encoding="application/x-tex">P(A)=\frac{1}{3}</annotation></semantics></math>
+，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>B</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>×</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow><annotation encoding="application/x-tex">P(B)=\frac{2}{3}\times\frac{1}{2}=\frac{1}{3}</annotation></semantics></math>
+，故 B 正确。对于选项 C，有放回抽取时，</p>
+<p>因为事件
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mo>,</mo><mi>B</mi></mrow><annotation encoding="application/x-tex">A, B</annotation></semantics></math>
+相互独立，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>B</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>B</mi><mo stretchy="false" form="prefix">|</mo><mi>A</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">P(B) = P(B|A)</annotation></semantics></math>
+，故C正确。对于选项D，不放回抽取时，若甲中奖，则乙一定不中奖，所以
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>B</mi><mo stretchy="false" form="prefix">|</mo><mi>A</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>0</mn><mo>≠</mo><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>B</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">P(B|A) = 0 \neq P(B)</annotation></semantics></math>
+，故D错误。</p>
+<p><img role="img" src="data:image/jpeg;base64,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" /></p>
+<ol start="10" type="1">
+<li>AC[详解]对于选项A，由题设
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mn>1</mn><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">f(1) = (1 - 1)\ln 1 = 0</annotation></semantics></math>
+，A正确.</li>
+</ol>
+<p>对于选项B，因为
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f(x)</annotation></semantics></math>
+为偶函数，若
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>&lt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">x &lt; 0</annotation></semantics></math>
+，则
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>−</mi><mi>x</mi><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">-x &gt; 0</annotation></semantics></math>
+，故</p>
+<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>−</mi><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mo stretchy="false" form="prefix">(</mo><mi>−</mi><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mo stretchy="false" form="prefix">(</mo><mi>−</mi><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>−</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mo stretchy="false" form="prefix">(</mo><mi>−</mi><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f(x)=f(-x)=(-x-1)\ln(-x)=-(x+1)\ln(-x)</annotation></semantics></math>
+，B错误.</p>
+<p>对于选项C，当
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>&lt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">x &lt; 0</annotation></semantics></math>
+时，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>−</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mo stretchy="false" form="prefix">(</mo><mi>−</mi><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f(x) = -(x + 1)\ln (-x)</annotation></semantics></math>
+，则
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>−</mi><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mo stretchy="false" form="prefix">(</mo><mi>−</mi><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>−</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><mo>−</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">f&#39;(x) = -\ln (-x) - \frac{1}{x} - 1</annotation></semantics></math>
+，令</p>
+<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>g</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><msup><mi>f</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>⇒</mo><msup><mi>g</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mfrac><mn>1</mn><msup><mi>x</mi><mn>2</mn></msup></mfrac><mo>−</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><mo>=</mo><mfrac><mrow><mn>1</mn><mo>−</mo><mi>x</mi></mrow><msup><mi>x</mi><mn>2</mn></msup></mfrac><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">g(x)=f&#39;(x)\Rightarrow g&#39;(x)=\frac{1}{x^{2}}-\frac{1}{x}=\frac{1-x}{x^{2}}&gt;0</annotation></semantics></math>
+，即
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>g</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><msup><mi>f</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">g(x)=f&#39;(x)</annotation></semantics></math>
+在
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mi>−</mi><mi>∞</mi><mo>,</mo><mn>0</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">(-∞,0)</annotation></semantics></math>
+上单调递增，又
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>−</mi><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>−</mi><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mn>1</mn><mo>+</mo><mn>1</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">f&#39;(-1)=-\ln1+1-1=0</annotation></semantics></math>
+，故当
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>∈</mo><mo stretchy="false" form="prefix">(</mo><mi>−</mi><mi>∞</mi><mo>,</mo><mi>−</mi><mn>1</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">x\in(-∞,-1)</annotation></semantics></math>
+时
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>&lt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">f&#39;(x)&lt;0</annotation></semantics></math>
+，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f(x)</annotation></semantics></math>
+在
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mi>−</mi><mi>∞</mi><mo>,</mo><mi>−</mi><mn>1</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">(-∞,-1)</annotation></semantics></math>
+上单调递减；当
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>∈</mo><mo stretchy="false" form="prefix">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">x\in(-1,0)</annotation></semantics></math>
+时
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">f&#39;(x)&gt;0</annotation></semantics></math>
+，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f(x)</annotation></semantics></math>
+在
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">(-1,0)</annotation></semantics></math>
+上单调递增，故x=-1是
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f(x)</annotation></semantics></math>
+的极小值点，C正确. 对于D选项，由C分析，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>→</mo><mi>−</mi><mi>∞</mi></mrow><annotation encoding="application/x-tex">x\to-\infty</annotation></semantics></math>
+或
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>→</mo><msup><mn>0</mn><mo>−</mo></msup></mrow><annotation encoding="application/x-tex">x\to0^{-}</annotation></semantics></math>
+时
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>→</mo><mi>+</mi><mi>∞</mi></mrow><annotation encoding="application/x-tex">f(x)\to+\infty</annotation></semantics></math>
+，且
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>−</mi><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">f(-1)=0</annotation></semantics></math>
+，所以在
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mi>−</mi><mi>∞</mi><mo>,</mo><mi>−</mi><mn>1</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">(-∞,-1)</annotation></semantics></math></p>
+<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">(-1,0)</annotation></semantics></math>
+上
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>∈</mo><mo stretchy="false" form="prefix">(</mo><mn>0</mn><mo>,</mo><mi>+</mi><mi>∞</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f(x)\in (0, + \infty)</annotation></semantics></math>
+，又
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f(x)</annotation></semantics></math>
+为偶函数，故在
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">(0,1)</annotation></semantics></math>
+、
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>,</mo><mi>+</mi><mi>∞</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">(1, + \infty)</annotation></semantics></math>
+上
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>∈</mo><mo stretchy="false" form="prefix">(</mo><mn>0</mn><mo>,</mo><mi>+</mi><mi>∞</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f(x)\in (0, + \infty)</annotation></semantics></math>
+，由图像可</p>
+<p>知，直线
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi><mo>=</mo><mi>k</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">y = kx</annotation></semantics></math>
+与
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi><mo>=</mo><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">y = f(x)</annotation></semantics></math>
+的图象恒有2个交点，D错误.故选：AC</p>
+<ol start="11" type="1">
+<li>BCD[详解]由题可得方程
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>t</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy="false" form="prefix">(</mo><mn>3</mn><mo>−</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">t = x^{2}(3 - x)</annotation></semantics></math>
+（
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>t</mi><mo>∈</mo><mi>R</mi></mrow><annotation encoding="application/x-tex">t \in R</annotation></semantics></math>
+）有三个不同的根 a、b、c，其中 a &lt; b &lt; c，则直线 y = t 与函数
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>g</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy="false" form="prefix">(</mo><mn>3</mn><mo>−</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">g(x) = x^{2}(3 - x)</annotation></semantics></math>
+图像有 三个不同的交点，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>g</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>6</mn><mi>x</mi><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>3</mn><mi>x</mi><mo stretchy="false" form="prefix">(</mo><mn>2</mn><mo>−</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">g&#39;(x)=6x-3x^{2}=3x(2-x)</annotation></semantics></math>
+，则
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>∈</mo><mo stretchy="false" form="prefix">(</mo><mi>−</mi><mi>∞</mi><mo>,</mo><mn>0</mn><mo stretchy="false" form="postfix">)</mo><mo>∪</mo><mo stretchy="false" form="prefix">(</mo><mn>2</mn><mo>,</mo><mi>+</mi><mi>∞</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">x\in(-\infty,0)\cup(2,+\infty)</annotation></semantics></math></li>
+</ol>
+<p><img role="img" src="data:image/jpeg;base64,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" /></p>
+<p>时
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>g</mi><mi>′</mi></msup><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>&lt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">g^{\prime}(x) &lt; 0</annotation></semantics></math>
+，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>∈</mo><mo stretchy="false" form="prefix">(</mo><mn>0</mn><mo>,</mo><mn>2</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">x\in (0,2)</annotation></semantics></math>
+时
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>g</mi><mi>′</mi></msup><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">g^{\prime}(x) &gt; 0</annotation></semantics></math>
+，所以函数
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>g</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">g(x)</annotation></semantics></math>
+在
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mn>0</mn><mo>,</mo><mn>2</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">(0,2)</annotation></semantics></math>
+上单调递增，在
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mi>−</mi><mi>∞</mi><mo>,</mo><mn>0</mn><mo stretchy="false" form="postfix">)</mo><mo>,</mo><mo stretchy="false" form="prefix">(</mo><mn>2</mn><mo>,</mo><mi>+</mi><mi>∞</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">(- \infty ,0),(2, + \infty)</annotation></semantics></math>
+上单调递减；且
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>g</mi><mo stretchy="false" form="prefix">(</mo><mn>0</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>0</mn><mo>,</mo><mi>g</mi><mo stretchy="false" form="prefix">(</mo><mn>2</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>4</mn><mo>,</mo><mi>x</mi><mo>→</mo><mi>−</mi><mi>∞</mi></mrow><annotation encoding="application/x-tex">g(0) = 0,g(2) = 4,x\to -\infty</annotation></semantics></math>
+时
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>g</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>→</mo><mi>+</mi><mi>∞</mi></mrow><annotation encoding="application/x-tex">g(x)\rightarrow +\infty</annotation></semantics></math>
+，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>→</mo><mi>+</mi><mi>∞</mi></mrow><annotation encoding="application/x-tex">x\to +\infty</annotation></semantics></math>
+时
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>g</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>→</mo><mi>−</mi><mi>∞</mi></mrow><annotation encoding="application/x-tex">g(x)\rightarrow -\infty</annotation></semantics></math>
+，作出函数
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>g</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">g(x)</annotation></semantics></math>
+图像如图所示.</p>
+<p>对于选项 A，由图可知
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi>t</mi><mi>′</mi></msup><annotation encoding="application/x-tex">t^{\prime}</annotation></semantics></math>
+的取值范围为
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mn>0</mn><mo>,</mo><mn>4</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">(0,4)</annotation></semantics></math>
+，故 A 错误；</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>t</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy="false" form="prefix">(</mo><mn>3</mn><mo>−</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">
+t = x ^ {2} (3 - x)
+</annotation></semantics></math></p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>t</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">
+x ^ {3} - 3 x ^ {2} + t = 0
+</annotation></semantics></math></p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mtext mathvariant="normal">、</mtext><mi>b</mi><mtext mathvariant="normal">、</mtext><mi>c</mi></mrow><annotation encoding="application/x-tex">
+a \text {、} b \text {、} c
+</annotation></semantics></math></p>
+<p>故
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>t</mi><mo>=</mo><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo>−</mo><mi>a</mi><mo stretchy="false" form="postfix">)</mo><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo>−</mo><mi>b</mi><mo stretchy="false" form="postfix">)</mo><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo>−</mo><mi>c</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mo stretchy="false" form="prefix">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo stretchy="false" form="postfix">)</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mo stretchy="false" form="prefix">(</mo><mi>a</mi><mi>b</mi><mo>+</mo><mi>a</mi><mi>c</mi><mo>+</mo><mi>b</mi><mi>c</mi><mo stretchy="false" form="postfix">)</mo><mi>x</mi><mo>−</mo><mi>a</mi><mi>b</mi><mi>c</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">x^{3} - 3x^{2} + t = (x - a)(x - b)(x - c) = x^{3} - (a + b + c)x^{2} + (ab + ac + bc)x - abc = 0</annotation></semantics></math>
+，所以</p>
+<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>3</mn><mo>,</mo><mi>a</mi><mi>b</mi><mo>+</mo><mi>a</mi><mi>c</mi><mo>+</mo><mi>b</mi><mi>c</mi><mo>=</mo><mn>0</mn><mo>,</mo><mi>a</mi><mi>b</mi><mi>c</mi><mo>=</mo><mi>−</mi><mi>t</mi></mrow><annotation encoding="application/x-tex">a+b+c=3,ab+ac+bc=0,abc=-t</annotation></semantics></math>
+．因为
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mi>b</mi><mo>+</mo><mi>b</mi><mi>c</mi><mo>+</mo><mi>a</mi><mi>c</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">ab+bc+ac=0</annotation></semantics></math>
+，所以</p>
+<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>1</mn><mi>a</mi></mfrac><mo>+</mo><mfrac><mn>1</mn><mi>b</mi></mfrac><mo>+</mo><mfrac><mn>1</mn><mi>c</mi></mfrac><mo>=</mo><mfrac><mrow><mi>a</mi><mi>b</mi><mo>+</mo><mi>b</mi><mi>c</mi><mo>+</mo><mi>a</mi><mi>c</mi></mrow><mrow><mi>a</mi><mi>b</mi><mi>c</mi></mrow></mfrac><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">\frac{1}{a} + \frac{1}{b} + \frac{1}{c} = \frac{ab + bc + ac}{abc} = 0</annotation></semantics></math>
+，故B正确；因为
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>3</mn></mrow><annotation encoding="application/x-tex">a + b + c = 3</annotation></semantics></math>
+，则
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>3</mn><mo>−</mo><mi>c</mi></mrow><annotation encoding="application/x-tex">a + b = 3 - c</annotation></semantics></math>
+，由图可知
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>2</mn><mo>&lt;</mo><mi>c</mi><mo>&lt;</mo><mn>3</mn></mrow><annotation encoding="application/x-tex">2 &lt; c &lt; 3</annotation></semantics></math>
+，所以
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>3</mn><mo>−</mo><mi>c</mi><mo>∈</mo><mo stretchy="false" form="prefix">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">a + b = 3 - c \in (0,1)</annotation></semantics></math>
+，故C正确；若
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi></mrow><annotation encoding="application/x-tex">a, b, c</annotation></semantics></math>
+成等差数列，则
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>3</mn><mi>b</mi><mo>=</mo><mn>3</mn></mrow><annotation encoding="application/x-tex">a + b + c = 3b = 3</annotation></semantics></math>
+，解得
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>b</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">b = 1</annotation></semantics></math>
+，故
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>b</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>2</mn><mo>−</mo><mi>t</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">f(b) = f(1) = 2 - t = 0</annotation></semantics></math>
+，则
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>t</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">t = 2</annotation></semantics></math>
+当
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>t</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">t = 2</annotation></semantics></math>
+时，<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo>=</mo><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mo stretchy="false" form="prefix">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">x^{3} - 3x^{2} + 2 = (x - 1)(x^{2} - 2x - 2) = 0</annotation></semantics></math>
+，故
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math>
+和
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>c</mi><annotation encoding="application/x-tex">c</annotation></semantics></math>
+是方程
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>2</mn><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">x^{2} - 2x - 2 = 0</annotation></semantics></math>
+的两根，故</p>
+<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>2</mn><mo>=</mo><mn>2</mn><mi>b</mi><mo>,</mo><mspace width="1.0em"></mspace><mi>a</mi><mo>,</mo><mspace width="1.0em"></mspace><mi>b</mi><mo>,</mo><mspace width="1.0em"></mspace><mi>c</mi></mrow><annotation encoding="application/x-tex">a+c=2=2b,\quad a,\quad b,\quad c</annotation></semantics></math>
+成等差数列，所以 D 正确；故选：BCD.</p>
+<p>注：针对于 D 选项，对于任意的三次函数都有类似结论：</p>
+<p>已知
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>a</mi><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mi>b</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>c</mi><mi>x</mi><mo>+</mo><mi>d</mi><mo stretchy="false" form="prefix">(</mo><mi>a</mi><mo>≠</mo><mn>0</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f(x)=ax^{3}+bx^{2}+cx+d(a\neq0)</annotation></semantics></math>
+，方程
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>t</mi></mrow><annotation encoding="application/x-tex">f(x)=t</annotation></semantics></math>
+有三个不同的实根</p>
+<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><msub><mi>x</mi><mn>2</mn></msub><mo>,</mo><msub><mi>x</mi><mn>3</mn></msub><mo stretchy="false" form="prefix">(</mo><msub><mi>x</mi><mn>1</mn></msub><mo>&lt;</mo><msub><mi>x</mi><mn>2</mn></msub><mo>&lt;</mo><msub><mi>x</mi><mn>3</mn></msub><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">x_{1}, x_{2}, x_{3} (x_{1} &lt; x_{2} &lt; x_{3})</annotation></semantics></math>
+. 若
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><msub><mi>x</mi><mn>2</mn></msub><mo>,</mo><msub><mi>x</mi><mn>3</mn></msub></mrow><annotation encoding="application/x-tex">x_{1}, x_{2}, x_{3}</annotation></semantics></math>
+构成等差数列，则必有
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>x</mi><mn>2</mn></msub><mo>=</mo><mi>−</mi><mfrac><mi>b</mi><mrow><mn>3</mn><mi>a</mi></mrow></mfrac><mo>,</mo><mi>t</mi><mo>=</mo><mi>f</mi><mo stretchy="false" form="prefix">(</mo><msub><mi>x</mi><mn>2</mn></msub><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>f</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>−</mi><mfrac><mi>b</mi><mrow><mn>3</mn><mi>a</mi></mrow></mfrac><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">x_{2} = -\frac{b}{3a}, t = f(x_{2}) = f\left(-\frac{b}{3a}\right)</annotation></semantics></math>
+.</p>
+<ol start="12" type="1">
+<li>e[详解]当
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo>≤</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">a \leq 0</annotation></semantics></math>
+时，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>a</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><msup><mi>e</mi><mi>a</mi></msup><mo>=</mo><mi>e</mi></mrow><annotation encoding="application/x-tex">f(a) = e^{a} = e</annotation></semantics></math>
+，解得 a = 1，不符合题意；</li>
+</ol>
+<p>当
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">x &gt; 0</annotation></semantics></math>
+时，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>x</mi><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">f(x) = x \ln x</annotation></semantics></math>
+，则
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">f&#39;(x) = \ln x + 1</annotation></semantics></math>
+，令
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>&lt;</mo><mn>0</mn><mo>⇒</mo><mn>0</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mfrac><mn>1</mn><mi mathvariant="normal">e</mi></mfrac><mo>,</mo><msup><mi>f</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>&gt;</mo><mn>0</mn><mo>⇒</mo><mi>x</mi><mo>&gt;</mo><mfrac><mn>1</mn><mi mathvariant="normal">e</mi></mfrac></mrow><annotation encoding="application/x-tex">f&#39;(x) &lt; 0 \Rightarrow 0 &lt; x &lt; \frac{1}{\mathrm{e}}, f&#39;(x) &gt; 0 \Rightarrow x &gt; \frac{1}{\mathrm{e}}</annotation></semantics></math></p>
+<p>所以
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f(x)</annotation></semantics></math>
+在
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mn>0</mn><mo>,</mo><mfrac><mn>1</mn><mi mathvariant="normal">e</mi></mfrac><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">(0, \frac{1}{\mathrm{e}})</annotation></semantics></math>
+上单调递减，在
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mfrac><mn>1</mn><mi mathvariant="normal">e</mi></mfrac><mo>,</mo><mi>+</mi><mi>∞</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">(\frac{1}{\mathrm{e}}, +\infty)</annotation></semantics></math>
+上单调递增，且
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mfrac><mn>1</mn><mi mathvariant="normal">e</mi></mfrac><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mi mathvariant="normal">e</mi></mfrac><mo>&lt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">f(\frac{1}{\mathrm{e}}) = -\frac{1}{\mathrm{e}} &lt; 0</annotation></semantics></math>
+，当
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">x \to 0</annotation></semantics></math>
+时，</p>
+<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>x</mi><mo>→</mo><mi>−</mi><mi>∞</mi></mrow><annotation encoding="application/x-tex">\ln x \to -\infty</annotation></semantics></math>
+，则
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>→</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">f(x) \to 0</annotation></semantics></math>
+，当
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>→</mo><mi>+</mi><mi>∞</mi></mrow><annotation encoding="application/x-tex">x \to +\infty</annotation></semantics></math>
+时，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>→</mo><mi>+</mi><mi>∞</mi></mrow><annotation encoding="application/x-tex">f(x) \to +\infty</annotation></semantics></math>
+，且
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">0 &lt; x &lt; 1</annotation></semantics></math>
+时，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>&lt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">f(x) &lt; 0</annotation></semantics></math>
+；
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>&gt;</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">x &gt; 1</annotation></semantics></math>
+时，</p>
+<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">f(x) &gt; 0</annotation></semantics></math>
+；所以
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f(x)</annotation></semantics></math>
+在
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mn>0</mn><mo>,</mo><mi>+</mi><mi>∞</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">(0, +\infty)</annotation></semantics></math>
+上有且仅有唯一的零点。所以当时，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>a</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>a</mi><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>a</mi><mo>=</mo><mi>e</mi></mrow><annotation encoding="application/x-tex">f(a) = a \ln a = e</annotation></semantics></math>
+，则
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo>&gt;</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">a &gt; 1</annotation></semantics></math>
+，解得
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo>=</mo><mi>e</mi></mrow><annotation encoding="application/x-tex">a = e</annotation></semantics></math>
+。综上，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo>=</mo><mi>e</mi></mrow><annotation encoding="application/x-tex">a = e</annotation></semantics></math>
+。故答案为：
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>e</mi><annotation encoding="application/x-tex">e</annotation></semantics></math></p>
+<ol start="13" type="1">
+<li><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mfrac><mn>23</mn><mn>9</mn></mfrac><annotation encoding="application/x-tex">\frac{23}{9}</annotation></semantics></math>
+[详解]由题设
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>X</mi><annotation encoding="application/x-tex">X</annotation></semantics></math>
+可取0,2,4，又
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>X</mi><mo>=</mo><mn>0</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mfrac><mn>2</mn><mn>6</mn></mfrac><mo>×</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>18</mn></mfrac></mrow><annotation encoding="application/x-tex">P(X = 0) = \frac{2}{6} \times \frac{1}{6} = \frac{1}{18}</annotation></semantics></math>
+，</li>
+</ol>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>X</mi><mo>=</mo><mn>2</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mfrac><mn>2</mn><mn>6</mn></mfrac><mo>×</mo><mfrac><mn>5</mn><mn>6</mn></mfrac><mo>+</mo><mfrac><mn>4</mn><mn>6</mn></mfrac><mo>×</mo><mfrac><mn>3</mn><mn>6</mn></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mn>2</mn></mrow><mrow><mn>3</mn><mn>6</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>1</mn><mn>1</mn></mrow><mrow><mn>1</mn><mn>8</mn></mrow></mfrac><mo>,</mo><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>X</mi><mo>=</mo><mn>4</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mfrac><mn>4</mn><mn>6</mn></mfrac><mo>×</mo><mfrac><mn>3</mn><mn>6</mn></mfrac><mo>=</mo><mfrac><mn>6</mn><mrow><mn>1</mn><mn>8</mn></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>,</mo></mrow><annotation encoding="application/x-tex">
+P (X = 2) = \frac {2}{6} \times \frac {5}{6} + \frac {4}{6} \times \frac {3}{6} = \frac {2 2}{3 6} = \frac {1 1}{1 8}, P (X = 4) = \frac {4}{6} \times \frac {3}{6} = \frac {6}{1 8} = \frac {1}{3},
+</annotation></semantics></math></p>
+<p>所以
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>E</mi><mo stretchy="false" form="prefix">(</mo><mi>X</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>0</mn><mo>×</mo><mfrac><mn>1</mn><mn>18</mn></mfrac><mo>+</mo><mn>2</mn><mo>×</mo><mfrac><mn>11</mn><mn>18</mn></mfrac><mo>+</mo><mn>4</mn><mo>×</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>=</mo><mfrac><mn>23</mn><mn>9</mn></mfrac></mrow><annotation encoding="application/x-tex">E(X)=0\times\frac{1}{18}+2\times\frac{11}{18}+4\times\frac{1}{3}=\frac{23}{9}</annotation></semantics></math>
+.</p>
+<p>思考：如果操作
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>n</mi><annotation encoding="application/x-tex">n</annotation></semantics></math>
+次，记袋中的白球个数为
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>X</mi><mi>n</mi></msub><annotation encoding="application/x-tex">X_{n}</annotation></semantics></math>
+，则
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>X</mi><mi>n</mi></msub><annotation encoding="application/x-tex">X_{n}</annotation></semantics></math>
+的数学期望是多少呢？</p>
+<ol start="14" type="1">
+<li><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mfrac><mn>12</mn><mn>625</mn></mfrac><annotation encoding="application/x-tex">\frac{12}{625}</annotation></semantics></math>
+6[详解]当
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>=</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>,</mo><mi>n</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">p = \frac{2}{5}, n = 2</annotation></semantics></math>
+时，甲乙比赛四局，则甲要赢3局或4局才能获胜，</li>
+</ol>
+<p>计算
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>P</mi><mn>4</mn></msub><mo>=</mo><msubsup><mi mathvariant="normal">C</mi><mn>4</mn><mn>3</mn></msubsup><msup><mrow><mo stretchy="true" form="prefix">(</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo stretchy="true" form="postfix">)</mo></mrow><mn>3</mn></msup><mo>×</mo><mfrac><mn>3</mn><mn>5</mn></mfrac><mo>+</mo><msubsup><mi mathvariant="normal">C</mi><mn>4</mn><mn>4</mn></msubsup><msup><mrow><mo stretchy="true" form="prefix">(</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo stretchy="true" form="postfix">)</mo></mrow><mn>4</mn></msup><mo>=</mo><mfrac><mn>112</mn><mn>625</mn></mfrac><mo>,</mo><mi>n</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">P_{4} = \mathrm{C}_{4}^{3}\left(\frac{2}{5}\right)^{3}\times \frac{3}{5} +\mathrm{C}_{4}^{4}\left(\frac{2}{5}\right)^{4} = \frac{112}{625},n = 1</annotation></semantics></math>
+时，甲乙比赛二局，则甲要赢2局，计算</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>P</mi><mn>2</mn></msub><mo>=</mo><msubsup><mi mathvariant="normal">C</mi><mn>2</mn><mn>2</mn></msubsup><msup><mrow><mo stretchy="true" form="prefix">(</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo stretchy="true" form="postfix">)</mo></mrow><mn>2</mn></msup><mo>=</mo><mfrac><mn>4</mn><mrow><mn>2</mn><mn>5</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>1</mn><mn>0</mn><mn>0</mn></mrow><mrow><mn>6</mn><mn>2</mn><mn>5</mn></mrow></mfrac><mo>,</mo><mtext mathvariant="normal">所以</mtext><msub><mi>P</mi><mn>4</mn></msub><mo>−</mo><msub><mi>P</mi><mn>2</mn></msub><mo>=</mo><mfrac><mrow><mn>1</mn><mn>1</mn><mn>2</mn></mrow><mrow><mn>6</mn><mn>2</mn><mn>5</mn></mrow></mfrac><mo>−</mo><mfrac><mrow><mn>1</mn><mn>0</mn><mn>0</mn></mrow><mrow><mn>6</mn><mn>2</mn><mn>5</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>1</mn><mn>2</mn></mrow><mrow><mn>6</mn><mn>2</mn><mn>5</mn></mrow></mfrac><mo>;</mo></mrow><annotation encoding="application/x-tex">
+P _ {2} = \mathrm{C} _ {2} ^ {2} \left(\frac {2}{5}\right) ^ {2} = \frac {4}{2 5} = \frac {1 0 0}{6 2 5}, \text {所以} P _ {4} - P _ {2} = \frac {1 1 2}{6 2 5} - \frac {1 0 0}{6 2 5} = \frac {1 2}{6 2 5};
+</annotation></semantics></math></p>
+<p>在
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">2n + 2</annotation></semantics></math>
+局比赛中甲获胜，则甲胜的局数至少为
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">n + 2</annotation></semantics></math>
+局. 要想实现该结果，先考虑前
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>2</mn><mi>n</mi></mrow><annotation encoding="application/x-tex">2n</annotation></semantics></math></p>
+<p>局的比赛结果：可能是甲胜了恰好
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>n</mi><annotation encoding="application/x-tex">n</annotation></semantics></math>
+局，可能是甲胜了恰好
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">n + 1</annotation></semantics></math>
+局，可能是甲胜了至少</p>
+<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">n+2</annotation></semantics></math>
+局· 分别考虑这三种情况：</p>
+<ol type="1">
+<li>前
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>2</mn><mi>n</mi></mrow><annotation encoding="application/x-tex">2n</annotation></semantics></math>
+局，甲恰好胜
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>n</mi><annotation encoding="application/x-tex">n</annotation></semantics></math>
+局，后 2 场甲 2 连胜，概率为</li>
+</ol>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>p</mi><mn>1</mn></msub><mo>=</mo><msubsup><mi mathvariant="normal">C</mi><mrow><mn>2</mn><mi>n</mi></mrow><mi>n</mi></msubsup><msup><mi>p</mi><mi>n</mi></msup><mo>×</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>p</mi><msup><mo stretchy="false" form="postfix">)</mo><mi>n</mi></msup><mo>×</mo><msup><mi>p</mi><mn>2</mn></msup><mo>=</mo><msubsup><mi mathvariant="normal">C</mi><mrow><mn>2</mn><mi>n</mi></mrow><mi>n</mi></msubsup><msup><mi>p</mi><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow></msup><mo>×</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>p</mi><msup><mo stretchy="false" form="postfix">)</mo><mi>n</mi></msup><mo>;</mo></mrow><annotation encoding="application/x-tex">
+p _ {1} = \mathrm{C} _ {2 n} ^ {n} p ^ {n} \times (1 - p) ^ {n} \times p ^ {2} = \mathrm{C} _ {2 n} ^ {n} p ^ {n + 2} \times (1 - p) ^ {n};
+</annotation></semantics></math></p>
+<p>2)前 2n 局，甲恰好胜
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">n+1</annotation></semantics></math>
+局，后 2 场甲 1 胜 1 负或者 2 胜，概率为</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>p</mi><mn>2</mn></msub><mo>=</mo><msubsup><mi mathvariant="normal">C</mi><mrow><mn>2</mn><mi>n</mi></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msubsup><msup><mi>p</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup><mo>×</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>p</mi><msup><mo stretchy="false" form="postfix">)</mo><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup><mo>×</mo><mo stretchy="false" form="prefix">[</mo><mn>1</mn><mo>−</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>p</mi><msup><mo stretchy="false" form="postfix">)</mo><mn>2</mn></msup><mo stretchy="false" form="postfix">]</mo><mo>=</mo><msubsup><mi mathvariant="normal">C</mi><mrow><mn>2</mn><mi>n</mi></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msubsup><msup><mi>p</mi><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow></msup><mo>×</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>p</mi><msup><mo stretchy="false" form="postfix">)</mo><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup><mo stretchy="false" form="prefix">(</mo><mn>2</mn><mo>−</mo><mi>p</mi><mo stretchy="false" form="postfix">)</mo><mo>,</mo></mrow><annotation encoding="application/x-tex">
+p _ {2} = \mathrm{C} _ {2 n} ^ {n + 1} p ^ {n + 1} \times (1 - p) ^ {n - 1} \times [ 1 - (1 - p) ^ {2} ] = \mathrm{C} _ {2 n} ^ {n + 1} p ^ {n + 2} \times (1 - p) ^ {n - 1} (2 - p),
+</annotation></semantics></math></p>
+<p>3)前
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>2</mn><mi>n</mi></mrow><annotation encoding="application/x-tex">2n</annotation></semantics></math>
+局，甲至少胜
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">n + 2</annotation></semantics></math>
+局，后2场甲无论胜负都可以，概率为</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>p</mi><mn>3</mn></msub><mo>=</mo><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mi>n</mi><mo>+</mo><mn>2</mn></mrow><mrow><mn>2</mn><mi>n</mi></mrow></munderover><msubsup><mi mathvariant="normal">C</mi><mrow><mn>2</mn><mi>n</mi></mrow><mi>k</mi></msubsup><msup><mi>p</mi><mi>k</mi></msup><mo>×</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>p</mi><msup><mo stretchy="false" form="postfix">)</mo><mrow><mn>2</mn><mi>n</mi><mo>−</mo><mi>k</mi></mrow></msup><mo>×</mo><msup><mn>1</mn><mn>2</mn></msup><mo>=</mo><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mi>n</mi><mo>+</mo><mn>2</mn></mrow><mrow><mn>2</mn><mi>n</mi></mrow></munderover><msubsup><mi mathvariant="normal">C</mi><mrow><mn>2</mn><mi>n</mi></mrow><mi>k</mi></msubsup><msup><mi>p</mi><mi>k</mi></msup><mo>×</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>p</mi><msup><mo stretchy="false" form="postfix">)</mo><mrow><mn>2</mn><mi>n</mi><mo>−</mo><mi>k</mi></mrow></msup><mo>;</mo></mrow><annotation encoding="application/x-tex">
+p _ {3} = \sum_ {k = n + 2} ^ {2 n} \mathrm{C} _ {2 n} ^ {k} p ^ {k} \times (1 - p) ^ {2 n - k} \times 1 ^ {2} = \sum_ {k = n + 2} ^ {2 n} \mathrm{C} _ {2 n} ^ {k} p ^ {k} \times (1 - p) ^ {2 n - k};
+</annotation></semantics></math></p>
+<p>所以
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>P</mi><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>2</mn></mrow></msub><mo>=</mo><msub><mi>p</mi><mn>1</mn></msub><mo>+</mo><msub><mi>p</mi><mn>2</mn></msub><mo>+</mo><msub><mi>p</mi><mn>3</mn></msub></mrow><annotation encoding="application/x-tex">P_{2n + 2} = p_1 + p_2 + p_3</annotation></semantics></math>
+，而
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>P</mi><mrow><mn>2</mn><mi>n</mi></mrow></msub><mo>=</mo><msubsup><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mrow><mn>2</mn><mi>n</mi></mrow></msubsup><msubsup><mi mathvariant="normal">C</mi><mrow><mn>2</mn><mi>n</mi></mrow><mi>k</mi></msubsup><msup><mi>p</mi><mi>k</mi></msup><mo>×</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>p</mi><msup><mo stretchy="false" form="postfix">)</mo><mrow><mn>2</mn><mi>n</mi><mo>−</mo><mi>k</mi></mrow></msup><mo>=</mo><msub><mi>p</mi><mn>3</mn></msub><mo>+</mo><msubsup><mi mathvariant="normal">C</mi><mrow><mn>2</mn><mi>n</mi></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msubsup><msup><mi>p</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup><mo>×</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>p</mi><msup><mo stretchy="false" form="postfix">)</mo><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">P_{2n} = \sum_{k = n + 1}^{2n}\mathrm{C}_{2n}^{k}p^{k}\times (1 - p)^{2n - k} = p_{3} + \mathrm{C}_{2n}^{n + 1}p^{n + 1}\times (1 - p)^{n - 1}</annotation></semantics></math></p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="normal">所以</mtext><msub><mi>P</mi><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>2</mn></mrow></msub><mo>−</mo><msub><mi>P</mi><mrow><mn>2</mn><mi>n</mi></mrow></msub><mo>=</mo><msub><mi>p</mi><mn>1</mn></msub><mo>+</mo><msub><mi>p</mi><mn>2</mn></msub><mo>−</mo><msubsup><mi mathvariant="normal">C</mi><mrow><mn>2</mn><mi>n</mi></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msubsup><msup><mi>p</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup><mo>×</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>p</mi><msup><mo stretchy="false" form="postfix">)</mo><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">
+\text {所以} P _ {2 n + 2} - P _ {2 n} = p _ {1} + p _ {2} - \mathrm{C} _ {2 n} ^ {n + 1} p ^ {n + 1} \times (1 - p) ^ {n - 1}
+</annotation></semantics></math></p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>=</mo><msubsup><mi mathvariant="normal">C</mi><mrow><mn>2</mn><mi>n</mi></mrow><mi>n</mi></msubsup><msup><mi>p</mi><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow></msup><mo>×</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>p</mi><msup><mo stretchy="false" form="postfix">)</mo><mi>n</mi></msup><mo>+</mo><msubsup><mi mathvariant="normal">C</mi><mrow><mn>2</mn><mi>n</mi></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msubsup><msup><mi>p</mi><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow></msup><mo>×</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>p</mi><msup><mo stretchy="false" form="postfix">)</mo><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup><mo stretchy="false" form="prefix">(</mo><mn>2</mn><mo>−</mo><mi>p</mi><mo stretchy="false" form="postfix">)</mo><mo>−</mo><msubsup><mi mathvariant="normal">C</mi><mrow><mn>2</mn><mi>n</mi></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msubsup><msup><mi>p</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup><mo>×</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>p</mi><msup><mo stretchy="false" form="postfix">)</mo><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">
+= \mathrm{C} _ {2 n} ^ {n} p ^ {n + 2} \times (1 - p) ^ {n} + \mathrm{C} _ {2 n} ^ {n + 1} p ^ {n + 2} \times (1 - p) ^ {n - 1} (2 - p) - \mathrm{C} _ {2 n} ^ {n + 1} p ^ {n + 1} \times (1 - p) ^ {n - 1}
+</annotation></semantics></math></p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>=</mo><mrow><mo stretchy="true" form="prefix">[</mo><msubsup><mi mathvariant="normal">C</mi><mrow><mn>2</mn><mi>n</mi></mrow><mi>n</mi></msubsup><mi>p</mi><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>p</mi><mo stretchy="false" form="postfix">)</mo><mo>+</mo><msubsup><mi mathvariant="normal">C</mi><mrow><mn>2</mn><mi>n</mi></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msubsup><mi>p</mi><mo stretchy="false" form="prefix">(</mo><mn>2</mn><mo>−</mo><mi>p</mi><mo stretchy="false" form="postfix">)</mo><mo>−</mo><msubsup><mi mathvariant="normal">C</mi><mrow><mn>2</mn><mi>n</mi></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msubsup><mo stretchy="true" form="postfix">]</mo></mrow><msup><mi>p</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup><mo>×</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>p</mi><msup><mo stretchy="false" form="postfix">)</mo><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">
+= \left[ \mathrm{C} _ {2 n} ^ {n} p (1 - p) + \mathrm{C} _ {2 n} ^ {n + 1} p (2 - p) - \mathrm{C} _ {2 n} ^ {n + 1} \right] p ^ {n + 1} \times (1 - p) ^ {n - 1}
+</annotation></semantics></math></p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>=</mo><mrow><mo stretchy="true" form="prefix">[</mo><msubsup><mi>C</mi><mrow><mn>2</mn><mi>n</mi></mrow><mi>n</mi></msubsup><mi>p</mi><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>p</mi><mo stretchy="false" form="postfix">)</mo><mo>−</mo><msubsup><mi>C</mi><mrow><mn>2</mn><mi>n</mi></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msubsup><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>p</mi><msup><mo stretchy="false" form="postfix">)</mo><mn>2</mn></msup><mo stretchy="true" form="postfix">]</mo></mrow><msup><mi>p</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup><mo>×</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>p</mi><msup><mo stretchy="false" form="postfix">)</mo><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup><mo>=</mo><mrow><mo stretchy="true" form="prefix">[</mo><msubsup><mi>C</mi><mrow><mn>2</mn><mi>n</mi></mrow><mi>n</mi></msubsup><mi>p</mi><mo>−</mo><msubsup><mi>C</mi><mrow><mn>2</mn><mi>n</mi></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msubsup><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>p</mi><mo stretchy="false" form="postfix">)</mo><mo stretchy="true" form="postfix">]</mo></mrow><msup><mi>p</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup><mo>×</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>p</mi><msup><mo stretchy="false" form="postfix">)</mo><mi>n</mi></msup><mo>,</mo></mrow><annotation encoding="application/x-tex">
+= \left[ C _ {2 n} ^ {n} p (1 - p) - C _ {2 n} ^ {n + 1} (1 - p) ^ {2} \right] p ^ {n + 1} \times (1 - p) ^ {n - 1} = \left[ C _ {2 n} ^ {n} p - C _ {2 n} ^ {n + 1} (1 - p) \right] p ^ {n + 1} \times (1 - p) ^ {n},
+</annotation></semantics></math></p>
+<p>令
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>P</mi><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>2</mn></mrow></msub><mo>&gt;</mo><msub><mi>P</mi><mrow><mn>2</mn><mi>n</mi></mrow></msub></mrow><annotation encoding="application/x-tex">P_{2n + 2} &gt; P_{2n}</annotation></semantics></math>
+，则
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msubsup><mi mathvariant="normal">C</mi><mrow><mn>2</mn><mi>n</mi></mrow><mi>n</mi></msubsup><mi>p</mi><mo>−</mo><msubsup><mi mathvariant="normal">C</mi><mrow><mn>2</mn><mi>n</mi></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msubsup><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>p</mi><mo stretchy="false" form="postfix">)</mo><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">\mathrm{C}_{2n}^{n}p - \mathrm{C}_{2n}^{n + 1}(1 - p) &gt; 0</annotation></semantics></math>
+，即</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mrow><mo stretchy="false" form="prefix">(</mo><mn>2</mn><mi>n</mi><mo stretchy="false" form="postfix">)</mo><mi>!</mi></mrow><mrow><mi>n</mi><mi>!</mi><mi>n</mi><mi>!</mi></mrow></mfrac><mi>p</mi><mo>&gt;</mo><mfrac><mrow><mo stretchy="false" form="prefix">(</mo><mn>2</mn><mi>n</mi><mo stretchy="false" form="postfix">)</mo><mi>!</mi></mrow><mrow><mo stretchy="false" form="prefix">(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mi>!</mi><mo stretchy="false" form="prefix">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mi>!</mi></mrow></mfrac><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>p</mi><mo stretchy="false" form="postfix">)</mo><mo>⇔</mo><mi>n</mi><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mn>2</mn><mi>p</mi><mo stretchy="false" form="postfix">)</mo><mo>&lt;</mo><mi>p</mi><mi>.</mi></mrow><annotation encoding="application/x-tex">
+\frac {(2 n) !}{n ! n !} p &gt; \frac {(2 n) !}{(n + 1) ! (n - 1) !} (1 - p) \Leftrightarrow n (1 - 2 p) &lt;   p.
+</annotation></semantics></math></p>
+<p>因为
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>=</mo><mfrac><mn>5</mn><mn>12</mn></mfrac></mrow><annotation encoding="application/x-tex">p=\frac{5}{12}</annotation></semantics></math>
+，所以
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mo>&lt;</mo><mfrac><mi>p</mi><mrow><mn>1</mn><mo>−</mo><mn>2</mn><mi>p</mi></mrow></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">n&lt;\frac{p}{1-2p}=\frac{5}{2}</annotation></semantics></math>
+，即
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mo>≤</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">n\leq2</annotation></semantics></math>
+，所以
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>P</mi><mn>2</mn></msub><mo>&lt;</mo><msub><mi>P</mi><mn>4</mn></msub><mo>&lt;</mo><msub><mi>P</mi><mn>6</mn></msub></mrow><annotation encoding="application/x-tex">P_{2}&lt;P_{4}&lt;P_{6}</annotation></semantics></math>
+.</p>
+<p>同理可知：令
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>P</mi><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>2</mn></mrow></msub><mo>&lt;</mo><msub><mi>P</mi><mrow><mn>2</mn><mi>n</mi></mrow></msub></mrow><annotation encoding="application/x-tex">P_{2n+2} &lt; P_{2n}</annotation></semantics></math>
+，则
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mo>≥</mo><mn>3</mn></mrow><annotation encoding="application/x-tex">n \geq 3</annotation></semantics></math>
+，故
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>P</mi><mn>6</mn></msub><mo>&gt;</mo><msub><mi>P</mi><mn>8</mn></msub><mo>&gt;</mo><msub><mi>P</mi><mn>10</mn></msub><mo>&gt;</mo><mi>⋯</mi><mo>&gt;</mo><msub><mi>P</mi><mrow><mn>2</mn><mi>n</mi></mrow></msub><mo>&gt;</mo><mi>⋯</mi></mrow><annotation encoding="application/x-tex">P_{6} &gt; P_{8} &gt; P_{10} &gt; \cdots &gt; P_{2n} &gt; \cdots</annotation></semantics></math></p>
+<p>所以当2n=6时，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>P</mi><mn>6</mn></msub><annotation encoding="application/x-tex">P_{6}</annotation></semantics></math>
+最大. 故答案为：
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mfrac><mn>12</mn><mn>625</mn></mfrac><annotation encoding="application/x-tex">\frac{12}{625}</annotation></semantics></math>
+，6.</p>
+<p>15[详解]（1）不妨设事件 A = “模型甲回答正确”，事件 B =
+“模型乙回答正确”，由题意可得，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>A</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>p</mi><mo>=</mo><mn>0.85</mn></mrow><annotation encoding="application/x-tex">P(A) = p = 0.85</annotation></semantics></math>
+，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>B</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>0.75</mn></mrow><annotation encoding="application/x-tex">P(B) = 0.75</annotation></semantics></math>
+，由于 A 与 B 相互独立，所以在第一次提问中两个模型答案不同的概率为</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>A</mi><mover><mi>B</mi><mo accent="true">‾</mo></mover><mo>∪</mo><mover><mi>A</mi><mo accent="true">‾</mo></mover><mi>B</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>A</mi><mover><mi>B</mi><mo accent="true">‾</mo></mover><mo stretchy="false" form="postfix">)</mo><mo>+</mo><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mover><mi>A</mi><mo accent="true">‾</mo></mover><mi>B</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>A</mi><mo stretchy="false" form="postfix">)</mo><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mover><mi>B</mi><mo accent="true">‾</mo></mover><mo stretchy="false" form="postfix">)</mo><mo>+</mo><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mover><mi>A</mi><mo accent="true">‾</mo></mover><mo stretchy="false" form="postfix">)</mo><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>B</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>0</mn><mi>.</mi><mn>8</mn><mn>5</mn><mo>×</mo><mn>0</mn><mi>.</mi><mn>2</mn><mn>5</mn><mo>+</mo><mn>0</mn><mi>.</mi><mn>1</mn><mn>5</mn><mo>×</mo><mn>0</mn><mi>.</mi><mn>7</mn><mn>5</mn><mo>=</mo><mn>0</mn><mi>.</mi><mn>3</mn><mn>2</mn><mn>5</mn></mrow><annotation encoding="application/x-tex">
+P (A \bar {B} \cup \bar {A} B) = P (A \bar {B}) + P (\bar {A} B) = P (A) P (\bar {B}) + P (\bar {A}) P (B) = 0. 8 5 \times 0. 2 5 + 0. 1 5 \times 0. 7 5 = 0. 3 2 5
+</annotation></semantics></math></p>
+<p>（2）由（1）可知，在第一次提问中两个模型答案不同的概率为：</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>A</mi><mover><mi>B</mi><mo accent="true">‾</mo></mover><mo>∪</mo><mover><mi>A</mi><mo accent="true">‾</mo></mover><mi>B</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>A</mi><mover><mi>B</mi><mo accent="true">‾</mo></mover><mo stretchy="false" form="postfix">)</mo><mo>+</mo><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mover><mi>A</mi><mo accent="true">‾</mo></mover><mi>B</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>A</mi><mo stretchy="false" form="postfix">)</mo><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mover><mi>B</mi><mo accent="true">‾</mo></mover><mo stretchy="false" form="postfix">)</mo><mo>+</mo><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mover><mi>A</mi><mo accent="true">‾</mo></mover><mo stretchy="false" form="postfix">)</mo><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>B</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>0</mn><mi>.</mi><mn>2</mn><mn>5</mn><mi>p</mi><mo>+</mo><mn>0</mn><mi>.</mi><mn>7</mn><mn>5</mn><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>p</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>0</mn><mi>.</mi><mn>7</mn><mn>5</mn><mo>−</mo><mn>0</mn><mi>.</mi><mn>5</mn><mi>p</mi></mrow><annotation encoding="application/x-tex">
+P (A \bar {B} \cup \bar {A} B) = P (A \bar {B}) + P (\bar {A} B) = P (A) P (\bar {B}) + P (\bar {A}) P (B) = 0. 2 5 p + 0. 7 5 (1 - p) = 0. 7 5 - 0. 5 p
+</annotation></semantics></math></p>
+<p>系统第二次输出正确答案的概率为：
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>A</mi><mover><mi>B</mi><mo accent="true">¯</mo></mover><mo>∪</mo><mover><mi>A</mi><mo accent="true">¯</mo></mover><mi>B</mi><mo stretchy="false" form="postfix">)</mo><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>A</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mo stretchy="false" form="prefix">(</mo><mn>0.75</mn><mo>−</mo><mn>0.5</mn><mi>p</mi><mo stretchy="false" form="postfix">)</mo><mo>⋅</mo><mi>p</mi><mo>=</mo><mi>−</mi><mn>0.5</mn><msup><mi>p</mi><mn>2</mn></msup><mo>+</mo><mn>0.75</mn><mi>p</mi></mrow><annotation encoding="application/x-tex">P(A\overline{B}\cup\overline{A}B)P(A)=(0.75-0.5p)\cdot p=-0.5p^{2}+0.75p</annotation></semantics></math></p>
+<p>设系统最终输出正确答案的概率为
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi>P</mi><mo>′</mo></msup><annotation encoding="application/x-tex">P&#39;</annotation></semantics></math>
+，则
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>P</mi><mo>′</mo></msup><mo>=</mo><mn>0.75</mn><mi>p</mi><mo>+</mo><mo stretchy="false" form="prefix">(</mo><mi>−</mi><mn>0.5</mn><msup><mi>p</mi><mn>2</mn></msup><mo>+</mo><mn>0.75</mn><mi>p</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>−</mi><mn>0.5</mn><msup><mi>p</mi><mn>2</mn></msup><mo>+</mo><mn>1.5</mn><mi>p</mi></mrow><annotation encoding="application/x-tex">P&#39; = 0.75p + (-0.5p^2 + 0.75p) = -0.5p^2 + 1.5p</annotation></semantics></math></p>
+<p>于是
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>P</mi><mo>′</mo></msup><mo>≥</mo><mn>0.88</mn></mrow><annotation encoding="application/x-tex">P&#39; \geq 0.88</annotation></semantics></math>
+，解得
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0.8</mn><mo>≤</mo><mi>p</mi><mo>≤</mo><mn>2.2</mn></mrow><annotation encoding="application/x-tex">0.8 \leq p \leq 2.2</annotation></semantics></math>
+，又由
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>∈</mo><mo stretchy="false" form="prefix">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">p \in (0,1)</annotation></semantics></math>
+，于是
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0.8</mn><mo>≤</mo><mi>p</mi><mo>&lt;</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">0.8 \leq p &lt; 1</annotation></semantics></math>
+，则
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>p</mi><annotation encoding="application/x-tex">p</annotation></semantics></math>
+的最小值为 0.8。</p>
+<ol start="16" type="1">
+<li><ol type="1">
+<li><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="true" form="prefix">[</mo><mfrac><mn>1</mn><mi mathvariant="normal">e</mi></mfrac><mo>,</mo><mi>+</mi><mi>∞</mi><mo stretchy="true" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">\left[\frac{1}{\mathrm{e}}, +\infty\right)</annotation></semantics></math>
+(2)证明见解析 (3)
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>b</mi><mo>=</mo><mi>−</mi><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>a</mi></mrow><annotation encoding="application/x-tex">b = -\ln a</annotation></semantics></math>
+（也可写为
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo>=</mo><msup><mi mathvariant="normal">e</mi><mrow><mi>−</mi><mi>b</mi></mrow></msup></mrow><annotation encoding="application/x-tex">a = \mathrm{e}^{-b}</annotation></semantics></math>
+）</li>
+</ol></li>
+</ol>
+<p>[详解]（1）由于
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><msup><mi mathvariant="normal">e</mi><mi>x</mi></msup><mo>≥</mo><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">a\mathrm{e}^{x}\geq \ln x + 1</annotation></semantics></math>
+，则
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo>≥</mo><mfrac><mrow><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow><msup><mi mathvariant="normal">e</mi><mi>x</mi></msup></mfrac></mrow><annotation encoding="application/x-tex">a\geq \frac{\ln x + 1}{\mathrm{e}^{x}}</annotation></semantics></math>
+，设
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>F</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mfrac><mrow><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow><msup><mi mathvariant="normal">e</mi><mi>x</mi></msup></mfrac></mrow><annotation encoding="application/x-tex">F(x) = \frac{\ln x + 1}{\mathrm{e}^{x}}</annotation></semantics></math>
+，则
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>F</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mfrac><mrow><mfrac><mn>1</mn><mi>x</mi></mfrac><mo>−</mo><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow><msup><mi mathvariant="normal">e</mi><mi>x</mi></msup></mfrac></mrow><annotation encoding="application/x-tex">F&#39;(x) = \frac{\frac{1}{x} - \ln x - 1}{\mathrm{e}^{x}}</annotation></semantics></math>
+，</p>
+<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>F</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">F&#39;(1)=0</annotation></semantics></math>
+，且
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi><mo>=</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><mo>−</mo><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">y=\frac{1}{x}-\ln x-1</annotation></semantics></math>
+在
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mn>0</mn><mo>,</mo><mi>+</mi><mi>∞</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">(0,+\infty)</annotation></semantics></math>
+上单调递减。令
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>F</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">F&#39;(x)&gt;0</annotation></semantics></math>
+得 0&lt;x&lt;1，令
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>F</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>&lt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">F&#39;(x)&lt;0</annotation></semantics></math>
+得 x&gt;1，所以
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>F</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">F(x)</annotation></semantics></math>
+在
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">(0,1)</annotation></semantics></math>
+单调递增，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>,</mo><mi>+</mi><mi>∞</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">(1,+\infty)</annotation></semantics></math>
+单调递减，所以
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>F</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><msub><mo stretchy="false" form="postfix">)</mo><mi mathvariant="normal">max</mi></msub><mo>=</mo><mi>F</mi><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">F(x)_{\max}=F(1)</annotation></semantics></math>
+，则
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo>≥</mo><mi>F</mi><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mfrac><mn>1</mn><mi>e</mi></mfrac></mrow><annotation encoding="application/x-tex">a\geq F(1)=\frac{1}{e}</annotation></semantics></math>
+。（注：也可以利用切线放缩不等式：
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>x</mi><mo>+</mo><mn>1</mn><mo>≤</mo><mi>x</mi></mrow><annotation encoding="application/x-tex">\ln x+1\leq x</annotation></semantics></math>
+，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>≥</mo><mi>e</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">e^{x}\geq e x</annotation></semantics></math>
+，所以
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mrow><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow><msup><mi>e</mi><mi>x</mi></msup></mfrac><mo>≤</mo><mfrac><mn>1</mn><mi>e</mi></mfrac></mrow><annotation encoding="application/x-tex">\frac{\ln x+1}{e^{x}}\leq\frac{1}{e}</annotation></semantics></math>
+，当且仅当 x=1 时等号成立，故
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mrow><mo stretchy="true" form="prefix">(</mo><mfrac><mrow><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow><msup><mi>e</mi><mi>x</mi></msup></mfrac><mo stretchy="true" form="postfix">)</mo></mrow><mrow><mi>m</mi><mi>i</mi><mi>n</mi></mrow></msub><mo>=</mo><mfrac><mn>1</mn><mi>e</mi></mfrac></mrow><annotation encoding="application/x-tex">\left(\frac{\ln x+1}{e^{x}}\right)_{min}=\frac{1}{e}</annotation></semantics></math>
+）</p>
+<p>（2）当
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo>=</mo><msup><mi>e</mi><mrow><mi>−</mi><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">a=e^{-1}</annotation></semantics></math>
+时，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><msup><mi>e</mi><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">f(x)=e^{x-1}</annotation></semantics></math>
+，故
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><msup><mi>e</mi><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">f&#39;(x)=e^{x-1}</annotation></semantics></math>
+，则
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><msup><mi>e</mi><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">f(x)=e^{x-1}</annotation></semantics></math>
+在
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mi>m</mi><mo>,</mo><msup><mi>e</mi><mrow><mi>m</mi><mo>−</mo><mn>1</mn></mrow></msup><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">(m,e^{m-1})</annotation></semantics></math>
+处的切线方程为
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi><mo>=</mo><msup><mi>e</mi><mrow><mi>m</mi><mo>−</mo><mn>1</mn></mrow></msup><mi>x</mi><mo>+</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>m</mi><mo stretchy="false" form="postfix">)</mo><msup><mi>e</mi><mrow><mi>m</mi><mo>−</mo><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">y=e^{m-1}x+(1-m)e^{m-1}</annotation></semantics></math>
+，</p>
+<p>由
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>g</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mfrac><mn>1</mn><mi>x</mi></mfrac></mrow><annotation encoding="application/x-tex">g&#39;(x)=\frac{1}{x}</annotation></semantics></math>
+可知，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>g</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>x</mi><mo>+</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">g(x)=\ln x+b</annotation></semantics></math>
+在点
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mi>n</mi><mo>,</mo><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>n</mi><mo>+</mo><mi>b</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">(n,\ln n+b)</annotation></semantics></math>
+处的切线方程为
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi><mo>=</mo><mfrac><mn>1</mn><mi>n</mi></mfrac><mi>x</mi><mo>+</mo><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>n</mi><mo>+</mo><mi>b</mi><mo>−</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">y=\frac{1}{n}x+\ln n+b-1</annotation></semantics></math>
+，</p>
+<p>由题意得
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="true" form="prefix">{</mo><mtable><mtr><mtd columnalign="right" style="text-align: right; padding-right: 0"><msup><mi>e</mi><mrow><mi>m</mi><mo>−</mo><mn>1</mn></mrow></msup></mtd><mtd columnalign="left" style="text-align: left; padding-left: 0"><mo>=</mo><mfrac><mn>1</mn><mi>n</mi></mfrac></mtd></mtr><mtr><mtd columnalign="right" style="text-align: right; padding-right: 0"><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>m</mi><mo stretchy="false" form="postfix">)</mo><msup><mi>e</mi><mrow><mi>m</mi><mo>−</mo><mn>1</mn></mrow></msup></mtd><mtd columnalign="left" style="text-align: left; padding-left: 0"><mo>=</mo><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>n</mi><mo>+</mo><mi>b</mi><mo>−</mo><mn>1</mn></mtd></mtr></mtable></mrow><annotation encoding="application/x-tex">\left\{\begin{aligned}e^{m-1}&amp;=\frac{1}{n}\\ (1-m)e^{m-1}&amp;=\ln n+b-1\end{aligned}\right.</annotation></semantics></math>
+，故
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mo>=</mo><msup><mi>e</mi><mrow><mn>1</mn><mo>−</mo><mi>m</mi></mrow></msup></mrow><annotation encoding="application/x-tex">n=e^{1-m}</annotation></semantics></math>
+，所以
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>m</mi><mo stretchy="false" form="postfix">)</mo><msup><mi>e</mi><mrow><mi>m</mi><mo>−</mo><mn>1</mn></mrow></msup><mo>=</mo><mn>1</mn><mo>−</mo><mi>m</mi><mo>+</mo><mi>b</mi><mo>−</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">(1-m)e^{m-1}=1-m+b-1</annotation></semantics></math>
+即
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mi>m</mi><mo>−</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><msup><mi>e</mi><mrow><mi>m</mi><mo>−</mo><mn>1</mn></mrow></msup><mo>−</mo><mi>m</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">(m-1)e^{m-1}-m+b=0</annotation></semantics></math>
+，令
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>h</mi><mo stretchy="false" form="prefix">(</mo><mi>m</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mo stretchy="false" form="prefix">(</mo><mi>m</mi><mo>−</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><msup><mi>e</mi><mrow><mi>m</mi><mo>−</mo><mn>1</mn></mrow></msup><mo>−</mo><mi>m</mi><mo>+</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">h(m)=(m-1)e^{m-1}-m+b</annotation></semantics></math>
+，则
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>h</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>m</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>m</mi><msup><mi>e</mi><mrow><mi>m</mi><mo>−</mo><mn>1</mn></mrow></msup><mo>−</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">h&#39;(m)=me^{m-1}-1</annotation></semantics></math>
+，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>h</mi><mo>″</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>m</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mo stretchy="false" form="prefix">(</mo><mi>m</mi><mo>+</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><msup><mi>e</mi><mrow><mi>m</mi><mo>−</mo><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">h&#39;&#39;(m)=(m+1)e^{m-1}</annotation></semantics></math>
+，所以当 m&lt;-1 时，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>h</mi><mo>″</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>m</mi><mo stretchy="false" form="postfix">)</mo><mo>&lt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">h&#39;&#39;(m)&lt;0</annotation></semantics></math>
+，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>h</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>m</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">h&#39;(m)</annotation></semantics></math>
+单调递减；当 m&gt;-1 时，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>h</mi><mo>″</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>m</mi><mo stretchy="false" form="postfix">)</mo><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">h&#39;&#39;(m)&gt;0</annotation></semantics></math>
+，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>h</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>m</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">h&#39;(m)</annotation></semantics></math>
+单调递增。又
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>h</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>−</mi><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>−</mi><msup><mi>e</mi><mrow><mi>−</mi><mn>2</mn></mrow></msup><mo>−</mo><mn>1</mn><mo>&lt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">h&#39;(-1)=-e^{-2}-1&lt;0</annotation></semantics></math>
+，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>h</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">h&#39;(1)=0</annotation></semantics></math>
+，当 m&lt;-1 时，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>h</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>m</mi><mo stretchy="false" form="postfix">)</mo><mo>&lt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">h&#39;(m)&lt;0</annotation></semantics></math>
+（或者
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mrow><mi mathvariant="normal">lim</mi><mo>⁡</mo></mrow><mrow><mi>m</mi><mo>→</mo><mi>−</mi><mi>∞</mi></mrow></msub><msup><mi>h</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>m</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>−</mi><mn>1</mn></mrow><annotation encoding="application/x-tex">\lim_{m\to-\infty}h&#39;(m)=-1</annotation></semantics></math>
+）所以当 m&lt;1 时，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>h</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>m</mi><mo stretchy="false" form="postfix">)</mo><mo>&lt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">h&#39;(m)&lt;0</annotation></semantics></math>
+，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>h</mi><mo stretchy="false" form="prefix">(</mo><mi>m</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">h(m)</annotation></semantics></math>
+单调递减；当 m&gt;1 时，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>h</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>m</mi><mo stretchy="false" form="postfix">)</mo><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">h&#39;(m)&gt;0</annotation></semantics></math>
+，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>h</mi><mo stretchy="false" form="prefix">(</mo><mi>m</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">h(m)</annotation></semantics></math>
+单调递减，因为 b&lt;1，所以
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>h</mi><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>b</mi><mo>−</mo><mn>1</mn><mo>&lt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">h(1)=b-1&lt;0</annotation></semantics></math>
+，而
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mrow><mi mathvariant="normal">lim</mi><mo>⁡</mo></mrow><mrow><mi>m</mi><mo>→</mo><mi>−</mi><mi>∞</mi></mrow></msub><mi>h</mi><mo stretchy="false" form="prefix">(</mo><mi>m</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>+</mi><mi>∞</mi></mrow><annotation encoding="application/x-tex">\lim_{m\to-\infty}h(m)=+\infty</annotation></semantics></math>
+，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mrow><mi mathvariant="normal">lim</mi><mo>⁡</mo></mrow><mrow><mi>m</mi><mo>→</mo><mi>+</mi><mi>∞</mi></mrow></msub><mi>h</mi><mo stretchy="false" form="prefix">(</mo><mi>m</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>+</mi><mi>∞</mi></mrow><annotation encoding="application/x-tex">\lim_{m\to+\infty}h(m)=+\infty</annotation></semantics></math>
+，故函数 h(m) 在 R 上有 2 个零点，所以当 b&lt;1 时，总存在两条直线与曲线
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi><mo>=</mo><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">y=f(x)</annotation></semantics></math>
+与
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi><mo>=</mo><mi>g</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">y=g(x)</annotation></semantics></math>
+都相切。</p>
+<p>（3）
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>a</mi><msup><mi>e</mi><mi>x</mi></msup></mrow><annotation encoding="application/x-tex">f&#39;(x)=ae^{x}</annotation></semantics></math>
+，则
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>a</mi><msup><mi>e</mi><mi>x</mi></msup></mrow><annotation encoding="application/x-tex">f(x)=ae^{x}</annotation></semantics></math>
+在
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mi>s</mi><mo>,</mo><mi>a</mi><msup><mi>e</mi><mi>s</mi></msup><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">(s,ae^{s})</annotation></semantics></math>
+处的切线方程为
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi><mo>=</mo><mi>a</mi><msup><mi>e</mi><mi>s</mi></msup><mi>x</mi><mo>+</mo><mi>a</mi><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>s</mi><mo stretchy="false" form="postfix">)</mo><msup><mi>e</mi><mi>s</mi></msup></mrow><annotation encoding="application/x-tex">y=ae^{s}x+a(1-s)e^{s}</annotation></semantics></math>
+，</p>
+<p>由
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>g</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mfrac><mn>1</mn><mi>x</mi></mfrac></mrow><annotation encoding="application/x-tex">g&#39;(x)=\frac{1}{x}</annotation></semantics></math>
+可知，
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>g</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>x</mi><mo>+</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">g(x)=\ln x+b</annotation></semantics></math>
+在点
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mi>t</mi><mo>,</mo><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>t</mi><mo>+</mo><mi>b</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">(t,\ln t+b)</annotation></semantics></math>
+处的切线方程为
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi><mo>=</mo><mfrac><mn>1</mn><mi>t</mi></mfrac><mi>x</mi><mo>+</mo><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>t</mi><mo>+</mo><mi>b</mi><mo>−</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">y=\frac{1}{t}x+\ln t+b-1</annotation></semantics></math>
+，</p>
+<p>由题意可知
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="true" form="prefix">{</mo><mtable><mtr><mtd columnalign="right" style="text-align: right; padding-right: 0"><mi>a</mi><msup><mi>e</mi><mi>s</mi></msup></mtd><mtd columnalign="left" style="text-align: left; padding-left: 0"><mo>=</mo><mfrac><mn>1</mn><mi>t</mi></mfrac></mtd></mtr><mtr><mtd columnalign="right" style="text-align: right; padding-right: 0"><mi>a</mi><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>s</mi><mo stretchy="false" form="postfix">)</mo><msup><mi>e</mi><mi>s</mi></msup></mtd><mtd columnalign="left" style="text-align: left; padding-left: 0"><mo>=</mo><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>t</mi><mo>+</mo><mi>b</mi><mo>−</mo><mn>1</mn><mo>,</mo></mtd></mtr></mtable></mrow><annotation encoding="application/x-tex">\left\{\begin{aligned}ae^{s}&amp;=\frac{1}{t}\\ a(1-s)e^{s}&amp;=\ln t+b-1,\end{aligned}\right.</annotation></semantics></math>
+由
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><msup><mi>e</mi><mi>s</mi></msup><mo>=</mo><mfrac><mn>1</mn><mi>t</mi></mfrac><mo>⇒</mo><mi>s</mi><mo>=</mo><mi>−</mi><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>t</mi><mo>−</mo><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>a</mi></mrow><annotation encoding="application/x-tex">ae^{s}=\frac{1}{t}\Rightarrow s=-\ln t-\ln a</annotation></semantics></math>
+，</p>
+<p>代入
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>s</mi><mo stretchy="false" form="postfix">)</mo><msup><mi>e</mi><mi>s</mi></msup><mo>=</mo><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>t</mi><mo>+</mo><mi>b</mi><mo>−</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">a(1-s)e^{s}=\ln t+b-1</annotation></semantics></math>
+得，则
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>a</mi><mo>=</mo><mo stretchy="false" form="prefix">(</mo><mi>t</mi><mo>−</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>t</mi><mo>+</mo><mo stretchy="false" form="prefix">(</mo><mi>b</mi><mo>−</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mi>t</mi><mo>−</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">\ln a=(t-1)\ln t+(b-1)t-1</annotation></semantics></math>
+。</p>
+<p>因为曲线
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi><mo>=</mo><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">y = f(x)</annotation></semantics></math>
+与
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi><mo>=</mo><mi>g</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">y = g(x)</annotation></semantics></math>
+有两条公切线
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>l</mi><mn>1</mn></msub><mo>,</mo><msub><mi>l</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">l_{1}, l_{2}</annotation></semantics></math>
+，且
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>l</mi><mn>1</mn></msub><mo>,</mo><msub><mi>l</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">l_{1}, l_{2}</annotation></semantics></math>
+的斜率之积为 1，故只需要满足方程
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi><mo stretchy="false" form="prefix">(</mo><mi>t</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mo stretchy="false" form="prefix">(</mo><mi>t</mi><mo>−</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>t</mi><mo>+</mo><mo stretchy="false" form="prefix">(</mo><mi>b</mi><mo>−</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mi>t</mi><mo>−</mo><mn>1</mn><mo>=</mo><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>a</mi></mrow><annotation encoding="application/x-tex">G(t) = (t - 1)\ln t + (b - 1)t - 1 = \ln a</annotation></semantics></math>
+有两个不等实根，且互为倒数.</p>
+<p>设两根为
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>,</mo><mfrac><mn>1</mn><mi>p</mi></mfrac><mo stretchy="false" form="prefix">(</mo><mi>p</mi><mo>≠</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">p, \frac{1}{p} (p \neq 1)</annotation></semantics></math>
+，由
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi><mo stretchy="false" form="prefix">(</mo><mi>p</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>G</mi><mrow><mo stretchy="true" form="prefix">(</mo><mfrac><mn>1</mn><mi>p</mi></mfrac><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">G(p) = G\left(\frac{1}{p}\right)</annotation></semantics></math>
+得
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mi>p</mi><mo>−</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>p</mi><mo>+</mo><mo stretchy="false" form="prefix">(</mo><mi>b</mi><mo>−</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mi>p</mi><mo>−</mo><mn>1</mn><mo>=</mo><mrow><mo stretchy="true" form="prefix">(</mo><mfrac><mn>1</mn><mi>p</mi></mfrac><mo>−</mo><mn>1</mn><mo stretchy="true" form="postfix">)</mo></mrow><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mfrac><mn>1</mn><mi>p</mi></mfrac><mo>+</mo><mo stretchy="false" form="prefix">(</mo><mi>b</mi><mo>−</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mfrac><mn>1</mn><mi>p</mi></mfrac><mo>−</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">(p - 1)\ln p + (b - 1)p - 1 = \left(\frac{1}{p} - 1\right)\ln \frac{1}{p} + (b - 1)\frac{1}{p} - 1</annotation></semantics></math></p>
+<p>化简得
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>p</mi><mo>=</mo><mfrac><mrow><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>b</mi><mo stretchy="false" form="postfix">)</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><mi>p</mi><mo stretchy="false" form="postfix">)</mo></mrow><mrow><mi>p</mi><mo>−</mo><mn>1</mn></mrow></mfrac></mrow><annotation encoding="application/x-tex">\ln p = \frac{(1 - b)(1 + p)}{p - 1}</annotation></semantics></math>
+，故
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>a</mi><mo>=</mo><mi>G</mi><mo stretchy="false" form="prefix">(</mo><mi>p</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mo stretchy="false" form="prefix">(</mo><mi>p</mi><mo>−</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>p</mi><mo>+</mo><mo stretchy="false" form="prefix">(</mo><mi>b</mi><mo>−</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mi>p</mi><mo>−</mo><mn>1</mn><mo>=</mo><mi>−</mi><mi>b</mi></mrow><annotation encoding="application/x-tex">\ln a = G(p) = (p - 1)\ln p + (b - 1)p - 1 = -b</annotation></semantics></math></p>
+<p>所以
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>b</mi><mo>=</mo><mi>−</mi><mrow><mi mathvariant="normal">ln</mi><mo>⁡</mo></mrow><mi>a</mi></mrow><annotation encoding="application/x-tex">b = -\ln a</annotation></semantics></math>
+，（也可写为
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo>=</mo><msup><mi mathvariant="normal">e</mi><mrow><mi>−</mi><mi>b</mi></mrow></msup></mrow><annotation encoding="application/x-tex">a = \mathrm{e}^{-b}</annotation></semantics></math>
+）.</p>
+</body>
+</html>

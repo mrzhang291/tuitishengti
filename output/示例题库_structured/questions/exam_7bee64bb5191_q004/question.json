@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_7bee64bb5191_q004",
+  "display_id": "EXAM-7BEE64BB5191-Q004",
+  "source_exam": "深圳中学 2024 级高二数学周测（1）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（1）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（1）解析.md",
+  "question_number": 4,
+  "question_type": "single_choice",
+  "stem_markdown": "### 4. 函数 $f(x)$ 的导函数 $f'(x)$ ，满足关系式 $f(x)=x^{2}+2xf'(2)-\\ln x$ ，则 $f'(2)$ 的值为（）\n\nA. $-\\frac{7}{2}$\n\nB. $\\frac{7}{2}$\n\nC. $-\\frac{1}{2}$\n\nD. $\\frac{1}{2}$",
+  "stem_html": "<h3>4. 函数 $f(x)$ 的导函数 $f'(x)$ ，满足关系式 $f(x)=x^{2}+2xf'(2)-\\ln x$ ，则 $f'(2)$ 的值为（）</h3>\n<p>A. $-\\frac{7}{2}$</p>\n<p>B. $\\frac{7}{2}$</p>\n<p>C. $-\\frac{1}{2}$</p>\n<p>D. $\\frac{1}{2}$</p>",
+  "options": {
+    "A": "$-\\frac{7}{2}$",
+    "B": "$\\frac{7}{2}$",
+    "C": "$-\\frac{1}{2}$",
+    "D": "$\\frac{1}{2}$"
+  },
+  "answer": "A",
+  "solution_markdown": "### 4. A\n\n**详解**由 $f(x)=x^{2}+2xf'(2)-\\ln x$ 进行求导得： $f'(x)=2x+2f'(2)-\\frac{1}{x}$\n\n当 $x = 2$ 时，可得： $f^{\\prime}(2) = 4 + 2f^{\\prime}(2) - \\frac{1}{2}$ ，解得： $f^{\\prime}(2) = -\\frac{7}{2}.$ 故选：A.",
+  "solution_html": "<h3>4. A</h3>\n<p><strong>详解</strong>由 $f(x)=x^{2}+2xf'(2)-\\ln x$ 进行求导得： $f'(x)=2x+2f'(2)-\\frac{1}{x}$</p>\n<p>当 $x = 2$ 时，可得： $f^{\\prime}(2) = 4 + 2f^{\\prime}(2) - \\frac{1}{2}$ ，解得： $f^{\\prime}(2) = -\\frac{7}{2}.$ 故选：A.</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.566407+00:00",
+    "question_source_sha256": "8fa1d650b2c1959ec549afd5bfc248cdd4ddda5307791163f79f93a33acf3cac",
+    "solution_source_sha256": "5b5d55d680204d0e0f86a02ed377845f5652a058ffb31385ed378ad99f44b5f7"
+  }
+}

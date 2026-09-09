@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_5267945b2a8f_q010",
+  "display_id": "EXAM-5267945B2A8F-Q010",
+  "source_exam": "深圳中学 2024 级高二数学 五一作业",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学２０２４级高二数学五一作业 试卷.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学２０２４级高二数学五一作业 答案.md",
+  "question_number": 10,
+  "question_type": "multiple_choice",
+  "stem_markdown": "### 10. 下列不等关系中，正确的是（）\n\nA. $\\ln2<\\frac{2}{e}$\n\nB. $\\frac{\\ln3}{\\ln\\pi}<\\frac{3}{\\pi}$\n\nC. $\\frac{e}{2}>\\ln3$\n\nD. $\\sqrt{e}>2-\\ln2$",
+  "stem_html": "<h3>10. 下列不等关系中，正确的是（）</h3>\n<p>A. $\\ln2&lt;\\frac{2}{e}$</p>\n<p>B. $\\frac{\\ln3}{\\ln\\pi}&lt;\\frac{3}{\\pi}$</p>\n<p>C. $\\frac{e}{2}&gt;\\ln3$</p>\n<p>D. $\\sqrt{e}&gt;2-\\ln2$</p>",
+  "options": {
+    "A": "$\\ln2<\\frac{2}{e}$",
+    "B": "$\\frac{\\ln3}{\\ln\\pi}<\\frac{3}{\\pi}$",
+    "C": "$\\frac{e}{2}>\\ln3$",
+    "D": "$\\sqrt{e}>2-\\ln2$"
+  },
+  "answer": "ACD",
+  "solution_markdown": "### 10. ACD\n\n**详解**对A，令 $f(x)=\\ln x-\\frac{x}{e}$ ，则 $f'(x)=\\frac{1}{x}-\\frac{1}{e}$ ，\n当0<x<e时， $f'(x)>0$ ，此时 $f(x)$ 在（0，e）上单调递增，\n当x>e时， $f'(x)<0$ ，此时 $f(x)$ 在（e， $+\\infty$ ）上单调递减，\n所以 $f(x)_{\\max}=f(e)=0,\\quad f(2)=\\ln2-\\frac{2}{e}<0$ ，所以 $\\ln2<\\frac{2}{e}$ ，故A正确；\n对B，令 $f(x)=\\frac{\\ln x}{x}$ ，则 $f'(x)=\\frac{1-\\ln x}{x^{2}}$ 当0<x<e时， $f'(x)>0$ ，此时 $f(x)$ 在（0，e）上单调递增，\n当x>e时， $f'(x)<0$ ，此时 $f(x)$ 在（e， $+\\infty$ ）上单调\n\n递减，\n\n由 $e<3<\\pi$ ，所以 $f(3)>f(\\pi)\\Leftrightarrow\\frac{\\ln3}{3}>\\frac{\\ln\\pi}{\\pi}\\Leftrightarrow\\frac{\\ln3}{\\ln\\pi}>\\frac{3}{\\pi}$ ，\n故 B 错误；\n对 C，由 x>0 时 $f(x)=x-1-\\ln x$ ，所以 $f'(x)=1-\\frac{1}{x}$ ，\n令 $f'(x)=0 \\Rightarrow x=1$ 当 0 < x < 1 时， $f'(x) < 0$ ，此时 $f(x)$ 在 $(0,1)$ 上单调递减，\n当 x > 1 时， $f'(x) > 0$ ，此时 $f(x)$ 在 $(1,+\\infty)$ 上单调递增，\n所以 $f(x) \\geq f(1) = 0$ ，所以 $x - 1 \\geq \\ln x$ ，当 x = 1 时取等号，\n所以 $\\frac{3}{e}-1 > \\ln \\frac{3}{e}$ ，即 $\\frac{3}{e} > \\ln 3$ 又 $\\frac{e}{2}-\\frac{3}{e}=\\frac{e^{2}-6}{2e}>\\frac{2.5^{2}-6}{2e}>0$ ，所以 $\\frac{e}{2}>\\frac{3}{e}$ ，所以 $\\frac{e}{2}>\\ln 3$ ，\n故 C 正确\n对 D，由 $\\sqrt{4e} > \\sqrt{e \\cdot e} \\Rightarrow$ $2\\sqrt{e}>e\\Rightarrow\\sqrt{e}>\\frac{e}{2}\\Rightarrow\\sqrt{e}-1>\\frac{e}{2}-1$ 又 $1-\\ln2=\\ln\\frac{e}{2}<\\frac{e}{2}-1$ （ $x-1\\geq\\ln x$ ，当 x=1 时取等号）\n所以 $1-\\ln2<\\frac{e}{2}-1<\\sqrt{e}-1$ 即 $1-\\ln2<\\sqrt{e}-1$ ，即 $\\sqrt{e}>2-\\ln2$ ，故 D 正确\n故选：ACD.",
+  "solution_html": "<h3>10. ACD</h3>\n<p><strong>详解</strong>对A，令 $f(x)=\\ln x-\\frac{x}{e}$ ，则 $f'(x)=\\frac{1}{x}-\\frac{1}{e}$ ，\n当0&lt;x<e时， $f'(x)&gt;0$ ，此时 $f(x)$ 在（0，e）上单调递增，\n当x>e时， $f'(x)&lt;0$ ，此时 $f(x)$ 在（e， $+\\infty$ ）上单调递减，\n所以 $f(x)_{\\max}=f(e)=0,\\quad f(2)=\\ln2-\\frac{2}{e}&lt;0$ ，所以 $\\ln2&lt;\\frac{2}{e}$ ，故A正确；\n对B，令 $f(x)=\\frac{\\ln x}{x}$ ，则 $f'(x)=\\frac{1-\\ln x}{x^{2}}$ 当0&lt;x<e时， $f'(x)&gt;0$ ，此时 $f(x)$ 在（0，e）上单调递增，\n当x>e时， $f'(x)&lt;0$ ，此时 $f(x)$ 在（e， $+\\infty$ ）上单调</p>\n<p>递减，</p>\n<p>由 $e&lt;3&lt;\\pi$ ，所以 $f(3)&gt;f(\\pi)\\Leftrightarrow\\frac{\\ln3}{3}&gt;\\frac{\\ln\\pi}{\\pi}\\Leftrightarrow\\frac{\\ln3}{\\ln\\pi}&gt;\\frac{3}{\\pi}$ ，\n故 B 错误；\n对 C，由 x&gt;0 时 $f(x)=x-1-\\ln x$ ，所以 $f'(x)=1-\\frac{1}{x}$ ，\n令 $f'(x)=0 \\Rightarrow x=1$ 当 0 &lt; x &lt; 1 时， $f'(x) &lt; 0$ ，此时 $f(x)$ 在 $(0,1)$ 上单调递减，\n当 x &gt; 1 时， $f'(x) &gt; 0$ ，此时 $f(x)$ 在 $(1,+\\infty)$ 上单调递增，\n所以 $f(x) \\geq f(1) = 0$ ，所以 $x - 1 \\geq \\ln x$ ，当 x = 1 时取等号，\n所以 $\\frac{3}{e}-1 &gt; \\ln \\frac{3}{e}$ ，即 $\\frac{3}{e} &gt; \\ln 3$ 又 $\\frac{e}{2}-\\frac{3}{e}=\\frac{e^{2}-6}{2e}&gt;\\frac{2.5^{2}-6}{2e}&gt;0$ ，所以 $\\frac{e}{2}&gt;\\frac{3}{e}$ ，所以 $\\frac{e}{2}&gt;\\ln 3$ ，\n故 C 正确\n对 D，由 $\\sqrt{4e} &gt; \\sqrt{e \\cdot e} \\Rightarrow$ $2\\sqrt{e}&gt;e\\Rightarrow\\sqrt{e}&gt;\\frac{e}{2}\\Rightarrow\\sqrt{e}-1&gt;\\frac{e}{2}-1$ 又 $1-\\ln2=\\ln\\frac{e}{2}&lt;\\frac{e}{2}-1$ （ $x-1\\geq\\ln x$ ，当 x=1 时取等号）\n所以 $1-\\ln2&lt;\\frac{e}{2}-1&lt;\\sqrt{e}-1$ 即 $1-\\ln2&lt;\\sqrt{e}-1$ ，即 $\\sqrt{e}&gt;2-\\ln2$ ，故 D 正确\n故选：ACD.</p>",
+  "score": null,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.247309+00:00",
+    "question_source_sha256": "15514af6ceb54dc08cbfc8100c7df26b356cb6688fdd3bfe5c4f436c61261dd5",
+    "solution_source_sha256": "07f1865be56a487b402afb470f20fe230f42fb97bd927cee85afc49913075760"
+  }
+}

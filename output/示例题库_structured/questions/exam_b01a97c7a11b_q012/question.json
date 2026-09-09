@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_b01a97c7a11b_q012",
+  "display_id": "EXAM-B01A97C7A11B-Q012",
+  "source_exam": "深圳中学2024级高二周测（8）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（8）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（8）参考答案.md",
+  "question_number": 12,
+  "question_type": "fill_blank",
+  "stem_markdown": "### 12. 已知随机变量 X 的分布列为则期望 $D(X)=$ \\_\\_\\_\\_.\n\n<table><tr><td>X</td><td>5</td><td>6</td><td>7</td></tr><tr><td>P</td><td>0.2</td><td>0.3</td><td>0.5</td></tr></table>",
+  "stem_html": "<h3>12. 已知随机变量 X 的分布列为则期望 $D(X)=$ ____.</h3>\n<table><tr><td>X</td><td>5</td><td>6</td><td>7</td></tr><tr><td>P</td><td>0.2</td><td>0.3</td><td>0.5</td></tr></table>",
+  "options": {},
+  "answer": "0.61 $",
+  "solution_markdown": "",
+  "solution_html": "",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [
+    "answer_math_display_repaired",
+    "missing_solution"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.104042+00:00",
+    "question_source_sha256": "c94eca08c58bedc15524121a680136ba270a64c9922023c3005a12c4fc409761",
+    "solution_source_sha256": "2c305966ce196e8a17833cd59778cae810c6b4e24eca072eeecc711059b85d1d"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_58879b65c6e5_q013",
+  "display_id": "EXAM-58879B65C6E5-Q013",
+  "source_exam": "深圳中学 2024 级高二数学周测（7）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（7）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（7）参考答案.md",
+  "question_number": 13,
+  "question_type": "fill_blank",
+  "stem_markdown": "### 13. 已知函数 $f(x) = (x - a)\\ln x$ 在区间[1,2]上存在单调递减区间，则 $a$ 的取值范围为 \\_\\_\\_\\_.",
+  "stem_html": "<h3>13. 已知函数 $f(x) = (x - a)\\ln x$ 在区间[1,2]上存在单调递减区间，则 $a$ 的取值范围为 ____.</h3>",
+  "options": {},
+  "answer": "$(1,+\\infty)$",
+  "solution_markdown": "### 13. $(1, +\\infty)$ \n\n**详解**函数 $f(x)$ 在区间 $[1, 2]$ 上存在单调递减区间，即 $f'(x) = \\ln x + 1 - \\frac{a}{x} < 0$ 在 $x \\in [1,2]$ 有解，即 $a > x\\ln x + x$ 在 $x \\in [1,2]$ 有解，设 $g(x) = x\\ln x + x, x \\in [1,2]$ ，可得 $g'(x) = \\ln x + 2 > 0$ ，所以函数 $g(x)$ 在 $[1,2]$ 单调递增，所以 $g(x)_{\\min} = g(1) = 1$ ，所以 $a > 1$ .",
+  "solution_html": "<h3>13. $(1, +\\infty)$</h3>\n<p><strong>详解</strong>函数 $f(x)$ 在区间 $[1, 2]$ 上存在单调递减区间，即 $f'(x) = \\ln x + 1 - \\frac{a}{x} &lt; 0$ 在 $x \\in [1,2]$ 有解，即 $a &gt; x\\ln x + x$ 在 $x \\in [1,2]$ 有解，设 $g(x) = x\\ln x + x, x \\in [1,2]$ ，可得 $g'(x) = \\ln x + 2 &gt; 0$ ，所以函数 $g(x)$ 在 $[1,2]$ 单调递增，所以 $g(x)_{\\min} = g(1) = 1$ ，所以 $a &gt; 1$ .</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.005157+00:00",
+    "question_source_sha256": "9124b78ea7842e994e399ed6bc49d2368b80f63f7683e1cfae2de4c1c9e936aa",
+    "solution_source_sha256": "73a0816208baeeb9d64155c667182408d96461e4b8769a726123ba1edb89fe5b"
+  }
+}

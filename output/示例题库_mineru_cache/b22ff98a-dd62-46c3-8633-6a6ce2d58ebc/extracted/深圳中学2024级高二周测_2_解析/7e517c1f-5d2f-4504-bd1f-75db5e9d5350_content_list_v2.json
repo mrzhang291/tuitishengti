@@ -1,0 +1,3283 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "深圳中学 2024 级高二数学周测（2）解析"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                267,
+                91,
+                761,
+                114
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/a5768f466a4bc4f165b8480a7d086fe4a03432a6f6d4784036578856abe742be.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td>题号</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td>答案</td><td>C</td><td>B</td><td>B</td><td>D</td><td>C</td><td>A</td><td>B</td><td>A</td><td>BC</td><td>AD</td></tr><tr><td>题号</td><td>11</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>答案</td><td>ACD</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                147,
+                120,
+                848,
+                199
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1. C【详解】设曲线  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y = \\frac{\\mathrm{e}^x}{x + 1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在点  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left(1, \\frac{\\mathrm{e}}{2}\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 处的切线方程为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y - \\frac{\\mathrm{e}}{2} = k(x - 1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，因为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y = \\frac{\\mathrm{e}^x}{x + 1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y' = \\frac{\\mathrm{e}^x(x + 1) - \\mathrm{e}^x}{(x + 1)^2} = \\frac{x\\mathrm{e}^x}{(x + 1)^2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k = y'|_{x=1} = \\frac{\\mathrm{e}}{4}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y - \\frac{\\mathrm{e}}{2} = \\frac{\\mathrm{e}}{4}(x - 1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "。所以曲线  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y = \\frac{\\mathrm{e}^x}{x + 1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在点  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left(1, \\frac{\\mathrm{e}}{2}\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 处的切线方程为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y = \\frac{\\mathrm{e}}{4} x + \\frac{\\mathrm{e}}{4}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                221,
+                815,
+                325
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2. B【详解】求导后导函数为奇函数，所以选择 B。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                334,
+                549,
+                350
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3. B【详解】  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y' = (x + 1)e^x - 1"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，令  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(x + 1)e^x - 1 = -1"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(x + 1)e^x = 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，故  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x = -1"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x = -1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y = -e^{-1} - (-1) = 1 - \\frac{1}{e}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，即  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的坐标为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left(-1, 1 - \\frac{1}{e}\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". 故选：B."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                362,
+                828,
+                417
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "4. D【详解】令  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h(x)=f(x)g(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h(-x)=f(-x)g(-x)=-f(x)g(x)=-h(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，因此函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在R上是奇函数。①∵当x<0时，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h'(x)=f'(x)g(x)+f(x)g'(x)>0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，∴  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在x<0时单调递增，故函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在R上单调递增。∵  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h(-3)=f(-3)g(-3)=0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                426,
+                840,
+                499
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "∴   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h(x) = f(x)g(x) < 0 = h(-3)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，∴ x < -3. ②当 x > 0 时，函数   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  在 R 上是奇函数，可知：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  在   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(0, +\\infty)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  上单调递增，且   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h(3) = -h(-3) = 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，∴   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h(x) < 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，的解集为   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(0, 3)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " .\n③当x=0时，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h(0)=0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，不符合要求。∴不等式的解集是  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(-∞,-3)∪(0,3)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                510,
+                842,
+                582
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "5. C【详解】依题可知，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(x) = ae^{x} - \\frac{1}{x} \\geq 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在(1,2)上恒成立，显然a > 0，所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "xe^{x} \\geq \\frac{1}{a}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，设  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x) = xe^{x}, x \\in (1,2)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g'(x) = (x + 1)e^{x} > 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在(1,2)上单调递增，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x) > g(1) = e"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，故  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e \\geq \\frac{1}{a}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，即  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a \\geq \\frac{1}{e} = e^{-1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，即a的最小值为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e^{-1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                595,
+                821,
+                695
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "6. A【详解】因  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 为偶函数，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)=f(-x)①"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，对两边求导得，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(x)=-f'(-x)②"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)+f'(x)=2\\mathrm{e}^{x}③"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 中，用-x代替x得  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(-x)+f'(-x)=2\\mathrm{e}^{-x}④"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，由①②④可得，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)-f'(x)=2\\mathrm{e}^{-x}⑤"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，联立③⑤得，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)=\\mathrm{e}^{x}+\\mathrm{e}^{-x}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k[f(x)-\\mathrm{e}^{x}]\\leq x"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 化简为，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k\\leq x\\mathrm{e}^{x}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，令  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x)=x\\mathrm{e}^{x}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g'(x)=(x+1)\\mathrm{e}^{x}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g'(x)>0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 得x>-1；  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g'(x)<0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 得x<-1，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(-∞,-1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 上单调递减，在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(-1,+∞)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 上单调递增，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的最小值为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(-1)=-\\frac{1}{\\mathrm{e}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，故  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k\\leq-\\frac{1}{\\mathrm{e}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则实数k的取值范围是  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left(-∞,-\\frac{1}{\\mathrm{e}}\\right]"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ."
+                    }
+                ]
+            },
+            "bbox": [
+                142,
+                703,
+                850,
+                872
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "答案第1页，共4页"
+                    }
+                ]
+            },
+            "bbox": [
+                416,
+                958,
+                579,
+                973
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "7. B【详解】对  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x\\in\\left(0,\\frac{\\pi}{2}\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，因为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y=\\sin x-x"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y'=\\cos x-1<0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，即函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y=\\sin x-x"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \n在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left(0,\\frac{\\pi}{2}\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 单调递减，且x=0时，y=0，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sin x-x<0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，即  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sin x<x"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a=\\sin0.5<0.5"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，因为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "2\\log_{0.3}0.5=\\log_{0.3}0.25>\\log_{0.3}0.3=1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 且  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\log_{0.3}0.5<\\log_{0.3}0.3=1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "0.5<c=\\log_{0.3}0.5<1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，又  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "b=3^{0.5}>3^{0}=1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，所以a<c<b。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                93,
+                848,
+                210
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "8. A【详解】构建  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x)=\\frac{f(x)}{\\mathrm{e}^{x}}-x"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g'(x)=\\frac{f'(x)-f(x)}{\\mathrm{e}^{x}}-1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，因为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(x)-f(x)<\\mathrm{e}^{x}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{f'(x)-f(x)}{\\mathrm{e}^{x}}-1<0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，即  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g'(x)<0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，可知  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在R上单调递减，且  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(1)=0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，由  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)>xe^{x}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 可得  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{f(x)}{\\mathrm{e}^{x}}-x>0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，即  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x)>g(1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，解得x<1，所以不等式  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)>xe^{x}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的解集是  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(-∞,1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " .\n9. BC【详解】设切点为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(x_{0},3x_{0}^{3}+2)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，又  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y'=9x^{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y'\\mid_{x=x_{0}}=9x_{0}^{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \n所以曲线  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y=3x^{3}+2"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在点  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(x_{0},3x_{0}^{3}+2)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 处的切线方程为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y-(3x_{0}^{3}+2)=9x_{0}^{2}(x-x_{0})"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \n所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "-1-(3x_{0}^{3}+2)=9x_{0}^{2}(-1-x_{0})"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，整理得  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(x_{0}+1)^{2}\\cdot(2x_{0}-1)=0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，解得  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x_{0}=-1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 或\n "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x_{0}=\\frac{1}{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，即切线方程为9x-y+8=0或9x-4y+5=0."
+                    }
+                ]
+            },
+            "bbox": [
+                142,
+                219,
+                838,
+                441
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "10. AD【详解】令  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)=e^{x}+\\ln x(0<x<1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(x)=e^{x}+\\frac{1}{x}>0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，故  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(0,1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 上单调递增，因为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "0<x_{1}<x_{2}<1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x_{1})<f(x_{2})"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e^{x_{1}}+\\ln x_{1}<e^{x_{2}}+\\ln x_{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，可得  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e^{x_{1}}-e^{x_{2}}<\\ln x_{2}-\\ln x_{1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，故B错误，D正确；令  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x)=\\frac{e^{x}}{x}(0<x<1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g'(x)=\\frac{e^{x}(x-1)}{x^{2}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，因为0<x<1，所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g'(x)<0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，故  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(0,1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 上单调递减，因为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "0<x_{1}<x_{2}<1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x_{1})>g(x_{2})"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{e^{x_{1}}}{x_{1}}>\\frac{e^{x_{2}}}{x_{2}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，即  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x_{2}\\cdot e^{x_{1}}>x_{1}\\cdot e^{x_{2}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，故A正确，C错误."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                455,
+                850,
+                615
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "11. ACD【详解】对于A，因为函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)=\\frac{\\ln(e^{x}+1)}{x}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，当x<0时，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\ln(e^{x}+1)>\\ln1=0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，所以这时  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)<0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，A正确；对于B，因为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)+f(-x)=\\frac{\\ln(e^{x}+1)}{x}-\\frac{\\ln(e^{-x}+1)}{x}=\\frac{\\ln(e^{x}+1)-\\ln(e^{-x}+1)}{x}="
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{1}{x}\\ln\\frac{e^{x}+1}{e^{-x}+1}=\\frac{1}{x}\\ln e^{x}=1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的图象关于  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(0,\\frac{1}{2})"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 中心对称，B错误；"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                627,
+                838,
+                728
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "m + n = 0",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/7199ffdf0a6121f7184bb1232cdbd6b55ad162a2480c458eafc8b200665e212e.jpg"
+                }
+            },
+            "bbox": [
+                226,
+                745,
+                304,
+                758
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "| f (m) - f (n) | = | f (m) - f (- m) | = \\left| \\frac {\\ln (e ^ {m} + 1)}{m} + \\frac {\\ln (e ^ {- m} + 1)}{m} \\right|",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d7d2eaaf9976733b0233179cbfd16e26e09f43c5c874fc1e1167f151766c0be8.jpg"
+                }
+            },
+            "bbox": [
+                339,
+                739,
+                751,
+                763
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "= \\left|\\frac{\\ln(e^m + 1) + \\ln(e^{-m} + 1)}{m}\\right| = \\left|\\frac{\\ln[(e^m + 1) \\cdot (e^{-m} + 1)]}{m}\\right| = \\left|\\frac{\\ln(e^m + e^{-m} + 2)}{m}\\right| > \\left|\\frac{\\ln e^m}{m}\\right| = 1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "C"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 正确；"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                775,
+                781,
+                801
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "对于  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x\\in (0, + \\infty)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f^{\\prime}(x) = \\frac{\\frac{xe^{x}}{e^{x} + 1} - \\ln(e^{x} + 1)}{x^{2}} = \\frac{xe^{x} - (e^{x} + 1)\\ln(e^{x} + 1)}{x^{2}(e^{x} + 1)}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，令  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x) = xe^{x}"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                810,
+                763,
+                841
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "x \\in (0, + \\infty)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/0f568aa1d1920d770bb5fdf69cf20a1c6cb1c831ce1a5deb98c952efad939cd3.jpg"
+                }
+            },
+            "bbox": [
+                147,
+                852,
+                235,
+                865
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "g ^ {\\prime} (x) = e ^ {x} (x + 1) > 0",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/bf0e8b3427748d44739c8869324796749db85eab24d64d1408e14947fb849186.jpg"
+                }
+            },
+            "bbox": [
+                284,
+                852,
+                448,
+                865
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "又  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\ln (e^x + 1) > \\ln e^x = x"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(\\ln (e^x + 1)) > g(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e^{\\ln (e^x + 1)} \\cdot \\ln (e^x + 1) > e^x \\cdot x"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，即  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "xe^x <"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                878,
+                836,
+                895
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "答案第2页，共4页"
+                    }
+                ]
+            },
+            "bbox": [
+                416,
+                958,
+                579,
+                973
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "(e^{x} + 1)\\ln (e^{x} + 1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，因此，这时  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f^{\\prime}(x) < 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(0, +\\infty)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 上单调递减， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 正确；."
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                91,
+                784,
+                105
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "12.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\{-3\\}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 【详解】  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f^{\\prime}(x) = \\frac{2x^{2} + ax + 1}{x}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，又  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的单调递减区间是  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left(\\frac{1}{2}, 1\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{1}{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 和 1 是方程  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "2x^{2} + ax + 1 = 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的两个根，代入得  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a = -3"
+                    },
+                    {
+                        "type": "text",
+                        "content": "。经检验满足题意。"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                117,
+                830,
+                172
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "13.   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "[\\ln3,+\\infty)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  【详解】由   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(-x)+f(x)=0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  知   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  是奇函数，∴   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(3)=-f(-3)=12"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，设   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x)=f(x)-3x"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(3)=f(3)-3\\times3=12-9=3, g'(x)=f'(x)-3>0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，∴   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  在 R 上单调递增，由   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(\\mathrm{e}^{x})-3\\mathrm{e}^{x}-3\\geq0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  得   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(\\mathrm{e}^{x})-3\\mathrm{e}^{x}\\geq3"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，即   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(\\mathrm{e}^{x})\\geq g(3)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，∴   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e^{x}\\geq3"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，得   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x\\geq\\ln3,x"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  的取值范围是   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "[\\ln3,+\\infty)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ."
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                181,
+                803,
+                282
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "14.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left(-\\infty, 2\\sqrt{2}\\right]"
+                    },
+                    {
+                        "type": "text",
+                        "content": "【详解】由  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{a(\\ln x_2 - \\ln x_1)}{x_2 - x_1} < 2 + \\frac{1}{x_1x_2}, x_1, x_2 \\in (0, +\\infty)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 且  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x_1 < x_2"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a(\\ln x_2 - \\ln x_1) < 2(x_2 - x_1) + \\frac{x_2 - x_1}{x_1x_2} \\Rightarrow a\\ln x_2 - 2x_2 + \\frac{1}{x_2} < a\\ln x_1 - 2x_1 + \\frac{1}{x_1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". 设  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x) = a\\ln x - 2x + \\frac{1}{x}, x > 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，则原问题转化为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(0, +\\infty)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 上单调递减. 所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(x) = \\frac{a}{x} - 2 - \\frac{1}{x^2} \\leq 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(0, +\\infty)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 上恒成立，即  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a \\leq 2x + \\frac{1}{x}, x > 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 恒成立. 因为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "2x + \\frac{1}{x} \\geq 2\\sqrt{2x \\cdot \\frac{1}{x}} = 2\\sqrt{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " （当且仅当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "2x = \\frac{1}{x}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 即  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x = \\frac{\\sqrt{2}}{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时取“=”）. 所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a \\leq 2\\sqrt{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                294,
+                769,
+                470
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "15.【解】(1)由  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)=\\frac{e^{x}-a}{x}-a\\ln x"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，可得  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(x)=\\frac{e^{x}(x-1)-ax+a}{x^{2}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(1)=0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 且  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(1)=e-a"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，\n所以曲线  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y=f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在点  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(1,f(1))"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 处的切线方程为y=e-a."
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                479,
+                838,
+                533
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)由函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)=\\frac{e^{x}-a}{x}-a\\ln x"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的定义域为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(0,+\\infty)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，且  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(x)=\\frac{(x-1)(e^{x}-a)}{x^{2}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，若  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a\\leq0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，令  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(x)=0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，解得x=1，当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x\\in(0,1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(x)<0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 单调递减，当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x\\in(1,+\\infty)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(x)>0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 单调递增，所以函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的单调递减区间为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(0,1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，单调递增区间为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(1,+\\infty)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 。若a>0，令  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(x)=0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，解得x=1或  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x=\\ln a"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，①若  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\ln a\\leq0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，即  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "0<a\\leq1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时，当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x\\in(0,1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(x)<0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 单调递减，当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x\\in(1,+\\infty)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(x)>0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 单调递增，所以函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的单调递减区间为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(0,1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，单调逆增区间为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(1,+\\infty)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 。②若  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "0<\\ln a<1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，即1<a<e时，当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x\\in(0,\\ln a)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(x)>0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 单调递增，当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x\\in(\\ln a,1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(x)<0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 单调递减，当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x\\in(1,+\\infty)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(x)>0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 单调递增，所以函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的单调递减区间为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(\\ln a,1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，单调递增区间为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(0,\\ln a)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(1,+\\infty)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 。③若  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\ln a=1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，即a=e时，可得  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(x)\\geq0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 且等号不恒成立，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 单调递增，所以函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的单调递增区间为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(0,+\\infty)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 。④若  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\ln a>1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，即a>e时，当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x\\in(0,1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(x)>0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 单调递增，当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x\\in(1,\\ln a)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(x)<0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 单调递减，当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x\\in(\\ln a,+\\infty)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(x)>0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 单调递增，所以函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的单调递减区间为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(1,\\ln a)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，单调递增区间为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(0,1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(\\ln a,+\\infty)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 。"
+                    }
+                ]
+            },
+            "bbox": [
+                142,
+                544,
+                850,
+                878
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "答案第3页，共4页"
+                    }
+                ]
+            },
+            "bbox": [
+                416,
+                958,
+                579,
+                973
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "16.【详解】（1）因为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)=a(\\mathrm{e}^{x}+a)-x"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，定义域为R，所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(x)=ae^{x}-1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a\\leq0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时，由于  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e^{x}>0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "ae^{x}\\leq0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，故  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(x)=ae^{x}-1<0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 恒成立，\n所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在R上单调递减；当a>0时，令  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(x)=ae^{x}-1=0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，解得  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x=-\\ln a"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，\n当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x<-\\ln a"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(x)<0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(-∞,-\\ln a)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 上单调递减；\n当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x>-\\ln a"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(x)>0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(-∞,+\\infty)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 上单调递增；\n综上：当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a\\leq0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在R上单调递减；\n当a>0时，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(-∞,-\\ln a)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 上单调递减，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(-∞,+\\infty)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 上单调递增."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                89,
+                766,
+                275
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2) 方法一:"
+                    }
+                ]
+            },
+            "bbox": [
+                154,
+                285,
+                257,
+                300
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "由（1）得，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)_{\\min}=f(-\\ln a)=a\\left(\\mathrm{e}^{-\\ln a}+a\\right)+\\ln a=1+a^{2}+\\ln a,"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                312,
+                685,
+                329
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "要证  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x) > 2\\ln a + \\frac{3}{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，即证  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 + a^2 + \\ln a > 2\\ln a + \\frac{3}{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，即证  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a^2 - \\frac{1}{2} - \\ln a > 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 恒成立，"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                341,
+                779,
+                365
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "令  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(a)=a^{2}-\\frac{1}{2}-\\ln a(a>0)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g'(a)=2a-\\frac{1}{a}=\\frac{2a^{2}-1}{a}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，令  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g'(a)<0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "0<a<\\frac{\\sqrt{2}}{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ;"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                378,
+                820,
+                404
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "令  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g^{\\prime}(a) > 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a > \\frac{\\sqrt{2}}{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ；所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(a)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left(0,\\frac{\\sqrt{2}}{2}\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 上单调递减，在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left(\\frac{\\sqrt{2}}{2}, + \\infty\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 上单调递增，"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                414,
+                773,
+                439
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(a)_{\\min} = g\\left(\\frac{\\sqrt{2}}{2}\\right) = \\left(\\frac{\\sqrt{2}}{2}\\right)^2 -\\frac{1}{2} -\\ln \\frac{\\sqrt{2}}{2} = \\ln \\sqrt{2} >0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(a) > 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 恒成立，"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                451,
+                719,
+                479
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "所以当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a > 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x) > 2\\ln a + \\frac{3}{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 恒成立，证毕."
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                489,
+                515,
+                513
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "方法二："
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                526,
+                211,
+                541
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "令  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h(x)=\\mathrm{e}^{x}-x-1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h'(x)=\\mathrm{e}^{x}-1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，由于  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y=\\mathrm{e}^{x}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在R上单调递增，"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                554,
+                680,
+                569
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "h ^ {\\prime} (x) = \\mathrm{e} ^ {x} - 1",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/daaac54c050a405bb33ca8bd55808ced1d4bc79c11582d3059fb9e12c2a78e19.jpg"
+                }
+            },
+            "bbox": [
+                184,
+                582,
+                295,
+                596
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "h ^ {\\prime} (0) = \\mathrm{e} ^ {0} - 1 = 0",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/cf72a666ce782a1b05f5bbff27b33dfa61b6b9325d9747f8f3897033a006335b.jpg"
+                }
+            },
+            "bbox": [
+                448,
+                582,
+                591,
+                596
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "| x <   0",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/b16f76bdefe8b58c010a3d0081d8dbf551b5a8ac243d055dba70d47dd0977a00.jpg"
+                }
+            },
+            "bbox": [
+                658,
+                583,
+                702,
+                596
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "h ^ {\\prime} (x) <   0;",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/9b9db3a650983a0b174626135a981503a4ec0d087e3785e1a954ce0572bb09d7.jpg"
+                }
+            },
+            "bbox": [
+                737,
+                583,
+                816,
+                596
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "h ^ {\\prime} (x) > 0;",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ee63185684e17aa5450667cd3b91df5f3a977ef860c5dc77b0384c6d3e659055.jpg"
+                }
+            },
+            "bbox": [
+                243,
+                609,
+                322,
+                624
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "h (x) \\text {在} (- \\infty , 0)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/4093264e9c2fbf1870db05d63273b992de59365d3d59130778b401afb9512db9.jpg"
+                }
+            },
+            "bbox": [
+                369,
+                609,
+                482,
+                624
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\text {故} h (x) \\geq h (0) = 0",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/b84b3f0c555d1e9a5d7f69c00f20a51ba3b30237f981463bd6a2f552ffbc941e.jpg"
+                }
+            },
+            "bbox": [
+                149,
+                638,
+                292,
+                652
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\mathrm{e} ^ {x} \\geq x + 1",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/f4ff3d8dbdab84d18a78ec893a0ebd22579f13ffd97c427b577c50c058323659.jpg"
+                }
+            },
+            "bbox": [
+                327,
+                638,
+                408,
+                651
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "f (x) = a \\left(\\mathrm{e} ^ {x} + a\\right) - x = a \\mathrm{e} ^ {x} + a ^ {2} - x = \\mathrm{e} ^ {x + \\ln a} + a ^ {2} - x \\geq x + \\ln a + 1 + a ^ {2} - x,",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/1ce9e64539f497e803b3b9b9568dd3d819ac7b3da9d5679b22c3bb56b6c5e868.jpg"
+                }
+            },
+            "bbox": [
+                184,
+                664,
+                793,
+                680
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "当且仅当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x + \\ln a = 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，即  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x = -\\ln a"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时，等号成立，所以要证  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x) > 2\\ln a + \\frac{3}{2}"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                694,
+                739,
+                718
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "即证  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x + \\ln a + 1 + a^2 - x > 2\\ln a + \\frac{3}{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", 即证  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a^2 - \\frac{1}{2} - \\ln a > 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": ","
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                730,
+                613,
+                753
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "令  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(a)=a^{2}-\\frac{1}{2}-\\ln a(a>0)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g'(a)=2a-\\frac{1}{a}=\\frac{2a^{2}-1}{a}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，令  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g'(a)<0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "0<a<\\frac{\\sqrt{2}}{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ;"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                768,
+                820,
+                793
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "令  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g^{\\prime}(a) > 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a > \\frac{\\sqrt{2}}{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ；所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(a)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left(0,\\frac{\\sqrt{2}}{2}\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 上单调递减，在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left(\\frac{\\sqrt{2}}{2}, + \\infty\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 上单调递增，"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                802,
+                774,
+                829
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(a)_{\\min} = g\\left(\\frac{\\sqrt{2}}{2}\\right) = \\left(\\frac{\\sqrt{2}}{2}\\right)^2 -\\frac{1}{2} -\\ln \\frac{\\sqrt{2}}{2} = \\ln \\sqrt{2} >0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(a) > 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 恒成立，"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                840,
+                719,
+                868
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "所以当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a > 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x) > 2\\ln a + \\frac{3}{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 恒成立，证毕."
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                878,
+                515,
+                902
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "答案第4页，共4页"
+                    }
+                ]
+            },
+            "bbox": [
+                416,
+                958,
+                579,
+                973
+            ]
+        }
+    ]
+]

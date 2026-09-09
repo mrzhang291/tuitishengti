@@ -1,0 +1,4 @@
+interface:
+  display_name: "原题错题集与智能新题助手"
+  short_description: "整理原题错题集，并按知识点教学链生成安全新题"
+  default_prompt: "Use $smart-question-recommender-v3 to build a source-question error set, create a knowledge-point teaching chain before optional student personalization, diagnose from safe evidence without merging source stems, then generate each independently verified new question from exactly one mother-question or verified Skill blueprint anchor."

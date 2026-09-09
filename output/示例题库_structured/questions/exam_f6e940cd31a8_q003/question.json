@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_f6e940cd31a8_q003",
+  "display_id": "EXAM-F6E940CD31A8-Q003",
+  "source_exam": "深圳中学 2024 级高二数学周测（3）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（3）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（3）参考答案.md",
+  "question_number": 3,
+  "question_type": "single_choice",
+  "stem_markdown": "### 3. 曲线 $y = 2\\sin x + \\cos x$ 在点 $(\\pi, -1)$ 处的切线方程为\n\nA. $x - y - \\pi - 1 = 0$\n\nB. $2x - y - 2\\pi - 1 = 0$\n\nC. $2x + y - 2\\pi + 1 = 0$\n\nD. $x + y - \\pi + 1 = 0$",
+  "stem_html": "<h3>3. 曲线 $y = 2\\sin x + \\cos x$ 在点 $(\\pi, -1)$ 处的切线方程为</h3>\n<p>A. $x - y - \\pi - 1 = 0$</p>\n<p>B. $2x - y - 2\\pi - 1 = 0$</p>\n<p>C. $2x + y - 2\\pi + 1 = 0$</p>\n<p>D. $x + y - \\pi + 1 = 0$</p>",
+  "options": {
+    "A": "$x - y - \\pi - 1 = 0$",
+    "B": "$2x - y - 2\\pi - 1 = 0$",
+    "C": "$2x + y - 2\\pi + 1 = 0$",
+    "D": "$x + y - \\pi + 1 = 0$"
+  },
+  "answer": "C",
+  "solution_markdown": "",
+  "solution_html": "",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [
+    "missing_solution"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.732769+00:00",
+    "question_source_sha256": "78a4bb6656c35dbe613a79b0ed7dccc993b5c108f4f5c32b995a022aaa492633",
+    "solution_source_sha256": "86a4c5fab883e5128818dbb75724d3042d0c55a8ea81c7cdffedbb262214e02c"
+  }
+}

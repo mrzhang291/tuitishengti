@@ -1,0 +1,1141 @@
+{
+  "schema_version": "knowledge-teaching-chains-v1",
+  "generated_at": "2026-08-05T08:24:03.175016+00:00",
+  "scope": "knowledge_practice",
+  "logic": "knowledge_first_before_student_profile",
+  "recommendation_logic_version": "knowledge-teaching-chain-scoring-v1",
+  "student_specific": false,
+  "chain_count": 10,
+  "skipped_chain_count": 1,
+  "chains": [
+    {
+      "chain_id": "knowledge-chain-87a6931c89",
+      "primary_knowledge": "导数与微分·导数定义·平均变化率与瞬时变化率",
+      "question_type": "single_choice",
+      "logic": "knowledge_first",
+      "recommendation_logic_version": "knowledge-teaching-chain-scoring-v1",
+      "student_specific": false,
+      "stages": [
+        {
+          "stage": "prototype_consolidation",
+          "label": "原型巩固",
+          "target_level": 2,
+          "teaching_goal": "先稳住该知识点的核心概念、公式入口和一阶方法",
+          "changed_dimensions": [
+            "question_angle",
+            "condition_organization"
+          ],
+          "candidate_question_id": "gen_student_KNOWLEDGE_1_bea3d80e32ce",
+          "candidate_score": 0.847,
+          "candidate_estimated_level": 2,
+          "candidate_difficulty_matches": true
+        },
+        {
+          "stage": "method_variant",
+          "label": "同法变式",
+          "target_level": 3,
+          "teaching_goal": "在同一考法下更换表述或条件组织，训练识别方法而不是背题",
+          "changed_dimensions": [
+            "representation",
+            "condition_organization"
+          ],
+          "candidate_question_id": "gen_student_KNOWLEDGE_2_c02eac96ad6c",
+          "candidate_score": 0.65,
+          "candidate_estimated_level": 4,
+          "candidate_difficulty_matches": true
+        },
+        {
+          "stage": "transfer_variant",
+          "label": "迁移提升",
+          "target_level": 4,
+          "teaching_goal": "把核心方法迁移到新设问、新函数族或综合条件中",
+          "changed_dimensions": [
+            "reasoning_path",
+            "context"
+          ],
+          "candidate_question_id": "gen_student_KNOWLEDGE_3_8aea8d17b64b",
+          "candidate_score": 0.405,
+          "candidate_estimated_level": 2,
+          "candidate_difficulty_matches": false
+        }
+      ],
+      "reference_question_ids": [
+        "exam_7bee64bb5191_q001",
+        "exam_7bee64bb5191_q002",
+        "exam_7bee64bb5191_q003",
+        "exam_7bee64bb5191_q008",
+        "exam_5267945b2a8f_q008"
+      ],
+      "reference_count": 5,
+      "candidate_ranking": [
+        {
+          "question_id": "gen_student_KNOWLEDGE_1_bea3d80e32ce",
+          "candidate_index": 1,
+          "chain_stage": "prototype_consolidation",
+          "target_level": 2,
+          "estimated_level": 2,
+          "score": 0.847,
+          "duplication_risk": "low",
+          "difficulty_matches": true,
+          "rationale": [
+            "题源安全分 0.62",
+            "原型巩固阶段匹配分 1.00",
+            "目标2级，规则估计2级",
+            "结构新颖分 0.68，重复风险 low"
+          ]
+        },
+        {
+          "question_id": "gen_student_KNOWLEDGE_2_c02eac96ad6c",
+          "candidate_index": 2,
+          "chain_stage": "method_variant",
+          "target_level": 3,
+          "estimated_level": 4,
+          "score": 0.65,
+          "duplication_risk": "high",
+          "difficulty_matches": true,
+          "rationale": [
+            "题源安全分 0.62",
+            "同法变式阶段匹配分 0.78",
+            "目标3级，规则估计4级",
+            "结构新颖分 0.30，重复风险 high",
+            "与安全参考题的教学结构过近，实时生成时应换方法族、函数族或推理路径"
+          ]
+        },
+        {
+          "question_id": "gen_student_KNOWLEDGE_3_8aea8d17b64b",
+          "candidate_index": 3,
+          "chain_stage": "transfer_variant",
+          "target_level": 4,
+          "estimated_level": 2,
+          "score": 0.405,
+          "duplication_risk": "low",
+          "difficulty_matches": false,
+          "rationale": [
+            "题源安全分 0.62",
+            "迁移提升阶段匹配分 0.06",
+            "目标4级，规则估计2级",
+            "结构新颖分 0.54，重复风险 low",
+            "难度合同未完全匹配，不应直接标为通过"
+          ]
+        }
+      ]
+    },
+    {
+      "chain_id": "knowledge-chain-8339bb07ce",
+      "primary_knowledge": "导数与微分·求导运算·基本函数求导",
+      "question_type": "single_choice",
+      "logic": "knowledge_first",
+      "recommendation_logic_version": "knowledge-teaching-chain-scoring-v1",
+      "student_specific": false,
+      "stages": [
+        {
+          "stage": "prototype_consolidation",
+          "label": "原型巩固",
+          "target_level": 2,
+          "teaching_goal": "先稳住该知识点的核心概念、公式入口和一阶方法",
+          "changed_dimensions": [
+            "question_angle",
+            "condition_organization"
+          ],
+          "candidate_question_id": "gen_student_KNOWLEDGE_1_de815fa5bc78",
+          "candidate_score": 0.825,
+          "candidate_estimated_level": 2,
+          "candidate_difficulty_matches": true
+        },
+        {
+          "stage": "method_variant",
+          "label": "同法变式",
+          "target_level": 3,
+          "teaching_goal": "在同一考法下更换表述或条件组织，训练识别方法而不是背题",
+          "changed_dimensions": [
+            "representation",
+            "condition_organization"
+          ],
+          "candidate_question_id": "gen_student_KNOWLEDGE_2_6038e7ee9eb5",
+          "candidate_score": 0.623,
+          "candidate_estimated_level": 2,
+          "candidate_difficulty_matches": false
+        },
+        {
+          "stage": "transfer_variant",
+          "label": "迁移提升",
+          "target_level": 4,
+          "teaching_goal": "把核心方法迁移到新设问、新函数族或综合条件中",
+          "changed_dimensions": [
+            "reasoning_path",
+            "context"
+          ],
+          "candidate_question_id": "gen_student_KNOWLEDGE_3_bd1da1ac5b04",
+          "candidate_score": 0.412,
+          "candidate_estimated_level": 2,
+          "candidate_difficulty_matches": false
+        }
+      ],
+      "reference_question_ids": [
+        "exam_ed507f8efdc5_q013",
+        "exam_64d466db9a64_q009",
+        "exam_7bee64bb5191_q009",
+        "exam_7bee64bb5191_q011",
+        "exam_58879b65c6e5_q006"
+      ],
+      "reference_count": 5,
+      "candidate_ranking": [
+        {
+          "question_id": "gen_student_KNOWLEDGE_1_de815fa5bc78",
+          "candidate_index": 1,
+          "chain_stage": "prototype_consolidation",
+          "target_level": 2,
+          "estimated_level": 2,
+          "score": 0.825,
+          "duplication_risk": "high",
+          "difficulty_matches": true,
+          "rationale": [
+            "题源安全分 0.82",
+            "原型巩固阶段匹配分 1.00",
+            "目标2级，规则估计2级",
+            "结构新颖分 0.28，重复风险 high",
+            "与安全参考题的教学结构过近，实时生成时应换方法族、函数族或推理路径"
+          ]
+        },
+        {
+          "question_id": "gen_student_KNOWLEDGE_2_6038e7ee9eb5",
+          "candidate_index": 2,
+          "chain_stage": "method_variant",
+          "target_level": 3,
+          "estimated_level": 2,
+          "score": 0.623,
+          "duplication_risk": "high",
+          "difficulty_matches": false,
+          "rationale": [
+            "题源安全分 0.82",
+            "同法变式阶段匹配分 0.80",
+            "目标3级，规则估计2级",
+            "结构新颖分 0.20，重复风险 high",
+            "与安全参考题的教学结构过近，实时生成时应换方法族、函数族或推理路径",
+            "难度合同未完全匹配，不应直接标为通过"
+          ]
+        },
+        {
+          "question_id": "gen_student_KNOWLEDGE_3_bd1da1ac5b04",
+          "candidate_index": 3,
+          "chain_stage": "transfer_variant",
+          "target_level": 4,
+          "estimated_level": 2,
+          "score": 0.412,
+          "duplication_risk": "medium",
+          "difficulty_matches": false,
+          "rationale": [
+            "题源安全分 0.82",
+            "迁移提升阶段匹配分 0.06",
+            "目标4级，规则估计2级",
+            "结构新颖分 0.30，重复风险 medium",
+            "难度合同未完全匹配，不应直接标为通过"
+          ]
+        }
+      ]
+    },
+    {
+      "chain_id": "knowledge-chain-975fb2f0a6",
+      "primary_knowledge": "导数与微分·切线方程·求切线",
+      "question_type": "single_choice",
+      "logic": "knowledge_first",
+      "recommendation_logic_version": "knowledge-teaching-chain-scoring-v1",
+      "student_specific": false,
+      "stages": [
+        {
+          "stage": "prototype_consolidation",
+          "label": "原型巩固",
+          "target_level": 2,
+          "teaching_goal": "先稳住该知识点的核心概念、公式入口和一阶方法",
+          "changed_dimensions": [
+            "question_angle",
+            "condition_organization"
+          ],
+          "candidate_question_id": "gen_student_KNOWLEDGE_1_4130ac33c579",
+          "candidate_score": 0.9,
+          "candidate_estimated_level": 2,
+          "candidate_difficulty_matches": true
+        },
+        {
+          "stage": "method_variant",
+          "label": "同法变式",
+          "target_level": 3,
+          "teaching_goal": "在同一考法下更换表述或条件组织，训练识别方法而不是背题",
+          "changed_dimensions": [
+            "representation",
+            "condition_organization"
+          ],
+          "candidate_question_id": "gen_student_KNOWLEDGE_2_e6b5bca38bfd",
+          "candidate_score": 0.774,
+          "candidate_estimated_level": 3,
+          "candidate_difficulty_matches": true
+        },
+        {
+          "stage": "transfer_variant",
+          "label": "迁移提升",
+          "target_level": 4,
+          "teaching_goal": "把核心方法迁移到新设问、新函数族或综合条件中",
+          "changed_dimensions": [
+            "reasoning_path",
+            "context"
+          ],
+          "candidate_question_id": "gen_student_KNOWLEDGE_3_7cdfc6979ff2",
+          "candidate_score": 0.457,
+          "candidate_estimated_level": 2,
+          "candidate_difficulty_matches": false
+        }
+      ],
+      "reference_question_ids": [
+        "exam_5267945b2a8f_q013",
+        "exam_7bee64bb5191_q013",
+        "exam_64d466db9a64_q010",
+        "exam_ed507f8efdc5_q009",
+        "exam_5267945b2a8f_q008"
+      ],
+      "reference_count": 5,
+      "candidate_ranking": [
+        {
+          "question_id": "gen_student_KNOWLEDGE_1_4130ac33c579",
+          "candidate_index": 1,
+          "chain_stage": "prototype_consolidation",
+          "target_level": 2,
+          "estimated_level": 2,
+          "score": 0.9,
+          "duplication_risk": "low",
+          "difficulty_matches": true,
+          "rationale": [
+            "题源安全分 0.67",
+            "原型巩固阶段匹配分 1.00",
+            "目标2级，规则估计2级",
+            "结构新颖分 0.90，重复风险 low"
+          ]
+        },
+        {
+          "question_id": "gen_student_KNOWLEDGE_2_e6b5bca38bfd",
+          "candidate_index": 2,
+          "chain_stage": "method_variant",
+          "target_level": 3,
+          "estimated_level": 3,
+          "score": 0.774,
+          "duplication_risk": "high",
+          "difficulty_matches": true,
+          "rationale": [
+            "题源安全分 0.67",
+            "同法变式阶段匹配分 1.00",
+            "目标3级，规则估计3级",
+            "结构新颖分 0.20，重复风险 high",
+            "与安全参考题的教学结构过近，实时生成时应换方法族、函数族或推理路径"
+          ]
+        },
+        {
+          "question_id": "gen_student_KNOWLEDGE_3_7cdfc6979ff2",
+          "candidate_index": 3,
+          "chain_stage": "transfer_variant",
+          "target_level": 4,
+          "estimated_level": 2,
+          "score": 0.457,
+          "duplication_risk": "low",
+          "difficulty_matches": false,
+          "rationale": [
+            "题源安全分 0.67",
+            "迁移提升阶段匹配分 0.06",
+            "目标4级，规则估计2级",
+            "结构新颖分 0.76，重复风险 low",
+            "难度合同未完全匹配，不应直接标为通过"
+          ]
+        }
+      ]
+    },
+    {
+      "chain_id": "knowledge-chain-4c797f3e8c",
+      "primary_knowledge": "导数应用·极值与最值·求最值",
+      "question_type": "fill_blank",
+      "logic": "knowledge_first",
+      "recommendation_logic_version": "knowledge-teaching-chain-scoring-v1",
+      "student_specific": false,
+      "stages": [
+        {
+          "stage": "prototype_consolidation",
+          "label": "原型巩固",
+          "target_level": 2,
+          "teaching_goal": "先稳住该知识点的核心概念、公式入口和一阶方法",
+          "changed_dimensions": [
+            "question_angle",
+            "condition_organization"
+          ],
+          "candidate_question_id": "gen_student_KNOWLEDGE_1_dee55b18948c",
+          "candidate_score": 0.912,
+          "candidate_estimated_level": 2,
+          "candidate_difficulty_matches": true
+        },
+        {
+          "stage": "method_variant",
+          "label": "同法变式",
+          "target_level": 3,
+          "teaching_goal": "在同一考法下更换表述或条件组织，训练识别方法而不是背题",
+          "changed_dimensions": [
+            "representation",
+            "condition_organization"
+          ],
+          "candidate_question_id": "gen_student_KNOWLEDGE_2_40162099e62c",
+          "candidate_score": 0.681,
+          "candidate_estimated_level": 2,
+          "candidate_difficulty_matches": false
+        },
+        {
+          "stage": "transfer_variant",
+          "label": "迁移提升",
+          "target_level": 4,
+          "teaching_goal": "把核心方法迁移到新设问、新函数族或综合条件中",
+          "changed_dimensions": [
+            "reasoning_path",
+            "context"
+          ],
+          "candidate_question_id": "gen_student_KNOWLEDGE_3_eb5953d6ee09",
+          "candidate_score": 0.693,
+          "candidate_estimated_level": 3,
+          "candidate_difficulty_matches": false
+        }
+      ],
+      "reference_question_ids": [
+        "exam_64d466db9a64_q013",
+        "exam_58879b65c6e5_q010",
+        "exam_7bee64bb5191_q006",
+        "exam_ed507f8efdc5_q005",
+        "exam_f6e940cd31a8_q007"
+      ],
+      "reference_count": 5,
+      "candidate_ranking": [
+        {
+          "question_id": "gen_student_KNOWLEDGE_1_dee55b18948c",
+          "candidate_index": 1,
+          "chain_stage": "prototype_consolidation",
+          "target_level": 2,
+          "estimated_level": 2,
+          "score": 0.912,
+          "duplication_risk": "low",
+          "difficulty_matches": true,
+          "rationale": [
+            "题源安全分 0.82",
+            "原型巩固阶段匹配分 1.00",
+            "目标2级，规则估计2级",
+            "结构新颖分 0.76，重复风险 low"
+          ]
+        },
+        {
+          "question_id": "gen_student_KNOWLEDGE_3_eb5953d6ee09",
+          "candidate_index": 3,
+          "chain_stage": "transfer_variant",
+          "target_level": 4,
+          "estimated_level": 3,
+          "score": 0.693,
+          "duplication_risk": "low",
+          "difficulty_matches": false,
+          "rationale": [
+            "题源安全分 0.82",
+            "迁移提升阶段匹配分 0.72",
+            "目标4级，规则估计3级",
+            "结构新颖分 0.58，重复风险 low",
+            "难度合同未完全匹配，不应直接标为通过"
+          ]
+        },
+        {
+          "question_id": "gen_student_KNOWLEDGE_2_40162099e62c",
+          "candidate_index": 2,
+          "chain_stage": "method_variant",
+          "target_level": 3,
+          "estimated_level": 2,
+          "score": 0.681,
+          "duplication_risk": "medium",
+          "difficulty_matches": false,
+          "rationale": [
+            "题源安全分 0.82",
+            "同法变式阶段匹配分 0.80",
+            "目标3级，规则估计2级",
+            "结构新颖分 0.52，重复风险 medium",
+            "难度合同未完全匹配，不应直接标为通过"
+          ]
+        }
+      ]
+    },
+    {
+      "chain_id": "knowledge-chain-463963e658",
+      "primary_knowledge": "函数综合·函数性质·奇偶性与周期性",
+      "question_type": "single_choice",
+      "logic": "knowledge_first",
+      "recommendation_logic_version": "knowledge-teaching-chain-scoring-v1",
+      "student_specific": false,
+      "stages": [
+        {
+          "stage": "prototype_consolidation",
+          "label": "原型巩固",
+          "target_level": 2,
+          "teaching_goal": "先稳住该知识点的核心概念、公式入口和一阶方法",
+          "changed_dimensions": [
+            "question_angle",
+            "condition_organization"
+          ],
+          "candidate_question_id": "gen_student_KNOWLEDGE_1_2a3172584232",
+          "candidate_score": 0.858,
+          "candidate_estimated_level": 2,
+          "candidate_difficulty_matches": true
+        },
+        {
+          "stage": "method_variant",
+          "label": "同法变式",
+          "target_level": 3,
+          "teaching_goal": "在同一考法下更换表述或条件组织，训练识别方法而不是背题",
+          "changed_dimensions": [
+            "representation",
+            "condition_organization"
+          ],
+          "candidate_question_id": "gen_student_KNOWLEDGE_2_8ca67019812d",
+          "candidate_score": 0.843,
+          "candidate_estimated_level": 3,
+          "candidate_difficulty_matches": true
+        },
+        {
+          "stage": "transfer_variant",
+          "label": "迁移提升",
+          "target_level": 4,
+          "teaching_goal": "把核心方法迁移到新设问、新函数族或综合条件中",
+          "changed_dimensions": [
+            "reasoning_path",
+            "context"
+          ],
+          "candidate_question_id": "gen_student_KNOWLEDGE_3_2adb72e0b8de",
+          "candidate_score": 0.5,
+          "candidate_estimated_level": 2,
+          "candidate_difficulty_matches": false
+        }
+      ],
+      "reference_question_ids": [
+        "exam_7bee64bb5191_q012",
+        "exam_64d466db9a64_q011",
+        "exam_982ba095d8f8_q008",
+        "exam_ed507f8efdc5_q004",
+        "exam_ed507f8efdc5_q011"
+      ],
+      "reference_count": 5,
+      "candidate_ranking": [
+        {
+          "question_id": "gen_student_KNOWLEDGE_1_2a3172584232",
+          "candidate_index": 1,
+          "chain_stage": "prototype_consolidation",
+          "target_level": 2,
+          "estimated_level": 2,
+          "score": 0.858,
+          "duplication_risk": "medium",
+          "difficulty_matches": true,
+          "rationale": [
+            "题源安全分 0.82",
+            "原型巩固阶段匹配分 1.00",
+            "目标2级，规则估计2级",
+            "结构新颖分 0.46，重复风险 medium"
+          ]
+        },
+        {
+          "question_id": "gen_student_KNOWLEDGE_2_8ca67019812d",
+          "candidate_index": 2,
+          "chain_stage": "method_variant",
+          "target_level": 3,
+          "estimated_level": 3,
+          "score": 0.843,
+          "duplication_risk": "medium",
+          "difficulty_matches": true,
+          "rationale": [
+            "题源安全分 0.82",
+            "同法变式阶段匹配分 1.00",
+            "目标3级，规则估计3级",
+            "结构新颖分 0.38，重复风险 medium"
+          ]
+        },
+        {
+          "question_id": "gen_student_KNOWLEDGE_3_2adb72e0b8de",
+          "candidate_index": 3,
+          "chain_stage": "transfer_variant",
+          "target_level": 4,
+          "estimated_level": 2,
+          "score": 0.5,
+          "duplication_risk": "medium",
+          "difficulty_matches": false,
+          "rationale": [
+            "题源安全分 0.82",
+            "迁移提升阶段匹配分 0.36",
+            "目标4级，规则估计2级",
+            "结构新颖分 0.32，重复风险 medium",
+            "难度合同未完全匹配，不应直接标为通过"
+          ]
+        }
+      ]
+    },
+    {
+      "chain_id": "knowledge-chain-876c9ac26a",
+      "primary_knowledge": "导数应用·单调性·判断单调区间",
+      "question_type": "fill_blank",
+      "logic": "knowledge_first",
+      "recommendation_logic_version": "knowledge-teaching-chain-scoring-v1",
+      "student_specific": false,
+      "stages": [
+        {
+          "stage": "prototype_consolidation",
+          "label": "原型巩固",
+          "target_level": 2,
+          "teaching_goal": "先稳住该知识点的核心概念、公式入口和一阶方法",
+          "changed_dimensions": [
+            "question_angle",
+            "condition_organization"
+          ],
+          "candidate_question_id": "gen_student_KNOWLEDGE_1_ac1b8828299c",
+          "candidate_score": 0.709,
+          "candidate_estimated_level": 3,
+          "candidate_difficulty_matches": true
+        },
+        {
+          "stage": "method_variant",
+          "label": "同法变式",
+          "target_level": 3,
+          "teaching_goal": "在同一考法下更换表述或条件组织，训练识别方法而不是背题",
+          "changed_dimensions": [
+            "representation",
+            "condition_organization"
+          ],
+          "candidate_question_id": "gen_student_KNOWLEDGE_2_df5cd62057db",
+          "candidate_score": 0.84,
+          "candidate_estimated_level": 3,
+          "candidate_difficulty_matches": true
+        },
+        {
+          "stage": "transfer_variant",
+          "label": "迁移提升",
+          "target_level": 4,
+          "teaching_goal": "把核心方法迁移到新设问、新函数族或综合条件中",
+          "changed_dimensions": [
+            "reasoning_path",
+            "context"
+          ],
+          "candidate_question_id": "gen_student_KNOWLEDGE_3_ba04d94313ba",
+          "candidate_score": 0.643,
+          "candidate_estimated_level": 3,
+          "candidate_difficulty_matches": false
+        }
+      ],
+      "reference_question_ids": [
+        "exam_58879b65c6e5_q013",
+        "exam_ed507f8efdc5_q012",
+        "exam_ed507f8efdc5_q011",
+        "exam_64d466db9a64_q015",
+        "exam_7bee64bb5191_q001"
+      ],
+      "reference_count": 5,
+      "candidate_ranking": [
+        {
+          "question_id": "gen_student_KNOWLEDGE_2_df5cd62057db",
+          "candidate_index": 2,
+          "chain_stage": "method_variant",
+          "target_level": 3,
+          "estimated_level": 3,
+          "score": 0.84,
+          "duplication_risk": "medium",
+          "difficulty_matches": true,
+          "rationale": [
+            "题源安全分 0.82",
+            "同法变式阶段匹配分 1.00",
+            "目标3级，规则估计3级",
+            "结构新颖分 0.36，重复风险 medium"
+          ]
+        },
+        {
+          "question_id": "gen_student_KNOWLEDGE_1_ac1b8828299c",
+          "candidate_index": 1,
+          "chain_stage": "prototype_consolidation",
+          "target_level": 2,
+          "estimated_level": 3,
+          "score": 0.709,
+          "duplication_risk": "medium",
+          "difficulty_matches": true,
+          "rationale": [
+            "题源安全分 0.82",
+            "原型巩固阶段匹配分 0.72",
+            "目标2级，规则估计3级",
+            "结构新颖分 0.44，重复风险 medium"
+          ]
+        },
+        {
+          "question_id": "gen_student_KNOWLEDGE_3_ba04d94313ba",
+          "candidate_index": 3,
+          "chain_stage": "transfer_variant",
+          "target_level": 4,
+          "estimated_level": 3,
+          "score": 0.643,
+          "duplication_risk": "medium",
+          "difficulty_matches": false,
+          "rationale": [
+            "题源安全分 0.82",
+            "迁移提升阶段匹配分 0.72",
+            "目标4级，规则估计3级",
+            "结构新颖分 0.30，重复风险 medium",
+            "难度合同未完全匹配，不应直接标为通过"
+          ]
+        }
+      ]
+    },
+    {
+      "chain_id": "knowledge-chain-636cb78e4d",
+      "primary_knowledge": "导数应用·不等式证明·构造函数证明",
+      "question_type": "single_choice",
+      "logic": "knowledge_first",
+      "recommendation_logic_version": "knowledge-teaching-chain-scoring-v1",
+      "student_specific": false,
+      "stages": [
+        {
+          "stage": "prototype_consolidation",
+          "label": "原型巩固",
+          "target_level": 2,
+          "teaching_goal": "先稳住该知识点的核心概念、公式入口和一阶方法",
+          "changed_dimensions": [
+            "question_angle",
+            "condition_organization"
+          ],
+          "candidate_question_id": "gen_student_KNOWLEDGE_1_29f731b47dbc",
+          "candidate_score": 0.506,
+          "candidate_estimated_level": 4,
+          "candidate_difficulty_matches": false
+        },
+        {
+          "stage": "method_variant",
+          "label": "同法变式",
+          "target_level": 3,
+          "teaching_goal": "在同一考法下更换表述或条件组织，训练识别方法而不是背题",
+          "changed_dimensions": [
+            "representation",
+            "condition_organization"
+          ],
+          "candidate_question_id": "gen_student_KNOWLEDGE_2_501a52d59a7d",
+          "candidate_score": 0.835,
+          "candidate_estimated_level": 3,
+          "candidate_difficulty_matches": true
+        },
+        {
+          "stage": "transfer_variant",
+          "label": "迁移提升",
+          "target_level": 4,
+          "teaching_goal": "把核心方法迁移到新设问、新函数族或综合条件中",
+          "changed_dimensions": [
+            "reasoning_path",
+            "context"
+          ],
+          "candidate_question_id": "gen_student_KNOWLEDGE_3_067ac0b8dd1f",
+          "candidate_score": 0.677,
+          "candidate_estimated_level": 3,
+          "candidate_difficulty_matches": false
+        }
+      ],
+      "reference_question_ids": [
+        "exam_5267945b2a8f_q014",
+        "exam_ed507f8efdc5_q010",
+        "exam_64d466db9a64_q006",
+        "exam_982ba095d8f8_q006",
+        "exam_f6e940cd31a8_q008"
+      ],
+      "reference_count": 5,
+      "candidate_ranking": [
+        {
+          "question_id": "gen_student_KNOWLEDGE_2_501a52d59a7d",
+          "candidate_index": 2,
+          "chain_stage": "method_variant",
+          "target_level": 3,
+          "estimated_level": 3,
+          "score": 0.835,
+          "duplication_risk": "medium",
+          "difficulty_matches": true,
+          "rationale": [
+            "题源安全分 0.67",
+            "同法变式阶段匹配分 1.00",
+            "目标3级，规则估计3级",
+            "结构新颖分 0.54，重复风险 medium"
+          ]
+        },
+        {
+          "question_id": "gen_student_KNOWLEDGE_3_067ac0b8dd1f",
+          "candidate_index": 3,
+          "chain_stage": "transfer_variant",
+          "target_level": 4,
+          "estimated_level": 3,
+          "score": 0.677,
+          "duplication_risk": "low",
+          "difficulty_matches": false,
+          "rationale": [
+            "题源安全分 0.67",
+            "迁移提升阶段匹配分 0.72",
+            "目标4级，规则估计3级",
+            "结构新颖分 0.70，重复风险 low",
+            "难度合同未完全匹配，不应直接标为通过"
+          ]
+        },
+        {
+          "question_id": "gen_student_KNOWLEDGE_1_29f731b47dbc",
+          "candidate_index": 1,
+          "chain_stage": "prototype_consolidation",
+          "target_level": 2,
+          "estimated_level": 4,
+          "score": 0.506,
+          "duplication_risk": "low",
+          "difficulty_matches": false,
+          "rationale": [
+            "题源安全分 0.67",
+            "原型巩固阶段匹配分 0.18",
+            "目标2级，规则估计4级",
+            "结构新颖分 0.84，重复风险 low",
+            "难度合同未完全匹配，不应直接标为通过"
+          ]
+        }
+      ]
+    },
+    {
+      "chain_id": "knowledge-chain-13fc68ce60",
+      "primary_knowledge": "导数应用·极值与最值·求极值",
+      "question_type": "multiple_choice",
+      "logic": "knowledge_first",
+      "recommendation_logic_version": "knowledge-teaching-chain-scoring-v1",
+      "student_specific": false,
+      "stages": [
+        {
+          "stage": "prototype_consolidation",
+          "label": "原型巩固",
+          "target_level": 2,
+          "teaching_goal": "先稳住该知识点的核心概念、公式入口和一阶方法",
+          "changed_dimensions": [
+            "question_angle",
+            "condition_organization"
+          ],
+          "candidate_question_id": "gen_student_KNOWLEDGE_1_4d2a6fcf3427",
+          "candidate_score": 0.575,
+          "candidate_estimated_level": 4,
+          "candidate_difficulty_matches": false
+        },
+        {
+          "stage": "method_variant",
+          "label": "同法变式",
+          "target_level": 3,
+          "teaching_goal": "在同一考法下更换表述或条件组织，训练识别方法而不是背题",
+          "changed_dimensions": [
+            "representation",
+            "condition_organization"
+          ],
+          "candidate_question_id": "gen_student_KNOWLEDGE_2_6304fd928059",
+          "candidate_score": 0.783,
+          "candidate_estimated_level": 4,
+          "candidate_difficulty_matches": true
+        },
+        {
+          "stage": "transfer_variant",
+          "label": "迁移提升",
+          "target_level": 4,
+          "teaching_goal": "把核心方法迁移到新设问、新函数族或综合条件中",
+          "changed_dimensions": [
+            "reasoning_path",
+            "context"
+          ],
+          "candidate_question_id": "gen_student_KNOWLEDGE_3_88ccd30b21c4",
+          "candidate_score": 0.545,
+          "candidate_estimated_level": 2,
+          "candidate_difficulty_matches": false
+        }
+      ],
+      "reference_question_ids": [
+        "exam_5267945b2a8f_q011",
+        "exam_58879b65c6e5_q011",
+        "exam_b01a97c7a11b_q010",
+        "exam_58879b65c6e5_q007",
+        "exam_982ba095d8f8_q003"
+      ],
+      "reference_count": 5,
+      "candidate_ranking": [
+        {
+          "question_id": "gen_student_KNOWLEDGE_2_6304fd928059",
+          "candidate_index": 2,
+          "chain_stage": "method_variant",
+          "target_level": 3,
+          "estimated_level": 4,
+          "score": 0.783,
+          "duplication_risk": "low",
+          "difficulty_matches": true,
+          "rationale": [
+            "题源安全分 0.82",
+            "同法变式阶段匹配分 0.78",
+            "目标3级，规则估计4级",
+            "结构新颖分 0.76，重复风险 low"
+          ]
+        },
+        {
+          "question_id": "gen_student_KNOWLEDGE_1_4d2a6fcf3427",
+          "candidate_index": 1,
+          "chain_stage": "prototype_consolidation",
+          "target_level": 2,
+          "estimated_level": 4,
+          "score": 0.575,
+          "duplication_risk": "low",
+          "difficulty_matches": false,
+          "rationale": [
+            "题源安全分 0.82",
+            "原型巩固阶段匹配分 0.36",
+            "目标2级，规则估计4级",
+            "结构新颖分 0.74，重复风险 low",
+            "难度合同未完全匹配，不应直接标为通过"
+          ]
+        },
+        {
+          "question_id": "gen_student_KNOWLEDGE_3_88ccd30b21c4",
+          "candidate_index": 3,
+          "chain_stage": "transfer_variant",
+          "target_level": 4,
+          "estimated_level": 2,
+          "score": 0.545,
+          "duplication_risk": "low",
+          "difficulty_matches": false,
+          "rationale": [
+            "题源安全分 0.82",
+            "迁移提升阶段匹配分 0.16",
+            "目标4级，规则估计2级",
+            "结构新颖分 0.88，重复风险 low",
+            "难度合同未完全匹配，不应直接标为通过"
+          ]
+        }
+      ]
+    },
+    {
+      "chain_id": "knowledge-chain-2968c6d5f5",
+      "primary_knowledge": "概率统计·概率模型·全概率公式",
+      "question_type": "single_choice",
+      "logic": "knowledge_first",
+      "recommendation_logic_version": "knowledge-teaching-chain-scoring-v1",
+      "student_specific": false,
+      "stages": [
+        {
+          "stage": "prototype_consolidation",
+          "label": "原型巩固",
+          "target_level": 2,
+          "teaching_goal": "先稳住该知识点的核心概念、公式入口和一阶方法",
+          "changed_dimensions": [
+            "question_angle",
+            "condition_organization"
+          ],
+          "candidate_question_id": "gen_student_KNOWLEDGE_1_1cf10200045f",
+          "candidate_score": 0.68,
+          "candidate_estimated_level": 3,
+          "candidate_difficulty_matches": true
+        },
+        {
+          "stage": "method_variant",
+          "label": "同法变式",
+          "target_level": 3,
+          "teaching_goal": "在同一考法下更换表述或条件组织，训练识别方法而不是背题",
+          "changed_dimensions": [
+            "representation",
+            "condition_organization"
+          ],
+          "candidate_question_id": "gen_student_KNOWLEDGE_2_f0ae48b381ee",
+          "candidate_score": 0.811,
+          "candidate_estimated_level": 3,
+          "candidate_difficulty_matches": true
+        },
+        {
+          "stage": "transfer_variant",
+          "label": "迁移提升",
+          "target_level": 4,
+          "teaching_goal": "把核心方法迁移到新设问、新函数族或综合条件中",
+          "changed_dimensions": [
+            "reasoning_path",
+            "context"
+          ],
+          "candidate_question_id": "gen_student_KNOWLEDGE_3_7c57326087f6",
+          "candidate_score": 0.614,
+          "candidate_estimated_level": 3,
+          "candidate_difficulty_matches": false
+        }
+      ],
+      "reference_question_ids": [
+        "exam_58879b65c6e5_q012",
+        "exam_982ba095d8f8_q014",
+        "exam_5267945b2a8f_q009",
+        "exam_982ba095d8f8_q009",
+        "exam_b01a97c7a11b_q009"
+      ],
+      "reference_count": 5,
+      "candidate_ranking": [
+        {
+          "question_id": "gen_student_KNOWLEDGE_2_f0ae48b381ee",
+          "candidate_index": 2,
+          "chain_stage": "method_variant",
+          "target_level": 3,
+          "estimated_level": 3,
+          "score": 0.811,
+          "duplication_risk": "high",
+          "difficulty_matches": true,
+          "rationale": [
+            "题源安全分 0.82",
+            "同法变式阶段匹配分 1.00",
+            "目标3级，规则估计3级",
+            "结构新颖分 0.20，重复风险 high",
+            "与安全参考题的教学结构过近，实时生成时应换方法族、函数族或推理路径"
+          ]
+        },
+        {
+          "question_id": "gen_student_KNOWLEDGE_1_1cf10200045f",
+          "candidate_index": 1,
+          "chain_stage": "prototype_consolidation",
+          "target_level": 2,
+          "estimated_level": 3,
+          "score": 0.68,
+          "duplication_risk": "high",
+          "difficulty_matches": true,
+          "rationale": [
+            "题源安全分 0.82",
+            "原型巩固阶段匹配分 0.72",
+            "目标2级，规则估计3级",
+            "结构新颖分 0.28，重复风险 high",
+            "与安全参考题的教学结构过近，实时生成时应换方法族、函数族或推理路径"
+          ]
+        },
+        {
+          "question_id": "gen_student_KNOWLEDGE_3_7c57326087f6",
+          "candidate_index": 3,
+          "chain_stage": "transfer_variant",
+          "target_level": 4,
+          "estimated_level": 3,
+          "score": 0.614,
+          "duplication_risk": "high",
+          "difficulty_matches": false,
+          "rationale": [
+            "题源安全分 0.82",
+            "迁移提升阶段匹配分 0.72",
+            "目标4级，规则估计3级",
+            "结构新颖分 0.14，重复风险 high",
+            "与安全参考题的教学结构过近，实时生成时应换方法族、函数族或推理路径",
+            "难度合同未完全匹配，不应直接标为通过"
+          ]
+        }
+      ]
+    },
+    {
+      "chain_id": "knowledge-chain-2277ca2082",
+      "primary_knowledge": "概率统计·数字特征·期望与方差",
+      "question_type": "solution",
+      "logic": "knowledge_first",
+      "recommendation_logic_version": "knowledge-teaching-chain-scoring-v1",
+      "student_specific": false,
+      "stages": [
+        {
+          "stage": "prototype_consolidation",
+          "label": "原型巩固",
+          "target_level": 2,
+          "teaching_goal": "先稳住该知识点的核心概念、公式入口和一阶方法",
+          "changed_dimensions": [
+            "question_angle",
+            "condition_organization"
+          ],
+          "candidate_question_id": "gen_student_KNOWLEDGE_1_f7dd05b5f82b",
+          "candidate_score": 0.665,
+          "candidate_estimated_level": 3,
+          "candidate_difficulty_matches": true
+        },
+        {
+          "stage": "method_variant",
+          "label": "同法变式",
+          "target_level": 3,
+          "teaching_goal": "在同一考法下更换表述或条件组织，训练识别方法而不是背题",
+          "changed_dimensions": [
+            "representation",
+            "condition_organization"
+          ],
+          "candidate_question_id": "gen_student_KNOWLEDGE_2_6d8c7147bdd0",
+          "candidate_score": 0.797,
+          "candidate_estimated_level": 3,
+          "candidate_difficulty_matches": true
+        },
+        {
+          "stage": "transfer_variant",
+          "label": "迁移提升",
+          "target_level": 4,
+          "teaching_goal": "把核心方法迁移到新设问、新函数族或综合条件中",
+          "changed_dimensions": [
+            "reasoning_path",
+            "context"
+          ],
+          "candidate_question_id": "gen_student_KNOWLEDGE_3_4ce965c18839",
+          "candidate_score": 0.786,
+          "candidate_estimated_level": 4,
+          "candidate_difficulty_matches": true
+        }
+      ],
+      "reference_question_ids": [
+        "exam_982ba095d8f8_q013",
+        "exam_982ba095d8f8_q007",
+        "exam_5267945b2a8f_q016",
+        "exam_982ba095d8f8_q004",
+        "exam_b01a97c7a11b_q009"
+      ],
+      "reference_count": 5,
+      "candidate_ranking": [
+        {
+          "question_id": "gen_student_KNOWLEDGE_2_6d8c7147bdd0",
+          "candidate_index": 2,
+          "chain_stage": "method_variant",
+          "target_level": 3,
+          "estimated_level": 3,
+          "score": 0.797,
+          "duplication_risk": "high",
+          "difficulty_matches": true,
+          "rationale": [
+            "题源安全分 0.82",
+            "同法变式阶段匹配分 1.00",
+            "目标3级，规则估计3级",
+            "结构新颖分 0.12，重复风险 high",
+            "与安全参考题的教学结构过近，实时生成时应换方法族、函数族或推理路径"
+          ]
+        },
+        {
+          "question_id": "gen_student_KNOWLEDGE_3_4ce965c18839",
+          "candidate_index": 3,
+          "chain_stage": "transfer_variant",
+          "target_level": 4,
+          "estimated_level": 4,
+          "score": 0.786,
+          "duplication_risk": "high",
+          "difficulty_matches": true,
+          "rationale": [
+            "题源安全分 0.82",
+            "迁移提升阶段匹配分 1.00",
+            "目标4级，规则估计4级",
+            "结构新颖分 0.06，重复风险 high",
+            "与安全参考题的教学结构过近，实时生成时应换方法族、函数族或推理路径"
+          ]
+        },
+        {
+          "question_id": "gen_student_KNOWLEDGE_1_f7dd05b5f82b",
+          "candidate_index": 1,
+          "chain_stage": "prototype_consolidation",
+          "target_level": 2,
+          "estimated_level": 3,
+          "score": 0.665,
+          "duplication_risk": "high",
+          "difficulty_matches": true,
+          "rationale": [
+            "题源安全分 0.82",
+            "原型巩固阶段匹配分 0.72",
+            "目标2级，规则估计3级",
+            "结构新颖分 0.20，重复风险 high",
+            "与安全参考题的教学结构过近，实时生成时应换方法族、函数族或推理路径"
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped_chains": [
+    {
+      "primary_knowledge": "导数应用·零点问题·函数零点个数",
+      "reason": "KNOWLEDGE / 导数应用·零点问题·函数零点个数: fewer than three safe reference questions"
+    }
+  ]
+}

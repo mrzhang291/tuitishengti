@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_ed507f8efdc5_q001",
+  "display_id": "EXAM-ED507F8EFDC5-Q001",
+  "source_exam": "深圳中学 2024 级高二数学周测（2）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（2）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（2）解析.md",
+  "question_number": 1,
+  "question_type": "single_choice",
+  "stem_markdown": "### 1. 曲线 $y = \\frac{e^x}{x + 1}$ 在点 $\\left(1, \\frac{e}{2}\\right)$ 处的切线方程为（）\n\nA. $y = \\frac{e}{4} x$\n\nB. $y = \\frac{e}{2} x$\n\nC. $y = \\frac{e}{4} x + \\frac{e}{4}$\n\nD. $y = \\frac{e}{2} x + \\frac{3e}{4}$",
+  "stem_html": "<h3>1. 曲线 $y = \\frac{e^x}{x + 1}$ 在点 $\\left(1, \\frac{e}{2}\\right)$ 处的切线方程为（）</h3>\n<p>A. $y = \\frac{e}{4} x$</p>\n<p>B. $y = \\frac{e}{2} x$</p>\n<p>C. $y = \\frac{e}{4} x + \\frac{e}{4}$</p>\n<p>D. $y = \\frac{e}{2} x + \\frac{3e}{4}$</p>",
+  "options": {
+    "A": "$y = \\frac{e}{4} x$",
+    "B": "$y = \\frac{e}{2} x$",
+    "C": "$y = \\frac{e}{4} x + \\frac{e}{4}$",
+    "D": "$y = \\frac{e}{2} x + \\frac{3e}{4}$"
+  },
+  "answer": "C",
+  "solution_markdown": "### 1. C\n\n**详解**设曲线 $y = \\frac{\\mathrm{e}^x}{x + 1}$ 在点 $\\left(1, \\frac{\\mathrm{e}}{2}\\right)$ 处的切线方程为 $y - \\frac{\\mathrm{e}}{2} = k(x - 1)$ ，因为 $y = \\frac{\\mathrm{e}^x}{x + 1}$ ，所以 $y' = \\frac{\\mathrm{e}^x(x + 1) - \\mathrm{e}^x}{(x + 1)^2} = \\frac{x\\mathrm{e}^x}{(x + 1)^2}$ ，所以 $k = y'|_{x=1} = \\frac{\\mathrm{e}}{4}$ ，所以 $y - \\frac{\\mathrm{e}}{2} = \\frac{\\mathrm{e}}{4}(x - 1)$ 。所以曲线 $y = \\frac{\\mathrm{e}^x}{x + 1}$ 在点 $\\left(1, \\frac{\\mathrm{e}}{2}\\right)$ 处的切线方程为 $y = \\frac{\\mathrm{e}}{4} x + \\frac{\\mathrm{e}}{4}$ .",
+  "solution_html": "<h3>1. C</h3>\n<p><strong>详解</strong>设曲线 $y = \\frac{\\mathrm{e}^x}{x + 1}$ 在点 $\\left(1, \\frac{\\mathrm{e}}{2}\\right)$ 处的切线方程为 $y - \\frac{\\mathrm{e}}{2} = k(x - 1)$ ，因为 $y = \\frac{\\mathrm{e}^x}{x + 1}$ ，所以 $y' = \\frac{\\mathrm{e}^x(x + 1) - \\mathrm{e}^x}{(x + 1)^2} = \\frac{x\\mathrm{e}^x}{(x + 1)^2}$ ，所以 $k = y'|_{x=1} = \\frac{\\mathrm{e}}{4}$ ，所以 $y - \\frac{\\mathrm{e}}{2} = \\frac{\\mathrm{e}}{4}(x - 1)$ 。所以曲线 $y = \\frac{\\mathrm{e}^x}{x + 1}$ 在点 $\\left(1, \\frac{\\mathrm{e}}{2}\\right)$ 处的切线方程为 $y = \\frac{\\mathrm{e}}{4} x + \\frac{\\mathrm{e}}{4}$ .</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.614242+00:00",
+    "question_source_sha256": "7cb6872dd8f9092683f4d213bfc976e0e2eecfc7cc5919b7f6cfa19ef958a3d1",
+    "solution_source_sha256": "ee82da0a88dd9857c44efb8cd3b554ae670a59b5aa1d62f710078f748a7f8a4e"
+  }
+}

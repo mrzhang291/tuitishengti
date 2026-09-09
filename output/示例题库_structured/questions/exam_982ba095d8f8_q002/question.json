@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_982ba095d8f8_q002",
+  "display_id": "EXAM-982BA095D8F8-Q002",
+  "source_exam": "深圳中学 2024 级高二数学周测（9）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（9）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（9）参考答案.md",
+  "question_number": 2,
+  "question_type": "single_choice",
+  "stem_markdown": "### 2. 随机变量 $X$ 的分布列为:\n\n<table><tr><td>X</td><td>1</td><td>2</td><td>3</td></tr><tr><td>P</td><td>a</td><td>2a</td><td>3a</td></tr></table>\n\n则 $P(X \\geq 2) = (\\quad)$\n\nA. $\\frac{1}{2}$\n\nB. $\\frac{7}{12}$\n\nC. $\\frac{2}{3}$\n\nD. $\\frac{5}{6}$",
+  "stem_html": "<h3>2. 随机变量 $X$ 的分布列为:</h3>\n<table><tr><td>X</td><td>1</td><td>2</td><td>3</td></tr><tr><td>P</td><td>a</td><td>2a</td><td>3a</td></tr></table>\n\n<p>则 $P(X \\geq 2) = (\\quad)$</p>\n<p>A. $\\frac{1}{2}$</p>\n<p>B. $\\frac{7}{12}$</p>\n<p>C. $\\frac{2}{3}$</p>\n<p>D. $\\frac{5}{6}$</p>",
+  "options": {
+    "A": "$\\frac{1}{2}$",
+    "B": "$\\frac{7}{12}$",
+    "C": "$\\frac{2}{3}$",
+    "D": "$\\frac{5}{6}$"
+  },
+  "answer": "D",
+  "solution_markdown": "### 2. D\n\n**详解**由题意可得 $a + 2a + 3a = 1$ ，解得 $a = \\frac{1}{6}$ ，所以 $P(X \\geq 2) = P(X = 2) + P(X = 3) = 2a + 3a = \\frac{5}{6}$ . 故选：D.",
+  "solution_html": "<h3>2. D</h3>\n<p><strong>详解</strong>由题意可得 $a + 2a + 3a = 1$ ，解得 $a = \\frac{1}{6}$ ，所以 $P(X \\geq 2) = P(X = 2) + P(X = 3) = 2a + 3a = \\frac{5}{6}$ . 故选：D.</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.128353+00:00",
+    "question_source_sha256": "fd7e09e7361b1a3c423e4a90022e45ec754d1b93b61dd929ba983ee3da41d367",
+    "solution_source_sha256": "49045cdfd752f9f34d7cc2aa89ea2bcec7753750c2327e42b2d465641a0aa9fa"
+  }
+}

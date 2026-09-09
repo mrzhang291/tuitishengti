@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_982ba095d8f8_q010",
+  "display_id": "EXAM-982BA095D8F8-Q010",
+  "source_exam": "深圳中学 2024 级高二数学周测（9）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（9）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（9）参考答案.md",
+  "question_number": 10,
+  "question_type": "multiple_choice",
+  "stem_markdown": "### 10. 已知 $f(x)$ 是定义在 $(- \\infty, 0) \\mathrm{U}(0, +\\infty)$ 上的偶函数，且当 $x > 0$ 时， $f(x) = (x - 1) \\ln x$ ，则（）\n\nA. $f(1) = 0$\n\nB. 当 $x < 0$ 时， $f(x) = (x + 1) \\ln (-x)$\n\nC. $x = -1$ 是 $f(x)$ 的极小值点\n\nD. 存在实数 $k$ ，使得直线 $y = kx$ 与 $y = f(x)$ 的图象恰有 1 个公共点",
+  "stem_html": "<h3>10. 已知 $f(x)$ 是定义在 $(- \\infty, 0) \\mathrm{U}(0, +\\infty)$ 上的偶函数，且当 $x &gt; 0$ 时， $f(x) = (x - 1) \\ln x$ ，则（）</h3>\n<p>A. $f(1) = 0$</p>\n<p>B. 当 $x &lt; 0$ 时， $f(x) = (x + 1) \\ln (-x)$</p>\n<p>C. $x = -1$ 是 $f(x)$ 的极小值点</p>\n<p>D. 存在实数 $k$ ，使得直线 $y = kx$ 与 $y = f(x)$ 的图象恰有 1 个公共点</p>",
+  "options": {
+    "A": "$f(1) = 0$",
+    "B": "当 $x < 0$ 时， $f(x) = (x + 1) \\ln (-x)$",
+    "C": "$x = -1$ 是 $f(x)$ 的极小值点",
+    "D": "存在实数 $k$ ，使得直线 $y = kx$ 与 $y = f(x)$ 的图象恰有 1 个公共点"
+  },
+  "answer": "AC",
+  "solution_markdown": "### 10. AC\n\n**详解**对于选项A，由题设 $f(1) = (1 - 1)\\ln 1 = 0$ ，A正确.\n\n对于选项B，因为 $f(x)$ 为偶函数，若 $x < 0$ ，则 $-x > 0$ ，故\n\n$f(x)=f(-x)=(-x-1)\\ln(-x)=-(x+1)\\ln(-x)$ ，B错误.\n\n对于选项C，当 $x < 0$ 时， $f(x) = -(x + 1)\\ln (-x)$ ，则 $f'(x) = -\\ln (-x) - \\frac{1}{x} - 1$ ，令\n\n$g(x)=f'(x)\\Rightarrow g'(x)=\\frac{1}{x^{2}}-\\frac{1}{x}=\\frac{1-x}{x^{2}}>0$ ，即 $g(x)=f'(x)$ 在 $(-∞,0)$ 上单调递增，又 $f'(-1)=-\\ln1+1-1=0$ ，故当 $x\\in(-∞,-1)$ 时 $f'(x)<0$ ， $f(x)$ 在 $(-∞,-1)$ 上单调递减；当 $x\\in(-1,0)$ 时 $f'(x)>0$ ， $f(x)$ 在 $(-1,0)$ 上单调递增，故x=-1是 $f(x)$ 的极小值点，C正确.\n对于D选项，由C分析， $x\\to-\\infty$ 或 $x\\to0^{-}$ 时 $f(x)\\to+\\infty$ ，且 $f(-1)=0$ ，所以在 $(-∞,-1)$\n\n$(-1,0)$ 上 $f(x)\\in (0, + \\infty)$ ，又 $f(x)$ 为偶函数，故在 $(0,1)$ 、 $(1, + \\infty)$ 上 $f(x)\\in (0, + \\infty)$ ，由图像可\n\n知，直线 $y = kx$ 与 $y = f(x)$ 的图象恒有2个交点，D错误.故选：AC",
+  "solution_html": "<h3>10. AC</h3>\n<p><strong>详解</strong>对于选项A，由题设 $f(1) = (1 - 1)\\ln 1 = 0$ ，A正确.</p>\n<p>对于选项B，因为 $f(x)$ 为偶函数，若 $x &lt; 0$ ，则 $-x &gt; 0$ ，故</p>\n<p>$f(x)=f(-x)=(-x-1)\\ln(-x)=-(x+1)\\ln(-x)$ ，B错误.</p>\n<p>对于选项C，当 $x &lt; 0$ 时， $f(x) = -(x + 1)\\ln (-x)$ ，则 $f'(x) = -\\ln (-x) - \\frac{1}{x} - 1$ ，令</p>\n<p>$g(x)=f'(x)\\Rightarrow g'(x)=\\frac{1}{x^{2}}-\\frac{1}{x}=\\frac{1-x}{x^{2}}&gt;0$ ，即 $g(x)=f'(x)$ 在 $(-∞,0)$ 上单调递增，又 $f'(-1)=-\\ln1+1-1=0$ ，故当 $x\\in(-∞,-1)$ 时 $f'(x)&lt;0$ ， $f(x)$ 在 $(-∞,-1)$ 上单调递减；当 $x\\in(-1,0)$ 时 $f'(x)&gt;0$ ， $f(x)$ 在 $(-1,0)$ 上单调递增，故x=-1是 $f(x)$ 的极小值点，C正确.\n对于D选项，由C分析， $x\\to-\\infty$ 或 $x\\to0^{-}$ 时 $f(x)\\to+\\infty$ ，且 $f(-1)=0$ ，所以在 $(-∞,-1)$</p>\n<p>$(-1,0)$ 上 $f(x)\\in (0, + \\infty)$ ，又 $f(x)$ 为偶函数，故在 $(0,1)$ 、 $(1, + \\infty)$ 上 $f(x)\\in (0, + \\infty)$ ，由图像可</p>\n<p>知，直线 $y = kx$ 与 $y = f(x)$ 的图象恒有2个交点，D错误.故选：AC</p>",
+  "score": 6,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.171341+00:00",
+    "question_source_sha256": "fd7e09e7361b1a3c423e4a90022e45ec754d1b93b61dd929ba983ee3da41d367",
+    "solution_source_sha256": "49045cdfd752f9f34d7cc2aa89ea2bcec7753750c2327e42b2d465641a0aa9fa"
+  }
+}

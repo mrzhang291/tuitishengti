@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_e34ad4ed1933_q004",
+  "display_id": "EXAM-E34AD4ED1933-Q004",
+  "source_exam": "深圳中学 2024 级高二数学周测（4）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（4）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（4）参考答案.md",
+  "question_number": 4,
+  "question_type": "single_choice",
+  "stem_markdown": "### 4. 已知函数 $f(x) = x(x - a)^2$ 在 $x = 1$ 处取得极大值，则 $a = (\\quad)$\n\nA. 3或1\n\nB. 3\n\nC. 2\n\nD. 1",
+  "stem_html": "<h3>4. 已知函数 $f(x) = x(x - a)^2$ 在 $x = 1$ 处取得极大值，则 $a = (\\quad)$</h3>\n<p>A. 3或1</p>\n<p>B. 3</p>\n<p>C. 2</p>\n<p>D. 1</p>",
+  "options": {
+    "A": "3或1",
+    "B": "3",
+    "C": "2",
+    "D": "1"
+  },
+  "answer": "B",
+  "solution_markdown": "",
+  "solution_html": "",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [
+    "missing_solution"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.812246+00:00",
+    "question_source_sha256": "abb103e1c408892fc4de9c4f369a5605171aaff95278bd1e2fbb72858f7ccac8",
+    "solution_source_sha256": "393e7089ed67ecf54073904de81f72aa4f123dbb02df5f8fd36c76f14bef30c1"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_982ba095d8f8_q007",
+  "display_id": "EXAM-982BA095D8F8-Q007",
+  "source_exam": "深圳中学 2024 级高二数学周测（9）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（9）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（9）参考答案.md",
+  "question_number": 7,
+  "question_type": "single_choice",
+  "stem_markdown": "### 7. 连续抛掷一枚质地均匀的硬币 8 次, 每次正面向上得 2 分, 反面向上得 -1 分, 记总得分为 $X$ ，则（ ）\n\nA. $E(X) = 8$\n\nB. $E(X) = 12$\n\nC. $D(X) = 6$\n\nD. $D(X) = 18$",
+  "stem_html": "<h3>7. 连续抛掷一枚质地均匀的硬币 8 次, 每次正面向上得 2 分, 反面向上得 -1 分, 记总得分为 $X$ ，则（ ）</h3>\n<p>A. $E(X) = 8$</p>\n<p>B. $E(X) = 12$</p>\n<p>C. $D(X) = 6$</p>\n<p>D. $D(X) = 18$</p>",
+  "options": {
+    "A": "$E(X) = 8$",
+    "B": "$E(X) = 12$",
+    "C": "$D(X) = 6$",
+    "D": "$D(X) = 18$"
+  },
+  "answer": "D",
+  "solution_markdown": "### 7. D\n\n**详解**方法一：设 $Y$ 为正面向上的次数，则 $Y \\sim B\\left(8, \\frac{1}{2}\\right)$ ，总得分\n\n$X=2Y+(-1)\\times(8-Y)=3Y-8$ ，由于 $E(Y)=8\\times\\frac{1}{2}=4$ ， $D(Y)=8\\times\\frac{1}{2}\\times\\left(1-\\frac{1}{2}\\right)=2$ ，所以\n\n$E(X)=E(3Y-8)=3E(Y)-8=4$ , $D(X)=D(3Y-8)=9D(Y)=9\\times2=18$ , 故选: D.\n\n方法二：记第i次抛掷硬币的得分为随机变量 $X_{i}(i=1,2,\\cdots,8)$ ，故 $X_{i}$ 的可能取值为2,-1，且\n\n$P(X_{i} = 2) = P(X_{i} = -1) = \\frac{1}{2}$ , 所以 $E(X_{i}) = 2 \\times \\frac{1}{2} + (-1) \\times \\frac{1}{2} = \\frac{1}{2}$ ,\n\n$$E \\left(X _ {i} ^ {2}\\right) = 2 ^ {2} \\times \\frac {1}{2} + (- 1) ^ {2} \\times \\frac {1}{2} = \\frac {5}{2}, \\text {则} D \\left(X _ {i}\\right) = E \\left(X _ {i} ^ {2}\\right) - E ^ {2} \\left(X _ {i}\\right) = \\frac {9}{4}.$$\n\n由题意可知： $X=X_{1}+X_{2}+\\cdots X_{8}$ ，则 $E(X)=E(X_{1})+E(X_{2})+\\cdots E(X_{8})=8\\times\\frac{1}{2}=4$\n\n因为 $X_{1},X_{2},\\cdots,X_{8}$ 之间相互独立，则 $D(X)=D(X_{1})+D(X_{2})+\\cdots D(X_{8})=8\\times\\frac{9}{4}=18$",
+  "solution_html": "<h3>7. D</h3>\n<p><strong>详解</strong>方法一：设 $Y$ 为正面向上的次数，则 $Y \\sim B\\left(8, \\frac{1}{2}\\right)$ ，总得分</p>\n<p>$X=2Y+(-1)\\times(8-Y)=3Y-8$ ，由于 $E(Y)=8\\times\\frac{1}{2}=4$ ， $D(Y)=8\\times\\frac{1}{2}\\times\\left(1-\\frac{1}{2}\\right)=2$ ，所以</p>\n<p>$E(X)=E(3Y-8)=3E(Y)-8=4$ , $D(X)=D(3Y-8)=9D(Y)=9\\times2=18$ , 故选: D.</p>\n<p>方法二：记第i次抛掷硬币的得分为随机变量 $X_{i}(i=1,2,\\cdots,8)$ ，故 $X_{i}$ 的可能取值为2,-1，且</p>\n<p>$P(X_{i} = 2) = P(X_{i} = -1) = \\frac{1}{2}$ , 所以 $E(X_{i}) = 2 \\times \\frac{1}{2} + (-1) \\times \\frac{1}{2} = \\frac{1}{2}$ ,</p>\n<p>$$E \\left(X _ {i} ^ {2}\\right) = 2 ^ {2} \\times \\frac {1}{2} + (- 1) ^ {2} \\times \\frac {1}{2} = \\frac {5}{2}, \\text {则} D \\left(X _ {i}\\right) = E \\left(X _ {i} ^ {2}\\right) - E ^ {2} \\left(X _ {i}\\right) = \\frac {9}{4}.$$</p>\n<p>由题意可知： $X=X_{1}+X_{2}+\\cdots X_{8}$ ，则 $E(X)=E(X_{1})+E(X_{2})+\\cdots E(X_{8})=8\\times\\frac{1}{2}=4$</p>\n<p>因为 $X_{1},X_{2},\\cdots,X_{8}$ 之间相互独立，则 $D(X)=D(X_{1})+D(X_{2})+\\cdots D(X_{8})=8\\times\\frac{9}{4}=18$</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.145152+00:00",
+    "question_source_sha256": "fd7e09e7361b1a3c423e4a90022e45ec754d1b93b61dd929ba983ee3da41d367",
+    "solution_source_sha256": "49045cdfd752f9f34d7cc2aa89ea2bcec7753750c2327e42b2d465641a0aa9fa"
+  }
+}

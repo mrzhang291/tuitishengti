@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_5267945b2a8f_q015",
+  "display_id": "EXAM-5267945B2A8F-Q015",
+  "source_exam": "深圳中学 2024 级高二数学 五一作业",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学２０２４级高二数学五一作业 试卷.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学２０２４级高二数学五一作业 答案.md",
+  "question_number": 15,
+  "question_type": "solution",
+  "stem_markdown": "### 15. 已知函数 $f(x) = \\frac{1}{2} ax^2 + (a - 1)x - \\ln x$ .\n\n(1)讨论 $f(x)$ 的单调性;\n\n(2)当a>0时，求函数 $f(x)$ 在 $[1,2]$ 的最小值 $g(a)$ .",
+  "stem_html": "<h3>15. 已知函数 $f(x) = \\frac{1}{2} ax^2 + (a - 1)x - \\ln x$ .</h3>\n<p>(1)讨论 $f(x)$ 的单调性;</p>\n<p>(2)当a&gt;0时，求函数 $f(x)$ 在 $[1,2]$ 的最小值 $g(a)$ .</p>",
+  "options": {},
+  "answer": "(1)答案见",
+  "solution_markdown": "### 15. (1)答案见解析;\n\n$$g (a) = \\left\\{ \\begin{array}{l} 4 a - 2 - \\ln 2, 0 <   a \\leq \\frac {1}{2} \\\\ 1 - \\frac {1}{2 a} + \\ln a, \\frac {1}{2} <   a <   1 \\\\ \\frac {3}{2} a - 1, a \\geq 1 \\end{array} . \\right.$$\n\n**详解**（1）由题意知 $f(x)$ 的定义域为 $(0,+\\infty)$ ， $f'(x)=ax+a-1-\\frac{1}{x}=\\frac{(x+1)(ax-1)}{x}$ ①若 $a\\leq0$ ， $f'(x)<0$ 恒成立，所以 $f(x)$ 在 $(0,+\\infty)$ 上单调递减.\n\n②若a>0，由 $f'(x)=0$ ，得 $x=\\frac{1}{a}$ ，\n所以 $x\\in\\left(0,\\frac{1}{a}\\right)$ 当时， $f'(x)<0$ ；当 $x\\in\\left(\\frac{1}{a},+\\infty\\right)$ 时， $f'(x)>0;$ 所以 $f(x)$ 在 $\\left(0,\\frac{1}{a}\\right)$ 上单调递减，在 $\\left(\\frac{1}{a},+\\infty\\right)$ 上单调递增.\n综上：当 $a\\leq0$ 时， $f(x)$ 在 $(0,+\\infty)$ 上单调递减；\n当a>0时， $f(x)$ 在 $\\left(0,\\frac{1}{a}\\right)$ 上单调递减，在 $\\left(\\frac{1}{a},+\\infty\\right)$ 上单调递增.\n（2）由（1）知， $f(x)$ 在 $\\left(0,\\frac{1}{a}\\right)$ 单调递减，在 $\\left(\\frac{1}{a},+\\infty\\right)$ 单调递增.\n①当 $\\frac{1}{a}\\geq2$ ，即 $0<a\\leq\\frac{1}{2}$ 时， $f(x)$ 在 $[1,2]$ 单调递减，\n当x=2时， $f(x)$ 有最小值 $f(2)=4a-2-\\ln2;$ ②当 $1<\\frac{1}{a}<2$ ，即 $\\frac{1}{2}<a<1$ 时， $f(x)$ 在 $\\left(1,\\frac{1}{a}\\right)$ 上单调递减，在 $\\left(\\frac{1}{a},2\\right)$ 上单调递增.\n当 $x=\\frac{1}{a}$ 时， $f(x)$ 有最小值\n\n③当 $\\frac{1}{a}\\leq1$ ，即 $a\\geq1$ 时， $f(x)$ 在 $[1,2]$ 上单调递增，\n当x=1时， $f(x)$ 有最小值 $f(1)=\\frac{1}{2}a+a-1=\\frac{3}{2}a-1$ ;\n综上： $g(a)=\\left\\{\\begin{aligned}&4a-2-\\ln2,0<a\\leq\\frac{1}{2}\\\\ &1-\\frac{1}{2a}+\\ln a,\\frac{1}{2}<a<1\\\\&\\frac{3}{2}a-1,a\\geq1\\end{aligned}\\right.$",
+  "solution_html": "<h3>15. (1)答案见解析;</h3>\n<p>$$g (a) = \\left\\{ \\begin{array}{l} 4 a - 2 - \\ln 2, 0 &lt;   a \\leq \\frac {1}{2} \\\\ 1 - \\frac {1}{2 a} + \\ln a, \\frac {1}{2} &lt;   a &lt;   1 \\\\ \\frac {3}{2} a - 1, a \\geq 1 \\end{array} . \\right.$$</p>\n<p><strong>详解</strong>（1）由题意知 $f(x)$ 的定义域为 $(0,+\\infty)$ ， $f'(x)=ax+a-1-\\frac{1}{x}=\\frac{(x+1)(ax-1)}{x}$ ①若 $a\\leq0$ ， $f'(x)&lt;0$ 恒成立，所以 $f(x)$ 在 $(0,+\\infty)$ 上单调递减.</p>\n<p>②若a&gt;0，由 $f'(x)=0$ ，得 $x=\\frac{1}{a}$ ，\n所以 $x\\in\\left(0,\\frac{1}{a}\\right)$ 当时， $f'(x)&lt;0$ ；当 $x\\in\\left(\\frac{1}{a},+\\infty\\right)$ 时， $f'(x)&gt;0;$ 所以 $f(x)$ 在 $\\left(0,\\frac{1}{a}\\right)$ 上单调递减，在 $\\left(\\frac{1}{a},+\\infty\\right)$ 上单调递增.\n综上：当 $a\\leq0$ 时， $f(x)$ 在 $(0,+\\infty)$ 上单调递减；\n当a&gt;0时， $f(x)$ 在 $\\left(0,\\frac{1}{a}\\right)$ 上单调递减，在 $\\left(\\frac{1}{a},+\\infty\\right)$ 上单调递增.\n（2）由（1）知， $f(x)$ 在 $\\left(0,\\frac{1}{a}\\right)$ 单调递减，在 $\\left(\\frac{1}{a},+\\infty\\right)$ 单调递增.\n①当 $\\frac{1}{a}\\geq2$ ，即 $0&lt;a\\leq\\frac{1}{2}$ 时， $f(x)$ 在 $[1,2]$ 单调递减，\n当x=2时， $f(x)$ 有最小值 $f(2)=4a-2-\\ln2;$ ②当 $1&lt;\\frac{1}{a}&lt;2$ ，即 $\\frac{1}{2}&lt;a&lt;1$ 时， $f(x)$ 在 $\\left(1,\\frac{1}{a}\\right)$ 上单调递减，在 $\\left(\\frac{1}{a},2\\right)$ 上单调递增.\n当 $x=\\frac{1}{a}$ 时， $f(x)$ 有最小值</p>\n<p>③当 $\\frac{1}{a}\\leq1$ ，即 $a\\geq1$ 时， $f(x)$ 在 $[1,2]$ 上单调递增，\n当x=1时， $f(x)$ 有最小值 $f(1)=\\frac{1}{2}a+a-1=\\frac{3}{2}a-1$ ;\n综上： $g(a)=\\left\\{\\begin{aligned}&amp;4a-2-\\ln2,0&lt;a\\leq\\frac{1}{2}\\\\ &amp;1-\\frac{1}{2a}+\\ln a,\\frac{1}{2}&lt;a&lt;1\\\\&amp;\\frac{3}{2}a-1,a\\geq1\\end{aligned}\\right.$</p>",
+  "score": null,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.265193+00:00",
+    "question_source_sha256": "15514af6ceb54dc08cbfc8100c7df26b356cb6688fdd3bfe5c4f436c61261dd5",
+    "solution_source_sha256": "07f1865be56a487b402afb470f20fe230f42fb97bd927cee85afc49913075760"
+  }
+}

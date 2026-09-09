@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_f6e940cd31a8_q015",
+  "display_id": "EXAM-F6E940CD31A8-Q015",
+  "source_exam": "深圳中学 2024 级高二数学周测（3）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（3）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（3）参考答案.md",
+  "question_number": 15,
+  "question_type": "solution",
+  "stem_markdown": "### 15. 设函数 $f(x)=[ax^{2}-(4a+1)x+4a+3]e^{x}$ .\n\n(1)若曲线 $y = f(x)$ 在点 $(1, f(1))$ 处的切线与 x 轴平行，求 a；\n\n(2)若 $f(x)$ 在 x=2 处取得极小值，求 a 的取值范围.",
+  "stem_html": "<h3>15. 设函数 $f(x)=[ax^{2}-(4a+1)x+4a+3]e^{x}$ .</h3>\n<p>(1)若曲线 $y = f(x)$ 在点 $(1, f(1))$ 处的切线与 x 轴平行，求 a；</p>\n<p>(2)若 $f(x)$ 在 x=2 处取得极小值，求 a 的取值范围.</p>",
+  "options": {},
+  "answer": "见解析",
+  "solution_markdown": "### 15. \n\n**详解**(1)因为 $f(x) = [ax^2 - (4a + 1)x + 4a + 3]e^x$ ，\n\n所以 $f'(x)=[2ax-(4a+1)]e^{x}+[ax^{2}-(4a+1)x+4a+3]e^{x}\\quad(x\\in\\mathbf{R})$ $=[ax^{2}-(2a+1)x+2]e^{x}$ . $f'(1)=(1-a)e$ . 由题设知 $f'(1)=0$ ，即 $(1-a)e=0$ ，解得 a=1.\n\n此时 $f(1)=3e\\neq0$ . 所以 a 的值为 1.\n\n(2)由(1)得 $f'(x)=[ax^{2}-(2a+1)x+2]e^{x}=(ax-1)(x-2)e^{x}$ .\n\n若 $a > \\frac{1}{2}$ ，则当 $x \\in (\\frac{1}{a}, 2)$ 时， $f'(x) < 0$ ；当 $x \\in (2, +\\infty)$ 时， $f'(x) > 0$ 。所以 $f(x) < 0$ 在 $x = 2$ 处取得极小值。若 $a \\leqslant \\frac{1}{2}$ ，则当 $x \\in (0, 2)$ 时， $x - 2 < 0$ ， $ax - 1 \\leqslant \\frac{1}{2} x - 1 < 0$ ，所以 $f'(x) > 0$ 。所以 2 不是 $f(x)$ 的极小值点。综上可知， $a$ 的取值范围是 $(\\frac{1}{2}, +\\infty)$ 。",
+  "solution_html": "<h3>15.</h3>\n<p><strong>详解</strong>(1)因为 $f(x) = [ax^2 - (4a + 1)x + 4a + 3]e^x$ ，</p>\n<p>所以 $f'(x)=[2ax-(4a+1)]e^{x}+[ax^{2}-(4a+1)x+4a+3]e^{x}\\quad(x\\in\\mathbf{R})$ $=[ax^{2}-(2a+1)x+2]e^{x}$ . $f'(1)=(1-a)e$ . 由题设知 $f'(1)=0$ ，即 $(1-a)e=0$ ，解得 a=1.</p>\n<p>此时 $f(1)=3e\\neq0$ . 所以 a 的值为 1.</p>\n<p>(2)由(1)得 $f'(x)=[ax^{2}-(2a+1)x+2]e^{x}=(ax-1)(x-2)e^{x}$ .</p>\n<p>若 $a &gt; \\frac{1}{2}$ ，则当 $x \\in (\\frac{1}{a}, 2)$ 时， $f'(x) &lt; 0$ ；当 $x \\in (2, +\\infty)$ 时， $f'(x) &gt; 0$ 。所以 $f(x) &lt; 0$ 在 $x = 2$ 处取得极小值。若 $a \\leqslant \\frac{1}{2}$ ，则当 $x \\in (0, 2)$ 时， $x - 2 &lt; 0$ ， $ax - 1 \\leqslant \\frac{1}{2} x - 1 &lt; 0$ ，所以 $f'(x) &gt; 0$ 。所以 2 不是 $f(x)$ 的极小值点。综上可知， $a$ 的取值范围是 $(\\frac{1}{2}, +\\infty)$ 。</p>",
+  "score": null,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.792956+00:00",
+    "question_source_sha256": "78a4bb6656c35dbe613a79b0ed7dccc993b5c108f4f5c32b995a022aaa492633",
+    "solution_source_sha256": "86a4c5fab883e5128818dbb75724d3042d0c55a8ea81c7cdffedbb262214e02c"
+  }
+}

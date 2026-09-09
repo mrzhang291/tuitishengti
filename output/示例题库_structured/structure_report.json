@@ -1,0 +1,854 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-08-05T03:31:27.480912+00:00",
+  "status": "warn",
+  "output_dir": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_structured",
+  "question_count": 150,
+  "case_count": 9,
+  "cases": [
+    {
+      "exam_code": "exam_7bee64bb5191",
+      "source_exam": "深圳中学 2024 级高二数学周测（1）",
+      "question_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（1）.md",
+      "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（1）解析.md",
+      "question_count": 16,
+      "seen": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "missing": [],
+      "duplicates": [],
+      "repairs": [
+        "removed_answer_card"
+      ],
+      "repair_details": [
+        {
+          "code": "removed_answer_card",
+          "label": "移除答题卡",
+          "description": "已在切题前移除答题卡区域，避免把表格内容混入题干。"
+        }
+      ],
+      "structure_before_repair": {
+        "seen": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "duplicates": [
+          12
+        ],
+        "missing": [],
+        "declared_total": 16,
+        "expected_total": 16
+      },
+      "structure_after_repair": {
+        "seen": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "duplicates": [],
+        "missing": [],
+        "declared_total": 16,
+        "expected_total": 16
+      },
+      "resolved_missing": [],
+      "resolved_duplicates": [
+        12
+      ]
+    },
+    {
+      "exam_code": "exam_ed507f8efdc5",
+      "source_exam": "深圳中学 2024 级高二数学周测（2）",
+      "question_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（2）.md",
+      "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（2）解析.md",
+      "question_count": 16,
+      "seen": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "missing": [],
+      "duplicates": [],
+      "repairs": [
+        "removed_answer_card"
+      ],
+      "repair_details": [
+        {
+          "code": "removed_answer_card",
+          "label": "移除答题卡",
+          "description": "已在切题前移除答题卡区域，避免把表格内容混入题干。"
+        }
+      ],
+      "structure_before_repair": {
+        "seen": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "duplicates": [
+          12
+        ],
+        "missing": [],
+        "declared_total": 16,
+        "expected_total": 16
+      },
+      "structure_after_repair": {
+        "seen": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "duplicates": [],
+        "missing": [],
+        "declared_total": 16,
+        "expected_total": 16
+      },
+      "resolved_missing": [],
+      "resolved_duplicates": [
+        12
+      ]
+    },
+    {
+      "exam_code": "exam_f6e940cd31a8",
+      "source_exam": "深圳中学 2024 级高二数学周测（3）",
+      "question_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（3）.md",
+      "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（3）参考答案.md",
+      "question_count": 16,
+      "seen": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "missing": [],
+      "duplicates": [],
+      "repairs": [
+        "removed_answer_card"
+      ],
+      "repair_details": [
+        {
+          "code": "removed_answer_card",
+          "label": "移除答题卡",
+          "description": "已在切题前移除答题卡区域，避免把表格内容混入题干。"
+        }
+      ],
+      "structure_before_repair": {
+        "seen": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "duplicates": [
+          12
+        ],
+        "missing": [],
+        "declared_total": 16,
+        "expected_total": 16
+      },
+      "structure_after_repair": {
+        "seen": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "duplicates": [],
+        "missing": [],
+        "declared_total": 16,
+        "expected_total": 16
+      },
+      "resolved_missing": [],
+      "resolved_duplicates": [
+        12
+      ]
+    },
+    {
+      "exam_code": "exam_e34ad4ed1933",
+      "source_exam": "深圳中学 2024 级高二数学周测（4）",
+      "question_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（4）.md",
+      "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（4）参考答案.md",
+      "question_count": 16,
+      "seen": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "missing": [],
+      "duplicates": [],
+      "repairs": [
+        "removed_answer_card"
+      ],
+      "repair_details": [
+        {
+          "code": "removed_answer_card",
+          "label": "移除答题卡",
+          "description": "已在切题前移除答题卡区域，避免把表格内容混入题干。"
+        }
+      ],
+      "structure_before_repair": {
+        "seen": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "duplicates": [
+          12
+        ],
+        "missing": [],
+        "declared_total": 16,
+        "expected_total": 16
+      },
+      "structure_after_repair": {
+        "seen": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "duplicates": [],
+        "missing": [],
+        "declared_total": 16,
+        "expected_total": 16
+      },
+      "resolved_missing": [],
+      "resolved_duplicates": [
+        12
+      ]
+    },
+    {
+      "exam_code": "exam_58879b65c6e5",
+      "source_exam": "深圳中学 2024 级高二数学周测（7）",
+      "question_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（7）.md",
+      "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（7）参考答案.md",
+      "question_count": 16,
+      "seen": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "missing": [],
+      "duplicates": [],
+      "repairs": [
+        "removed_answer_card"
+      ],
+      "repair_details": [
+        {
+          "code": "removed_answer_card",
+          "label": "移除答题卡",
+          "description": "已在切题前移除答题卡区域，避免把表格内容混入题干。"
+        }
+      ],
+      "structure_before_repair": {
+        "seen": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "duplicates": [
+          12
+        ],
+        "missing": [],
+        "declared_total": 16,
+        "expected_total": 16
+      },
+      "structure_after_repair": {
+        "seen": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "duplicates": [],
+        "missing": [],
+        "declared_total": 16,
+        "expected_total": 16
+      },
+      "resolved_missing": [],
+      "resolved_duplicates": [
+        12
+      ]
+    },
+    {
+      "exam_code": "exam_b01a97c7a11b",
+      "source_exam": "深圳中学2024级高二周测（8）",
+      "question_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（8）.md",
+      "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（8）参考答案.md",
+      "question_count": 16,
+      "seen": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "missing": [],
+      "duplicates": [],
+      "repairs": [
+        "removed_answer_card"
+      ],
+      "repair_details": [
+        {
+          "code": "removed_answer_card",
+          "label": "移除答题卡",
+          "description": "已在切题前移除答题卡区域，避免把表格内容混入题干。"
+        }
+      ],
+      "structure_before_repair": {
+        "seen": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "duplicates": [
+          12
+        ],
+        "missing": [],
+        "declared_total": 8,
+        "expected_total": 16
+      },
+      "structure_after_repair": {
+        "seen": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "duplicates": [],
+        "missing": [],
+        "declared_total": 8,
+        "expected_total": 16
+      },
+      "resolved_missing": [],
+      "resolved_duplicates": [
+        12
+      ]
+    },
+    {
+      "exam_code": "exam_982ba095d8f8",
+      "source_exam": "深圳中学 2024 级高二数学周测（9）",
+      "question_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（9）.md",
+      "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（9）参考答案.md",
+      "question_count": 16,
+      "seen": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "missing": [],
+      "duplicates": [],
+      "repairs": [
+        "removed_answer_card"
+      ],
+      "repair_details": [
+        {
+          "code": "removed_answer_card",
+          "label": "移除答题卡",
+          "description": "已在切题前移除答题卡区域，避免把表格内容混入题干。"
+        }
+      ],
+      "structure_before_repair": {
+        "seen": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "duplicates": [
+          12
+        ],
+        "missing": [],
+        "declared_total": 16,
+        "expected_total": 16
+      },
+      "structure_after_repair": {
+        "seen": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "duplicates": [],
+        "missing": [],
+        "declared_total": 16,
+        "expected_total": 16
+      },
+      "resolved_missing": [],
+      "resolved_duplicates": [
+        12
+      ]
+    },
+    {
+      "exam_code": "exam_5267945b2a8f",
+      "source_exam": "深圳中学 2024 级高二数学 五一作业",
+      "question_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学２０２４级高二数学五一作业 试卷.md",
+      "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学２０２４级高二数学五一作业 答案.md",
+      "question_count": 19,
+      "seen": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "missing": [],
+      "duplicates": [],
+      "repairs": [
+        "joined_broken_decimals"
+      ],
+      "repair_details": [
+        {
+          "code": "joined_broken_decimals",
+          "label": "修复跨行小数",
+          "description": "已合并被 OCR 错误断开的 0.x / 1.x 小数。"
+        }
+      ],
+      "structure_before_repair": {
+        "seen": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "duplicates": [],
+        "missing": [],
+        "declared_total": null,
+        "expected_total": 19
+      },
+      "structure_after_repair": {
+        "seen": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "duplicates": [],
+        "missing": [],
+        "declared_total": null,
+        "expected_total": 19
+      },
+      "resolved_missing": [],
+      "resolved_duplicates": []
+    },
+    {
+      "exam_code": "exam_64d466db9a64",
+      "source_exam": "深圳中学 2024 级高二数学周测（5）",
+      "question_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二数学周测（5）.md",
+      "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二数学周测（5）参考答案.md",
+      "question_count": 19,
+      "seen": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "missing": [],
+      "duplicates": [],
+      "repairs": [],
+      "repair_details": [],
+      "structure_before_repair": {
+        "seen": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "duplicates": [],
+        "missing": [],
+        "declared_total": null,
+        "expected_total": 19
+      },
+      "structure_after_repair": {
+        "seen": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "duplicates": [],
+        "missing": [],
+        "declared_total": null,
+        "expected_total": 19
+      },
+      "resolved_missing": [],
+      "resolved_duplicates": []
+    }
+  ],
+  "quality_flag_counts": {
+    "answer_math_display_repaired": 2,
+    "contains_images": 18,
+    "embedded_supplement_question": 1,
+    "missing_answer": 2,
+    "missing_solution": 39
+  },
+  "warning_flag_counts": {
+    "embedded_supplement_question": 1,
+    "missing_answer": 2,
+    "missing_solution": 39
+  },
+  "repair_counts": {
+    "joined_broken_decimals": 1,
+    "removed_answer_card": 7
+  },
+  "unresolved_missing_count": 0,
+  "unresolved_duplicate_count": 0,
+  "resolved_missing_count": 0,
+  "resolved_duplicate_count": 7,
+  "display_id_count": 150,
+  "duplicate_display_ids": [],
+  "failures": []
+}

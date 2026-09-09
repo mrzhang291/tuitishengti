@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_5267945b2a8f_q019",
+  "display_id": "EXAM-5267945B2A8F-Q019",
+  "source_exam": "深圳中学 2024 级高二数学 五一作业",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学２０２４级高二数学五一作业 试卷.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学２０２４级高二数学五一作业 答案.md",
+  "question_number": 19,
+  "question_type": "solution",
+  "stem_markdown": "### 19. 已知函数 $f(x)=x\\ln(x-1)$ .\n\n(1)求曲线 $y=f(x)$ 在x=2处的切线方程;\n\n(2)设 $g(x)=f'(x)$ ，求函数 $g(x)$ 的最小值；\n\n(3)若 $\\frac{f(x)}{x - a} > 2$ ，求实数 $a$ 的值.",
+  "stem_html": "<h3>19. 已知函数 $f(x)=x\\ln(x-1)$ .</h3>\n<p>(1)求曲线 $y=f(x)$ 在x=2处的切线方程;</p>\n<p>(2)设 $g(x)=f'(x)$ ，求函数 $g(x)$ 的最小值；</p>\n<p>(3)若 $\\frac{f(x)}{x - a} &gt; 2$ ，求实数 $a$ 的值.</p>",
+  "options": {},
+  "answer": "(1) $y = 2x - 4$ (2)2 (3) $a = 2$",
+  "solution_markdown": "### 19. (1) $y = 2x - 4$ (2)2 (3) $a = 2$\n\n**详解**（1） $f'(x)=\\ln(x-1)+\\frac{x}{x-1}(x>1)$ ,\n\n则 $f'(2)=2, f(2)=0$ ,\n\n所以曲线 $y = f(x)$ 在 x = 2 处的切线方程为 $y = 2(x - 2)$ ,\n即 y = 2x - 4 ;\n\n(2) $g(x) = f'(x) = \\ln (x - 1) + \\frac{x}{x - 1} (x > 1),$\n\n$g^{\\prime}(x) = \\frac{1}{x - 1} +\\frac{x - 1 - x}{(x - 1)^{2}} = \\frac{x - 2}{(x - 1)^{2}},$\n\n当1<x<2时， $g'(x)<0$ ，当x>2时， $g'(x)>0$ ，\n\n所以函数 $g(x)$ 在 $(1,2)$ 上单调递减，在 $(2,+\\infty)$ 上单调递\n\n增，所以 $g(x)_{\\min}=g(2)=2$ ；\n\n（3）函数 $f(x)$ 的定义域为 $(1, +\\infty)$ ,\n\n当 $a \\leq 1$ 时，x - a > 0，\n\n则 $\\frac{f(x)}{x-a}>2$ ，即 $f(x)>2(x-a)$ ，\n\n即 $-2a < f(x) - 2x$ ,\n\n由（2）得 $f'(x) \\geq 2$ ，\n\n令 $h(x)=f(x)-2x$ ，则 $h'(x)=f'(x)-2\\geq0(x>1)$ ，\n\n所以 $h(x)$ 在 $(1, +\\infty)$ 上单调递增，\n\n又当 $x \\to 1$ 时， $h(x) \\to -\\infty$\n\n因为 $a \\leq 1$ ，所以 $-2a \\geq -2$ ，\n\n此时 $-2a < f(x) - 2x$ 不恒成立，故 $a \\leq 1$ 不符题意；\n\n当 $a > 1$ 时，若 $x > a$ ，则 $x - a > 0$\n\n则 $\\frac{f(x)}{x - a} > 2$ ，即 $f(x) > 2(x - a)$ ，即 $-2a < f(x) - 2x$ ，\n\n由上可知函数 $h(x)=f(x)-2x$ 在 $(a,+\\infty)$ 上单调递增，\n\n所以 $h(x) > h(a) = a \\ln (a - 1) - 2a (x > a)$ ,\n\n所以 $-2a \\leq a \\ln (a - 1) - 2a$ ，解得 $a \\geq 2$ ①，\n\n若 $1 < x < a$ ，则 $\\frac{f(x)}{x - a} > 2$ ，即 $f(x) < 2(x - a)$ ，即 $-2a > f(x) - 2x$\n\n由上可知函数 $h(x)=f(x)-2x$ 在 $(1,a)$ 上单调递增，\n\n所以 $h(x) < h(a) = a \\ln (a - 1) - 2a (1 < a < 1)$ ,\n\n所以 $-2a \\geq a \\ln (a - 1) - 2a$ ，解得 $a \\leq 2$ ②，\n\n由①②可得 a=2 ，综上所述，a=2 .",
+  "solution_html": "<h3>19. (1) $y = 2x - 4$ (2)2 (3) $a = 2$</h3>\n<p><strong>详解</strong>（1） $f'(x)=\\ln(x-1)+\\frac{x}{x-1}(x&gt;1)$ ,</p>\n<p>则 $f'(2)=2, f(2)=0$ ,</p>\n<p>所以曲线 $y = f(x)$ 在 x = 2 处的切线方程为 $y = 2(x - 2)$ ,\n即 y = 2x - 4 ;</p>\n<p>(2) $g(x) = f'(x) = \\ln (x - 1) + \\frac{x}{x - 1} (x &gt; 1),$</p>\n<p>$g^{\\prime}(x) = \\frac{1}{x - 1} +\\frac{x - 1 - x}{(x - 1)^{2}} = \\frac{x - 2}{(x - 1)^{2}},$</p>\n<p>当1&lt;x&lt;2时， $g'(x)&lt;0$ ，当x&gt;2时， $g'(x)&gt;0$ ，</p>\n<p>所以函数 $g(x)$ 在 $(1,2)$ 上单调递减，在 $(2,+\\infty)$ 上单调递</p>\n<p>增，所以 $g(x)_{\\min}=g(2)=2$ ；</p>\n<p>（3）函数 $f(x)$ 的定义域为 $(1, +\\infty)$ ,</p>\n<p>当 $a \\leq 1$ 时，x - a &gt; 0，</p>\n<p>则 $\\frac{f(x)}{x-a}&gt;2$ ，即 $f(x)&gt;2(x-a)$ ，</p>\n<p>即 $-2a &lt; f(x) - 2x$ ,</p>\n<p>由（2）得 $f'(x) \\geq 2$ ，</p>\n<p>令 $h(x)=f(x)-2x$ ，则 $h'(x)=f'(x)-2\\geq0(x&gt;1)$ ，</p>\n<p>所以 $h(x)$ 在 $(1, +\\infty)$ 上单调递增，</p>\n<p>又当 $x \\to 1$ 时， $h(x) \\to -\\infty$</p>\n<p>因为 $a \\leq 1$ ，所以 $-2a \\geq -2$ ，</p>\n<p>此时 $-2a &lt; f(x) - 2x$ 不恒成立，故 $a \\leq 1$ 不符题意；</p>\n<p>当 $a &gt; 1$ 时，若 $x &gt; a$ ，则 $x - a &gt; 0$</p>\n<p>则 $\\frac{f(x)}{x - a} &gt; 2$ ，即 $f(x) &gt; 2(x - a)$ ，即 $-2a &lt; f(x) - 2x$ ，</p>\n<p>由上可知函数 $h(x)=f(x)-2x$ 在 $(a,+\\infty)$ 上单调递增，</p>\n<p>所以 $h(x) &gt; h(a) = a \\ln (a - 1) - 2a (x &gt; a)$ ,</p>\n<p>所以 $-2a \\leq a \\ln (a - 1) - 2a$ ，解得 $a \\geq 2$ ①，</p>\n<p>若 $1 &lt; x &lt; a$ ，则 $\\frac{f(x)}{x - a} &gt; 2$ ，即 $f(x) &lt; 2(x - a)$ ，即 $-2a &gt; f(x) - 2x$</p>\n<p>由上可知函数 $h(x)=f(x)-2x$ 在 $(1,a)$ 上单调递增，</p>\n<p>所以 $h(x) &lt; h(a) = a \\ln (a - 1) - 2a (1 &lt; a &lt; 1)$ ,</p>\n<p>所以 $-2a \\geq a \\ln (a - 1) - 2a$ ，解得 $a \\leq 2$ ②，</p>\n<p>由①②可得 a=2 ，综上所述，a=2 .</p>",
+  "score": null,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.282202+00:00",
+    "question_source_sha256": "15514af6ceb54dc08cbfc8100c7df26b356cb6688fdd3bfe5c4f436c61261dd5",
+    "solution_source_sha256": "07f1865be56a487b402afb470f20fe230f42fb97bd927cee85afc49913075760"
+  }
+}

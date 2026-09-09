@@ -1,0 +1,22 @@
+{
+  "snapshot_name": "smart-question-recommender-v3-sample-data",
+  "description": "Embedded desensitized sample snapshot for the smart-question-recommender-v3 skill. Safe to share with other teachers for testing.",
+  "question_count": 137,
+  "midterm_scored_question_count": 19,
+  "student_count": 5,
+  "student_mastery_records": 45,
+  "files": {
+    "tags/all_question_tags.json": "Full tagged question bank, including question stems and tags.",
+    "tags/question_tags.jsonl": "Compact tag records for each question.",
+    "exam/midterm_tagging_input.json": "Midterm questions with score_rate, avg_score, and full_score.",
+    "student/student_exam_records.jsonl": "Raw student answer and score records (desensitized).",
+    "student/student_exam_records.json": "Same student records as a JSON array (desensitized).",
+    "student/student_mastery.jsonl": "Derived mastery records by student and primary knowledge tag (desensitized).",
+    "index/knowledge_index.json": "Question ids grouped by knowledge tag.",
+    "index/difficulty_index.json": "Question ids grouped by difficulty.",
+    "index/ability_index.json": "Question ids grouped by ability tag.",
+    "review/all_tag_review.csv": "Teacher review sheet for generated tags."
+  },
+  "reliability_note": "Only midterm questions have real score_rate. Other question difficulties are model_estimated until students answer them.",
+  "desensitization_note": "Student names/ids/ticket numbers/classes have been replaced with placeholders (Student01/StudentID01/TicketID01/Class01). Scores and answer patterns are preserved for realistic recommendation testing."
+}

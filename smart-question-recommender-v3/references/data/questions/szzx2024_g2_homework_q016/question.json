@@ -1,0 +1,709 @@
+{
+  "question_id": "szzx2024_g2_homework_q016",
+  "source_exam": "示例学校高二数学五一作业",
+  "source_file": "sources/示例学校高二数学五一作业 试卷.docx",
+  "solution_file": "sources/示例学校高二数学五一作业 答案.docx",
+  "grade": "高二",
+  "subject": "数学",
+  "question_number": 16,
+  "question_type": "solution",
+  "stem_markdown": "16．某篮球运动员在训练中进行投篮练习.已知其2分球的命中率为0.8，3分球的命中率为0.5，且每次投篮结果相互独立.在每次投篮前，他可以根据场上情况选择投2分球或3分球.\n(1)若该运动员等可能地选择投2分球或3分球，求他投一次篮命中的概率：\n(2)现该运动员拥有连续2次投篮的机会，他制定了如下策略：\n若第一次命中，则第二次继续选择同一类型的投篮；若第一次未命中，则第二次更换为另一种类型的投篮，求该策略下，这名运动员第一次投篮应该怎么选择可以使得两次投篮总得分的期望最大.",
+  "stem_text": "16．某篮球运动员在训练中进行投篮练习.已知其2分球的命中率为0.8，3分球的命中率为0.5，且每次投篮结果相互独立.在每次投篮前，他可以根据场上情况选择投2分球或3分球.\n(1)若该运动员等可能地选择投2分球或3分球，求他投一次篮命中的概率：\n(2)现该运动员拥有连续2次投篮的机会，他制定了如下策略：\n若第一次命中，则第二次继续选择同一类型的投篮；若第一次未命中，则第二次更换为另一种类型的投篮，求该策略下，这名运动员第一次投篮应该怎么选择可以使得两次投篮总得分的期望最大.",
+  "stem_html": "<p>16．某篮球运动员在训练中进行投篮练习.已知其2分球的命中率为0.8，3分球的命中率为0.5，且每次投篮结果相互独立.在每次投篮前，他可以根据场上情况选择投2分球或3分球.</p>\n<p>(1)若该运动员等可能地选择投2分球或3分球，求他投一次篮命中的概率：</p>\n<p>(2)现该运动员拥有连续2次投篮的机会，他制定了如下策略：</p>\n<p>若第一次命中，则第二次继续选择同一类型的投篮；若第一次未命中，则第二次更换为另一种类型的投篮，求该策略下，这名运动员第一次投篮应该怎么选择可以使得两次投篮总得分的期望最大.</p>",
+  "stem_blocks": [
+    {
+      "type": "text",
+      "text": "16"
+    },
+    {
+      "type": "text",
+      "text": "．某篮球运动员在训练中进行投篮练习"
+    },
+    {
+      "type": "text",
+      "text": "."
+    },
+    {
+      "type": "text",
+      "text": "已知其"
+    },
+    {
+      "type": "text",
+      "text": "2"
+    },
+    {
+      "type": "text",
+      "text": "分球的命中率为"
+    },
+    {
+      "type": "text",
+      "text": "0.8"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "text",
+      "text": "3"
+    },
+    {
+      "type": "text",
+      "text": "分球的命中率为"
+    },
+    {
+      "type": "text",
+      "text": "0.5"
+    },
+    {
+      "type": "text",
+      "text": "，且每次投篮结果相互独立"
+    },
+    {
+      "type": "text",
+      "text": "."
+    },
+    {
+      "type": "text",
+      "text": "在每次投篮前，他可以根据场上情况选择投"
+    },
+    {
+      "type": "text",
+      "text": "2"
+    },
+    {
+      "type": "text",
+      "text": "分球或"
+    },
+    {
+      "type": "text",
+      "text": "3"
+    },
+    {
+      "type": "text",
+      "text": "分球"
+    },
+    {
+      "type": "text",
+      "text": "."
+    },
+    {
+      "type": "text",
+      "text": "(1)"
+    },
+    {
+      "type": "text",
+      "text": "若该运动员等可能地选择投"
+    },
+    {
+      "type": "text",
+      "text": "2"
+    },
+    {
+      "type": "text",
+      "text": "分球或"
+    },
+    {
+      "type": "text",
+      "text": "3"
+    },
+    {
+      "type": "text",
+      "text": "分球，求他投一次篮命中的概率："
+    },
+    {
+      "type": "text",
+      "text": "(2)"
+    },
+    {
+      "type": "text",
+      "text": "现该运动员拥有连续"
+    },
+    {
+      "type": "text",
+      "text": "2"
+    },
+    {
+      "type": "text",
+      "text": "次投篮的机会，他制定了如下策略："
+    },
+    {
+      "type": "text",
+      "text": "若第一次命中，则第二次继续选择同一类型的投篮；若第一次未命中，则第二次更换为另一种类型的投篮，求该策略下，这名运动员第一次投篮应该怎么选择可以使得两次投篮总得分的期望最大"
+    },
+    {
+      "type": "text",
+      "text": "."
+    }
+  ],
+  "answer": "(1)A",
+  "solution_markdown": "16．(1)$A$\n(2)该运动员第一次选择2分球可以使得两次投篮总得分的期望最大\n【详解】（1）解：记选择2分球为事件$B$，选择3分球为事件$C$，投一次篮命中为事件$P(A)=P(B)=0.5$，\n则$P(C)=P(CA+CB)=P(A)P(C|A)+P(B)P(C|B)$，所以$=0.5×0.8+0.5×0.5=0.65ξ$.\n（2）解：当该运动员第一次选择2分球时，记他两次投篮的得分为$ξ$，$0,2,3,4$可取值有$P(ξ=0)=(1-0.8)(1-0.5)=0.1$，\n可得$P(ξ=2)=0.8×(1-0.8)=0.16$，$P(ξ=3)=(1-0.8)×0.5=0.1$，\n$P(ξ=4)=0.8×0.8=0.64$，$ξ$，\n所以随机变量$ξ$的分布列为：\n所以$η$\n当该运动员第一次选择3分球时，记他两次投篮的得分为$η$，$0,2,3,6$可取值有$P(η=0)=(1-0.5)(1-0.8)=0.1$，\n可得$P(η=2)=(1-0.5)×0.8=0.4$，$P(η=3)=0.5×(1-0.5)=0.25$\n$P(η=6)=0.5×0.5=0.25$，$η$，\n所以随机变量$η$的分布列为：\n所以$3.18>3.05$，\n因为$E(ξ)>E(η)$，即$(0,(4)/(27))$，\n所以该运动员第一次选择2分球可以使得两次投篮总得分的期望最大.",
+  "solution_text": "16．(1)A\n(2)该运动员第一次选择2分球可以使得两次投篮总得分的期望最大\n【详解】（1）解：记选择2分球为事件B，选择3分球为事件C，投一次篮命中为事件P(A)=P(B)=0.5，\n则P(C)=P(CA+CB)=P(A)P(C|A)+P(B)P(C|B)，所以=0.5×0.8+0.5×0.5=0.65ξ.\n（2）解：当该运动员第一次选择2分球时，记他两次投篮的得分为ξ，0,2,3,4可取值有P(ξ=0)=(1-0.8)(1-0.5)=0.1，\n可得P(ξ=2)=0.8×(1-0.8)=0.16，P(ξ=3)=(1-0.8)×0.5=0.1，\nP(ξ=4)=0.8×0.8=0.64，ξ，\n所以随机变量ξ的分布列为：\n所以η\n当该运动员第一次选择3分球时，记他两次投篮的得分为η，0,2,3,6可取值有P(η=0)=(1-0.5)(1-0.8)=0.1，\n可得P(η=2)=(1-0.5)×0.8=0.4，P(η=3)=0.5×(1-0.5)=0.25\nP(η=6)=0.5×0.5=0.25，η，\n所以随机变量η的分布列为：\n所以3.18>3.05，\n因为E(ξ)>E(η)，即(0,(4)/(27))，\n所以该运动员第一次选择2分球可以使得两次投篮总得分的期望最大.",
+  "solution_html": "<p>16．(1)<span class=\"formula\" data-formula-id=\"f001\">A</span></p>\n<p>(2)该运动员第一次选择2分球可以使得两次投篮总得分的期望最大</p>\n<p>【详解】（1）解：记选择2分球为事件<span class=\"formula\" data-formula-id=\"f002\">B</span>，选择3分球为事件<span class=\"formula\" data-formula-id=\"f003\">C</span>，投一次篮命中为事件<span class=\"formula\" data-formula-id=\"f004\">P(A)=P(B)=0.5</span>，</p>\n<p>则<span class=\"formula\" data-formula-id=\"f005\">P(C)=P(CA+CB)=P(A)P(C|A)+P(B)P(C|B)</span>，所以<span class=\"formula\" data-formula-id=\"f006\">=0.5×0.8+0.5×0.5=0.65ξ</span>.</p>\n<p>（2）解：当该运动员第一次选择2分球时，记他两次投篮的得分为<span class=\"formula\" data-formula-id=\"f007\">ξ</span>，<span class=\"formula\" data-formula-id=\"f008\">0,2,3,4</span>可取值有<span class=\"formula\" data-formula-id=\"f009\">P(ξ=0)=(1-0.8)(1-0.5)=0.1</span>，</p>\n<p>可得<span class=\"formula\" data-formula-id=\"f010\">P(ξ=2)=0.8×(1-0.8)=0.16</span>，<span class=\"formula\" data-formula-id=\"f011\">P(ξ=3)=(1-0.8)×0.5=0.1</span>，</p>\n<p><span class=\"formula\" data-formula-id=\"f012\">P(ξ=4)=0.8×0.8=0.64</span>，<span class=\"formula\" data-formula-id=\"f013\">ξ</span>，</p>\n<p>所以随机变量<span class=\"formula\" data-formula-id=\"f014\">ξ</span>的分布列为：</p>\n<p>所以<span class=\"formula\" data-formula-id=\"f015\">η</span></p>\n<p>当该运动员第一次选择3分球时，记他两次投篮的得分为<span class=\"formula\" data-formula-id=\"f016\">η</span>，<span class=\"formula\" data-formula-id=\"f017\">0,2,3,6</span>可取值有<span class=\"formula\" data-formula-id=\"f018\">P(η=0)=(1-0.5)(1-0.8)=0.1</span>，</p>\n<p>可得<span class=\"formula\" data-formula-id=\"f019\">P(η=2)=(1-0.5)×0.8=0.4</span>，<span class=\"formula\" data-formula-id=\"f020\">P(η=3)=0.5×(1-0.5)=0.25</span></p>\n<p><span class=\"formula\" data-formula-id=\"f021\">P(η=6)=0.5×0.5=0.25</span>，<span class=\"formula\" data-formula-id=\"f022\">η</span>，</p>\n<p>所以随机变量<span class=\"formula\" data-formula-id=\"f023\">η</span>的分布列为：</p>\n<p>所以<span class=\"formula\" data-formula-id=\"f024\">3.18&gt;3.05</span>，</p>\n<p>因为<span class=\"formula\" data-formula-id=\"f025\">E(ξ)&gt;E(η)</span>，即<span class=\"formula\" data-formula-id=\"f026\">(0,(4)/(27))</span>，</p>\n<p>所以该运动员第一次选择2分球可以使得两次投篮总得分的期望最大.</p>",
+  "solution_blocks": [
+    {
+      "type": "text",
+      "text": "16"
+    },
+    {
+      "type": "text",
+      "text": "．"
+    },
+    {
+      "type": "text",
+      "text": "(1)"
+    },
+    {
+      "type": "math",
+      "formula_id": "f001",
+      "text_approx": "A"
+    },
+    {
+      "type": "text",
+      "text": "(2)"
+    },
+    {
+      "type": "text",
+      "text": "该运动员第一次选择"
+    },
+    {
+      "type": "text",
+      "text": "2"
+    },
+    {
+      "type": "text",
+      "text": "分球可以使得两次投篮总得分的期望最大"
+    },
+    {
+      "type": "text",
+      "text": "【详解】（"
+    },
+    {
+      "type": "text",
+      "text": "1"
+    },
+    {
+      "type": "text",
+      "text": "）解：记选择"
+    },
+    {
+      "type": "text",
+      "text": "2"
+    },
+    {
+      "type": "text",
+      "text": "分球为事件"
+    },
+    {
+      "type": "math",
+      "formula_id": "f002",
+      "text_approx": "B"
+    },
+    {
+      "type": "text",
+      "text": "，选择"
+    },
+    {
+      "type": "text",
+      "text": "3"
+    },
+    {
+      "type": "text",
+      "text": "分球为事件"
+    },
+    {
+      "type": "math",
+      "formula_id": "f003",
+      "text_approx": "C"
+    },
+    {
+      "type": "text",
+      "text": "，投一次篮命中为事件"
+    },
+    {
+      "type": "math",
+      "formula_id": "f004",
+      "text_approx": "P(A)=P(B)=0.5"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "text",
+      "text": "则"
+    },
+    {
+      "type": "math",
+      "formula_id": "f005",
+      "text_approx": "P(C)=P(CA+CB)=P(A)P(C|A)+P(B)P(C|B)"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "text",
+      "text": "所以"
+    },
+    {
+      "type": "math",
+      "formula_id": "f006",
+      "text_approx": "=0.5×0.8+0.5×0.5=0.65ξ"
+    },
+    {
+      "type": "text",
+      "text": "."
+    },
+    {
+      "type": "text",
+      "text": "（"
+    },
+    {
+      "type": "text",
+      "text": "2"
+    },
+    {
+      "type": "text",
+      "text": "）解：当该运动员第一次选择"
+    },
+    {
+      "type": "text",
+      "text": "2"
+    },
+    {
+      "type": "text",
+      "text": "分球时，记他两次投篮的得分为"
+    },
+    {
+      "type": "math",
+      "formula_id": "f007",
+      "text_approx": "ξ"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f008",
+      "text_approx": "0,2,3,4"
+    },
+    {
+      "type": "text",
+      "text": "可取值有"
+    },
+    {
+      "type": "math",
+      "formula_id": "f009",
+      "text_approx": "P(ξ=0)=(1-0.8)(1-0.5)=0.1"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "text",
+      "text": "可得"
+    },
+    {
+      "type": "math",
+      "formula_id": "f010",
+      "text_approx": "P(ξ=2)=0.8×(1-0.8)=0.16"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f011",
+      "text_approx": "P(ξ=3)=(1-0.8)×0.5=0.1"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f012",
+      "text_approx": "P(ξ=4)=0.8×0.8=0.64"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f013",
+      "text_approx": "ξ"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "text",
+      "text": "所以随机变量"
+    },
+    {
+      "type": "math",
+      "formula_id": "f014",
+      "text_approx": "ξ"
+    },
+    {
+      "type": "text",
+      "text": "的分布列为："
+    },
+    {
+      "type": "text",
+      "text": "所以"
+    },
+    {
+      "type": "math",
+      "formula_id": "f015",
+      "text_approx": "η"
+    },
+    {
+      "type": "text",
+      "text": "当该运动员第一次选择"
+    },
+    {
+      "type": "text",
+      "text": "3"
+    },
+    {
+      "type": "text",
+      "text": "分球时，记他两次投篮的得分为"
+    },
+    {
+      "type": "math",
+      "formula_id": "f016",
+      "text_approx": "η"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f017",
+      "text_approx": "0,2,3,6"
+    },
+    {
+      "type": "text",
+      "text": "可取值有"
+    },
+    {
+      "type": "math",
+      "formula_id": "f018",
+      "text_approx": "P(η=0)=(1-0.5)(1-0.8)=0.1"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "text",
+      "text": "可得"
+    },
+    {
+      "type": "math",
+      "formula_id": "f019",
+      "text_approx": "P(η=2)=(1-0.5)×0.8=0.4"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f020",
+      "text_approx": "P(η=3)=0.5×(1-0.5)=0.25"
+    },
+    {
+      "type": "math",
+      "formula_id": "f021",
+      "text_approx": "P(η=6)=0.5×0.5=0.25"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f022",
+      "text_approx": "η"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "text",
+      "text": "所以随机变量"
+    },
+    {
+      "type": "math",
+      "formula_id": "f023",
+      "text_approx": "η"
+    },
+    {
+      "type": "text",
+      "text": "的分布列为："
+    },
+    {
+      "type": "text",
+      "text": "所以"
+    },
+    {
+      "type": "math",
+      "formula_id": "f024",
+      "text_approx": "3.18>3.05"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "text",
+      "text": "因为"
+    },
+    {
+      "type": "math",
+      "formula_id": "f025",
+      "text_approx": "E(ξ)>E(η)"
+    },
+    {
+      "type": "text",
+      "text": "，即"
+    },
+    {
+      "type": "math",
+      "formula_id": "f026",
+      "text_approx": "(0,(4)/(27))"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "text",
+      "text": "所以该运动员第一次选择"
+    },
+    {
+      "type": "text",
+      "text": "2"
+    },
+    {
+      "type": "text",
+      "text": "分球可以使得两次投篮总得分的期望最大"
+    },
+    {
+      "type": "text",
+      "text": "."
+    }
+  ],
+  "assets": [],
+  "formulas": [
+    {
+      "id": "f001",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "A",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>A</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f002",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "B",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>B</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f003",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "C",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>C</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f004",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "P(A)=P(B)=0.5",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>P</ns0:t></ns0:r><ns0:d><ns0:dPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>A</ns0:t></ns0:r></ns0:e></ns0:d><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>=P</ns0:t></ns0:r><ns0:d><ns0:dPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>B</ns0:t></ns0:r></ns0:e></ns0:d><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>=0.5</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f005",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "P(C)=P(CA+CB)=P(A)P(C|A)+P(B)P(C|B)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>P</ns0:t></ns0:r><ns0:d><ns0:dPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>C</ns0:t></ns0:r></ns0:e></ns0:d><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>=P</ns0:t></ns0:r><ns0:d><ns0:dPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>CA+CB</ns0:t></ns0:r></ns0:e></ns0:d><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>=P</ns0:t></ns0:r><ns0:d><ns0:dPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>A</ns0:t></ns0:r></ns0:e></ns0:d><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>P</ns0:t></ns0:r><ns0:d><ns0:dPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>C|A</ns0:t></ns0:r></ns0:e></ns0:d><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>+P</ns0:t></ns0:r><ns0:d><ns0:dPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>B</ns0:t></ns0:r></ns0:e></ns0:d><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>P</ns0:t></ns0:r><ns0:d><ns0:dPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>C|B</ns0:t></ns0:r></ns0:e></ns0:d></ns0:oMath>"
+    },
+    {
+      "id": "f006",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "=0.5×0.8+0.5×0.5=0.65ξ",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>=0.5×0.8+0.5×0.5=0.65ξ</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f007",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "ξ",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>ξ</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f008",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "0,2,3,4",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>0,2,3,4</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f009",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "P(ξ=0)=(1-0.8)(1-0.5)=0.1",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>P(ξ=0)=(1-0.8)(1-0.5)=0.1</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f010",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "P(ξ=2)=0.8×(1-0.8)=0.16",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>P(ξ=2)=0.8×(1-0.8)=0.16</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f011",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "P(ξ=3)=(1-0.8)×0.5=0.1",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>P(ξ=3)=(1-0.8)×0.5=0.1</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f012",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "P(ξ=4)=0.8×0.8=0.64",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>P(ξ=4)=0.8×0.8=0.64</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f013",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "ξ",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>ξ</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f014",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "ξ",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>ξ</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f015",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "η",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>η</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f016",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "η",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>η</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f017",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "0,2,3,6",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>0,2,3,6</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f018",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "P(η=0)=(1-0.5)(1-0.8)=0.1",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>P(η=0)=(1-0.5)(1-0.8)=0.1</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f019",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "P(η=2)=(1-0.5)×0.8=0.4",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>P(η=2)=(1-0.5)×0.8=0.4</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f020",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "P(η=3)=0.5×(1-0.5)=0.25",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>P(η=3)=0.5×(1-0.5)=0.25</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f021",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "P(η=6)=0.5×0.5=0.25",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>P</ns0:t></ns0:r><ns0:d><ns0:dPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>η=6</ns0:t></ns0:r></ns0:e></ns0:d><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>=0.5×0.5=0.25</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f022",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "η",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>η</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f023",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "η",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>η</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f024",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "3.18>3.05",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>3.18&gt;3.05</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f025",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "E(ξ)>E(η)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>E</ns0:t></ns0:r><ns0:d><ns0:dPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>ξ</ns0:t></ns0:r></ns0:e></ns0:d><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>&gt;E</ns0:t></ns0:r><ns0:d><ns0:dPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>η</ns0:t></ns0:r></ns0:e></ns0:d></ns0:oMath>"
+    },
+    {
+      "id": "f026",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(0,(4)/(27))",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:d><ns0:dPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>0,</ns0:t></ns0:r><ns0:f><ns0:fPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:fPr><ns0:num><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>4</ns0:t></ns0:r></ns0:num><ns0:den><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>27</ns0:t></ns0:r></ns0:den></ns0:f></ns0:e></ns0:d></ns0:oMath>"
+    }
+  ],
+  "ole_objects": [],
+  "extraction": {
+    "source_paragraph_range": [
+      50,
+      54
+    ],
+    "solution_paragraph_range": [
+      133,
+      148
+    ],
+    "formula_count": 26,
+    "image_count": 0,
+    "ole_count": 0,
+    "quality_flags": [
+      "contains_omml"
+    ]
+  }
+}

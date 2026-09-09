@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_e34ad4ed1933_q010",
+  "display_id": "EXAM-E34AD4ED1933-Q010",
+  "source_exam": "深圳中学 2024 级高二数学周测（4）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（4）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（4）参考答案.md",
+  "question_number": 10,
+  "question_type": "multiple_choice",
+  "stem_markdown": "### 10. 已知 $a \\in \\mathbf{R}$ ，函数 $f(x) = ax^3 + 2x + 1$ 有两个极值点 $x_1, x_2$ ，则（）\n\nA. $a$ 是负数\nB. $x_1 + x_2 \\neq 0$\n\nC. 函数 $f(x)$ 图象的对称中心为 $(0,1)$\n\nD. 曲线 $y = f(x)$ 在点 $(0, f(0))$ 处的切线方程为 $y = 2x + 1$",
+  "stem_html": "<h3>10. 已知 $a \\in \\mathbf{R}$ ，函数 $f(x) = ax^3 + 2x + 1$ 有两个极值点 $x_1, x_2$ ，则（）</h3>\n<p>A. $a$ 是负数\nB. $x_1 + x_2 \\neq 0$</p>\n<p>C. 函数 $f(x)$ 图象的对称中心为 $(0,1)$</p>\n<p>D. 曲线 $y = f(x)$ 在点 $(0, f(0))$ 处的切线方程为 $y = 2x + 1$</p>",
+  "options": {
+    "A": "$a$ 是负数",
+    "B": "$x_1 + x_2 \\neq 0$",
+    "C": "函数 $f(x)$ 图象的对称中心为 $(0,1)$",
+    "D": "曲线 $y = f(x)$ 在点 $(0, f(0))$ 处的切线方程为 $y = 2x + 1$"
+  },
+  "answer": "ACD",
+  "solution_markdown": "",
+  "solution_html": "",
+  "score": 6,
+  "assets": [],
+  "quality_flags": [
+    "missing_solution"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.848361+00:00",
+    "question_source_sha256": "abb103e1c408892fc4de9c4f369a5605171aaff95278bd1e2fbb72858f7ccac8",
+    "solution_source_sha256": "393e7089ed67ecf54073904de81f72aa4f123dbb02df5f8fd36c76f14bef30c1"
+  }
+}

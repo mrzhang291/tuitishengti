@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_f6e940cd31a8_q002",
+  "display_id": "EXAM-F6E940CD31A8-Q002",
+  "source_exam": "深圳中学 2024 级高二数学周测（3）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（3）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（3）参考答案.md",
+  "question_number": 2,
+  "question_type": "single_choice",
+  "stem_markdown": "### 2. 函数 $y = f(x)$ 的导函数 $y = f'(x)$ 的图像如图所示，则函数 $y = f(x)$ 的图象可能是\n\n![](assets/3590e8e358b23dc7787fd8426302e42488761aaf31433153da3bf42a35d25a27.jpg)\n\nA.\n![](assets/3258e9dd0b4716cb354996ac2f9301509b0cd27ad6618dbaf6eba126b97919ff.jpg)\n\nB.\n![](assets/e590f104feabbaafb288d9f4836087288df478ad2d4f7fe391c58a67806d652a.jpg)\n\nC.\n![](assets/44e287fb4feab09df3c545987a18f45b23e4c18c89c3e27f184cad9fa59827ce.jpg)\n\nD.\n\n![](assets/e8f357934a23e222ea074147c3f82fd9b863eb2e9b6f9fc3239582b47c3ae97f.jpg)",
+  "stem_html": "<h3>2. 函数 $y = f(x)$ 的导函数 $y = f'(x)$ 的图像如图所示，则函数 $y = f(x)$ 的图象可能是</h3>\n<p><img alt=\"\" src=\"assets/3590e8e358b23dc7787fd8426302e42488761aaf31433153da3bf42a35d25a27.jpg\" /></p>\n<p>A.\n<img alt=\"\" src=\"assets/3258e9dd0b4716cb354996ac2f9301509b0cd27ad6618dbaf6eba126b97919ff.jpg\" /></p>\n<p>B.\n<img alt=\"\" src=\"assets/e590f104feabbaafb288d9f4836087288df478ad2d4f7fe391c58a67806d652a.jpg\" /></p>\n<p>C.\n<img alt=\"\" src=\"assets/44e287fb4feab09df3c545987a18f45b23e4c18c89c3e27f184cad9fa59827ce.jpg\" /></p>\n<p>D.</p>\n<p><img alt=\"\" src=\"assets/e8f357934a23e222ea074147c3f82fd9b863eb2e9b6f9fc3239582b47c3ae97f.jpg\" /></p>",
+  "options": {
+    "A": "![](assets/3258e9dd0b4716cb354996ac2f9301509b0cd27ad6618dbaf6eba126b97919ff.jpg)",
+    "B": "![](assets/e590f104feabbaafb288d9f4836087288df478ad2d4f7fe391c58a67806d652a.jpg)",
+    "C": "![](assets/44e287fb4feab09df3c545987a18f45b23e4c18c89c3e27f184cad9fa59827ce.jpg)",
+    "D": "![](assets/e8f357934a23e222ea074147c3f82fd9b863eb2e9b6f9fc3239582b47c3ae97f.jpg)"
+  },
+  "answer": "D",
+  "solution_markdown": "",
+  "solution_html": "",
+  "score": 5,
+  "assets": [
+    {
+      "original_ref": "images/3590e8e358b23dc7787fd8426302e42488761aaf31433153da3bf42a35d25a27.jpg",
+      "alt": "",
+      "saved": true,
+      "file_name": "3590e8e358b23dc7787fd8426302e42488761aaf31433153da3bf42a35d25a27.jpg",
+      "relative_path": "assets/3590e8e358b23dc7787fd8426302e42488761aaf31433153da3bf42a35d25a27.jpg",
+      "sha256": "d6e6d19747a86d951569f2b46f48cd92040e55283da0670c6c3c04e392bbbb0a"
+    },
+    {
+      "original_ref": "images/3258e9dd0b4716cb354996ac2f9301509b0cd27ad6618dbaf6eba126b97919ff.jpg",
+      "alt": "",
+      "saved": true,
+      "file_name": "3258e9dd0b4716cb354996ac2f9301509b0cd27ad6618dbaf6eba126b97919ff.jpg",
+      "relative_path": "assets/3258e9dd0b4716cb354996ac2f9301509b0cd27ad6618dbaf6eba126b97919ff.jpg",
+      "sha256": "be06e5c1a4172426c8cd408ebf0421a727d57ab6c8b7e01c841b4dda45ef64e4"
+    },
+    {
+      "original_ref": "images/e590f104feabbaafb288d9f4836087288df478ad2d4f7fe391c58a67806d652a.jpg",
+      "alt": "",
+      "saved": true,
+      "file_name": "e590f104feabbaafb288d9f4836087288df478ad2d4f7fe391c58a67806d652a.jpg",
+      "relative_path": "assets/e590f104feabbaafb288d9f4836087288df478ad2d4f7fe391c58a67806d652a.jpg",
+      "sha256": "7d80eb4149f00b9fbfaa2722daa5ee6af8c98952c753516ae47816de506b89a8"
+    },
+    {
+      "original_ref": "images/44e287fb4feab09df3c545987a18f45b23e4c18c89c3e27f184cad9fa59827ce.jpg",
+      "alt": "",
+      "saved": true,
+      "file_name": "44e287fb4feab09df3c545987a18f45b23e4c18c89c3e27f184cad9fa59827ce.jpg",
+      "relative_path": "assets/44e287fb4feab09df3c545987a18f45b23e4c18c89c3e27f184cad9fa59827ce.jpg",
+      "sha256": "a70b7e57b6bca3e33daf6cc0f879aec2ffdd8f68a36234a9a1f8c8f7c5c86992"
+    },
+    {
+      "original_ref": "images/e8f357934a23e222ea074147c3f82fd9b863eb2e9b6f9fc3239582b47c3ae97f.jpg",
+      "alt": "",
+      "saved": true,
+      "file_name": "e8f357934a23e222ea074147c3f82fd9b863eb2e9b6f9fc3239582b47c3ae97f.jpg",
+      "relative_path": "assets/e8f357934a23e222ea074147c3f82fd9b863eb2e9b6f9fc3239582b47c3ae97f.jpg",
+      "sha256": "7ceeeabe0a2a4e2ac58cdec2c4c3908888a2af9fc1bd5c30081f268171c4ffe2"
+    }
+  ],
+  "quality_flags": [
+    "contains_images",
+    "missing_solution"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.729421+00:00",
+    "question_source_sha256": "78a4bb6656c35dbe613a79b0ed7dccc993b5c108f4f5c32b995a022aaa492633",
+    "solution_source_sha256": "86a4c5fab883e5128818dbb75724d3042d0c55a8ea81c7cdffedbb262214e02c"
+  }
+}

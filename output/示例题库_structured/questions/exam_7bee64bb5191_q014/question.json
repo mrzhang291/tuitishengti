@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_7bee64bb5191_q014",
+  "display_id": "EXAM-7BEE64BB5191-Q014",
+  "source_exam": "深圳中学 2024 级高二数学周测（1）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（1）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（1）解析.md",
+  "question_number": 14,
+  "question_type": "fill_blank",
+  "stem_markdown": "### 14. 已知函数 $f(x) = |e^x - 1|, x_1 < 0, x_2 > 0$ ，函数 $f(x)$ 的图象在点 $A(x_1, f(x_1))$ 和点 $B(x_2, f(x_2))$ 的两条切线互相垂直，且分别交 $y$ 轴于 $M$ ， $N$ 两点，则 $\\frac{|AM|}{|BN|}$ 取值范围是 \\_\\_\\_\\_.",
+  "stem_html": "<h3>14. 已知函数 $f(x) = |e^x - 1|, x_1 &lt; 0, x_2 &gt; 0$ ，函数 $f(x)$ 的图象在点 $A(x_1, f(x_1))$ 和点 $B(x_2, f(x_2))$ 的两条切线互相垂直，且分别交 $y$ 轴于 $M$ ， $N$ 两点，则 $\\frac{|AM|}{|BN|}$ 取值范围是 ____.</h3>",
+  "options": {},
+  "answer": "(0,1)",
+  "solution_markdown": "### 14. (0,1)\n\n**详解**由题意， \\(f(x)=|e^{x}-1|=\\left\\{\\begin{aligned}&1-e^{x},&x<0\\\\&e^{x}-1,x\\geq0\\end{aligned}\\right.\\) ，则 \\(f'(x)=\\left\\{\\begin{aligned}&-e^{x},&x<0\\\\&e^{x},&x>0\\end{aligned}\\right.\\)\n所以点 \\(A(x_{1},1-e^{x_{1}})\\) 和点 \\(B(x_{2},e^{x_{2}}-1), k_{AM}=-e^{x_{1}}, k_{BN}=e^{x_{2}}\\)\n所以 \\(-e^{x_{1}}\\cdot e^{x_{2}}=-1,x_{1}+x_{2}=0\\) ，所以AM:  \\(y-1+e^{x_{1}}=-e^{x_{1}}(x-x_{1}), M(0,e^{x_{1}}x_{1}-e^{x_{1}}+1)\\) ，所以 \\(|AM|=\\sqrt{x_{1}^{2}+(e^{x_{1}}x_{1})^{2}}=\\sqrt{1+e^{2x_{1}}}\\cdot|x_{1}|\\) ，同理 \\(|BN|=\\sqrt{1+e^{2x_{2}}}\\cdot|x_{2}|\\)\n所以 \\(\\frac{|AM|}{|BN|}=\\frac{\\sqrt{1+e^{2x_1}\\cdot|x_1|}}{\\sqrt{1+e^{2x_2}\\cdot|x_2|}}=\\sqrt{\\frac{1+e^{2x_1}}{1+e^{2x_2}}}=\\sqrt{\\frac{1+e^{2x_1}}{1+e^{-2x_1}}}=e^{x_1}\\in(0,1).故答案为：(0,1)",
+  "solution_html": "<h3>14. (0,1)</h3>\n<p><strong>详解</strong>由题意， \\(f(x)=|e^{x}-1|=\\left\\{\\begin{aligned}&amp;1-e^{x},&amp;x&lt;0\\\\&amp;e^{x}-1,x\\geq0\\end{aligned}\\right.\\) ，则 \\(f'(x)=\\left\\{\\begin{aligned}&amp;-e^{x},&amp;x&lt;0\\\\&amp;e^{x},&amp;x&gt;0\\end{aligned}\\right.\\)\n所以点 \\(A(x_{1},1-e^{x_{1}})\\) 和点 \\(B(x_{2},e^{x_{2}}-1), k_{AM}=-e^{x_{1}}, k_{BN}=e^{x_{2}}\\)\n所以 \\(-e^{x_{1}}\\cdot e^{x_{2}}=-1,x_{1}+x_{2}=0\\) ，所以AM:  \\(y-1+e^{x_{1}}=-e^{x_{1}}(x-x_{1}), M(0,e^{x_{1}}x_{1}-e^{x_{1}}+1)\\) ，所以 \\(|AM|=\\sqrt{x_{1}^{2}+(e^{x_{1}}x_{1})^{2}}=\\sqrt{1+e^{2x_{1}}}\\cdot|x_{1}|\\) ，同理 \\(|BN|=\\sqrt{1+e^{2x_{2}}}\\cdot|x_{2}|\\)\n所以 (\\frac{|AM|}{|BN|}=\\frac{\\sqrt{1+e^{2x_1}\\cdot|x_1|}}{\\sqrt{1+e^{2x_2}\\cdot|x_2|}}=\\sqrt{\\frac{1+e^{2x_1}}{1+e^{2x_2}}}=\\sqrt{\\frac{1+e^{2x_1}}{1+e^{-2x_1}}}=e^{x_1}\\in(0,1).故答案为：(0,1)</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.599921+00:00",
+    "question_source_sha256": "8fa1d650b2c1959ec549afd5bfc248cdd4ddda5307791163f79f93a33acf3cac",
+    "solution_source_sha256": "5b5d55d680204d0e0f86a02ed377845f5652a058ffb31385ed378ad99f44b5f7"
+  }
+}

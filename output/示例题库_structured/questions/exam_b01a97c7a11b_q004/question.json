@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_b01a97c7a11b_q004",
+  "display_id": "EXAM-B01A97C7A11B-Q004",
+  "source_exam": "深圳中学2024级高二周测（8）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（8）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（8）参考答案.md",
+  "question_number": 4,
+  "question_type": "single_choice",
+  "stem_markdown": "### 4. 现有两位游客慕名来江苏旅游,他们分别从太湖鼋头渚、苏州拙政园、镇江金山寺、中华恐龙园、南京夫子庙、扬州瘦西湖6个景点中随机选择1个景点游玩.记事件A为“两位游客中至少有一人选择太湖鼋头渚”,事件B为“两位游客选择的景点不同”,则 $P(B|A)=(\\quad)$\n\nA. $\\frac{7}{9}$\n\nB. $\\frac{8}{9}$\n\nC. $\\frac{9}{11}$\n\nD. $\\frac{10}{11}$",
+  "stem_html": "<h3>4. 现有两位游客慕名来江苏旅游,他们分别从太湖鼋头渚、苏州拙政园、镇江金山寺、中华恐龙园、南京夫子庙、扬州瘦西湖6个景点中随机选择1个景点游玩.记事件A为“两位游客中至少有一人选择太湖鼋头渚”,事件B为“两位游客选择的景点不同”,则 $P(B|A)=(\\quad)$</h3>\n<p>A. $\\frac{7}{9}$</p>\n<p>B. $\\frac{8}{9}$</p>\n<p>C. $\\frac{9}{11}$</p>\n<p>D. $\\frac{10}{11}$</p>",
+  "options": {
+    "A": "$\\frac{7}{9}$",
+    "B": "$\\frac{8}{9}$",
+    "C": "$\\frac{9}{11}$",
+    "D": "$\\frac{10}{11}$"
+  },
+  "answer": "D",
+  "solution_markdown": "",
+  "solution_html": "",
+  "score": null,
+  "assets": [],
+  "quality_flags": [
+    "missing_solution"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.051299+00:00",
+    "question_source_sha256": "c94eca08c58bedc15524121a680136ba270a64c9922023c3005a12c4fc409761",
+    "solution_source_sha256": "2c305966ce196e8a17833cd59778cae810c6b4e24eca072eeecc711059b85d1d"
+  }
+}

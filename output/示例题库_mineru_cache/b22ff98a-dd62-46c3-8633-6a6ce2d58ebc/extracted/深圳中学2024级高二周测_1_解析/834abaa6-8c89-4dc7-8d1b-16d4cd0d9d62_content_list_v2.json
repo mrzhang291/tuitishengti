@@ -1,0 +1,2039 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "深圳中学 2024 级高二数学周测（1）解析"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                268,
+                92,
+                761,
+                112
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/6bba5061f55ccd262aeaf0b5a12631a6f3854eb94dd8db3ad978cada7309e0da.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td>题号</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td>答案</td><td>C</td><td>B</td><td>C</td><td>A</td><td>D</td><td>C</td><td>A</td><td>A</td><td>BC</td><td>ACD</td></tr><tr><td>题号</td><td>11</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>答案</td><td>ACD</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                149,
+                120,
+                848,
+                199
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1. C【详解】①在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "[0,t_{1}]"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时间段内，位移是一条斜率大于零的直线，则汽车在该时间段内匀速行驶，汽车在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "[0,t_{1}]"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时间段内每一时刻的瞬时速度相同，故①正确；"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                223,
+                836,
+                267
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "②在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "[t_{1},t_{2}]"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时间段内，位移是一条斜率越来越大的曲线，则汽车在该时间段内不断加速行驶，故②正确；③在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "[t_{2},t_{3}]"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时间段内，位移是一条斜率越来越小的曲线，则汽车在该时间段内不断减速行驶，故③正确；④汽车在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "t_{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时刻的瞬时速度为0，在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "[t_{3},t_{4}]"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时间段内，位移不变，则汽车在该时间段内静止不动故  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "t_{4}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时刻的瞬时速度为0，故④不正确．故选：C."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                278,
+                840,
+                378
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2. B【详解】  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{f(3) - f(1)}{3 - 1} = \\frac{(3^2 - 3) - (1^2 - 1)}{2} = 3"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，故选：B."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                388,
+                552,
+                416
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3. C【详解】  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\lim_{\\Delta x\\to0}\\frac{f(1-\\Delta x)-f(1)}{2\\Delta x}=-\\frac{1}{2}\\lim_{\\Delta x\\to0}\\frac{f(1-\\Delta x)-f(1)}{-\\Delta x}=-\\frac{1}{2}f'(1)=4"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(1)=-8"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                426,
+                821,
+                453
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "4. A【详解】由  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)=x^{2}+2xf'(2)-\\ln x"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 进行求导得：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(x)=2x+2f'(2)-\\frac{1}{x}"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                466,
+                776,
+                487
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x = 2"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时，可得：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f^{\\prime}(2) = 4 + 2f^{\\prime}(2) - \\frac{1}{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，解得：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f^{\\prime}(2) = -\\frac{7}{2}."
+                    },
+                    {
+                        "type": "text",
+                        "content": " 故选：A."
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                502,
+                704,
+                526
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "5. D【详解】由题意得  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y' = 3x^2 - 1 \\geq -1"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，即  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\tan \\alpha \\geq -1"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，又  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha \\in [0, \\pi)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha \\in \\left[0, \\frac{\\pi}{2}\\right) \\cup \\left[\\frac{3\\pi}{4}, \\pi\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，故选：D."
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                538,
+                600,
+                590
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "6. C【详解】解：过点P作曲线  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y=\\ln x-x^{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的切线，当切线与直线  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "l: x+y-4=0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 平行时，点P到直线  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "l: x+y-4=0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 距离的最小。设切点为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P(x_{0},y_{0})(x_{0}>0)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y'=\\frac{1}{x}-2x"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，所以，切线斜率为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k=\\frac{1}{x_{0}}-2x_{0}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，由题知  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{1}{x_{0}}-2x_{0}=-1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 得  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x_{0}=1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 或  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x_{0}=-\\frac{1}{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " （舍），所以，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P(1,-1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，此时点P到直线  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "l: x+y-4=0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 距离  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "d=\\frac{|1-1-4|}{\\sqrt{2}}=2\\sqrt{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                602,
+                821,
+                728
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "7. A【详解】由  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f^{1}(x)=(x+1)\\mathrm{e}^{x}-2\\sin2x,\\quad f^{2}(x)=(x+2)\\mathrm{e}^{x}-2^{2}\\cos2x,"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f^{3}(x)=(x+3)\\mathrm{e}^{x}+2^{3}\\sin2x,\\quad f^{4}(x)=(x+4)\\mathrm{e}^{x}+2^{4}\\cos2x,"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \n依此类推，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f^{(50)}(x)=(x+50)\\mathrm{e}^{x}-2^{50}\\cos2x,"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \n所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f^{(50)}(0)=(0+50)\\mathrm{e}^{0}-2^{50}\\cos0=50-2^{50}."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                741,
+                737,
+                843
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "8. A【详解】设直线与曲线  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y=\\ln x"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的切点为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(x_{1},\\ln x_{1})"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 且  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x_{1}>0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ,"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                853,
+                636,
+                868
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "深圳中学 2024 级高二数学周测（1）"
+                    }
+                ]
+            },
+            "bbox": [
+                329,
+                884,
+                569,
+                898
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "第1页共4页"
+                    }
+                ]
+            },
+            "bbox": [
+                640,
+                885,
+                757,
+                898
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "与曲线  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y=-\\ln(-x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的切点为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(x_{2},-\\ln(-x_{2}))"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 且  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x_{2}<0,"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                90,
+                561,
+                107
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "又  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y' = (\\ln x)' = \\frac{1}{x}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y' = [-\\ln (-x)] = -\\frac{1}{x}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，则直线  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y = kx + b"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 与曲线  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y = \\ln x"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的切线方程为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y - \\ln x_{1} = \\frac{1}{x_{1}} (x - x_{1})"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，即  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y = \\frac{1}{x_{1}} x + \\ln x_{1} - 1"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，直线  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y = kx + b"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 与曲线  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y = -\\ln (-x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的切线方程为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y + \\ln (-x_{2}) = -\\frac{1}{x_{2}} (x - x_{2})"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，即  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y = -\\frac{1}{x_{2}} x + 1 - \\ln (-x_{2})"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，则\n "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left\\{ \\begin{array}{l} \\frac{1}{x_1} = -\\frac{1}{x_2} \\\\ \\ln x_1 - 1 = 1 - \\ln (-x_2) \\end{array} \\right."
+                    },
+                    {
+                        "type": "text",
+                        "content": "，解得  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left\\{ \\begin{array}{l} x_1 = e \\\\ x_2 = -e \\end{array} \\right."
+                    },
+                    {
+                        "type": "text",
+                        "content": "，故  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k = \\frac{1}{x_1} = \\frac{1}{e}, b = \\ln x_1 - 1 = 0,"
+                    }
+                ]
+            },
+            "bbox": [
+                142,
+                118,
+                838,
+                273
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "9. BC【详解】  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(\\ln7)'=0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，A 错误；  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "[(x^{2}+2)\\sin x]'=2x\\sin x+(x^{2}+2)\\cos x"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，B 正确；"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                284,
+                821,
+                300
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left(\\frac{x^2}{\\mathrm{e}^x}\\right)' = \\frac{2x\\cdot\\mathrm{e}^x - x^2\\mathrm{e}^x}{\\mathrm{e}^{2x}} = \\frac{2x - x^2}{\\mathrm{e}^x}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，故C正确； "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "[\\ln (3x + 2)]' = \\frac{3}{3x + 2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，故D错误."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                312,
+                702,
+                340
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "10. ACD【详解】由题得  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(-x)=f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "-f'(-x)=f'(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 即  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "-g(-x)=g(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ,"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                349,
+                781,
+                366
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 是奇函数，故  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(0)=0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                376,
+                403,
+                393
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "又由  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(3-x)+f(x)=1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 得函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 关于点  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left(\\frac{3}{2},\\frac{1}{2}\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 对称，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(-x)+f(x+3)=1"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                406,
+                749,
+                429
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)+f(x+3)=1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，故  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x+3)=f(3-x)=f(x-3)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ,"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                442,
+                626,
+                458
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x + 6) = f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，即函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 是周期为6的函数，"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                469,
+                574,
+                486
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 也是周期为6的函数，即  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x+6)=g(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ,"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                498,
+                549,
+                514
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "f(3-x)+f(x)=1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 求导得  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "-f'(3-x)+f'(x)=0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 即  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x)=g(3-x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(3)=g(0)=0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                526,
+                831,
+                542
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "对于 A，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(2025)=g(6\\times337+3)=g(3)=0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，故 A 正确；"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                554,
+                618,
+                569
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "对于B，由  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x) = g(3 - x),g(-x) = -g(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 无法确定  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g\\left(\\frac{3}{2}\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的值，故B错误；"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                583,
+                734,
+                602
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "对于 C，由上   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  也是周期为 6 的函数，即   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x+6)=g(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，C 正确；"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                618,
+                689,
+                634
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "对于 D，由   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(-x) + f(x + 3) = 1"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  得   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(1) + f(2) = 1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                646,
+                556,
+                663
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "且  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(0) + f(3) = 1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 即  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(3) = -1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，且  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(-1) + f(4) = 1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 即  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(4) = 1 - f(1)"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                673,
+                710,
+                690
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "且  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(-2) + f(5) = 1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 即  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(5) = 1 - f(2)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(6) = f(0) = 2"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                702,
+                591,
+                718
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(5)+f(4)=1-f(2)+1-f(1)=2-1=1,"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                728,
+                557,
+                745
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(1)+f(2)+f(3)+f(4)+f(5)+f(6)=1-1+1+2=3,"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                757,
+                665,
+                774
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sum_{n=1}^{2025} f(n) = \\sum_{n=1}^{337 \\times 6+3} f(n) = 337 \\times 3 + f(1) + f(2) + f(3) = 1011"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，故 D 正确."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                783,
+                842,
+                802
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "11. ACD【详解】由  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)=f(4-x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，得  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(1+x)=f(3-x)①"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                813,
+                653,
+                829
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "f(1 + x) - g(x) = 4②"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，得  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(3 - x) - g(2 - x) = 4③"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                840,
+                578,
+                857
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "由①②③，得  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x)=g(2-x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，所以函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 图象关于直线x=1对称，故A正确；"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                868,
+                801,
+                885
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "深圳中学 2024 级高二数学周测（1）"
+                    }
+                ]
+            },
+            "bbox": [
+                327,
+                885,
+                569,
+                898
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "第2页共4页"
+                    }
+                ]
+            },
+            "bbox": [
+                638,
+                885,
+                757,
+                898
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "由 \\( g(x)=g(2-x) \\) ，得 \\( g'(x)=-g'(2-x) \\) ，令x=1，得 \\( g'(1)=0 \\) ；\n由 \\( f(1+x)-g(x)=4 \\) ，得 \\( f'(1+x)-g'(x)=0 \\) ，\n令x=1，得 \\( f'(2)=g'(1)=0,\\therefore f'(2+x)-g'(1+x)=0④, \\) \n又 \\( f'(x)+g'(1+x)=0⑤ \\) ，令x=2，得 \\( f'(2)=g'(3)=0 \\) ，故B错误；\n④⑤两式相加，得 \\( f'(2+x)+f'(x)=0 \\) ，得 \\( f'(4+x)+f'(2+x)=0 \\) ，\n所以 \\( f'(x)=f'(4+x) \\) ，即函数 \\( f'(x) \\) 的周期为4，故C正确；\n由 \\( f'(2+x)+f'(x)=0 \\) ，令x=2，得 \\( f'(4)+f'(2)=0 \\) ，所以 \\( f'(4)=0 \\) ，\n所以 \\( f'(1)g'(1)=f'(2)g'(2)=f'(3)g'(3)=f'(4)g'(4)=\\cdots=f'(n)g'(n)=0(n\\in Z) \\) ，故D正确.故选：ACD\n\n12.  \\( f(x)=x^{4} \\) （答案不唯一， \\( f(x)=x^{2n}(n\\in N^{*}) \\) 均满足）\n\n【详解】取 \\( f(x)=x^{4} \\) ，则 \\( f(x_{1}x_{2})=(x_{1}x_{2})^{4}=x_{1}^{4}x_{2}^{4}=f(x_{1})f(x_{2}) \\) ，满足①，\n\\( f'(x)=4x^{3}, x>0 \\) 时有 \\( f'(x)>0 \\) ，满足②，\n\n\\( f'(x)=4x^{3} \\) 的定义域为R，又 \\( f'(-x)=-4x^{3}=-f'(x) \\) ，故 \\( f'(x) \\) 是奇函数，满足③.\n\n故答案为： \\( f(x)=x^{4} \\) （答案不唯一）\n\n13.  \\( (-∞,-4)\\cup(0,+∞) \\) 【详解】∵ \\( y=(x+a)e^{x}, ∴y'=(x+1+a)e^{x} \\) \n设切点为 \\( (x_{0},y_{0}) \\) ，则 \\( y_{0}=(x_{0}+a)e^{x_{0}} \\) ，切线斜率 \\( k=(x_{0}+1+a)e^{x_{0}} \\) \n切线方程为： \\( y-(x_{0}+a)e^{x_{0}}=(x_{0}+1+a)e^{x_{0}}(x-x_{0}) \\) \n∵切线过原点，∴ \\( -(x_{0}+a)e^{x_{0}}=(x_{0}+1+a)e^{x_{0}}(-x_{0}) \\) \n整理得： \\( x_{0}^{2}+ax_{0}-a=0, ∵切线有两条，∴△=a^{2}+4a>0, 解得a<-4或a>0, ∴a的取值范围是 \\( (-∞,-4)\\cup(0,+∞), 故答案为：(-∞,-4)\\cup(0,+∞) \\) \n\n14. (0,1)【详解】由题意， \\( f(x)=|e^{x}-1|=\\left\\{\\begin{aligned}&1-e^{x},&x<0\\\\&e^{x}-1,x\\geq0\\end{aligned}\\right. \\) ，则 \\( f'(x)=\\left\\{\\begin{aligned}&-e^{x},&x<0\\\\&e^{x},&x>0\\end{aligned}\\right. \\) \n所以点 \\( A(x_{1},1-e^{x_{1}}) \\) 和点 \\( B(x_{2},e^{x_{2}}-1), k_{AM}=-e^{x_{1}}, k_{BN}=e^{x_{2}} \\) \n所以 \\( -e^{x_{1}}\\cdot e^{x_{2}}=-1,x_{1}+x_{2}=0 \\) ，所以AM:  \\( y-1+e^{x_{1}}=-e^{x_{1}}(x-x_{1}), M(0,e^{x_{1}}x_{1}-e^{x_{1}}+1) \\) ，所以 \\( |AM|=\\sqrt{x_{1}^{2}+(e^{x_{1}}x_{1})^{2}}=\\sqrt{1+e^{2x_{1}}}\\cdot|x_{1}| \\) ，同理 \\( |BN|=\\sqrt{1+e^{2x_{2}}}\\cdot|x_{2}| \\) \n所以 \\( \\frac{|AM|}{|BN|}=\\frac{\\sqrt{1+e^{2x_1}\\cdot|x_1|}}{\\sqrt{1+e^{2x_2}\\cdot|x_2|}}=\\sqrt{\\frac{1+e^{2x_1}}{1+e^{2x_2}}}=\\sqrt{\\frac{1+e^{2x_1}}{1+e^{-2x_1}}}=e^{x_1}\\in(0,1).故答案为：(0,1)\n\n15. (1) \\( y'=\\mathrm{e}^{-x}(1-x^{2}) \\)  (2) \\( y'=-3\\sin(3x-1)-\\frac{2}{2x-1} \\)  (3) \\( y'=-2\\sqrt{2}\\sin\\left(2x-\\frac{\\pi}{4}\\right) \\) \n(4) \\( y'=\\frac{1-x}{x^{2}\\sqrt{2x-1}} \\)  (5) \\( y'=e^{x}(\\sin x+\\cos x)+\\sin x \\)  (6) \\( y'=\\frac{1}{\\cos^ {2} x}+\\frac{1}{x} \\)"
+                    }
+                ]
+            },
+            "bbox": [
+                139,
+                87,
+                853,
+                870
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "第3页共4页"
+                    }
+                ]
+            },
+            "bbox": [
+                640,
+                885,
+                757,
+                898
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "深圳中学 2024 级高二数学周测（1）"
+                    }
+                ]
+            },
+            "bbox": [
+                329,
+                884,
+                569,
+                898
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(7)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y' = 1 - \\frac{1}{2}\\cos x \\quad (8)y' = -\\frac{1 + (1 - x)\\ln(1 - x)}{(1 - x)e^x}"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                90,
+                480,
+                116
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "【详解】（1）  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y' = -\\mathrm{e}^{-x}(x + 1)^{2} + \\mathrm{e}^{-x} \\cdot 2(x + 1) = \\mathrm{e}^{-x}(1 - x^{2})"
+                    }
+                ]
+            },
+            "bbox": [
+                152,
+                127,
+                638,
+                143
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y' = -3\\sin (3x - 1) - \\frac{-2}{-2x + 1} = -3\\sin (3x - 1) - \\frac{2}{2x - 1}"
+                    }
+                ]
+            },
+            "bbox": [
+                154,
+                155,
+                596,
+                180
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "y ^ {\\prime} = 2 \\cos (2 x) + 2 \\cos x (- \\sin x) = 2 \\cos (2 x) - 2 \\sin (2 x) = - 2 \\sqrt {2} \\sin \\left(2 x - \\frac {\\pi}{4}\\right) \\tag {3}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/592e14a0fff2408f0b1e3a72b7beb6a9d8a8b038a1e3b78c510b82e70f9889a7.jpg"
+                }
+            },
+            "bbox": [
+                154,
+                193,
+                766,
+                216
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(4)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y' = \\frac{2\\sqrt{2x - 1}}{x^2} - \\frac{x - 1}{x^2} = \\frac{x - (2x - 1)}{x^2\\sqrt{2x - 1}} = \\frac{1 - x}{x^2\\sqrt{2x - 1}}"
+                    }
+                ]
+            },
+            "bbox": [
+                154,
+                230,
+                490,
+                256
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(5)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y' = (\\mathrm{e}^x\\sin x)' - (\\cos x)' = \\mathrm{e}^x\\sin x + \\mathrm{e}^x(\\sin x)' + \\sin x = \\mathrm{e}^x(\\sin x + \\cos x) + \\sin x."
+                    }
+                ]
+            },
+            "bbox": [
+                154,
+                266,
+                800,
+                282
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(6)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y = \\frac{\\sin x}{\\cos x} + \\ln (-x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y' = \\frac{\\cos^2 x - \\sin x(-\\sin x)}{\\cos^2 x} + \\frac{1}{-x} \\cdot (-x)' = \\frac{1}{\\cos^2 x} + \\frac{1}{x}"
+                    }
+                ]
+            },
+            "bbox": [
+                154,
+                294,
+                702,
+                321
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(7)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y = x - \\frac{1}{2}\\sin x"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y = 1 - \\frac{1}{2}\\cos x"
+                    },
+                    {
+                        "type": "text",
+                        "content": "."
+                    }
+                ]
+            },
+            "bbox": [
+                154,
+                332,
+                453,
+                355
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "y = \\frac {\\frac {1}{1 - x} (1 - x) ^ {\\prime} \\mathrm{e} ^ {x} - 1 \\ln (1 - x) . e ^ {x}}{(\\mathrm{e} ^ {x}) ^ {2}} = \\frac {- \\frac {1}{1 - x} - \\ln (1 - x)}{\\mathrm{e} ^ {x}} = - \\frac {1 + (1 - x) \\ln (1 - x)}{(1 - x) \\mathrm{e} ^ {x}} \\tag {8}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ccec93e48aaafbbf438dc8a0eb10092a3288fa3131cffa54823c833c2fd906d6.jpg"
+                }
+            },
+            "bbox": [
+                154,
+                366,
+                623,
+                395
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "16. (1)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y = \\frac{4}{3} x"
+                    },
+                    {
+                        "type": "text",
+                        "content": " (2)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(-∞, -2] ∪ [2, +∞)"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                407,
+                494,
+                430
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "【详解】（1）  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "F(1)=1+\\frac{1}{3}=\\frac{4}{3},\\quad F'(x)=\\mathrm{e}^{x-1}+\\frac{1}{3},\\quad F'(1)=1+\\frac{1}{3}=\\frac{4}{3},"
+                    }
+                ]
+            },
+            "bbox": [
+                151,
+                442,
+                687,
+                468
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "所以函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "F(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 图象在x=1处的切线方程为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y-\\frac{4}{3}=\\frac{4}{3}(x-1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，即  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y=\\frac{4}{3}x"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                480,
+                697,
+                504
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "（2）由（1）可得，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "F'(x)=\\mathrm{e}^{x-1}+\\frac{1}{3}>\\frac{1}{3},"
+                    }
+                ]
+            },
+            "bbox": [
+                152,
+                518,
+                475,
+                541
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "若对于函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "F(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 图象上任意一点处的切线  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "l_{1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，在函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "G(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 图象上总存在一点处的切线  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "l_{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，使得  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "l_{1} \\perp l_{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，即对任意的  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k_{l_{1}} = F'(x) > \\frac{1}{3}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，总存在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k_{l_{2}} = G'(x_{0})"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 使得  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k_{l_{1}} \\cdot k_{l_{2}} = -1"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，即  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "-3 < k_{l_{2}} = G'(x_{0}) < 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，又  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "G'(x) = -1 + m\\cos x (m \\neq 0)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，从而  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "G'(x) = -1 + m\\cos x (m \\neq 0)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的值域包含  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(-3,0)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "m > 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "G'(x) = -1 + m\\cos x (m \\neq 0)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的值域为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "[-m - 1, m - 1]"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                552,
+                842,
+                663
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left\\{\\begin{aligned}-m-1&\\leq-3\\\\ m-1&\\geq0\\end{aligned}\\right."
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，解得  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "m\\geq2"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，当m<0时，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "G'(x)=-1+m\\cos x(m\\neq0)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的值域为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "[m-1,-m-1]"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，所以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left\\{\\begin{aligned}-m-1&\\geq0\\\\ m-1&\\leq-3\\end{aligned}\\right."
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，解得  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "m\\leq-2"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                671,
+                816,
+                740
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "即实数m的取值范围为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(-∞,-2]∪[2,+∞)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ."
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                747,
+                478,
+                763
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "第4页共4页"
+                    }
+                ]
+            },
+            "bbox": [
+                640,
+                885,
+                757,
+                898
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "深圳中学 2024 级高二数学周测（1）"
+                    }
+                ]
+            },
+            "bbox": [
+                329,
+                884,
+                569,
+                898
+            ]
+        }
+    ]
+]

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_982ba095d8f8_q013",
+  "display_id": "EXAM-982BA095D8F8-Q013",
+  "source_exam": "深圳中学 2024 级高二数学周测（9）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（9）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（9）参考答案.md",
+  "question_number": 13,
+  "question_type": "fill_blank",
+  "stem_markdown": "### 13. 已知一个不透明的袋子里装有除颜色外没有其他差异的 2 个白球和 4 个黑球，现操作如下：从袋子中随机取出一个球，若取出的是白球，则放进一个黑球，白球不放回；若取出的是黑球，则放进一个白球，黑球不放回（其中放进去的白球或黑球与原来袋子里的相应颜色的球没有差异），依此规则操作 2 次，记袋中的白球个数为 X，则 X 的数学期望为 \\_\\_\\_\\_.",
+  "stem_html": "<h3>13. 已知一个不透明的袋子里装有除颜色外没有其他差异的 2 个白球和 4 个黑球，现操作如下：从袋子中随机取出一个球，若取出的是白球，则放进一个黑球，白球不放回；若取出的是黑球，则放进一个白球，黑球不放回（其中放进去的白球或黑球与原来袋子里的相应颜色的球没有差异），依此规则操作 2 次，记袋中的白球个数为 X，则 X 的数学期望为 ____.</h3>",
+  "options": {},
+  "answer": "$\\frac{23}{9}$",
+  "solution_markdown": "### 13. $\\frac{23}{9}$ \n\n**详解**由题设 $X$ 可取0,2,4，又 $P(X = 0) = \\frac{2}{6} \\times \\frac{1}{6} = \\frac{1}{18}$ ，\n\n$$P (X = 2) = \\frac {2}{6} \\times \\frac {5}{6} + \\frac {4}{6} \\times \\frac {3}{6} = \\frac {2 2}{3 6} = \\frac {1 1}{1 8}, P (X = 4) = \\frac {4}{6} \\times \\frac {3}{6} = \\frac {6}{1 8} = \\frac {1}{3},$$\n\n所以 $E(X)=0\\times\\frac{1}{18}+2\\times\\frac{11}{18}+4\\times\\frac{1}{3}=\\frac{23}{9}$ .\n\n思考：如果操作 $n$ 次，记袋中的白球个数为 $X_{n}$ ，则 $X_{n}$ 的数学期望是多少呢？",
+  "solution_html": "<h3>13. $\\frac{23}{9}$</h3>\n<p><strong>详解</strong>由题设 $X$ 可取0,2,4，又 $P(X = 0) = \\frac{2}{6} \\times \\frac{1}{6} = \\frac{1}{18}$ ，</p>\n<p>$$P (X = 2) = \\frac {2}{6} \\times \\frac {5}{6} + \\frac {4}{6} \\times \\frac {3}{6} = \\frac {2 2}{3 6} = \\frac {1 1}{1 8}, P (X = 4) = \\frac {4}{6} \\times \\frac {3}{6} = \\frac {6}{1 8} = \\frac {1}{3},$$</p>\n<p>所以 $E(X)=0\\times\\frac{1}{18}+2\\times\\frac{11}{18}+4\\times\\frac{1}{3}=\\frac{23}{9}$ .</p>\n<p>思考：如果操作 $n$ 次，记袋中的白球个数为 $X_{n}$ ，则 $X_{n}$ 的数学期望是多少呢？</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.198812+00:00",
+    "question_source_sha256": "fd7e09e7361b1a3c423e4a90022e45ec754d1b93b61dd929ba983ee3da41d367",
+    "solution_source_sha256": "49045cdfd752f9f34d7cc2aa89ea2bcec7753750c2327e42b2d465641a0aa9fa"
+  }
+}

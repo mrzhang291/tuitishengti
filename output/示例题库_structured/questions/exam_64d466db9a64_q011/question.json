@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_64d466db9a64_q011",
+  "display_id": "EXAM-64D466DB9A64-Q011",
+  "source_exam": "深圳中学 2024 级高二数学周测（5）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二数学周测（5）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二数学周测（5）参考答案.md",
+  "question_number": 11,
+  "question_type": "multiple_choice",
+  "stem_markdown": "### 11. 已知函数 $f(x) = \\sin 2x - 2\\sin x$ ，则（）\n\nA. $f(x)$ 的最小正周期为 $2\\pi$\n\nB. 曲线 $y = f(x)$ 关于直线 $x = \\frac{\\pi}{2}$ 对称\nC. $f(x)$ 在区间 $[-2\\pi, 2\\pi]$ 上有 4 个零点\nD. $f(x)$ 在区间 $\\left(\\frac{\\pi}{3}, \\frac{2\\pi}{3}\\right)$ 内单调递减\n\n#",
+  "stem_html": "<h3>11. 已知函数 $f(x) = \\sin 2x - 2\\sin x$ ，则（）</h3>\n<p>A. $f(x)$ 的最小正周期为 $2\\pi$</p>\n<p>B. 曲线 $y = f(x)$ 关于直线 $x = \\frac{\\pi}{2}$ 对称\nC. $f(x)$ 在区间 $[-2\\pi, 2\\pi]$ 上有 4 个零点\nD. $f(x)$ 在区间 $\\left(\\frac{\\pi}{3}, \\frac{2\\pi}{3}\\right)$ 内单调递减</p>\n<h1></h1>",
+  "options": {
+    "A": "$f(x)$ 的最小正周期为 $2\\pi$",
+    "B": "曲线 $y = f(x)$ 关于直线 $x = \\frac{\\pi}{2}$ 对称",
+    "C": "$f(x)$ 在区间 $[-2\\pi, 2\\pi]$ 上有 4 个零点",
+    "D": "$f(x)$ 在区间 $\\left(\\frac{\\pi}{3}, \\frac{2\\pi}{3}\\right)$ 内单调递减\n\n#"
+  },
+  "answer": "AD",
+  "solution_markdown": "### 11. ADA， $y=\\sin 2x$ 的最小正周期为 $\\pi$ ， $y=\\sin x$ 的最小正周期为 $2\\pi$ ，两者的最小公倍数为 $2\\pi$ ，故 $f(x)$ 的最小正周期为 $2\\pi$ ，A正确；\n\nB， $f(\\pi-x)=\\sin(2\\pi-2x)-2\\sin(\\pi-x)=-\\sin 2x-2\\sin x$ ，故曲线 $y=f(x)$ 不关于直线 $x=\\frac{\\pi}{2}$ 对称，B错误；\n\nC， $f(x)=\\sin 2x-2\\sin x=2\\sin x\\cos x-2\\sin x=2\\sin x(\\cos x)$ 令 $f(x)=0$ 得 $2\\sin x(\\cos x-1)=0$ ，故 $\\sin x=0$ 或 $\\cos x=1$ ，因为 $x\\in[-2\\pi,2\\pi]$ ，所以 $\\sin x=0$ 的解为 $x_{1}=-2\\pi,\\quad x_{2}=-\\pi,\\quad x_{3}=0,\\quad x_{4}=\\pi,\\quad x_{5}=2\\pi,$ $\\cos x=1$ 的解为 $x_{1}=-2\\pi,\\quad x_{3}=0,\\quad x_{5}=2\\pi,$ 综上， $f(x)$ 在区间 $[-2\\pi,2\\pi]$ 上有5个零点，C错误；\n\nD， $f'(x)=2\\cos 2x-2\\cos x=4\\cos^{2}x-2-2\\cos x=4(\\cos x-1)^{2}$ 当 $x\\in\\left(\\frac{\\pi}{3},\\frac{2\\pi}{3}\\right)$ 时， $\\cos x\\in\\left(-\\frac{1}{2},\\frac{1}{2}\\right)$\n\n$4\\left(\\cos x-\\frac{1}{4}\\right)^{2}-\\frac{9}{4}\\in\\left[-\\frac{9}{4},0\\right)$ ，即 $f'(x)=4\\left(\\cos x-\\frac{1}{4}\\right)^{2}-\\frac{9}{4}<0$ ，所以 $f(x)$ 在 $\\left(\\frac{\\pi}{3},\\frac{2\\pi}{3}\\right)$ 内单调递减，D正确 $\\boxed{",
+  "solution_html": "<h3>11. ADA， $y=\\sin 2x$ 的最小正周期为 $\\pi$ ， $y=\\sin x$ 的最小正周期为 $2\\pi$ ，两者的最小公倍数为 $2\\pi$ ，故 $f(x)$ 的最小正周期为 $2\\pi$ ，A正确；</h3>\n<p>B， $f(\\pi-x)=\\sin(2\\pi-2x)-2\\sin(\\pi-x)=-\\sin 2x-2\\sin x$ ，故曲线 $y=f(x)$ 不关于直线 $x=\\frac{\\pi}{2}$ 对称，B错误；</p>\n<p>C， $f(x)=\\sin 2x-2\\sin x=2\\sin x\\cos x-2\\sin x=2\\sin x(\\cos x)$ 令 $f(x)=0$ 得 $2\\sin x(\\cos x-1)=0$ ，故 $\\sin x=0$ 或 $\\cos x=1$ ，因为 $x\\in[-2\\pi,2\\pi]$ ，所以 $\\sin x=0$ 的解为 $x_{1}=-2\\pi,\\quad x_{2}=-\\pi,\\quad x_{3}=0,\\quad x_{4}=\\pi,\\quad x_{5}=2\\pi,$ $\\cos x=1$ 的解为 $x_{1}=-2\\pi,\\quad x_{3}=0,\\quad x_{5}=2\\pi,$ 综上， $f(x)$ 在区间 $[-2\\pi,2\\pi]$ 上有5个零点，C错误；</p>\n<p>D， $f'(x)=2\\cos 2x-2\\cos x=4\\cos^{2}x-2-2\\cos x=4(\\cos x-1)^{2}$ 当 $x\\in\\left(\\frac{\\pi}{3},\\frac{2\\pi}{3}\\right)$ 时， $\\cos x\\in\\left(-\\frac{1}{2},\\frac{1}{2}\\right)$</p>\n<p>$4\\left(\\cos x-\\frac{1}{4}\\right)^{2}-\\frac{9}{4}\\in\\left[-\\frac{9}{4},0\\right)$ ，即 $f'(x)=4\\left(\\cos x-\\frac{1}{4}\\right)^{2}-\\frac{9}{4}&lt;0$ ，所以 $f(x)$ 在 $\\left(\\frac{\\pi}{3},\\frac{2\\pi}{3}\\right)$ 内单调递减，D正确 $\\boxed{</p>",
+  "score": null,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.410890+00:00",
+    "question_source_sha256": "0a947743971a67ef971955fddba3a1d96fa8478a9c0c36d10f0c4ee174efd496",
+    "solution_source_sha256": "8c53a21b6d71e1b67f1664b079fb0452db52b9a6b9c5c668ce4dbeedf2a2958c"
+  }
+}

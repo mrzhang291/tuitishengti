@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>示例学校高二数学五一作业 Q9</title>
+  <style>
+    body { margin: 0; font-family: "Microsoft YaHei", Arial, sans-serif; color: #1f2937; background: #f6f7f9; line-height: 1.7; }
+    main { max-width: 960px; margin: 28px auto; padding: 28px 32px; background: #fff; border: 1px solid #d6d9df; border-radius: 8px; }
+    h1 { font-size: 22px; margin: 0 0 8px; }
+    h2 { font-size: 17px; margin: 28px 0 10px; padding-bottom: 6px; border-bottom: 1px solid #d6d9df; }
+    .meta { color: #5b6472; font-size: 13px; }
+    .formula { font-family: "Cambria Math", "Times New Roman", serif; color: #0f5e9c; padding: 0 2px; }
+    .ole { color: #9a3412; background: #fff7ed; border: 1px solid #fed7aa; border-radius: 4px; padding: 0 4px; }
+    img { display: block; max-width: min(680px, 100%); margin: 12px 0; border: 1px solid #c5cad3; }
+    pre { white-space: pre-wrap; word-break: break-word; background: #f8fafc; border: 1px solid #d6d9df; border-radius: 6px; padding: 12px; font-size: 12px; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>示例学校高二数学五一作业 Q9</h1>
+  <div class="meta">ID: szzx2024_g2_homework_q009 | answer: BD | formulas: 35 | images: 0 | OLE: 0</div>
+  <h2>题目</h2>
+  <p>9．某班开设了“打球”“弹琴”“跳舞”“唱歌”4个课外活动项目．在一次活动中，甲、乙、丙3名学生每人至少选1个、至多选2个项目，且每个项目恰有1人选择．设事件<span class="formula" data-formula-id="f001">A_1=</span>“甲选打球”，<span class="formula" data-formula-id="f002">A_2=</span>“甲选唱歌”，<span class="formula" data-formula-id="f003">A_3=</span>“乙选跳舞”，则（   ）</p>
+<p>A．<span class="formula" data-formula-id="f004">A_1</span>与<span class="formula" data-formula-id="f005">A_2</span>互斥 B．<span class="formula" data-formula-id="f006">P(A_2)=(1)/(3)</span></p>
+<p>C．<span class="formula" data-formula-id="f007">A_2</span>与<span class="formula" data-formula-id="f008">A_3</span>相互独立 D．<span class="formula" data-formula-id="f009">P(A_3∣A_2)=(5)/(12)</span></p>
+  <h2>答案与解析</h2>
+  <p>9．BD</p>
+<p>【详解】对于A，甲可以同时选打球和唱歌，<span class="formula" data-formula-id="f010">∴A_1∩A_2≠∅</span>，故<span class="formula" data-formula-id="f011">A_1</span>与<span class="formula" data-formula-id="f012">A_2</span>不互斥，故A错误，</p>
+<p>对于B，先从4个项目中选择<span class="formula" data-formula-id="f013">2</span>个给其中一个人，有<span class="formula" data-formula-id="f014">C_4^2</span>种选法，</p>
+<p>再将这<span class="formula" data-formula-id="f015">2</span>个项目与另外两个项目全排列，分给甲、乙、丙3名学生，有<span class="formula" data-formula-id="f016">A_3^3</span>种排法，</p>
+<p>根据分步乘法计数原理可得总的样本数为<span class="formula" data-formula-id="f017">C_4^2A_3^3=36</span>种,</p>
+<p>甲只选唱歌，此时从剩下<span class="formula" data-formula-id="f018">3</span>个项目给乙、丙，有<span class="formula" data-formula-id="f019">C_3^2A_2^2=6</span>种；</p>
+<p>甲只选唱歌和另外一个项目有<span class="formula" data-formula-id="f020">C_3^1=3</span>种，此时从剩下<span class="formula" data-formula-id="f021">2</span>个项目给乙、丙，共有<span class="formula" data-formula-id="f022">C_3^1A_2^2=6</span>种，故<span class="formula" data-formula-id="f023">P(A_2)=(6+6)/(36)=(1)/(3)</span>，故B正确，</p>
+<p>对于C，乙只选跳舞，此时从剩下<span class="formula" data-formula-id="f024">3</span>个项目给甲、丙，有<span class="formula" data-formula-id="f025">C_3^2A_2^2=6</span>种；</p>
+<p>乙选跳舞和另外一个项目有<span class="formula" data-formula-id="f026">C_3^1=3</span>种，此时从剩下<span class="formula" data-formula-id="f027">2</span>个项目给甲、丙，有<span class="formula" data-formula-id="f028">C_3^1A_2^2=6</span>种，故<span class="formula" data-formula-id="f029">P(A_3)=(6+6)/(36)=(1)/(3)</span>，</p>
+<p>甲选唱歌且乙选跳舞，此时有<span class="formula" data-formula-id="f030">5</span>种情况，<span class="formula" data-formula-id="f031">∴P(A_2A_3)=(5)/(36)</span>，</p>
+<p><span class="formula" data-formula-id="f032">∴P(A_3)P(A_2)=(1)/(9)≠P(A_2A_3)=(5)/(36)</span>，故<span class="formula" data-formula-id="f033">A_2</span>与<span class="formula" data-formula-id="f034">A_3</span>不相互独立，故C错误，</p>
+<p>对于D，<span class="formula" data-formula-id="f035">P(A_3∣A_2)=(P(A_3∩A_2))/(P(A_2))=((5)/(36))/((12)/(36))=(5)/(12)</span>，故D正确.</p>
+  <h2>结构化摘要</h2>
+  <pre>{
+  &quot;question_id&quot;: &quot;szzx2024_g2_homework_q009&quot;,
+  &quot;answer&quot;: &quot;BD&quot;,
+  &quot;assets&quot;: [],
+  &quot;ole_objects&quot;: [],
+  &quot;extraction&quot;: {
+    &quot;source_paragraph_range&quot;: [
+      26,
+      28
+    ],
+    &quot;solution_paragraph_range&quot;: [
+      25,
+      36
+    ],
+    &quot;formula_count&quot;: 35,
+    &quot;image_count&quot;: 0,
+    &quot;ole_count&quot;: 0,
+    &quot;quality_flags&quot;: [
+      &quot;contains_omml&quot;
+    ]
+  }
+}</pre>
+</main>
+</body>
+</html>

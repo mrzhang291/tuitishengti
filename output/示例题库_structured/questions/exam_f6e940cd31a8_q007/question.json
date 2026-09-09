@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_f6e940cd31a8_q007",
+  "display_id": "EXAM-F6E940CD31A8-Q007",
+  "source_exam": "深圳中学 2024 级高二数学周测（3）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（3）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（3）参考答案.md",
+  "question_number": 7,
+  "question_type": "single_choice",
+  "stem_markdown": "### 7. 已知函数 $f(x) = ae^x - \\ln x$ 在区间(1,2)上单调递增，则 $a$ 的最小值为\n\nA. $e^2$\n\nB. $e$\n\nC. $e^{-1}$\n\nD. $e^{-2}$",
+  "stem_html": "<h3>7. 已知函数 $f(x) = ae^x - \\ln x$ 在区间(1,2)上单调递增，则 $a$ 的最小值为</h3>\n<p>A. $e^2$</p>\n<p>B. $e$</p>\n<p>C. $e^{-1}$</p>\n<p>D. $e^{-2}$</p>",
+  "options": {
+    "A": "$e^2$",
+    "B": "$e$",
+    "C": "$e^{-1}$",
+    "D": "$e^{-2}$"
+  },
+  "answer": "C",
+  "solution_markdown": "### 7. C\n\n**详解**依题可知， $f'(x) = ae^{x} - \\frac{1}{x} \\geq 0$ 在(1,2)上恒成立，显然 $a > 0$ ，所以 $x\\mathrm{e}^x \\geq \\frac{1}{a}$ ，\n\n设 $g(x)=xe^{x}, x\\in(1,2)$ ，所以 $g'(x)=(x+1)e^{x}>0$ ，所以 $g(x)$ 在 $(1,2)$ 上单调递增，\n\n$g(x) > g(1) = \\mathrm{e}$ ，故 $\\mathrm{e} \\geq \\frac{1}{a}$ ，即 $a \\geq \\frac{1}{\\mathrm{e}} = \\mathrm{e}^{-1}$ ，即 $a$ 的最小值为 $\\mathrm{e}^{-1}$ .",
+  "solution_html": "<h3>7. C</h3>\n<p><strong>详解</strong>依题可知， $f'(x) = ae^{x} - \\frac{1}{x} \\geq 0$ 在(1,2)上恒成立，显然 $a &gt; 0$ ，所以 $x\\mathrm{e}^x \\geq \\frac{1}{a}$ ，</p>\n<p>设 $g(x)=xe^{x}, x\\in(1,2)$ ，所以 $g'(x)=(x+1)e^{x}&gt;0$ ，所以 $g(x)$ 在 $(1,2)$ 上单调递增，</p>\n<p>$g(x) &gt; g(1) = \\mathrm{e}$ ，故 $\\mathrm{e} \\geq \\frac{1}{a}$ ，即 $a \\geq \\frac{1}{\\mathrm{e}} = \\mathrm{e}^{-1}$ ，即 $a$ 的最小值为 $\\mathrm{e}^{-1}$ .</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.745927+00:00",
+    "question_source_sha256": "78a4bb6656c35dbe613a79b0ed7dccc993b5c108f4f5c32b995a022aaa492633",
+    "solution_source_sha256": "86a4c5fab883e5128818dbb75724d3042d0c55a8ea81c7cdffedbb262214e02c"
+  }
+}

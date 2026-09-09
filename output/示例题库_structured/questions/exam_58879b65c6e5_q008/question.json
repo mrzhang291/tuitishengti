@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_58879b65c6e5_q008",
+  "display_id": "EXAM-58879B65C6E5-Q008",
+  "source_exam": "深圳中学 2024 级高二数学周测（7）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（7）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（7）参考答案.md",
+  "question_number": 8,
+  "question_type": "single_choice",
+  "stem_markdown": "### 8. 已知函数 $f(x) = \\mathrm{e}^x - \\mathrm{e}^{-x} - \\sin 2x$ ，若对 $\\forall x \\in [2, +\\infty)$ ， $f(\\ln x) + f(-ax) < 0$ ，则实数 $a$ 的取值范围是（）\n\nA. $\\left(-\\infty, \\frac{\\ln 2}{2}\\right)$\n\nB. $\\left(-\\infty, \\frac{1}{\\mathrm{e}}\\right)$\n\nC. $\\left(\\frac{\\ln 2}{2}, +\\infty\\right)$\n\nD. $\\left(\\frac{1}{\\mathrm{e}}, +\\infty\\right)$\n\n#",
+  "stem_html": "<h3>8. 已知函数 $f(x) = \\mathrm{e}^x - \\mathrm{e}^{-x} - \\sin 2x$ ，若对 $\\forall x \\in [2, +\\infty)$ ， $f(\\ln x) + f(-ax) &lt; 0$ ，则实数 $a$ 的取值范围是（）</h3>\n<p>A. $\\left(-\\infty, \\frac{\\ln 2}{2}\\right)$</p>\n<p>B. $\\left(-\\infty, \\frac{1}{\\mathrm{e}}\\right)$</p>\n<p>C. $\\left(\\frac{\\ln 2}{2}, +\\infty\\right)$</p>\n<p>D. $\\left(\\frac{1}{\\mathrm{e}}, +\\infty\\right)$</p>\n<h1></h1>",
+  "options": {
+    "A": "$\\left(-\\infty, \\frac{\\ln 2}{2}\\right)$",
+    "B": "$\\left(-\\infty, \\frac{1}{\\mathrm{e}}\\right)$",
+    "C": "$\\left(\\frac{\\ln 2}{2}, +\\infty\\right)$",
+    "D": "$\\left(\\frac{1}{\\mathrm{e}}, +\\infty\\right)$\n\n#"
+  },
+  "answer": "D",
+  "solution_markdown": "### 8. D\n\n**详解**因为 $f(-x)=\\mathrm{e}^{-x}-\\mathrm{e}^{x}+\\sin2x=-f(x)$ ， $f(0)=0$ ，所以 $f(x)$ 为奇函数.\n\n$$f ^ {\\prime} (x) = \\mathrm{e} ^ {x} + \\mathrm{e} ^ {- x} - 2 \\cos 2 x \\geq 2 \\sqrt {\\mathrm{e} ^ {x} \\cdot \\mathrm{e} ^ {- x}} - 2 \\cos 2 x = 2 - 2 \\cos 2 x \\geq 0$$\n\n当且仅当 $e^{x}=e^{-x}$ 即 x=0 时等号成立，所以 $f(x)$ 在 R 上单调递增.\n\n由 $f(\\ln x) + f(-ax) < 0$ ，所以 $f(\\ln x) < -f(-ax) = f(ax)$ ，所以 $\\ln x < ax$ .\n\n对任意 $x \\in [2, +\\infty)$ ，由 $\\ln x < ax$ ，得 $a > \\frac{\\ln x}{x}$ ，所以只需 $a > \\left(\\frac{\\ln x}{x}\\right)_{\\max}$ 即可.\n\n令 $g(x) = \\frac{\\ln x}{x}$ ，则 $g'(x) = \\frac{1 - \\ln x}{x^2}$ ，令 $g'(x) > 0 \\Rightarrow 2 < x < \\mathrm{e}, g'(x) < 0 \\Rightarrow x > \\mathrm{e}$ ，\n\n所以 $g(x)$ 在 $(2, e)$ 上单调递增，在 $(e, +\\infty)$ 上单调递减。所以 $g(x)_{\\max} = g(e) = \\frac{1}{e}$ ，所以 $a > \\frac{1}{e}$ 。",
+  "solution_html": "<h3>8. D</h3>\n<p><strong>详解</strong>因为 $f(-x)=\\mathrm{e}^{-x}-\\mathrm{e}^{x}+\\sin2x=-f(x)$ ， $f(0)=0$ ，所以 $f(x)$ 为奇函数.</p>\n<p>$$f ^ {\\prime} (x) = \\mathrm{e} ^ {x} + \\mathrm{e} ^ {- x} - 2 \\cos 2 x \\geq 2 \\sqrt {\\mathrm{e} ^ {x} \\cdot \\mathrm{e} ^ {- x}} - 2 \\cos 2 x = 2 - 2 \\cos 2 x \\geq 0$$</p>\n<p>当且仅当 $e^{x}=e^{-x}$ 即 x=0 时等号成立，所以 $f(x)$ 在 R 上单调递增.</p>\n<p>由 $f(\\ln x) + f(-ax) &lt; 0$ ，所以 $f(\\ln x) &lt; -f(-ax) = f(ax)$ ，所以 $\\ln x &lt; ax$ .</p>\n<p>对任意 $x \\in [2, +\\infty)$ ，由 $\\ln x &lt; ax$ ，得 $a &gt; \\frac{\\ln x}{x}$ ，所以只需 $a &gt; \\left(\\frac{\\ln x}{x}\\right)_{\\max}$ 即可.</p>\n<p>令 $g(x) = \\frac{\\ln x}{x}$ ，则 $g'(x) = \\frac{1 - \\ln x}{x^2}$ ，令 $g'(x) &gt; 0 \\Rightarrow 2 &lt; x &lt; \\mathrm{e}, g'(x) &lt; 0 \\Rightarrow x &gt; \\mathrm{e}$ ，</p>\n<p>所以 $g(x)$ 在 $(2, e)$ 上单调递增，在 $(e, +\\infty)$ 上单调递减。所以 $g(x)_{\\max} = g(e) = \\frac{1}{e}$ ，所以 $a &gt; \\frac{1}{e}$ 。</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.986226+00:00",
+    "question_source_sha256": "9124b78ea7842e994e399ed6bc49d2368b80f63f7683e1cfae2de4c1c9e936aa",
+    "solution_source_sha256": "73a0816208baeeb9d64155c667182408d96461e4b8769a726123ba1edb89fe5b"
+  }
+}

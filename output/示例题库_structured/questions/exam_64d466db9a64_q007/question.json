@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_64d466db9a64_q007",
+  "display_id": "EXAM-64D466DB9A64-Q007",
+  "source_exam": "深圳中学 2024 级高二数学周测（5）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二数学周测（5）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二数学周测（5）参考答案.md",
+  "question_number": 7,
+  "question_type": "single_choice",
+  "stem_markdown": "### 7. 已知定义域为R的函数 $f(x)$ ，其导函数为 $f'(x)$ ，且 $f'(x) + 2f(x) < 0, f(0) = 1$ ，则（）\n\nA. $f(-1) < e^2$\n\nB. $f(1) < \\frac{1}{e^2}$\n\nC. $f\\left(\\frac{1}{2}\\right) > \\frac{1}{e}$\n\nD. $ef(1) > f\\left(\\frac{1}{2}\\right)$",
+  "stem_html": "<h3>7. 已知定义域为R的函数 $f(x)$ ，其导函数为 $f'(x)$ ，且 $f'(x) + 2f(x) &lt; 0, f(0) = 1$ ，则（）</h3>\n<p>A. $f(-1) &lt; e^2$</p>\n<p>B. $f(1) &lt; \\frac{1}{e^2}$</p>\n<p>C. $f\\left(\\frac{1}{2}\\right) &gt; \\frac{1}{e}$</p>\n<p>D. $ef(1) &gt; f\\left(\\frac{1}{2}\\right)$</p>",
+  "options": {
+    "A": "$f(-1) < e^2$",
+    "B": "$f(1) < \\frac{1}{e^2}$",
+    "C": "$f\\left(\\frac{1}{2}\\right) > \\frac{1}{e}$",
+    "D": "$ef(1) > f\\left(\\frac{1}{2}\\right)$"
+  },
+  "answer": "B",
+  "solution_markdown": "7. B令 $g(x) = \\mathrm{e}^{2x}f(x)$ ，则\n\n$g'(x)=\\mathrm{e}^{2x}f'(x)+2\\mathrm{e}^{2x}f(x)=\\mathrm{e}^{2x}\\left[f'(x)+2f(x)\\right]$ ,\n又 $f'(x)+2f(x)<0,\\quad\\mathrm{e}^{2x}>0$ ，所以 $g'(x)<0$ ，即 $g(x)=\\mathrm{e}^{2x}f(x)_{\\text{在}}(-\\infty,+\\infty)$ 上单调递减，对于 A，因为 $g(-1)=\\mathrm{e}^{-2}f(-1)>g(0)=f(0)=1$ ，所以 $f(-1)>\\mathrm{e}^{2}$ ，故 A 错误；对于 B，因为 $g(0)=f(0)=1>g(1)=\\mathrm{e}^{2}f(1)$ ，所以 $f(1)<\\frac{1}{\\mathrm{e}^{2}}$ ，故 B 正确；对于 C，因为 $g(0)=f(0)=1>g\\left(\\frac{1}{2}\\right)=\\mathrm{e}f\\left(\\frac{1}{2}\\right)$ ，所以 $f\\left(\\frac{1}{2}\\right)<\\frac{1}{\\mathrm{e}}$ 故 C 错误；对于 D，\n所以 $\\mathrm{e}f(1)<f\\left(\\frac{1}{2}\\right)$ ，故 D 错误",
+  "solution_html": "<ol start=\"7\">\n<li>B令 $g(x) = \\mathrm{e}^{2x}f(x)$ ，则</li>\n</ol>\n<p>$g'(x)=\\mathrm{e}^{2x}f'(x)+2\\mathrm{e}^{2x}f(x)=\\mathrm{e}^{2x}\\left[f'(x)+2f(x)\\right]$ ,\n又 $f'(x)+2f(x)&lt;0,\\quad\\mathrm{e}^{2x}&gt;0$ ，所以 $g'(x)&lt;0$ ，即 $g(x)=\\mathrm{e}^{2x}f(x)_{\\text{在}}(-\\infty,+\\infty)$ 上单调递减，对于 A，因为 $g(-1)=\\mathrm{e}^{-2}f(-1)&gt;g(0)=f(0)=1$ ，所以 $f(-1)&gt;\\mathrm{e}^{2}$ ，故 A 错误；对于 B，因为 $g(0)=f(0)=1&gt;g(1)=\\mathrm{e}^{2}f(1)$ ，所以 $f(1)&lt;\\frac{1}{\\mathrm{e}^{2}}$ ，故 B 正确；对于 C，因为 $g(0)=f(0)=1&gt;g\\left(\\frac{1}{2}\\right)=\\mathrm{e}f\\left(\\frac{1}{2}\\right)$ ，所以 $f\\left(\\frac{1}{2}\\right)&lt;\\frac{1}{\\mathrm{e}}$ 故 C 错误；对于 D，\n所以 $\\mathrm{e}f(1)&lt;f\\left(\\frac{1}{2}\\right)$ ，故 D 错误</p>",
+  "score": null,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.370107+00:00",
+    "question_source_sha256": "0a947743971a67ef971955fddba3a1d96fa8478a9c0c36d10f0c4ee174efd496",
+    "solution_source_sha256": "8c53a21b6d71e1b67f1664b079fb0452db52b9a6b9c5c668ce4dbeedf2a2958c"
+  }
+}

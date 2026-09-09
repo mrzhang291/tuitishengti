@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_e34ad4ed1933_q013",
+  "display_id": "EXAM-E34AD4ED1933-Q013",
+  "source_exam": "深圳中学 2024 级高二数学周测（4）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（4）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（4）参考答案.md",
+  "question_number": 13,
+  "question_type": "fill_blank",
+  "stem_markdown": "### 13. 已知函数 $f(x) = (a - x)\\ln x + x - 1$ ，若 $\\forall x_1, x_2 \\in (0, +\\infty), x_1 \\neq x_2$ ，都有 $\\frac{f(x_1) - f(x_2)}{x_1 - x_2} < a$ ，则 $a =$ \\_\\_\\_\\_.",
+  "stem_html": "<h3>13. 已知函数 $f(x) = (a - x)\\ln x + x - 1$ ，若 $\\forall x_1, x_2 \\in (0, +\\infty), x_1 \\neq x_2$ ，都有 $\\frac{f(x_1) - f(x_2)}{x_1 - x_2} &lt; a$ ，则 $a =$ ____.</h3>",
+  "options": {},
+  "answer": "-1",
+  "solution_markdown": "### 13. \n\n**详解**不妨取 $\\forall x_{1}>x_{2}\\in(0,+\\infty)$ ，由 $\\frac{f(x_{1})-f(x_{2})}{x_{1}-x_{2}}<a$ 可得 $f(x_{1})-f(x_{2})<a(x_{1}-x_{2})$ ，即 $f(x_{1})-ax_{1}<f(x_{2})-ax_{2}$ ，\n令 $g(x)=f(x)-ax$ ，可得 $\\forall x_{1}>x_{2}\\in(0,+\\infty)$ ， $g(x_{1})<g(x_{2})$ ，\n\n即可得 $g(x)$ 在 $(0, +\\infty)$ 上单调递减，所以 $g'(x) \\leq 0$ 在 $(0, +\\infty)$ 上恒成立，\n\n又易知 $g(x) = (a - x)\\ln x + x - 1 - ax$ ，则 $g^{\\prime}(x) = -\\ln x + \\frac{a - x}{x} +1 - a = -\\ln x + \\frac{a}{x} -a$\n\n令 $g^{\\prime}(x) = h(x) = -\\ln x + \\frac{a}{x} -a$ ，则 $h^\\prime (x) = -\\frac{1}{x} -\\frac{a}{x^2} = -\\frac{x + a}{x^2};$\n\n当 $a\\geq0$ 时，易知 $h'(x)<0$ 恒成立，此时 $h(x)$ 在 $(0,+\\infty)$ 上单调递减，即 $g'(x)$ 在 $(0,+\\infty)$ 上单调递减，\n\n又 $g'(1)=h(1)=0$ ，所以当 $x\\in(0,1)$ 时， $g'(x)>h(1)=0$ ，不合题意；\n\n当 $a < 0$ 时，易知当 $x \\in (0, -a)$ 时， $h'(x) > 0$ ，当 $x \\in (-a, +\\infty)$ 时， $h'(x) < 0$ ，\n\n即可得 $h(x)$ 在 $(0, -a)$ 上单调递增，在 $(-a, +\\infty)$ 上单调递减，所以 $h(x)$ 在 $x = -a$ 处取得极大值，也是最大值，\n\n若 $g^{\\prime}(x)\\leq 0$ 在 $(0, + \\infty)$ 上恒成立，即 $h(x)\\leq 0$ 在 $(0, + \\infty)$ 上恒成立，所以只需保证 $h(x)_{\\max} = h(-a)\\leq 0$ 恒成立即可，\n\n令 $k(a) = h(-a) = -\\ln (-a) - 1 - a, a < 0$ ，则 $k'(a) = -\\frac{1}{a} - 1 = -\\frac{a + 1}{a}$ ，\n\n显然当 $a \\in (-\\infty, -1)$ 时， $k'(-a) < 0$ ，当 $a \\in (-1, 0)$ 时， $k'(-a) > 0$ ，\n\n即可得 $k(a)$ ，即 $h(-a)$ 在 $a = -1$ 处取得极小值，又 $h(1) = 0$ ，即 $h(-a) \\geq h(1) = 0$ ，\n\n所以 $h(-a) = h(1) = 0$ ，即 $a = -1$",
+  "solution_html": "<h3>13.</h3>\n<p><strong>详解</strong>不妨取 $\\forall x_{1}&gt;x_{2}\\in(0,+\\infty)$ ，由 $\\frac{f(x_{1})-f(x_{2})}{x_{1}-x_{2}}&lt;a$ 可得 $f(x_{1})-f(x_{2})&lt;a(x_{1}-x_{2})$ ，即 $f(x_{1})-ax_{1}&lt;f(x_{2})-ax_{2}$ ，\n令 $g(x)=f(x)-ax$ ，可得 $\\forall x_{1}&gt;x_{2}\\in(0,+\\infty)$ ， $g(x_{1})&lt;g(x_{2})$ ，</p>\n<p>即可得 $g(x)$ 在 $(0, +\\infty)$ 上单调递减，所以 $g'(x) \\leq 0$ 在 $(0, +\\infty)$ 上恒成立，</p>\n<p>又易知 $g(x) = (a - x)\\ln x + x - 1 - ax$ ，则 $g^{\\prime}(x) = -\\ln x + \\frac{a - x}{x} +1 - a = -\\ln x + \\frac{a}{x} -a$</p>\n<p>令 $g^{\\prime}(x) = h(x) = -\\ln x + \\frac{a}{x} -a$ ，则 $h^\\prime (x) = -\\frac{1}{x} -\\frac{a}{x^2} = -\\frac{x + a}{x^2};$</p>\n<p>当 $a\\geq0$ 时，易知 $h'(x)&lt;0$ 恒成立，此时 $h(x)$ 在 $(0,+\\infty)$ 上单调递减，即 $g'(x)$ 在 $(0,+\\infty)$ 上单调递减，</p>\n<p>又 $g'(1)=h(1)=0$ ，所以当 $x\\in(0,1)$ 时， $g'(x)&gt;h(1)=0$ ，不合题意；</p>\n<p>当 $a &lt; 0$ 时，易知当 $x \\in (0, -a)$ 时， $h'(x) &gt; 0$ ，当 $x \\in (-a, +\\infty)$ 时， $h'(x) &lt; 0$ ，</p>\n<p>即可得 $h(x)$ 在 $(0, -a)$ 上单调递增，在 $(-a, +\\infty)$ 上单调递减，所以 $h(x)$ 在 $x = -a$ 处取得极大值，也是最大值，</p>\n<p>若 $g^{\\prime}(x)\\leq 0$ 在 $(0, + \\infty)$ 上恒成立，即 $h(x)\\leq 0$ 在 $(0, + \\infty)$ 上恒成立，所以只需保证 $h(x)_{\\max} = h(-a)\\leq 0$ 恒成立即可，</p>\n<p>令 $k(a) = h(-a) = -\\ln (-a) - 1 - a, a &lt; 0$ ，则 $k'(a) = -\\frac{1}{a} - 1 = -\\frac{a + 1}{a}$ ，</p>\n<p>显然当 $a \\in (-\\infty, -1)$ 时， $k'(-a) &lt; 0$ ，当 $a \\in (-1, 0)$ 时， $k'(-a) &gt; 0$ ，</p>\n<p>即可得 $k(a)$ ，即 $h(-a)$ 在 $a = -1$ 处取得极小值，又 $h(1) = 0$ ，即 $h(-a) \\geq h(1) = 0$ ，</p>\n<p>所以 $h(-a) = h(1) = 0$ ，即 $a = -1$</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.893688+00:00",
+    "question_source_sha256": "abb103e1c408892fc4de9c4f369a5605171aaff95278bd1e2fbb72858f7ccac8",
+    "solution_source_sha256": "393e7089ed67ecf54073904de81f72aa4f123dbb02df5f8fd36c76f14bef30c1"
+  }
+}

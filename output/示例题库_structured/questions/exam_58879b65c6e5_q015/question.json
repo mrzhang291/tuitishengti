@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_58879b65c6e5_q015",
+  "display_id": "EXAM-58879B65C6E5-Q015",
+  "source_exam": "深圳中学 2024 级高二数学周测（7）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（7）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（7）参考答案.md",
+  "question_number": 15,
+  "question_type": "solution",
+  "stem_markdown": "### 15. 已知函数 $f(x) = \\frac{x^2}{2} - a\\ln x - (a - 1)x - \\frac{a}{2}$ .\n\n(1)当a=-1时，求曲线 $y=f(x)$ 在点 $(1,f(1))$ 处的切线方程；\n\n(2)讨论 $f(x)$ 的单调性;\n\n(3)若 $f(x)$ 有极小值，且 $f(x)\\geq0$ ，求a的取值范围.",
+  "stem_html": "<h3>15. 已知函数 $f(x) = \\frac{x^2}{2} - a\\ln x - (a - 1)x - \\frac{a}{2}$ .</h3>\n<p>(1)当a=-1时，求曲线 $y=f(x)$ 在点 $(1,f(1))$ 处的切线方程；</p>\n<p>(2)讨论 $f(x)$ 的单调性;</p>\n<p>(3)若 $f(x)$ 有极小值，且 $f(x)\\geq0$ ，求a的取值范围.</p>",
+  "options": {},
+  "answer": "见解析",
+  "solution_markdown": "### 15. \n\n**详解**（1）当 $a = -1$ 时， $f(x) = \\frac{x^2}{2} + \\ln x + 2x + \\frac{1}{2}$ ，所以 $f'(x) = x + \\frac{1}{x} + 2$\n\n所以 $f'(1)=1+\\frac{1}{1}+2=4$ ，又 $f(1)=\\frac{1^{2}}{2}+\\ln 1+2\\times 1+\\frac{1}{2}=3$ ，\n\n所以曲线 $y = f(x)$ 在点 $(1, f(1))$ 处的切线方程为 $y - 3 = 4(x - 1)$ ，即 4x - y - 1 = 0。\n\n(2) 由 $f(x)=\\frac{x^{2}}{2}-a\\ln x-(a-1)x-\\frac{a}{2}$ ,\n\n得 $f'(x)=x-\\frac{a}{x}-(a-1)=\\frac{x^{2}-(a-1)x-a}{x}=\\frac{(x-a)(x+1)}{x}$ ，函数 $f(x)$ 的定义域为 $(0,+\\infty)$ ,\n\n若 $a \\leq 0$ ，可得 $x \\in (0, +\\infty)$ 时， $f'(x) > 0$ ，所以 $f(x)$ 在 $(0, +\\infty)$ 上单调递增；\n\n若 a > 0 时，当 $x \\in (0, a)$ 时， $f'(x) < 0$ ，所以 $f(x)$ 在 $(0, a)$ 上单调递减；\n\n当 $x \\in (a, +\\infty)$ 时， $f'(x) > 0$ ，所以 $f(x)$ 在 $(a, +\\infty)$ 上单调递增；\n\n综上所述：当 $a \\leq 0$ 时， $f(x)$ 在 $(0, +\\infty)$ 上单调递增；\n\n当 $a > 0$ 时， $f(x)$ 在 $(0, a)$ 上单调递减，在 $(a, +\\infty)$ 上单调递增.\n\n（3）由（2）可知当 $a > 0$ 时， $f(x)$ 有极小值，\n\n极小值为 $f(a) = \\frac{a^2}{2} - a\\ln a - (a - 1)a - \\frac{a}{2} = -\\frac{a^2}{2} - a\\ln a + \\frac{a}{2}$ ，此时极小值也是最小值，\n\n由 $f(x) \\geq 0$ ，可得 $-\\frac{a^2}{2} - a \\ln a + \\frac{a}{2} \\geq 0$ ， $\\frac{a}{2} (1 - a - 2 \\ln a) \\geq 0$ ，又 $a > 0$ ，所以 $1 - a - 2 \\ln a \\geq 0$ .\n\n令 $g(a)=1-a-2\\ln a$ ，求导得 $g'(a)=-1-\\frac{2}{a}<0$ ，\n\n所以 $g(a)$ 在 $(0,+\\infty)$ 上单调递减，又 $g(1)=1-1-2\\ln1=0$\n\n当 $a \\in (0,1)$ 时， $g(a) > g(1) = 0$ ，当 $a \\in (1, +\\infty)$ 时， $g(a) < g(1) = 0$\n\n所以 $a \\in (0,1]$ 时， $g(a) \\geq 0$ ，此时满足 $f(x) \\geq 0$ ，所以 $a$ 的取值范围 $(0,1]$ .",
+  "solution_html": "<h3>15.</h3>\n<p><strong>详解</strong>（1）当 $a = -1$ 时， $f(x) = \\frac{x^2}{2} + \\ln x + 2x + \\frac{1}{2}$ ，所以 $f'(x) = x + \\frac{1}{x} + 2$</p>\n<p>所以 $f'(1)=1+\\frac{1}{1}+2=4$ ，又 $f(1)=\\frac{1^{2}}{2}+\\ln 1+2\\times 1+\\frac{1}{2}=3$ ，</p>\n<p>所以曲线 $y = f(x)$ 在点 $(1, f(1))$ 处的切线方程为 $y - 3 = 4(x - 1)$ ，即 4x - y - 1 = 0。</p>\n<p>(2) 由 $f(x)=\\frac{x^{2}}{2}-a\\ln x-(a-1)x-\\frac{a}{2}$ ,</p>\n<p>得 $f'(x)=x-\\frac{a}{x}-(a-1)=\\frac{x^{2}-(a-1)x-a}{x}=\\frac{(x-a)(x+1)}{x}$ ，函数 $f(x)$ 的定义域为 $(0,+\\infty)$ ,</p>\n<p>若 $a \\leq 0$ ，可得 $x \\in (0, +\\infty)$ 时， $f'(x) &gt; 0$ ，所以 $f(x)$ 在 $(0, +\\infty)$ 上单调递增；</p>\n<p>若 a &gt; 0 时，当 $x \\in (0, a)$ 时， $f'(x) &lt; 0$ ，所以 $f(x)$ 在 $(0, a)$ 上单调递减；</p>\n<p>当 $x \\in (a, +\\infty)$ 时， $f'(x) &gt; 0$ ，所以 $f(x)$ 在 $(a, +\\infty)$ 上单调递增；</p>\n<p>综上所述：当 $a \\leq 0$ 时， $f(x)$ 在 $(0, +\\infty)$ 上单调递增；</p>\n<p>当 $a &gt; 0$ 时， $f(x)$ 在 $(0, a)$ 上单调递减，在 $(a, +\\infty)$ 上单调递增.</p>\n<p>（3）由（2）可知当 $a &gt; 0$ 时， $f(x)$ 有极小值，</p>\n<p>极小值为 $f(a) = \\frac{a^2}{2} - a\\ln a - (a - 1)a - \\frac{a}{2} = -\\frac{a^2}{2} - a\\ln a + \\frac{a}{2}$ ，此时极小值也是最小值，</p>\n<p>由 $f(x) \\geq 0$ ，可得 $-\\frac{a^2}{2} - a \\ln a + \\frac{a}{2} \\geq 0$ ， $\\frac{a}{2} (1 - a - 2 \\ln a) \\geq 0$ ，又 $a &gt; 0$ ，所以 $1 - a - 2 \\ln a \\geq 0$ .</p>\n<p>令 $g(a)=1-a-2\\ln a$ ，求导得 $g'(a)=-1-\\frac{2}{a}&lt;0$ ，</p>\n<p>所以 $g(a)$ 在 $(0,+\\infty)$ 上单调递减，又 $g(1)=1-1-2\\ln1=0$</p>\n<p>当 $a \\in (0,1)$ 时， $g(a) &gt; g(1) = 0$ ，当 $a \\in (1, +\\infty)$ 时， $g(a) &lt; g(1) = 0$</p>\n<p>所以 $a \\in (0,1]$ 时， $g(a) \\geq 0$ ，此时满足 $f(x) \\geq 0$ ，所以 $a$ 的取值范围 $(0,1]$ .</p>",
+  "score": null,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.026182+00:00",
+    "question_source_sha256": "9124b78ea7842e994e399ed6bc49d2368b80f63f7683e1cfae2de4c1c9e936aa",
+    "solution_source_sha256": "73a0816208baeeb9d64155c667182408d96461e4b8769a726123ba1edb89fe5b"
+  }
+}

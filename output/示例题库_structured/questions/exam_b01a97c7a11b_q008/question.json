@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_b01a97c7a11b_q008",
+  "display_id": "EXAM-B01A97C7A11B-Q008",
+  "source_exam": "深圳中学2024级高二周测（8）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（8）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（8）参考答案.md",
+  "question_number": 8,
+  "question_type": "single_choice",
+  "stem_markdown": "### 8. 已知 $x = x_{1}$ 和 $x = x_{2}$ 分别是函数 $f(x) = 2a^{x} - \\mathrm{e}x^{2}$ （ $a > 0$ 且 $a \\neq 1$ ）的极小值点和极大值点。若 $x_{1} < x_{2}$ ，则 $a$ 的取值范围是（）\n\nA. $\\left(0, \\frac{1}{\\mathrm{e}}\\right)$\n\nB. $\\left(\\frac{1}{\\mathrm{e}}, 1\\right)$\n\nC. $(1, \\mathrm{e})$\n\nD. $(\\mathrm{e}, +\\infty)$\n\n#",
+  "stem_html": "<h3>8. 已知 $x = x_{1}$ 和 $x = x_{2}$ 分别是函数 $f(x) = 2a^{x} - \\mathrm{e}x^{2}$ （ $a &gt; 0$ 且 $a \\neq 1$ ）的极小值点和极大值点。若 $x_{1} &lt; x_{2}$ ，则 $a$ 的取值范围是（）</h3>\n<p>A. $\\left(0, \\frac{1}{\\mathrm{e}}\\right)$</p>\n<p>B. $\\left(\\frac{1}{\\mathrm{e}}, 1\\right)$</p>\n<p>C. $(1, \\mathrm{e})$</p>\n<p>D. $(\\mathrm{e}, +\\infty)$</p>\n<h1></h1>",
+  "options": {
+    "A": "$\\left(0, \\frac{1}{\\mathrm{e}}\\right)$",
+    "B": "$\\left(\\frac{1}{\\mathrm{e}}, 1\\right)$",
+    "C": "$(1, \\mathrm{e})$",
+    "D": "$(\\mathrm{e}, +\\infty)$\n\n#"
+  },
+  "answer": "B",
+  "solution_markdown": "## 8.**详解**转化法，零点的问题转为函数图象的交点\n\n因为 $f'(x)=2\\ln a\\cdot a^{x}-2\\mathrm{e}x$ ，所以方程 $2\\ln a\\cdot a^{x}-2\\mathrm{e}x=0$ 的两个根为 $x_{1},x_{2}$ ，\n\n即方程 $\\ln a \\cdot a^{x} = e x$ 的两个根为 $x_{1}, x_{2}$ ,\n\n即函数 $y = \\ln a \\cdot a^{x}$ 与函数 $y = e x$ 的图象有两个不同的交点，\n\n因为 $x_{1}, x_{2}$ 分别是函数 $f(x) = 2a^{x} - \\mathrm{e}x^{2}$ 的极小值点和极大值点，\n\n所以函数 $f(x)$ 在 $(-∞, x_1)$ 和 $(x_2, +∞)$ 上递减，在 $(x_1, x_2)$ 上递增，\n\n![](assets/de546fa687e5ebc05419d677f5d4cf296f424ade33c70134da2534a9d3811a28.jpg)\n\n所以当时 $(-∞,x_{1})(x_{2},+∞)$ ， $f'(x)<0$ ，即 $y=e x$ 图象在 $y=\\ln a\\cdot a^{x}$ 上方\n\n当 $x \\in (x_1, x_2)$ 时， $f'(x) > 0$ ，即 $y = \\mathbf{e}x$ 图象在 $y = \\ln a \\cdot a^x$ 下方\n\na>1，图象显然不符合题意，所以0<a<1。\n\n令 $g(x) = \\ln a\\cdot a^x$ ，则 $g^{\\prime}(x) = \\ln^{2}a\\cdot a^{x},0 <   a <   1$\n\n设过原点且与函数 $y = g(x)$ 的图象相切的直线的切点为 $\\left(x_{0}, \\ln a \\cdot a^{x_{0}}\\right)$ ,\n\n则切线的斜率为 $g^{\\prime}(x_0) = \\ln^2 a\\cdot a^{x_0}$ ，故切线方程为 $y - \\ln a\\cdot a^{x_0} = \\ln^2 a\\cdot a^{x_0}(x - x_0)$\n\n则有 $-\\ln a \\cdot a^{x_0} = -x_0 \\ln^2 a \\cdot a^{x_0}$ ，解得 $x_0 = \\frac{1}{\\ln a}$ ，则切线的斜率为 $\\ln^2 a \\cdot a^{\\frac{1}{\\ln a}} = e \\ln^2 a$\n\n因为函数 $y = \\ln a \\cdot a^x$ 与函数 $y = \\mathrm{e}x$ 的图象有两个不同的交点，\n\n所以 $\\mathrm{e}\\ln^2 a < \\mathrm{e}$ ，解得 $\\frac{1}{\\mathrm{e}} < a < \\mathrm{e}$ ，又 $0 < a < 1$ ，所以 $\\frac{1}{\\mathrm{e}} < a < 1$ ，\n\n综上所述，a 的取值范围为 $\\left(\\frac{1}{\\mathrm{e}},1\\right)$ .",
+  "solution_html": "<h2>8.<strong>详解</strong>转化法，零点的问题转为函数图象的交点</h2>\n<p>因为 $f'(x)=2\\ln a\\cdot a^{x}-2\\mathrm{e}x$ ，所以方程 $2\\ln a\\cdot a^{x}-2\\mathrm{e}x=0$ 的两个根为 $x_{1},x_{2}$ ，</p>\n<p>即方程 $\\ln a \\cdot a^{x} = e x$ 的两个根为 $x_{1}, x_{2}$ ,</p>\n<p>即函数 $y = \\ln a \\cdot a^{x}$ 与函数 $y = e x$ 的图象有两个不同的交点，</p>\n<p>因为 $x_{1}, x_{2}$ 分别是函数 $f(x) = 2a^{x} - \\mathrm{e}x^{2}$ 的极小值点和极大值点，</p>\n<p>所以函数 $f(x)$ 在 $(-∞, x_1)$ 和 $(x_2, +∞)$ 上递减，在 $(x_1, x_2)$ 上递增，</p>\n<p><img alt=\"\" src=\"assets/de546fa687e5ebc05419d677f5d4cf296f424ade33c70134da2534a9d3811a28.jpg\" /></p>\n<p>所以当时 $(-∞,x_{1})(x_{2},+∞)$ ， $f'(x)&lt;0$ ，即 $y=e x$ 图象在 $y=\\ln a\\cdot a^{x}$ 上方</p>\n<p>当 $x \\in (x_1, x_2)$ 时， $f'(x) &gt; 0$ ，即 $y = \\mathbf{e}x$ 图象在 $y = \\ln a \\cdot a^x$ 下方</p>\n<p>a&gt;1，图象显然不符合题意，所以0&lt;a&lt;1。</p>\n<p>令 $g(x) = \\ln a\\cdot a^x$ ，则 $g^{\\prime}(x) = \\ln^{2}a\\cdot a^{x},0 &lt;   a &lt;   1$</p>\n<p>设过原点且与函数 $y = g(x)$ 的图象相切的直线的切点为 $\\left(x_{0}, \\ln a \\cdot a^{x_{0}}\\right)$ ,</p>\n<p>则切线的斜率为 $g^{\\prime}(x_0) = \\ln^2 a\\cdot a^{x_0}$ ，故切线方程为 $y - \\ln a\\cdot a^{x_0} = \\ln^2 a\\cdot a^{x_0}(x - x_0)$</p>\n<p>则有 $-\\ln a \\cdot a^{x_0} = -x_0 \\ln^2 a \\cdot a^{x_0}$ ，解得 $x_0 = \\frac{1}{\\ln a}$ ，则切线的斜率为 $\\ln^2 a \\cdot a^{\\frac{1}{\\ln a}} = e \\ln^2 a$</p>\n<p>因为函数 $y = \\ln a \\cdot a^x$ 与函数 $y = \\mathrm{e}x$ 的图象有两个不同的交点，</p>\n<p>所以 $\\mathrm{e}\\ln^2 a &lt; \\mathrm{e}$ ，解得 $\\frac{1}{\\mathrm{e}} &lt; a &lt; \\mathrm{e}$ ，又 $0 &lt; a &lt; 1$ ，所以 $\\frac{1}{\\mathrm{e}} &lt; a &lt; 1$ ，</p>\n<p>综上所述，a 的取值范围为 $\\left(\\frac{1}{\\mathrm{e}},1\\right)$ .</p>",
+  "score": null,
+  "assets": [
+    {
+      "original_ref": "images/de546fa687e5ebc05419d677f5d4cf296f424ade33c70134da2534a9d3811a28.jpg",
+      "alt": "",
+      "saved": true,
+      "file_name": "de546fa687e5ebc05419d677f5d4cf296f424ade33c70134da2534a9d3811a28.jpg",
+      "relative_path": "assets/de546fa687e5ebc05419d677f5d4cf296f424ade33c70134da2534a9d3811a28.jpg",
+      "sha256": "f571aa674bdf9ab41f82ca0473b9da06389cf40e122da7f496cec3dcf0f770e3"
+    }
+  ],
+  "quality_flags": [
+    "contains_images"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.089761+00:00",
+    "question_source_sha256": "c94eca08c58bedc15524121a680136ba270a64c9922023c3005a12c4fc409761",
+    "solution_source_sha256": "2c305966ce196e8a17833cd59778cae810c6b4e24eca072eeecc711059b85d1d"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_ed507f8efdc5_q002",
+  "display_id": "EXAM-ED507F8EFDC5-Q002",
+  "source_exam": "深圳中学 2024 级高二数学周测（2）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（2）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（2）解析.md",
+  "question_number": 2,
+  "question_type": "single_choice",
+  "stem_markdown": "### 2. 若 $f(x) = ax^{4} + bx^{2} + c$ 满足 $f'(1) = 2$ ，则 $f'(-1) =$\n\nA. -4\n\nB. -2\n\nC. 2\n\nD. 4",
+  "stem_html": "<h3>2. 若 $f(x) = ax^{4} + bx^{2} + c$ 满足 $f'(1) = 2$ ，则 $f'(-1) =$</h3>\n<p>A. -4</p>\n<p>B. -2</p>\n<p>C. 2</p>\n<p>D. 4</p>",
+  "options": {
+    "A": "-4",
+    "B": "-2",
+    "C": "2",
+    "D": "4"
+  },
+  "answer": "B",
+  "solution_markdown": "### 2. B\n\n**详解**求导后导函数为奇函数，所以选择 B。",
+  "solution_html": "<h3>2. B</h3>\n<p><strong>详解</strong>求导后导函数为奇函数，所以选择 B。</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.617827+00:00",
+    "question_source_sha256": "7cb6872dd8f9092683f4d213bfc976e0e2eecfc7cc5919b7f6cfa19ef958a3d1",
+    "solution_source_sha256": "ee82da0a88dd9857c44efb8cd3b554ae670a59b5aa1d62f710078f748a7f8a4e"
+  }
+}

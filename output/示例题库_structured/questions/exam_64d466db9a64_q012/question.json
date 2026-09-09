@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_64d466db9a64_q012",
+  "display_id": "EXAM-64D466DB9A64-Q012",
+  "source_exam": "深圳中学 2024 级高二数学周测（5）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二数学周测（5）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二数学周测（5）参考答案.md",
+  "question_number": 12,
+  "question_type": "fill_blank",
+  "stem_markdown": "### 12. 函数 $y=\\frac{1}{2}x^{2}-\\ln x$ 的单调递减区间为 \\_\\_\\_\\_.",
+  "stem_html": "<h3>12. 函数 $y=\\frac{1}{2}x^{2}-\\ln x$ 的单调递减区间为 ____.</h3>",
+  "options": {},
+  "answer": "$(0,1)$",
+  "solution_markdown": "12.}$ $(0,1)\\because f'(x)=x-\\frac{1}{x}=\\frac{x^{2}-1}{x}=\\frac{(x+1)(x-1)}{x}$ ，\n\nx>0，由 $f'(x)<0$ ，即 $(x+1)(x-1)<0$ ，解得 $-1<x<1$ ，∵x>0，∴0<x<1，即函数的单调减区间为 $(0,1)$ $\\boxed{",
+  "solution_html": "<p>12.}$ $(0,1)\\because f'(x)=x-\\frac{1}{x}=\\frac{x^{2}-1}{x}=\\frac{(x+1)(x-1)}{x}$ ，\n\nx&gt;0，由 $f'(x)&lt;0$ ，即 $(x+1)(x-1)&lt;0$ ，解得 $-1&lt;x&lt;1$ ，∵x&gt;0，∴0&lt;x&lt;1，即函数的单调减区间为 $(0,1)$ $\\boxed{</p>",
+  "score": null,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.414018+00:00",
+    "question_source_sha256": "0a947743971a67ef971955fddba3a1d96fa8478a9c0c36d10f0c4ee174efd496",
+    "solution_source_sha256": "8c53a21b6d71e1b67f1664b079fb0452db52b9a6b9c5c668ce4dbeedf2a2958c"
+  }
+}

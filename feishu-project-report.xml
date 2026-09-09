@@ -1,0 +1,108 @@
+<title>推题生题项目功能架构与进度报告</title>
+
+<p><b>报告日期：</b>2026-09-09　<b>盘点范围：</b>项目文件夹全量文件、脚本、配置、测试与生成产物　<b>报告口径：</b>以当前本地代码和实际产物为准，方案文档中的目标能力单独标注为规划。</p>
+
+<h1>1. 结论摘要</h1>
+
+<p>项目已经形成一条可运行的数学题库处理链路：从试卷与答案素材进入 OCR、结构化题库，再经过知识点/能力/难度标签，生成教师复核队列，并可组装班级原题错题集。当前最成熟的是“输入—结构化—标签—班级错题卷”链路；“学生画像—个性化推荐—新题生成—独立验证—教师审批—交付”仍处于候选方案与门禁阶段。</p>
+
+<p>当前判断为：<b>本地离线处理能力可用，教学数据闭环尚未完成，面向学生的变式题交付尚未开放。</b>题库结构化报告本身为 warn，主要原因是部分题目缺答案或缺解析；推荐器已主动把不安全题目排除，生成结果文件明确处于 pending generation and approval 状态。</p>
+
+<table>
+  <thead><tr><th background-color="light-gray">维度</th><th background-color="light-gray">当前结论</th><th background-color="light-gray">证据</th></tr></thead>
+  <tbody>
+    <tr><td>处理能力</td><td>OCR、结构化、标签、复核工作台、推荐和变式校验脚本均已具备</td><td><code>exam-ocr</code>、<code>smart-question-tagger</code>、<code>smart-question-recommender-v3</code>、<code>generating-math-variants</code></td></tr>
+    <tr><td>测试状态</td><td>4 个测试套件共 142 项测试全部通过</td><td>OCR 16、标签 27、推荐器 96、变式 3</td></tr>
+    <tr><td>数据状态</td><td>结构化题库 150 题；推荐器脱敏样例库 137 题、5 名学生</td><td><code>output/示例题库_structured</code>、<code>smart-question-recommender-v3/references/data</code></td></tr>
+    <tr><td>交付状态</td><td>班级原题错题集可生成；学生可见的新题推荐被阻断</td><td>class paper pass；generated recommendations blocked</td></tr>
+    <tr><td>工程化状态</td><td>以本地脚本和本地工作台为主，未发现顶层 Git/pyproject/CI/Docker 部署入口</td><td>项目根目录盘点结果</td></tr>
+  </tbody>
+</table>
+
+<h1>2. 功能架构</h1>
+
+<p>架构按“素材输入、题库结构化、智能增强、教师复核、学生推荐、变式生成、质量门禁、交付产物”组织。试卷和答案素材是外部输入；题库是核心共享数据；学生表现与索引提供推荐依据；质量门禁负责把不完整、低置信度、重复或未经审批的内容挡在交付之前。</p>
+
+<whiteboard type="svg" path="@project-architecture.svg"></whiteboard>
+
+<p><b>图示阅读：</b>DOCX/PDF/HTML 素材进入数学公式转换和试卷 OCR；OCR 结果进入结构化题库。题库经过标签引擎后进入教师复核，人工校准可回写题库。推荐器同时读取题库候选池与学生掌握度/练习记录，再把推荐题目和约束交给变式生成器；生成结果必须经过质量门禁，只有通过后才进入文件和报告等交付产物。</p>
+
+<table>
+  <thead><tr><th background-color="light-gray">功能域</th><th background-color="light-gray">主要能力</th><th background-color="light-gray">当前实现形态</th><th background-color="light-gray">成熟度</th></tr></thead>
+  <tbody>
+    <tr><td>素材接入与公式处理</td><td>PDF/DOCX 转换、HTML 与 LaTeX 公式保留、可编辑 DOCX 导出</td><td>脚本化批处理；<code>html-math-to-docx</code> 负责导出，不负责题目正确性判断</td><td>已跑通</td></tr>
+    <tr><td>试卷 OCR 与结构化</td><td>MinerU 缓存、Markdown/HTML 润色、题目/答案/解析抽取、结构质量报告</td><td><code>exam-ocr</code> 多脚本链路与审计脚本</td><td>可用但需清洗</td></tr>
+    <tr><td>题目标签与教师复核</td><td>课程主题、知识点、能力、难度 1—5、置信度、复核队列、审计</td><td><code>smart-question-tagger</code> + HTML Workbench + CSV/JSONL 契约</td><td>标签可用，复核未闭环</td></tr>
+    <tr><td>学生画像与推荐</td><td>掌握度、练习记录、候选池筛选、班级错题卷、个性化推荐计划</td><td><code>smart-question-recommender-v3</code> 离线脚本和本地工作台</td><td>原题推荐可用，新题推荐待生成</td></tr>
+    <tr><td>变式生成与验证</td><td>知识链、结构锚点、相对难度、答案解析一致性、独立验证、审批</td><td><code>generating-math-variants</code> 原型与推荐器生成工作区</td><td>门禁具备，合格新题尚未交付</td></tr>
+    <tr><td>质量门禁与交付</td><td>确定性校验、结构指纹、重复风险、教师审批、报告/文件导出</td><td>多个 <code>validate_*.py</code> 与生成产物状态字段</td><td>规则较强，反馈闭环不足</td></tr>
+  </tbody>
+</table>
+
+<h1>3. 数据与质量现状</h1>
+
+<p>项目原始文件与既有生成产物合计约 1,368 个文件、约 99.3 MB；示例题库包含 20 个 DOCX 和 14 个 PDF。OCR 产物对应 9 组试卷/答案、18 个完整 HTML 缓存条目，原始 HTML 缺失、Markdown 图片引用缺失和审计警告均为 0，OCR 审计通过。</p>
+
+<table>
+  <thead><tr><th background-color="light-gray">指标</th><th background-color="light-gray">数值</th><th background-color="light-gray">解释</th></tr></thead>
+  <tbody>
+    <tr><td>结构化题库</td><td>150 题 / 9 个案例</td><td>覆盖周作业与周测；题号重复已解决，未解决重复 0</td></tr>
+    <tr><td>结构质量告警</td><td>缺答案 2、缺解析 39、嵌入补充题 1</td><td>因此结构报告为 warn；不能直接把全部题目视为安全交付池</td></tr>
+    <tr><td>安全候选池</td><td>68 题；排除 82 题</td><td>推荐器按答案/解析完整性、标签可靠性、重复风险等规则筛选</td></tr>
+    <tr><td>标签复核</td><td>结构化输出 150 题进入草稿；样例库 137 行均待审核</td><td>样例审阅 CSV 中教师已复核记录为 0</td></tr>
+    <tr><td>班级错题卷</td><td>16 题、100 分、48 名学生</td><td>原题错题集校验通过；这是源题交付，不等同于新题生成通过</td></tr>
+    <tr><td>学生推荐计划</td><td>48 名学生、每人 5 题</td><td>推荐计划已生成，但 student_visible=false 且 requires_new_question_generation=true</td></tr>
+  </tbody>
+</table>
+
+<callout emoji="⚠️" background-color="light-yellow" border-color="yellow">
+  <p>面向学生的个性化新题当前不应直接发布：生成题集合数量为 0，状态为 blocked_pending_generation_and_approval；推荐链路要求先完成新题生成、独立验证和教师审批。</p>
+</callout>
+
+<h1>4. 进度报告</h1>
+
+<p>以下进度以 <code>PROPOSAL.md</code> 中的 Phase 0—4 目标，与实际文件和运行产物交叉判断。方案中的“目标存在”不计为“功能已完成”。</p>
+
+<table>
+  <thead><tr><th background-color="light-gray">阶段</th><th background-color="light-gray">目标</th><th background-color="light-gray">当前进度</th><th background-color="light-gray">判断</th></tr></thead>
+  <tbody>
+    <tr><td>Phase 0 基础收敛</td><td>统一仓库、依赖、CI、相对路径与技能资产</td><td>五个能力目录、脚本和契约已形成；但根目录未发现 <code>.git</code>、<code>pyproject.toml</code>、<code>.github</code> 或 Docker 入口</td><td>部分完成</td></tr>
+    <tr><td>Phase 1 模型路由</td><td>抽象 draft/verifier 路由，降低 Cherry Studio 耦合，保留兼容性</td><td>技能和工作台已描述 Cherry 网关及模型配置，但当前生成产物仍未走通“草拟—验证—提交”交付</td><td>未闭环</td></tr>
+    <tr><td>Phase 2 角色化生成</td><td>题目 setter、蓝图、工具调用、异步队列与快速路径</td><td>已有知识链和候选池：10 条知识链、跳过 1 条、30 个阶段候选；其中 13 个阶段存在难度不匹配标记；生成题 0</td><td>原型/门禁阶段</td></tr>
+    <tr><td>Phase 3 反馈记忆</td><td>教师反馈、拒绝记忆、蓝图族和生成历史闭环</td><td>未发现有效的教师质量反馈记录；推荐历史和班级试卷历史文件为空</td><td>未开始</td></tr>
+    <tr><td>Phase 4 多教师/多学科</td><td>从单教师数学场景扩展到多租户和更多学科</td><td>当前证据仍是单项目、数学题库、本地文件与本地工作台</td><td>未开始</td></tr>
+  </tbody>
+</table>
+
+<p><b>测试进度。</b> <code>exam-ocr</code>、<code>smart-question-tagger</code>、<code>smart-question-recommender-v3</code> 和 <code>generating-math-variants</code> 的测试合计 142 项全部通过。这说明现有规则和脚本在已覆盖场景下稳定，但不代表数据已完成教师复核，也不代表生成题链路已经具备学生交付资格。<code>html-math-to-docx</code> 目录未发现对应测试套件，当前主要依赖诊断和校验脚本。</p>
+
+<h1>5. 主要风险与待解决问题</h1>
+
+<p><b>数据完整性风险。</b> 150 题中存在缺答案和缺解析，标签样例 137 题均未见教师确认；低置信度、图片题和结构告警共同构成复核队列。应先处理交付池，再扩大推荐范围。</p>
+
+<p><b>生成质量风险。</b> 方案要求生成题与完整文本结构锚点、难度契约、独立解题验证和教师审批形成不对称否决链；当前候选阶段已经暴露难度不匹配标记，不能把候选池或知识链阶段产物当作最终题。</p>
+
+<p><b>工程化与运行风险。</b> 当前主要依赖本地脚本、文件路径和本地 HTTP Workbench；方案还指出同模型草拟/验证、实时调用约 150 秒、并发约束和 Cherry Studio 依赖等问题。尚未看到统一包管理、CI、服务部署或异步任务队列的根目录落地证据。</p>
+
+<p><b>反馈闭环风险。</b> 教师反馈、拒绝记忆和推荐历史没有形成可验证的持续学习链路，后续即使完成生成，也难以量化“被拒原因—规则修正—下一轮质量提升”。</p>
+
+<h1>6. 下一步建议</h1>
+
+<table>
+  <thead><tr><th background-color="light-gray">优先级</th><th background-color="light-gray">工作项</th><th background-color="light-gray">完成标准</th></tr></thead>
+  <tbody>
+    <tr><td>P0</td><td>清理结构题库并完成教师复核</td><td>缺答案/解析题有明确处置；图片题、补充题和低置信度题完成复核；安全池规则与人工结果一致</td></tr>
+    <tr><td>P0</td><td>打通新题生成闭环</td><td>每个推荐槽位能生成候选；独立验证通过；难度与结构新颖性门禁通过；教师审批记录可追踪</td></tr>
+    <tr><td>P1</td><td>建立反馈与历史存储</td><td>新增题、拒绝原因、教师修改、推荐结果和版本均可按学生/题目/蓝图追溯</td></tr>
+    <tr><td>P1</td><td>完成 draft/verifier 模型路由抽象</td><td>草拟模型与验证模型可独立配置；密钥不进入浏览器和日志；Cherry 仅作为兼容适配层</td></tr>
+    <tr><td>P2</td><td>仓库与服务工程化</td><td>统一 pyproject/依赖、测试入口、CI、配置管理和异步任务接口；本地脚本路径耦合收敛为可部署模块</td></tr>
+  </tbody>
+</table>
+
+<h1>7. 交付物与复核入口</h1>
+
+<p>本报告中的判断可由以下本地证据复核：<code>PROPOSAL.md</code>（总体方案与阶段目标）、<code>output/示例题库_ocr</code>（OCR 审计与质量报告）、<code>output/示例题库_structured</code>（结构化题库、标签、推荐、生成和班级试卷产物）、以及五个能力目录下的 <code>SKILL.md</code>、脚本和测试。</p>
+
+<p>Archify 架构图规格为 <code>project-architecture.archify.json</code>，交互版产物为 <code>project-architecture.html</code>，嵌入本文档的静态画板为 <code>project-architecture.svg</code>。架构图最终校验结果：9 项结构检查通过，showcase composition 通过，4 个视口的明暗主题视觉检查通过。</p>
+
+<p><b>最终状态：</b>项目适合作为“数学题库处理与教师辅助”本地工具继续迭代；在完成数据清洗、教师复核和新题独立验证/审批之前，不建议把个性化变式题作为学生正式交付能力对外承诺。</p>

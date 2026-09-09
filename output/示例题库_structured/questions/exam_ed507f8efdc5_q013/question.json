@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_ed507f8efdc5_q013",
+  "display_id": "EXAM-ED507F8EFDC5-Q013",
+  "source_exam": "深圳中学 2024 级高二数学周测（2）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（2）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（2）解析.md",
+  "question_number": 13,
+  "question_type": "fill_blank",
+  "stem_markdown": "### 13. 定义在R上的函数 $f(x)$ 的导函数为 $f'(x)$ ，且有 $f(-3) = -12, f(-x) + f(x) = 0$ ，且对任意 $x \\in R$ 都有 $f'(x) > 3$ ，则使得 $f(\\mathrm{e}^x) - 3\\mathrm{e}^x - 3 \\geq 0$ 成立的 $x$ 的取值范围是 \\_\\_\\_\\_.",
+  "stem_html": "<h3>13. 定义在R上的函数 $f(x)$ 的导函数为 $f'(x)$ ，且有 $f(-3) = -12, f(-x) + f(x) = 0$ ，且对任意 $x \\in R$ 都有 $f'(x) &gt; 3$ ，则使得 $f(\\mathrm{e}^x) - 3\\mathrm{e}^x - 3 \\geq 0$ 成立的 $x$ 的取值范围是 ____.</h3>",
+  "options": {},
+  "answer": "$[\\ln3,+\\infty)$",
+  "solution_markdown": "### 13. $[\\ln3,+\\infty)$ \n\n**详解**由 $f(-x)+f(x)=0$ 知 $f(x)$ 是奇函数，∴ $f(3)=-f(-3)=12$ ，设 $g(x)=f(x)-3x$ ，则 $g(3)=f(3)-3\\times3=12-9=3, g'(x)=f'(x)-3>0$ ，∴ $g(x)$ 在 R 上单调递增，由 $f(\\mathrm{e}^{x})-3\\mathrm{e}^{x}-3\\geq0$ 得 $f(\\mathrm{e}^{x})-3\\mathrm{e}^{x}\\geq3$ ，即 $g(\\mathrm{e}^{x})\\geq g(3)$ ，∴ $e^{x}\\geq3$ ，得 $x\\geq\\ln3,x$ 的取值范围是 $[\\ln3,+\\infty)$ .",
+  "solution_html": "<h3>13. $[\\ln3,+\\infty)$</h3>\n<p><strong>详解</strong>由 $f(-x)+f(x)=0$ 知 $f(x)$ 是奇函数，∴ $f(3)=-f(-3)=12$ ，设 $g(x)=f(x)-3x$ ，则 $g(3)=f(3)-3\\times3=12-9=3, g'(x)=f'(x)-3&gt;0$ ，∴ $g(x)$ 在 R 上单调递增，由 $f(\\mathrm{e}^{x})-3\\mathrm{e}^{x}-3\\geq0$ 得 $f(\\mathrm{e}^{x})-3\\mathrm{e}^{x}\\geq3$ ，即 $g(\\mathrm{e}^{x})\\geq g(3)$ ，∴ $e^{x}\\geq3$ ，得 $x\\geq\\ln3,x$ 的取值范围是 $[\\ln3,+\\infty)$ .</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.656572+00:00",
+    "question_source_sha256": "7cb6872dd8f9092683f4d213bfc976e0e2eecfc7cc5919b7f6cfa19ef958a3d1",
+    "solution_source_sha256": "ee82da0a88dd9857c44efb8cd3b554ae670a59b5aa1d62f710078f748a7f8a4e"
+  }
+}

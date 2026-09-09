@@ -1,0 +1,1313 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "深圳中学 2024 级高二数学周测（8）"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                250,
+                73,
+                675,
+                96
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "一、选择题：本题共8小题，每小题5分，共40分.在每小题给出的四个选项中，只有一个选项是正确的.\n1. 已知离散型随机变量 X 的方差为 1，则   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D(2X+1)=(\\quad)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \nA.2 B.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{1}{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  C.4 D.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{1}{4}"
+                    }
+                ]
+            },
+            "bbox": [
+                89,
+                105,
+                905,
+                179
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2. 设函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x) = \\frac{\\mathrm{e}^x}{x + a}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". 若  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(1) = \\frac{e}{4}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a = (\\quad)"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". A.1 B.-1 C.-3+2√2 D.-3-2√2"
+                    }
+                ]
+            },
+            "bbox": [
+                87,
+                190,
+                642,
+                247
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3. 假设 A, B 是两个事件，且   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P(A) > 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P(B) > 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则下列结论一定正确的是()\nA.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P(B)=P(B|A)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \nB.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P(AB)=P(A)P(B)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \nC.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P(B|A)=P(A|B)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \nD.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P(AB)\\leq P(B|A)"
+                    }
+                ]
+            },
+            "bbox": [
+                90,
+                256,
+                719,
+                331
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "4. 现有两位游客慕名来江苏旅游,他们分别从太湖鼋头渚、苏州拙政园、镇江金山寺、中华恐龙园、南京夫子庙、扬州瘦西湖6个景点中随机选择1个景点游玩.记事件A为“两位游客中至少有一人选择太湖鼋头渚”,事件B为“两位游客选择的景点不同”,则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P(B|A)=(\\quad)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \nA.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{7}{9}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  B.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{8}{9}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  C.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{9}{11}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  D.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{10}{11}"
+                    }
+                ]
+            },
+            "bbox": [
+                87,
+                341,
+                905,
+                451
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "5.已知曲线  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y = ae^{x} + x\\ln x"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在点(1,ae)处的切线方程为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y = 2x + b"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，则（）A.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a = e, b = -1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " B.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a = e, b = 1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " C.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a = e^{-1}, b = 1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " D.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a = e^{-1}, b = -1"
+                    }
+                ]
+            },
+            "bbox": [
+                89,
+                464,
+                751,
+                520
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "6. 长时间玩手机可能影响视力, 据调查, 某学校学生中, 大约有  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{1}{5}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的学生每天玩手机超过  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 \\mathrm{~h}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", 这些人近视率约为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{1}{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", 其余学生的近视率约为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{3}{8}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", 现从该校任意调查一名学生, 他近视的概率大约是 ( ) A.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{1}{5}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " B.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{7}{16}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " C.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{2}{5}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " D.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{7}{8}"
+                    }
+                ]
+            },
+            "bbox": [
+                87,
+                535,
+                899,
+                640
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "7. 函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x) = ax^3 + bx^2 + cx + d"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的图象如图所示，则下列结论成立的是（）\nA.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a > 0, b < 0, c > 0, d > 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "\nB.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a > 0, b < 0, c < 0, d > 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "\nC.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a < 0, b < 0, c > 0, d > 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "\nD.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a > 0, b > 0, c > 0, d < 0"
+                    }
+                ]
+            },
+            "bbox": [
+                90,
+                649,
+                677,
+                728
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/3aba69c1f29b6002b0793497ccfadc79ec5f0e438d2d2b6945b29fe908ba8e7d.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                690,
+                640,
+                890,
+                722
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "8. 已知  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x = x_{1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 和  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x = x_{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 分别是函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x) = 2a^{x} - \\mathrm{e}x^{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " （ "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a > 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 且  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a \\neq 1"
+                    },
+                    {
+                        "type": "text",
+                        "content": "）的极小值点和极大值点。若  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x_{1} < x_{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的取值范围是（）A.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left(0, \\frac{1}{\\mathrm{e}}\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " B.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left(\\frac{1}{\\mathrm{e}}, 1\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " C.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(1, \\mathrm{e})"
+                    },
+                    {
+                        "type": "text",
+                        "content": " D.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(\\mathrm{e}, +\\infty)"
+                    }
+                ]
+            },
+            "bbox": [
+                87,
+                743,
+                905,
+                833
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "二、多选题：本题共3小题，每小题6分，共18分.在每小题给出的四个选项中，有多项符合题目要求.全部选对的得6分，部分选对的得部分分，选对但不全的得部分分，有选错的得0分."
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                87,
+                863,
+                900,
+                898
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "试卷第1页，共4页"
+                    }
+                ]
+            },
+            "bbox": [
+                421,
+                958,
+                574,
+                973
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "9. 已知随机事件A，B满足  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P(A)=\\frac{1}{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P(B)=\\frac{1}{3}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P(\\overline{A}|B)=P(\\overline{A}|\\overline{B})"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则（）\nA.   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P(\\overline{A}\\overline{B})=2P(\\overline{A}B)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \nB.   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P(AB)=P(A)P(B)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \nC.   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P(\\overline{A}|B)=\\frac{1}{4}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \nD.   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P(A|B)=\\frac{1}{3}"
+                    }
+                ]
+            },
+            "bbox": [
+                87,
+                70,
+                717,
+                175
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "10. 设函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x) = (x - 1)^2 (x - 4)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，则（）A.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x = 3"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 是  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的极小值点 B. 当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "0 < x < 1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x) < f(x^2)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " C. 当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 < x < 2"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "-4 < f(2x - 1) < 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " D. 当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "-1 < x < 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(2 - x) > f(x)"
+                    }
+                ]
+            },
+            "bbox": [
+                90,
+                187,
+                719,
+                275
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "11.甲罐中有5个红球，2个白球和3个黑球，乙罐中有4个红球，3个白球和3个黑球.先从甲罐中随机取出一球放入乙罐，分别以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "A_{1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "A_{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 和  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "A_{3}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 表示由甲罐取出的球是红球，白球和黑球的事件；再从乙罐中随机取出一球，以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 表示由乙罐取出的球是红球的事件，则下列结论中正确的是A.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P(B) = \\frac{2}{5}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " B.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P(B|A_1) = \\frac{5}{11}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " C.事件  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "B"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 与事件  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "A_{1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 相互独立 D.  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "A_{1}, A_{2}, A_{3}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 是两两互斥的事件"
+                    }
+                ]
+            },
+            "bbox": [
+                89,
+                285,
+                905,
+                424
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "三、填空题：3 小题，每小题 5 分，共 15 分."
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                90,
+                447,
+                440,
+                463
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "12. 已知随机变量 X 的分布列为则期望   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D(X)="
+                    },
+                    {
+                        "type": "text",
+                        "content": "  ____."
+                    }
+                ]
+            },
+            "bbox": [
+                90,
+                470,
+                336,
+                514
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/f57a2e6a86a30eb7cf6407834fef4d3c21903289194d74570a1f2b2515641f07.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td>X</td><td>5</td><td>6</td><td>7</td></tr><tr><td>P</td><td>0.2</td><td>0.3</td><td>0.5</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                460,
+                466,
+                695,
+                524
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "13. 已知函数   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)=2\\sin x+\\sin 2x"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  的最小值是 ____."
+                    }
+                ]
+            },
+            "bbox": [
+                90,
+                558,
+                636,
+                574
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "14. 设   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a \\in (0,1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，若函数   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x) = a^{x} + (1 + a)^{x}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  在   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(0, +\\infty)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  上单调递增，则 a 的取值范围是 ____."
+                    }
+                ]
+            },
+            "bbox": [
+                90,
+                595,
+                794,
+                613
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "答题卡"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                400,
+                676,
+                485,
+                697
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "班级____ 姓名____ 分数____"
+                    }
+                ]
+            },
+            "bbox": [
+                163,
+                706,
+                741,
+                724
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/e1355733b5cf64bfd2707842cd7c388d321aff01fa9e56a76eb8083e515da5f3.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td colspan=\"8\">选择题</td><td colspan=\"3\">多选题</td></tr><tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                200,
+                741,
+                796,
+                816
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "12. ____ 13. ____ 14. ____"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                847,
+                739,
+                866
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "试卷第2页，共4页"
+                    }
+                ]
+            },
+            "bbox": [
+                421,
+                957,
+                574,
+                973
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "四、解答题：本题共2小题，共27分. 解答应写出必要的文字说明、证明过程或演算步骤."
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                89,
+                67,
+                791,
+                84
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "15. 甲、乙两个学校进行体育比赛, 比赛共设三个项目, 每个项目胜方得 10 分, 负方得 0 分, 没有平局. 三个项目比赛结束后, 总得分高的学校获得冠军. 已知甲学校在三个项目中获胜的概率分别为 0.5, 0.4, 0.8, 各项目的比赛结果相互独立."
+                    }
+                ]
+            },
+            "bbox": [
+                87,
+                91,
+                907,
+                162
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)求甲学校获得冠军的概率;"
+                    }
+                ]
+            },
+            "bbox": [
+                87,
+                174,
+                317,
+                190
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)用 X 表示乙学校的总得分,求 X 的分布列与期望."
+                    }
+                ]
+            },
+            "bbox": [
+                87,
+                202,
+                480,
+                218
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "16. 设函数   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)=\\ln(a-x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，已知 x=0 是函数   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y=xf(x)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  的极值点."
+                    }
+                ]
+            },
+            "bbox": [
+                90,
+                558,
+                598,
+                575
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1) 求 a;"
+                    }
+                ]
+            },
+            "bbox": [
+                97,
+                592,
+                179,
+                607
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "（2）设函数   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x)=\\frac{x+f(x)}{xf(x)}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  。证明:   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(x)<1"
+                    }
+                ]
+            },
+            "bbox": [
+                99,
+                615,
+                442,
+                648
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "试卷第3页，共4页"
+                    }
+                ]
+            },
+            "bbox": [
+                421,
+                958,
+                574,
+                973
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "补充题：甲、乙两人投篮,每次由其中一人投篮,规则如下:若命中则此人继续投篮,若未命中则换为对方投篮.无论之前投篮情况如何,甲每次投篮的命中率均为0.6,乙每次投篮的命中率均为0.8,由抽签确定第1次投篮的人选,第1次投篮的人是甲、乙的概率各为0.5."
+                    }
+                ]
+            },
+            "bbox": [
+                87,
+                656,
+                905,
+                728
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)求第2次投篮的人是乙的概率;"
+                    }
+                ]
+            },
+            "bbox": [
+                87,
+                739,
+                354,
+                756
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)求第 i 次投篮的人是甲的概率;"
+                    }
+                ]
+            },
+            "bbox": [
+                87,
+                766,
+                349,
+                783
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)已知:若随机变量   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "X_{i}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  服从两点分布,且   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P(X_{i}=1)=1-P(X_{i}=0)=q_{i}, i=1,2,\\cdots,n"
+                    },
+                    {
+                        "type": "text",
+                        "content": " , 则   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E(\\sum_{i=1}^{n}X_{i})=\\sum_{i=1}^{n}q_{i}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " . 记前 n 次(即从第 1 次到第 n 次投篮)中甲投篮的次数为 Y, 求   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E(Y)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ."
+                    }
+                ]
+            },
+            "bbox": [
+                87,
+                794,
+                902,
+                848
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "试卷第4页，共4页"
+                    }
+                ]
+            },
+            "bbox": [
+                421,
+                958,
+                574,
+                972
+            ]
+        }
+    ]
+]

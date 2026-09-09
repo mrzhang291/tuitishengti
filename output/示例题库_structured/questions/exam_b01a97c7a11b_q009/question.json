@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_b01a97c7a11b_q009",
+  "display_id": "EXAM-B01A97C7A11B-Q009",
+  "source_exam": "深圳中学2024级高二周测（8）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（8）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（8）参考答案.md",
+  "question_number": 9,
+  "question_type": "multiple_choice",
+  "stem_markdown": "### 9. 已知随机事件A，B满足 $P(A)=\\frac{1}{2}$ ， $P(B)=\\frac{1}{3}$ ， $P(\\overline{A}|B)=P(\\overline{A}|\\overline{B})$ ，则（）\n\nA. $P(\\overline{A}\\overline{B})=2P(\\overline{A}B)$\n\nB. $P(AB)=P(A)P(B)$\n\nC. $P(\\overline{A}|B)=\\frac{1}{4}$\n\nD. $P(A|B)=\\frac{1}{3}$",
+  "stem_html": "<h3>9. 已知随机事件A，B满足 $P(A)=\\frac{1}{2}$ ， $P(B)=\\frac{1}{3}$ ， $P(\\overline{A}|B)=P(\\overline{A}|\\overline{B})$ ，则（）</h3>\n<p>A. $P(\\overline{A}\\overline{B})=2P(\\overline{A}B)$</p>\n<p>B. $P(AB)=P(A)P(B)$</p>\n<p>C. $P(\\overline{A}|B)=\\frac{1}{4}$</p>\n<p>D. $P(A|B)=\\frac{1}{3}$</p>",
+  "options": {
+    "A": "$P(\\overline{A}\\overline{B})=2P(\\overline{A}B)$",
+    "B": "$P(AB)=P(A)P(B)$",
+    "C": "$P(\\overline{A}|B)=\\frac{1}{4}$",
+    "D": "$P(A|B)=\\frac{1}{3}$"
+  },
+  "answer": "AB",
+  "solution_markdown": "### 9. \n\n**详解**对于A，因为 $P(A) = \\frac{1}{2}$ ， $P(B) = \\frac{1}{3}$ ， $P(\\overline{A} | B) = P(\\overline{A} | \\overline{B})$\n\n所以 $\\frac{P(\\overline{A}B)}{P(B)}=\\frac{P(\\overline{A}B)}{\\frac{1}{3}}=3P(\\overline{A}B),\\frac{P(\\overline{A}\\overline{B})}{P(\\overline{B})}=\\frac{P(\\overline{A}\\overline{B})}{1-\\frac{1}{3}}=\\frac{3}{2}P(\\overline{A}\\overline{B}),$\n\n所以 $3P(\\overline{A} B) = \\frac{3}{2} P(\\overline{A}\\overline{B})$ ，即 $2P(\\overline{A} B) = P(\\overline{A}\\overline{B})$ ，故A正确；\n\n对于 B，因为 $P(\\overline{A}B)+P(AB)=P(B)=\\frac{1}{3}$ ①， $P(\\overline{A}\\overline{B})+P(\\overline{A}B)=P(\\overline{A})=1-\\frac{1}{2}=\\frac{1}{2}$\n\n又因为 $P\\left(\\overline{A}\\overline{B}\\right) = 2P\\left(\\overline{A} B\\right)$ ，所以 $2P\\left(\\overline{A} B\\right) + P\\left(\\overline{A} B\\right) = \\frac{1}{2}$ ，所以 $P\\left(\\overline{A} B\\right) = \\frac{1}{6}$\n\n代入①可得： $\\frac{1}{6}+P(AB)=\\frac{1}{3}$ ，所以 $P(AB)=\\frac{1}{6}$ ，\n\n$P(A)P(B)=\\frac{1}{2}\\times\\frac{1}{3}=\\frac{1}{6}$ ，所以 $P(AB)=P(A)P(B)$ ，故B正确；\n\n对于 C， $P(\\overline{A} \\mid B) = \\frac{P(\\overline{A}B)}{P(B)} = \\frac{P(B) - P(AB)}{P(B)} = \\frac{\\frac{1}{3} - \\frac{1}{2} \\times \\frac{1}{3}}{\\frac{1}{3}} = \\frac{1}{2}$ ，故 C 不正确；\n\n对于 D， $P(A \\mid B) = \\frac{P(AB)}{P(B)} = \\frac{P(A)P(B)}{P(B)} = P(A) = \\frac{1}{2}$ ，故 D 不正确；\n\n故选：AB.",
+  "solution_html": "<h3>9.</h3>\n<p><strong>详解</strong>对于A，因为 $P(A) = \\frac{1}{2}$ ， $P(B) = \\frac{1}{3}$ ， $P(\\overline{A} | B) = P(\\overline{A} | \\overline{B})$</p>\n<p>所以 $\\frac{P(\\overline{A}B)}{P(B)}=\\frac{P(\\overline{A}B)}{\\frac{1}{3}}=3P(\\overline{A}B),\\frac{P(\\overline{A}\\overline{B})}{P(\\overline{B})}=\\frac{P(\\overline{A}\\overline{B})}{1-\\frac{1}{3}}=\\frac{3}{2}P(\\overline{A}\\overline{B}),$</p>\n<p>所以 $3P(\\overline{A} B) = \\frac{3}{2} P(\\overline{A}\\overline{B})$ ，即 $2P(\\overline{A} B) = P(\\overline{A}\\overline{B})$ ，故A正确；</p>\n<p>对于 B，因为 $P(\\overline{A}B)+P(AB)=P(B)=\\frac{1}{3}$ ①， $P(\\overline{A}\\overline{B})+P(\\overline{A}B)=P(\\overline{A})=1-\\frac{1}{2}=\\frac{1}{2}$</p>\n<p>又因为 $P\\left(\\overline{A}\\overline{B}\\right) = 2P\\left(\\overline{A} B\\right)$ ，所以 $2P\\left(\\overline{A} B\\right) + P\\left(\\overline{A} B\\right) = \\frac{1}{2}$ ，所以 $P\\left(\\overline{A} B\\right) = \\frac{1}{6}$</p>\n<p>代入①可得： $\\frac{1}{6}+P(AB)=\\frac{1}{3}$ ，所以 $P(AB)=\\frac{1}{6}$ ，</p>\n<p>$P(A)P(B)=\\frac{1}{2}\\times\\frac{1}{3}=\\frac{1}{6}$ ，所以 $P(AB)=P(A)P(B)$ ，故B正确；</p>\n<p>对于 C， $P(\\overline{A} \\mid B) = \\frac{P(\\overline{A}B)}{P(B)} = \\frac{P(B) - P(AB)}{P(B)} = \\frac{\\frac{1}{3} - \\frac{1}{2} \\times \\frac{1}{3}}{\\frac{1}{3}} = \\frac{1}{2}$ ，故 C 不正确；</p>\n<p>对于 D， $P(A \\mid B) = \\frac{P(AB)}{P(B)} = \\frac{P(A)P(B)}{P(B)} = P(A) = \\frac{1}{2}$ ，故 D 不正确；</p>\n<p>故选：AB.</p>",
+  "score": 6,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.094077+00:00",
+    "question_source_sha256": "c94eca08c58bedc15524121a680136ba270a64c9922023c3005a12c4fc409761",
+    "solution_source_sha256": "2c305966ce196e8a17833cd59778cae810c6b4e24eca072eeecc711059b85d1d"
+  }
+}

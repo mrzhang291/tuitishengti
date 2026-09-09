@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_f6e940cd31a8_q013",
+  "display_id": "EXAM-F6E940CD31A8-Q013",
+  "source_exam": "深圳中学 2024 级高二数学周测（3）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（3）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（3）参考答案.md",
+  "question_number": 13,
+  "question_type": "fill_blank",
+  "stem_markdown": "### 13. 若函数 $f(x) = 2x^{3} - ax^{2} + 1 (a \\in R)$ 在 $(0, +\\infty)$ 内有且只有一个零点，则 $f(x)$ 在 $[-1, 1]$ 上的最大值与最小值的和为 \\_\\_\\_\\_.",
+  "stem_html": "<h3>13. 若函数 $f(x) = 2x^{3} - ax^{2} + 1 (a \\in R)$ 在 $(0, +\\infty)$ 内有且只有一个零点，则 $f(x)$ 在 $[-1, 1]$ 上的最大值与最小值的和为 ____.</h3>",
+  "options": {},
+  "answer": "-3",
+  "solution_markdown": "## 13. -3**详解**[方法一]:[通性通法]单调性法\n\n求导得 $f'(x)=6x^{2}-2ax$ ，当 $a\\leq0$ 时，函数 $f(x)$ 在区间 $(0,+\\infty)$ 内单调递增，且 $f(x)>f(0)=1$ ，所以函数 $f(x)$ 在 $(0,+\\infty)$ 内无零点；当 a>0 时，函数 $f(x)$ 在区间 $\\left(0,\\frac{a}{3}\\right)$ 内单调递减，在区间 $\\left(\\frac{a}{3},+\\infty\\right)$ 内单调递增。\n当 x=0 时， $f(0)=1$ ；当 $x\\to+\\infty$ 时， $f(x)\\to+\\infty$ .\n要使函数 $f(x)$ 在区间 $(0,+\\infty)$ 内有且仅有一个零点，只需 $f\\left(\\frac{a}{3}\\right)=0$ ，解得 a=3。于是函数 $f(x)$ 在区间 $[-1,0]$ 上单调递增，在区间 $(0,1]$ 上单调递减， $[f(x)]_{\\max}=f(0)=1,[f(x)]_{\\min}=f(-1)=-4$ ，所以最大值与最小值之和为 -3。\n\n## [方法二]: 等价转化\n\n由条件知 $2x^{3} + 1 = ax^{2}$ 有唯一的正实根，于是 $a = \\frac{2x^3 + 1}{x^2} = 2x + \\frac{1}{x^2}$ 。令 $g(x) = 2x + \\frac{1}{x^2}, x > 0$ ，则 $g'(x) = 2 - \\frac{2}{x^3} = \\frac{2(x^3 - 1)}{x^3}$ ，所以 $g(x)$ 在区间 $(0,1)$ 内单调递减，在区间 $(1, +\\infty)$ 内单调递增，且 $g(1) = 3$ ，当 $x \\to 0$ 时， $g(x) \\to +\\infty$ ；当 $x \\to +\\infty$ 时， $g(x) \\to +\\infty$ 。只需直线 $y = a$ 与 $g(x)$ 的图像有一个交点，故 $a = 3$ ，下同方法一。",
+  "solution_html": "<h2>13. -3<strong>详解</strong>[方法一]:[通性通法]单调性法</h2>\n<p>求导得 $f'(x)=6x^{2}-2ax$ ，当 $a\\leq0$ 时，函数 $f(x)$ 在区间 $(0,+\\infty)$ 内单调递增，且 $f(x)&gt;f(0)=1$ ，所以函数 $f(x)$ 在 $(0,+\\infty)$ 内无零点；当 a&gt;0 时，函数 $f(x)$ 在区间 $\\left(0,\\frac{a}{3}\\right)$ 内单调递减，在区间 $\\left(\\frac{a}{3},+\\infty\\right)$ 内单调递增。\n当 x=0 时， $f(0)=1$ ；当 $x\\to+\\infty$ 时， $f(x)\\to+\\infty$ .\n要使函数 $f(x)$ 在区间 $(0,+\\infty)$ 内有且仅有一个零点，只需 $f\\left(\\frac{a}{3}\\right)=0$ ，解得 a=3。于是函数 $f(x)$ 在区间 $[-1,0]$ 上单调递增，在区间 $(0,1]$ 上单调递减， $[f(x)]_{\\max}=f(0)=1,[f(x)]_{\\min}=f(-1)=-4$ ，所以最大值与最小值之和为 -3。</p>\n<h2>[方法二]: 等价转化</h2>\n<p>由条件知 $2x^{3} + 1 = ax^{2}$ 有唯一的正实根，于是 $a = \\frac{2x^3 + 1}{x^2} = 2x + \\frac{1}{x^2}$ 。令 $g(x) = 2x + \\frac{1}{x^2}, x &gt; 0$ ，则 $g'(x) = 2 - \\frac{2}{x^3} = \\frac{2(x^3 - 1)}{x^3}$ ，所以 $g(x)$ 在区间 $(0,1)$ 内单调递减，在区间 $(1, +\\infty)$ 内单调递增，且 $g(1) = 3$ ，当 $x \\to 0$ 时， $g(x) \\to +\\infty$ ；当 $x \\to +\\infty$ 时， $g(x) \\to +\\infty$ 。只需直线 $y = a$ 与 $g(x)$ 的图像有一个交点，故 $a = 3$ ，下同方法一。</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.770818+00:00",
+    "question_source_sha256": "78a4bb6656c35dbe613a79b0ed7dccc993b5c108f4f5c32b995a022aaa492633",
+    "solution_source_sha256": "86a4c5fab883e5128818dbb75724d3042d0c55a8ea81c7cdffedbb262214e02c"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_ed507f8efdc5_q009",
+  "display_id": "EXAM-ED507F8EFDC5-Q009",
+  "source_exam": "深圳中学 2024 级高二数学周测（2）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（2）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（2）解析.md",
+  "question_number": 9,
+  "question_type": "multiple_choice",
+  "stem_markdown": "### 9. 过点 $(-1, -1)$ 且与曲线 $y = 3x^{3} + 2$ 相切的直线方程可能为（）\n\nA. $8x - y + 7 = 0$\n\nB. $9x - y + 8 = 0$\n\nC. $9x - 4y + 5 = 0$\n\nD. $8x - 3y + 5 = 0$",
+  "stem_html": "<h3>9. 过点 $(-1, -1)$ 且与曲线 $y = 3x^{3} + 2$ 相切的直线方程可能为（）</h3>\n<p>A. $8x - y + 7 = 0$</p>\n<p>B. $9x - y + 8 = 0$</p>\n<p>C. $9x - 4y + 5 = 0$</p>\n<p>D. $8x - 3y + 5 = 0$</p>",
+  "options": {
+    "A": "$8x - y + 7 = 0$",
+    "B": "$9x - y + 8 = 0$",
+    "C": "$9x - 4y + 5 = 0$",
+    "D": "$8x - 3y + 5 = 0$"
+  },
+  "answer": "BC",
+  "solution_markdown": "### 9. BC\n\n**详解**设切点为 $(x_{0},3x_{0}^{3}+2)$ ，又 $y'=9x^{2}$ ，所以 $y'\\mid_{x=x_{0}}=9x_{0}^{2}$ 所以曲线 $y=3x^{3}+2$ 在点 $(x_{0},3x_{0}^{3}+2)$ 处的切线方程为 $y-(3x_{0}^{3}+2)=9x_{0}^{2}(x-x_{0})$ 所以 $-1-(3x_{0}^{3}+2)=9x_{0}^{2}(-1-x_{0})$ ，整理得 $(x_{0}+1)^{2}\\cdot(2x_{0}-1)=0$ ，解得 $x_{0}=-1$ 或 $x_{0}=\\frac{1}{2}$ ，即切线方程为9x-y+8=0或9x-4y+5=0.",
+  "solution_html": "<h3>9. BC</h3>\n<p><strong>详解</strong>设切点为 $(x_{0},3x_{0}^{3}+2)$ ，又 $y'=9x^{2}$ ，所以 $y'\\mid_{x=x_{0}}=9x_{0}^{2}$ 所以曲线 $y=3x^{3}+2$ 在点 $(x_{0},3x_{0}^{3}+2)$ 处的切线方程为 $y-(3x_{0}^{3}+2)=9x_{0}^{2}(x-x_{0})$ 所以 $-1-(3x_{0}^{3}+2)=9x_{0}^{2}(-1-x_{0})$ ，整理得 $(x_{0}+1)^{2}\\cdot(2x_{0}-1)=0$ ，解得 $x_{0}=-1$ 或 $x_{0}=\\frac{1}{2}$ ，即切线方程为9x-y+8=0或9x-4y+5=0.</p>",
+  "score": 6,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.642573+00:00",
+    "question_source_sha256": "7cb6872dd8f9092683f4d213bfc976e0e2eecfc7cc5919b7f6cfa19ef958a3d1",
+    "solution_source_sha256": "ee82da0a88dd9857c44efb8cd3b554ae670a59b5aa1d62f710078f748a7f8a4e"
+  }
+}

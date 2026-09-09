@@ -1,0 +1,135 @@
+## 深圳中学 2024 级高二数学周测（2）解析
+
+<table><tr><td>题号</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td>答案</td><td>C</td><td>B</td><td>B</td><td>D</td><td>C</td><td>A</td><td>B</td><td>A</td><td>BC</td><td>AD</td></tr><tr><td>题号</td><td>11</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>答案</td><td>ACD</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
+
+1. C[详解]设曲线 $y = \frac{\mathrm{e}^x}{x + 1}$ 在点 $\left(1, \frac{\mathrm{e}}{2}\right)$ 处的切线方程为 $y - \frac{\mathrm{e}}{2} = k(x - 1)$ ，因为 $y = \frac{\mathrm{e}^x}{x + 1}$ ，所以 $y' = \frac{\mathrm{e}^x(x + 1) - \mathrm{e}^x}{(x + 1)^2} = \frac{x\mathrm{e}^x}{(x + 1)^2}$ ，所以 $k = y'|_{x=1} = \frac{\mathrm{e}}{4}$ ，所以 $y - \frac{\mathrm{e}}{2} = \frac{\mathrm{e}}{4}(x - 1)$ 。所以曲线 $y = \frac{\mathrm{e}^x}{x + 1}$ 在点 $\left(1, \frac{\mathrm{e}}{2}\right)$ 处的切线方程为 $y = \frac{\mathrm{e}}{4} x + \frac{\mathrm{e}}{4}$ .
+
+2. B[详解]求导后导函数为奇函数，所以选择 B。
+
+3. B[详解] $y' = (x + 1)e^x - 1$ ，令 $(x + 1)e^x - 1 = -1$ ，则 $(x + 1)e^x = 0$ ，故 $x = -1$ ，当 $x = -1$ 时， $y = -e^{-1} - (-1) = 1 - \frac{1}{e}$ ，即 $P$ 的坐标为 $\left(-1, 1 - \frac{1}{e}\right)$ . 故选：B.
+
+4. D[详解]令 $h(x)=f(x)g(x)$ ，则 $h(-x)=f(-x)g(-x)=-f(x)g(x)=-h(x)$ ，因此函数 $h(x)$ 在R上是奇函数。①∵当x<0时， $h'(x)=f'(x)g(x)+f(x)g'(x)>0$ ，∴ $h(x)$ 在x<0时单调递增，故函数 $h(x)$ 在R上单调递增。∵ $h(-3)=f(-3)g(-3)=0$ ，
+
+∴ $h(x) = f(x)g(x) < 0 = h(-3)$ ，∴ x < -3. ②当 x > 0 时，函数 $h(x)$ 在 R 上是奇函数，可知： $h(x)$ 在 $(0, +\infty)$ 上单调递增，且 $h(3) = -h(-3) = 0$ ，∴ $h(x) < 0$ ，的解集为 $(0, 3)$ .
+③当x=0时， $h(0)=0$ ，不符合要求。∴不等式的解集是 $(-∞,-3)∪(0,3)$ .
+
+5. C[详解]依题可知， $f'(x) = ae^{x} - \frac{1}{x} \geq 0$ 在(1,2)上恒成立，显然a > 0，所以 $xe^{x} \geq \frac{1}{a}$ ，设 $g(x) = xe^{x}, x \in (1,2)$ ，所以 $g'(x) = (x + 1)e^{x} > 0$ ，所以 $g(x)$ 在(1,2)上单调递增， $g(x) > g(1) = e$ ，故 $e \geq \frac{1}{a}$ ，即 $a \geq \frac{1}{e} = e^{-1}$ ，即a的最小值为 $e^{-1}$ .
+
+6. A[详解]因 $f(x)$ 为偶函数，则 $f(x)=f(-x)①$ ，对两边求导得， $f'(x)=-f'(-x)②$ ，在 $f(x)+f'(x)=2\mathrm{e}^{x}③$ 中，用-x代替x得 $f(-x)+f'(-x)=2\mathrm{e}^{-x}④$ ，由①②④可得， $f(x)-f'(x)=2\mathrm{e}^{-x}⑤$ ，联立③⑤得， $f(x)=\mathrm{e}^{x}+\mathrm{e}^{-x}$ ，则 $k[f(x)-\mathrm{e}^{x}]\leq x$ 化简为， $k\leq x\mathrm{e}^{x}$ ，令 $g(x)=x\mathrm{e}^{x}$ ，则 $g'(x)=(x+1)\mathrm{e}^{x}$ ，则 $g'(x)>0$ 得x>-1； $g'(x)<0$ 得x<-1，则 $g(x)$ 在 $(-∞,-1)$ 上单调递减，在 $(-1,+∞)$ 上单调递增，则 $g(x)$ 的最小值为 $g(-1)=-\frac{1}{\mathrm{e}}$ ，故 $k\leq-\frac{1}{\mathrm{e}}$ ，则实数k的取值范围是 $\left(-∞,-\frac{1}{\mathrm{e}}\right]$ .
+
+7. B[详解]对 $x\in\left(0,\frac{\pi}{2}\right)$ ，因为 $y=\sin x-x$ ，则 $y'=\cos x-1<0$ ，即函数 $y=\sin x-x$ 在 $\left(0,\frac{\pi}{2}\right)$ 单调递减，且x=0时，y=0，则 $\sin x-x<0$ ，即 $\sin x<x$ ，所以 $a=\sin0.5<0.5$ ，因为 $2\log_{0.3}0.5=\log_{0.3}0.25>\log_{0.3}0.3=1$ 且 $\log_{0.3}0.5<\log_{0.3}0.3=1$ ，所以 $0.5<c=\log_{0.3}0.5<1$ ，又 $b=3^{0.5}>3^{0}=1$ ，所以a<c<b。
+
+8. A[详解]构建 $g(x)=\frac{f(x)}{\mathrm{e}^{x}}-x$ ，则 $g'(x)=\frac{f'(x)-f(x)}{\mathrm{e}^{x}}-1$ ，因为 $f'(x)-f(x)<\mathrm{e}^{x}$ ，则 $\frac{f'(x)-f(x)}{\mathrm{e}^{x}}-1<0$ ，即 $g'(x)<0$ ，可知 $g(x)$ 在R上单调递减，且 $g(1)=0$ ，由 $f(x)>xe^{x}$ 可得 $\frac{f(x)}{\mathrm{e}^{x}}-x>0$ ，即 $g(x)>g(1)$ ，解得x<1，所以不等式 $f(x)>xe^{x}$ 的解集是 $(-∞,1)$ .
+9. BC[详解]设切点为 $(x_{0},3x_{0}^{3}+2)$ ，又 $y'=9x^{2}$ ，所以 $y'\mid_{x=x_{0}}=9x_{0}^{2}$ 所以曲线 $y=3x^{3}+2$ 在点 $(x_{0},3x_{0}^{3}+2)$ 处的切线方程为 $y-(3x_{0}^{3}+2)=9x_{0}^{2}(x-x_{0})$ 所以 $-1-(3x_{0}^{3}+2)=9x_{0}^{2}(-1-x_{0})$ ，整理得 $(x_{0}+1)^{2}\cdot(2x_{0}-1)=0$ ，解得 $x_{0}=-1$ 或 $x_{0}=\frac{1}{2}$ ，即切线方程为9x-y+8=0或9x-4y+5=0.
+
+10. AD[详解]令 $f(x)=e^{x}+\ln x(0<x<1)$ ，所以 $f'(x)=e^{x}+\frac{1}{x}>0$ ，故 $f(x)$ 在 $(0,1)$ 上单调递增，因为 $0<x_{1}<x_{2}<1$ ，所以 $f(x_{1})<f(x_{2})$ ，所以 $e^{x_{1}}+\ln x_{1}<e^{x_{2}}+\ln x_{2}$ ，可得 $e^{x_{1}}-e^{x_{2}}<\ln x_{2}-\ln x_{1}$ ，故B错误，D正确；令 $g(x)=\frac{e^{x}}{x}(0<x<1)$ ，所以 $g'(x)=\frac{e^{x}(x-1)}{x^{2}}$ ，因为0<x<1，所以 $g'(x)<0$ ，故 $g(x)$ 在 $(0,1)$ 上单调递减，因为 $0<x_{1}<x_{2}<1$ ，所以 $g(x_{1})>g(x_{2})$ ，所以 $\frac{e^{x_{1}}}{x_{1}}>\frac{e^{x_{2}}}{x_{2}}$ ，即 $x_{2}\cdot e^{x_{1}}>x_{1}\cdot e^{x_{2}}$ ，故A正确，C错误.
+
+11. ACD[详解]对于A，因为函数 $f(x)=\frac{\ln(e^{x}+1)}{x}$ ，当x<0时， $\ln(e^{x}+1)>\ln1=0$ ，所以这时 $f(x)<0$ ，A正确；对于B，因为 $f(x)+f(-x)=\frac{\ln(e^{x}+1)}{x}-\frac{\ln(e^{-x}+1)}{x}=\frac{\ln(e^{x}+1)-\ln(e^{-x}+1)}{x}=$ $\frac{1}{x}\ln\frac{e^{x}+1}{e^{-x}+1}=\frac{1}{x}\ln e^{x}=1$ ，所以 $f(x)$ 的图象关于 $(0,\frac{1}{2})$ 中心对称，B错误；
+
+$$
+m + n = 0
+$$
+
+$$
+| f (m) - f (n) | = | f (m) - f (- m) | = \left| \frac {\ln (e ^ {m} + 1)}{m} + \frac {\ln (e ^ {- m} + 1)}{m} \right|
+$$
+
+$= \left|\frac{\ln(e^m + 1) + \ln(e^{-m} + 1)}{m}\right| = \left|\frac{\ln[(e^m + 1) \cdot (e^{-m} + 1)]}{m}\right| = \left|\frac{\ln(e^m + e^{-m} + 2)}{m}\right| > \left|\frac{\ln e^m}{m}\right| = 1$ ，所以 $C$ 正确；
+
+对于 $D$ ，当 $x\in (0, + \infty)$ 时， $f^{\prime}(x) = \frac{\frac{xe^{x}}{e^{x} + 1} - \ln(e^{x} + 1)}{x^{2}} = \frac{xe^{x} - (e^{x} + 1)\ln(e^{x} + 1)}{x^{2}(e^{x} + 1)}$ ，令 $g(x) = xe^{x}$
+
+$$
+x \in (0, + \infty)
+$$
+
+$$
+g ^ {\prime} (x) = e ^ {x} (x + 1) > 0
+$$
+
+又 $\ln (e^x + 1) > \ln e^x = x$ ，所以 $g(\ln (e^x + 1)) > g(x)$ ， $e^{\ln (e^x + 1)} \cdot \ln (e^x + 1) > e^x \cdot x$ ，即 $xe^x <$
+
+$(e^{x} + 1)\ln (e^{x} + 1)$ ，因此，这时 $f^{\prime}(x) < 0$ ，函数 $f(x)$ 在 $(0, +\infty)$ 上单调递减， $D$ 正确；.
+
+12. $\{-3\}$ [详解] $f^{\prime}(x) = \frac{2x^{2} + ax + 1}{x}$ ，又 $f(x)$ 的单调递减区间是 $\left(\frac{1}{2}, 1\right)$ ，所以 $\frac{1}{2}$ 和 1 是方程 $2x^{2} + ax + 1 = 0$ 的两个根，代入得 $a = -3$ 。经检验满足题意。
+
+13. $[\ln3,+\infty)$ [详解]由 $f(-x)+f(x)=0$ 知 $f(x)$ 是奇函数，∴ $f(3)=-f(-3)=12$ ，设 $g(x)=f(x)-3x$ ，则 $g(3)=f(3)-3\times3=12-9=3, g'(x)=f'(x)-3>0$ ，∴ $g(x)$ 在 R 上单调递增，由 $f(\mathrm{e}^{x})-3\mathrm{e}^{x}-3\geq0$ 得 $f(\mathrm{e}^{x})-3\mathrm{e}^{x}\geq3$ ，即 $g(\mathrm{e}^{x})\geq g(3)$ ，∴ $e^{x}\geq3$ ，得 $x\geq\ln3,x$ 的取值范围是 $[\ln3,+\infty)$ .
+
+14. $\left(-\infty, 2\sqrt{2}\right]$ [详解]由 $\frac{a(\ln x_2 - \ln x_1)}{x_2 - x_1} < 2 + \frac{1}{x_1x_2}, x_1, x_2 \in (0, +\infty)$ 且 $x_1 < x_2$ ，所以 $a(\ln x_2 - \ln x_1) < 2(x_2 - x_1) + \frac{x_2 - x_1}{x_1x_2} \Rightarrow a\ln x_2 - 2x_2 + \frac{1}{x_2} < a\ln x_1 - 2x_1 + \frac{1}{x_1}$ . 设 $f(x) = a\ln x - 2x + \frac{1}{x}, x > 0$ ，则原问题转化为 $f(x)$ 在 $(0, +\infty)$ 上单调递减. 所以 $f'(x) = \frac{a}{x} - 2 - \frac{1}{x^2} \leq 0$ 在 $(0, +\infty)$ 上恒成立，即 $a \leq 2x + \frac{1}{x}, x > 0$ 恒成立. 因为 $2x + \frac{1}{x} \geq 2\sqrt{2x \cdot \frac{1}{x}} = 2\sqrt{2}$ （当且仅当 $2x = \frac{1}{x}$ 即 $x = \frac{\sqrt{2}}{2}$ 时取“=”）. 所以 $a \leq 2\sqrt{2}$ .
+
+15.[解](1)由 $f(x)=\frac{e^{x}-a}{x}-a\ln x$ ，可得 $f'(x)=\frac{e^{x}(x-1)-ax+a}{x^{2}}$ ，则 $f'(1)=0$ 且 $f(1)=e-a$ ，
+所以曲线 $y=f(x)$ 在点 $(1,f(1))$ 处的切线方程为y=e-a.
+
+(2)由函数 $f(x)=\frac{e^{x}-a}{x}-a\ln x$ 的定义域为 $(0,+\infty)$ ，且 $f'(x)=\frac{(x-1)(e^{x}-a)}{x^{2}}$ ，若 $a\leq0$ ，令 $f'(x)=0$ ，解得x=1，当 $x\in(0,1)$ 时， $f'(x)<0$ ， $f(x)$ 单调递减，当 $x\in(1,+\infty)$ 时， $f'(x)>0$ ， $f(x)$ 单调递增，所以函数 $f(x)$ 的单调递减区间为 $(0,1)$ ，单调递增区间为 $(1,+\infty)$ 。若a>0，令 $f'(x)=0$ ，解得x=1或 $x=\ln a$ ，①若 $\ln a\leq0$ ，即 $0<a\leq1$ 时，当 $x\in(0,1)$ 时， $f'(x)<0$ ， $f(x)$ 单调递减，当 $x\in(1,+\infty)$ 时， $f'(x)>0$ ， $f(x)$ 单调递增，所以函数 $f(x)$ 的单调递减区间为 $(0,1)$ ，单调逆增区间为 $(1,+\infty)$ 。②若 $0<\ln a<1$ ，即1<a<e时，当 $x\in(0,\ln a)$ 时， $f'(x)>0$ ， $f(x)$ 单调递增，当 $x\in(\ln a,1)$ 时， $f'(x)<0$ ， $f(x)$ 单调递减，当 $x\in(1,+\infty)$ 时， $f'(x)>0$ ， $f(x)$ 单调递增，所以函数 $f(x)$ 的单调递减区间为 $(\ln a,1)$ ，单调递增区间为 $(0,\ln a)$ ， $(1,+\infty)$ 。③若 $\ln a=1$ ，即a=e时，可得 $f'(x)\geq0$ 且等号不恒成立，则 $f(x)$ 单调递增，所以函数 $f(x)$ 的单调递增区间为 $(0,+\infty)$ 。④若 $\ln a>1$ ，即a>e时，当 $x\in(0,1)$ 时， $f'(x)>0$ ， $f(x)$ 单调递增，当 $x\in(1,\ln a)$ 时， $f'(x)<0$ ， $f(x)$ 单调递减，当 $x\in(\ln a,+\infty)$ 时， $f'(x)>0$ ， $f(x)$ 单调递增，所以函数 $f(x)$ 的单调递减区间为 $(1,\ln a)$ ，单调递增区间为 $(0,1)$ ， $(\ln a,+\infty)$ 。
+
+16.[详解]（1）因为 $f(x)=a(\mathrm{e}^{x}+a)-x$ ，定义域为R，所以 $f'(x)=ae^{x}-1$ ，当 $a\leq0$ 时，由于 $e^{x}>0$ ，则 $ae^{x}\leq0$ ，故 $f'(x)=ae^{x}-1<0$ 恒成立，
+所以 $f(x)$ 在R上单调递减；当a>0时，令 $f'(x)=ae^{x}-1=0$ ，解得 $x=-\ln a$ ，
+当 $x<-\ln a$ 时， $f'(x)<0$ ，则 $f(x)$ 在 $(-∞,-\ln a)$ 上单调递减；
+当 $x>-\ln a$ 时， $f'(x)>0$ ，则 $f(x)$ 在 $(-∞,+\infty)$ 上单调递增；
+综上：当 $a\leq0$ 时， $f(x)$ 在R上单调递减；
+当a>0时， $f(x)$ 在 $(-∞,-\ln a)$ 上单调递减， $f(x)$ 在 $(-∞,+\infty)$ 上单调递增.
+
+(2) 方法一:
+
+由（1）得， $f(x)_{\min}=f(-\ln a)=a\left(\mathrm{e}^{-\ln a}+a\right)+\ln a=1+a^{2}+\ln a,$
+
+要证 $f(x) > 2\ln a + \frac{3}{2}$ ，即证 $1 + a^2 + \ln a > 2\ln a + \frac{3}{2}$ ，即证 $a^2 - \frac{1}{2} - \ln a > 0$ 恒成立，
+
+令 $g(a)=a^{2}-\frac{1}{2}-\ln a(a>0)$ ，则 $g'(a)=2a-\frac{1}{a}=\frac{2a^{2}-1}{a}$ ，令 $g'(a)<0$ ，则 $0<a<\frac{\sqrt{2}}{2}$ ;
+
+令 $g^{\prime}(a) > 0$ ，则 $a > \frac{\sqrt{2}}{2}$ ；所以 $g(a)$ 在 $\left(0,\frac{\sqrt{2}}{2}\right)$ 上单调递减，在 $\left(\frac{\sqrt{2}}{2}, + \infty\right)$ 上单调递增，
+
+所以 $g(a)_{\min} = g\left(\frac{\sqrt{2}}{2}\right) = \left(\frac{\sqrt{2}}{2}\right)^2 -\frac{1}{2} -\ln \frac{\sqrt{2}}{2} = \ln \sqrt{2} >0$ ，则 $g(a) > 0$ 恒成立，
+
+所以当 $a > 0$ 时， $f(x) > 2\ln a + \frac{3}{2}$ 恒成立，证毕.
+
+方法二：
+
+令 $h(x)=\mathrm{e}^{x}-x-1$ ，则 $h'(x)=\mathrm{e}^{x}-1$ ，由于 $y=\mathrm{e}^{x}$ 在R上单调递增，
+
+$$
+h ^ {\prime} (x) = \mathrm{e} ^ {x} - 1
+$$
+
+$$
+h ^ {\prime} (0) = \mathrm{e} ^ {0} - 1 = 0
+$$
+
+$$
+| x <   0
+$$
+
+$$
+h ^ {\prime} (x) <   0;
+$$
+
+$$
+h ^ {\prime} (x) > 0;
+$$
+
+$$
+h (x) \text {在} (- \infty , 0)
+$$
+
+$$
+\text {故} h (x) \geq h (0) = 0
+$$
+
+$$
+\mathrm{e} ^ {x} \geq x + 1
+$$
+
+$$
+f (x) = a \left(\mathrm{e} ^ {x} + a\right) - x = a \mathrm{e} ^ {x} + a ^ {2} - x = \mathrm{e} ^ {x + \ln a} + a ^ {2} - x \geq x + \ln a + 1 + a ^ {2} - x,
+$$
+
+当且仅当 $x + \ln a = 0$ ，即 $x = -\ln a$ 时，等号成立，所以要证 $f(x) > 2\ln a + \frac{3}{2}$
+
+即证 $x + \ln a + 1 + a^2 - x > 2\ln a + \frac{3}{2}$ , 即证 $a^2 - \frac{1}{2} - \ln a > 0$ ,
+
+令 $g(a)=a^{2}-\frac{1}{2}-\ln a(a>0)$ ，则 $g'(a)=2a-\frac{1}{a}=\frac{2a^{2}-1}{a}$ ，令 $g'(a)<0$ ，则 $0<a<\frac{\sqrt{2}}{2}$ ;
+
+令 $g^{\prime}(a) > 0$ ，则 $a > \frac{\sqrt{2}}{2}$ ；所以 $g(a)$ 在 $\left(0,\frac{\sqrt{2}}{2}\right)$ 上单调递减，在 $\left(\frac{\sqrt{2}}{2}, + \infty\right)$ 上单调递增，
+
+所以 $g(a)_{\min} = g\left(\frac{\sqrt{2}}{2}\right) = \left(\frac{\sqrt{2}}{2}\right)^2 -\frac{1}{2} -\ln \frac{\sqrt{2}}{2} = \ln \sqrt{2} >0$ ，则 $g(a) > 0$ 恒成立，
+
+所以当 $a > 0$ 时， $f(x) > 2\ln a + \frac{3}{2}$ 恒成立，证毕.

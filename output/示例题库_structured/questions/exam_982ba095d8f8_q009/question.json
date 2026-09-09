@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_982ba095d8f8_q009",
+  "display_id": "EXAM-982BA095D8F8-Q009",
+  "source_exam": "深圳中学 2024 级高二数学周测（9）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（9）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（9）参考答案.md",
+  "question_number": 9,
+  "question_type": "multiple_choice",
+  "stem_markdown": "### 9. 已知 3 张奖券中只有 1 张会中奖，甲、乙 2 名同学依次先后随机抽取 1 张奖券。记事件 A 为“甲中奖”，事件 B 为“乙中奖”，则下列说法正确的有（）\n\nA. 若抽取后放回，则 $P(A) = P(B)$\n\nB. 若抽取后不放回，则 $P(A) = P(B)$\n\nC. 若抽取后放回，则 $P(B) = P(B|A)$\n\nD. 若抽取后不放回，则 $P(B) = P(B|A)$",
+  "stem_html": "<h3>9. 已知 3 张奖券中只有 1 张会中奖，甲、乙 2 名同学依次先后随机抽取 1 张奖券。记事件 A 为“甲中奖”，事件 B 为“乙中奖”，则下列说法正确的有（）</h3>\n<p>A. 若抽取后放回，则 $P(A) = P(B)$</p>\n<p>B. 若抽取后不放回，则 $P(A) = P(B)$</p>\n<p>C. 若抽取后放回，则 $P(B) = P(B|A)$</p>\n<p>D. 若抽取后不放回，则 $P(B) = P(B|A)$</p>",
+  "options": {
+    "A": "若抽取后放回，则 $P(A) = P(B)$",
+    "B": "若抽取后不放回，则 $P(A) = P(B)$",
+    "C": "若抽取后放回，则 $P(B) = P(B|A)$",
+    "D": "若抽取后不放回，则 $P(B) = P(B|A)$"
+  },
+  "answer": "ABC",
+  "solution_markdown": "### 9. ABC\n\n**详解**对于选项A，有放回抽取时，显然 $P(A) = P(B) = \\frac{1}{3}$ ，故A正确．对于选项\n\nB，不放回抽取时， $P(A)=\\frac{1}{3}$ ， $P(B)=\\frac{2}{3}\\times\\frac{1}{2}=\\frac{1}{3}$ ，故 B 正确。对于选项 C，有放回抽取时，\n\n因为事件 $A, B$ 相互独立， $P(B) = P(B|A)$ ，故C正确。对于选项D，不放回抽取时，若甲中奖，则乙一定不中奖，所以 $P(B|A) = 0 \\neq P(B)$ ，故D错误。\n\n![](assets/cc530ae52f39251b4de306b03231bac9cfb7081bad6ba64902ea01e50fc0f3bc.jpg)",
+  "solution_html": "<h3>9. ABC</h3>\n<p><strong>详解</strong>对于选项A，有放回抽取时，显然 $P(A) = P(B) = \\frac{1}{3}$ ，故A正确．对于选项</p>\n<p>B，不放回抽取时， $P(A)=\\frac{1}{3}$ ， $P(B)=\\frac{2}{3}\\times\\frac{1}{2}=\\frac{1}{3}$ ，故 B 正确。对于选项 C，有放回抽取时，</p>\n<p>因为事件 $A, B$ 相互独立， $P(B) = P(B|A)$ ，故C正确。对于选项D，不放回抽取时，若甲中奖，则乙一定不中奖，所以 $P(B|A) = 0 \\neq P(B)$ ，故D错误。</p>\n<p><img alt=\"\" src=\"assets/cc530ae52f39251b4de306b03231bac9cfb7081bad6ba64902ea01e50fc0f3bc.jpg\" /></p>",
+  "score": 6,
+  "assets": [
+    {
+      "original_ref": "images/cc530ae52f39251b4de306b03231bac9cfb7081bad6ba64902ea01e50fc0f3bc.jpg",
+      "alt": "",
+      "saved": true,
+      "file_name": "cc530ae52f39251b4de306b03231bac9cfb7081bad6ba64902ea01e50fc0f3bc.jpg",
+      "relative_path": "assets/cc530ae52f39251b4de306b03231bac9cfb7081bad6ba64902ea01e50fc0f3bc.jpg",
+      "sha256": "bc25a4e7c69e86ff65eda2589f9f0dfa7661a1aae325cf7a66a7bc9d48d86a78"
+    }
+  ],
+  "quality_flags": [
+    "contains_images"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.167179+00:00",
+    "question_source_sha256": "fd7e09e7361b1a3c423e4a90022e45ec754d1b93b61dd929ba983ee3da41d367",
+    "solution_source_sha256": "49045cdfd752f9f34d7cc2aa89ea2bcec7753750c2327e42b2d465641a0aa9fa"
+  }
+}

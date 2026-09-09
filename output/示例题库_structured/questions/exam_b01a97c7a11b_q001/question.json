@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_b01a97c7a11b_q001",
+  "display_id": "EXAM-B01A97C7A11B-Q001",
+  "source_exam": "深圳中学2024级高二周测（8）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（8）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（8）参考答案.md",
+  "question_number": 1,
+  "question_type": "single_choice",
+  "stem_markdown": "### 1. 已知离散型随机变量 X 的方差为 1，则 $D(2X+1)=(\\quad)$\n\nA. 2\n\nB. $\\frac{1}{2}$\n\nC. 4\n\nD. $\\frac{1}{4}$",
+  "stem_html": "<h3>1. 已知离散型随机变量 X 的方差为 1，则 $D(2X+1)=(\\quad)$</h3>\n<p>A. 2</p>\n<p>B. $\\frac{1}{2}$</p>\n<p>C. 4</p>\n<p>D. $\\frac{1}{4}$</p>",
+  "options": {
+    "A": "2",
+    "B": "$\\frac{1}{2}$",
+    "C": "4",
+    "D": "$\\frac{1}{4}$"
+  },
+  "answer": "C",
+  "solution_markdown": "",
+  "solution_html": "",
+  "score": null,
+  "assets": [],
+  "quality_flags": [
+    "missing_solution"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.041689+00:00",
+    "question_source_sha256": "c94eca08c58bedc15524121a680136ba270a64c9922023c3005a12c4fc409761",
+    "solution_source_sha256": "2c305966ce196e8a17833cd59778cae810c6b4e24eca072eeecc711059b85d1d"
+  }
+}

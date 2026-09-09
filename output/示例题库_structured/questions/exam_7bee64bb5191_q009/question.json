@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_7bee64bb5191_q009",
+  "display_id": "EXAM-7BEE64BB5191-Q009",
+  "source_exam": "深圳中学 2024 级高二数学周测（1）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（1）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（1）解析.md",
+  "question_number": 9,
+  "question_type": "multiple_choice",
+  "stem_markdown": "### 9. 下列求导运算正确的是（）\n\nA. $(\\ln7)' = \\frac{1}{7}$\n\nB. $[(x^{2}+2)\\sin x]' = 2x\\sin x + (x^{2}+2)\\cos x$\n\nC. $\\left(\\frac{x^{2}}{\\mathrm{e}^{x}}\\right)^{\\prime}=\\frac{2x-x^{2}}{\\mathrm{e}^{x}}$\n\nD. $[\\ln(3x+2)]'=\\frac{1}{3x+2}$",
+  "stem_html": "<h3>9. 下列求导运算正确的是（）</h3>\n<p>A. $(\\ln7)' = \\frac{1}{7}$</p>\n<p>B. $[(x^{2}+2)\\sin x]' = 2x\\sin x + (x^{2}+2)\\cos x$</p>\n<p>C. $\\left(\\frac{x^{2}}{\\mathrm{e}^{x}}\\right)^{\\prime}=\\frac{2x-x^{2}}{\\mathrm{e}^{x}}$</p>\n<p>D. $[\\ln(3x+2)]'=\\frac{1}{3x+2}$</p>",
+  "options": {
+    "A": "$(\\ln7)' = \\frac{1}{7}$",
+    "B": "$[(x^{2}+2)\\sin x]' = 2x\\sin x + (x^{2}+2)\\cos x$",
+    "C": "$\\left(\\frac{x^{2}}{\\mathrm{e}^{x}}\\right)^{\\prime}=\\frac{2x-x^{2}}{\\mathrm{e}^{x}}$",
+    "D": "$[\\ln(3x+2)]'=\\frac{1}{3x+2}$"
+  },
+  "answer": "BC",
+  "solution_markdown": "### 9. BC\n\n**详解** $(\\ln7)'=0$ ，A 错误； $[(x^{2}+2)\\sin x]'=2x\\sin x+(x^{2}+2)\\cos x$ ，B 正确；\n\n$\\left(\\frac{x^2}{\\mathrm{e}^x}\\right)' = \\frac{2x\\cdot\\mathrm{e}^x - x^2\\mathrm{e}^x}{\\mathrm{e}^{2x}} = \\frac{2x - x^2}{\\mathrm{e}^x}$ ，故C正确； $[\\ln (3x + 2)]' = \\frac{3}{3x + 2}$ ，故D错误.",
+  "solution_html": "<h3>9. BC</h3>\n<p><strong>详解</strong> $(\\ln7)'=0$ ，A 错误； $[(x^{2}+2)\\sin x]'=2x\\sin x+(x^{2}+2)\\cos x$ ，B 正确；</p>\n<p>$\\left(\\frac{x^2}{\\mathrm{e}^x}\\right)' = \\frac{2x\\cdot\\mathrm{e}^x - x^2\\mathrm{e}^x}{\\mathrm{e}^{2x}} = \\frac{2x - x^2}{\\mathrm{e}^x}$ ，故C正确； $[\\ln (3x + 2)]' = \\frac{3}{3x + 2}$ ，故D错误.</p>",
+  "score": 6,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.582539+00:00",
+    "question_source_sha256": "8fa1d650b2c1959ec549afd5bfc248cdd4ddda5307791163f79f93a33acf3cac",
+    "solution_source_sha256": "5b5d55d680204d0e0f86a02ed377845f5652a058ffb31385ed378ad99f44b5f7"
+  }
+}

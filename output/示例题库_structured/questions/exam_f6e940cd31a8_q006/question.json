@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_f6e940cd31a8_q006",
+  "display_id": "EXAM-F6E940CD31A8-Q006",
+  "source_exam": "深圳中学 2024 级高二数学周测（3）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（3）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（3）参考答案.md",
+  "question_number": 6,
+  "question_type": "single_choice",
+  "stem_markdown": "### 6. 若 $a > 0, b > 0$ ，且函数 $f(x) = 4x^{3} - ax^{2} - 2bx + 2$ 在 $x = 1$ 处有极值，则 $ab$ 的最大值等于\n\nA. 2\n\nB. 3\n\nC. 6\n\nD. 9",
+  "stem_html": "<h3>6. 若 $a &gt; 0, b &gt; 0$ ，且函数 $f(x) = 4x^{3} - ax^{2} - 2bx + 2$ 在 $x = 1$ 处有极值，则 $ab$ 的最大值等于</h3>\n<p>A. 2</p>\n<p>B. 3</p>\n<p>C. 6</p>\n<p>D. 9</p>",
+  "options": {
+    "A": "2",
+    "B": "3",
+    "C": "6",
+    "D": "9"
+  },
+  "answer": "D",
+  "solution_markdown": "",
+  "solution_html": "",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [
+    "missing_solution"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.742588+00:00",
+    "question_source_sha256": "78a4bb6656c35dbe613a79b0ed7dccc993b5c108f4f5c32b995a022aaa492633",
+    "solution_source_sha256": "86a4c5fab883e5128818dbb75724d3042d0c55a8ea81c7cdffedbb262214e02c"
+  }
+}

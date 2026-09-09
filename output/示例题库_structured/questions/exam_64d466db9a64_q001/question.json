@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_64d466db9a64_q001",
+  "display_id": "EXAM-64D466DB9A64-Q001",
+  "source_exam": "深圳中学 2024 级高二数学周测（5）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二数学周测（5）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二数学周测（5）参考答案.md",
+  "question_number": 1,
+  "question_type": "single_choice",
+  "stem_markdown": "### 1. 已知 $f'(x)$ 是函数 $f(x)$ 的导函数，且 $f(x) = 2f'(1)\\ln x + \\frac{1}{x}$ ，则 $f'(1) = (\\quad)$\n\nA. 1\n\nB. 2\n\nC. -1\n\nD. -2",
+  "stem_html": "<h3>1. 已知 $f'(x)$ 是函数 $f(x)$ 的导函数，且 $f(x) = 2f'(1)\\ln x + \\frac{1}{x}$ ，则 $f'(1) = (\\quad)$</h3>\n<p>A. 1</p>\n<p>B. 2</p>\n<p>C. -1</p>\n<p>D. -2</p>",
+  "options": {
+    "A": "1",
+    "B": "2",
+    "C": "-1",
+    "D": "-2"
+  },
+  "answer": "A",
+  "solution_markdown": "### 1. A 由 $f(x)=2f'(1)\\ln x+\\frac{1}{x}$ 可得 $f'(x)=2f'(1)\\frac{1}{x}-\\frac{1}{x^{2}}$ 故 $f'(1)=2f'(1)-1$ ，解得 $f'(1)=1$",
+  "solution_html": "<h3>1. A 由 $f(x)=2f'(1)\\ln x+\\frac{1}{x}$ 可得 $f'(x)=2f'(1)\\frac{1}{x}-\\frac{1}{x^{2}}$ 故 $f'(1)=2f'(1)-1$ ，解得 $f'(1)=1$</h3>",
+  "score": null,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.290214+00:00",
+    "question_source_sha256": "0a947743971a67ef971955fddba3a1d96fa8478a9c0c36d10f0c4ee174efd496",
+    "solution_source_sha256": "8c53a21b6d71e1b67f1664b079fb0452db52b9a6b9c5c668ce4dbeedf2a2958c"
+  }
+}

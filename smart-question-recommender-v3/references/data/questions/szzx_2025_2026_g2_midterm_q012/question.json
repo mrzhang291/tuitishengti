@@ -1,0 +1,152 @@
+{
+  "question_id": "szzx_2025_2026_g2_midterm_q012",
+  "source_exam": "示例学校2025-2026学年度第二学期期中考试",
+  "source_file": "sources/示例学校2025-2026学年度第二学期期中考试试题.docx",
+  "solution_file": "sources/示例学校2025-2026学年度第二学期期中考试参考答案.docx",
+  "grade": "高二",
+  "subject": "数学",
+  "question_number": 12,
+  "question_type": "fill_blank",
+  "score": 5,
+  "score_source": "section_rule",
+  "score_note": "填空题：每小题5分",
+  "stem_markdown": "12．袋中有除颜色外完全相同的5个球，其中3个红球和2个白球．现从袋中不放回地连续取两个．已知第一次取得红球，则第二次取得白球的概率为________．",
+  "stem_text": "12．袋中有除颜色外完全相同的5个球，其中3个红球和2个白球．现从袋中不放回地连续取两个．已知第一次取得红球，则第二次取得白球的概率为________．",
+  "stem_html": "<p>12．袋中有除颜色外完全相同的5个球，其中3个红球和2个白球．现从袋中不放回地连续取两个．已知第一次取得红球，则第二次取得白球的概率为________．</p>",
+  "stem_blocks": [
+    {
+      "type": "text",
+      "text": "12"
+    },
+    {
+      "type": "text",
+      "text": "．袋中有除颜色"
+    },
+    {
+      "type": "text",
+      "text": "外完全"
+    },
+    {
+      "type": "text",
+      "text": "相同的"
+    },
+    {
+      "type": "text",
+      "text": "5"
+    },
+    {
+      "type": "text",
+      "text": "个球，其中"
+    },
+    {
+      "type": "text",
+      "text": "3"
+    },
+    {
+      "type": "text",
+      "text": "个红球和"
+    },
+    {
+      "type": "text",
+      "text": "2"
+    },
+    {
+      "type": "text",
+      "text": "个白球．现从袋中"
+    },
+    {
+      "type": "text",
+      "text": "不"
+    },
+    {
+      "type": "text",
+      "text": "放回地连续取两个．已知第一次取得红球，则第二次取得白球的概率为"
+    },
+    {
+      "type": "text",
+      "text": "________"
+    },
+    {
+      "type": "text",
+      "text": "．"
+    }
+  ],
+  "answer": "(1)/(2)",
+  "solution_markdown": "12. $(1)/(2)$      13.$(1)/(ln2e)$     14.$2sqrt(6)$",
+  "solution_text": "12. (1)/(2)      13.(1)/(ln2e)     14.2sqrt(6)",
+  "solution_html": "<p>12. <span class=\"formula\" data-formula-id=\"f001\">(1)/(2)</span>      13.<span class=\"formula\" data-formula-id=\"f002\">(1)/(ln2e)</span>     14.<span class=\"formula\" data-formula-id=\"f003\">2sqrt(6)</span></p>",
+  "solution_blocks": [
+    {
+      "type": "text",
+      "text": "12."
+    },
+    {
+      "type": "text",
+      "text": " "
+    },
+    {
+      "type": "math",
+      "formula_id": "f001",
+      "text_approx": "(1)/(2)"
+    },
+    {
+      "type": "text",
+      "text": "      13."
+    },
+    {
+      "type": "math",
+      "formula_id": "f002",
+      "text_approx": "(1)/(ln2e)"
+    },
+    {
+      "type": "text",
+      "text": "     14."
+    },
+    {
+      "type": "math",
+      "formula_id": "f003",
+      "text_approx": "2sqrt(6)"
+    }
+  ],
+  "assets": [],
+  "formulas": [
+    {
+      "id": "f001",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(1)/(2)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:f><ns0:fPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:fPr><ns0:num><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>1</ns0:t></ns0:r></ns0:num><ns0:den><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r></ns0:den></ns0:f></ns0:oMath>"
+    },
+    {
+      "id": "f002",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "(1)/(ln2e)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:f><ns0:fPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:fPr><ns0:num><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>1</ns0:t></ns0:r></ns0:num><ns0:den><ns0:r><ns0:rPr><ns0:sty ns0:val=\"p\" /></ns0:rPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>ln</ns0:t></ns0:r><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>2e</ns0:t></ns0:r></ns0:den></ns0:f></ns0:oMath>"
+    },
+    {
+      "id": "f003",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "2sqrt(6)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r><ns0:rad><ns0:radPr><ns0:degHide ns0:val=\"1\" /><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:radPr><ns0:deg /><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>6</ns0:t></ns0:r></ns0:e></ns0:rad></ns0:oMath>"
+    }
+  ],
+  "ole_objects": [],
+  "extraction": {
+    "source_paragraph_range": [
+      41,
+      41
+    ],
+    "solution_paragraph_range": [
+      2,
+      2
+    ],
+    "formula_count": 3,
+    "image_count": 0,
+    "ole_count": 0,
+    "quality_flags": [
+      "contains_omml"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_7bee64bb5191_q016",
+  "display_id": "EXAM-7BEE64BB5191-Q016",
+  "source_exam": "深圳中学 2024 级高二数学周测（1）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（1）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（1）解析.md",
+  "question_number": 16,
+  "question_type": "solution",
+  "stem_markdown": "### 16. 已知函数 $F(x) = \\mathrm{e}^{x - 1} + \\frac{1}{3} x$ ， $G(x) = -x + m\\sin x (m \\neq 0)$ .\n\n(1)求函数 $F(x)$ 图象在x=1处的切线方程.\n\n(2)若对于函数 $F(x)$ 图象上任意一点处的切线 $l_{1}$ ，在函数 $G(x)$ 图象上总存在一点处的切线 $l_{2}$ ，使得 $l_{1} \\perp l_{2}$ ，求实数m的取值范围.",
+  "stem_html": "<h3>16. 已知函数 $F(x) = \\mathrm{e}^{x - 1} + \\frac{1}{3} x$ ， $G(x) = -x + m\\sin x (m \\neq 0)$ .</h3>\n<p>(1)求函数 $F(x)$ 图象在x=1处的切线方程.</p>\n<p>(2)若对于函数 $F(x)$ 图象上任意一点处的切线 $l_{1}$ ，在函数 $G(x)$ 图象上总存在一点处的切线 $l_{2}$ ，使得 $l_{1} \\perp l_{2}$ ，求实数m的取值范围.</p>",
+  "options": {},
+  "answer": "(1) $y = \\frac{4}{3} x$ (2) $(-∞, -2] ∪ [2, +∞)$",
+  "solution_markdown": "### 16. (1) $y = \\frac{4}{3} x$ (2) $(-∞, -2] ∪ [2, +∞)$\n\n**详解**（1） $F(1)=1+\\frac{1}{3}=\\frac{4}{3},\\quad F'(x)=\\mathrm{e}^{x-1}+\\frac{1}{3},\\quad F'(1)=1+\\frac{1}{3}=\\frac{4}{3},$\n\n所以函数 $F(x)$ 图象在x=1处的切线方程为 $y-\\frac{4}{3}=\\frac{4}{3}(x-1)$ ，即 $y=\\frac{4}{3}x$ .\n\n（2）由（1）可得， $F'(x)=\\mathrm{e}^{x-1}+\\frac{1}{3}>\\frac{1}{3},$\n\n若对于函数 $F(x)$ 图象上任意一点处的切线 $l_{1}$ ，在函数 $G(x)$ 图象上总存在一点处的切线 $l_{2}$ ，使得 $l_{1} \\perp l_{2}$ ，即对任意的 $k_{l_{1}} = F'(x) > \\frac{1}{3}$ ，总存在 $k_{l_{2}} = G'(x_{0})$ 使得 $k_{l_{1}} \\cdot k_{l_{2}} = -1$ ，即 $-3 < k_{l_{2}} = G'(x_{0}) < 0$ ，又 $G'(x) = -1 + m\\cos x (m \\neq 0)$ ，从而 $G'(x) = -1 + m\\cos x (m \\neq 0)$ 的值域包含 $(-3,0)$ ，当 $m > 0$ 时， $G'(x) = -1 + m\\cos x (m \\neq 0)$ 的值域为 $[-m - 1, m - 1]$ ，\n\n所以 $\\left\\{\\begin{aligned}-m-1&\\leq-3\\\\ m-1&\\geq0\\end{aligned}\\right.$ ，解得 $m\\geq2$ ，当m<0时， $G'(x)=-1+m\\cos x(m\\neq0)$ 的值域为 $[m-1,-m-1]$ ，所以 $\\left\\{\\begin{aligned}-m-1&\\geq0\\\\ m-1&\\leq-3\\end{aligned}\\right.$ ，解得 $m\\leq-2$ ，\n\n即实数m的取值范围为 $(-∞,-2]∪[2,+∞)$ .",
+  "solution_html": "<h3>16. (1) $y = \\frac{4}{3} x$ (2) $(-∞, -2] ∪ [2, +∞)$</h3>\n<p><strong>详解</strong>（1） $F(1)=1+\\frac{1}{3}=\\frac{4}{3},\\quad F'(x)=\\mathrm{e}^{x-1}+\\frac{1}{3},\\quad F'(1)=1+\\frac{1}{3}=\\frac{4}{3},$</p>\n<p>所以函数 $F(x)$ 图象在x=1处的切线方程为 $y-\\frac{4}{3}=\\frac{4}{3}(x-1)$ ，即 $y=\\frac{4}{3}x$ .</p>\n<p>（2）由（1）可得， $F'(x)=\\mathrm{e}^{x-1}+\\frac{1}{3}&gt;\\frac{1}{3},$</p>\n<p>若对于函数 $F(x)$ 图象上任意一点处的切线 $l_{1}$ ，在函数 $G(x)$ 图象上总存在一点处的切线 $l_{2}$ ，使得 $l_{1} \\perp l_{2}$ ，即对任意的 $k_{l_{1}} = F'(x) &gt; \\frac{1}{3}$ ，总存在 $k_{l_{2}} = G'(x_{0})$ 使得 $k_{l_{1}} \\cdot k_{l_{2}} = -1$ ，即 $-3 &lt; k_{l_{2}} = G'(x_{0}) &lt; 0$ ，又 $G'(x) = -1 + m\\cos x (m \\neq 0)$ ，从而 $G'(x) = -1 + m\\cos x (m \\neq 0)$ 的值域包含 $(-3,0)$ ，当 $m &gt; 0$ 时， $G'(x) = -1 + m\\cos x (m \\neq 0)$ 的值域为 $[-m - 1, m - 1]$ ，</p>\n<p>所以 $\\left\\{\\begin{aligned}-m-1&amp;\\leq-3\\\\ m-1&amp;\\geq0\\end{aligned}\\right.$ ，解得 $m\\geq2$ ，当m&lt;0时， $G'(x)=-1+m\\cos x(m\\neq0)$ 的值域为 $[m-1,-m-1]$ ，所以 $\\left\\{\\begin{aligned}-m-1&amp;\\geq0\\\\ m-1&amp;\\leq-3\\end{aligned}\\right.$ ，解得 $m\\leq-2$ ，</p>\n<p>即实数m的取值范围为 $(-∞,-2]∪[2,+∞)$ .</p>",
+  "score": null,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.607282+00:00",
+    "question_source_sha256": "8fa1d650b2c1959ec549afd5bfc248cdd4ddda5307791163f79f93a33acf3cac",
+    "solution_source_sha256": "5b5d55d680204d0e0f86a02ed377845f5652a058ffb31385ed378ad99f44b5f7"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_ed507f8efdc5_q015",
+  "display_id": "EXAM-ED507F8EFDC5-Q015",
+  "source_exam": "深圳中学 2024 级高二数学周测（2）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（2）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（2）解析.md",
+  "question_number": 15,
+  "question_type": "solution",
+  "stem_markdown": "### 15. 已知函数 $f(x) = \\frac{e^x - a}{x} - a\\ln x (a \\in R)$ .\n\n(1)求曲线 $y=f(x)$ 在点 $(1,f(1))$ 处的切线方程;\n\n(2)求 $f(x)$ 的单调区间.",
+  "stem_html": "<h3>15. 已知函数 $f(x) = \\frac{e^x - a}{x} - a\\ln x (a \\in R)$ .</h3>\n<p>(1)求曲线 $y=f(x)$ 在点 $(1,f(1))$ 处的切线方程;</p>\n<p>(2)求 $f(x)$ 的单调区间.</p>",
+  "options": {},
+  "answer": "见解析",
+  "solution_markdown": "### 15. [解](1)由 $f(x)=\\frac{e^{x}-a}{x}-a\\ln x$ ，可得 $f'(x)=\\frac{e^{x}(x-1)-ax+a}{x^{2}}$ ，则 $f'(1)=0$ 且 $f(1)=e-a$ ，\n\n所以曲线 $y=f(x)$ 在点 $(1,f(1))$ 处的切线方程为y=e-a.\n\n(2)由函数 $f(x)=\\frac{e^{x}-a}{x}-a\\ln x$ 的定义域为 $(0,+\\infty)$ ，且 $f'(x)=\\frac{(x-1)(e^{x}-a)}{x^{2}}$ ，若 $a\\leq0$ ，令 $f'(x)=0$ ，解得x=1，当 $x\\in(0,1)$ 时， $f'(x)<0$ ， $f(x)$ 单调递减，当 $x\\in(1,+\\infty)$ 时， $f'(x)>0$ ， $f(x)$ 单调递增，所以函数 $f(x)$ 的单调递减区间为 $(0,1)$ ，单调递增区间为 $(1,+\\infty)$ 。若a>0，令 $f'(x)=0$ ，解得x=1或 $x=\\ln a$ ，①若 $\\ln a\\leq0$ ，即 $0<a\\leq1$ 时，当 $x\\in(0,1)$ 时， $f'(x)<0$ ， $f(x)$ 单调递减，当 $x\\in(1,+\\infty)$ 时， $f'(x)>0$ ， $f(x)$ 单调递增，所以函数 $f(x)$ 的单调递减区间为 $(0,1)$ ，单调逆增区间为 $(1,+\\infty)$ 。②若 $0<\\ln a<1$ ，即1<a<e时，当 $x\\in(0,\\ln a)$ 时， $f'(x)>0$ ， $f(x)$ 单调递增，当 $x\\in(\\ln a,1)$ 时， $f'(x)<0$ ， $f(x)$ 单调递减，当 $x\\in(1,+\\infty)$ 时， $f'(x)>0$ ， $f(x)$ 单调递增，所以函数 $f(x)$ 的单调递减区间为 $(\\ln a,1)$ ，单调递增区间为 $(0,\\ln a)$ ， $(1,+\\infty)$ 。③若 $\\ln a=1$ ，即a=e时，可得 $f'(x)\\geq0$ 且等号不恒成立，则 $f(x)$ 单调递增，所以函数 $f(x)$ 的单调递增区间为 $(0,+\\infty)$ 。④若 $\\ln a>1$ ，即a>e时，当 $x\\in(0,1)$ 时， $f'(x)>0$ ， $f(x)$ 单调递增，当 $x\\in(1,\\ln a)$ 时， $f'(x)<0$ ， $f(x)$ 单调递减，当 $x\\in(\\ln a,+\\infty)$ 时， $f'(x)>0$ ， $f(x)$ 单调递增，所以函数 $f(x)$ 的单调递减区间为 $(1,\\ln a)$ ，单调递增区间为 $(0,1)$ ， $(\\ln a,+\\infty)$ 。",
+  "solution_html": "<h3>15. <a href=\"1\">解</a>由 $f(x)=\\frac{e^{x}-a}{x}-a\\ln x$ ，可得 $f'(x)=\\frac{e^{x}(x-1)-ax+a}{x^{2}}$ ，则 $f'(1)=0$ 且 $f(1)=e-a$ ，</h3>\n<p>所以曲线 $y=f(x)$ 在点 $(1,f(1))$ 处的切线方程为y=e-a.</p>\n<p>(2)由函数 $f(x)=\\frac{e^{x}-a}{x}-a\\ln x$ 的定义域为 $(0,+\\infty)$ ，且 $f'(x)=\\frac{(x-1)(e^{x}-a)}{x^{2}}$ ，若 $a\\leq0$ ，令 $f'(x)=0$ ，解得x=1，当 $x\\in(0,1)$ 时， $f'(x)&lt;0$ ， $f(x)$ 单调递减，当 $x\\in(1,+\\infty)$ 时， $f'(x)&gt;0$ ， $f(x)$ 单调递增，所以函数 $f(x)$ 的单调递减区间为 $(0,1)$ ，单调递增区间为 $(1,+\\infty)$ 。若a&gt;0，令 $f'(x)=0$ ，解得x=1或 $x=\\ln a$ ，①若 $\\ln a\\leq0$ ，即 $0&lt;a\\leq1$ 时，当 $x\\in(0,1)$ 时， $f'(x)&lt;0$ ， $f(x)$ 单调递减，当 $x\\in(1,+\\infty)$ 时， $f'(x)&gt;0$ ， $f(x)$ 单调递增，所以函数 $f(x)$ 的单调递减区间为 $(0,1)$ ，单调逆增区间为 $(1,+\\infty)$ 。②若 $0&lt;\\ln a&lt;1$ ，即1&lt;a<e时，当 $x\\in(0,\\ln a)$ 时， $f'(x)&gt;0$ ， $f(x)$ 单调递增，当 $x\\in(\\ln a,1)$ 时， $f'(x)&lt;0$ ， $f(x)$ 单调递减，当 $x\\in(1,+\\infty)$ 时， $f'(x)&gt;0$ ， $f(x)$ 单调递增，所以函数 $f(x)$ 的单调递减区间为 $(\\ln a,1)$ ，单调递增区间为 $(0,\\ln a)$ ， $(1,+\\infty)$ 。③若 $\\ln a=1$ ，即a=e时，可得 $f'(x)\\geq0$ 且等号不恒成立，则 $f(x)$ 单调递增，所以函数 $f(x)$ 的单调递增区间为 $(0,+\\infty)$ 。④若 $\\ln a&gt;1$ ，即a>e时，当 $x\\in(0,1)$ 时， $f'(x)&gt;0$ ， $f(x)$ 单调递增，当 $x\\in(1,\\ln a)$ 时， $f'(x)&lt;0$ ， $f(x)$ 单调递减，当 $x\\in(\\ln a,+\\infty)$ 时， $f'(x)&gt;0$ ， $f(x)$ 单调递增，所以函数 $f(x)$ 的单调递减区间为 $(1,\\ln a)$ ，单调递增区间为 $(0,1)$ ， $(\\ln a,+\\infty)$ 。</p>",
+  "score": null,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.664454+00:00",
+    "question_source_sha256": "7cb6872dd8f9092683f4d213bfc976e0e2eecfc7cc5919b7f6cfa19ef958a3d1",
+    "solution_source_sha256": "ee82da0a88dd9857c44efb8cd3b554ae670a59b5aa1d62f710078f748a7f8a4e"
+  }
+}

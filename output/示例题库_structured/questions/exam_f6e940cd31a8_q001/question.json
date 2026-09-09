@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_f6e940cd31a8_q001",
+  "display_id": "EXAM-F6E940CD31A8-Q001",
+  "source_exam": "深圳中学 2024 级高二数学周测（3）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（3）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（3）参考答案.md",
+  "question_number": 1,
+  "question_type": "single_choice",
+  "stem_markdown": "### 1. 已知函数 $f(x) = (2x + 1)\\mathrm{e}^x, f'(x)$ 为 $f(x)$ 的导函数，则 $f'(0)$ 的值为\n\nA. 1\n\nB. 2\n\nC. 3\n\nD. 4",
+  "stem_html": "<h3>1. 已知函数 $f(x) = (2x + 1)\\mathrm{e}^x, f'(x)$ 为 $f(x)$ 的导函数，则 $f'(0)$ 的值为</h3>\n<p>A. 1</p>\n<p>B. 2</p>\n<p>C. 3</p>\n<p>D. 4</p>",
+  "options": {
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "4"
+  },
+  "answer": "C",
+  "solution_markdown": "",
+  "solution_html": "",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [
+    "missing_solution"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.674874+00:00",
+    "question_source_sha256": "78a4bb6656c35dbe613a79b0ed7dccc993b5c108f4f5c32b995a022aaa492633",
+    "solution_source_sha256": "86a4c5fab883e5128818dbb75724d3042d0c55a8ea81c7cdffedbb262214e02c"
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "schema_version": "class-generation-disabled-v1",
+  "generated_at": "2026-08-05T03:33:11.088236+00:00",
+  "scope": "class_source_wrong_question_set",
+  "artifact_role": "source_wrong_question_set",
+  "status": "not_applicable_source_questions_are_delivered_directly",
+  "student_visible": false,
+  "requires_new_question_generation": false,
+  "source_artifact": "paper/class_paper.json",
+  "paper_title": "高二数学原题错题集",
+  "class_name": "高二模拟班",
+  "duration_minutes": 60,
+  "total_points": 100,
+  "blueprint": [
+    {
+      "section": "一、单项选择题",
+      "question_type": "single_choice",
+      "count": 8,
+      "points": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "bands": [
+        "easy",
+        "easy",
+        "easy",
+        "standard",
+        "standard",
+        "standard",
+        "challenge",
+        "challenge"
+      ]
+    },
+    {
+      "section": "二、多项选择题",
+      "question_type": "multiple_choice",
+      "count": 3,
+      "points": [
+        6,
+        6,
+        6
+      ],
+      "bands": [
+        "easy",
+        "standard",
+        "standard"
+      ]
+    },
+    {
+      "section": "三、填空题",
+      "question_type": "fill_blank",
+      "count": 3,
+      "points": [
+        5,
+        5,
+        5
+      ],
+      "bands": [
+        "easy",
+        "standard",
+        "standard"
+      ]
+    },
+    {
+      "section": "四、解答题",
+      "question_type": "solution",
+      "count": 2,
+      "points": [
+        12,
+        15
+      ],
+      "bands": [
+        "standard",
+        "standard"
+      ]
+    }
+  ],
+  "class_weaknesses": [
+    {
+      "primary_knowledge": "导数应用·极值与最值·求极值",
+      "correct": 466,
+      "wrong": 318,
+      "attempts": 784,
+      "question_count": 17,
+      "correct_rate": 0.594,
+      "weakness": 0.406
+    },
+    {
+      "primary_knowledge": "导数应用·不等式证明·构造函数证明",
+      "correct": 266,
+      "wrong": 153,
+      "attempts": 419,
+      "question_count": 9,
+      "correct_rate": 0.635,
+      "weakness": 0.365
+    },
+    {
+      "primary_knowledge": "导数应用·零点问题·函数零点个数",
+      "correct": 270,
+      "wrong": 146,
+      "attempts": 416,
+      "question_count": 9,
+      "correct_rate": 0.649,
+      "weakness": 0.351
+    },
+    {
+      "primary_knowledge": "概率统计·概率模型·全概率公式",
+      "correct": 545,
+      "wrong": 288,
+      "attempts": 833,
+      "question_count": 18,
+      "correct_rate": 0.654,
+      "weakness": 0.346
+    },
+    {
+      "primary_knowledge": "函数综合·函数性质·奇偶性与周期性",
+      "correct": 275,
+      "wrong": 145,
+      "attempts": 420,
+      "question_count": 9,
+      "correct_rate": 0.655,
+      "weakness": 0.345
+    },
+    {
+      "primary_knowledge": "导数应用·极值与最值·求最值",
+      "correct": 400,
+      "wrong": 205,
+      "attempts": 605,
+      "question_count": 13,
+      "correct_rate": 0.661,
+      "weakness": 0.339
+    },
+    {
+      "primary_knowledge": "导数与微分·求导运算·基本函数求导",
+      "correct": 772,
+      "wrong": 391,
+      "attempts": 1163,
+      "question_count": 25,
+      "correct_rate": 0.664,
+      "weakness": 0.336
+    },
+    {
+      "primary_knowledge": "导数与微分·切线方程·求切线",
+      "correct": 735,
+      "wrong": 343,
+      "attempts": 1078,
+      "question_count": 23,
+      "correct_rate": 0.682,
+      "weakness": 0.318
+    },
+    {
+      "primary_knowledge": "概率统计·数字特征·期望与方差",
+      "correct": 224,
+      "wrong": 99,
+      "attempts": 323,
+      "question_count": 7,
+      "correct_rate": 0.693,
+      "weakness": 0.307
+    },
+    {
+      "primary_knowledge": "导数与微分·导数定义·平均变化率与瞬时变化率",
+      "correct": 169,
+      "wrong": 66,
+      "attempts": 235,
+      "question_count": 5,
+      "correct_rate": 0.719,
+      "weakness": 0.281
+    },
+    {
+      "primary_knowledge": "导数应用·单调性·判断单调区间",
+      "correct": 501,
+      "wrong": 193,
+      "attempts": 694,
+      "question_count": 15,
+      "correct_rate": 0.722,
+      "weakness": 0.278
+    }
+  ],
+  "slots": [],
+  "delivery_note": "Class source questions are intentionally delivered as the original wrong-question set; no new-question generation runs in this mode."
+}

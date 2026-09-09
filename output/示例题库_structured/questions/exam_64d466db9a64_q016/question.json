@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_64d466db9a64_q016",
+  "display_id": "EXAM-64D466DB9A64-Q016",
+  "source_exam": "深圳中学 2024 级高二数学周测（5）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二数学周测（5）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二数学周测（5）参考答案.md",
+  "question_number": 16,
+  "question_type": "solution",
+  "stem_markdown": "### 16. 已知函数 $f(x) = x - 2 + a\\ln \\frac{1}{x} (a \\in \\mathbf{R})$ .\n\n（1）若 $f(x)\\geq -1$ ，求 $\\pmb{a}$ 的值；\n\n（2）设 $n\\in \\mathbf{N}^*$ ，求证： $\\frac{1}{3} +\\frac{1}{4} +\\mathrm{L} + \\frac{1}{n + 2} <  \\frac{1}{2}\\ln \\frac{(n + 1)(n + 2)}{2}.$",
+  "stem_html": "<h3>16. 已知函数 $f(x) = x - 2 + a\\ln \\frac{1}{x} (a \\in \\mathbf{R})$ .</h3>\n<p>（1）若 $f(x)\\geq -1$ ，求 $\\pmb{a}$ 的值；</p>\n<p>（2）设 $n\\in \\mathbf{N}^*$ ，求证： $\\frac{1}{3} +\\frac{1}{4} +\\mathrm{L} + \\frac{1}{n + 2} &lt;  \\frac{1}{2}\\ln \\frac{(n + 1)(n + 2)}{2}.$</p>",
+  "options": {},
+  "answer": "(1)1(2)证明见",
+  "solution_markdown": "### 16. (1)1(2)证明见详解\n\n（1）因为 $f(x) = x - 2 + a \\ln \\frac{1}{x} = x - 2 - a \\ln x$ ，且 $f(x)$ 的定义域为 $(0, +\\infty)$ ，则 $f'(x) = 1 - \\frac{a}{x}$ ，若 $f(x) \\geq -1$ ，注意到 $f(1) = -1$ ，可得 $f'(1) = 1 - a = 0$ ，\n\n解得 $a = 1$ ，当 $a = 1$ 时，则 $f(x) = x - 2 - \\ln x$ ， $f'(x) = 1 - \\frac{1}{x} = \\frac{x - 1}{x}$ ，令 $f'(x) > 0$ ，解得 $x > 1$ ；令 $f'(x) < 0$ ，解得 $0 < x < 1$ ；可知 $f(x)$ 在 $(0, 1)$ 内单调递减，在 $(1, +\\infty)$ 内单调递增，可得 $f(x) \\geq f(1) = -1$ ，符合题意；综上所述： $a$ 的值为 1。\n\n(2) 由（1）可得： $f(x)=x-2+\\ln\\frac{1}{x}\\geq-1$ ，即 $\\ln\\frac{1}{x}\\geq1-x$ ，当且仅当x=1时，等号成立，令 $x=\\frac{n}{n+2}\\neq1$ ，可得 $\\ln\\frac{n+2}{n}>\\frac{2}{n+2}$ ，即 $\\ln\\frac{3}{1}>\\frac{2}{3},\\ln\\frac{4}{2}>\\frac{2}{4},\\ln\\frac{5}{3}>\\frac{2}{5},\\ln\\frac{6}{4}>\\frac{2}{6},\\cdots,\\ln\\frac{n+2}{n}>\\frac{2}{n+2}$ 累加可得： $\\ln\\frac{3}{1}+\\ln\\frac{4}{2}+\\ln\\frac{5}{3}+\\ln\\frac{6}{4}+\\cdots+\\ln\\frac{n+2}{n}>\\frac{2}{3}+\\frac{2}{4}+\\frac{2}{5}+\\frac{2}{6}+\\cdots$ 又因为 $\\ln\\frac{3}{1}+\\ln\\frac{4}{2}+\\ln\\frac{5}{3}+\\ln\\frac{6}{4}+\\cdots+\\ln\\frac{n+2}{n}$ $=\\ln\\left(\\frac{3}{1}\\times\\frac{4}{2}\\times\\frac{5}{3}\\times\\frac{6}{4}\\times\\cdots\\times\\frac{n+2}{n}\\right)=\\ln\\frac{(n+1)(n+2)}{2}$ ，即 $\\ln\\frac{(n+1)(n+2)}{2}>\\frac{2}{3}+\\frac{2}{4}+\\frac{2}{5}+\\frac{2}{6}+\\cdots+\\frac{2}{n+2}$ ，所以 $\\frac{1}{3}+\\frac{1}{4}+\\mathsf{L}+\\frac{1}{n+2}<\\frac{1}{2}\\ln\\frac{(n+1)(n+2)}{2}$ $\\boxed{",
+  "solution_html": "<h3>16. (1)1(2)证明见详解</h3>\n<p>（1）因为 $f(x) = x - 2 + a \\ln \\frac{1}{x} = x - 2 - a \\ln x$ ，且 $f(x)$ 的定义域为 $(0, +\\infty)$ ，则 $f'(x) = 1 - \\frac{a}{x}$ ，若 $f(x) \\geq -1$ ，注意到 $f(1) = -1$ ，可得 $f'(1) = 1 - a = 0$ ，</p>\n<p>解得 $a = 1$ ，当 $a = 1$ 时，则 $f(x) = x - 2 - \\ln x$ ， $f'(x) = 1 - \\frac{1}{x} = \\frac{x - 1}{x}$ ，令 $f'(x) &gt; 0$ ，解得 $x &gt; 1$ ；令 $f'(x) &lt; 0$ ，解得 $0 &lt; x &lt; 1$ ；可知 $f(x)$ 在 $(0, 1)$ 内单调递减，在 $(1, +\\infty)$ 内单调递增，可得 $f(x) \\geq f(1) = -1$ ，符合题意；综上所述： $a$ 的值为 1。</p>\n<p>(2) 由（1）可得： $f(x)=x-2+\\ln\\frac{1}{x}\\geq-1$ ，即 $\\ln\\frac{1}{x}\\geq1-x$ ，当且仅当x=1时，等号成立，令 $x=\\frac{n}{n+2}\\neq1$ ，可得 $\\ln\\frac{n+2}{n}&gt;\\frac{2}{n+2}$ ，即 $\\ln\\frac{3}{1}&gt;\\frac{2}{3},\\ln\\frac{4}{2}&gt;\\frac{2}{4},\\ln\\frac{5}{3}&gt;\\frac{2}{5},\\ln\\frac{6}{4}&gt;\\frac{2}{6},\\cdots,\\ln\\frac{n+2}{n}&gt;\\frac{2}{n+2}$ 累加可得： $\\ln\\frac{3}{1}+\\ln\\frac{4}{2}+\\ln\\frac{5}{3}+\\ln\\frac{6}{4}+\\cdots+\\ln\\frac{n+2}{n}&gt;\\frac{2}{3}+\\frac{2}{4}+\\frac{2}{5}+\\frac{2}{6}+\\cdots$ 又因为 $\\ln\\frac{3}{1}+\\ln\\frac{4}{2}+\\ln\\frac{5}{3}+\\ln\\frac{6}{4}+\\cdots+\\ln\\frac{n+2}{n}$ $=\\ln\\left(\\frac{3}{1}\\times\\frac{4}{2}\\times\\frac{5}{3}\\times\\frac{6}{4}\\times\\cdots\\times\\frac{n+2}{n}\\right)=\\ln\\frac{(n+1)(n+2)}{2}$ ，即 $\\ln\\frac{(n+1)(n+2)}{2}&gt;\\frac{2}{3}+\\frac{2}{4}+\\frac{2}{5}+\\frac{2}{6}+\\cdots+\\frac{2}{n+2}$ ，所以 $\\frac{1}{3}+\\frac{1}{4}+\\mathsf{L}+\\frac{1}{n+2}&lt;\\frac{1}{2}\\ln\\frac{(n+1)(n+2)}{2}$ $\\boxed{</p>",
+  "score": null,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.430602+00:00",
+    "question_source_sha256": "0a947743971a67ef971955fddba3a1d96fa8478a9c0c36d10f0c4ee174efd496",
+    "solution_source_sha256": "8c53a21b6d71e1b67f1664b079fb0452db52b9a6b9c5c668ce4dbeedf2a2958c"
+  }
+}

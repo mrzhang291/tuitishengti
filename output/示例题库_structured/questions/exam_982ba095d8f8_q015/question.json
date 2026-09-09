@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_982ba095d8f8_q015",
+  "display_id": "EXAM-982BA095D8F8-Q015",
+  "source_exam": "深圳中学 2024 级高二数学周测（9）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（9）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（9）参考答案.md",
+  "question_number": 15,
+  "question_type": "solution",
+  "stem_markdown": "### 15. 某智能系统用于处理判断题（答案只有“对”和“错”），系统内设有两个独立的预测模型，分别记为模型甲和模型乙。系统的答案输出规则如下：系统首先同时向模型甲与模型乙提问，若两者答案一致，则直接输出该答案；若两者答案不一致，系统将重新向模型甲提问一次，并以模型甲此次给出的答案作为最终输出答案。已知模型甲回答正确的概率为 $p(0 < p < 1)$ ，模型乙回答正确的概率为 0.75，假设各模型每次回答相互独立。\n\n(1)当 p=0.85 时，求系统第一次同时向两个模型提问时，两个模型答案不同的概率；\n\n(2)若系统最终输出正确答案的概率不低于0.88，求p的最小值.",
+  "stem_html": "<h3>15. 某智能系统用于处理判断题（答案只有“对”和“错”），系统内设有两个独立的预测模型，分别记为模型甲和模型乙。系统的答案输出规则如下：系统首先同时向模型甲与模型乙提问，若两者答案一致，则直接输出该答案；若两者答案不一致，系统将重新向模型甲提问一次，并以模型甲此次给出的答案作为最终输出答案。已知模型甲回答正确的概率为 $p(0 &lt; p &lt; 1)$ ，模型乙回答正确的概率为 0.75，假设各模型每次回答相互独立。</h3>\n<p>(1)当 p=0.85 时，求系统第一次同时向两个模型提问时，两个模型答案不同的概率；</p>\n<p>(2)若系统最终输出正确答案的概率不低于0.88，求p的最小值.</p>",
+  "options": {},
+  "answer": "",
+  "solution_markdown": "",
+  "solution_html": "",
+  "score": null,
+  "assets": [],
+  "quality_flags": [
+    "missing_answer",
+    "missing_solution"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.206619+00:00",
+    "question_source_sha256": "fd7e09e7361b1a3c423e4a90022e45ec754d1b93b61dd929ba983ee3da41d367",
+    "solution_source_sha256": "49045cdfd752f9f34d7cc2aa89ea2bcec7753750c2327e42b2d465641a0aa9fa"
+  }
+}

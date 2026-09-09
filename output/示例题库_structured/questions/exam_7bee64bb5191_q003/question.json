@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_7bee64bb5191_q003",
+  "display_id": "EXAM-7BEE64BB5191-Q003",
+  "source_exam": "深圳中学 2024 级高二数学周测（1）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（1）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（1）解析.md",
+  "question_number": 3,
+  "question_type": "single_choice",
+  "stem_markdown": "### 3. 若函数 $f(x)$ 的导函数 $f'(x)$ 存在，且 $\\lim_{\\Delta x \\to 0} \\frac{f(1 - \\Delta x) - f(1)}{2\\Delta x} = 4$ ，则 $f'(1) = (\\quad)$\n\nA. -2\n\nB. 2\n\nC. -8\n\nD. 8",
+  "stem_html": "<h3>3. 若函数 $f(x)$ 的导函数 $f'(x)$ 存在，且 $\\lim_{\\Delta x \\to 0} \\frac{f(1 - \\Delta x) - f(1)}{2\\Delta x} = 4$ ，则 $f'(1) = (\\quad)$</h3>\n<p>A. -2</p>\n<p>B. 2</p>\n<p>C. -8</p>\n<p>D. 8</p>",
+  "options": {
+    "A": "-2",
+    "B": "2",
+    "C": "-8",
+    "D": "8"
+  },
+  "answer": "C",
+  "solution_markdown": "### 3. C\n\n**详解** $\\lim_{\\Delta x\\to0}\\frac{f(1-\\Delta x)-f(1)}{2\\Delta x}=-\\frac{1}{2}\\lim_{\\Delta x\\to0}\\frac{f(1-\\Delta x)-f(1)}{-\\Delta x}=-\\frac{1}{2}f'(1)=4$ ，所以 $f'(1)=-8$ ，",
+  "solution_html": "<h3>3. C</h3>\n<p><strong>详解</strong> $\\lim_{\\Delta x\\to0}\\frac{f(1-\\Delta x)-f(1)}{2\\Delta x}=-\\frac{1}{2}\\lim_{\\Delta x\\to0}\\frac{f(1-\\Delta x)-f(1)}{-\\Delta x}=-\\frac{1}{2}f'(1)=4$ ，所以 $f'(1)=-8$ ，</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.563111+00:00",
+    "question_source_sha256": "8fa1d650b2c1959ec549afd5bfc248cdd4ddda5307791163f79f93a33acf3cac",
+    "solution_source_sha256": "5b5d55d680204d0e0f86a02ed377845f5652a058ffb31385ed378ad99f44b5f7"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_ed507f8efdc5_q007",
+  "display_id": "EXAM-ED507F8EFDC5-Q007",
+  "source_exam": "深圳中学 2024 级高二数学周测（2）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（2）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（2）解析.md",
+  "question_number": 7,
+  "question_type": "single_choice",
+  "stem_markdown": "### 7. 已知 $a = \\sin 0.5, b = 3^{0.5}, c = \\log_{0.3} 0.5$ ，则 $a, b, c$ 的大小关系是（）\n\nA. $a < b < c$\n\nB. $a < c < b$\n\nC. $c < a < b$\n\nD. $c < b < a$",
+  "stem_html": "<h3>7. 已知 $a = \\sin 0.5, b = 3^{0.5}, c = \\log_{0.3} 0.5$ ，则 $a, b, c$ 的大小关系是（）</h3>\n<p>A. $a &lt; b &lt; c$</p>\n<p>B. $a &lt; c &lt; b$</p>\n<p>C. $c &lt; a &lt; b$</p>\n<p>D. $c &lt; b &lt; a$</p>",
+  "options": {
+    "A": "$a < b < c$",
+    "B": "$a < c < b$",
+    "C": "$c < a < b$",
+    "D": "$c < b < a$"
+  },
+  "answer": "B",
+  "solution_markdown": "### 7. B\n\n**详解**对 $x\\in\\left(0,\\frac{\\pi}{2}\\right)$ ，因为 $y=\\sin x-x$ ，则 $y'=\\cos x-1<0$ ，即函数 $y=\\sin x-x$ 在 $\\left(0,\\frac{\\pi}{2}\\right)$ 单调递减，且x=0时，y=0，则 $\\sin x-x<0$ ，即 $\\sin x<x$ ，所以 $a=\\sin0.5<0.5$ ，因为 $2\\log_{0.3}0.5=\\log_{0.3}0.25>\\log_{0.3}0.3=1$ 且 $\\log_{0.3}0.5<\\log_{0.3}0.3=1$ ，所以 $0.5<c=\\log_{0.3}0.5<1$ ，又 $b=3^{0.5}>3^{0}=1$ ，所以a<c<b。",
+  "solution_html": "<h3>7. B</h3>\n<p><strong>详解</strong>对 $x\\in\\left(0,\\frac{\\pi}{2}\\right)$ ，因为 $y=\\sin x-x$ ，则 $y'=\\cos x-1&lt;0$ ，即函数 $y=\\sin x-x$ 在 $\\left(0,\\frac{\\pi}{2}\\right)$ 单调递减，且x=0时，y=0，则 $\\sin x-x&lt;0$ ，即 $\\sin x&lt;x$ ，所以 $a=\\sin0.5&lt;0.5$ ，因为 $2\\log_{0.3}0.5=\\log_{0.3}0.25&gt;\\log_{0.3}0.3=1$ 且 $\\log_{0.3}0.5&lt;\\log_{0.3}0.3=1$ ，所以 $0.5&lt;c=\\log_{0.3}0.5&lt;1$ ，又 $b=3^{0.5}&gt;3^{0}=1$ ，所以a&lt;c&lt;b。</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.635606+00:00",
+    "question_source_sha256": "7cb6872dd8f9092683f4d213bfc976e0e2eecfc7cc5919b7f6cfa19ef958a3d1",
+    "solution_source_sha256": "ee82da0a88dd9857c44efb8cd3b554ae670a59b5aa1d62f710078f748a7f8a4e"
+  }
+}

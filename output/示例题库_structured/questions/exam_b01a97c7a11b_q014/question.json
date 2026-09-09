@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_b01a97c7a11b_q014",
+  "display_id": "EXAM-B01A97C7A11B-Q014",
+  "source_exam": "深圳中学2024级高二周测（8）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（8）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（8）参考答案.md",
+  "question_number": 14,
+  "question_type": "fill_blank",
+  "stem_markdown": "### 14. 设 $a \\in (0,1)$ ，若函数 $f(x) = a^{x} + (1 + a)^{x}$ 在 $(0, +\\infty)$ 上单调递增，则 a 的取值范围是 \\_\\_\\_\\_.",
+  "stem_html": "<h3>14. 设 $a \\in (0,1)$ ，若函数 $f(x) = a^{x} + (1 + a)^{x}$ 在 $(0, +\\infty)$ 上单调递增，则 a 的取值范围是 ____.</h3>",
+  "options": {},
+  "answer": "$\\left[\\frac{\\sqrt{5}-1}{2},1\\right)$",
+  "solution_markdown": "### 14. \n\n**详解**由函数的解析式可得 $f'(x) = a^x \\ln a + (1 + a)^x \\ln (1 + a) \\geq 0$ 在区间 $(0, +\\infty)$ 上恒成立，\n\n则 $\\left(1 + a\\right)^x\\ln (1 + a)\\geq -a^x\\ln a$ ，即 $\\left(\\frac{1 + a}{a}\\right)^x\\geq -\\frac{\\ln a}{\\ln(1 + a)}$ 在区间 $(0, + \\infty)$ 上恒成立，\n\n故 $\\left(\\frac{1+a}{a}\\right)^{0}=1\\geq-\\frac{\\ln a}{\\ln(1+a)}$ ，而 $a+1\\in(1,2)$ ，故 $\\ln(1+a)>0$ ，\n\n故 $\\left\\{\\begin{aligned}\\ln(a+1)\\geq-\\ln a\\\\ 0<a<1\\end{aligned}\\right.$ 即 $\\left\\{\\begin{aligned}a(a+1)\\geq1\\\\ 0<a<1\\end{aligned}\\right.$ ，故 $\\frac{\\sqrt{5}-1}{2}\\leq a<1$\n\n结合题意可得实数 $a$ 的取值范围是 $\\left[\\frac{\\sqrt{5} - 1}{2}, 1\\right)$ . 故答案为: $\\left[\\frac{\\sqrt{5} - 1}{2}, 1\\right)$ .",
+  "solution_html": "<h3>14.</h3>\n<p><strong>详解</strong>由函数的解析式可得 $f'(x) = a^x \\ln a + (1 + a)^x \\ln (1 + a) \\geq 0$ 在区间 $(0, +\\infty)$ 上恒成立，</p>\n<p>则 $\\left(1 + a\\right)^x\\ln (1 + a)\\geq -a^x\\ln a$ ，即 $\\left(\\frac{1 + a}{a}\\right)^x\\geq -\\frac{\\ln a}{\\ln(1 + a)}$ 在区间 $(0, + \\infty)$ 上恒成立，</p>\n<p>故 $\\left(\\frac{1+a}{a}\\right)^{0}=1\\geq-\\frac{\\ln a}{\\ln(1+a)}$ ，而 $a+1\\in(1,2)$ ，故 $\\ln(1+a)&gt;0$ ，</p>\n<p>故 $\\left\\{\\begin{aligned}\\ln(a+1)\\geq-\\ln a\\\\ 0&lt;a&lt;1\\end{aligned}\\right.$ 即 $\\left\\{\\begin{aligned}a(a+1)\\geq1\\\\ 0&lt;a&lt;1\\end{aligned}\\right.$ ，故 $\\frac{\\sqrt{5}-1}{2}\\leq a&lt;1$</p>\n<p>结合题意可得实数 $a$ 的取值范围是 $\\left[\\frac{\\sqrt{5} - 1}{2}, 1\\right)$ . 故答案为: $\\left[\\frac{\\sqrt{5} - 1}{2}, 1\\right)$ .</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.110830+00:00",
+    "question_source_sha256": "c94eca08c58bedc15524121a680136ba270a64c9922023c3005a12c4fc409761",
+    "solution_source_sha256": "2c305966ce196e8a17833cd59778cae810c6b4e24eca072eeecc711059b85d1d"
+  }
+}

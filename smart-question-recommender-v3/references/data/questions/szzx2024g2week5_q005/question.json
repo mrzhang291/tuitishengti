@@ -1,0 +1,339 @@
+{
+  "question_id": "szzx2024g2week5_q005",
+  "source_exam": "示例学校高二数学周测（5）",
+  "source_file": "sources/示例学校高二数学周测（5）.docx",
+  "solution_file": "sources/示例学校高二数学周测（5）参考答案.docx",
+  "grade": "高二",
+  "subject": "数学",
+  "question_number": 5,
+  "question_type": "single_choice",
+  "stem_markdown": "5． 已知函数$f(x)$在定义域内可导，$f(x)$的大致图象如图所示，则其导函数$f^'(x)$的大致图象可能为（    ）\nA．[image:rId8] B．[image:rId9] C．[image:rId10] D．[image:rId11]",
+  "stem_text": "5． 已知函数f(x)在定义域内可导，f(x)的大致图象如图所示，则其导函数f^'(x)的大致图象可能为（    ）\nA．[image:rId8] B．[image:rId9] C．[image:rId10] D．[image:rId11]",
+  "stem_html": "<p>5． 已知函数<span class=\"formula\" data-formula-id=\"f001\">f(x)</span>在定义域内可导，<span class=\"formula\" data-formula-id=\"f002\">f(x)</span>的大致图象如图所示，则其导函数<span class=\"formula\" data-formula-id=\"f003\">f^&#x27;(x)</span>的大致图象可能为（    ）</p>\n<p>A．<img src=\"assets/szzx2024g2week5_q005_image_01.png\" alt=\"img001\"> B．<img src=\"assets/szzx2024g2week5_q005_image_02.png\" alt=\"img002\"> C．<img src=\"assets/szzx2024g2week5_q005_image_03.png\" alt=\"img003\"> D．<img src=\"assets/szzx2024g2week5_q005_image_04.png\" alt=\"img004\"></p>",
+  "stem_blocks": [
+    {
+      "type": "text",
+      "text": "5"
+    },
+    {
+      "type": "text",
+      "text": "．"
+    },
+    {
+      "type": "text",
+      "text": " "
+    },
+    {
+      "type": "text",
+      "text": "已知函数"
+    },
+    {
+      "type": "math",
+      "formula_id": "f001",
+      "text_approx": "f(x)"
+    },
+    {
+      "type": "text",
+      "text": "在定义域内可导，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f002",
+      "text_approx": "f(x)"
+    },
+    {
+      "type": "text",
+      "text": "的大致图象如图所示，则其导函数"
+    },
+    {
+      "type": "math",
+      "formula_id": "f003",
+      "text_approx": "f^'(x)"
+    },
+    {
+      "type": "text",
+      "text": "的大致图象可能为（"
+    },
+    {
+      "type": "text",
+      "text": "    "
+    },
+    {
+      "type": "text",
+      "text": "）"
+    },
+    {
+      "type": "text",
+      "text": " "
+    },
+    {
+      "type": "text",
+      "text": "A"
+    },
+    {
+      "type": "text",
+      "text": "．"
+    },
+    {
+      "type": "image",
+      "rel_id": "rId8",
+      "asset_id": "img001",
+      "path": "assets/szzx2024g2week5_q005_image_01.png"
+    },
+    {
+      "type": "text",
+      "text": " "
+    },
+    {
+      "type": "text",
+      "text": "B"
+    },
+    {
+      "type": "text",
+      "text": "．"
+    },
+    {
+      "type": "image",
+      "rel_id": "rId9",
+      "asset_id": "img002",
+      "path": "assets/szzx2024g2week5_q005_image_02.png"
+    },
+    {
+      "type": "text",
+      "text": " "
+    },
+    {
+      "type": "text",
+      "text": "C"
+    },
+    {
+      "type": "text",
+      "text": "．"
+    },
+    {
+      "type": "image",
+      "rel_id": "rId10",
+      "asset_id": "img003",
+      "path": "assets/szzx2024g2week5_q005_image_03.png"
+    },
+    {
+      "type": "text",
+      "text": " "
+    },
+    {
+      "type": "text",
+      "text": "D"
+    },
+    {
+      "type": "text",
+      "text": "．"
+    },
+    {
+      "type": "image",
+      "rel_id": "rId11",
+      "asset_id": "img004",
+      "path": "assets/szzx2024g2week5_q005_image_04.png"
+    }
+  ],
+  "answer": "B",
+  "solution_markdown": "5．B观察图象知，当$x<0$时，$f(x)$先单调递减，再单调递增，则$f^'(x)$先为负数，再为正数，在当$x>0$时，$f(x)$先单调递增，再单调递减，最后单调递增，所以$f^'(x)$先为正数，再为负数，最后为正数，故只有B符合.",
+  "solution_text": "5．B观察图象知，当x<0时，f(x)先单调递减，再单调递增，则f^'(x)先为负数，再为正数，在当x>0时，f(x)先单调递增，再单调递减，最后单调递增，所以f^'(x)先为正数，再为负数，最后为正数，故只有B符合.",
+  "solution_html": "<p>5．B观察图象知，当<span class=\"formula\" data-formula-id=\"f004\">x&lt;0</span>时，<span class=\"formula\" data-formula-id=\"f005\">f(x)</span>先单调递减，再单调递增，则<span class=\"formula\" data-formula-id=\"f006\">f^&#x27;(x)</span>先为负数，再为正数，在当<span class=\"formula\" data-formula-id=\"f007\">x&gt;0</span>时，<span class=\"formula\" data-formula-id=\"f008\">f(x)</span>先单调递增，再单调递减，最后单调递增，所以<span class=\"formula\" data-formula-id=\"f009\">f^&#x27;(x)</span>先为正数，再为负数，最后为正数，故只有B符合.</p>",
+  "solution_blocks": [
+    {
+      "type": "text",
+      "text": "5"
+    },
+    {
+      "type": "text",
+      "text": "．"
+    },
+    {
+      "type": "text",
+      "text": "B"
+    },
+    {
+      "type": "text",
+      "text": "观察图象知，当"
+    },
+    {
+      "type": "math",
+      "formula_id": "f004",
+      "text_approx": "x<0"
+    },
+    {
+      "type": "text",
+      "text": "时，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f005",
+      "text_approx": "f(x)"
+    },
+    {
+      "type": "text",
+      "text": "先单调递减，再单调递增，则"
+    },
+    {
+      "type": "math",
+      "formula_id": "f006",
+      "text_approx": "f^'(x)"
+    },
+    {
+      "type": "text",
+      "text": "先为负数，再为正数，在当"
+    },
+    {
+      "type": "math",
+      "formula_id": "f007",
+      "text_approx": "x>0"
+    },
+    {
+      "type": "text",
+      "text": "时，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f008",
+      "text_approx": "f(x)"
+    },
+    {
+      "type": "text",
+      "text": "先单调递增，再单调递减，最后单调递增，所以"
+    },
+    {
+      "type": "math",
+      "formula_id": "f009",
+      "text_approx": "f^'(x)"
+    },
+    {
+      "type": "text",
+      "text": "先为正数，再为负数，最后为正数，故只有"
+    },
+    {
+      "type": "text",
+      "text": "B"
+    },
+    {
+      "type": "text",
+      "text": "符合"
+    },
+    {
+      "type": "text",
+      "text": "."
+    }
+  ],
+  "assets": [
+    {
+      "id": "img001",
+      "type": "image",
+      "rel_id": "rId8",
+      "source": "word/media/image2.png",
+      "path": "assets/szzx2024g2week5_q005_image_01.png"
+    },
+    {
+      "id": "img002",
+      "type": "image",
+      "rel_id": "rId9",
+      "source": "word/media/image3.png",
+      "path": "assets/szzx2024g2week5_q005_image_02.png"
+    },
+    {
+      "id": "img003",
+      "type": "image",
+      "rel_id": "rId10",
+      "source": "word/media/image4.png",
+      "path": "assets/szzx2024g2week5_q005_image_03.png"
+    },
+    {
+      "id": "img004",
+      "type": "image",
+      "rel_id": "rId11",
+      "source": "word/media/image5.png",
+      "path": "assets/szzx2024g2week5_q005_image_04.png"
+    }
+  ],
+  "formulas": [
+    {
+      "id": "f001",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f(x)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f002",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f(x)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f003",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f^'(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>'</ns0:t></ns0:r></ns0:sup></ns0:sSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>(x)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f004",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "x<0",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>x&lt;0</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f005",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f(x)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f006",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f^'(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>'</ns0:t></ns0:r></ns0:sup></ns0:sSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>(x)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f007",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "x>0",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>x&gt;0</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f008",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f(x)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f009",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "f^'(x)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>f</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>'</ns0:t></ns0:r></ns0:sup></ns0:sSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>(x)</ns0:t></ns0:r></ns0:oMath>"
+    }
+  ],
+  "ole_objects": [],
+  "extraction": {
+    "source_paragraph_range": [
+      12,
+      13
+    ],
+    "solution_paragraph_range": [
+      8,
+      8
+    ],
+    "formula_count": 9,
+    "image_count": 4,
+    "ole_count": 0,
+    "quality_flags": [
+      "contains_images",
+      "contains_omml"
+    ]
+  }
+}

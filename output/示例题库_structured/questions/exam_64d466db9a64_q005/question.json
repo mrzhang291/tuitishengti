@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_64d466db9a64_q005",
+  "display_id": "EXAM-64D466DB9A64-Q005",
+  "source_exam": "深圳中学 2024 级高二数学周测（5）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二数学周测（5）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二数学周测（5）参考答案.md",
+  "question_number": 5,
+  "question_type": "single_choice",
+  "stem_markdown": "### 5. 已知函数 $f(x)$ 在定义域内可导， $f(x)$ 的大致图象如图所示，则其导函数 $f'(x)$ 的大致图象可能为（）\n\n![](assets/15a6a25b8c8bf64aa167400c17aaa7cc5f1b8061f9f6245aadeab87a5cd5a944.jpg)\n\nA.\n\n![](assets/39856c921bb2e785847955b2bbf5e803797796fb5c466ee662b0462ee70e95a2.jpg)\n\nB.\n\n![](assets/8c082822e69be1291f98bdef38147191dafeab9f0bd8f496e81d2bcf130eb37b.jpg)\n\nC.\n\n![](assets/c55839bff1480878a9a1e24fe0ba3fa6173a3fbe70d3e3d58b5a45bbbbfda788.jpg)\n\nD.",
+  "stem_html": "<h3>5. 已知函数 $f(x)$ 在定义域内可导， $f(x)$ 的大致图象如图所示，则其导函数 $f'(x)$ 的大致图象可能为（）</h3>\n<p><img alt=\"\" src=\"assets/15a6a25b8c8bf64aa167400c17aaa7cc5f1b8061f9f6245aadeab87a5cd5a944.jpg\" /></p>\n<p>A.</p>\n<p><img alt=\"\" src=\"assets/39856c921bb2e785847955b2bbf5e803797796fb5c466ee662b0462ee70e95a2.jpg\" /></p>\n<p>B.</p>\n<p><img alt=\"\" src=\"assets/8c082822e69be1291f98bdef38147191dafeab9f0bd8f496e81d2bcf130eb37b.jpg\" /></p>\n<p>C.</p>\n<p><img alt=\"\" src=\"assets/c55839bff1480878a9a1e24fe0ba3fa6173a3fbe70d3e3d58b5a45bbbbfda788.jpg\" /></p>\n<p>D.</p>",
+  "options": {
+    "A": "![](assets/39856c921bb2e785847955b2bbf5e803797796fb5c466ee662b0462ee70e95a2.jpg)",
+    "B": "![](assets/8c082822e69be1291f98bdef38147191dafeab9f0bd8f496e81d2bcf130eb37b.jpg)",
+    "C": "![](assets/c55839bff1480878a9a1e24fe0ba3fa6173a3fbe70d3e3d58b5a45bbbbfda788.jpg)",
+    "D": ""
+  },
+  "answer": "B",
+  "solution_markdown": "### 5. B 观察图象知，当 $x < 0$ 时， $f(x)$ 先单调递减，再单调递增，则 $f'(x)$ 先为负数，再为正数，在当 $x > 0$ 时， $f(x)$ 先单调递增，再单调递减，最后单调递增，所以 $f'(x)$ 先为正数，再为负数，最后为正数，故只有 B 符合.",
+  "solution_html": "<h3>5. B 观察图象知，当 $x &lt; 0$ 时， $f(x)$ 先单调递减，再单调递增，则 $f'(x)$ 先为负数，再为正数，在当 $x &gt; 0$ 时， $f(x)$ 先单调递增，再单调递减，最后单调递增，所以 $f'(x)$ 先为正数，再为负数，最后为正数，故只有 B 符合.</h3>",
+  "score": null,
+  "assets": [
+    {
+      "original_ref": "images/15a6a25b8c8bf64aa167400c17aaa7cc5f1b8061f9f6245aadeab87a5cd5a944.jpg",
+      "alt": "",
+      "saved": true,
+      "file_name": "15a6a25b8c8bf64aa167400c17aaa7cc5f1b8061f9f6245aadeab87a5cd5a944.jpg",
+      "relative_path": "assets/15a6a25b8c8bf64aa167400c17aaa7cc5f1b8061f9f6245aadeab87a5cd5a944.jpg",
+      "sha256": "59571d5be5f9718478b4607a7939c9b6f273d117a9500b88772537aee04d39da"
+    },
+    {
+      "original_ref": "images/39856c921bb2e785847955b2bbf5e803797796fb5c466ee662b0462ee70e95a2.jpg",
+      "alt": "",
+      "saved": true,
+      "file_name": "39856c921bb2e785847955b2bbf5e803797796fb5c466ee662b0462ee70e95a2.jpg",
+      "relative_path": "assets/39856c921bb2e785847955b2bbf5e803797796fb5c466ee662b0462ee70e95a2.jpg",
+      "sha256": "5e49db4dc386693ac0259989c0961f846aa6ab43dada2d40bb143d756d821abf"
+    },
+    {
+      "original_ref": "images/8c082822e69be1291f98bdef38147191dafeab9f0bd8f496e81d2bcf130eb37b.jpg",
+      "alt": "",
+      "saved": true,
+      "file_name": "8c082822e69be1291f98bdef38147191dafeab9f0bd8f496e81d2bcf130eb37b.jpg",
+      "relative_path": "assets/8c082822e69be1291f98bdef38147191dafeab9f0bd8f496e81d2bcf130eb37b.jpg",
+      "sha256": "4469cc18800957681faebaeedec10788eb669f80362d4f48fe10bb9b39a7573d"
+    },
+    {
+      "original_ref": "images/c55839bff1480878a9a1e24fe0ba3fa6173a3fbe70d3e3d58b5a45bbbbfda788.jpg",
+      "alt": "",
+      "saved": true,
+      "file_name": "c55839bff1480878a9a1e24fe0ba3fa6173a3fbe70d3e3d58b5a45bbbbfda788.jpg",
+      "relative_path": "assets/c55839bff1480878a9a1e24fe0ba3fa6173a3fbe70d3e3d58b5a45bbbbfda788.jpg",
+      "sha256": "e6e151c56af68e7b4e7b16e261ba1dbb4d4254a794910ef4bc66a19ac4aaf6cf"
+    }
+  ],
+  "quality_flags": [
+    "contains_images"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.352970+00:00",
+    "question_source_sha256": "0a947743971a67ef971955fddba3a1d96fa8478a9c0c36d10f0c4ee174efd496",
+    "solution_source_sha256": "8c53a21b6d71e1b67f1664b079fb0452db52b9a6b9c5c668ce4dbeedf2a2958c"
+  }
+}

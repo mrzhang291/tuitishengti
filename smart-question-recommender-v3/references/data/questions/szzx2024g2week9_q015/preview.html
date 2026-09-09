@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>示例学校高二周测（9） Q15</title>
+  <style>
+    body { margin: 0; font-family: "Microsoft YaHei", Arial, sans-serif; color: #1f2937; background: #f6f7f9; line-height: 1.7; }
+    main { max-width: 960px; margin: 28px auto; padding: 28px 32px; background: #fff; border: 1px solid #d6d9df; border-radius: 8px; }
+    h1 { font-size: 22px; margin: 0 0 8px; }
+    h2 { font-size: 17px; margin: 28px 0 10px; padding-bottom: 6px; border-bottom: 1px solid #d6d9df; }
+    .meta { color: #5b6472; font-size: 13px; }
+    .formula { font-family: "Cambria Math", "Times New Roman", serif; color: #0f5e9c; padding: 0 2px; }
+    .ole { color: #9a3412; background: #fff7ed; border: 1px solid #fed7aa; border-radius: 4px; padding: 0 4px; }
+    img { display: block; max-width: min(680px, 100%); margin: 12px 0; border: 1px solid #c5cad3; }
+    pre { white-space: pre-wrap; word-break: break-word; background: #f8fafc; border: 1px solid #d6d9df; border-radius: 6px; padding: 12px; font-size: 12px; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>示例学校高二周测（9） Q15</h1>
+  <div class="meta">ID: szzx2024g2week9_q015 | answer: unknown | formulas: 20 | images: 0 | OLE: 0</div>
+  <h2>题目</h2>
+  <p>15．某智能系统用于处理判断题（答案只有“对”和“错”），系统内设有两个独立的预测模型，分别记为模型甲和模型乙.系统的答案输出规则如下：系统首先同时向模型甲与模型乙提问，若两者答案一致，则直接输出该答案；若两者答案不一致，系统将重新向模型甲提问一次，并以模型甲此次给出的答案作为最终输出答案.已知模型甲回答正确的概率为<span class="formula" data-formula-id="f001">p(0&lt;p&lt;1)</span>，模型乙回答正确的概率为0.75，假设各模型每次回答相互独立.</p>
+<p>(1)当<span class="formula" data-formula-id="f002">p=0.85</span>时，求系统第一次同时向两个模型提问时，两个模型答案不同的概率；</p>
+<p>(2)若系统最终输出正确答案的概率不低于0.88，求<span class="formula" data-formula-id="f003">p</span>的最小值.</p>
+  <h2>答案与解析</h2>
+  <p>15【详解】（1）不妨设事件<span class="formula" data-formula-id="f004">A=</span>“模型甲回答正确”，事件<span class="formula" data-formula-id="f005">B=</span>“模型乙回答正确”，由题意可得，<span class="formula" data-formula-id="f006">P(A)=p=0.85</span>，<span class="formula" data-formula-id="f007">P(B)=0.75</span>，由于<span class="formula" data-formula-id="f008">A</span>与<span class="formula" data-formula-id="f009">B</span>相互独立，所以在第一次提问中两个模型答案不同的概率为<span class="formula" data-formula-id="f010">P(AB∪AB)=P(AB)+P(AB)=P(A)P(B)+P(A)P(B)=0.85×0.25+0.15×0.75=0.325</span>，</p>
+<p>（2）由（1）可知，在第一次提问中两个模型答案不同的概率为：</p>
+<p><span class="formula" data-formula-id="f011">P(AB∪AB)=P(AB)+P(AB)=P(A)P(B)+P(A)P(B)=0.25p+0.75(1-p)=0.75-0.5p</span>，</p>
+<p>系统第二次输出正确答案的概率为：<span class="formula" data-formula-id="f012">P(AB∪AB)P(A)=(0.75-0.5p)⋅p=-0.5p^2+0.75p</span>，</p>
+<p>设系统最终输出正确答案的概率为<span class="formula" data-formula-id="f013">P^&#x27;</span>，则<span class="formula" data-formula-id="f014">P&#x27;=0.75p+(-0.5p^2+0.75p)=-0.5p^2+1.5p</span>，</p>
+<p>于是<span class="formula" data-formula-id="f015">P&#x27;≥0.88</span>，解得<span class="formula" data-formula-id="f016">0.8≤p≤2.2</span>，又由<span class="formula" data-formula-id="f017">p∈(0,1)</span>，于是<span class="formula" data-formula-id="f018">0.8≤p&lt;1</span>，则<span class="formula" data-formula-id="f019">p</span>的最小值为<span class="formula" data-formula-id="f020">0.8</span>.</p>
+  <h2>结构化摘要</h2>
+  <pre>{
+  &quot;question_id&quot;: &quot;szzx2024g2week9_q015&quot;,
+  &quot;answer&quot;: null,
+  &quot;assets&quot;: [],
+  &quot;ole_objects&quot;: [],
+  &quot;extraction&quot;: {
+    &quot;source_paragraph_range&quot;: [
+      43,
+      49
+    ],
+    &quot;solution_paragraph_range&quot;: [
+      47,
+      52
+    ],
+    &quot;formula_count&quot;: 20,
+    &quot;image_count&quot;: 0,
+    &quot;ole_count&quot;: 0,
+    &quot;quality_flags&quot;: [
+      &quot;contains_omml&quot;
+    ]
+  }
+}</pre>
+</main>
+</body>
+</html>

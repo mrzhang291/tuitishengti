@@ -1,0 +1,5800 @@
+[
+    [
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.295,
+                0.097,
+                0.704,
+                0.115
+            ],
+            "angle": 0,
+            "content": "深圳中学 2024 级高二数学周测（7）参考答案"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.14,
+                0.121,
+                0.84,
+                0.218
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>题号</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td>答案</td><td>C</td><td>A</td><td>B</td><td>C</td><td>C</td><td>C</td><td>D</td><td>D</td><td>AC</td><td>ABC</td></tr><tr><td>题号</td><td>11</td><td>12</td><td>13</td><td>14</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>答案</td><td>ACD</td><td><eq>\\frac{3}{20}</eq></td><td><eq>(1,+\\infty)</eq></td><td><eq>[0,e)</eq></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.221,
+                0.759,
+                0.249
+            ],
+            "angle": 0,
+            "content": "5. C【详解】设曲线  \\( y = \\ln x \\)  的切点为  \\( (x_{1}, \\ln x_{1}) \\) ，则由  \\( y' = \\frac{1}{x} \\) ，可得切线方程为",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.283,
+                0.851,
+                0.321
+            ],
+            "angle": 0,
+            "content": "\\( y=\\frac{1}{x_{1}}(x-x_{1})+\\ln x_{1}=\\frac{1}{x_{1}}x-1+\\ln x_{1} \\) ，因为切线过点 \\( (0,-2) \\) ，所以 \\( -1+\\ln x_{1}=-2 \\) ，解得 \\( x_{1}=\\frac{1}{e} \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.358,
+                0.843,
+                0.489
+            ],
+            "angle": 0,
+            "content": "所以切线方程为 \\( y = \\mathrm{e}x - 2 \\)；设曲线 \\( y = \\mathrm{e}^x - a \\) 的切点为 \\( (x_2, \\mathrm{e}^{x_2} - a) \\)，由 \\( y' = \\mathrm{e}^x \\)，所以切线的斜率 \\( k = \\mathrm{e}^{x_2} \\)，因为直线 \\( l \\) 的方程为 \\( y = \\mathrm{e}x - 2 \\)，可得 \\( \\mathrm{e}^{x_2} = \\mathrm{e} \\)，解得 \\( x_2 = 1 \\)，即切点为 \\( (1, \\mathrm{e} - a) \\)，所以切线方程为 \\( y - (\\mathrm{e} - a) = \\mathrm{e}(x - 1) \\)，即 \\( y = \\mathrm{e}x - a \\)，所以 \\( -a = -2 \\)，解得 \\( a = 2 \\)。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.503,
+                0.782,
+                0.543
+            ],
+            "angle": 0,
+            "content": "6. C【详解】设  \\( g(x)=\\frac{f(x)}{\\mathrm{e}^{x}} \\) ，则  \\( g'(x)=\\frac{f'(x)-f(x)}{\\mathrm{e}^{x}} \\) ，因为  \\( f(x)>f'(x) \\) ，所以",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.151,
+                0.579,
+                0.222,
+                0.604
+            ],
+            "angle": 0,
+            "content": "\\[\ng ^ {\\prime} (x) <   0\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.275,
+                0.58,
+                0.315,
+                0.605
+            ],
+            "angle": 0,
+            "content": "\\[\ng (x)\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.548,
+                0.58,
+                0.639,
+                0.606
+            ],
+            "angle": 0,
+            "content": "\\[\nf (x) + 2 0 2 6\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.635,
+                0.845,
+                0.699
+            ],
+            "angle": 0,
+            "content": "\\( f(0)+2026=0,\\quad f(0)=-2026,\\quad f(x)+2026\\mathrm{e}^{x}<0 \\) ，即 \\( \\frac{f(x)}{\\mathrm{e}^{x}}<-2026 \\) ，即 \\( g(x)<g(0) \\) ，故x>0。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.708,
+                0.836,
+                0.821
+            ],
+            "angle": 0,
+            "content": "7. D【详解】若 \\(a = b\\)，则 \\(f(x) = a(x - a)^3\\) 为无极值点，不符合题意，\\(\\therefore f(x)\\) 有 \\(a\\) 和 \\(b\\) 两个不同零点，且在 \\(x = a\\) 左右附近是不变号，在 \\(x = b\\) 左右附近是变号的。依题意，\\(a\\) 为函数 \\(f(x) = a(x - a)^2(x - b)\\) 的极大值点，\\(\\therefore\\) 在 \\(x = a\\) 左右附近都是小于零的。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.838,
+                0.849,
+                0.866
+            ],
+            "angle": 0,
+            "content": "当 \\(a < 0\\) 时，由 \\(x > b\\) ，\\(f(x) \\leq 0\\) ，画出 \\(f(x)\\) 的图象如图左所示。由图可知 \\(b < a\\) ，\\(a < 0\\) ，故",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.428,
+                0.96,
+                0.571,
+                0.975
+            ],
+            "angle": 0,
+            "content": "答案第1页，共2页"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.313,
+                0.233,
+                0.371,
+                0.247
+            ],
+            "latex": "",
+            "score": 0.4948
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.443,
+                0.23,
+                0.509,
+                0.247
+            ],
+            "latex": "",
+            "score": 0.7777
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.565,
+                0.221,
+                0.615,
+                0.249
+            ],
+            "latex": "",
+            "score": 0.9261
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.151,
+                0.283,
+                0.411,
+                0.317
+            ],
+            "latex": "",
+            "score": 0.9596
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.645,
+                0.3,
+                0.746,
+                0.319
+            ],
+            "latex": "",
+            "score": 0.767
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.8,
+                0.288,
+                0.847,
+                0.319
+            ],
+            "latex": "",
+            "score": 0.9093
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.274,
+                0.363,
+                0.347,
+                0.384
+            ],
+            "latex": "",
+            "score": 0.9007
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.42,
+                0.361,
+                0.491,
+                0.384
+            ],
+            "latex": "",
+            "score": 0.9223
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.563,
+                0.358,
+                0.648,
+                0.383
+            ],
+            "latex": "",
+            "score": 0.8627
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.682,
+                0.362,
+                0.735,
+                0.384
+            ],
+            "latex": "",
+            "score": 0.7051
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.187,
+                0.419,
+                0.235,
+                0.438
+            ],
+            "latex": "",
+            "score": 0.9028
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.406,
+                0.418,
+                0.478,
+                0.439
+            ],
+            "latex": "",
+            "score": 0.8443
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.532,
+                0.42,
+                0.582,
+                0.438
+            ],
+            "latex": "",
+            "score": 0.8783
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.638,
+                0.418,
+                0.68,
+                0.439
+            ],
+            "latex": "",
+            "score": 0.8198
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.769,
+                0.414,
+                0.831,
+                0.439
+            ],
+            "latex": "",
+            "score": 0.6939
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.275,
+                0.459,
+                0.422,
+                0.485
+            ],
+            "latex": "",
+            "score": 0.7414
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.459,
+                0.464,
+                0.532,
+                0.485
+            ],
+            "latex": "",
+            "score": 0.7762
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.586,
+                0.466,
+                0.646,
+                0.485
+            ],
+            "latex": "",
+            "score": 0.6206
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.701,
+                0.465,
+                0.741,
+                0.485
+            ],
+            "latex": "",
+            "score": 0.5801
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.278,
+                0.504,
+                0.376,
+                0.54
+            ],
+            "latex": "",
+            "score": 0.9225
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.412,
+                0.504,
+                0.571,
+                0.54
+            ],
+            "latex": "",
+            "score": 0.9425
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.625,
+                0.519,
+                0.724,
+                0.54
+            ],
+            "latex": "",
+            "score": 0.6354
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.429,
+                0.648,
+                0.563,
+                0.666
+            ],
+            "latex": "",
+            "score": 0.474
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.601,
+                0.634,
+                0.707,
+                0.667
+            ],
+            "latex": "",
+            "score": 0.9503
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.743,
+                0.648,
+                0.836,
+                0.667
+            ],
+            "latex": "",
+            "score": 0.5918
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.356,
+                0.709,
+                0.478,
+                0.735
+            ],
+            "latex": "",
+            "score": 0.9047
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.692,
+                0.711,
+                0.747,
+                0.734
+            ],
+            "latex": "",
+            "score": 0.6365
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.293,
+                0.757,
+                0.332,
+                0.77
+            ],
+            "latex": "",
+            "score": 0.4576
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.511,
+                0.756,
+                0.55,
+                0.77
+            ],
+            "latex": "",
+            "score": 0.6072
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.151,
+                0.792,
+                0.314,
+                0.817
+            ],
+            "latex": "",
+            "score": 0.7665
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.457,
+                0.8,
+                0.496,
+                0.817
+            ],
+            "latex": "",
+            "score": 0.5602
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.167,
+                0.845,
+                0.209,
+                0.863
+            ],
+            "latex": "",
+            "score": 0.5832
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.264,
+                0.843,
+                0.302,
+                0.864
+            ],
+            "latex": "",
+            "score": 0.4706
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.322,
+                0.839,
+                0.39,
+                0.861
+            ],
+            "latex": "",
+            "score": 0.5398
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.444,
+                0.839,
+                0.485,
+                0.864
+            ],
+            "latex": "",
+            "score": 0.6047
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.712,
+                0.845,
+                0.811,
+                0.863
+            ],
+            "latex": "",
+            "score": 0.6051
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.23,
+                0.313,
+                0.248
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.372,
+                0.231,
+                0.442,
+                0.247
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.51,
+                0.23,
+                0.565,
+                0.248
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.615,
+                0.233,
+                0.755,
+                0.246
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.409,
+                0.297,
+                0.644,
+                0.323
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.747,
+                0.302,
+                0.803,
+                0.323
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.371,
+                0.274,
+                0.383
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.348,
+                0.37,
+                0.419,
+                0.384
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.492,
+                0.369,
+                0.562,
+                0.385
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.648,
+                0.369,
+                0.681,
+                0.386
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.736,
+                0.37,
+                0.842,
+                0.385
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.425,
+                0.186,
+                0.441
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.235,
+                0.422,
+                0.405,
+                0.441
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.479,
+                0.425,
+                0.535,
+                0.441
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.582,
+                0.426,
+                0.637,
+                0.441
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.68,
+                0.425,
+                0.768,
+                0.441
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.472,
+                0.274,
+                0.486
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.423,
+                0.47,
+                0.458,
+                0.488
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.533,
+                0.47,
+                0.586,
+                0.488
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.646,
+                0.471,
+                0.7,
+                0.487
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.525,
+                0.277,
+                0.542
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.373,
+                0.525,
+                0.415,
+                0.544
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.568,
+                0.526,
+                0.625,
+                0.543
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.725,
+                0.526,
+                0.782,
+                0.543
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.648,
+                0.417,
+                0.666
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.564,
+                0.646,
+                0.6,
+                0.664
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.707,
+                0.646,
+                0.742,
+                0.664
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.147,
+                0.682,
+                0.219,
+                0.7
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.718,
+                0.356,
+                0.735
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.481,
+                0.721,
+                0.681,
+                0.734
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.748,
+                0.717,
+                0.834,
+                0.735
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.758,
+                0.293,
+                0.773
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.333,
+                0.758,
+                0.51,
+                0.771
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.55,
+                0.758,
+                0.831,
+                0.771
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.316,
+                0.803,
+                0.456,
+                0.818
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.496,
+                0.805,
+                0.677,
+                0.818
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.85,
+                0.167,
+                0.866
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.209,
+                0.85,
+                0.264,
+                0.865
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.389,
+                0.851,
+                0.444,
+                0.865
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.485,
+                0.851,
+                0.711,
+                0.864
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.808,
+                0.85,
+                0.851,
+                0.867
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.086,
+                0.849,
+                0.171
+            ],
+            "angle": 0,
+            "content": "\\( ab > a^{2} \\) . 当 a > 0 时，由 x > b 时， \\( f(x) > 0 \\) ，画出 \\( f(x) \\) 的图象如图右所示. 由图可知 b > a，\na > 0, 故  \\( ab > a^{2} \\) . 综上所述， \\( ab > a^{2} \\)  成立.",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.149,
+                0.185,
+                0.304,
+                0.288
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.363,
+                0.186,
+                0.511,
+                0.288
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.308,
+                0.802,
+                0.338
+            ],
+            "angle": 0,
+            "content": "8. D【详解】因为  \\( f(-x)=\\mathrm{e}^{-x}-\\mathrm{e}^{x}+\\sin2x=-f(x) \\) ， \\( f(0)=0 \\) ，所以  \\( f(x) \\)  为奇函数.",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.148,
+                0.357,
+                0.637,
+                0.382
+            ],
+            "angle": 0,
+            "content": "\\[\nf ^ {\\prime} (x) = \\mathrm{e} ^ {x} + \\mathrm{e} ^ {- x} - 2 \\cos 2 x \\geq 2 \\sqrt {\\mathrm{e} ^ {x} \\cdot \\mathrm{e} ^ {- x}} - 2 \\cos 2 x = 2 - 2 \\cos 2 x \\geq 0\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.401,
+                0.656,
+                0.429
+            ],
+            "angle": 0,
+            "content": "当且仅当  \\( e^{x}=e^{-x} \\)  即 x=0 时等号成立，所以  \\( f(x) \\)  在 R 上单调递增.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.446,
+                0.707,
+                0.475
+            ],
+            "angle": 0,
+            "content": "由 \\(f(\\ln x) + f(-ax) < 0\\)，所以 \\(f(\\ln x) < -f(-ax) = f(ax)\\)，所以 \\(\\ln x < ax\\).",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.494,
+                0.71,
+                0.531
+            ],
+            "angle": 0,
+            "content": "对任意 \\(x \\in [2, +\\infty)\\)，由 \\(\\ln x < ax\\)，得 \\(a > \\frac{\\ln x}{x}\\)，所以只需 \\(a > \\left(\\frac{\\ln x}{x}\\right)_{\\max}\\) 即可.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.557,
+                0.748,
+                0.588
+            ],
+            "angle": 0,
+            "content": "令 \\(g(x) = \\frac{\\ln x}{x}\\)，则 \\(g'(x) = \\frac{1 - \\ln x}{x^2}\\)，令 \\(g'(x) > 0 \\Rightarrow 2 < x < \\mathrm{e}, g'(x) < 0 \\Rightarrow x > \\mathrm{e}\\)，",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.603,
+                0.854,
+                0.707
+            ],
+            "angle": 0,
+            "content": "所以  \\( g(x) \\)  在  \\( (2, e) \\)  上单调递增，在  \\( (e, +\\infty) \\)  上单调递减。所以  \\( g(x)_{\\max} = g(e) = \\frac{1}{e} \\) ，所以  \\( a > \\frac{1}{e} \\) 。10. ABC【详解】由题意知：方盒的底面为边长为 4 - 2x 的正方形，高为 x，其中 0 < x < 2，则方盒的容积为  \\( V(x) = x(4 - 2x)^{2}(0 < x < 2) \\) ，",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.149,
+                0.724,
+                0.654,
+                0.744
+            ],
+            "angle": 0,
+            "content": "\\[\n\\therefore V ^ {\\prime} (x) = (4 - 2 x) ^ {2} - 4 x (4 - 2 x) = (2 x - 4) (6 x - 4) = 4 (x - 2) (3 x - 2)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.767,
+                0.828,
+                0.807
+            ],
+            "angle": 0,
+            "content": "则当 \\(x \\in \\left(0, \\frac{2}{3}\\right)\\) 时，\\(V'(x) > 0\\)；当 \\(x \\in \\left(\\frac{2}{3}, 2\\right)\\) 时，\\(V'(x) < 0\\)；\\(\\therefore V(x)\\) 在 \\(\\left(0, \\frac{2}{3}\\right)\\) 上单调递增，",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.85,
+                0.767,
+                0.89
+            ],
+            "angle": 0,
+            "content": "在 \\( \\left(\\frac{2}{3},2\\right) \\) 上单调递减， \\( \\therefore V(x)_{\\max}=V\\left(\\frac{2}{3}\\right)=\\frac{128}{27} \\) ，无最小值，ABC正确，D错误.",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.427,
+                0.96,
+                0.572,
+                0.975
+            ],
+            "angle": 0,
+            "content": "答案第2页，共2页"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.151,
+                0.091,
+                0.206,
+                0.109
+            ],
+            "latex": "",
+            "score": 0.713
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.237,
+                0.092,
+                0.279,
+                0.111
+            ],
+            "latex": "",
+            "score": 0.6711
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.332,
+                0.091,
+                0.391,
+                0.112
+            ],
+            "latex": "",
+            "score": 0.8125
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.407,
+                0.087,
+                0.478,
+                0.112
+            ],
+            "latex": "",
+            "score": 0.7929
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.531,
+                0.087,
+                0.573,
+                0.112
+            ],
+            "latex": "",
+            "score": 0.7141
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.799,
+                0.092,
+                0.839,
+                0.111
+            ],
+            "latex": "",
+            "score": 0.6875
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.151,
+                0.144,
+                0.192,
+                0.158
+            ],
+            "latex": "",
+            "score": 0.4782
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.296,
+                0.309,
+                0.628,
+                0.335
+            ],
+            "latex": "",
+            "score": 0.8323
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.663,
+                0.31,
+                0.722,
+                0.336
+            ],
+            "latex": "",
+            "score": 0.8677
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.221,
+                0.406,
+                0.339,
+                0.426
+            ],
+            "latex": "",
+            "score": 0.6148
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.481,
+                0.402,
+                0.559,
+                0.427
+            ],
+            "latex": "",
+            "score": 0.9144
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.168,
+                0.448,
+                0.325,
+                0.472
+            ],
+            "latex": "",
+            "score": 0.8384
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.379,
+                0.448,
+                0.582,
+                0.472
+            ],
+            "latex": "",
+            "score": 0.795
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.638,
+                0.453,
+                0.701,
+                0.471
+            ],
+            "latex": "",
+            "score": 0.7079
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.204,
+                0.509,
+                0.285,
+                0.528
+            ],
+            "latex": "",
+            "score": 0.7289
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.421,
+                0.499,
+                0.481,
+                0.529
+            ],
+            "latex": "",
+            "score": 0.9359
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.57,
+                0.493,
+                0.663,
+                0.529
+            ],
+            "latex": "",
+            "score": 0.9169
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.152,
+                0.558,
+                0.255,
+                0.587
+            ],
+            "latex": "",
+            "score": 0.8892
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.291,
+                0.558,
+                0.398,
+                0.587
+            ],
+            "latex": "",
+            "score": 0.9529
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.437,
+                0.568,
+                0.738,
+                0.586
+            ],
+            "latex": "",
+            "score": 0.8187
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.392,
+                0.615,
+                0.465,
+                0.632
+            ],
+            "latex": "",
+            "score": 0.5111
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.596,
+                0.604,
+                0.738,
+                0.634
+            ],
+            "latex": "",
+            "score": 0.9495
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.792,
+                0.605,
+                0.836,
+                0.634
+            ],
+            "latex": "",
+            "score": 0.9076
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.54,
+                0.65,
+                0.586,
+                0.666
+            ],
+            "latex": "",
+            "score": 0.6577
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.779,
+                0.65,
+                0.846,
+                0.666
+            ],
+            "latex": "",
+            "score": 0.7183
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.274,
+                0.678,
+                0.486,
+                0.702
+            ],
+            "latex": "",
+            "score": 0.9222
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.186,
+                0.769,
+                0.262,
+                0.804
+            ],
+            "latex": "",
+            "score": 0.8605
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.296,
+                0.783,
+                0.369,
+                0.803
+            ],
+            "latex": "",
+            "score": 0.5893
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.404,
+                0.769,
+                0.483,
+                0.804
+            ],
+            "latex": "",
+            "score": 0.7353
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.516,
+                0.769,
+                0.73,
+                0.805
+            ],
+            "latex": "",
+            "score": 0.5702
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.168,
+                0.852,
+                0.219,
+                0.887
+            ],
+            "latex": "",
+            "score": 0.8635
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.326,
+                0.852,
+                0.508,
+                0.886
+            ],
+            "latex": "",
+            "score": 0.9489
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.204,
+                0.098,
+                0.236,
+                0.114
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.279,
+                0.098,
+                0.331,
+                0.114
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.478,
+                0.099,
+                0.53,
+                0.113
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.574,
+                0.099,
+                0.798,
+                0.113
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.224,
+                0.142,
+                0.284,
+                0.159
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.382,
+                0.142,
+                0.443,
+                0.159
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.19,
+                0.153,
+                0.232,
+                0.17
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.283,
+                0.151,
+                0.376,
+                0.171
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.438,
+                0.153,
+                0.483,
+                0.17
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.32,
+                0.296,
+                0.338
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.629,
+                0.321,
+                0.663,
+                0.338
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.723,
+                0.321,
+                0.8,
+                0.337
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.413,
+                0.221,
+                0.429
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.339,
+                0.414,
+                0.479,
+                0.428
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.56,
+                0.414,
+                0.654,
+                0.428
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.46,
+                0.167,
+                0.475
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.323,
+                0.459,
+                0.379,
+                0.476
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.582,
+                0.459,
+                0.638,
+                0.476
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.514,
+                0.204,
+                0.531
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.285,
+                0.516,
+                0.42,
+                0.529
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.481,
+                0.513,
+                0.57,
+                0.531
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.664,
+                0.514,
+                0.709,
+                0.531
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.256,
+                0.569,
+                0.291,
+                0.587
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.399,
+                0.57,
+                0.436,
+                0.586
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.617,
+                0.382,
+                0.631
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.469,
+                0.617,
+                0.594,
+                0.63
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.739,
+                0.615,
+                0.791,
+                0.631
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.652,
+                0.539,
+                0.667
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.589,
+                0.655,
+                0.779,
+                0.666
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.691,
+                0.273,
+                0.703
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.791,
+                0.185,
+                0.807
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.262,
+                0.791,
+                0.29,
+                0.807
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.366,
+                0.791,
+                0.403,
+                0.807
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.484,
+                0.791,
+                0.51,
+                0.806
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.731,
+                0.791,
+                0.828,
+                0.806
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.874,
+                0.167,
+                0.89
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.22,
+                0.875,
+                0.316,
+                0.889
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.509,
+                0.874,
+                0.764,
+                0.889
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.085,
+                0.674,
+                0.115
+            ],
+            "angle": 0,
+            "content": "11. ACD【详解】选项B， \\( g'(x) = -x^2 + 1 \\) ，令 \\( g'(x) = 0 \\) ，得 \\( x = \\pm 1 \\) ；",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.131,
+                0.848,
+                0.161
+            ],
+            "angle": 0,
+            "content": "当 \\(x\\in (-\\infty , - 1)\\cup (1, + \\infty)\\) 时， \\(g^{\\prime}(x) <   0\\) ，当 \\(x\\in (-1,1)\\) 时， \\(g^{\\prime}(x) > 0\\) ，所以 \\(g(x)\\) 在 \\((-1,1)\\) 上单",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.186,
+                0.838,
+                0.242
+            ],
+            "angle": 0,
+            "content": "调递增； \\(g(x)\\) 在 \\((- \\infty, -1), (1, +\\infty)\\) 上单调递减； \\(g(x)\\) 的极小值为 \\(g(-1) = -\\frac{2}{3} + a\\) ， \\(g(x)\\) 的",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.253,
+                0.852,
+                0.312
+            ],
+            "angle": 0,
+            "content": "极大值为 \\(g(1) = \\frac{2}{3} + a\\)，要使 \\(g(x)\\) 有三个零点，则 \\(\\left\\{ \\begin{array}{l} g(-1) < 0 \\\\ g(1) > 0 \\end{array} \\right.\\)，解得 \\(-\\frac{2}{3} < a < \\frac{2}{3}\\)，故 B 错误.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.318,
+                0.77,
+                0.354
+            ],
+            "angle": 0,
+            "content": "选项 C,  \\( F(x) = f(x) - g'(x) = m \\ln x - x + x^{2} - 1 \\) ，则  \\( F'(x) = \\frac{m}{x} + 2x - 1 = \\frac{2x^{2} - x + m}{x} \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.381,
+                0.82,
+                0.411
+            ],
+            "angle": 0,
+            "content": "若 \\(F(x) = f(x) - g'(x)\\) 有两个极值点，则 \\(2x^{2} - x + m = 0\\) 在 \\((0, +\\infty)\\) 有两个不同的正根，",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.427,
+                0.721,
+                0.46
+            ],
+            "angle": 0,
+            "content": "则 \\(\\Delta = 1 - 8m > 0\\) 且 \\(x_{1} + x_{2} = \\frac{1}{2} >0\\) 且 \\(x_{1}x_{2} = \\frac{m}{2} >0\\) ，解得 \\(0 < m < \\frac{1}{8}\\) ，故C正确；",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.474,
+                0.777,
+                0.505
+            ],
+            "angle": 0,
+            "content": "选项 D，令  \\( h(x)=f(mx)-\\mathrm{e}^{x}+mx=m\\ln mx-\\mathrm{e}^{x} \\) ，则  \\( m\\ln mx \\geq e^{x} \\) ，所以  \\( \\ln mx \\geq \\frac{1}{m}e^{x} \\) ，",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.518,
+                0.832,
+                0.564
+            ],
+            "angle": 0,
+            "content": "即 \\(\\ln m + \\ln x\\geq \\mathrm{e}^{\\ln \\frac{1}{m} +x}\\) ，可整理为 \\(x + \\ln x\\geq \\mathrm{e}^{x - \\ln m} + x - \\ln m\\) 即 \\(\\mathrm{e}^{\\ln x} + \\ln x\\geq \\mathrm{e}^{x - \\ln m} + x - \\ln m.\\) 令",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.575,
+                0.754,
+                0.604
+            ],
+            "angle": 0,
+            "content": "\\( g(x)=\\mathrm{e}^{x}+x,\\because g'(x)=\\mathrm{e}^{x}+1>0 \\) ，所以 \\( g(x) \\) 单调递增，所以 \\( \\ln x\\geq x-\\ln m \\) ，即",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.63,
+                0.823,
+                0.716
+            ],
+            "angle": 0,
+            "content": "\\( \\ln m\\geq x-\\ln x \\) ，令 \\( p(x)=x-\\ln x,\\quad\\therefore p'(x)=1-\\frac{1}{x}=\\frac{x-1}{x} \\) ，当0<x<1时， \\( p'(x)<0 \\) ，当\n \\( x>1_{时},\\quad p'(x)>0, \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.731,
+                0.84,
+                0.808
+            ],
+            "angle": 0,
+            "content": "所以 \\(p(x)\\) 在 \\((0,1)\\) 上单调递减，在 \\((1, +\\infty)\\) 上单调递增，所以 \\(p(x)_{\\min} = p(1) = 1\\) ，即 \\(\\ln m \\geq 1\\) ，\\(\\therefore m \\geq e\\) ，所以 \\(m\\) 的取值范围为 \\([e, +\\infty)\\)，所以 \\(D\\) 正确。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.822,
+                0.783,
+                0.857
+            ],
+            "angle": 0,
+            "content": "12. \\(\\frac{3}{20}\\) 【详解】 \\(P(A\\overline{B}\\overline{C}) + P(\\overline{A} B\\overline{C}) + P(\\overline{A}\\overline{B} C) = \\frac{3}{4}\\times \\frac{1}{3}\\times \\frac{1}{5} +\\frac{1}{4}\\times \\frac{2}{3}\\times \\frac{1}{5} +\\frac{1}{4}\\times \\frac{1}{3}\\times \\frac{4}{5} = \\frac{3}{20}.\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.873,
+                0.834,
+                0.902
+            ],
+            "angle": 0,
+            "content": "13. \\((1, +\\infty)\\) 【详解】函数 \\(f(x)\\) 在区间 \\([1, 2]\\) 上存在单调递减区间，即 \\(f'(x) = \\ln x + 1 - \\frac{a}{x} < 0\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.427,
+                0.959,
+                0.572,
+                0.975
+            ],
+            "angle": 0,
+            "content": "答案第3页，共2页"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.36,
+                0.086,
+                0.471,
+                0.112
+            ],
+            "latex": "",
+            "score": 0.727
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.489,
+                0.087,
+                0.579,
+                0.113
+            ],
+            "latex": "",
+            "score": 0.6776
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.167,
+                0.133,
+                0.343,
+                0.159
+            ],
+            "latex": "",
+            "score": 0.6202
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.363,
+                0.133,
+                0.434,
+                0.156
+            ],
+            "latex": "",
+            "score": 0.5369
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.469,
+                0.133,
+                0.542,
+                0.158
+            ],
+            "latex": "",
+            "score": 0.6288
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.577,
+                0.133,
+                0.65,
+                0.156
+            ],
+            "latex": "",
+            "score": 0.5814
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.703,
+                0.133,
+                0.809,
+                0.158
+            ],
+            "latex": "",
+            "score": 0.7914
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.64,
+                0.188,
+                0.755,
+                0.218
+            ],
+            "latex": "",
+            "score": 0.9087
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.221,
+                0.263,
+                0.313,
+                0.292
+            ],
+            "latex": "",
+            "score": 0.914
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.533,
+                0.253,
+                0.616,
+                0.291
+            ],
+            "latex": "",
+            "score": 0.9259
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.67,
+                0.262,
+                0.755,
+                0.292
+            ],
+            "latex": "",
+            "score": 0.9355
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.187,
+                0.329,
+                0.496,
+                0.351
+            ],
+            "latex": "",
+            "score": 0.7389
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.533,
+                0.318,
+                0.768,
+                0.351
+            ],
+            "latex": "",
+            "score": 0.9509
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.176,
+                0.382,
+                0.33,
+                0.407
+            ],
+            "latex": "",
+            "score": 0.6932
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.481,
+                0.383,
+                0.668,
+                0.408
+            ],
+            "latex": "",
+            "score": 0.9482
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.169,
+                0.428,
+                0.385,
+                0.458
+            ],
+            "latex": "",
+            "score": 0.6351
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.406,
+                0.43,
+                0.495,
+                0.457
+            ],
+            "latex": "",
+            "score": 0.9263
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.548,
+                0.428,
+                0.622,
+                0.458
+            ],
+            "latex": "",
+            "score": 0.9357
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.234,
+                0.484,
+                0.507,
+                0.502
+            ],
+            "latex": "",
+            "score": 0.7241
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.543,
+                0.485,
+                0.637,
+                0.502
+            ],
+            "latex": "",
+            "score": 0.6841
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.678,
+                0.474,
+                0.77,
+                0.504
+            ],
+            "latex": "",
+            "score": 0.9449
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.17,
+                0.52,
+                0.3,
+                0.545
+            ],
+            "latex": "",
+            "score": 0.8843
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.393,
+                0.528,
+                0.798,
+                0.546
+            ],
+            "latex": "",
+            "score": 0.873
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.151,
+                0.575,
+                0.394,
+                0.6
+            ],
+            "latex": "",
+            "score": 0.9297
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.448,
+                0.576,
+                0.488,
+                0.6
+            ],
+            "latex": "",
+            "score": 0.8337
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.613,
+                0.581,
+                0.713,
+                0.601
+            ],
+            "latex": "",
+            "score": 0.6517
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.152,
+                0.646,
+                0.259,
+                0.662
+            ],
+            "latex": "",
+            "score": 0.4502
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.29,
+                0.642,
+                0.397,
+                0.66
+            ],
+            "latex": "",
+            "score": 0.4862
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.417,
+                0.631,
+                0.577,
+                0.662
+            ],
+            "latex": "",
+            "score": 0.944
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.612,
+                0.644,
+                0.672,
+                0.661
+            ],
+            "latex": "",
+            "score": 0.8315
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.71,
+                0.643,
+                0.781,
+                0.66
+            ],
+            "latex": "",
+            "score": 0.618
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.15,
+                0.687,
+                0.3,
+                0.713
+            ],
+            "latex": "",
+            "score": 0.5488
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.187,
+                0.733,
+                0.284,
+                0.759
+            ],
+            "latex": "",
+            "score": 0.9295
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.408,
+                0.733,
+                0.463,
+                0.758
+            ],
+            "latex": "",
+            "score": 0.8576
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.605,
+                0.733,
+                0.738,
+                0.758
+            ],
+            "latex": "",
+            "score": 0.8871
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.773,
+                0.738,
+                0.831,
+                0.758
+            ],
+            "latex": "",
+            "score": 0.6553
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.151,
+                0.785,
+                0.209,
+                0.803
+            ],
+            "latex": "",
+            "score": 0.662
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.261,
+                0.787,
+                0.279,
+                0.804
+            ],
+            "latex": "",
+            "score": 0.475
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.385,
+                0.778,
+                0.44,
+                0.804
+            ],
+            "latex": "",
+            "score": 0.8591
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.184,
+                0.823,
+                0.781,
+                0.856
+            ],
+            "latex": "",
+            "score": 0.8786
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.673,
+                0.874,
+                0.831,
+                0.901
+            ],
+            "latex": "",
+            "score": 0.9529
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.097,
+                0.351,
+                0.114
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.579,
+                0.093,
+                0.674,
+                0.114
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.145,
+                0.167,
+                0.162
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.431,
+                0.145,
+                0.472,
+                0.162
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.539,
+                0.145,
+                0.571,
+                0.162
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.648,
+                0.145,
+                0.704,
+                0.162
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.807,
+                0.144,
+                0.848,
+                0.162
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.201,
+                0.639,
+                0.216
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.756,
+                0.198,
+                0.836,
+                0.218
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.274,
+                0.22,
+                0.291
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.314,
+                0.275,
+                0.533,
+                0.291
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.617,
+                0.274,
+                0.67,
+                0.291
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.756,
+                0.274,
+                0.851,
+                0.291
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.338,
+                0.189,
+                0.356
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.494,
+                0.339,
+                0.536,
+                0.356
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.395,
+                0.17,
+                0.41
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.34,
+                0.396,
+                0.48,
+                0.408
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.67,
+                0.396,
+                0.817,
+                0.408
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.44,
+                0.169,
+                0.457
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.386,
+                0.434,
+                0.405,
+                0.452
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.495,
+                0.44,
+                0.548,
+                0.457
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.622,
+                0.44,
+                0.718,
+                0.455
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.486,
+                0.233,
+                0.502
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.507,
+                0.485,
+                0.542,
+                0.503
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.638,
+                0.484,
+                0.678,
+                0.504
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.532,
+                0.17,
+                0.548
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.302,
+                0.531,
+                0.392,
+                0.548
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.799,
+                0.531,
+                0.835,
+                0.549
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.394,
+                0.588,
+                0.452,
+                0.603
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.489,
+                0.588,
+                0.612,
+                0.602
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.71,
+                0.587,
+                0.753,
+                0.605
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.398,
+                0.652,
+                0.403,
+                0.655
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.577,
+                0.642,
+                0.611,
+                0.66
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.673,
+                0.641,
+                0.704,
+                0.66
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.782,
+                0.642,
+                0.822,
+                0.66
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.745,
+                0.187,
+                0.761
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.285,
+                0.746,
+                0.407,
+                0.758
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.464,
+                0.746,
+                0.603,
+                0.758
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.736,
+                0.745,
+                0.772,
+                0.761
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.209,
+                0.792,
+                0.261,
+                0.805
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.28,
+                0.792,
+                0.385,
+                0.805
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.441,
+                0.792,
+                0.557,
+                0.805
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.835,
+                0.178,
+                0.853
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.882,
+                0.672,
+                0.901
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.084,
+                0.825,
+                0.172
+            ],
+            "angle": 0,
+            "content": "在 \\(x \\in [1,2]\\) 有解，即 \\(a > x\\ln x + x\\) 在 \\(x \\in [1,2]\\) 有解，设 \\(g(x) = x\\ln x + x, x \\in [1,2]\\)，可得\n\\(g'(x) = \\ln x + 2 > 0\\)，所以函数 \\(g(x)\\) 在 \\([1,2]\\) 单调递增，所以 \\(g(x)_{\\min} = g(1) = 1\\)，所以 \\(a > 1\\).",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.187,
+                0.849,
+                0.238
+            ],
+            "angle": 0,
+            "content": "14. \\([0, \\mathbf{e})\\) 【详解】当 \\(x \\leq 0\\) 时，\\(f(x) = -x^2 - 2x = -(x + 1)^2 + 1\\)，为开口向下，对称轴为 \\(x = -1\\) 的",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.243,
+                0.689,
+                0.271
+            ],
+            "angle": 0,
+            "content": "抛物线，因为 \\(g(x) = f(x) - a\\) 有三个零点 \\(x_{1}, x_{2}, x_{3}\\)，不妨令 \\(x_{1} < x_{2} < x_{3}\\)，",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.288,
+                0.842,
+                0.341
+            ],
+            "angle": 0,
+            "content": "所以 \\(g(x) = f(x) - a = 0\\) 有三个不相等的根 \\(x_{1}, x_{2}, x_{3}\\)，即 \\(y = f(x)\\) 与 \\(y = a\\) 图象有三个不同的",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.346,
+                0.781,
+                0.373
+            ],
+            "angle": 0,
+            "content": "交点 \\(x_{1}, x_{2}, x_{3}\\)，作出图象，如图所示。所以 \\(0 \\leq a < 1\\)，因为 \\(x_{1}, x_{2}\\) 为方程 \\(-x^{2} - 2x = a\\)，",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.151,
+                0.393,
+                0.388,
+                0.496
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.398,
+                0.392,
+                0.804,
+                0.511
+            ],
+            "angle": 0,
+            "content": "即 \\(x^{2} + 2x + a = 0\\) 的两个不相等实根，所以 \\(x_{1}\\cdot x_{2} = a\\) 因为 \\(x_{3}\\) 为方程 \\(\\ln x = a\\) 的根，所以 \\(x_{3} = \\mathrm{e}^{a}\\) 所以 \\(x_{1}\\cdot x_{2}\\cdot x_{3} = a\\cdot \\mathrm{e}^{a}\\) .令 \\(h(x) = xe^{x},x\\in [0,1)\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.529,
+                0.808,
+                0.603
+            ],
+            "angle": 0,
+            "content": "则 \\(h'(x) = \\mathrm{e}^x + x\\mathrm{e}^x = (1 + x)\\mathrm{e}^x > 0\\)，所以 \\(h(x)\\) 在 \\([0,1)\\) 上单调递增，所以 \\(h(0) \\leq h(x) < h(1)\\)，即 \\(0 \\leq h(x) < \\mathrm{e}\\)，所以 \\(x_1 \\cdot x_2 \\cdot x_3 = a \\cdot \\mathrm{e}^a \\in [0, \\mathrm{e})\\)。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.62,
+                0.764,
+                0.657
+            ],
+            "angle": 0,
+            "content": "15.【详解】（1）当 \\(a = -1\\) 时，\\(f(x) = \\frac{x^2}{2} + \\ln x + 2x + \\frac{1}{2}\\)，所以 \\(f'(x) = x + \\frac{1}{x} + 2\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.684,
+                0.58,
+                0.718
+            ],
+            "angle": 0,
+            "content": "所以 \\( f'(1)=1+\\frac{1}{1}+2=4 \\) ，又 \\( f(1)=\\frac{1^{2}}{2}+\\ln 1+2\\times 1+\\frac{1}{2}=3 \\) ，",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.731,
+                0.764,
+                0.759
+            ],
+            "angle": 0,
+            "content": "所以曲线  \\( y = f(x) \\)  在点  \\( (1, f(1)) \\)  处的切线方程为  \\( y - 3 = 4(x - 1) \\) ，即 4x - y - 1 = 0。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.155,
+                0.777,
+                0.451,
+                0.813
+            ],
+            "angle": 0,
+            "content": "(2) 由  \\( f(x)=\\frac{x^{2}}{2}-a\\ln x-(a-1)x-\\frac{a}{2} \\) ,",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.841,
+                0.822,
+                0.879
+            ],
+            "angle": 0,
+            "content": "得  \\( f'(x)=x-\\frac{a}{x}-(a-1)=\\frac{x^{2}-(a-1)x-a}{x}=\\frac{(x-a)(x+1)}{x} \\) ，函数  \\( f(x) \\)  的定义域为  \\( (0,+\\infty) \\) ,",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.427,
+                0.96,
+                0.571,
+                0.975
+            ],
+            "angle": 0,
+            "content": "答案第4页，共2页"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.169,
+                0.086,
+                0.23,
+                0.112
+            ],
+            "latex": "",
+            "score": 0.8885
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.302,
+                0.086,
+                0.47,
+                0.112
+            ],
+            "latex": "",
+            "score": 0.931
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.543,
+                0.086,
+                0.721,
+                0.112
+            ],
+            "latex": "",
+            "score": 0.8787
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.151,
+                0.142,
+                0.285,
+                0.161
+            ],
+            "latex": "",
+            "score": 0.6496
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.375,
+                0.141,
+                0.47,
+                0.168
+            ],
+            "latex": "",
+            "score": 0.9115
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.595,
+                0.142,
+                0.727,
+                0.168
+            ],
+            "latex": "",
+            "score": 0.9138
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.762,
+                0.148,
+                0.817,
+                0.168
+            ],
+            "latex": "",
+            "score": 0.5912
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.184,
+                0.188,
+                0.226,
+                0.21
+            ],
+            "latex": "",
+            "score": 0.6097
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.315,
+                0.194,
+                0.354,
+                0.213
+            ],
+            "latex": "",
+            "score": 0.8583
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.39,
+                0.191,
+                0.585,
+                0.213
+            ],
+            "latex": "",
+            "score": 0.8293
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.779,
+                0.195,
+                0.826,
+                0.214
+            ],
+            "latex": "",
+            "score": 0.8833
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.257,
+                0.244,
+                0.377,
+                0.269
+            ],
+            "latex": "",
+            "score": 0.7432
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.467,
+                0.249,
+                0.525,
+                0.268
+            ],
+            "latex": "",
+            "score": 0.7661
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.598,
+                0.248,
+                0.679,
+                0.268
+            ],
+            "latex": "",
+            "score": 0.8402
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.187,
+                0.289,
+                0.333,
+                0.314
+            ],
+            "latex": "",
+            "score": 0.7672
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.476,
+                0.295,
+                0.534,
+                0.314
+            ],
+            "latex": "",
+            "score": 0.8049
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.571,
+                0.293,
+                0.698,
+                0.315
+            ],
+            "latex": "",
+            "score": 0.9448
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.186,
+                0.348,
+                0.246,
+                0.37
+            ],
+            "latex": "",
+            "score": 0.8785
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.472,
+                0.348,
+                0.534,
+                0.37
+            ],
+            "latex": "",
+            "score": 0.8049
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.589,
+                0.348,
+                0.627,
+                0.37
+            ],
+            "latex": "",
+            "score": 0.8868
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.681,
+                0.347,
+                0.773,
+                0.371
+            ],
+            "latex": "",
+            "score": 0.877
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.42,
+                0.393,
+                0.529,
+                0.416
+            ],
+            "latex": "",
+            "score": 0.9309
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.438,
+                0.442,
+                0.456,
+                0.462
+            ],
+            "latex": "",
+            "score": 0.7632
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.51,
+                0.442,
+                0.567,
+                0.461
+            ],
+            "latex": "",
+            "score": 0.6524
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.723,
+                0.394,
+                0.794,
+                0.417
+            ],
+            "latex": "",
+            "score": 0.8365
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.657,
+                0.439,
+                0.707,
+                0.462
+            ],
+            "latex": "",
+            "score": 0.9125
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.437,
+                0.483,
+                0.73,
+                0.508
+            ],
+            "latex": "",
+            "score": 0.721
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.168,
+                0.532,
+                0.384,
+                0.554
+            ],
+            "latex": "",
+            "score": 0.9231
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.438,
+                0.529,
+                0.529,
+                0.555
+            ],
+            "latex": "",
+            "score": 0.9031
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.672,
+                0.532,
+                0.798,
+                0.554
+            ],
+            "latex": "",
+            "score": 0.8194
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.168,
+                0.578,
+                0.255,
+                0.6
+            ],
+            "latex": "",
+            "score": 0.9039
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.308,
+                0.574,
+                0.478,
+                0.595
+            ],
+            "latex": "",
+            "score": 0.9213
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.394,
+                0.622,
+                0.578,
+                0.655
+            ],
+            "latex": "",
+            "score": 0.9554
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.631,
+                0.623,
+                0.757,
+                0.655
+            ],
+            "latex": "",
+            "score": 0.9338
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.187,
+                0.687,
+                0.327,
+                0.717
+            ],
+            "latex": "",
+            "score": 0.9493
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.364,
+                0.686,
+                0.572,
+                0.717
+            ],
+            "latex": "",
+            "score": 0.9448
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.222,
+                0.732,
+                0.389,
+                0.757
+            ],
+            "latex": "",
+            "score": 0.9293
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.517,
+                0.733,
+                0.626,
+                0.757
+            ],
+            "latex": "",
+            "score": 0.8402
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.662,
+                0.735,
+                0.758,
+                0.755
+            ],
+            "latex": "",
+            "score": 0.6393
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.211,
+                0.778,
+                0.447,
+                0.811
+            ],
+            "latex": "",
+            "score": 0.9226
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.167,
+                0.842,
+                0.576,
+                0.877
+            ],
+            "latex": "",
+            "score": 0.9594
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.631,
+                0.857,
+                0.67,
+                0.876
+            ],
+            "latex": "",
+            "score": 0.46
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.761,
+                0.856,
+                0.816,
+                0.876
+            ],
+            "latex": "",
+            "score": 0.5781
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.098,
+                0.168,
+                0.114
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.231,
+                0.099,
+                0.301,
+                0.114
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.471,
+                0.099,
+                0.542,
+                0.114
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.722,
+                0.097,
+                0.778,
+                0.115
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.285,
+                0.155,
+                0.375,
+                0.169
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.47,
+                0.155,
+                0.594,
+                0.169
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.727,
+                0.153,
+                0.761,
+                0.171
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.199,
+                0.179,
+                0.215
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.231,
+                0.201,
+                0.314,
+                0.215
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.355,
+                0.202,
+                0.381,
+                0.215
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.585,
+                0.202,
+                0.778,
+                0.213
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.827,
+                0.201,
+                0.848,
+                0.216
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.256,
+                0.256,
+                0.272
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.377,
+                0.255,
+                0.468,
+                0.272
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.523,
+                0.254,
+                0.599,
+                0.272
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.302,
+                0.188,
+                0.318
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.334,
+                0.304,
+                0.474,
+                0.316
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.531,
+                0.302,
+                0.57,
+                0.318
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.701,
+                0.304,
+                0.84,
+                0.316
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.357,
+                0.189,
+                0.374
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.248,
+                0.358,
+                0.471,
+                0.371
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.532,
+                0.356,
+                0.68,
+                0.374
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.4,
+                0.404,
+                0.42,
+                0.419
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.531,
+                0.405,
+                0.722,
+                0.417
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.403,
+                0.451,
+                0.437,
+                0.463
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.457,
+                0.451,
+                0.511,
+                0.463
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.567,
+                0.45,
+                0.656,
+                0.463
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.4,
+                0.494,
+                0.437,
+                0.511
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.541,
+                0.171,
+                0.558
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.385,
+                0.541,
+                0.437,
+                0.557
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.53,
+                0.542,
+                0.669,
+                0.555
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.801,
+                0.55,
+                0.805,
+                0.553
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.587,
+                0.167,
+                0.602
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.256,
+                0.587,
+                0.31,
+                0.602
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.64,
+                0.385,
+                0.658
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.576,
+                0.641,
+                0.633,
+                0.659
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.697,
+                0.187,
+                0.714
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.328,
+                0.698,
+                0.363,
+                0.714
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.744,
+                0.221,
+                0.758
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.394,
+                0.745,
+                0.515,
+                0.756
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.626,
+                0.743,
+                0.664,
+                0.76
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.157,
+                0.797,
+                0.21,
+                0.815
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.863,
+                0.167,
+                0.88
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.577,
+                0.864,
+                0.63,
+                0.878
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.671,
+                0.863,
+                0.762,
+                0.879
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.085,
+                0.724,
+                0.115
+            ],
+            "angle": 0,
+            "content": "若 \\(a \\leq 0\\)，可得 \\(x \\in (0, +\\infty)\\) 时，\\(f'(x) > 0\\)，所以 \\(f(x)\\) 在 \\((0, +\\infty)\\) 上单调递增；",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.131,
+                0.695,
+                0.16
+            ],
+            "angle": 0,
+            "content": "若 a > 0 时，当  \\( x \\in (0, a) \\)  时， \\( f'(x) < 0 \\) ，所以  \\( f(x) \\)  在  \\( (0, a) \\)  上单调递减；",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.177,
+                0.632,
+                0.206
+            ],
+            "angle": 0,
+            "content": "当  \\( x \\in (a, +\\infty) \\)  时， \\( f'(x) > 0 \\) ，所以  \\( f(x) \\)  在  \\( (a, +\\infty) \\)  上单调递增；",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.223,
+                0.551,
+                0.252
+            ],
+            "angle": 0,
+            "content": "综上所述：当  \\( a \\leq 0 \\)  时， \\( f(x) \\)  在  \\( (0, +\\infty) \\)  上单调递增；",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.268,
+                0.627,
+                0.298
+            ],
+            "angle": 0,
+            "content": "当 \\(a > 0\\) 时，\\(f(x)\\) 在 \\((0, a)\\) 上单调递减，在 \\((a, +\\infty)\\) 上单调递增.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.316,
+                0.51,
+                0.344
+            ],
+            "angle": 0,
+            "content": "（3）由（2）可知当 \\(a > 0\\) 时，\\(f(x)\\) 有极小值，",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.36,
+                0.789,
+                0.397
+            ],
+            "angle": 0,
+            "content": "极小值为 \\( f(a) = \\frac{a^2}{2} - a\\ln a - (a - 1)a - \\frac{a}{2} = -\\frac{a^2}{2} - a\\ln a + \\frac{a}{2} \\)，此时极小值也是最小值，",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.408,
+                0.843,
+                0.445
+            ],
+            "angle": 0,
+            "content": "由 \\(f(x) \\geq 0\\)，可得 \\(-\\frac{a^2}{2} - a \\ln a + \\frac{a}{2} \\geq 0\\)，\\(\\frac{a}{2} (1 - a - 2 \\ln a) \\geq 0\\)，又 \\(a > 0\\)，所以 \\(1 - a - 2 \\ln a \\geq 0\\).",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.473,
+                0.524,
+                0.503
+            ],
+            "angle": 0,
+            "content": "令 \\( g(a)=1-a-2\\ln a \\) ，求导得 \\( g'(a)=-1-\\frac{2}{a}<0 \\) ，",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.517,
+                0.589,
+                0.546
+            ],
+            "angle": 0,
+            "content": "所以  \\( g(a) \\)  在  \\( (0,+\\infty) \\)  上单调递减，又  \\( g(1)=1-1-2\\ln1=0 \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.563,
+                0.666,
+                0.591
+            ],
+            "angle": 0,
+            "content": "当 \\(a \\in (0,1)\\) 时，\\(g(a) > g(1) = 0\\)，当 \\(a \\in (1, +\\infty)\\) 时，\\(g(a) < g(1) = 0\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.609,
+                0.709,
+                0.638
+            ],
+            "angle": 0,
+            "content": "所以 \\(a \\in (0,1]\\) 时，\\(g(a) \\geq 0\\)，此时满足 \\(f(x) \\geq 0\\)，所以 \\(a\\) 的取值范围 \\((0,1]\\).",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.658,
+                0.622,
+                0.693
+            ],
+            "angle": 0,
+            "content": "16.【详解】（1）令 \\(g(x) = 0\\) ，即 \\(\\mathrm{e}^x -2a(x - 1) = 0\\) ，则 \\(2a = \\frac{\\mathrm{e}^x}{x - 1}\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.72,
+                0.663,
+                0.756
+            ],
+            "angle": 0,
+            "content": "函数 \\(g(x)\\) 在 \\((1, +\\infty)\\) 上有零点等价于方程 \\(2a = \\frac{\\mathrm{e}^x}{x - 1}\\) 在 \\((1, +\\infty)\\) 上有解，",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.767,
+                0.821,
+                0.798
+            ],
+            "angle": 0,
+            "content": "设 \\(h(x) = \\frac{\\mathrm{e}^x}{x - 1}\\)，则 \\(h'(x) = \\frac{(x - 2)\\mathrm{e}^x}{(x - 1)^2}\\)，故函数 \\(h(x)\\) 在(1,2)上是减函数，在 \\((2, +\\infty)\\) 上是增函数，",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.811,
+                0.487,
+                0.841
+            ],
+            "angle": 0,
+            "content": "故 \\(h(x)\\geq h(2) = \\mathrm{e}^{2}\\) ，所以 \\(a\\) 的范围是 \\(\\left[\\frac{\\mathrm{e}^2}{2}, + \\infty\\right)\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.155,
+                0.859,
+                0.542,
+                0.886
+            ],
+            "angle": 0,
+            "content": "(2) 因为  \\( g(x)=\\mathrm{e}^{x}-2a(x-1) \\) ，故  \\( g'(x)=\\mathrm{e}^{x}-2a \\) ，",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.427,
+                0.96,
+                0.572,
+                0.975
+            ],
+            "angle": 0,
+            "content": "答案第5页，共2页"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.149,
+                0.091,
+                0.209,
+                0.112
+            ],
+            "latex": "",
+            "score": 0.5739
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.262,
+                0.087,
+                0.347,
+                0.112
+            ],
+            "latex": "",
+            "score": 0.6657
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.38,
+                0.087,
+                0.455,
+                0.112
+            ],
+            "latex": "",
+            "score": 0.6959
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.508,
+                0.086,
+                0.625,
+                0.112
+            ],
+            "latex": "",
+            "score": 0.7604
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.168,
+                0.139,
+                0.209,
+                0.157
+            ],
+            "latex": "",
+            "score": 0.6837
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.262,
+                0.133,
+                0.331,
+                0.158
+            ],
+            "latex": "",
+            "score": 0.6381
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.366,
+                0.132,
+                0.44,
+                0.157
+            ],
+            "latex": "",
+            "score": 0.6076
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.493,
+                0.132,
+                0.595,
+                0.158
+            ],
+            "latex": "",
+            "score": 0.9407
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.167,
+                0.178,
+                0.252,
+                0.204
+            ],
+            "latex": "",
+            "score": 0.6045
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.287,
+                0.178,
+                0.361,
+                0.202
+            ],
+            "latex": "",
+            "score": 0.5077
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.413,
+                0.178,
+                0.53,
+                0.204
+            ],
+            "latex": "",
+            "score": 0.5905
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.256,
+                0.224,
+                0.451,
+                0.251
+            ],
+            "latex": "",
+            "score": 0.6287
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.15,
+                0.276,
+                0.21,
+                0.295
+            ],
+            "latex": "",
+            "score": 0.6194
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.244,
+                0.269,
+                0.348,
+                0.295
+            ],
+            "latex": "",
+            "score": 0.8175
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.452,
+                0.269,
+                0.53,
+                0.296
+            ],
+            "latex": "",
+            "score": 0.8383
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.385,
+                0.316,
+                0.428,
+                0.34
+            ],
+            "latex": "",
+            "score": 0.565
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.221,
+                0.361,
+                0.586,
+                0.395
+            ],
+            "latex": "",
+            "score": 0.9603
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.167,
+                0.421,
+                0.237,
+                0.443
+            ],
+            "latex": "",
+            "score": 0.6626
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.29,
+                0.408,
+                0.595,
+                0.442
+            ],
+            "latex": "",
+            "score": 0.6041
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.631,
+                0.427,
+                0.672,
+                0.442
+            ],
+            "latex": "",
+            "score": 0.6458
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.725,
+                0.426,
+                0.837,
+                0.442
+            ],
+            "latex": "",
+            "score": 0.7506
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.168,
+                0.484,
+                0.31,
+                0.501
+            ],
+            "latex": "",
+            "score": 0.5978
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.381,
+                0.473,
+                0.514,
+                0.502
+            ],
+            "latex": "",
+            "score": 0.9542
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.186,
+                0.518,
+                0.302,
+                0.544
+            ],
+            "latex": "",
+            "score": 0.9184
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.412,
+                0.518,
+                0.582,
+                0.544
+            ],
+            "latex": "",
+            "score": 0.7534
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.186,
+                0.61,
+                0.354,
+                0.636
+            ],
+            "latex": "",
+            "score": 0.5706
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.443,
+                0.611,
+                0.511,
+                0.636
+            ],
+            "latex": "",
+            "score": 0.7819
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.305,
+                0.673,
+                0.369,
+                0.69
+            ],
+            "latex": "",
+            "score": 0.4843
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.405,
+                0.673,
+                0.51,
+                0.69
+            ],
+            "latex": "",
+            "score": 0.6302
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.545,
+                0.658,
+                0.619,
+                0.69
+            ],
+            "latex": "",
+            "score": 0.9326
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.187,
+                0.733,
+                0.294,
+                0.753
+            ],
+            "latex": "",
+            "score": 0.7831
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.454,
+                0.723,
+                0.526,
+                0.753
+            ],
+            "latex": "",
+            "score": 0.9261
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.169,
+                0.77,
+                0.241,
+                0.796
+            ],
+            "latex": "",
+            "score": 0.9419
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.278,
+                0.768,
+                0.378,
+                0.795
+            ],
+            "latex": "",
+            "score": 0.9463
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.669,
+                0.78,
+                0.722,
+                0.796
+            ],
+            "latex": "",
+            "score": 0.6984
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.169,
+                0.824,
+                0.283,
+                0.84
+            ],
+            "latex": "",
+            "score": 0.7205
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.424,
+                0.812,
+                0.481,
+                0.841
+            ],
+            "latex": "",
+            "score": 0.9344
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.23,
+                0.86,
+                0.534,
+                0.885
+            ],
+            "latex": "",
+            "score": 0.6439
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.21,
+                0.098,
+                0.262,
+                0.115
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.343,
+                0.098,
+                0.375,
+                0.115
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.455,
+                0.098,
+                0.507,
+                0.115
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.626,
+                0.099,
+                0.722,
+                0.114
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.145,
+                0.167,
+                0.16
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.205,
+                0.145,
+                0.262,
+                0.161
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.329,
+                0.144,
+                0.36,
+                0.161
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.437,
+                0.144,
+                0.493,
+                0.161
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.596,
+                0.145,
+                0.691,
+                0.159
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.19,
+                0.17,
+                0.207
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.248,
+                0.189,
+                0.281,
+                0.208
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.359,
+                0.19,
+                0.412,
+                0.206
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.533,
+                0.191,
+                0.629,
+                0.205
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.238,
+                0.255,
+                0.251
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.452,
+                0.238,
+                0.546,
+                0.25
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.207,
+                0.282,
+                0.238,
+                0.299
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.349,
+                0.284,
+                0.443,
+                0.297
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.531,
+                0.284,
+                0.624,
+                0.297
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.157,
+                0.323,
+                0.378,
+                0.344
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.424,
+                0.322,
+                0.509,
+                0.346
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.375,
+                0.221,
+                0.389
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.587,
+                0.375,
+                0.785,
+                0.388
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.429,
+                0.167,
+                0.445
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.238,
+                0.428,
+                0.293,
+                0.446
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.594,
+                0.429,
+                0.63,
+                0.445
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.672,
+                0.429,
+                0.724,
+                0.445
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.311,
+                0.484,
+                0.38,
+                0.501
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.485,
+                0.166,
+                0.499
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.53,
+                0.186,
+                0.547
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.303,
+                0.531,
+                0.412,
+                0.546
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.559,
+                0.667,
+                0.596
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.621,
+                0.185,
+                0.639
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.355,
+                0.622,
+                0.441,
+                0.636
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.512,
+                0.611,
+                0.711,
+                0.636
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.676,
+                0.305,
+                0.693
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.366,
+                0.676,
+                0.409,
+                0.694
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.507,
+                0.676,
+                0.548,
+                0.694
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.73,
+                0.186,
+                0.751
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.296,
+                0.731,
+                0.453,
+                0.749
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.527,
+                0.731,
+                0.664,
+                0.754
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.778,
+                0.168,
+                0.796
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.242,
+                0.778,
+                0.277,
+                0.796
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.381,
+                0.779,
+                0.668,
+                0.796
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.722,
+                0.779,
+                0.82,
+                0.794
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.824,
+                0.169,
+                0.841
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.285,
+                0.825,
+                0.423,
+                0.838
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.157,
+                0.869,
+                0.23,
+                0.887
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.088,
+                0.539,
+                0.114
+            ],
+            "angle": 0,
+            "content": "因为 a > 0 ，所以  \\( g'(x) = \\mathrm{e}^{x} - 2a = 0 \\)  得  \\( x = \\ln(2a) \\) ,",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.14,
+                0.623,
+                0.159
+            ],
+            "angle": 0,
+            "content": "故 \\(g(x)\\) 在 \\((- \\infty, \\ln(2a))\\) 上是减函数，在 \\((\\ln(2a), +\\infty)\\) 上是增函数",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.179,
+                0.634,
+                0.206
+            ],
+            "angle": 0,
+            "content": "因为  \\( x_{1} \\neq x_{2} \\) ， \\( g(x_{1}) = g(x_{2}) \\) ，所以不妨设  \\( x_{1} < \\ln(2a) \\) ， \\( x_{2} > \\ln(2a) \\) ，",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.148,
+                0.224,
+                0.747,
+                0.251
+            ],
+            "angle": 0,
+            "content": "\\[\n\\text {设} F (x) = g (x) - g (2 \\ln (2 a) - x) \\quad (x > \\ln (2 a)) = \\mathrm{e} ^ {x} - 4 a ^ {2} \\mathrm{e} ^ {- x} + 4 a \\ln (2 a) - 4 a x,\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.148,
+                0.271,
+                0.531,
+                0.297
+            ],
+            "angle": 0,
+            "content": "\\[\nF ^ {\\prime} (x) = \\mathrm{e} ^ {x} + 4 a ^ {2} \\mathrm{e} ^ {- x} - 4 a \\geq 2 \\sqrt {\\mathrm{e} ^ {x} \\cdot 4 a ^ {2} \\mathrm{e} ^ {- x}} - 4 a = 0, \\tag {故}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.314,
+                0.817,
+                0.343
+            ],
+            "angle": 0,
+            "content": "所以  \\( F(x) \\)  在  \\( (\\ln(2a), +\\infty) \\)  上是增函数，所以  \\( F(x) > F(\\ln(2a)) \\) ，即  \\( F(x) > F(\\ln(2a)) = 0 \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.147,
+                0.361,
+                0.598,
+                0.388
+            ],
+            "angle": 0,
+            "content": "\\[\n\\text {故} ^ {g \\left(x _ {2}\\right) - g \\left(2 \\ln (2 a) - x _ {2}\\right) > 0}, \\text {即} ^ {g \\left(x _ {2}\\right) > g \\left(2 \\ln (2 a) - x _ {2}\\right)},\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.407,
+                0.529,
+                0.435
+            ],
+            "angle": 0,
+            "content": "因为  \\( x_{1}<\\ln(2a) \\) ， \\( x_{2}>\\ln(2a) \\) ，且  \\( g(x_{1})=g(x_{2}) \\) ，",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.453,
+                0.35,
+                0.481
+            ],
+            "angle": 0,
+            "content": "所以  \\( 2\\ln(2a)-x_{2}<\\ln(2a) \\) ，",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.499,
+                0.776,
+                0.527
+            ],
+            "angle": 0,
+            "content": "因为 \\(g(x)\\) 在 \\((- \\infty, \\ln(2a))\\) 上是减函数，所以 \\(x_1 < 2\\ln(2a) - x_2\\)，故 \\(x_1 + x_2 < 2\\ln(2a)\\).",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.427,
+                0.96,
+                0.572,
+                0.975
+            ],
+            "angle": 0,
+            "content": "答案第6页，共2页"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.186,
+                0.094,
+                0.227,
+                0.111
+            ],
+            "latex": "",
+            "score": 0.8142
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.282,
+                0.088,
+                0.529,
+                0.113
+            ],
+            "latex": "",
+            "score": 0.9094
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.169,
+                0.141,
+                0.314,
+                0.158
+            ],
+            "latex": "",
+            "score": 0.7208
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.42,
+                0.141,
+                0.53,
+                0.158
+            ],
+            "latex": "",
+            "score": 0.6981
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.185,
+                0.179,
+                0.355,
+                0.204
+            ],
+            "latex": "",
+            "score": 0.7798
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.461,
+                0.18,
+                0.625,
+                0.204
+            ],
+            "latex": "",
+            "score": 0.5421
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.187,
+                0.316,
+                0.334,
+                0.341
+            ],
+            "latex": "",
+            "score": 0.9379
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.477,
+                0.315,
+                0.609,
+                0.341
+            ],
+            "latex": "",
+            "score": 0.7427
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.185,
+                0.408,
+                0.52,
+                0.434
+            ],
+            "latex": "",
+            "score": 0.6304
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.186,
+                0.453,
+                0.341,
+                0.479
+            ],
+            "latex": "",
+            "score": 0.7467
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.187,
+                0.502,
+                0.333,
+                0.525
+            ],
+            "latex": "",
+            "score": 0.8728
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.475,
+                0.501,
+                0.601,
+                0.525
+            ],
+            "latex": "",
+            "score": 0.8165
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.638,
+                0.5,
+                0.771,
+                0.523
+            ],
+            "latex": "",
+            "score": 0.6291
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.098,
+                0.19,
+                0.115
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.224,
+                0.098,
+                0.281,
+                0.115
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.144,
+                0.172,
+                0.162
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.316,
+                0.145,
+                0.412,
+                0.16
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.531,
+                0.145,
+                0.62,
+                0.16
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.147,
+                0.189,
+                0.184,
+                0.207
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.356,
+                0.19,
+                0.461,
+                0.205
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.649,
+                0.316,
+                0.81,
+                0.33
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.327,
+                0.186,
+                0.345
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.335,
+                0.328,
+                0.475,
+                0.342
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.609,
+                0.328,
+                0.649,
+                0.343
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.419,
+                0.184,
+                0.436
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.465,
+                0.186,
+                0.482
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.343,
+                0.474,
+                0.348,
+                0.48
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.51,
+                0.19,
+                0.529
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.334,
+                0.512,
+                0.473,
+                0.525
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.602,
+                0.51,
+                0.641,
+                0.528
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ]
+]

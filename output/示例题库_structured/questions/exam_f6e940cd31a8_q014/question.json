@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_f6e940cd31a8_q014",
+  "display_id": "EXAM-F6E940CD31A8-Q014",
+  "source_exam": "深圳中学 2024 级高二数学周测（3）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（3）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（3）参考答案.md",
+  "question_number": 14,
+  "question_type": "fill_blank",
+  "stem_markdown": "### 14. 设函数 $f(x) = e^{x}(2x - 1) - ax + a$ ，其中 $a < 1$ ，若存在唯一的整数 $x_{0}$ ，使得 $f(x_{0}) < 0$ ，则 $a$ 的取值范围是 \\_\\_\\_\\_.",
+  "stem_html": "<h3>14. 设函数 $f(x) = e^{x}(2x - 1) - ax + a$ ，其中 $a &lt; 1$ ，若存在唯一的整数 $x_{0}$ ，使得 $f(x_{0}) &lt; 0$ ，则 $a$ 的取值范围是 ____.</h3>",
+  "options": {},
+  "answer": "$[\\frac{3}{2e},1)$",
+  "solution_markdown": "### 14. $[\\frac{3}{2e}, 1)$ \n\n**详解**由题意可知存在唯一的整数 $x_0$ ，使得 $e^{x_0}(2x_0 - 1) < ax_0 - a$ ，设\n\n$g(x)=e^{x}(2x-1)$ ， $h(x)=ax-a$ ，由 $g'(x)=e^{x}(2x+1)$ ，可知 $g(x)$ 在 $(-∞,-\\frac{1}{2})$\n\n上单调递减，在 $(- \\frac{1}{2}, +\\infty)$ 上单调递增，作出 $g(x)$ 与 $h(x)$ 的大致图象如图所\n\n![](assets/5e85effcf0efd2cc4878a048b76ef969ae602def10551e79a251df5d24155492.jpg)\n\n故 $\\left\\{\\begin{aligned}h(0)>g(0)\\\\h(-1)\\leqslant g(-1)\\end{aligned}\\right.$ ，即 $\\left\\{\\begin{aligned}a<1\\\\-2a\\leqslant-\\frac{3}{e}\\end{aligned}\\right.$ ，所以 $\\frac{3}{2e}\\leqslant a<1$ .",
+  "solution_html": "<h3>14. $[\\frac{3}{2e}, 1)$</h3>\n<p><strong>详解</strong>由题意可知存在唯一的整数 $x_0$ ，使得 $e^{x_0}(2x_0 - 1) &lt; ax_0 - a$ ，设</p>\n<p>$g(x)=e^{x}(2x-1)$ ， $h(x)=ax-a$ ，由 $g'(x)=e^{x}(2x+1)$ ，可知 $g(x)$ 在 $(-∞,-\\frac{1}{2})$</p>\n<p>上单调递减，在 $(- \\frac{1}{2}, +\\infty)$ 上单调递增，作出 $g(x)$ 与 $h(x)$ 的大致图象如图所</p>\n<p><img alt=\"\" src=\"assets/5e85effcf0efd2cc4878a048b76ef969ae602def10551e79a251df5d24155492.jpg\" /></p>\n<p>故 $\\left\\{\\begin{aligned}h(0)&gt;g(0)\\\\h(-1)\\leqslant g(-1)\\end{aligned}\\right.$ ，即 $\\left\\{\\begin{aligned}a&lt;1\\\\-2a\\leqslant-\\frac{3}{e}\\end{aligned}\\right.$ ，所以 $\\frac{3}{2e}\\leqslant a&lt;1$ .</p>",
+  "score": 5,
+  "assets": [
+    {
+      "original_ref": "images/5e85effcf0efd2cc4878a048b76ef969ae602def10551e79a251df5d24155492.jpg",
+      "alt": "",
+      "saved": true,
+      "file_name": "5e85effcf0efd2cc4878a048b76ef969ae602def10551e79a251df5d24155492.jpg",
+      "relative_path": "assets/5e85effcf0efd2cc4878a048b76ef969ae602def10551e79a251df5d24155492.jpg",
+      "sha256": "d3540174f89987898c99f9ec238a1483c3c1643b9d8ac1716fbf3adf10612fba"
+    }
+  ],
+  "quality_flags": [
+    "contains_images"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.788943+00:00",
+    "question_source_sha256": "78a4bb6656c35dbe613a79b0ed7dccc993b5c108f4f5c32b995a022aaa492633",
+    "solution_source_sha256": "86a4c5fab883e5128818dbb75724d3042d0c55a8ea81c7cdffedbb262214e02c"
+  }
+}

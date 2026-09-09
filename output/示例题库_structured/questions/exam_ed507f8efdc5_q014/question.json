@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_ed507f8efdc5_q014",
+  "display_id": "EXAM-ED507F8EFDC5-Q014",
+  "source_exam": "深圳中学 2024 级高二数学周测（2）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（2）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（2）解析.md",
+  "question_number": 14,
+  "question_type": "fill_blank",
+  "stem_markdown": "### 14. 已知对任意 $x_{1}, x_{2} \\in (0, +\\infty)$ ，且当 $x_{1} < x_{2}$ 时，都有 $\\frac{a(\\ln x_{2} - \\ln x_{1})}{x_{2} - x_{1}} < 2 + \\frac{1}{x_{1}x_{2}}$ ，则a的取值范围是\\_\\_\\_\\_。",
+  "stem_html": "<h3>14. 已知对任意 $x_{1}, x_{2} \\in (0, +\\infty)$ ，且当 $x_{1} &lt; x_{2}$ 时，都有 $\\frac{a(\\ln x_{2} - \\ln x_{1})}{x_{2} - x_{1}} &lt; 2 + \\frac{1}{x_{1}x_{2}}$ ，则a的取值范围是____。</h3>",
+  "options": {},
+  "answer": "$\\left(-\\infty, 2\\sqrt{2}\\right]$",
+  "solution_markdown": "### 14. $\\left(-\\infty, 2\\sqrt{2}\\right]$ \n\n**详解**由 $\\frac{a(\\ln x_2 - \\ln x_1)}{x_2 - x_1} < 2 + \\frac{1}{x_1x_2}, x_1, x_2 \\in (0, +\\infty)$ 且 $x_1 < x_2$ ，所以 $a(\\ln x_2 - \\ln x_1) < 2(x_2 - x_1) + \\frac{x_2 - x_1}{x_1x_2} \\Rightarrow a\\ln x_2 - 2x_2 + \\frac{1}{x_2} < a\\ln x_1 - 2x_1 + \\frac{1}{x_1}$ . 设 $f(x) = a\\ln x - 2x + \\frac{1}{x}, x > 0$ ，则原问题转化为 $f(x)$ 在 $(0, +\\infty)$ 上单调递减. 所以 $f'(x) = \\frac{a}{x} - 2 - \\frac{1}{x^2} \\leq 0$ 在 $(0, +\\infty)$ 上恒成立，即 $a \\leq 2x + \\frac{1}{x}, x > 0$ 恒成立. 因为 $2x + \\frac{1}{x} \\geq 2\\sqrt{2x \\cdot \\frac{1}{x}} = 2\\sqrt{2}$ （当且仅当 $2x = \\frac{1}{x}$ 即 $x = \\frac{\\sqrt{2}}{2}$ 时取“=”）. 所以 $a \\leq 2\\sqrt{2}$ .",
+  "solution_html": "<h3>14. $\\left(-\\infty, 2\\sqrt{2}\\right]$</h3>\n<p><strong>详解</strong>由 $\\frac{a(\\ln x_2 - \\ln x_1)}{x_2 - x_1} &lt; 2 + \\frac{1}{x_1x_2}, x_1, x_2 \\in (0, +\\infty)$ 且 $x_1 &lt; x_2$ ，所以 $a(\\ln x_2 - \\ln x_1) &lt; 2(x_2 - x_1) + \\frac{x_2 - x_1}{x_1x_2} \\Rightarrow a\\ln x_2 - 2x_2 + \\frac{1}{x_2} &lt; a\\ln x_1 - 2x_1 + \\frac{1}{x_1}$ . 设 $f(x) = a\\ln x - 2x + \\frac{1}{x}, x &gt; 0$ ，则原问题转化为 $f(x)$ 在 $(0, +\\infty)$ 上单调递减. 所以 $f'(x) = \\frac{a}{x} - 2 - \\frac{1}{x^2} \\leq 0$ 在 $(0, +\\infty)$ 上恒成立，即 $a \\leq 2x + \\frac{1}{x}, x &gt; 0$ 恒成立. 因为 $2x + \\frac{1}{x} \\geq 2\\sqrt{2x \\cdot \\frac{1}{x}} = 2\\sqrt{2}$ （当且仅当 $2x = \\frac{1}{x}$ 即 $x = \\frac{\\sqrt{2}}{2}$ 时取“=”）. 所以 $a \\leq 2\\sqrt{2}$ .</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.660324+00:00",
+    "question_source_sha256": "7cb6872dd8f9092683f4d213bfc976e0e2eecfc7cc5919b7f6cfa19ef958a3d1",
+    "solution_source_sha256": "ee82da0a88dd9857c44efb8cd3b554ae670a59b5aa1d62f710078f748a7f8a4e"
+  }
+}

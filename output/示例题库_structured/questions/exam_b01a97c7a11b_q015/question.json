@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_b01a97c7a11b_q015",
+  "display_id": "EXAM-B01A97C7A11B-Q015",
+  "source_exam": "深圳中学2024级高二周测（8）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（8）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（8）参考答案.md",
+  "question_number": 15,
+  "question_type": "solution",
+  "stem_markdown": "### 15. 甲、乙两个学校进行体育比赛, 比赛共设三个项目, 每个项目胜方得 10 分, 负方得 0 分, 没有平局. 三个项目比赛结束后, 总得分高的学校获得冠军. 已知甲学校在三个项目中获胜的概率分别为 0.5, 0.4, 0.8, 各项目的比赛结果相互独立.\n\n(1)求甲学校获得冠军的概率;\n\n(2)用 X 表示乙学校的总得分,求 X 的分布列与期望.",
+  "stem_html": "<h3>15. 甲、乙两个学校进行体育比赛, 比赛共设三个项目, 每个项目胜方得 10 分, 负方得 0 分, 没有平局. 三个项目比赛结束后, 总得分高的学校获得冠军. 已知甲学校在三个项目中获胜的概率分别为 0.5, 0.4, 0.8, 各项目的比赛结果相互独立.</h3>\n<p>(1)求甲学校获得冠军的概率;</p>\n<p>(2)用 X 表示乙学校的总得分,求 X 的分布列与期望.</p>",
+  "options": {},
+  "answer": "见解析",
+  "solution_markdown": "### 15. 解(1)设甲学校在三个项目中获胜的事件依次记为 A, B, C, 甲学校获得冠军的事件记为 D, 则\n\n$$P (D) = P (A B C) + P (\\overline {{{A}}} B C) + P (A \\overline {{{B}}} C) + P (A B \\overline {{{C}}}) = P (A) P (B) P (C) + P (\\overline {{{A}}}) P (B) P (C) + P (A) P (\\overline {{{B}}}) P (C) + P (A) P$$\n\n$$(B) P (\\overline {{{C}}}) = 0.5 \\times 0.4 \\times 0.8 + 0.5 \\times 0.4 \\times 0.8 + 0.5 \\times 0.6 \\times 0.8 + 0.5 \\times 0.4 \\times 0.2 = 0.1 6 + 0.1 6 + 0.2 4 + 0.0 4 = 0.6.$$\n\n(2)依题可知,X的可能取值为0,10,20,30,所以,\n\n$$P (X = 0) = 0.5 \\times 0.4 \\times 0.8 = 0.1 6,$$\n\n$$P (X = 1 0) = 0.5 \\times 0.4 \\times 0.8 + 0.5 \\times 0.6 \\times 0.8 + 0.5 \\times 0.4 \\times 0.2 = 0.4 4,$$\n\n$$P (X = 2 0) = 0.5 \\times 0.6 \\times 0.8 + 0.5 \\times 0.6 \\times 0.2 + 0.5 \\times 0.4 \\times 0.2 = 0.3 4,$$\n\n$$P (X = 3 0) = 0.5 \\times 0.6 \\times 0.2 = 0.0 6.$$\n\n即 $X$ 的分布列为\n\n<table><tr><td>X</td><td>0</td><td>10</td><td>20</td><td>30</td></tr><tr><td>P</td><td>0.16</td><td>0.44</td><td>0.34</td><td>0.06</td></tr></table>\n\n期望 $E(X)=0\\times0.16+10\\times0.44+20\\times0.34+30\\times0.06=13$ .",
+  "solution_html": "<h3>15. 解(1)设甲学校在三个项目中获胜的事件依次记为 A, B, C, 甲学校获得冠军的事件记为 D, 则</h3>\n<p>$$P (D) = P (A B C) + P (\\overline {{{A}}} B C) + P (A \\overline {{{B}}} C) + P (A B \\overline {{{C}}}) = P (A) P (B) P (C) + P (\\overline {{{A}}}) P (B) P (C) + P (A) P (\\overline {{{B}}}) P (C) + P (A) P$$</p>\n<p>$$(B) P (\\overline {{{C}}}) = 0.5 \\times 0.4 \\times 0.8 + 0.5 \\times 0.4 \\times 0.8 + 0.5 \\times 0.6 \\times 0.8 + 0.5 \\times 0.4 \\times 0.2 = 0.1 6 + 0.1 6 + 0.2 4 + 0.0 4 = 0.6.$$</p>\n<p>(2)依题可知,X的可能取值为0,10,20,30,所以,</p>\n<p>$$P (X = 0) = 0.5 \\times 0.4 \\times 0.8 = 0.1 6,$$</p>\n<p>$$P (X = 1 0) = 0.5 \\times 0.4 \\times 0.8 + 0.5 \\times 0.6 \\times 0.8 + 0.5 \\times 0.4 \\times 0.2 = 0.4 4,$$</p>\n<p>$$P (X = 2 0) = 0.5 \\times 0.6 \\times 0.8 + 0.5 \\times 0.6 \\times 0.2 + 0.5 \\times 0.4 \\times 0.2 = 0.3 4,$$</p>\n<p>$$P (X = 3 0) = 0.5 \\times 0.6 \\times 0.2 = 0.0 6.$$</p>\n<p>即 $X$ 的分布列为</p>\n<table><tr><td>X</td><td>0</td><td>10</td><td>20</td><td>30</td></tr><tr><td>P</td><td>0.16</td><td>0.44</td><td>0.34</td><td>0.06</td></tr></table>\n\n<p>期望 $E(X)=0\\times0.16+10\\times0.44+20\\times0.34+30\\times0.06=13$ .</p>",
+  "score": null,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.114446+00:00",
+    "question_source_sha256": "c94eca08c58bedc15524121a680136ba270a64c9922023c3005a12c4fc409761",
+    "solution_source_sha256": "2c305966ce196e8a17833cd59778cae810c6b4e24eca072eeecc711059b85d1d"
+  }
+}

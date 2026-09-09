@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_5267945b2a8f_q007",
+  "display_id": "EXAM-5267945B2A8F-Q007",
+  "source_exam": "深圳中学 2024 级高二数学 五一作业",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学２０２４级高二数学五一作业 试卷.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学２０２４级高二数学五一作业 答案.md",
+  "question_number": 7,
+  "question_type": "single_choice",
+  "stem_markdown": "### 7. 已知函数 $f(x) = \\mathrm{e}^x - a\\ln (ax - a) + a (a > 0)$ ，若对于任意的 $x > 1$ 使得不等式 $f(x) \\geq 0$ 成立，则实数 $a$ 的取值范围（）\n\nA. $(0, \\mathrm{e}^2]$\n\nB. $(0, \\mathrm{e}^{\\mathrm{e}}]$\n\nC. $[\\mathrm{e}^2, +\\infty)$\n\nD. $[\\mathrm{e}^{\\mathrm{e}}, +\\infty)$",
+  "stem_html": "<h3>7. 已知函数 $f(x) = \\mathrm{e}^x - a\\ln (ax - a) + a (a &gt; 0)$ ，若对于任意的 $x &gt; 1$ 使得不等式 $f(x) \\geq 0$ 成立，则实数 $a$ 的取值范围（）</h3>\n<p>A. $(0, \\mathrm{e}^2]$</p>\n<p>B. $(0, \\mathrm{e}^{\\mathrm{e}}]$</p>\n<p>C. $[\\mathrm{e}^2, +\\infty)$</p>\n<p>D. $[\\mathrm{e}^{\\mathrm{e}}, +\\infty)$</p>",
+  "options": {
+    "A": "$(0, \\mathrm{e}^2]$",
+    "B": "$(0, \\mathrm{e}^{\\mathrm{e}}]$",
+    "C": "$[\\mathrm{e}^2, +\\infty)$",
+    "D": "$[\\mathrm{e}^{\\mathrm{e}}, +\\infty)$"
+  },
+  "answer": "A",
+  "solution_markdown": "### 7. A\n\n**详解**因为 $a > 0$ ，由 $ax - a > 0$ 可得 $x > 1$ ，即函数 $f(x)$ 的定义域为 $(1, +\\infty)$ ， $f(x) = \\mathrm{e}^x - a\\ln a - a\\ln (x - 1) + a \\geq 0$ 可得 $\\frac{\\mathrm{e}^x}{a} - \\ln a \\geq \\ln (x - 1) - 1$ ，即 $\\mathrm{e}^{x - \\ln a} + x - \\ln a \\geq x - 1 + \\ln (x - 1)$ ，构造函数 $g(x) = x + \\ln x$ ，其中 $x > 0$ ，则 $g'(x) = 1 + \\frac{1}{x} > 0$ 故函数 $g(x)$ 在 $(0, +\\infty)$ 上单调递增，所以 $g\\left(\\mathrm{e}^{x - \\ln a}\\right) \\geq g(x - 1)$ ，可得 $\\mathrm{e}^{x - \\ln a} \\geq x - 1$ ，则 $x - \\ln a \\geq \\ln (x - 1)$ 即 $\\ln a \\leq x - \\ln (x - 1)$ ，其中 $x > 1$ ，令 $h(x) = x - \\ln (x - 1)$ 其中 $x > 1$ 则 $h'(x) = 1 - \\frac{1}{x - 1} = \\frac{x - 2}{x - 1}$ ，当 $1 < x < 2$ 时， $h'(x) < 0$ ，此时函数 $h(x)$ 单调递减，当 $x > 2$ 时， $h'(x) > 0$ ，此时函数 $h(x)$ 单调递增，所以， $\\ln a \\leq h(x)_{\\min} = h(2) = 2$ ，解得 $a \\leq e^2$ 综上， $0 < a \\leq e^2$ 故选：\n\nA.",
+  "solution_html": "<h3>7. A</h3>\n<p><strong>详解</strong>因为 $a &gt; 0$ ，由 $ax - a &gt; 0$ 可得 $x &gt; 1$ ，即函数 $f(x)$ 的定义域为 $(1, +\\infty)$ ， $f(x) = \\mathrm{e}^x - a\\ln a - a\\ln (x - 1) + a \\geq 0$ 可得 $\\frac{\\mathrm{e}^x}{a} - \\ln a \\geq \\ln (x - 1) - 1$ ，即 $\\mathrm{e}^{x - \\ln a} + x - \\ln a \\geq x - 1 + \\ln (x - 1)$ ，构造函数 $g(x) = x + \\ln x$ ，其中 $x &gt; 0$ ，则 $g'(x) = 1 + \\frac{1}{x} &gt; 0$ 故函数 $g(x)$ 在 $(0, +\\infty)$ 上单调递增，所以 $g\\left(\\mathrm{e}^{x - \\ln a}\\right) \\geq g(x - 1)$ ，可得 $\\mathrm{e}^{x - \\ln a} \\geq x - 1$ ，则 $x - \\ln a \\geq \\ln (x - 1)$ 即 $\\ln a \\leq x - \\ln (x - 1)$ ，其中 $x &gt; 1$ ，令 $h(x) = x - \\ln (x - 1)$ 其中 $x &gt; 1$ 则 $h'(x) = 1 - \\frac{1}{x - 1} = \\frac{x - 2}{x - 1}$ ，当 $1 &lt; x &lt; 2$ 时， $h'(x) &lt; 0$ ，此时函数 $h(x)$ 单调递减，当 $x &gt; 2$ 时， $h'(x) &gt; 0$ ，此时函数 $h(x)$ 单调递增，所以， $\\ln a \\leq h(x)_{\\min} = h(2) = 2$ ，解得 $a \\leq e^2$ 综上， $0 &lt; a \\leq e^2$ 故选：</p>\n<p>A.</p>",
+  "score": null,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.236445+00:00",
+    "question_source_sha256": "15514af6ceb54dc08cbfc8100c7df26b356cb6688fdd3bfe5c4f436c61261dd5",
+    "solution_source_sha256": "07f1865be56a487b402afb470f20fe230f42fb97bd927cee85afc49913075760"
+  }
+}

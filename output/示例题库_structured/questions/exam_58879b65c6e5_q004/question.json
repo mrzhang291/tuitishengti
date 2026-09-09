@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_58879b65c6e5_q004",
+  "display_id": "EXAM-58879B65C6E5-Q004",
+  "source_exam": "深圳中学 2024 级高二数学周测（7）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（7）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（7）参考答案.md",
+  "question_number": 4,
+  "question_type": "single_choice",
+  "stem_markdown": "### 4. 已知函数 $f(x)$ 的定义域为 $\\mathbf{R}$ ，且 $f(x)$ 的图象是一条连续不断的曲线， $f(x)$ 的导函数为\n\n$f'(x)$ ，若函数 $g(x)=(x+2)f'(x)$ 的图象如图所示，则（）\nA. 2 是 $f(x)$ 的极值点\nB. $f(x)$ 的单调递增区间是 $(-1,1)$ ， $(2,+\\infty)$\n\nC. $f(x)$ 的单调递减区间是 $(-\\infty,0)$\n\nD. 当 x=1 时， $f'(x)<0$\n\n![](assets/63eb5822983f49f49087f77ce81e2785847939378a3d5bb556f442e214dc4427.jpg)",
+  "stem_html": "<h3>4. 已知函数 $f(x)$ 的定义域为 $\\mathbf{R}$ ，且 $f(x)$ 的图象是一条连续不断的曲线， $f(x)$ 的导函数为</h3>\n<p>$f'(x)$ ，若函数 $g(x)=(x+2)f'(x)$ 的图象如图所示，则（）\nA. 2 是 $f(x)$ 的极值点\nB. $f(x)$ 的单调递增区间是 $(-1,1)$ ， $(2,+\\infty)$</p>\n<p>C. $f(x)$ 的单调递减区间是 $(-\\infty,0)$</p>\n<p>D. 当 x=1 时， $f'(x)&lt;0$</p>\n<p><img alt=\"\" src=\"assets/63eb5822983f49f49087f77ce81e2785847939378a3d5bb556f442e214dc4427.jpg\" /></p>",
+  "options": {
+    "A": "2 是 $f(x)$ 的极值点",
+    "B": "$f(x)$ 的单调递增区间是 $(-1,1)$ ， $(2,+\\infty)$",
+    "C": "$f(x)$ 的单调递减区间是 $(-\\infty,0)$",
+    "D": "当 x=1 时， $f'(x)<0$\n\n![](assets/63eb5822983f49f49087f77ce81e2785847939378a3d5bb556f442e214dc4427.jpg)"
+  },
+  "answer": "C",
+  "solution_markdown": "",
+  "solution_html": "",
+  "score": 5,
+  "assets": [
+    {
+      "original_ref": "images/63eb5822983f49f49087f77ce81e2785847939378a3d5bb556f442e214dc4427.jpg",
+      "alt": "",
+      "saved": true,
+      "file_name": "63eb5822983f49f49087f77ce81e2785847939378a3d5bb556f442e214dc4427.jpg",
+      "relative_path": "assets/63eb5822983f49f49087f77ce81e2785847939378a3d5bb556f442e214dc4427.jpg",
+      "sha256": "7e1ccbb659c54c63e7871ef5edba01cdb6b61f601b29ebc95954ff724604cd31"
+    }
+  ],
+  "quality_flags": [
+    "contains_images",
+    "missing_solution"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.954701+00:00",
+    "question_source_sha256": "9124b78ea7842e994e399ed6bc49d2368b80f63f7683e1cfae2de4c1c9e936aa",
+    "solution_source_sha256": "73a0816208baeeb9d64155c667182408d96461e4b8769a726123ba1edb89fe5b"
+  }
+}

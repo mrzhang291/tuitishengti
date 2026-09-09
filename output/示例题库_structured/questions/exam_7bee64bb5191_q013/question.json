@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_7bee64bb5191_q013",
+  "display_id": "EXAM-7BEE64BB5191-Q013",
+  "source_exam": "深圳中学 2024 级高二数学周测（1）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（1）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（1）解析.md",
+  "question_number": 13,
+  "question_type": "fill_blank",
+  "stem_markdown": "### 13. 若曲线 $y = (x + a)e^{x}$ 有两条过坐标原点的切线，则 $a$ 的取值范围是 \\_\\_\\_\\_.",
+  "stem_html": "<h3>13. 若曲线 $y = (x + a)e^{x}$ 有两条过坐标原点的切线，则 $a$ 的取值范围是 ____.</h3>",
+  "options": {},
+  "answer": "\\((-∞,-4)\\cup(0,+∞)\\)",
+  "solution_markdown": "### 13. \\((-∞,-4)\\cup(0,+∞)\\) \n\n**详解**∵ \\(y=(x+a)e^{x}, ∴y'=(x+1+a)e^{x}\\)\n设切点为 \\((x_{0},y_{0})\\) ，则 \\(y_{0}=(x_{0}+a)e^{x_{0}}\\) ，切线斜率 \\(k=(x_{0}+1+a)e^{x_{0}}\\)\n切线方程为： \\(y-(x_{0}+a)e^{x_{0}}=(x_{0}+1+a)e^{x_{0}}(x-x_{0})\\)\n∵切线过原点，∴ \\(-(x_{0}+a)e^{x_{0}}=(x_{0}+1+a)e^{x_{0}}(-x_{0})\\)\n整理得： \\(x_{0}^{2}+ax_{0}-a=0, ∵切线有两条，∴△=a^{2}+4a>0, 解得a<-4或a>0, ∴a的取值范围是 \\( (-∞,-4)\\cup(0,+∞), 故答案为：(-∞,-4)\\cup(0,+∞)\\)",
+  "solution_html": "<h3>13. \\((-∞,-4)\\cup(0,+∞)\\)</h3>\n<p><strong>详解</strong>∵ \\(y=(x+a)e^{x}, ∴y'=(x+1+a)e^{x}\\)\n设切点为 \\((x_{0},y_{0})\\) ，则 \\(y_{0}=(x_{0}+a)e^{x_{0}}\\) ，切线斜率 \\(k=(x_{0}+1+a)e^{x_{0}}\\)\n切线方程为： \\(y-(x_{0}+a)e^{x_{0}}=(x_{0}+1+a)e^{x_{0}}(x-x_{0})\\)\n∵切线过原点，∴ \\(-(x_{0}+a)e^{x_{0}}=(x_{0}+1+a)e^{x_{0}}(-x_{0})\\)\n整理得： \\(x_{0}^{2}+ax_{0}-a=0, ∵切线有两条，∴△=a^{2}+4a&gt;0, 解得a&lt;-4或a&gt;0, ∴a的取值范围是 \\( (-∞,-4)\\cup(0,+∞), 故答案为：(-∞,-4)\\cup(0,+∞)\\)</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.596463+00:00",
+    "question_source_sha256": "8fa1d650b2c1959ec549afd5bfc248cdd4ddda5307791163f79f93a33acf3cac",
+    "solution_source_sha256": "5b5d55d680204d0e0f86a02ed377845f5652a058ffb31385ed378ad99f44b5f7"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_982ba095d8f8_q008",
+  "display_id": "EXAM-982BA095D8F8-Q008",
+  "source_exam": "深圳中学 2024 级高二数学周测（9）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（9）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（9）参考答案.md",
+  "question_number": 8,
+  "question_type": "single_choice",
+  "stem_markdown": "### 8. 设定义在 $\\mathbf{R}$ 上的可导函数 $f(x)$ 满足 $\\frac{f'(x)}{2x - 3} > 0$ ，且 $f\\left(x + \\frac{3}{2}\\right)$ 是偶函数。若 $a = f(0.2^3)$ ， $b = f(\\log_23)$ ， $c = f(2)$ ，则 $a, b, c$ 的大小关系为（）\n\nA. $a > b > c$\n\nB. $a > c > b$\n\nC. $c > b > a$\n\nD. $b > c > a$\n\n#",
+  "stem_html": "<h3>8. 设定义在 $\\mathbf{R}$ 上的可导函数 $f(x)$ 满足 $\\frac{f'(x)}{2x - 3} &gt; 0$ ，且 $f\\left(x + \\frac{3}{2}\\right)$ 是偶函数。若 $a = f(0.2^3)$ ， $b = f(\\log_23)$ ， $c = f(2)$ ，则 $a, b, c$ 的大小关系为（）</h3>\n<p>A. $a &gt; b &gt; c$</p>\n<p>B. $a &gt; c &gt; b$</p>\n<p>C. $c &gt; b &gt; a$</p>\n<p>D. $b &gt; c &gt; a$</p>\n<h1></h1>",
+  "options": {
+    "A": "$a > b > c$",
+    "B": "$a > c > b$",
+    "C": "$c > b > a$",
+    "D": "$b > c > a$\n\n#"
+  },
+  "answer": "B",
+  "solution_markdown": "### 8. B\n\n**详解**由 $\\frac{f'(x)}{2x - 3} >0$ 得，当 $x > \\frac{3}{2}$ 时， $f'(x) > 0$ ，当 $x < \\frac{3}{2}$ 时， $f'(x) < 0$ ，所以 $f(x)$\n\n在 $\\left(-\\infty,\\frac{3}{2}\\right)$ 单调递减，在 $\\left(\\frac{3}{2},+\\infty\\right)$ 单调递增．又 $f\\left(x+\\frac{3}{2}\\right)$ 是偶函数，所以直线 $x=\\frac{3}{2}$ 为 $f(x)$ 的\n对称轴，故 $f(0.2^{3})=f(3-0.2^{3})=f(2.992)$ . 因为 $\\frac{3}{2}=\\log_{2}2\\sqrt{2}<\\log_{2}3<2<2.992$ ，且 $f(x)$ 在 $\\left(\\frac{3}{2},+\\infty\\right)$ 单调递增，所以 $f(\\log_{2}3)<f(2)<f(2.992)$ ，故b<c<a．故选：B.",
+  "solution_html": "<h3>8. B</h3>\n<p><strong>详解</strong>由 $\\frac{f'(x)}{2x - 3} &gt;0$ 得，当 $x &gt; \\frac{3}{2}$ 时， $f'(x) &gt; 0$ ，当 $x &lt; \\frac{3}{2}$ 时， $f'(x) &lt; 0$ ，所以 $f(x)$</p>\n<p>在 $\\left(-\\infty,\\frac{3}{2}\\right)$ 单调递减，在 $\\left(\\frac{3}{2},+\\infty\\right)$ 单调递增．又 $f\\left(x+\\frac{3}{2}\\right)$ 是偶函数，所以直线 $x=\\frac{3}{2}$ 为 $f(x)$ 的\n对称轴，故 $f(0.2^{3})=f(3-0.2^{3})=f(2.992)$ . 因为 $\\frac{3}{2}=\\log_{2}2\\sqrt{2}&lt;\\log_{2}3&lt;2&lt;2.992$ ，且 $f(x)$ 在 $\\left(\\frac{3}{2},+\\infty\\right)$ 单调递增，所以 $f(\\log_{2}3)&lt;f(2)&lt;f(2.992)$ ，故b&lt;c&lt;a．故选：B.</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.148651+00:00",
+    "question_source_sha256": "fd7e09e7361b1a3c423e4a90022e45ec754d1b93b61dd929ba983ee3da41d367",
+    "solution_source_sha256": "49045cdfd752f9f34d7cc2aa89ea2bcec7753750c2327e42b2d465641a0aa9fa"
+  }
+}

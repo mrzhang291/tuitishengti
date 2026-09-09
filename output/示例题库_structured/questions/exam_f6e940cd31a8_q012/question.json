@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_f6e940cd31a8_q012",
+  "display_id": "EXAM-F6E940CD31A8-Q012",
+  "source_exam": "深圳中学 2024 级高二数学周测（3）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（3）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（3）参考答案.md",
+  "question_number": 12,
+  "question_type": "fill_blank",
+  "stem_markdown": "### 12. 曲线 $y = \\ln |x|$ 过坐标原点的两条切线的方程为 \\_\\_\\_\\_，\\_\\_\\_\\_。",
+  "stem_html": "<h3>12. 曲线 $y = \\ln |x|$ 过坐标原点的两条切线的方程为 ____，____。</h3>",
+  "options": {},
+  "answer": "$y = \\frac{1}{\\mathrm{e}} x$ ， $y = -\\frac{1}{\\mathrm{e}} x$",
+  "solution_markdown": "",
+  "solution_html": "",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [
+    "missing_solution"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.767226+00:00",
+    "question_source_sha256": "78a4bb6656c35dbe613a79b0ed7dccc993b5c108f4f5c32b995a022aaa492633",
+    "solution_source_sha256": "86a4c5fab883e5128818dbb75724d3042d0c55a8ea81c7cdffedbb262214e02c"
+  }
+}

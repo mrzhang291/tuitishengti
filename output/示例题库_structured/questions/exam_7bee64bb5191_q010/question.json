@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_7bee64bb5191_q010",
+  "display_id": "EXAM-7BEE64BB5191-Q010",
+  "source_exam": "深圳中学 2024 级高二数学周测（1）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（1）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（1）解析.md",
+  "question_number": 10,
+  "question_type": "multiple_choice",
+  "stem_markdown": "### 10. 已知定义在 $R$ 上的偶函数 $f(x)$ 满足 $f(0) = 2, f(3 - x) + f(x) = 1$ ，设 $f(x)$ 在 $R$ 上的导函数为 $g(x)$ ，则（）\n\nA. $g(2025) = 0$\n\nB. $g\\left(\\frac{3}{2}\\right) = \\frac{1}{2}$\n\nC. $g(x + 6) = g(x)$\n\nD. $\\sum_{n=1}^{2025} f(n) = 1011$",
+  "stem_html": "<h3>10. 已知定义在 $R$ 上的偶函数 $f(x)$ 满足 $f(0) = 2, f(3 - x) + f(x) = 1$ ，设 $f(x)$ 在 $R$ 上的导函数为 $g(x)$ ，则（）</h3>\n<p>A. $g(2025) = 0$</p>\n<p>B. $g\\left(\\frac{3}{2}\\right) = \\frac{1}{2}$</p>\n<p>C. $g(x + 6) = g(x)$</p>\n<p>D. $\\sum_{n=1}^{2025} f(n) = 1011$</p>",
+  "options": {
+    "A": "$g(2025) = 0$",
+    "B": "$g\\left(\\frac{3}{2}\\right) = \\frac{1}{2}$",
+    "C": "$g(x + 6) = g(x)$",
+    "D": "$\\sum_{n=1}^{2025} f(n) = 1011$"
+  },
+  "answer": "ACD",
+  "solution_markdown": "### 10. ACD\n\n**详解**由题得 $f(-x)=f(x)$ ，所以 $-f'(-x)=f'(x)$ 即 $-g(-x)=g(x)$ ,\n\n所以 $g(x)$ 是奇函数，故 $g(0)=0$ ，\n\n又由 $f(3-x)+f(x)=1$ 得函数 $f(x)$ 关于点 $\\left(\\frac{3}{2},\\frac{1}{2}\\right)$ 对称， $f(-x)+f(x+3)=1$\n\n所以 $f(x)+f(x+3)=1$ ，故 $f(x+3)=f(3-x)=f(x-3)$ ,\n\n所以 $f(x + 6) = f(x)$ ，即函数 $f(x)$ 是周期为6的函数，\n\n所以 $g(x)$ 也是周期为6的函数，即 $g(x+6)=g(x)$ ,\n\n$f(3-x)+f(x)=1$ 求导得 $-f'(3-x)+f'(x)=0$ 即 $g(x)=g(3-x)$ ， $g(3)=g(0)=0$ ，\n\n对于 A， $g(2025)=g(6\\times337+3)=g(3)=0$ ，故 A 正确；\n\n对于B，由 $g(x) = g(3 - x),g(-x) = -g(x)$ 无法确定 $g\\left(\\frac{3}{2}\\right)$ 的值，故B错误；\n\n对于 C，由上 $g(x)$ 也是周期为 6 的函数，即 $g(x+6)=g(x)$ ，C 正确；\n\n对于 D，由 $f(-x) + f(x + 3) = 1$ 得 $f(1) + f(2) = 1$ ，\n\n且 $f(0) + f(3) = 1$ 即 $f(3) = -1$ ，且 $f(-1) + f(4) = 1$ 即 $f(4) = 1 - f(1)$\n\n且 $f(-2) + f(5) = 1$ 即 $f(5) = 1 - f(2)$ ， $f(6) = f(0) = 2$\n\n所以 $f(5)+f(4)=1-f(2)+1-f(1)=2-1=1,$\n\n所以 $f(1)+f(2)+f(3)+f(4)+f(5)+f(6)=1-1+1+2=3,$\n\n所以 $\\sum_{n=1}^{2025} f(n) = \\sum_{n=1}^{337 \\times 6+3} f(n) = 337 \\times 3 + f(1) + f(2) + f(3) = 1011$ ，故 D 正确.",
+  "solution_html": "<h3>10. ACD</h3>\n<p><strong>详解</strong>由题得 $f(-x)=f(x)$ ，所以 $-f'(-x)=f'(x)$ 即 $-g(-x)=g(x)$ ,</p>\n<p>所以 $g(x)$ 是奇函数，故 $g(0)=0$ ，</p>\n<p>又由 $f(3-x)+f(x)=1$ 得函数 $f(x)$ 关于点 $\\left(\\frac{3}{2},\\frac{1}{2}\\right)$ 对称， $f(-x)+f(x+3)=1$</p>\n<p>所以 $f(x)+f(x+3)=1$ ，故 $f(x+3)=f(3-x)=f(x-3)$ ,</p>\n<p>所以 $f(x + 6) = f(x)$ ，即函数 $f(x)$ 是周期为6的函数，</p>\n<p>所以 $g(x)$ 也是周期为6的函数，即 $g(x+6)=g(x)$ ,</p>\n<p>$f(3-x)+f(x)=1$ 求导得 $-f'(3-x)+f'(x)=0$ 即 $g(x)=g(3-x)$ ， $g(3)=g(0)=0$ ，</p>\n<p>对于 A， $g(2025)=g(6\\times337+3)=g(3)=0$ ，故 A 正确；</p>\n<p>对于B，由 $g(x) = g(3 - x),g(-x) = -g(x)$ 无法确定 $g\\left(\\frac{3}{2}\\right)$ 的值，故B错误；</p>\n<p>对于 C，由上 $g(x)$ 也是周期为 6 的函数，即 $g(x+6)=g(x)$ ，C 正确；</p>\n<p>对于 D，由 $f(-x) + f(x + 3) = 1$ 得 $f(1) + f(2) = 1$ ，</p>\n<p>且 $f(0) + f(3) = 1$ 即 $f(3) = -1$ ，且 $f(-1) + f(4) = 1$ 即 $f(4) = 1 - f(1)$</p>\n<p>且 $f(-2) + f(5) = 1$ 即 $f(5) = 1 - f(2)$ ， $f(6) = f(0) = 2$</p>\n<p>所以 $f(5)+f(4)=1-f(2)+1-f(1)=2-1=1,$</p>\n<p>所以 $f(1)+f(2)+f(3)+f(4)+f(5)+f(6)=1-1+1+2=3,$</p>\n<p>所以 $\\sum_{n=1}^{2025} f(n) = \\sum_{n=1}^{337 \\times 6+3} f(n) = 337 \\times 3 + f(1) + f(2) + f(3) = 1011$ ，故 D 正确.</p>",
+  "score": 6,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.586254+00:00",
+    "question_source_sha256": "8fa1d650b2c1959ec549afd5bfc248cdd4ddda5307791163f79f93a33acf3cac",
+    "solution_source_sha256": "5b5d55d680204d0e0f86a02ed377845f5652a058ffb31385ed378ad99f44b5f7"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_5267945b2a8f_q008",
+  "display_id": "EXAM-5267945B2A8F-Q008",
+  "source_exam": "深圳中学 2024 级高二数学 五一作业",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学２０２４级高二数学五一作业 试卷.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学２０２４级高二数学五一作业 答案.md",
+  "question_number": 8,
+  "question_type": "single_choice",
+  "stem_markdown": "### 8. 已知函数 $f(x) = x + \\frac{a}{2x}$ ，过点(1,0)作曲线 $f(x)$ 的两条切线，切点为 $A(x_1, f(x_1)), B(x_2, f(x_2))$ ，其中 $0 < x_1 < x_2$ . 若在区间 $(x_1, x_2)$ 中存在唯一整数，则 $a$ 的取值范围是（）\n\nA. $(-\\infty, -2)$\n\nB. $[-1, -2)$\n\nC. $\\left[-\\frac{8}{3}, -2\\right)$\n\nD. $\\left(-\\frac{8}{3}, -2\\right)$\n\n#",
+  "stem_html": "<h3>8. 已知函数 $f(x) = x + \\frac{a}{2x}$ ，过点(1,0)作曲线 $f(x)$ 的两条切线，切点为 $A(x_1, f(x_1)), B(x_2, f(x_2))$ ，其中 $0 &lt; x_1 &lt; x_2$ . 若在区间 $(x_1, x_2)$ 中存在唯一整数，则 $a$ 的取值范围是（）</h3>\n<p>A. $(-\\infty, -2)$</p>\n<p>B. $[-1, -2)$</p>\n<p>C. $\\left[-\\frac{8}{3}, -2\\right)$</p>\n<p>D. $\\left(-\\frac{8}{3}, -2\\right)$</p>\n<h1></h1>",
+  "options": {
+    "A": "$(-\\infty, -2)$",
+    "B": "$[-1, -2)$",
+    "C": "$\\left[-\\frac{8}{3}, -2\\right)$",
+    "D": "$\\left(-\\frac{8}{3}, -2\\right)$\n\n#"
+  },
+  "answer": "C",
+  "solution_markdown": "8.C **详解** $f(x) = x + \\frac{a}{2x} \\Rightarrow f'(x) = 1 - \\frac{a}{2x^2}$ 切点为 $A\\left(x_1, f\\left(x_1\\right)\\right)$ 的切线的斜率为 $f'(x_1) = 1 - \\frac{a}{2x^2}$ 所以切点为 $A\\left(x_1, f\\left(x_1\\right)\\right)$ 的切线方程为： $y - \\left(x_1 + \\frac{a}{2x_1}\\right) = \\left(1 - \\frac{a}{2x_1^2}\\right)(x - x_1)$ ，同理可求得切点为 $B\\left(x_2, f\\left(x_2\\right)\\right)$ 的切线方程为： $y - \\left(x_2 + \\frac{a}{2x_2}\\right) = \\left(1 - \\frac{a}{2x_2^2}\\right)(x - x_2)$ ，两条切线过点 $(1,0)$ ，把 $(1,0)$ ，代入两条切线方程得： $2x_1^2 + 2ax_1 - a = 0$ ①， $2x_2^2 + 2ax_2 - a = 0$ ②，所以可以把 $x_1, x_2$ 看成 $2x^2 + 2ax - a = 0$ 的两个根，因为 $0 < x_1 < x_2$ ，所以有 $\\left\\{ \\begin{array}{l} \\Delta = (2a)^2 + 8a > 0 \\\\ x_1x_2 = -\\frac{1}{2}a > 0 \\\\ x_1 + x_2 = -a > 0 \\end{array} \\Rightarrow a < -2 \\right.$ ③，即 $-a > 2$ ，因为 $0 < x_1 < x_2$ ，所以 $x_1 = \\frac{-a - \\sqrt{a^2 + 2a}}{2} < 1, x_2 = \\frac{-a + \\sqrt{a^2 + 2a}}{2} > \\frac{-a}{2} > 1$ ，在区间 $(x_1, x_2)$ 中存在唯一整数必须满足： $\\left\\{ \\begin{array}{l} x_1 = \\frac{-a - \\sqrt{a^2 + 2a}}{2} < 1 \\\\ x_2 = \\frac{-a + \\sqrt{a^2 + 2a}}{2} \\leq 2 \\end{array} \\Rightarrow -\\frac{8}{3} \\leq a < -2\\right.$ ，结合③， $a$ 的取值范围是 $\\left[-\\frac{8}{3}, -2\\right)$ . 故选：\n\nC.",
+  "solution_html": "<p>8.C <strong>详解</strong> $f(x) = x + \\frac{a}{2x} \\Rightarrow f'(x) = 1 - \\frac{a}{2x^2}$ 切点为 $A\\left(x_1, f\\left(x_1\\right)\\right)$ 的切线的斜率为 $f'(x_1) = 1 - \\frac{a}{2x^2}$ 所以切点为 $A\\left(x_1, f\\left(x_1\\right)\\right)$ 的切线方程为： $y - \\left(x_1 + \\frac{a}{2x_1}\\right) = \\left(1 - \\frac{a}{2x_1^2}\\right)(x - x_1)$ ，同理可求得切点为 $B\\left(x_2, f\\left(x_2\\right)\\right)$ 的切线方程为： $y - \\left(x_2 + \\frac{a}{2x_2}\\right) = \\left(1 - \\frac{a}{2x_2^2}\\right)(x - x_2)$ ，两条切线过点 $(1,0)$ ，把 $(1,0)$ ，代入两条切线方程得： $2x_1^2 + 2ax_1 - a = 0$ ①， $2x_2^2 + 2ax_2 - a = 0$ ②，所以可以把 $x_1, x_2$ 看成 $2x^2 + 2ax - a = 0$ 的两个根，因为 $0 &lt; x_1 &lt; x_2$ ，所以有 $\\left\\{ \\begin{array}{l} \\Delta = (2a)^2 + 8a &gt; 0 \\\\ x_1x_2 = -\\frac{1}{2}a &gt; 0 \\\\ x_1 + x_2 = -a &gt; 0 \\end{array} \\Rightarrow a &lt; -2 \\right.$ ③，即 $-a &gt; 2$ ，因为 $0 &lt; x_1 &lt; x_2$ ，所以 $x_1 = \\frac{-a - \\sqrt{a^2 + 2a}}{2} &lt; 1, x_2 = \\frac{-a + \\sqrt{a^2 + 2a}}{2} &gt; \\frac{-a}{2} &gt; 1$ ，在区间 $(x_1, x_2)$ 中存在唯一整数必须满足： $\\left\\{ \\begin{array}{l} x_1 = \\frac{-a - \\sqrt{a^2 + 2a}}{2} &lt; 1 \\\\ x_2 = \\frac{-a + \\sqrt{a^2 + 2a}}{2} \\leq 2 \\end{array} \\Rightarrow -\\frac{8}{3} \\leq a &lt; -2\\right.$ ，结合③， $a$ 的取值范围是 $\\left[-\\frac{8}{3}, -2\\right)$ . 故选：</p>\n<p>C.</p>",
+  "score": null,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.239825+00:00",
+    "question_source_sha256": "15514af6ceb54dc08cbfc8100c7df26b356cb6688fdd3bfe5c4f436c61261dd5",
+    "solution_source_sha256": "07f1865be56a487b402afb470f20fe230f42fb97bd927cee85afc49913075760"
+  }
+}

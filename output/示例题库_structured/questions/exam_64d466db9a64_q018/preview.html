@@ -1,0 +1,102 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    processEscapes: true
+  },
+  svg: {fontCache: 'global'}
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
+<style>
+:root{--ink:#172033;--muted:#697386;--line:#dbe2ea;--surface:#fff;--page:#f4f7fb;--primary:#2458b8;--primary-soft:#eaf1ff;--success:#147a4b;--success-soft:#e8f7ef;--warning:#9a5b00;--warning-soft:#fff4d6;--danger:#b42318;--danger-soft:#fff0ee;--shadow:0 10px 30px rgba(27,45,78,.08)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;margin:0;background:var(--page);color:var(--ink);line-height:1.72}
+a{color:var(--primary);text-decoration:none}a:hover{text-decoration:underline}.page-shell{max-width:1480px;margin:0 auto;padding:28px 24px 56px}.page-shell.narrow{max-width:1060px}
+.hero{background:linear-gradient(135deg,#173f86,#2f69c5);color:#fff;border-radius:18px;padding:26px 30px;box-shadow:var(--shadow);margin-bottom:20px}.hero h1{margin:0 0 8px;font-size:28px;line-height:1.3}.hero p{margin:0;color:#e5edff}.hero a{color:#fff;text-decoration:underline}
+.summary-grid{display:grid;grid-template-columns:repeat(4,minmax(150px,1fr));gap:14px;margin:18px 0}.summary-card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 18px;box-shadow:0 4px 14px rgba(27,45,78,.04)}.summary-card .label{font-size:13px;color:var(--muted)}.summary-card .value{font-size:26px;font-weight:750;margin-top:4px}.summary-card .hint{font-size:12px;color:var(--muted)}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px 24px;margin:18px 0;box-shadow:0 4px 18px rgba(27,45,78,.04)}.panel h2{font-size:20px;margin:0 0 14px}.meta{color:var(--muted)}
+.toolbar{display:grid;grid-template-columns:minmax(220px,2fr) repeat(3,minmax(150px,1fr));gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;margin:16px 0;position:sticky;top:8px;z-index:5;box-shadow:var(--shadow)}.toolbar input,.toolbar select{width:100%;border:1px solid #c8d1dc;border-radius:9px;background:#fff;padding:10px 12px;font:inherit;color:var(--ink)}.toolbar-status{grid-column:1/-1;color:var(--muted);font-size:13px}
+.table-wrap{overflow:auto;background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}table{width:100%;border-collapse:separate;border-spacing:0;margin:0;background:#fff}th{position:sticky;top:0;z-index:2;background:#eef3fa;color:#3b485c;text-align:left;font-size:13px;white-space:nowrap}td,th{border-bottom:1px solid var(--line);padding:11px 12px;vertical-align:top}tbody tr:hover{background:#f8fbff}tbody tr:last-child td{border-bottom:0}
+.id-link{font-family:Consolas,"SFMono-Regular",monospace;font-size:13px;font-weight:650;white-space:nowrap}.source-cell{min-width:210px}.number-cell{text-align:center;font-weight:700}.answer-cell{min-width:310px;max-width:520px}.answer-content{overflow-x:auto;line-height:1.65}.answer-content p{margin:0 0 7px}.answer-content p:last-child{margin-bottom:0}.answer-details summary{cursor:pointer;color:var(--primary);font-weight:650}.answer-details[open] summary{margin-bottom:10px}.answer-empty{color:var(--danger);font-weight:650}
+.badge{display:inline-flex;align-items:center;gap:4px;border-radius:999px;padding:3px 9px;margin:2px 4px 2px 0;font-size:12px;font-weight:650;white-space:nowrap;border:1px solid transparent}.badge.info{background:var(--primary-soft);color:var(--primary);border-color:#bfd2f7}.badge.success{background:var(--success-soft);color:var(--success);border-color:#b9e4ce}.badge.warning{background:var(--warning-soft);color:var(--warning);border-color:#efd394}.badge.danger{background:var(--danger-soft);color:var(--danger);border-color:#f1beb8}.badge.muted{background:#f1f3f6;color:#5d6674;border-color:#d8dde5}
+.status-banner{border-radius:12px;padding:13px 16px;margin:14px 0}.status-banner.success{background:var(--success-soft);color:var(--success);border:1px solid #b9e4ce}.status-banner.warning{background:var(--warning-soft);color:var(--warning);border:1px solid #efd394}.status-banner.danger{background:var(--danger-soft);color:var(--danger);border:1px solid #f1beb8}
+.question-content img,.solution-content img{max-width:100%;height:auto}.question-content,.solution-content,.answer-content{overflow-x:auto;overflow-y:hidden;padding-bottom:5px}.question-content> :first-child,.solution-content> :first-child,.answer-content> :first-child{margin-top:0}.question-content> :last-child,.solution-content> :last-child,.answer-content> :last-child{margin-bottom:0}mjx-container[display="true"]{text-align:left!important;margin:.75em 0!important}.back-link{display:inline-block;margin-bottom:12px;color:#e5edff}.flag-list{display:flex;flex-wrap:wrap;gap:4px}.repair-list{display:flex;flex-wrap:wrap;gap:4px}.empty-state{text-align:center;color:var(--muted);padding:34px}.math-scroll{overflow-x:auto}.content-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,.38fr);gap:18px}.content-grid .wide{grid-column:1/-1}.section-kicker{font-size:12px;font-weight:750;letter-spacing:.08em;color:var(--primary);text-transform:uppercase;margin-bottom:5px}.preview-id{font-family:Consolas,"SFMono-Regular",monospace;font-size:13px;opacity:.9}.report-note{font-size:13px;color:var(--muted);margin:8px 0 0}.diagnostic{min-width:150px}.diagnostic-line{display:flex;align-items:flex-start;gap:6px;margin:2px 0}.diagnostic-label{min-width:44px;color:var(--muted);font-size:12px;padding-top:3px}.repair-note{display:block;color:var(--muted);font-size:12px;margin-top:4px}.nowrap{white-space:nowrap}.status-dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:7px;background:currentColor}.table-caption{padding:12px 15px;color:var(--muted);font-size:13px;border-bottom:1px solid var(--line)}
+@media(max-width:900px){.page-shell{padding:16px 10px 36px}.summary-grid{grid-template-columns:repeat(2,minmax(130px,1fr))}.toolbar{position:static;grid-template-columns:1fr 1fr}.toolbar input{grid-column:1/-1}.source-cell{min-width:170px}.answer-cell{min-width:260px}.hero{border-radius:12px;padding:22px 18px}}
+@media(max-width:760px){.content-grid{grid-template-columns:1fr}.content-grid .wide{grid-column:auto}}@media(max-width:560px){.summary-grid,.toolbar{grid-template-columns:1fr}.toolbar input,.toolbar-status{grid-column:auto}.hero h1{font-size:23px}}
+@media print{body{background:#fff}.page-shell{max-width:none;padding:0}.hero{background:#fff;color:#000;box-shadow:none;border:1px solid #aaa}.hero p,.hero a{color:#333}.toolbar{display:none}.panel,.table-wrap,.summary-card{box-shadow:none}}
+</style>
+<title>EXAM-64D466DB9A64-Q018</title></head>
+<body><main class="page-shell narrow">
+<header class="hero"><a class="back-link" href="../../index.html">← 返回题库总览</a><div class="preview-id" title="内部 ID：exam_64d466db9a64_q018">EXAM-64D466DB9A64-Q018</div><h1>第 18 题 · 解答题</h1><p>深圳中学 2024 级高二数学周测（5）</p></header>
+<div class="content-grid">
+<section class="panel wide"><div class="section-kicker">Question</div><h2>题干</h2><div class="question-content"><h3>18. 已知函数 $f(x) = \frac{\ln x + a}{x}, a \in \mathbf{R}$ .</h3>
+<p>（1）求函数 $f(x)$ 在区间[1,2]上的最大值；</p>
+<p>（2）当 $a = 1$ 时，若 $\mathrm{e}^x\geq f(x) + m$ 恒成立，求实数 $m$ 的取值范围.</p></div></section>
+<section class="panel"><div class="section-kicker">Answer</div><h2>答案</h2><div class="answer-content"><p>(1)答案见</p></div></section>
+<section class="panel"><div class="section-kicker">Quality</div><h2>质量标记</h2><div class="flag-list"><span class='badge success'>无</span></div></section>
+<section class="panel wide"><div class="section-kicker">Solution</div><h2>解析</h2><div class="solution-content"><h3>18. (1)答案见解析；(2) $(-∞,1]$ （1）由题可得 $f'(x)=\frac{1-a-\ln x}{x^{2}}$ ，令 $f'(x)=0$ ，得 $x=e^{1-a}$ .</h3>
+<p>①若 $1-a\leq0$ ，即 $a\geq1$ ，则 $x=e^{1-a}\leq1$ ，
+当 $x\in[1,2]$ 时， $f'(x)\leq0$ ， $f(x)$ 在 $[1,2]$ 上单调递减， $f(x)_{\max}=f(1)=a$ .</p>
+<p>②若 $1-a\geq\ln 2$ ，即 $a\leq1-\ln 2$ ，则 $x=e^{1-a}\geq2$ ，
+当 $x\in[1,2]$ 时， $f'(x)\geq0$ ， $f(x)$ 在 $[1,2]$ 上单调递增， $f(x)_{\max}=f(2)=\frac{a+\ln 2}{2}$ .</p>
+<p>③若0&lt;1-a&lt;ln 2，即1-ln 2&lt;a&lt;1，则 $1&lt;x=e^{1-a}&lt;2$ ，
+当 $x\in\left[1,e^{1-a}\right)$ 时， $f'(x)&gt;0$ ， $f(x)$ 在 $[1,e^{1-a})$ 上单调递增，
+当 $x \in \left(\mathrm{e}^{1-a}, 2\right]$ 时， $f'(x) &lt; 0$ ， $f(x)$ 在 $\left(\mathrm{e}^{1-a}, 2\right]$ 上单调递减，
+当 $x \in [1, 2]$ 时， $f(x)_{\max} = f\left(\mathrm{e}^{1-a}\right) = \frac{1}{\mathrm{e}^{1-a}} = \mathrm{e}^{a-1}$ 综上所述，
+当 $a \geq 1$ 时， $f(x)$ 在 $[1, 2]$ 上的最大值为 a；
+当 $a \leq 1 - \ln 2$ 时， $f(x)$ 在 $[1, 2]$ 上的最大值为 $\frac{a + \ln 2}{2}$ ；
+当 $1 - \ln 2 &lt; a &lt; 1$ 时， $f(x)$ 在 $[1, 2]$ 上的最大值为 $e^{a-1}$ .
+（2）法一：当 $a = 1$ 时 $e^{x} \geq f(x) + m$ 恒成立，即 $m \leq e^{x} - \frac{1 + \ln x}{x}$ 恒成立，
+令 $g(x) = e^{x} - \frac{1 + \ln x}{x}$ ，则 $g'(x) = \frac{x^{2}e^{x} + \ln x}{x^{2}}$ 令 $h(x)=x^{2}e^{x}+\ln x$ ，则 $h'(x)=e^{x}(x^{2}+2x)+\frac{1}{x}&gt;0$ 所以 $h(x)$ 在 $(0,+\infty)$ 上单调递增，
+又 $h\left(\frac{1}{e}\right)=\frac{1}{e^{2}}e^{\frac{1}{e}}-1=e^{\frac{1}{e}-2}-1&lt;0,\quad h(1)=e&gt;0,$ 所以存在唯一的，使得 $h(x_{0})=x_{0}^{2}e^{x_{0}}+\ln x_{0}=0$ （☆），
+当 $x\in(0,x_{0})$ 时， $h(x)&lt;0$ ，即 $g'(x)&lt;0$ ，则 $g(x)$ 在 $(0,x_{0})$ 上单调递减，
+当 $x\in(x_{0},+\infty)$ 时， $h(x)&gt;0$ ，即 $g'(x)&gt;0$ ，则 $g(x)$ 在 $(x_{0},+\infty)$ 上单调递增， $g(x)_{\min}=g(x_{0})=e^{x_{0}}-\frac{1+\ln x_{0}}{x_{0}}.$ 由（☆）得
+设 $\varphi(x)=xe^{x}$ ，则 $\varphi(x_{0})=\varphi\left(\ln\frac{1}{x_{0}}\right)$ ，易知 $\varphi(x)$ 在 $(0,+\infty)$ 上单调递增，
+所以 $x_{0}=\ln\frac{1}{x_{0}}e^{x_{0}}=\frac{1}{x_{0}}\ln\frac{1}{x_{0}}=\ln\frac{1}{x_{0}}\cdot e^{\ln\frac{1}{x_{0}}}$ 故 $g(x)_{\min}=e^{x_{0}}-\frac{1+\ln x_{0}}{x_{0}}=\frac{1}{x_{0}}-\frac{1-x_{0}}{x_{0}}=\frac{1}{x_{0}}-\frac{1}{x_{0}}+1=1,$ 因此 $m \leqslant 1$ ，故 $m$ 的取值范围为 $\left(-\infty, 1\right]$ 。
+法二：当 $a = 1$ 时 $\mathrm{e}^{x} \geq f(x) + m$ 恒成立，即 $m \leq \frac{x \mathrm{e}^{x} - 1 - \ln x}{x}$ 恒成立， $x \mathrm{e}^{x} - 1 - \ln x \geq x$</p>
+<p>所以 $h(x)=\frac{xe^{x}-1-\ln x}{x}\geq1$ ，当且仅当 $x+\ln x=0$ 时等号成立.</p>
+<p>令 $g(x) = x + \ln x$ ，则 $g(x)$ 在 $(0, +\infty)$ 上单调递增，又 $g\left(\frac{1}{\mathrm{e}}\right) = \frac{1}{\mathrm{e}} - 1 &lt; 0$ ， $g(1) = 1 &gt; 0$</p>
+<p>$$x _ {0} \in \left(\frac {1}{\mathbf {e}}, 1\right),$$</p>
+<p>$$g \left(x _ {0}\right) = 0$$</p>
+<p>$$n \leqslant 1$$</p>
+<p>$$\text {当} x = x _ {0 \text {时}}$$</p>
+<p>$$\left(- \infty , 1 \right]$$</p>
+<p>$$h (x)$$</p>
+<p>$$\boxed {1 9. (1)} \left(- \infty , 1 - \frac {1}{\mathrm{e}} \right] _ {(2) \text {证明见解析}}$$</p>
+<p>$$f (x) = \ln x + \frac {1 - a}{x}, x &gt; 0, \text {得} f ^ {\prime} (x) = \frac {1}{x} - \frac {1 - a}{x ^ {2}} = \frac {x - (1 - a)}{x ^ {2}}, x &gt; 0$$</p>
+<p>$$f \left(\frac {1}{\mathrm{e}}\right) = - 1 + \mathrm{e} (1 - a) &lt;   0 \text {且}$$</p>
+<p>①当 $1 - a \leq 0$ ，即 $a \geq 1$ 时， $f'(x) &gt; 0$ ，所以 $f(x)$ 在 $(0, +\infty)$ 上单调递增，</p>
+<p>$$f ^ {\prime} (x) = \frac {x - (1 - a)}{x ^ {2}} = 0$$</p>
+<p>$$x \mathrm{e} ^ {x} - 1 - \ln x - x = \mathrm{e} ^ {x + \ln x} - 1 - \ln x - x,$$</p>
+<p>当0&lt;x&lt;1-a时， $f'(x)&lt;0$ ， $f(x)$ 在 $(0,1-a)$ 上单调递减；</p>
+<p>$$\mathrm{得} x = 1 - a$$</p>
+<p>当 $x &gt; 1 - a$ 时， $f'(x) &gt; 0$ ， $f(x)$ 在 $(1 - a, +\infty)$ 上单调递增；</p>
+<p>$$\text {则} f (x) _ {\min} = f (1 - a) = \ln (1 - a) + 1$$</p>
+<p>$$h (x) = \frac {x \mathrm{e} ^ {x} - 1 - \ln x}{x} \text {, 则} m \leq h (x) _ {\min}, \text {而}$$</p>
+<p>$$f (x) \geq 0 _ {\text {恒成立}}$$</p>
+<p>$$\ln (1 - a) + 1 \geq 0$$</p>
+<p>$$a \leq 1 - \frac {1}{\mathrm{e}}, \text {满足} a &lt;   1$$</p>
+<p>$$\left(- \infty , 1 - \frac {1}{\mathrm{e}} \right]$$</p>
+<p>$$_ {\text {令}} p (x) = \mathrm{e} ^ {x} - x - 1, \text {则} p ^ {\prime} (x) = \mathrm{e} ^ {x} - 1, \text {令} p ^ {\prime} (x) = 0,$$</p>
+<p>(2) 由题意若函数 $f(x)$ 有两个零点 $x_{1}, x_{2}$ ,</p>
+<p>结合（1）知 $1 - a &gt; 0$ ，且 $f(1 - a) = \ln (1 - a) + 1 &lt; 0$ ，解得 $1 - \frac{1}{\mathrm{e}} &lt; a &lt; 1$</p>
+<p>$$\text {当} \frac {1 - \frac {1}{\mathrm{e}} &lt;   a &lt;   1}{\text {时，}} f (x) _ {\min} = f (1 - a) &lt;   0,$$</p>
+<p>又 $x \to 0, f(x) \to +\infty$ ； $x \to +\infty$ ， $f(x) \to +\infty$ ，此时满足函数 $f(x)$ 有两个零点.</p>
+<p>下面证明结论 $x_{1} + x_{2} &gt; 2 - 2a$ 成立.不妨设 $0 &lt;   x_{1} &lt;   1 - a &lt;   x_{2},$</p>
+<p>构造函数 $g(x)=f(2-2a-x)-f(x),0&lt;x&lt;1-a$</p>
+<p>$$g ^ {\prime} (x) = - f ^ {\prime} (2 - 2 a - x) - f ^ {\prime} (x) = - \frac {2 - 2 a - x - (1 - a)}{(2 - 2 a - x) ^ {2}} - \frac {x - (1 - a)}{x ^ {2}},$$</p>
+<p>$$\therefore g ^ {\prime} (x) = \frac {x - (1 - a)}{(2 - 2 a - x) ^ {2}} - \frac {x - (1 - a)}{x ^ {2}} = [ x - (1 - a) ] \left(\frac {1}{(2 - 2 a - x) ^ {2}} - \frac {1}{x ^ {2}} \right] &gt; 0.$$</p>
+<p>得 $x = 0$ ，当 $x\in (-\infty ,0)$ 时， $p^{\prime}(x) &lt;   0$ ， $p(x)$ 在 $(-\infty ,0)$ 上单调递减，当 $x\in (0, + \infty)$ 时， $p^{\prime}(x) &gt; 0$ ， $p(x)$ 在 $(0, + \infty)$ 上单调</p>
+<p>递增，</p>
+<p>所以 $p(x) \geq p(0) = 0$ ，故 $\mathrm{e}^x - x - 1 \geq 0$ ，即 $\mathrm{e}^x \geq x + 1$ ，当且仅当 $x = 0$ 时取等号。
+所以 $\mathrm{e}^{x + \ln x} - 1 - \ln x - x \geq x + \ln x + 1 - 1 - \ln x - x = 0$ ，即$\therefore g(x)$ 在 $(0,1 - a)$ 上单调递增，</p>
+<p>$\therefore g(x) &lt; g(1 - a) = 0$ ，即 $f(2 - 2a - x) - f(x) &lt; 0$</p>
+<p>$$\text {所以} f (2 - 2 a - x) &lt;   f (x), x \in (0, 1 - a),$$</p>
+<p>由 $0 &lt; x_{1} &lt; 1 - a$ ，可得 $f(2 - 2a - x_1) &lt; f(x_1)$</p>
+<p>$$\text {又} \because 2 - 2 a - x _ {1} &gt; 1 - a, x _ {2} &gt; 1 - a, \text {又} f (2 - 2 a - x _ {1}) &lt;   f \left(x _ {1}\right) = f \left(x _ {2}\right),$$</p>
+<p>又由（1）知，当 $x \in (1 - a, +\infty)$ 时， $f(x)$ 单调递增，</p>
+<p>故 $2 - 2a - x_{1} &lt;   x_{2}$ ，即 $x_{1} + x_{2} &gt; 2 - 2a$ ，得证.</p></div></section>
+</div></main></body></html>

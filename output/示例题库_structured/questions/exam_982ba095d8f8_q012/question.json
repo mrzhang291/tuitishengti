@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_982ba095d8f8_q012",
+  "display_id": "EXAM-982BA095D8F8-Q012",
+  "source_exam": "深圳中学 2024 级高二数学周测（9）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（9）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（9）参考答案.md",
+  "question_number": 12,
+  "question_type": "fill_blank",
+  "stem_markdown": "### 12. 已知函数 $f(x) = \\begin{cases} \\mathrm{e}^x, & x \\leq 0 \\\\ x \\ln x, & x > 0 \\end{cases}$ ，若 $f(a) = \\mathbf{e}$ ，则实数 $a =$ \\_\\_\\_\\_.",
+  "stem_html": "<h3>12. 已知函数 $f(x) = \\begin{cases} \\mathrm{e}^x, &amp; x \\leq 0 \\\\ x \\ln x, &amp; x &gt; 0 \\end{cases}$ ，若 $f(a) = \\mathbf{e}$ ，则实数 $a =$ ____.</h3>",
+  "options": {},
+  "answer": "e",
+  "solution_markdown": "### 12. e\n\n**详解**当 $a \\leq 0$ 时， $f(a) = e^{a} = e$ ，解得 a = 1，不符合题意；\n\n当 $x > 0$ 时， $f(x) = x \\ln x$ ，则 $f'(x) = \\ln x + 1$ ，令 $f'(x) < 0 \\Rightarrow 0 < x < \\frac{1}{\\mathrm{e}}, f'(x) > 0 \\Rightarrow x > \\frac{1}{\\mathrm{e}}$\n\n所以 $f(x)$ 在 $(0, \\frac{1}{\\mathrm{e}})$ 上单调递减，在 $(\\frac{1}{\\mathrm{e}}, +\\infty)$ 上单调递增，且 $f(\\frac{1}{\\mathrm{e}}) = -\\frac{1}{\\mathrm{e}} < 0$ ，当 $x \\to 0$ 时，\n\n$\\ln x \\to -\\infty$ ，则 $f(x) \\to 0$ ，当 $x \\to +\\infty$ 时， $f(x) \\to +\\infty$ ，且 $0 < x < 1$ 时， $f(x) < 0$ ； $x > 1$ 时，\n\n$f(x) > 0$ ；所以 $f(x)$ 在 $(0, +\\infty)$ 上有且仅有唯一的零点。所以当时， $f(a) = a \\ln a = e$ ，则 $a > 1$ ，解得 $a = e$ 。综上， $a = e$ 。故答案为： $e$",
+  "solution_html": "<h3>12. e</h3>\n<p><strong>详解</strong>当 $a \\leq 0$ 时， $f(a) = e^{a} = e$ ，解得 a = 1，不符合题意；</p>\n<p>当 $x &gt; 0$ 时， $f(x) = x \\ln x$ ，则 $f'(x) = \\ln x + 1$ ，令 $f'(x) &lt; 0 \\Rightarrow 0 &lt; x &lt; \\frac{1}{\\mathrm{e}}, f'(x) &gt; 0 \\Rightarrow x &gt; \\frac{1}{\\mathrm{e}}$</p>\n<p>所以 $f(x)$ 在 $(0, \\frac{1}{\\mathrm{e}})$ 上单调递减，在 $(\\frac{1}{\\mathrm{e}}, +\\infty)$ 上单调递增，且 $f(\\frac{1}{\\mathrm{e}}) = -\\frac{1}{\\mathrm{e}} &lt; 0$ ，当 $x \\to 0$ 时，</p>\n<p>$\\ln x \\to -\\infty$ ，则 $f(x) \\to 0$ ，当 $x \\to +\\infty$ 时， $f(x) \\to +\\infty$ ，且 $0 &lt; x &lt; 1$ 时， $f(x) &lt; 0$ ； $x &gt; 1$ 时，</p>\n<p>$f(x) &gt; 0$ ；所以 $f(x)$ 在 $(0, +\\infty)$ 上有且仅有唯一的零点。所以当时， $f(a) = a \\ln a = e$ ，则 $a &gt; 1$ ，解得 $a = e$ 。综上， $a = e$ 。故答案为： $e$</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.195230+00:00",
+    "question_source_sha256": "fd7e09e7361b1a3c423e4a90022e45ec754d1b93b61dd929ba983ee3da41d367",
+    "solution_source_sha256": "49045cdfd752f9f34d7cc2aa89ea2bcec7753750c2327e42b2d465641a0aa9fa"
+  }
+}

@@ -1,0 +1,545 @@
+{
+  "question_id": "szzx2024g2week9_q015",
+  "source_exam": "示例学校高二周测（9）",
+  "source_file": "sources/示例学校高二周测（9）.docx",
+  "solution_file": "sources/示例学校高二周测（9）参考答案.docx",
+  "grade": "高二",
+  "subject": "数学",
+  "question_number": 15,
+  "question_type": "solution",
+  "stem_markdown": "15．某智能系统用于处理判断题（答案只有“对”和“错”），系统内设有两个独立的预测模型，分别记为模型甲和模型乙.系统的答案输出规则如下：系统首先同时向模型甲与模型乙提问，若两者答案一致，则直接输出该答案；若两者答案不一致，系统将重新向模型甲提问一次，并以模型甲此次给出的答案作为最终输出答案.已知模型甲回答正确的概率为$p(0<p<1)$，模型乙回答正确的概率为0.75，假设各模型每次回答相互独立.\n(1)当$p=0.85$时，求系统第一次同时向两个模型提问时，两个模型答案不同的概率；\n(2)若系统最终输出正确答案的概率不低于0.88，求$p$的最小值.",
+  "stem_text": "15．某智能系统用于处理判断题（答案只有“对”和“错”），系统内设有两个独立的预测模型，分别记为模型甲和模型乙.系统的答案输出规则如下：系统首先同时向模型甲与模型乙提问，若两者答案一致，则直接输出该答案；若两者答案不一致，系统将重新向模型甲提问一次，并以模型甲此次给出的答案作为最终输出答案.已知模型甲回答正确的概率为p(0<p<1)，模型乙回答正确的概率为0.75，假设各模型每次回答相互独立.\n(1)当p=0.85时，求系统第一次同时向两个模型提问时，两个模型答案不同的概率；\n(2)若系统最终输出正确答案的概率不低于0.88，求p的最小值.",
+  "stem_html": "<p>15．某智能系统用于处理判断题（答案只有“对”和“错”），系统内设有两个独立的预测模型，分别记为模型甲和模型乙.系统的答案输出规则如下：系统首先同时向模型甲与模型乙提问，若两者答案一致，则直接输出该答案；若两者答案不一致，系统将重新向模型甲提问一次，并以模型甲此次给出的答案作为最终输出答案.已知模型甲回答正确的概率为<span class=\"formula\" data-formula-id=\"f001\">p(0&lt;p&lt;1)</span>，模型乙回答正确的概率为0.75，假设各模型每次回答相互独立.</p>\n<p>(1)当<span class=\"formula\" data-formula-id=\"f002\">p=0.85</span>时，求系统第一次同时向两个模型提问时，两个模型答案不同的概率；</p>\n<p>(2)若系统最终输出正确答案的概率不低于0.88，求<span class=\"formula\" data-formula-id=\"f003\">p</span>的最小值.</p>",
+  "stem_blocks": [
+    {
+      "type": "text",
+      "text": "1"
+    },
+    {
+      "type": "text",
+      "text": "5"
+    },
+    {
+      "type": "text",
+      "text": "．某智能系统用于处理判断题（答案只有"
+    },
+    {
+      "type": "text",
+      "text": "“"
+    },
+    {
+      "type": "text",
+      "text": "对"
+    },
+    {
+      "type": "text",
+      "text": "”"
+    },
+    {
+      "type": "text",
+      "text": "和"
+    },
+    {
+      "type": "text",
+      "text": "“"
+    },
+    {
+      "type": "text",
+      "text": "错"
+    },
+    {
+      "type": "text",
+      "text": "”"
+    },
+    {
+      "type": "text",
+      "text": "），系统内设有两个独立的预测模型，分别记为模型甲和模型乙"
+    },
+    {
+      "type": "text",
+      "text": "."
+    },
+    {
+      "type": "text",
+      "text": "系统的答案输出规则如下：系统首先同时向模型甲与模型乙提问，若两者答案一致，则直接输出该答案；若两者答案不一致，系统将重新向模型甲提问一次，并以模型甲此次给出的答案作为最终输出答案"
+    },
+    {
+      "type": "text",
+      "text": "."
+    },
+    {
+      "type": "text",
+      "text": "已知模型甲回答正确的概率为"
+    },
+    {
+      "type": "math",
+      "formula_id": "f001",
+      "text_approx": "p(0<p<1)"
+    },
+    {
+      "type": "text",
+      "text": "，模型乙回答正确的概率为"
+    },
+    {
+      "type": "text",
+      "text": "0.75"
+    },
+    {
+      "type": "text",
+      "text": "，假设各模型每次回答相互独立"
+    },
+    {
+      "type": "text",
+      "text": "."
+    },
+    {
+      "type": "text",
+      "text": "(1)"
+    },
+    {
+      "type": "text",
+      "text": "当"
+    },
+    {
+      "type": "math",
+      "formula_id": "f002",
+      "text_approx": "p=0.85"
+    },
+    {
+      "type": "text",
+      "text": "时，求系统第一次同时向两个模型提问时，两个模型答案不同的概率；"
+    },
+    {
+      "type": "text",
+      "text": "(2)"
+    },
+    {
+      "type": "text",
+      "text": "若系统最终输出正确答案的概率不低于"
+    },
+    {
+      "type": "text",
+      "text": "0.88"
+    },
+    {
+      "type": "text",
+      "text": "，求"
+    },
+    {
+      "type": "math",
+      "formula_id": "f003",
+      "text_approx": "p"
+    },
+    {
+      "type": "text",
+      "text": "的最小值"
+    },
+    {
+      "type": "text",
+      "text": "."
+    }
+  ],
+  "answer": null,
+  "solution_markdown": "15【详解】（1）不妨设事件$A=$“模型甲回答正确”，事件$B=$“模型乙回答正确”，由题意可得，$P(A)=p=0.85$，$P(B)=0.75$，由于$A$与$B$相互独立，所以在第一次提问中两个模型答案不同的概率为$P(AB∪AB)=P(AB)+P(AB)=P(A)P(B)+P(A)P(B)=0.85×0.25+0.15×0.75=0.325$，\n（2）由（1）可知，在第一次提问中两个模型答案不同的概率为：\n$P(AB∪AB)=P(AB)+P(AB)=P(A)P(B)+P(A)P(B)=0.25p+0.75(1-p)=0.75-0.5p$，\n系统第二次输出正确答案的概率为：$P(AB∪AB)P(A)=(0.75-0.5p)⋅p=-0.5p^2+0.75p$，\n设系统最终输出正确答案的概率为$P^'$，则$P'=0.75p+(-0.5p^2+0.75p)=-0.5p^2+1.5p$，\n于是$P'≥0.88$，解得$0.8≤p≤2.2$，又由$p∈(0,1)$，于是$0.8≤p<1$，则$p$的最小值为$0.8$.",
+  "solution_text": "15【详解】（1）不妨设事件A=“模型甲回答正确”，事件B=“模型乙回答正确”，由题意可得，P(A)=p=0.85，P(B)=0.75，由于A与B相互独立，所以在第一次提问中两个模型答案不同的概率为P(AB∪AB)=P(AB)+P(AB)=P(A)P(B)+P(A)P(B)=0.85×0.25+0.15×0.75=0.325，\n（2）由（1）可知，在第一次提问中两个模型答案不同的概率为：\nP(AB∪AB)=P(AB)+P(AB)=P(A)P(B)+P(A)P(B)=0.25p+0.75(1-p)=0.75-0.5p，\n系统第二次输出正确答案的概率为：P(AB∪AB)P(A)=(0.75-0.5p)⋅p=-0.5p^2+0.75p，\n设系统最终输出正确答案的概率为P^'，则P'=0.75p+(-0.5p^2+0.75p)=-0.5p^2+1.5p，\n于是P'≥0.88，解得0.8≤p≤2.2，又由p∈(0,1)，于是0.8≤p<1，则p的最小值为0.8.",
+  "solution_html": "<p>15【详解】（1）不妨设事件<span class=\"formula\" data-formula-id=\"f004\">A=</span>“模型甲回答正确”，事件<span class=\"formula\" data-formula-id=\"f005\">B=</span>“模型乙回答正确”，由题意可得，<span class=\"formula\" data-formula-id=\"f006\">P(A)=p=0.85</span>，<span class=\"formula\" data-formula-id=\"f007\">P(B)=0.75</span>，由于<span class=\"formula\" data-formula-id=\"f008\">A</span>与<span class=\"formula\" data-formula-id=\"f009\">B</span>相互独立，所以在第一次提问中两个模型答案不同的概率为<span class=\"formula\" data-formula-id=\"f010\">P(AB∪AB)=P(AB)+P(AB)=P(A)P(B)+P(A)P(B)=0.85×0.25+0.15×0.75=0.325</span>，</p>\n<p>（2）由（1）可知，在第一次提问中两个模型答案不同的概率为：</p>\n<p><span class=\"formula\" data-formula-id=\"f011\">P(AB∪AB)=P(AB)+P(AB)=P(A)P(B)+P(A)P(B)=0.25p+0.75(1-p)=0.75-0.5p</span>，</p>\n<p>系统第二次输出正确答案的概率为：<span class=\"formula\" data-formula-id=\"f012\">P(AB∪AB)P(A)=(0.75-0.5p)⋅p=-0.5p^2+0.75p</span>，</p>\n<p>设系统最终输出正确答案的概率为<span class=\"formula\" data-formula-id=\"f013\">P^&#x27;</span>，则<span class=\"formula\" data-formula-id=\"f014\">P&#x27;=0.75p+(-0.5p^2+0.75p)=-0.5p^2+1.5p</span>，</p>\n<p>于是<span class=\"formula\" data-formula-id=\"f015\">P&#x27;≥0.88</span>，解得<span class=\"formula\" data-formula-id=\"f016\">0.8≤p≤2.2</span>，又由<span class=\"formula\" data-formula-id=\"f017\">p∈(0,1)</span>，于是<span class=\"formula\" data-formula-id=\"f018\">0.8≤p&lt;1</span>，则<span class=\"formula\" data-formula-id=\"f019\">p</span>的最小值为<span class=\"formula\" data-formula-id=\"f020\">0.8</span>.</p>",
+  "solution_blocks": [
+    {
+      "type": "text",
+      "text": "15"
+    },
+    {
+      "type": "text",
+      "text": "【详解】（"
+    },
+    {
+      "type": "text",
+      "text": "1"
+    },
+    {
+      "type": "text",
+      "text": "）不妨设事件"
+    },
+    {
+      "type": "math",
+      "formula_id": "f004",
+      "text_approx": "A="
+    },
+    {
+      "type": "text",
+      "text": "“"
+    },
+    {
+      "type": "text",
+      "text": "模型甲回答正确"
+    },
+    {
+      "type": "text",
+      "text": "”"
+    },
+    {
+      "type": "text",
+      "text": "，事件"
+    },
+    {
+      "type": "math",
+      "formula_id": "f005",
+      "text_approx": "B="
+    },
+    {
+      "type": "text",
+      "text": "“"
+    },
+    {
+      "type": "text",
+      "text": "模型乙回答正确"
+    },
+    {
+      "type": "text",
+      "text": "”"
+    },
+    {
+      "type": "text",
+      "text": "，由题意可得，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f006",
+      "text_approx": "P(A)=p=0.85"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "math",
+      "formula_id": "f007",
+      "text_approx": "P(B)=0.75"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "text",
+      "text": "由于"
+    },
+    {
+      "type": "math",
+      "formula_id": "f008",
+      "text_approx": "A"
+    },
+    {
+      "type": "text",
+      "text": "与"
+    },
+    {
+      "type": "math",
+      "formula_id": "f009",
+      "text_approx": "B"
+    },
+    {
+      "type": "text",
+      "text": "相互独立，"
+    },
+    {
+      "type": "text",
+      "text": "所以"
+    },
+    {
+      "type": "text",
+      "text": "在第一次提问中两个模型答案不同的概率为"
+    },
+    {
+      "type": "math",
+      "formula_id": "f010",
+      "text_approx": "P(AB∪AB)=P(AB)+P(AB)=P(A)P(B)+P(A)P(B)=0.85×0.25+0.15×0.75=0.325"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "text",
+      "text": "（"
+    },
+    {
+      "type": "text",
+      "text": "2"
+    },
+    {
+      "type": "text",
+      "text": "）由（"
+    },
+    {
+      "type": "text",
+      "text": "1"
+    },
+    {
+      "type": "text",
+      "text": "）可知，在第一次提问中两个模型答案不同的概率为："
+    },
+    {
+      "type": "math",
+      "formula_id": "f011",
+      "text_approx": "P(AB∪AB)=P(AB)+P(AB)=P(A)P(B)+P(A)P(B)=0.25p+0.75(1-p)=0.75-0.5p"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "text",
+      "text": "系统第二次输出正确答案的概率为："
+    },
+    {
+      "type": "math",
+      "formula_id": "f012",
+      "text_approx": "P(AB∪AB)P(A)=(0.75-0.5p)⋅p=-0.5p^2+0.75p"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "text",
+      "text": "设系统最终输出正确答案的概率为"
+    },
+    {
+      "type": "math",
+      "formula_id": "f013",
+      "text_approx": "P^'"
+    },
+    {
+      "type": "text",
+      "text": "，则"
+    },
+    {
+      "type": "math",
+      "formula_id": "f014",
+      "text_approx": "P'=0.75p+(-0.5p^2+0.75p)=-0.5p^2+1.5p"
+    },
+    {
+      "type": "text",
+      "text": "，"
+    },
+    {
+      "type": "text",
+      "text": "于是"
+    },
+    {
+      "type": "math",
+      "formula_id": "f015",
+      "text_approx": "P'≥0.88"
+    },
+    {
+      "type": "text",
+      "text": "，解得"
+    },
+    {
+      "type": "math",
+      "formula_id": "f016",
+      "text_approx": "0.8≤p≤2.2"
+    },
+    {
+      "type": "text",
+      "text": "，又由"
+    },
+    {
+      "type": "math",
+      "formula_id": "f017",
+      "text_approx": "p∈(0,1)"
+    },
+    {
+      "type": "text",
+      "text": "，于是"
+    },
+    {
+      "type": "math",
+      "formula_id": "f018",
+      "text_approx": "0.8≤p<1"
+    },
+    {
+      "type": "text",
+      "text": "，则"
+    },
+    {
+      "type": "math",
+      "formula_id": "f019",
+      "text_approx": "p"
+    },
+    {
+      "type": "text",
+      "text": "的最小值为"
+    },
+    {
+      "type": "math",
+      "formula_id": "f020",
+      "text_approx": "0.8"
+    },
+    {
+      "type": "text",
+      "text": "."
+    }
+  ],
+  "assets": [],
+  "formulas": [
+    {
+      "id": "f001",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "p(0<p<1)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>p(0&lt;p&lt;1)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f002",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "p=0.85",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>p=0.85</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f003",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "p",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>p</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f004",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "A=",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>A=</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f005",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "B=",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>B=</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f006",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "P(A)=p=0.85",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>P(A)=p=0.85</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f007",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "P(B)=0.75",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>P(B)=0.75</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f008",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "A",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>A</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f009",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "B",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>B</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f010",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "P(AB∪AB)=P(AB)+P(AB)=P(A)P(B)+P(A)P(B)=0.85×0.25+0.15×0.75=0.325",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>P(A</ns0:t></ns0:r><ns0:acc><ns0:accPr><ns0:chr ns0:val=\"̅\" /><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:accPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>B</ns0:t></ns0:r></ns0:e></ns0:acc><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>∪</ns0:t></ns0:r><ns0:acc><ns0:accPr><ns0:chr ns0:val=\"̅\" /><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:accPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>A</ns0:t></ns0:r></ns0:e></ns0:acc><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>B)=P(A</ns0:t></ns0:r><ns0:acc><ns0:accPr><ns0:chr ns0:val=\"̅\" /><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:accPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>B</ns0:t></ns0:r></ns0:e></ns0:acc><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>)+P(</ns0:t></ns0:r><ns0:acc><ns0:accPr><ns0:chr ns0:val=\"̅\" /><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:accPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>A</ns0:t></ns0:r></ns0:e></ns0:acc><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>B)=P(A)P(</ns0:t></ns0:r><ns0:acc><ns0:accPr><ns0:chr ns0:val=\"̅\" /><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:accPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>B</ns0:t></ns0:r></ns0:e></ns0:acc><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>)+P(</ns0:t></ns0:r><ns0:acc><ns0:accPr><ns0:chr ns0:val=\"̅\" /><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:accPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>A</ns0:t></ns0:r></ns0:e></ns0:acc><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>)P(B)=0.85×0.25+0.15×0.75=0.325</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f011",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "P(AB∪AB)=P(AB)+P(AB)=P(A)P(B)+P(A)P(B)=0.25p+0.75(1-p)=0.75-0.5p",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>P(A</ns0:t></ns0:r><ns0:acc><ns0:accPr><ns0:chr ns0:val=\"̅\" /><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:accPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>B</ns0:t></ns0:r></ns0:e></ns0:acc><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>∪</ns0:t></ns0:r><ns0:acc><ns0:accPr><ns0:chr ns0:val=\"̅\" /><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:accPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>A</ns0:t></ns0:r></ns0:e></ns0:acc><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>B)=P(A</ns0:t></ns0:r><ns0:acc><ns0:accPr><ns0:chr ns0:val=\"̅\" /><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:accPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>B</ns0:t></ns0:r></ns0:e></ns0:acc><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>)+P(</ns0:t></ns0:r><ns0:acc><ns0:accPr><ns0:chr ns0:val=\"̅\" /><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:accPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>A</ns0:t></ns0:r></ns0:e></ns0:acc><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>B)=P(A)P(</ns0:t></ns0:r><ns0:acc><ns0:accPr><ns0:chr ns0:val=\"̅\" /><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:accPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>B</ns0:t></ns0:r></ns0:e></ns0:acc><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>)+P(</ns0:t></ns0:r><ns0:acc><ns0:accPr><ns0:chr ns0:val=\"̅\" /><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:accPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>A</ns0:t></ns0:r></ns0:e></ns0:acc><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>)P(B)=0.25p+0.75(1-p)=0.75-0.5p</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f012",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "P(AB∪AB)P(A)=(0.75-0.5p)⋅p=-0.5p^2+0.75p",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>P(A</ns0:t></ns0:r><ns0:acc><ns0:accPr><ns0:chr ns0:val=\"̅\" /><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:accPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>B</ns0:t></ns0:r></ns0:e></ns0:acc><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>∪</ns0:t></ns0:r><ns0:acc><ns0:accPr><ns0:chr ns0:val=\"̅\" /><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:accPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>A</ns0:t></ns0:r></ns0:e></ns0:acc><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>B)P(A)=(0.75-0.5p)⋅p=-0.5</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>p</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r></ns0:sup></ns0:sSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>+0.75p</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f013",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "P^'",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>P</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>'</ns0:t></ns0:r></ns0:sup></ns0:sSup></ns0:oMath>"
+    },
+    {
+      "id": "f014",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "P'=0.75p+(-0.5p^2+0.75p)=-0.5p^2+1.5p",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>P'=0.75p+</ns0:t></ns0:r><ns0:d><ns0:dPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:dPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>-0.5</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>p</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r></ns0:sup></ns0:sSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>+0.75p</ns0:t></ns0:r></ns0:e></ns0:d><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>=-0.5</ns0:t></ns0:r><ns0:sSup><ns0:sSupPr><ns0:ctrlPr><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr></ns0:ctrlPr></ns0:sSupPr><ns0:e><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>p</ns0:t></ns0:r></ns0:e><ns0:sup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>2</ns0:t></ns0:r></ns0:sup></ns0:sSup><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>+1.5p</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f015",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "P'≥0.88",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>P'≥0.88</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f016",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "0.8≤p≤2.2",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>0.8≤p≤2.2</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f017",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "p∈(0,1)",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>p∈(0,1)</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f018",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "0.8≤p<1",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>0.8≤p&lt;1</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f019",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "p",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>p</ns0:t></ns0:r></ns0:oMath>"
+    },
+    {
+      "id": "f020",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "0.8",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>0.8</ns0:t></ns0:r></ns0:oMath>"
+    }
+  ],
+  "ole_objects": [],
+  "extraction": {
+    "source_paragraph_range": [
+      43,
+      49
+    ],
+    "solution_paragraph_range": [
+      47,
+      52
+    ],
+    "formula_count": 20,
+    "image_count": 0,
+    "ole_count": 0,
+    "quality_flags": [
+      "contains_omml"
+    ]
+  }
+}

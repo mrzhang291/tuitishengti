@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>示例学校高二周测（9） Q7</title>
+  <style>
+    body { margin: 0; font-family: "Microsoft YaHei", Arial, sans-serif; color: #1f2937; background: #f6f7f9; line-height: 1.7; }
+    main { max-width: 960px; margin: 28px auto; padding: 28px 32px; background: #fff; border: 1px solid #d6d9df; border-radius: 8px; }
+    h1 { font-size: 22px; margin: 0 0 8px; }
+    h2 { font-size: 17px; margin: 28px 0 10px; padding-bottom: 6px; border-bottom: 1px solid #d6d9df; }
+    .meta { color: #5b6472; font-size: 13px; }
+    .formula { font-family: "Cambria Math", "Times New Roman", serif; color: #0f5e9c; padding: 0 2px; }
+    .ole { color: #9a3412; background: #fff7ed; border: 1px solid #fed7aa; border-radius: 4px; padding: 0 4px; }
+    img { display: block; max-width: min(680px, 100%); margin: 12px 0; border: 1px solid #c5cad3; }
+    pre { white-space: pre-wrap; word-break: break-word; background: #f8fafc; border: 1px solid #d6d9df; border-radius: 6px; padding: 12px; font-size: 12px; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>示例学校高二周测（9） Q7</h1>
+  <div class="meta">ID: szzx2024g2week9_q007 | answer: D | formulas: 24 | images: 0 | OLE: 0</div>
+  <h2>题目</h2>
+  <p>7．连续抛掷一枚质地均匀的硬币8次，每次正面向上得2分，反面向上得<span class="formula" data-formula-id="f001">-1</span>分，记总得分为X，则（       ）</p>
+<p>A．<span class="formula" data-formula-id="f002">E(X)=8</span> B．<span class="formula" data-formula-id="f003">E(X)=12</span> C．<span class="formula" data-formula-id="f004">D(X)=6</span> D．<span class="formula" data-formula-id="f005">D(X)=18</span></p>
+  <h2>答案与解析</h2>
+  <p>7．D【详解】方法一：设<span class="formula" data-formula-id="f006">Y</span>为正面向上的次数，则<span class="formula" data-formula-id="f007">Y~B(8,(1)/(2))</span>，总得分<span class="formula" data-formula-id="f008">X=2Y+(-1)×(8-Y)=3Y-8</span>, 由于<span class="formula" data-formula-id="f009">E(Y)=8×(1)/(2)=4</span>，<span class="formula" data-formula-id="f010">D(Y)=8×(1)/(2)×(1-(1)/(2))=2</span>，所以<span class="formula" data-formula-id="f011">E(X)=E(3Y-8)=3E(Y)-8=4</span>,<span class="formula" data-formula-id="f012">D(X)=D(3Y-8)=9D(Y)=9×2=18</span>，故选: D.</p>
+<p>方法二：记第<span class="formula" data-formula-id="f013">i</span>次抛掷硬币的得分为随机变量<span class="formula" data-formula-id="f014">X_i(i=1,2,⋯,8)</span>, 故<span class="formula" data-formula-id="f015">X_i</span>的可能取值为<span class="formula" data-formula-id="f016">2,-1</span>，且</p>
+<p><span class="formula" data-formula-id="f017">P(X_i=2)=P(X_i=-1)=(1)/(2)</span>，所以<span class="formula" data-formula-id="f018">E(X_i)=2×(1)/(2)+(-1)×(1)/(2)=(1)/(2)</span>,</p>
+<p><span class="formula" data-formula-id="f019">E(X_i^2)=2^2×(1)/(2)+(-1)^2×(1)/(2)=(5)/(2)</span>, 则<span class="formula" data-formula-id="f020">D(X_i)=E(X_i^2)-E^2(X_i)=(9)/(4)</span>.</p>
+<p>由题意可知：<span class="formula" data-formula-id="f021">X=X_1+X_2+⋯X_8</span>，则<span class="formula" data-formula-id="f022">E(X)=E(X_1)+E(X_2)+⋯E(X_8)=8×(1)/(2)=4</span></p>
+<p>因为<span class="formula" data-formula-id="f023">X_1,X_2,⋯,X_8</span>之间相互独立，则<span class="formula" data-formula-id="f024">D(X)=D(X_1)+D(X_2)+⋯D(X_8)=8×(9)/(4)=18</span></p>
+  <h2>结构化摘要</h2>
+  <pre>{
+  &quot;question_id&quot;: &quot;szzx2024g2week9_q007&quot;,
+  &quot;answer&quot;: &quot;D&quot;,
+  &quot;assets&quot;: [],
+  &quot;ole_objects&quot;: [],
+  &quot;extraction&quot;: {
+    &quot;source_paragraph_range&quot;: [
+      16,
+      17
+    ],
+    &quot;solution_paragraph_range&quot;: [
+      12,
+      17
+    ],
+    &quot;formula_count&quot;: 24,
+    &quot;image_count&quot;: 0,
+    &quot;ole_count&quot;: 0,
+    &quot;quality_flags&quot;: [
+      &quot;contains_omml&quot;
+    ]
+  }
+}</pre>
+</main>
+</body>
+</html>

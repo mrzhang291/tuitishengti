@@ -1,0 +1,68 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    processEscapes: true
+  },
+  svg: {fontCache: 'global'}
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
+<style>
+:root{--ink:#172033;--muted:#697386;--line:#dbe2ea;--surface:#fff;--page:#f4f7fb;--primary:#2458b8;--primary-soft:#eaf1ff;--success:#147a4b;--success-soft:#e8f7ef;--warning:#9a5b00;--warning-soft:#fff4d6;--danger:#b42318;--danger-soft:#fff0ee;--shadow:0 10px 30px rgba(27,45,78,.08)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;margin:0;background:var(--page);color:var(--ink);line-height:1.72}
+a{color:var(--primary);text-decoration:none}a:hover{text-decoration:underline}.page-shell{max-width:1480px;margin:0 auto;padding:28px 24px 56px}.page-shell.narrow{max-width:1060px}
+.hero{background:linear-gradient(135deg,#173f86,#2f69c5);color:#fff;border-radius:18px;padding:26px 30px;box-shadow:var(--shadow);margin-bottom:20px}.hero h1{margin:0 0 8px;font-size:28px;line-height:1.3}.hero p{margin:0;color:#e5edff}.hero a{color:#fff;text-decoration:underline}
+.summary-grid{display:grid;grid-template-columns:repeat(4,minmax(150px,1fr));gap:14px;margin:18px 0}.summary-card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 18px;box-shadow:0 4px 14px rgba(27,45,78,.04)}.summary-card .label{font-size:13px;color:var(--muted)}.summary-card .value{font-size:26px;font-weight:750;margin-top:4px}.summary-card .hint{font-size:12px;color:var(--muted)}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px 24px;margin:18px 0;box-shadow:0 4px 18px rgba(27,45,78,.04)}.panel h2{font-size:20px;margin:0 0 14px}.meta{color:var(--muted)}
+.toolbar{display:grid;grid-template-columns:minmax(220px,2fr) repeat(3,minmax(150px,1fr));gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;margin:16px 0;position:sticky;top:8px;z-index:5;box-shadow:var(--shadow)}.toolbar input,.toolbar select{width:100%;border:1px solid #c8d1dc;border-radius:9px;background:#fff;padding:10px 12px;font:inherit;color:var(--ink)}.toolbar-status{grid-column:1/-1;color:var(--muted);font-size:13px}
+.table-wrap{overflow:auto;background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}table{width:100%;border-collapse:separate;border-spacing:0;margin:0;background:#fff}th{position:sticky;top:0;z-index:2;background:#eef3fa;color:#3b485c;text-align:left;font-size:13px;white-space:nowrap}td,th{border-bottom:1px solid var(--line);padding:11px 12px;vertical-align:top}tbody tr:hover{background:#f8fbff}tbody tr:last-child td{border-bottom:0}
+.id-link{font-family:Consolas,"SFMono-Regular",monospace;font-size:13px;font-weight:650;white-space:nowrap}.source-cell{min-width:210px}.number-cell{text-align:center;font-weight:700}.answer-cell{min-width:310px;max-width:520px}.answer-content{overflow-x:auto;line-height:1.65}.answer-content p{margin:0 0 7px}.answer-content p:last-child{margin-bottom:0}.answer-details summary{cursor:pointer;color:var(--primary);font-weight:650}.answer-details[open] summary{margin-bottom:10px}.answer-empty{color:var(--danger);font-weight:650}
+.badge{display:inline-flex;align-items:center;gap:4px;border-radius:999px;padding:3px 9px;margin:2px 4px 2px 0;font-size:12px;font-weight:650;white-space:nowrap;border:1px solid transparent}.badge.info{background:var(--primary-soft);color:var(--primary);border-color:#bfd2f7}.badge.success{background:var(--success-soft);color:var(--success);border-color:#b9e4ce}.badge.warning{background:var(--warning-soft);color:var(--warning);border-color:#efd394}.badge.danger{background:var(--danger-soft);color:var(--danger);border-color:#f1beb8}.badge.muted{background:#f1f3f6;color:#5d6674;border-color:#d8dde5}
+.status-banner{border-radius:12px;padding:13px 16px;margin:14px 0}.status-banner.success{background:var(--success-soft);color:var(--success);border:1px solid #b9e4ce}.status-banner.warning{background:var(--warning-soft);color:var(--warning);border:1px solid #efd394}.status-banner.danger{background:var(--danger-soft);color:var(--danger);border:1px solid #f1beb8}
+.question-content img,.solution-content img{max-width:100%;height:auto}.question-content,.solution-content,.answer-content{overflow-x:auto;overflow-y:hidden;padding-bottom:5px}.question-content> :first-child,.solution-content> :first-child,.answer-content> :first-child{margin-top:0}.question-content> :last-child,.solution-content> :last-child,.answer-content> :last-child{margin-bottom:0}mjx-container[display="true"]{text-align:left!important;margin:.75em 0!important}.back-link{display:inline-block;margin-bottom:12px;color:#e5edff}.flag-list{display:flex;flex-wrap:wrap;gap:4px}.repair-list{display:flex;flex-wrap:wrap;gap:4px}.empty-state{text-align:center;color:var(--muted);padding:34px}.math-scroll{overflow-x:auto}.content-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,.38fr);gap:18px}.content-grid .wide{grid-column:1/-1}.section-kicker{font-size:12px;font-weight:750;letter-spacing:.08em;color:var(--primary);text-transform:uppercase;margin-bottom:5px}.preview-id{font-family:Consolas,"SFMono-Regular",monospace;font-size:13px;opacity:.9}.report-note{font-size:13px;color:var(--muted);margin:8px 0 0}.diagnostic{min-width:150px}.diagnostic-line{display:flex;align-items:flex-start;gap:6px;margin:2px 0}.diagnostic-label{min-width:44px;color:var(--muted);font-size:12px;padding-top:3px}.repair-note{display:block;color:var(--muted);font-size:12px;margin-top:4px}.nowrap{white-space:nowrap}.status-dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:7px;background:currentColor}.table-caption{padding:12px 15px;color:var(--muted);font-size:13px;border-bottom:1px solid var(--line)}
+@media(max-width:900px){.page-shell{padding:16px 10px 36px}.summary-grid{grid-template-columns:repeat(2,minmax(130px,1fr))}.toolbar{position:static;grid-template-columns:1fr 1fr}.toolbar input{grid-column:1/-1}.source-cell{min-width:170px}.answer-cell{min-width:260px}.hero{border-radius:12px;padding:22px 18px}}
+@media(max-width:760px){.content-grid{grid-template-columns:1fr}.content-grid .wide{grid-column:auto}}@media(max-width:560px){.summary-grid,.toolbar{grid-template-columns:1fr}.toolbar input,.toolbar-status{grid-column:auto}.hero h1{font-size:23px}}
+@media print{body{background:#fff}.page-shell{max-width:none;padding:0}.hero{background:#fff;color:#000;box-shadow:none;border:1px solid #aaa}.hero p,.hero a{color:#333}.toolbar{display:none}.panel,.table-wrap,.summary-card{box-shadow:none}}
+</style>
+<title>EXAM-982BA095D8F8-Q014</title></head>
+<body><main class="page-shell narrow">
+<header class="hero"><a class="back-link" href="../../index.html">← 返回题库总览</a><div class="preview-id" title="内部 ID：exam_982ba095d8f8_q014">EXAM-982BA095D8F8-Q014</div><h1>第 14 题 · 填空题</h1><p>深圳中学 2024 级高二数学周测（9） · 5 分</p></header>
+<div class="content-grid">
+<section class="panel wide"><div class="section-kicker">Question</div><h2>题干</h2><div class="question-content"><h3>14. 绝大多数比赛都采用“(2n-1)局 n 胜制”的规则，但也有一些项目，比如冰壶运动，其整个比赛通常是进行偶数局。现有甲、乙两名同学进行一项趣味项目的比赛，两人约定比赛规则为：共进行 $2n(n \in \mathbf{N}_{+})$ 局，谁赢的局数大于 n 局，谁就获得最终胜利。已知每局比赛中，甲获胜的概率均为 $p\left(0 &lt; p &lt; \frac{1}{2}\right)$ ，乙获胜的概率均为 $(1 - p)$ 。记甲赢得整个比赛的概率为 $P_{2n}$ 。若 $p = \frac{2}{5}$ ，则 $P_{4} - P_{2} =$ ____ ，若 $p = \frac{5}{12}$ ，则当 2n = ____ 时， $P_{2n}$ 最大。</h3></div></section>
+<section class="panel"><div class="section-kicker">Answer</div><h2>答案</h2><div class="answer-content"><p>$\frac{12}{625}$ , 6</p></div></section>
+<section class="panel"><div class="section-kicker">Quality</div><h2>质量标记</h2><div class="flag-list"><span class='badge success'>无</span></div></section>
+<section class="panel wide"><div class="section-kicker">Solution</div><h2>解析</h2><div class="solution-content"><h3>14. $\frac{12}{625}$ 6</h3>
+<p><strong>详解</strong>当 $p = \frac{2}{5}, n = 2$ 时，甲乙比赛四局，则甲要赢3局或4局才能获胜，</p>
+<p>计算 $P_{4} = \mathrm{C}_{4}^{3}\left(\frac{2}{5}\right)^{3}\times \frac{3}{5} +\mathrm{C}_{4}^{4}\left(\frac{2}{5}\right)^{4} = \frac{112}{625},n = 1$ 时，甲乙比赛二局，则甲要赢2局，计算</p>
+<p>$$P _ {2} = \mathrm{C} _ {2} ^ {2} \left(\frac {2}{5}\right) ^ {2} = \frac {4}{2 5} = \frac {1 0 0}{6 2 5}, \text {所以} P _ {4} - P _ {2} = \frac {1 1 2}{6 2 5} - \frac {1 0 0}{6 2 5} = \frac {1 2}{6 2 5};$$</p>
+<p>在 $2n + 2$ 局比赛中甲获胜，则甲胜的局数至少为 $n + 2$ 局. 要想实现该结果，先考虑前 $2n$</p>
+<p>局的比赛结果：可能是甲胜了恰好 $n$ 局，可能是甲胜了恰好 $n + 1$ 局，可能是甲胜了至少</p>
+<p>$n+2$ 局· 分别考虑这三种情况：</p>
+<p>1) 前 $2n$ 局，甲恰好胜 $n$ 局，后 2 场甲 2 连胜，概率为</p>
+<p>$$p _ {1} = \mathrm{C} _ {2 n} ^ {n} p ^ {n} \times (1 - p) ^ {n} \times p ^ {2} = \mathrm{C} _ {2 n} ^ {n} p ^ {n + 2} \times (1 - p) ^ {n};$$</p>
+<p>2)前 2n 局，甲恰好胜 $n+1$ 局，后 2 场甲 1 胜 1 负或者 2 胜，概率为</p>
+<p>$$p _ {2} = \mathrm{C} _ {2 n} ^ {n + 1} p ^ {n + 1} \times (1 - p) ^ {n - 1} \times [ 1 - (1 - p) ^ {2} ] = \mathrm{C} _ {2 n} ^ {n + 1} p ^ {n + 2} \times (1 - p) ^ {n - 1} (2 - p),$$</p>
+<p>3)前 $2n$ 局，甲至少胜 $n + 2$ 局，后2场甲无论胜负都可以，概率为</p>
+<p>$$p _ {3} = \sum_ {k = n + 2} ^ {2 n} \mathrm{C} _ {2 n} ^ {k} p ^ {k} \times (1 - p) ^ {2 n - k} \times 1 ^ {2} = \sum_ {k = n + 2} ^ {2 n} \mathrm{C} _ {2 n} ^ {k} p ^ {k} \times (1 - p) ^ {2 n - k};$$</p>
+<p>所以 $P_{2n + 2} = p_1 + p_2 + p_3$ ，而 $P_{2n} = \sum_{k = n + 1}^{2n}\mathrm{C}_{2n}^{k}p^{k}\times (1 - p)^{2n - k} = p_{3} + \mathrm{C}_{2n}^{n + 1}p^{n + 1}\times (1 - p)^{n - 1}$</p>
+<p>$$\text {所以} P _ {2 n + 2} - P _ {2 n} = p _ {1} + p _ {2} - \mathrm{C} _ {2 n} ^ {n + 1} p ^ {n + 1} \times (1 - p) ^ {n - 1}$$</p>
+<p>$$= \mathrm{C} _ {2 n} ^ {n} p ^ {n + 2} \times (1 - p) ^ {n} + \mathrm{C} _ {2 n} ^ {n + 1} p ^ {n + 2} \times (1 - p) ^ {n - 1} (2 - p) - \mathrm{C} _ {2 n} ^ {n + 1} p ^ {n + 1} \times (1 - p) ^ {n - 1}$$</p>
+<p>$$= \left[ \mathrm{C} _ {2 n} ^ {n} p (1 - p) + \mathrm{C} _ {2 n} ^ {n + 1} p (2 - p) - \mathrm{C} _ {2 n} ^ {n + 1} \right] p ^ {n + 1} \times (1 - p) ^ {n - 1}$$</p>
+<p>$$= \left[ C _ {2 n} ^ {n} p (1 - p) - C _ {2 n} ^ {n + 1} (1 - p) ^ {2} \right] p ^ {n + 1} \times (1 - p) ^ {n - 1} = \left[ C _ {2 n} ^ {n} p - C _ {2 n} ^ {n + 1} (1 - p) \right] p ^ {n + 1} \times (1 - p) ^ {n},$$</p>
+<p>令 $P_{2n + 2} &gt; P_{2n}$ ，则 $\mathrm{C}_{2n}^{n}p - \mathrm{C}_{2n}^{n + 1}(1 - p) &gt; 0$ ，即</p>
+<p>$$\frac {(2 n) !}{n ! n !} p &gt; \frac {(2 n) !}{(n + 1) ! (n - 1) !} (1 - p) \Leftrightarrow n (1 - 2 p) &lt;   p.$$</p>
+<p>因为 $p=\frac{5}{12}$ ，所以 $n&lt;\frac{p}{1-2p}=\frac{5}{2}$ ，即 $n\leq2$ ，所以 $P_{2}&lt;P_{4}&lt;P_{6}$ .</p>
+<p>同理可知：令 $P_{2n+2} &lt; P_{2n}$ ，则 $n \geq 3$ ，故 $P_{6} &gt; P_{8} &gt; P_{10} &gt; \cdots &gt; P_{2n} &gt; \cdots$</p>
+<p>所以当2n=6时， $P_{6}$ 最大. 故答案为： $\frac{12}{625}$ ，6.</p>
+<p>15<strong>详解</strong>（1）不妨设事件 A = “模型甲回答正确”，事件 B = “模型乙回答正确”，由题意可得， $P(A) = p = 0.85$ ， $P(B) = 0.75$ ，由于 A 与 B 相互独立，所以在第一次提问中两个模型答案不同的概率为</p>
+<p>$$P (A \bar {B} \cup \bar {A} B) = P (A \bar {B}) + P (\bar {A} B) = P (A) P (\bar {B}) + P (\bar {A}) P (B) = 0.8 5 \times 0.2 5 + 0.1 5 \times 0.7 5 = 0.3 2 5$$</p>
+<p>（2）由（1）可知，在第一次提问中两个模型答案不同的概率为：</p>
+<p>$$P (A \bar {B} \cup \bar {A} B) = P (A \bar {B}) + P (\bar {A} B) = P (A) P (\bar {B}) + P (\bar {A}) P (B) = 0.2 5 p + 0.7 5 (1 - p) = 0.7 5 - 0.5 p$$</p>
+<p>系统第二次输出正确答案的概率为： $P(A\overline{B}\cup\overline{A}B)P(A)=(0.75-0.5p)\cdot p=-0.5p^{2}+0.75p$</p>
+<p>设系统最终输出正确答案的概率为 $P'$ ，则 $P' = 0.75p + (-0.5p^2 + 0.75p) = -0.5p^2 + 1.5p$</p>
+<p>于是 $P' \geq 0.88$ ，解得 $0.8 \leq p \leq 2.2$ ，又由 $p \in (0,1)$ ，于是 $0.8 \leq p &lt; 1$ ，则 $p$ 的最小值为 0.8。</p></div></section>
+</div></main></body></html>

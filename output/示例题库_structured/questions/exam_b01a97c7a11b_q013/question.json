@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_b01a97c7a11b_q013",
+  "display_id": "EXAM-B01A97C7A11B-Q013",
+  "source_exam": "深圳中学2024级高二周测（8）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（8）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（8）参考答案.md",
+  "question_number": 13,
+  "question_type": "fill_blank",
+  "stem_markdown": "### 13. 已知函数 $f(x)=2\\sin x+\\sin 2x$ ，则 $f(x)$ 的最小值是 \\_\\_\\_\\_.",
+  "stem_html": "<h3>13. 已知函数 $f(x)=2\\sin x+\\sin 2x$ ，则 $f(x)$ 的最小值是 ____.</h3>",
+  "options": {},
+  "answer": "-\\frac{3\\sqrt{3}}{2}$",
+  "solution_markdown": "### 13. \n\n**详解** $f'(x)=2\\cos x+2\\cos 2x=2\\cos x+2(2\\cos^{2}x-1)=4\\cos^{2}x+2\\cos x-2=2(\\cos x+1)\\cdot(2\\cos x-1)$\n\n令 $f'(x) > 0$ ，得 $\\cos x > \\frac{1}{2}$ ，即 $f(x)$ 在区间 $\\left(2k\\pi - \\frac{\\pi}{3}, 2k\\pi + \\frac{\\pi}{3}\\right) (k \\in \\mathbf{Z})$ 内单调递增；\n\n令 $f'(x) < 0$ ，得 $\\cos x < \\frac{1}{2}$ ，即 $f(x)$ 在区间 $\\left(2k\\pi + \\frac{\\pi}{3}, 2k\\pi + \\frac{5\\pi}{3}\\right) (k \\in \\mathbf{Z})$ 内单调递减.\n\n则 $[f(x)]_{\\min} = f\\left(2k\\pi -\\frac{\\pi}{3}\\right) = -\\frac{3\\sqrt{3}}{2}$ 故答案为： $-\\frac{3\\sqrt{3}}{2}$",
+  "solution_html": "<h3>13.</h3>\n<p><strong>详解</strong> $f'(x)=2\\cos x+2\\cos 2x=2\\cos x+2(2\\cos^{2}x-1)=4\\cos^{2}x+2\\cos x-2=2(\\cos x+1)\\cdot(2\\cos x-1)$</p>\n<p>令 $f'(x) &gt; 0$ ，得 $\\cos x &gt; \\frac{1}{2}$ ，即 $f(x)$ 在区间 $\\left(2k\\pi - \\frac{\\pi}{3}, 2k\\pi + \\frac{\\pi}{3}\\right) (k \\in \\mathbf{Z})$ 内单调递增；</p>\n<p>令 $f'(x) &lt; 0$ ，得 $\\cos x &lt; \\frac{1}{2}$ ，即 $f(x)$ 在区间 $\\left(2k\\pi + \\frac{\\pi}{3}, 2k\\pi + \\frac{5\\pi}{3}\\right) (k \\in \\mathbf{Z})$ 内单调递减.</p>\n<p>则 $[f(x)]_{\\min} = f\\left(2k\\pi -\\frac{\\pi}{3}\\right) = -\\frac{3\\sqrt{3}}{2}$ 故答案为： $-\\frac{3\\sqrt{3}}{2}$</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [
+    "answer_math_display_repaired"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.107353+00:00",
+    "question_source_sha256": "c94eca08c58bedc15524121a680136ba270a64c9922023c3005a12c4fc409761",
+    "solution_source_sha256": "2c305966ce196e8a17833cd59778cae810c6b4e24eca072eeecc711059b85d1d"
+  }
+}

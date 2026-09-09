@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_5267945b2a8f_q005",
+  "display_id": "EXAM-5267945B2A8F-Q005",
+  "source_exam": "深圳中学 2024 级高二数学 五一作业",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学２０２４级高二数学五一作业 试卷.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学２０２４级高二数学五一作业 答案.md",
+  "question_number": 5,
+  "question_type": "single_choice",
+  "stem_markdown": "### 5. 设 $m \\in (0,1)$ ，随机变量 X 的分布列为\n\n<table><tr><td>X</td><td>0</td><td>m</td><td>1</td></tr><tr><td>p</td><td> $\\frac{m}{2}$ </td><td> $\\frac{1}{2}$ </td><td> $\\frac{1-m}{2}$ </td></tr></table>\n\nA. $D(X)$ 在 $(0,1)$ 上单调递增\n\nB. $D(X)$ 在 $(0,1)$ 上单调递减\n\nC. $D(X)$ 的最小值为 $\\frac{1}{8}$\n\nD. $D(X)$ 的最大值为 $\\frac{1}{4}$",
+  "stem_html": "<h3>5. 设 $m \\in (0,1)$ ，随机变量 X 的分布列为</h3>\n<table><tr><td>X</td><td>0</td><td>m</td><td>1</td></tr><tr><td>p</td><td> $\\frac{m}{2}$ </td><td> $\\frac{1}{2}$ </td><td> $\\frac{1-m}{2}$ </td></tr></table>\n\n<p>A. $D(X)$ 在 $(0,1)$ 上单调递增</p>\n<p>B. $D(X)$ 在 $(0,1)$ 上单调递减</p>\n<p>C. $D(X)$ 的最小值为 $\\frac{1}{8}$</p>\n<p>D. $D(X)$ 的最大值为 $\\frac{1}{4}$</p>",
+  "options": {
+    "A": "$D(X)$ 在 $(0,1)$ 上单调递增",
+    "B": "$D(X)$ 在 $(0,1)$ 上单调递减",
+    "C": "$D(X)$ 的最小值为 $\\frac{1}{8}$",
+    "D": "$D(X)$ 的最大值为 $\\frac{1}{4}$"
+  },
+  "answer": "C",
+  "solution_markdown": "",
+  "solution_html": "",
+  "score": null,
+  "assets": [],
+  "quality_flags": [
+    "missing_solution"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.230167+00:00",
+    "question_source_sha256": "15514af6ceb54dc08cbfc8100c7df26b356cb6688fdd3bfe5c4f436c61261dd5",
+    "solution_source_sha256": "07f1865be56a487b402afb470f20fe230f42fb97bd927cee85afc49913075760"
+  }
+}

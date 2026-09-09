@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_64d466db9a64_q019",
+  "display_id": "EXAM-64D466DB9A64-Q019",
+  "source_exam": "深圳中学 2024 级高二数学周测（5）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二数学周测（5）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二数学周测（5）参考答案.md",
+  "question_number": 19,
+  "question_type": "solution",
+  "stem_markdown": "### 19. 设函数 $f(x) = \\ln x + \\frac{1 - a}{x} (a \\in \\mathbf{R})$ .\n\n（1）若 $f(x) \\geq 0$ 恒成立，求 a 的取值范围；\n\n(2) 若 $f(x)$ 有两个零点 $x_{1}, x_{2}$ ，证明： $x_{1} + x_{2} > 2 - 2a$ .",
+  "stem_html": "<h3>19. 设函数 $f(x) = \\ln x + \\frac{1 - a}{x} (a \\in \\mathbf{R})$ .</h3>\n<p>（1）若 $f(x) \\geq 0$ 恒成立，求 a 的取值范围；</p>\n<p>(2) 若 $f(x)$ 有两个零点 $x_{1}, x_{2}$ ，证明： $x_{1} + x_{2} &gt; 2 - 2a$ .</p>",
+  "options": {},
+  "answer": "",
+  "solution_markdown": "",
+  "solution_html": "",
+  "score": null,
+  "assets": [],
+  "quality_flags": [
+    "missing_answer",
+    "missing_solution"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.445615+00:00",
+    "question_source_sha256": "0a947743971a67ef971955fddba3a1d96fa8478a9c0c36d10f0c4ee174efd496",
+    "solution_source_sha256": "8c53a21b6d71e1b67f1664b079fb0452db52b9a6b9c5c668ce4dbeedf2a2958c"
+  }
+}

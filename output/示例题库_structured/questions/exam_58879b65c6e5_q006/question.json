@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_58879b65c6e5_q006",
+  "display_id": "EXAM-58879B65C6E5-Q006",
+  "source_exam": "深圳中学 2024 级高二数学周测（7）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（7）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（7）参考答案.md",
+  "question_number": 6,
+  "question_type": "single_choice",
+  "stem_markdown": "### 6. 定义在 $\\mathbf{R}$ 上的函数 $f(x)$ 的导函数为 $f'(x)$ ，若对任意实数 $x$ ，有 $f(x) > f'(x)$ ，且 $f(x) + 2026$ 为奇函数，则不等式 $f(x) + 2026\\mathrm{e}^x < 0$ 的解集是（）\n\nA. $(- \\infty, 0)$\n\nB. $(- \\infty, \\ln 2026)$\n\nC. $(0, +\\infty)$\n\nD. $(2026, +\\infty)$",
+  "stem_html": "<h3>6. 定义在 $\\mathbf{R}$ 上的函数 $f(x)$ 的导函数为 $f'(x)$ ，若对任意实数 $x$ ，有 $f(x) &gt; f'(x)$ ，且 $f(x) + 2026$ 为奇函数，则不等式 $f(x) + 2026\\mathrm{e}^x &lt; 0$ 的解集是（）</h3>\n<p>A. $(- \\infty, 0)$</p>\n<p>B. $(- \\infty, \\ln 2026)$</p>\n<p>C. $(0, +\\infty)$</p>\n<p>D. $(2026, +\\infty)$</p>",
+  "options": {
+    "A": "$(- \\infty, 0)$",
+    "B": "$(- \\infty, \\ln 2026)$",
+    "C": "$(0, +\\infty)$",
+    "D": "$(2026, +\\infty)$"
+  },
+  "answer": "C",
+  "solution_markdown": "### 6. C\n\n**详解**设 $g(x)=\\frac{f(x)}{\\mathrm{e}^{x}}$ ，则 $g'(x)=\\frac{f'(x)-f(x)}{\\mathrm{e}^{x}}$ ，因为 $f(x)>f'(x)$ ，所以\n\n$$g ^ {\\prime} (x) <   0$$\n\n$$g (x)$$\n\n$$f (x) + 2 0 2 6$$\n\n$f(0)+2026=0,\\quad f(0)=-2026,\\quad f(x)+2026\\mathrm{e}^{x}<0$ ，即 $\\frac{f(x)}{\\mathrm{e}^{x}}<-2026$ ，即 $g(x)<g(0)$ ，故x>0。",
+  "solution_html": "<h3>6. C</h3>\n<p><strong>详解</strong>设 $g(x)=\\frac{f(x)}{\\mathrm{e}^{x}}$ ，则 $g'(x)=\\frac{f'(x)-f(x)}{\\mathrm{e}^{x}}$ ，因为 $f(x)&gt;f'(x)$ ，所以</p>\n<p>$$g ^ {\\prime} (x) &lt;   0$$</p>\n<p>$$g (x)$$</p>\n<p>$$f (x) + 2 0 2 6$$</p>\n<p>$f(0)+2026=0,\\quad f(0)=-2026,\\quad f(x)+2026\\mathrm{e}^{x}&lt;0$ ，即 $\\frac{f(x)}{\\mathrm{e}^{x}}&lt;-2026$ ，即 $g(x)&lt;g(0)$ ，故x&gt;0。</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.962164+00:00",
+    "question_source_sha256": "9124b78ea7842e994e399ed6bc49d2368b80f63f7683e1cfae2de4c1c9e936aa",
+    "solution_source_sha256": "73a0816208baeeb9d64155c667182408d96461e4b8769a726123ba1edb89fe5b"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_982ba095d8f8_q003",
+  "display_id": "EXAM-982BA095D8F8-Q003",
+  "source_exam": "深圳中学 2024 级高二数学周测（9）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（9）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（9）参考答案.md",
+  "question_number": 3,
+  "question_type": "single_choice",
+  "stem_markdown": "### 3. 函数 $f(x) = x^3 - 3x^2$ 的所有极值的和为（）\n\nA. -4\n\nB. -2\n\nC. 0\n\nD. 2",
+  "stem_html": "<h3>3. 函数 $f(x) = x^3 - 3x^2$ 的所有极值的和为（）</h3>\n<p>A. -4</p>\n<p>B. -2</p>\n<p>C. 0</p>\n<p>D. 2</p>",
+  "options": {
+    "A": "-4",
+    "B": "-2",
+    "C": "0",
+    "D": "2"
+  },
+  "answer": "A",
+  "solution_markdown": "### 3. A\n\n**详解**由题可得 $f'(x)=3x^{2}-6x=3x(x-2)$ ，令 $f'(x)=0$ ，解得：x=0 或 x=2，\n当 x<0 或 x>2 时， $f'(x)>0$ ，当 0<x<2 时， $f'(x)<0$ ，所以 $f(x)$ 的单调递增区间为： $(-∞,0)$ 和 $(2,+∞)$ ，单调递减区间为 $(0,2)$ ，所以 $f(x)$ 的极大值为 $f(0)=0$ ，极小值为 $f(2)=-4$ ，则函数 $f(x)=x^{3}-3x^{2}$ 的所有极值的和为 -4．故选：A.",
+  "solution_html": "<h3>3. A</h3>\n<p><strong>详解</strong>由题可得 $f'(x)=3x^{2}-6x=3x(x-2)$ ，令 $f'(x)=0$ ，解得：x=0 或 x=2，\n当 x&lt;0 或 x&gt;2 时， $f'(x)&gt;0$ ，当 0&lt;x&lt;2 时， $f'(x)&lt;0$ ，所以 $f(x)$ 的单调递增区间为： $(-∞,0)$ 和 $(2,+∞)$ ，单调递减区间为 $(0,2)$ ，所以 $f(x)$ 的极大值为 $f(0)=0$ ，极小值为 $f(2)=-4$ ，则函数 $f(x)=x^{3}-3x^{2}$ 的所有极值的和为 -4．故选：A.</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.131709+00:00",
+    "question_source_sha256": "fd7e09e7361b1a3c423e4a90022e45ec754d1b93b61dd929ba983ee3da41d367",
+    "solution_source_sha256": "49045cdfd752f9f34d7cc2aa89ea2bcec7753750c2327e42b2d465641a0aa9fa"
+  }
+}

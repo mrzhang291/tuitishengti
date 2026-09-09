@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_f6e940cd31a8_q005",
+  "display_id": "EXAM-F6E940CD31A8-Q005",
+  "source_exam": "深圳中学 2024 级高二数学周测（3）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（3）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（3）参考答案.md",
+  "question_number": 5,
+  "question_type": "single_choice",
+  "stem_markdown": "### 5. 设函数 $f'(x)$ 是奇函数 $f(x) (x \\in \\mathbf{R})$ 的导函数， $f(-1) = 0$ ，当 $x > 0$ 时， $xf'(x) - f(x) < 0$ ，则使得 $f(x) > 0$ 成立的 $x$ 的取值范围是\n\nA. $(-\\infty, -1)\\mathrm{U}(0,1)$\n\nB. $(-1,0)\\mathrm{U}(1,+\\infty)$\n\nC. $(-\\infty,-1)\\mathrm{U}(-1,0)$\n\nD. $(0,1)\\mathrm{U}(1,+\\infty)$",
+  "stem_html": "<h3>5. 设函数 $f'(x)$ 是奇函数 $f(x) (x \\in \\mathbf{R})$ 的导函数， $f(-1) = 0$ ，当 $x &gt; 0$ 时， $xf'(x) - f(x) &lt; 0$ ，则使得 $f(x) &gt; 0$ 成立的 $x$ 的取值范围是</h3>\n<p>A. $(-\\infty, -1)\\mathrm{U}(0,1)$</p>\n<p>B. $(-1,0)\\mathrm{U}(1,+\\infty)$</p>\n<p>C. $(-\\infty,-1)\\mathrm{U}(-1,0)$</p>\n<p>D. $(0,1)\\mathrm{U}(1,+\\infty)$</p>",
+  "options": {
+    "A": "$(-\\infty, -1)\\mathrm{U}(0,1)$",
+    "B": "$(-1,0)\\mathrm{U}(1,+\\infty)$",
+    "C": "$(-\\infty,-1)\\mathrm{U}(-1,0)$",
+    "D": "$(0,1)\\mathrm{U}(1,+\\infty)$"
+  },
+  "answer": "A",
+  "solution_markdown": "### 5. A\n\n**详解**构造新函数 $g(x) = \\frac{f(x)}{x}$ , $g'(x) = \\frac{xf'(x) - f(x)}{x^2}$ ，当 $x > 0$ 时 $g'(x) < 0$ .\n\n所以在 $(0,+\\infty)$ 上 $g(x)=\\frac{f(x)}{x}$ 单减，又 $f(1)=0$ ，即 $g(1)=0$ .\n\n所以 $g(x)=\\frac{f(x)}{x}>0$ 可得 0<x<1, 此时 $f(x)>0$ ,\n\n又 $f(x)$ 为奇函数，所以 $f(x)>0$ 在 $(-∞,0)∪(0,+∞)$ 上的解集为： $(-∞,-1)∪(0,1)$ .",
+  "solution_html": "<h3>5. A</h3>\n<p><strong>详解</strong>构造新函数 $g(x) = \\frac{f(x)}{x}$ , $g'(x) = \\frac{xf'(x) - f(x)}{x^2}$ ，当 $x &gt; 0$ 时 $g'(x) &lt; 0$ .</p>\n<p>所以在 $(0,+\\infty)$ 上 $g(x)=\\frac{f(x)}{x}$ 单减，又 $f(1)=0$ ，即 $g(1)=0$ .</p>\n<p>所以 $g(x)=\\frac{f(x)}{x}&gt;0$ 可得 0&lt;x&lt;1, 此时 $f(x)&gt;0$ ,</p>\n<p>又 $f(x)$ 为奇函数，所以 $f(x)&gt;0$ 在 $(-∞,0)∪(0,+∞)$ 上的解集为： $(-∞,-1)∪(0,1)$ .</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.739531+00:00",
+    "question_source_sha256": "78a4bb6656c35dbe613a79b0ed7dccc993b5c108f4f5c32b995a022aaa492633",
+    "solution_source_sha256": "86a4c5fab883e5128818dbb75724d3042d0c55a8ea81c7cdffedbb262214e02c"
+  }
+}

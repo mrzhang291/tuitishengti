@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_ed507f8efdc5_q004",
+  "display_id": "EXAM-ED507F8EFDC5-Q004",
+  "source_exam": "深圳中学 2024 级高二数学周测（2）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（2）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（2）解析.md",
+  "question_number": 4,
+  "question_type": "single_choice",
+  "stem_markdown": "### 4. 设 $f(x)$ 、 $g(x)$ 分别是定义在R上的奇函数和偶函数，当x<0时， $f'(x)g(x)+f(x)g'(x)>0$ 。且 $g(-3)=0$ ，则不等式 $f(x)g(x)<0$ 的解集是（）\n\nA. $(-3,0)\\cup(3,+\\infty)$\n\nB. $(-3,0)\\cup(0,3)$\n\nC. $(-\\infty,-3)\\cup(3,+\\infty)$\n\nD. $(-\\infty,-3)\\cup(0,3)$",
+  "stem_html": "<h3>4. 设 $f(x)$ 、 $g(x)$ 分别是定义在R上的奇函数和偶函数，当x&lt;0时， $f'(x)g(x)+f(x)g'(x)&gt;0$ 。且 $g(-3)=0$ ，则不等式 $f(x)g(x)&lt;0$ 的解集是（）</h3>\n<p>A. $(-3,0)\\cup(3,+\\infty)$</p>\n<p>B. $(-3,0)\\cup(0,3)$</p>\n<p>C. $(-\\infty,-3)\\cup(3,+\\infty)$</p>\n<p>D. $(-\\infty,-3)\\cup(0,3)$</p>",
+  "options": {
+    "A": "$(-3,0)\\cup(3,+\\infty)$",
+    "B": "$(-3,0)\\cup(0,3)$",
+    "C": "$(-\\infty,-3)\\cup(3,+\\infty)$",
+    "D": "$(-\\infty,-3)\\cup(0,3)$"
+  },
+  "answer": "D",
+  "solution_markdown": "### 4. D\n\n**详解**令 $h(x)=f(x)g(x)$ ，则 $h(-x)=f(-x)g(-x)=-f(x)g(x)=-h(x)$ ，因此函数 $h(x)$ 在R上是奇函数。①∵当x<0时， $h'(x)=f'(x)g(x)+f(x)g'(x)>0$ ，∴ $h(x)$ 在x<0时单调递增，故函数 $h(x)$ 在R上单调递增。∵ $h(-3)=f(-3)g(-3)=0$ ，\n\n∴ $h(x) = f(x)g(x) < 0 = h(-3)$ ，∴ x < -3. ②当 x > 0 时，函数 $h(x)$ 在 R 上是奇函数，可知： $h(x)$ 在 $(0, +\\infty)$ 上单调递增，且 $h(3) = -h(-3) = 0$ ，∴ $h(x) < 0$ ，的解集为 $(0, 3)$ .\n③当x=0时， $h(0)=0$ ，不符合要求。∴不等式的解集是 $(-∞,-3)∪(0,3)$ .",
+  "solution_html": "<h3>4. D</h3>\n<p><strong>详解</strong>令 $h(x)=f(x)g(x)$ ，则 $h(-x)=f(-x)g(-x)=-f(x)g(x)=-h(x)$ ，因此函数 $h(x)$ 在R上是奇函数。①∵当x&lt;0时， $h'(x)=f'(x)g(x)+f(x)g'(x)&gt;0$ ，∴ $h(x)$ 在x&lt;0时单调递增，故函数 $h(x)$ 在R上单调递增。∵ $h(-3)=f(-3)g(-3)=0$ ，</p>\n<p>∴ $h(x) = f(x)g(x) &lt; 0 = h(-3)$ ，∴ x &lt; -3. ②当 x &gt; 0 时，函数 $h(x)$ 在 R 上是奇函数，可知： $h(x)$ 在 $(0, +\\infty)$ 上单调递增，且 $h(3) = -h(-3) = 0$ ，∴ $h(x) &lt; 0$ ，的解集为 $(0, 3)$ .\n③当x=0时， $h(0)=0$ ，不符合要求。∴不等式的解集是 $(-∞,-3)∪(0,3)$ .</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.624657+00:00",
+    "question_source_sha256": "7cb6872dd8f9092683f4d213bfc976e0e2eecfc7cc5919b7f6cfa19ef958a3d1",
+    "solution_source_sha256": "ee82da0a88dd9857c44efb8cd3b554ae670a59b5aa1d62f710078f748a7f8a4e"
+  }
+}

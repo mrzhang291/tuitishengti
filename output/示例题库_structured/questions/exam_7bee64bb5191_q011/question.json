@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_7bee64bb5191_q011",
+  "display_id": "EXAM-7BEE64BB5191-Q011",
+  "source_exam": "深圳中学 2024 级高二数学周测（1）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（1）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（1）解析.md",
+  "question_number": 11,
+  "question_type": "multiple_choice",
+  "stem_markdown": "### 11. 已知定义在 $\\mathbf{R}$ 上的函数 $f(x), g(x)$ 的导函数分别为 $f'(x), g'(x)$ ，且 $f(x) = f(4 - x)$ ， $f(1 + x) - g(x) = 4, f'(x) + g'(1 + x) = 0$ ，则（）\n\nA. $g(x)$ 关于直线 $x = 1$ 对称\n\nB. $g'(3) = 1$\n\nC. $f'(x)$ 的周期为4\n\nD. $f'(n) \\cdot g'(n) = 0 (n \\in Z)$\n\n#",
+  "stem_html": "<h3>11. 已知定义在 $\\mathbf{R}$ 上的函数 $f(x), g(x)$ 的导函数分别为 $f'(x), g'(x)$ ，且 $f(x) = f(4 - x)$ ， $f(1 + x) - g(x) = 4, f'(x) + g'(1 + x) = 0$ ，则（）</h3>\n<p>A. $g(x)$ 关于直线 $x = 1$ 对称</p>\n<p>B. $g'(3) = 1$</p>\n<p>C. $f'(x)$ 的周期为4</p>\n<p>D. $f'(n) \\cdot g'(n) = 0 (n \\in Z)$</p>\n<h1></h1>",
+  "options": {
+    "A": "$g(x)$ 关于直线 $x = 1$ 对称",
+    "B": "$g'(3) = 1$",
+    "C": "$f'(x)$ 的周期为4",
+    "D": "$f'(n) \\cdot g'(n) = 0 (n \\in Z)$\n\n#"
+  },
+  "answer": "ACD",
+  "solution_markdown": "### 11. ACD\n\n**详解**由 $f(x)=f(4-x)$ ，得 $f(1+x)=f(3-x)①$\n\n$f(1 + x) - g(x) = 4②$ ，得 $f(3 - x) - g(2 - x) = 4③$\n\n由①②③，得 $g(x)=g(2-x)$ ，所以函数 $g(x)$ 图象关于直线x=1对称，故A正确；\n\n由 \\(g(x)=g(2-x)\\) ，得 \\(g'(x)=-g'(2-x)\\) ，令x=1，得 \\(g'(1)=0\\) ；\n由 \\(f(1+x)-g(x)=4\\) ，得 \\(f'(1+x)-g'(x)=0\\) ，\n令x=1，得 \\(f'(2)=g'(1)=0,\\therefore f'(2+x)-g'(1+x)=0④,\\)\n又 \\(f'(x)+g'(1+x)=0⑤\\) ，令x=2，得 \\(f'(2)=g'(3)=0\\) ，故B错误；\n④⑤两式相加，得 \\(f'(2+x)+f'(x)=0\\) ，得 \\(f'(4+x)+f'(2+x)=0\\) ，\n所以 \\(f'(x)=f'(4+x)\\) ，即函数 \\(f'(x)\\) 的周期为4，故C正确；\n由 \\(f'(2+x)+f'(x)=0\\) ，令x=2，得 \\(f'(4)+f'(2)=0\\) ，所以 \\(f'(4)=0\\) ，\n所以 \\(f'(1)g'(1)=f'(2)g'(2)=f'(3)g'(3)=f'(4)g'(4)=\\cdots=f'(n)g'(n)=0(n\\in Z)\\) ，故D正确.故选：ACD",
+  "solution_html": "<h3>11. ACD</h3>\n<p><strong>详解</strong>由 $f(x)=f(4-x)$ ，得 $f(1+x)=f(3-x)①$</p>\n<p>$f(1 + x) - g(x) = 4②$ ，得 $f(3 - x) - g(2 - x) = 4③$</p>\n<p>由①②③，得 $g(x)=g(2-x)$ ，所以函数 $g(x)$ 图象关于直线x=1对称，故A正确；</p>\n<p>由 \\(g(x)=g(2-x)\\) ，得 \\(g'(x)=-g'(2-x)\\) ，令x=1，得 \\(g'(1)=0\\) ；\n由 \\(f(1+x)-g(x)=4\\) ，得 \\(f'(1+x)-g'(x)=0\\) ，\n令x=1，得 \\(f'(2)=g'(1)=0,\\therefore f'(2+x)-g'(1+x)=0④,\\)\n又 \\(f'(x)+g'(1+x)=0⑤\\) ，令x=2，得 \\(f'(2)=g'(3)=0\\) ，故B错误；\n④⑤两式相加，得 \\(f'(2+x)+f'(x)=0\\) ，得 \\(f'(4+x)+f'(2+x)=0\\) ，\n所以 \\(f'(x)=f'(4+x)\\) ，即函数 \\(f'(x)\\) 的周期为4，故C正确；\n由 \\(f'(2+x)+f'(x)=0\\) ，令x=2，得 \\(f'(4)+f'(2)=0\\) ，所以 \\(f'(4)=0\\) ，\n所以 \\(f'(1)g'(1)=f'(2)g'(2)=f'(3)g'(3)=f'(4)g'(4)=\\cdots=f'(n)g'(n)=0(n\\in Z)\\) ，故D正确.故选：ACD</p>",
+  "score": 6,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.589666+00:00",
+    "question_source_sha256": "8fa1d650b2c1959ec549afd5bfc248cdd4ddda5307791163f79f93a33acf3cac",
+    "solution_source_sha256": "5b5d55d680204d0e0f86a02ed377845f5652a058ffb31385ed378ad99f44b5f7"
+  }
+}

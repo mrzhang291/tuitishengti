@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_7bee64bb5191_q007",
+  "display_id": "EXAM-7BEE64BB5191-Q007",
+  "source_exam": "深圳中学 2024 级高二数学周测（1）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（1）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（1）解析.md",
+  "question_number": 7,
+  "question_type": "single_choice",
+  "stem_markdown": "### 7. 函数 $y = f(x)$ 的导数 $y = f'(x)$ 仍是 $x$ 的函数，通常把导函数 $y = f'(x)$ 的导数叫做函数的二阶导数，记作 $y = f''(x)$ ，类似地，二阶导数的导数叫做三阶导数，三阶导数的导数叫做四阶导数……一般地， $n - 1$ 阶导数的导数叫做 $n$ 阶导数，函数 $y = f(x)$ 的 $n$ 阶导数记为 $y=f^{(n)}(x)$ ，例如 $y=e^{x}$ 的n阶导数 $(e^{x})^{(n)}=e^{x}$ 。若 $f(x)=xe^{x}+\\cos2x$ ，则 $f^{(50)}(0)=(\\quad)$\n\nA. $50 - 2^{50}$\n\nB. 50\n\nC. 49\n\nD. $49 + 2^{49}$",
+  "stem_html": "<h3>7. 函数 $y = f(x)$ 的导数 $y = f'(x)$ 仍是 $x$ 的函数，通常把导函数 $y = f'(x)$ 的导数叫做函数的二阶导数，记作 $y = f''(x)$ ，类似地，二阶导数的导数叫做三阶导数，三阶导数的导数叫做四阶导数……一般地， $n - 1$ 阶导数的导数叫做 $n$ 阶导数，函数 $y = f(x)$ 的 $n$ 阶导数记为 $y=f^{(n)}(x)$ ，例如 $y=e^{x}$ 的n阶导数 $(e^{x})^{(n)}=e^{x}$ 。若 $f(x)=xe^{x}+\\cos2x$ ，则 $f^{(50)}(0)=(\\quad)$</h3>\n<p>A. $50 - 2^{50}$</p>\n<p>B. 50</p>\n<p>C. 49</p>\n<p>D. $49 + 2^{49}$</p>",
+  "options": {
+    "A": "$50 - 2^{50}$",
+    "B": "50",
+    "C": "49",
+    "D": "$49 + 2^{49}$"
+  },
+  "answer": "A",
+  "solution_markdown": "### 7. A\n\n**详解**由 $f^{1}(x)=(x+1)\\mathrm{e}^{x}-2\\sin2x,\\quad f^{2}(x)=(x+2)\\mathrm{e}^{x}-2^{2}\\cos2x,$ $f^{3}(x)=(x+3)\\mathrm{e}^{x}+2^{3}\\sin2x,\\quad f^{4}(x)=(x+4)\\mathrm{e}^{x}+2^{4}\\cos2x,$ 依此类推， $f^{(50)}(x)=(x+50)\\mathrm{e}^{x}-2^{50}\\cos2x,$ 所以 $f^{(50)}(0)=(0+50)\\mathrm{e}^{0}-2^{50}\\cos0=50-2^{50}.$",
+  "solution_html": "<h3>7. A</h3>\n<p><strong>详解</strong>由 $f^{1}(x)=(x+1)\\mathrm{e}^{x}-2\\sin2x,\\quad f^{2}(x)=(x+2)\\mathrm{e}^{x}-2^{2}\\cos2x,$ $f^{3}(x)=(x+3)\\mathrm{e}^{x}+2^{3}\\sin2x,\\quad f^{4}(x)=(x+4)\\mathrm{e}^{x}+2^{4}\\cos2x,$ 依此类推， $f^{(50)}(x)=(x+50)\\mathrm{e}^{x}-2^{50}\\cos2x,$ 所以 $f^{(50)}(0)=(0+50)\\mathrm{e}^{0}-2^{50}\\cos0=50-2^{50}.$</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.576136+00:00",
+    "question_source_sha256": "8fa1d650b2c1959ec549afd5bfc248cdd4ddda5307791163f79f93a33acf3cac",
+    "solution_source_sha256": "5b5d55d680204d0e0f86a02ed377845f5652a058ffb31385ed378ad99f44b5f7"
+  }
+}

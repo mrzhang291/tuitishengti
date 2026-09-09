@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_7bee64bb5191_q002",
+  "display_id": "EXAM-7BEE64BB5191-Q002",
+  "source_exam": "深圳中学 2024 级高二数学周测（1）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（1）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（1）解析.md",
+  "question_number": 2,
+  "question_type": "single_choice",
+  "stem_markdown": "### 2. 函数 $f(x) = x^{2} - x$ 在区间[1,3]上的平均变化率为（）\n\nA. 6\n\nB. 3\n\nC. 2\n\nD. 1",
+  "stem_html": "<h3>2. 函数 $f(x) = x^{2} - x$ 在区间[1,3]上的平均变化率为（）</h3>\n<p>A. 6</p>\n<p>B. 3</p>\n<p>C. 2</p>\n<p>D. 1</p>",
+  "options": {
+    "A": "6",
+    "B": "3",
+    "C": "2",
+    "D": "1"
+  },
+  "answer": "B",
+  "solution_markdown": "### 2. B\n\n**详解** $\\frac{f(3) - f(1)}{3 - 1} = \\frac{(3^2 - 3) - (1^2 - 1)}{2} = 3$ ，故选：B.",
+  "solution_html": "<h3>2. B</h3>\n<p><strong>详解</strong> $\\frac{f(3) - f(1)}{3 - 1} = \\frac{(3^2 - 3) - (1^2 - 1)}{2} = 3$ ，故选：B.</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.559749+00:00",
+    "question_source_sha256": "8fa1d650b2c1959ec549afd5bfc248cdd4ddda5307791163f79f93a33acf3cac",
+    "solution_source_sha256": "5b5d55d680204d0e0f86a02ed377845f5652a058ffb31385ed378ad99f44b5f7"
+  }
+}

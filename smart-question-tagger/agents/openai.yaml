@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "Smart Question Tagger"
+  short_description: "Tag, review, and prepare teaching evidence for math banks"
+  default_prompt: "Use $smart-question-tagger to tag this math bank, launch the teacher-friendly review workbench, and prepare source-quality teaching evidence plus optional performance data for later knowledge-first recommendations."

@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_e34ad4ed1933_q009",
+  "display_id": "EXAM-E34AD4ED1933-Q009",
+  "source_exam": "深圳中学 2024 级高二数学周测（4）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（4）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（4）参考答案.md",
+  "question_number": 9,
+  "question_type": "multiple_choice",
+  "stem_markdown": "### 9. 已知函数 $f(x) = \\mathrm{e}^{x} - \\mathrm{e}^{-x} - 2\\cos x$ ，则（）\n\nA. $f(0) = -2$\n\nB. $f^{\\prime}(x) = \\mathrm{e}^{x} + \\mathrm{e}^{-x} - 2\\sin x$\n\nC. $f(x)$ 在 $\\mathbf{R}$ 上单调递增\n\nD. 不等式 $f(x) + 2 > 0$ 的解集为 $(0, + \\infty)$",
+  "stem_html": "<h3>9. 已知函数 $f(x) = \\mathrm{e}^{x} - \\mathrm{e}^{-x} - 2\\cos x$ ，则（）</h3>\n<p>A. $f(0) = -2$</p>\n<p>B. $f^{\\prime}(x) = \\mathrm{e}^{x} + \\mathrm{e}^{-x} - 2\\sin x$</p>\n<p>C. $f(x)$ 在 $\\mathbf{R}$ 上单调递增</p>\n<p>D. 不等式 $f(x) + 2 &gt; 0$ 的解集为 $(0, + \\infty)$</p>",
+  "options": {
+    "A": "$f(0) = -2$",
+    "B": "$f^{\\prime}(x) = \\mathrm{e}^{x} + \\mathrm{e}^{-x} - 2\\sin x$",
+    "C": "$f(x)$ 在 $\\mathbf{R}$ 上单调递增",
+    "D": "不等式 $f(x) + 2 > 0$ 的解集为 $(0, + \\infty)$"
+  },
+  "answer": "ACD",
+  "solution_markdown": "",
+  "solution_html": "",
+  "score": 6,
+  "assets": [],
+  "quality_flags": [
+    "missing_solution"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.844651+00:00",
+    "question_source_sha256": "abb103e1c408892fc4de9c4f369a5605171aaff95278bd1e2fbb72858f7ccac8",
+    "solution_source_sha256": "393e7089ed67ecf54073904de81f72aa4f123dbb02df5f8fd36c76f14bef30c1"
+  }
+}

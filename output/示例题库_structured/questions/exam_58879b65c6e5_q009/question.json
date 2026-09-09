@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_58879b65c6e5_q009",
+  "display_id": "EXAM-58879B65C6E5-Q009",
+  "source_exam": "深圳中学 2024 级高二数学周测（7）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（7）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（7）参考答案.md",
+  "question_number": 9,
+  "question_type": "multiple_choice",
+  "stem_markdown": "### 9. 已知 $\\overline{A}$ , $\\overline{B}$ 分别为随机事件 $A$ , $B$ 的对立事件, 若 $P(A) = \\frac{1}{6}$ , $P(B) = \\frac{1}{2}$ , $P(A|B) = \\frac{1}{3}$ , 则下列选项正确的是 ( ).\n\nA. $P(AB) = \\frac{1}{6}$\n\nB. $P(B|A) = \\frac{5}{6}$\n\nC. $P(\\overline{A}|B) = \\frac{2}{3}$\n\nD. $P(A + B) = \\frac{1}{3}$",
+  "stem_html": "<h3>9. 已知 $\\overline{A}$ , $\\overline{B}$ 分别为随机事件 $A$ , $B$ 的对立事件, 若 $P(A) = \\frac{1}{6}$ , $P(B) = \\frac{1}{2}$ , $P(A|B) = \\frac{1}{3}$ , 则下列选项正确的是 ( ).</h3>\n<p>A. $P(AB) = \\frac{1}{6}$</p>\n<p>B. $P(B|A) = \\frac{5}{6}$</p>\n<p>C. $P(\\overline{A}|B) = \\frac{2}{3}$</p>\n<p>D. $P(A + B) = \\frac{1}{3}$</p>",
+  "options": {
+    "A": "$P(AB) = \\frac{1}{6}$",
+    "B": "$P(B|A) = \\frac{5}{6}$",
+    "C": "$P(\\overline{A}|B) = \\frac{2}{3}$",
+    "D": "$P(A + B) = \\frac{1}{3}$"
+  },
+  "answer": "AC",
+  "solution_markdown": "",
+  "solution_html": "",
+  "score": 6,
+  "assets": [],
+  "quality_flags": [
+    "missing_solution"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.989542+00:00",
+    "question_source_sha256": "9124b78ea7842e994e399ed6bc49d2368b80f63f7683e1cfae2de4c1c9e936aa",
+    "solution_source_sha256": "73a0816208baeeb9d64155c667182408d96461e4b8769a726123ba1edb89fe5b"
+  }
+}

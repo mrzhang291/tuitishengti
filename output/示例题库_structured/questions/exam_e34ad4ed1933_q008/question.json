@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_e34ad4ed1933_q008",
+  "display_id": "EXAM-E34AD4ED1933-Q008",
+  "source_exam": "深圳中学 2024 级高二数学周测（4）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（4）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（4）参考答案.md",
+  "question_number": 8,
+  "question_type": "single_choice",
+  "stem_markdown": "### 8. 已知 $a = \\frac{\\ln 4}{4}, b = \\frac{1}{\\mathrm{e}}, c = \\frac{2}{3} \\ln \\frac{3}{2}$ ，则 $a, b, c$ 的大小关系为（）\n\nA. $a > b > c$\n\nB. $b > a > c$\n\nC. $a > c > b$\n\nD. $b > c > a$\n\n#",
+  "stem_html": "<h3>8. 已知 $a = \\frac{\\ln 4}{4}, b = \\frac{1}{\\mathrm{e}}, c = \\frac{2}{3} \\ln \\frac{3}{2}$ ，则 $a, b, c$ 的大小关系为（）</h3>\n<p>A. $a &gt; b &gt; c$</p>\n<p>B. $b &gt; a &gt; c$</p>\n<p>C. $a &gt; c &gt; b$</p>\n<p>D. $b &gt; c &gt; a$</p>\n<h1></h1>",
+  "options": {
+    "A": "$a > b > c$",
+    "B": "$b > a > c$",
+    "C": "$a > c > b$",
+    "D": "$b > c > a$\n\n#"
+  },
+  "answer": "B",
+  "solution_markdown": "",
+  "solution_html": "",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [
+    "missing_solution"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.841523+00:00",
+    "question_source_sha256": "abb103e1c408892fc4de9c4f369a5605171aaff95278bd1e2fbb72858f7ccac8",
+    "solution_source_sha256": "393e7089ed67ecf54073904de81f72aa4f123dbb02df5f8fd36c76f14bef30c1"
+  }
+}

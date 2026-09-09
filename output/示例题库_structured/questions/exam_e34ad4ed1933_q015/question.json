@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_e34ad4ed1933_q015",
+  "display_id": "EXAM-E34AD4ED1933-Q015",
+  "source_exam": "深圳中学 2024 级高二数学周测（4）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（4）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（4）参考答案.md",
+  "question_number": 15,
+  "question_type": "solution",
+  "stem_markdown": "### 15. 已知函数 $f(x) = a^2 x^2 - 3ax \\ln x, a > 0$\n\n(1)当 $a = 1$ 时，求曲线 $y = f(x)$ 在 $\\left(1, f(1)\\right)$ 处的切线方程；\n\n(2)讨论 $f(x)$ 的零点个数.",
+  "stem_html": "<h3>15. 已知函数 $f(x) = a^2 x^2 - 3ax \\ln x, a &gt; 0$</h3>\n<p>(1)当 $a = 1$ 时，求曲线 $y = f(x)$ 在 $\\left(1, f(1)\\right)$ 处的切线方程；</p>\n<p>(2)讨论 $f(x)$ 的零点个数.</p>",
+  "options": {},
+  "answer": "见解析",
+  "solution_markdown": "### 15. \n\n**详解**（1）当 $a = 1$ 时， $f(x) = x^2 - 3x\\ln x, f(1) = 1$ 。 $f'(x) = 2x - 3\\ln x - 3, f'(1) = -1.$\n\n所以曲线 $y = f(x)$ 在 $(1, f(1))$ 处的切线方程为 $y - 1 = -1(x - 1)$ ，即 $x + y - 2 = 0$ 。\n\n（2）因为 $a > 0, x > 0$ ，令 $f(x) = a^2 x^2 - 3ax\\ln x = 0$ ，得 $ax - 3\\ln x = 0$ ，即 $a = \\frac{3\\ln x}{x}$ .\n\n令 $g(x) = \\frac{3\\ln x}{x} (x > 0)$ ，所以 $f(x)$ 的零点个数等价于 $y = g(x)$ 与 $y = a$ 的图象交点的个数.\n\n又因为 $g'(x)=\\frac{3(1-\\ln x)}{x^{2}}$ ，当 0<x<e 时， $g'(x)>0$ ；当 x>e 时， $g'(x)<0$ 。\n\n所以函数 $g(x)$ 在 $(0, \\mathbf{e})$ 上单调递增，在 $(\\mathbf{e}, +\\infty)$ 上单调递减，且 $g(1) = 0$ ，有极大值也是最大值 $g(\\mathbf{e}) = \\frac{3}{\\mathbf{e}}$ ，如图：\n\n由图可知，当 $a > \\frac{3}{\\mathrm{e}}$ 时，函数 $y = g(x)$ 与 $y = a$ 的图象无交点；\n\n当 $a = \\frac{3}{\\mathrm{e}}$ 时，函数 $y = g(x)$ 与 $y = a$ 的图象有1个交点；\n\n![](assets/c42c40867cde12ed71dd986c9dc3d2ec9ba4c5c666b76b5eb1ce482027934270.jpg)\n\n当 $0 < a < \\frac{3}{\\mathrm{e}}$ 时，函数 $y = g(x)$ 与 $y = a$ 的图象有2个交点.\n\n综上， $a > \\frac{3}{\\mathrm{e}}$ 时， $f(x)$ 的零点个数为0； $a = \\frac{3}{\\mathrm{e}}$ 时， $f(x)$ 的零点个数为1； $0 < a < \\frac{3}{\\mathrm{e}}$ 时， $f(x)$ 的零点个数为2.",
+  "solution_html": "<h3>15.</h3>\n<p><strong>详解</strong>（1）当 $a = 1$ 时， $f(x) = x^2 - 3x\\ln x, f(1) = 1$ 。 $f'(x) = 2x - 3\\ln x - 3, f'(1) = -1.$</p>\n<p>所以曲线 $y = f(x)$ 在 $(1, f(1))$ 处的切线方程为 $y - 1 = -1(x - 1)$ ，即 $x + y - 2 = 0$ 。</p>\n<p>（2）因为 $a &gt; 0, x &gt; 0$ ，令 $f(x) = a^2 x^2 - 3ax\\ln x = 0$ ，得 $ax - 3\\ln x = 0$ ，即 $a = \\frac{3\\ln x}{x}$ .</p>\n<p>令 $g(x) = \\frac{3\\ln x}{x} (x &gt; 0)$ ，所以 $f(x)$ 的零点个数等价于 $y = g(x)$ 与 $y = a$ 的图象交点的个数.</p>\n<p>又因为 $g'(x)=\\frac{3(1-\\ln x)}{x^{2}}$ ，当 0&lt;x<e 时， $g'(x)&gt;0$ ；当 x>e 时， $g'(x)&lt;0$ 。</p>\n<p>所以函数 $g(x)$ 在 $(0, \\mathbf{e})$ 上单调递增，在 $(\\mathbf{e}, +\\infty)$ 上单调递减，且 $g(1) = 0$ ，有极大值也是最大值 $g(\\mathbf{e}) = \\frac{3}{\\mathbf{e}}$ ，如图：</p>\n<p>由图可知，当 $a &gt; \\frac{3}{\\mathrm{e}}$ 时，函数 $y = g(x)$ 与 $y = a$ 的图象无交点；</p>\n<p>当 $a = \\frac{3}{\\mathrm{e}}$ 时，函数 $y = g(x)$ 与 $y = a$ 的图象有1个交点；</p>\n<p><img alt=\"\" src=\"assets/c42c40867cde12ed71dd986c9dc3d2ec9ba4c5c666b76b5eb1ce482027934270.jpg\" /></p>\n<p>当 $0 &lt; a &lt; \\frac{3}{\\mathrm{e}}$ 时，函数 $y = g(x)$ 与 $y = a$ 的图象有2个交点.</p>\n<p>综上， $a &gt; \\frac{3}{\\mathrm{e}}$ 时， $f(x)$ 的零点个数为0； $a = \\frac{3}{\\mathrm{e}}$ 时， $f(x)$ 的零点个数为1； $0 &lt; a &lt; \\frac{3}{\\mathrm{e}}$ 时， $f(x)$ 的零点个数为2.</p>",
+  "score": null,
+  "assets": [
+    {
+      "original_ref": "images/c42c40867cde12ed71dd986c9dc3d2ec9ba4c5c666b76b5eb1ce482027934270.jpg",
+      "alt": "",
+      "saved": true,
+      "file_name": "c42c40867cde12ed71dd986c9dc3d2ec9ba4c5c666b76b5eb1ce482027934270.jpg",
+      "relative_path": "assets/c42c40867cde12ed71dd986c9dc3d2ec9ba4c5c666b76b5eb1ce482027934270.jpg",
+      "sha256": "59eefbbb2a006d21a85b37fc7f4a1d930501fd9334237f823d87a2b8e63d8834"
+    }
+  ],
+  "quality_flags": [
+    "contains_images"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.917166+00:00",
+    "question_source_sha256": "abb103e1c408892fc4de9c4f369a5605171aaff95278bd1e2fbb72858f7ccac8",
+    "solution_source_sha256": "393e7089ed67ecf54073904de81f72aa4f123dbb02df5f8fd36c76f14bef30c1"
+  }
+}

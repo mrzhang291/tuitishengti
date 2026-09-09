@@ -1,0 +1,57 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    processEscapes: true
+  },
+  svg: {fontCache: 'global'}
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
+<style>
+:root{--ink:#172033;--muted:#697386;--line:#dbe2ea;--surface:#fff;--page:#f4f7fb;--primary:#2458b8;--primary-soft:#eaf1ff;--success:#147a4b;--success-soft:#e8f7ef;--warning:#9a5b00;--warning-soft:#fff4d6;--danger:#b42318;--danger-soft:#fff0ee;--shadow:0 10px 30px rgba(27,45,78,.08)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;margin:0;background:var(--page);color:var(--ink);line-height:1.72}
+a{color:var(--primary);text-decoration:none}a:hover{text-decoration:underline}.page-shell{max-width:1480px;margin:0 auto;padding:28px 24px 56px}.page-shell.narrow{max-width:1060px}
+.hero{background:linear-gradient(135deg,#173f86,#2f69c5);color:#fff;border-radius:18px;padding:26px 30px;box-shadow:var(--shadow);margin-bottom:20px}.hero h1{margin:0 0 8px;font-size:28px;line-height:1.3}.hero p{margin:0;color:#e5edff}.hero a{color:#fff;text-decoration:underline}
+.summary-grid{display:grid;grid-template-columns:repeat(4,minmax(150px,1fr));gap:14px;margin:18px 0}.summary-card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 18px;box-shadow:0 4px 14px rgba(27,45,78,.04)}.summary-card .label{font-size:13px;color:var(--muted)}.summary-card .value{font-size:26px;font-weight:750;margin-top:4px}.summary-card .hint{font-size:12px;color:var(--muted)}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px 24px;margin:18px 0;box-shadow:0 4px 18px rgba(27,45,78,.04)}.panel h2{font-size:20px;margin:0 0 14px}.meta{color:var(--muted)}
+.toolbar{display:grid;grid-template-columns:minmax(220px,2fr) repeat(3,minmax(150px,1fr));gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;margin:16px 0;position:sticky;top:8px;z-index:5;box-shadow:var(--shadow)}.toolbar input,.toolbar select{width:100%;border:1px solid #c8d1dc;border-radius:9px;background:#fff;padding:10px 12px;font:inherit;color:var(--ink)}.toolbar-status{grid-column:1/-1;color:var(--muted);font-size:13px}
+.table-wrap{overflow:auto;background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}table{width:100%;border-collapse:separate;border-spacing:0;margin:0;background:#fff}th{position:sticky;top:0;z-index:2;background:#eef3fa;color:#3b485c;text-align:left;font-size:13px;white-space:nowrap}td,th{border-bottom:1px solid var(--line);padding:11px 12px;vertical-align:top}tbody tr:hover{background:#f8fbff}tbody tr:last-child td{border-bottom:0}
+.id-link{font-family:Consolas,"SFMono-Regular",monospace;font-size:13px;font-weight:650;white-space:nowrap}.source-cell{min-width:210px}.number-cell{text-align:center;font-weight:700}.answer-cell{min-width:310px;max-width:520px}.answer-content{overflow-x:auto;line-height:1.65}.answer-content p{margin:0 0 7px}.answer-content p:last-child{margin-bottom:0}.answer-details summary{cursor:pointer;color:var(--primary);font-weight:650}.answer-details[open] summary{margin-bottom:10px}.answer-empty{color:var(--danger);font-weight:650}
+.badge{display:inline-flex;align-items:center;gap:4px;border-radius:999px;padding:3px 9px;margin:2px 4px 2px 0;font-size:12px;font-weight:650;white-space:nowrap;border:1px solid transparent}.badge.info{background:var(--primary-soft);color:var(--primary);border-color:#bfd2f7}.badge.success{background:var(--success-soft);color:var(--success);border-color:#b9e4ce}.badge.warning{background:var(--warning-soft);color:var(--warning);border-color:#efd394}.badge.danger{background:var(--danger-soft);color:var(--danger);border-color:#f1beb8}.badge.muted{background:#f1f3f6;color:#5d6674;border-color:#d8dde5}
+.status-banner{border-radius:12px;padding:13px 16px;margin:14px 0}.status-banner.success{background:var(--success-soft);color:var(--success);border:1px solid #b9e4ce}.status-banner.warning{background:var(--warning-soft);color:var(--warning);border:1px solid #efd394}.status-banner.danger{background:var(--danger-soft);color:var(--danger);border:1px solid #f1beb8}
+.question-content img,.solution-content img{max-width:100%;height:auto}.question-content,.solution-content,.answer-content{overflow-x:auto;overflow-y:hidden;padding-bottom:5px}.question-content> :first-child,.solution-content> :first-child,.answer-content> :first-child{margin-top:0}.question-content> :last-child,.solution-content> :last-child,.answer-content> :last-child{margin-bottom:0}mjx-container[display="true"]{text-align:left!important;margin:.75em 0!important}.back-link{display:inline-block;margin-bottom:12px;color:#e5edff}.flag-list{display:flex;flex-wrap:wrap;gap:4px}.repair-list{display:flex;flex-wrap:wrap;gap:4px}.empty-state{text-align:center;color:var(--muted);padding:34px}.math-scroll{overflow-x:auto}.content-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,.38fr);gap:18px}.content-grid .wide{grid-column:1/-1}.section-kicker{font-size:12px;font-weight:750;letter-spacing:.08em;color:var(--primary);text-transform:uppercase;margin-bottom:5px}.preview-id{font-family:Consolas,"SFMono-Regular",monospace;font-size:13px;opacity:.9}.report-note{font-size:13px;color:var(--muted);margin:8px 0 0}.diagnostic{min-width:150px}.diagnostic-line{display:flex;align-items:flex-start;gap:6px;margin:2px 0}.diagnostic-label{min-width:44px;color:var(--muted);font-size:12px;padding-top:3px}.repair-note{display:block;color:var(--muted);font-size:12px;margin-top:4px}.nowrap{white-space:nowrap}.status-dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:7px;background:currentColor}.table-caption{padding:12px 15px;color:var(--muted);font-size:13px;border-bottom:1px solid var(--line)}
+@media(max-width:900px){.page-shell{padding:16px 10px 36px}.summary-grid{grid-template-columns:repeat(2,minmax(130px,1fr))}.toolbar{position:static;grid-template-columns:1fr 1fr}.toolbar input{grid-column:1/-1}.source-cell{min-width:170px}.answer-cell{min-width:260px}.hero{border-radius:12px;padding:22px 18px}}
+@media(max-width:760px){.content-grid{grid-template-columns:1fr}.content-grid .wide{grid-column:auto}}@media(max-width:560px){.summary-grid,.toolbar{grid-template-columns:1fr}.toolbar input,.toolbar-status{grid-column:auto}.hero h1{font-size:23px}}
+@media print{body{background:#fff}.page-shell{max-width:none;padding:0}.hero{background:#fff;color:#000;box-shadow:none;border:1px solid #aaa}.hero p,.hero a{color:#333}.toolbar{display:none}.panel,.table-wrap,.summary-card{box-shadow:none}}
+</style>
+<title>EXAM-7BEE64BB5191-Q015</title></head>
+<body><main class="page-shell narrow">
+<header class="hero"><a class="back-link" href="../../index.html">← 返回题库总览</a><div class="preview-id" title="内部 ID：exam_7bee64bb5191_q015">EXAM-7BEE64BB5191-Q015</div><h1>第 15 题 · 解答题</h1><p>深圳中学 2024 级高二数学周测（1）</p></header>
+<div class="content-grid">
+<section class="panel wide"><div class="section-kicker">Question</div><h2>题干</h2><div class="question-content"><h3>15. 求下列函数的导数:</h3>
+<p>(1) $y = \mathrm{e}^{-x}(x + 1)^{2};$</p>
+<p>(2) $y = \cos(3x - 1) - \ln(-2x + 1);$</p>
+<p>(3) $y = \sin 2x + \cos ^{2} x;$</p>
+<p>(4) $y = \frac{\sqrt{2x - 1}}{x}.$</p>
+<p>(5) $y = e^{x}\sin x - \cos x$</p>
+<p>$$(6) y = \tan x + \ln (- x)$$</p>
+<p>(7) $y = x - \sin \frac{x}{2} \cos \frac{x}{2}$</p>
+<p>(8) $y = \frac{\ln(1 - x)}{\mathrm{e}^x}$</p></div></section>
+<section class="panel"><div class="section-kicker">Answer</div><h2>答案</h2><div class="answer-content"><p>(1) \( y'=\mathrm{e}^{-x}(1-x^{2})\) (2) \(y'=-3\sin(3x-1)-\frac{2}{2x-1}\) (3) \(y'=-2\sqrt{2}\sin\left(2x-\frac{\pi}{4}\right)\) (4) \(y'=\frac{1-x}{x^{2}\sqrt{2x-1}}\) (5) \(y'=e^{x}(\sin x+\cos x)+\sin x\) (6) \(y'=\frac{1}{\cos^ {2} x}+\frac{1}{x}\) (7) $y' = 1 - \frac{1}{2}\cos x \quad (8)y' = -\frac{1 + (1 - x)\ln(1 - x)}{(1 - x)e^x}$</p></div></section>
+<section class="panel"><div class="section-kicker">Quality</div><h2>质量标记</h2><div class="flag-list"><span class='badge success'>无</span></div></section>
+<section class="panel wide"><div class="section-kicker">Solution</div><h2>解析</h2><div class="solution-content"><h3>15. (1) \( y'=\mathrm{e}^{-x}(1-x^{2})\)  (2) \(y'=-3\sin(3x-1)-\frac{2}{2x-1}\)  (3) \(y'=-2\sqrt{2}\sin\left(2x-\frac{\pi}{4}\right)\)</h3>
+<p>(4) \(y'=\frac{1-x}{x^{2}\sqrt{2x-1}}\)  (5) \(y'=e^{x}(\sin x+\cos x)+\sin x\)  (6) \(y'=\frac{1}{\cos^ {2} x}+\frac{1}{x}\)</p>
+<p>(7) $y' = 1 - \frac{1}{2}\cos x \quad (8)y' = -\frac{1 + (1 - x)\ln(1 - x)}{(1 - x)e^x}$</p>
+<p><strong>详解</strong>（1） $y' = -\mathrm{e}^{-x}(x + 1)^{2} + \mathrm{e}^{-x} \cdot 2(x + 1) = \mathrm{e}^{-x}(1 - x^{2})$</p>
+<p>(2) $y' = -3\sin (3x - 1) - \frac{-2}{-2x + 1} = -3\sin (3x - 1) - \frac{2}{2x - 1}$</p>
+<p>$$y ^ {\prime} = 2 \cos (2 x) + 2 \cos x (- \sin x) = 2 \cos (2 x) - 2 \sin (2 x) = - 2 \sqrt {2} \sin \left(2 x - \frac {\pi}{4}\right) \tag {3}$$</p>
+<p>(4) $y' = \frac{2\sqrt{2x - 1}}{x^2} - \frac{x - 1}{x^2} = \frac{x - (2x - 1)}{x^2\sqrt{2x - 1}} = \frac{1 - x}{x^2\sqrt{2x - 1}}$</p>
+<p>(5) $y' = (\mathrm{e}^x\sin x)' - (\cos x)' = \mathrm{e}^x\sin x + \mathrm{e}^x(\sin x)' + \sin x = \mathrm{e}^x(\sin x + \cos x) + \sin x.$</p>
+<p>(6) $y = \frac{\sin x}{\cos x} + \ln (-x)$ ，则 $y' = \frac{\cos^2 x - \sin x(-\sin x)}{\cos^2 x} + \frac{1}{-x} \cdot (-x)' = \frac{1}{\cos^2 x} + \frac{1}{x}$</p>
+<p>(7) $y = x - \frac{1}{2}\sin x$ ，则 $y = 1 - \frac{1}{2}\cos x$ .</p>
+<p>$$y = \frac {\frac {1}{1 - x} (1 - x) ^ {\prime} \mathrm{e} ^ {x} - 1 \ln (1 - x) . e ^ {x}}{(\mathrm{e} ^ {x}) ^ {2}} = \frac {- \frac {1}{1 - x} - \ln (1 - x)}{\mathrm{e} ^ {x}} = - \frac {1 + (1 - x) \ln (1 - x)}{(1 - x) \mathrm{e} ^ {x}} \tag {8}$$</p></div></section>
+</div></main></body></html>

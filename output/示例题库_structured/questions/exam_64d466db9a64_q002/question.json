@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_64d466db9a64_q002",
+  "display_id": "EXAM-64D466DB9A64-Q002",
+  "source_exam": "深圳中学 2024 级高二数学周测（5）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二数学周测（5）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二数学周测（5）参考答案.md",
+  "question_number": 2,
+  "question_type": "single_choice",
+  "stem_markdown": "### 2. 已知函数 $f(x) = \\cos x + ax$ 在 $\\mathbf{R}$ 上单调递增，则实数 $a$ 的取值范围是（）\n\nA. $(- \\infty, 0]$\n\nB. $[0,1]$\n\nC. $[1, +\\infty)$\n\nD. $\\mathbf{R}$",
+  "stem_html": "<h3>2. 已知函数 $f(x) = \\cos x + ax$ 在 $\\mathbf{R}$ 上单调递增，则实数 $a$ 的取值范围是（）</h3>\n<p>A. $(- \\infty, 0]$</p>\n<p>B. $[0,1]$</p>\n<p>C. $[1, +\\infty)$</p>\n<p>D. $\\mathbf{R}$</p>",
+  "options": {
+    "A": "$(- \\infty, 0]$",
+    "B": "$[0,1]$",
+    "C": "$[1, +\\infty)$",
+    "D": "$\\mathbf{R}$"
+  },
+  "answer": "C",
+  "solution_markdown": "2. C 由题意得 $f'(x)=-\\sin x+a\\geq0$ 在 R 上恒成立，\n\n则 $a\\geq\\sin x$ ，因为 $\\sin x\\in[-1,1]$ ，则 $a\\geq1$ .",
+  "solution_html": "<ol start=\"2\">\n<li>C 由题意得 $f'(x)=-\\sin x+a\\geq0$ 在 R 上恒成立，</li>\n</ol>\n<p>则 $a\\geq\\sin x$ ，因为 $\\sin x\\in[-1,1]$ ，则 $a\\geq1$ .</p>",
+  "score": null,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.293589+00:00",
+    "question_source_sha256": "0a947743971a67ef971955fddba3a1d96fa8478a9c0c36d10f0c4ee174efd496",
+    "solution_source_sha256": "8c53a21b6d71e1b67f1664b079fb0452db52b9a6b9c5c668ce4dbeedf2a2958c"
+  }
+}

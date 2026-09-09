@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_64d466db9a64_q010",
+  "display_id": "EXAM-64D466DB9A64-Q010",
+  "source_exam": "深圳中学 2024 级高二数学周测（5）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二数学周测（5）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二数学周测（5）参考答案.md",
+  "question_number": 10,
+  "question_type": "multiple_choice",
+  "stem_markdown": "### 10. 设计一个实用的门把手, 其造型可以看作图中的曲线 $C: y^{2} = x^{3} - 2x + 2$ 的一\n\nA. 点 $(1,1)$ 在 $C$ 上\nB. 将 $C$ 在 $x$ 轴上方的部分看作函数 $f(x)$ 的图象, 则 1 是 $f(x)$ 的极小值点\nC. $C$ 在点 $(1,1)$ 处的切线与 $C$ 的另一个交点的横、纵坐标均为有理数\nD. $x < 0$ 时, 曲线 $C$ 上任意一点到坐标原点 $O$ 的距离均大于 $\\sqrt{2}$\n\n![](assets/f929a501c2e02585f0eba819b72df0f70ba1fcc126d96281381e715e9bb656db.jpg)",
+  "stem_html": "<h3>10. 设计一个实用的门把手, 其造型可以看作图中的曲线 $C: y^{2} = x^{3} - 2x + 2$ 的一</h3>\n<p>A. 点 $(1,1)$ 在 $C$ 上\nB. 将 $C$ 在 $x$ 轴上方的部分看作函数 $f(x)$ 的图象, 则 1 是 $f(x)$ 的极小值点\nC. $C$ 在点 $(1,1)$ 处的切线与 $C$ 的另一个交点的横、纵坐标均为有理数\nD. $x &lt; 0$ 时, 曲线 $C$ 上任意一点到坐标原点 $O$ 的距离均大于 $\\sqrt{2}$</p>\n<p><img alt=\"\" src=\"assets/f929a501c2e02585f0eba819b72df0f70ba1fcc126d96281381e715e9bb656db.jpg\" /></p>",
+  "options": {
+    "A": "点 $(1,1)$ 在 $C$ 上",
+    "B": "将 $C$ 在 $x$ 轴上方的部分看作函数 $f(x)$ 的图象, 则 1 是 $f(x)$ 的极小值点",
+    "C": "$C$ 在点 $(1,1)$ 处的切线与 $C$ 的另一个交点的横、纵坐标均为有理数",
+    "D": "$x < 0$ 时, 曲线 $C$ 上任意一点到坐标原点 $O$ 的距离均大于 $\\sqrt{2}$\n\n![](assets/f929a501c2e02585f0eba819b72df0f70ba1fcc126d96281381e715e9bb656db.jpg)"
+  },
+  "answer": "ACD",
+  "solution_markdown": "### 10. ACD 将 $(1,1)$ 代入 C 的方程，等式成立，故 A 正确；\n\n对于 C 在 x 轴上方的部分，可知函数\n\n$f(x)=\\sqrt{x^{3}-2x+2}$ ，则 $f'(x)=\\frac{1}{2}(x^{3}-2x+2)^{\\frac{1}{2}}(3x^{2}-2)$ ，因为 $f'(1)=\\frac{1}{2}\\neq0$ ，故B错误；过点 $(1,1)$ 作C的切线，由B知其斜率为 $\\frac{1}{2}$ ，故其方程为 $y=\\frac{1}{2}x+\\frac{1}{2}$ ，将其与C的方程联立 $\\left\\{\\begin{aligned}y&=\\frac{1}{2}x+\\frac{1}{2}\\\\ y^{2}&=x^{3}-2x+2\\end{aligned}\\right.$ 得 $(x-1)^{2}\\left(x+\\frac{7}{4}\\right)=0$ ，故切线与C的交点的坐标 $\\left(-\\frac{7}{4},-\\frac{3}{8}\\right)$ ，横，纵坐标均为有理数，故C正确；设 $(x_{0},y_{0}),x_{0}<0$ ，则其到坐标原点O的距离为 $\\sqrt{x_{0}^{2}+y_{0}^{2}}=\\sqrt{x_{0}^{3}+x_{0}^{2}-2x_{0}+2}$ ，要使该距离大于 $\\sqrt{2}$ ，只需要 $x_{0}^{3}+x_{0}^{2}-2x_{0}>0$ ，整理得 $x_{0}(x_{0}^{2}+x_{0}-2)=x_{0}(x_{0}+2)\\cdot(x_{0}-1)$ ，易知当 $x_{0}=-2$ 时， $y_{0}$ 不存在，可知 $x_{0}>-2\\Rightarrow x_{0}+2>0$ ，又因为 $x_{0}(x_{0}-1)>0$ ，故 $x_{0}(x_{0}+2)(x_{0}-1)>0$ ，故 $x_{0}^{3}+x_{0}^{2}-2x_{0}>0$ 成立，故D正确.",
+  "solution_html": "<h3>10. ACD 将 $(1,1)$ 代入 C 的方程，等式成立，故 A 正确；</h3>\n<p>对于 C 在 x 轴上方的部分，可知函数</p>\n<p>$f(x)=\\sqrt{x^{3}-2x+2}$ ，则 $f'(x)=\\frac{1}{2}(x^{3}-2x+2)^{\\frac{1}{2}}(3x^{2}-2)$ ，因为 $f'(1)=\\frac{1}{2}\\neq0$ ，故B错误；过点 $(1,1)$ 作C的切线，由B知其斜率为 $\\frac{1}{2}$ ，故其方程为 $y=\\frac{1}{2}x+\\frac{1}{2}$ ，将其与C的方程联立 $\\left\\{\\begin{aligned}y&amp;=\\frac{1}{2}x+\\frac{1}{2}\\\\ y^{2}&amp;=x^{3}-2x+2\\end{aligned}\\right.$ 得 $(x-1)^{2}\\left(x+\\frac{7}{4}\\right)=0$ ，故切线与C的交点的坐标 $\\left(-\\frac{7}{4},-\\frac{3}{8}\\right)$ ，横，纵坐标均为有理数，故C正确；设 $(x_{0},y_{0}),x_{0}&lt;0$ ，则其到坐标原点O的距离为 $\\sqrt{x_{0}^{2}+y_{0}^{2}}=\\sqrt{x_{0}^{3}+x_{0}^{2}-2x_{0}+2}$ ，要使该距离大于 $\\sqrt{2}$ ，只需要 $x_{0}^{3}+x_{0}^{2}-2x_{0}&gt;0$ ，整理得 $x_{0}(x_{0}^{2}+x_{0}-2)=x_{0}(x_{0}+2)\\cdot(x_{0}-1)$ ，易知当 $x_{0}=-2$ 时， $y_{0}$ 不存在，可知 $x_{0}&gt;-2\\Rightarrow x_{0}+2&gt;0$ ，又因为 $x_{0}(x_{0}-1)&gt;0$ ，故 $x_{0}(x_{0}+2)(x_{0}-1)&gt;0$ ，故 $x_{0}^{3}+x_{0}^{2}-2x_{0}&gt;0$ 成立，故D正确.</p>",
+  "score": null,
+  "assets": [
+    {
+      "original_ref": "images/f929a501c2e02585f0eba819b72df0f70ba1fcc126d96281381e715e9bb656db.jpg",
+      "alt": "",
+      "saved": true,
+      "file_name": "f929a501c2e02585f0eba819b72df0f70ba1fcc126d96281381e715e9bb656db.jpg",
+      "relative_path": "assets/f929a501c2e02585f0eba819b72df0f70ba1fcc126d96281381e715e9bb656db.jpg",
+      "sha256": "58ccf12ed6fecbed483ec5452db1fb804014740d055b52d3e82c1713b0104bb5"
+    }
+  ],
+  "quality_flags": [
+    "contains_images"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.406608+00:00",
+    "question_source_sha256": "0a947743971a67ef971955fddba3a1d96fa8478a9c0c36d10f0c4ee174efd496",
+    "solution_source_sha256": "8c53a21b6d71e1b67f1664b079fb0452db52b9a6b9c5c668ce4dbeedf2a2958c"
+  }
+}

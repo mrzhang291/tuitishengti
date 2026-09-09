@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "推题生题项目功能架构",
+    "locale": "zh-CN",
+    "output": "project-architecture.html",
+    "quality_profile": "showcase",
+    "viewBox": [1390, 620],
+    "views": [
+      { "id": "ingestion", "label": "题库输入与结构化", "focus": ["source-materials", "math-converter", "exam-ocr", "structured-bank"], "note": "从试卷/答案素材进入可复用的结构化题库。" },
+      { "id": "tagging-review", "label": "标签与教师复核", "focus": ["structured-bank", "tagger", "teacher-review", "quality-gates"], "note": "用知识点、能力与难度标签增强题目，并保留人工校准入口。" },
+      { "id": "recommend-generate", "label": "推荐与变式生成", "focus": ["student-profile", "recommender", "variant-generator", "quality-gates", "artifacts"], "note": "基于学生表现推荐题目，并生成、校验可交付的变式。" }
+    ]
+  },
+  "components": [
+    { "id": "source-materials", "type": "external", "label": "试卷与答案素材", "sublabel": "DOCX / PDF / HTML", "tag": "示例题库", "pos": [40, 320], "size": [160, 70] },
+    { "id": "math-converter", "type": "backend", "label": "HTML 数学转 DOCX", "sublabel": "html-math-to-docx", "tag": "可编辑公式", "pos": [250, 140], "size": [180, 70] },
+    { "id": "exam-ocr", "type": "backend", "label": "试卷 OCR 与结构化", "sublabel": "exam-ocr", "tag": "题目 / 答案 / 解析", "pos": [250, 320], "size": [180, 70] },
+    { "id": "structured-bank", "type": "database", "label": "结构化题库", "sublabel": "JSON / JSONL / HTML", "tag": "题目数据契约", "pos": [455, 320], "size": [170, 70] },
+    { "id": "tagger", "type": "backend", "label": "题目标签引擎", "sublabel": "smart-question-tagger", "tag": "知识点 · 能力 · 难度", "pos": [660, 140], "size": [180, 70] },
+    { "id": "teacher-review", "type": "frontend", "label": "教师复核工作台", "sublabel": "HTML Workbench / Review", "tag": "校准与审计", "pos": [660, 320], "size": [180, 70] },
+    { "id": "student-profile", "type": "database", "label": "学生表现与索引", "sublabel": "掌握度 / 索引", "tag": "能力画像", "pos": [850, 140], "size": [180, 70] },
+    { "id": "recommender", "type": "backend", "label": "个性化推荐", "sublabel": "smart-question-recommender-v3", "tag": "候选池 → 推荐", "pos": [850, 320], "size": [180, 70] },
+    { "id": "variant-generator", "type": "backend", "label": "数学变式生成", "sublabel": "generating-math-variants", "tag": "约束生成", "pos": [1055, 320], "size": [170, 70] },
+    { "id": "quality-gates", "type": "security", "label": "质量门禁与审计", "sublabel": "validate / audit / acceptance", "tag": "可追溯", "pos": [1055, 140], "size": [170, 70] },
+    { "id": "artifacts", "type": "cloud", "label": "交付产物", "sublabel": "文件 / 报告", "tag": "可导出", "pos": [1250, 140], "size": [120, 70] }
+  ],
+  "boundaries": [
+    { "kind": "region", "label": "项目流水线", "wraps": ["math-converter", "exam-ocr", "structured-bank", "tagger", "teacher-review", "student-profile", "recommender", "variant-generator", "quality-gates"] }
+  ],
+  "connections": [
+    { "id": "materials-to-converter", "from": "source-materials", "to": "math-converter", "label": "HTML + LaTeX", "variant": "emphasis", "fromSide": "top", "toSide": "bottom" },
+    { "id": "materials-to-ocr", "from": "source-materials", "to": "exam-ocr", "label": "PDF / DOCX", "variant": "emphasis", "labelDy": 59 },
+    { "id": "ocr-to-bank", "from": "exam-ocr", "to": "structured-bank", "label": "题目 + 答案 + 解析", "labelDy": 59 },
+    { "id": "bank-to-tagger", "from": "structured-bank", "to": "tagger", "label": "结构化题目", "fromSide": "top", "toSide": "bottom" },
+    { "id": "tagger-to-review", "from": "tagger", "to": "teacher-review", "label": "标签候选", "fromSide": "bottom", "toSide": "top", "labelDx": 52, "labelDy": 24 },
+    { "id": "review-to-bank", "from": "teacher-review", "to": "structured-bank", "label": "人工校准", "variant": "dashed", "fromSide": "left", "toSide": "right", "labelDy": 59 },
+    { "id": "profile-to-recommender", "from": "student-profile", "to": "recommender", "label": "掌握度 / 练习记录", "fromSide": "bottom", "toSide": "top", "labelDx": 58, "labelDy": 24 },
+    { "id": "bank-to-recommender", "from": "structured-bank", "to": "recommender", "label": "候选题池", "fromSide": "bottom", "toSide": "bottom", "via": [[540, 475], [940, 475]], "labelDy": 58 },
+    { "id": "recommender-to-generator", "from": "recommender", "to": "variant-generator", "label": "推荐题目 / 约束", "variant": "emphasis", "labelDy": -48 },
+    { "id": "generator-to-quality", "from": "variant-generator", "to": "quality-gates", "label": "生成结果", "fromSide": "top", "toSide": "bottom" },
+    { "id": "quality-to-artifacts", "from": "quality-gates", "to": "artifacts", "label": "通过后发布", "variant": "emphasis", "fromSide": "right", "toSide": "left", "labelDy": -48 }
+  ],
+  "cards": [
+    { "dot": "cyan", "title": "输入与结构化", "items": ["示例题库覆盖 DOCX、PDF 等原始材料", "OCR 与数学文档转换分别沉淀可复用产物", "题目按 JSON / JSONL / HTML 组织"] },
+    { "dot": "emerald", "title": "智能增强", "items": ["标签引擎建立知识点、能力与难度画像", "教师复核工作台支持校准与审计", "推荐器结合学生表现与题库索引生成候选"] },
+    { "dot": "rose", "title": "交付与风险", "items": ["变式生成有独立校验脚本与测试", "质量门禁覆盖推荐、题目、整卷等验收", "当前以本地脚本与文件产物为主，尚未看到服务化部署入口"] }
+  ]
+}

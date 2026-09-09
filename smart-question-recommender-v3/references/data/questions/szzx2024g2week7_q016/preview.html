@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>示例学校高二周测（7） Q16</title>
+  <style>
+    body { margin: 0; font-family: "Microsoft YaHei", Arial, sans-serif; color: #1f2937; background: #f6f7f9; line-height: 1.7; }
+    main { max-width: 960px; margin: 28px auto; padding: 28px 32px; background: #fff; border: 1px solid #d6d9df; border-radius: 8px; }
+    h1 { font-size: 22px; margin: 0 0 8px; }
+    h2 { font-size: 17px; margin: 28px 0 10px; padding-bottom: 6px; border-bottom: 1px solid #d6d9df; }
+    .meta { color: #5b6472; font-size: 13px; }
+    .formula { font-family: "Cambria Math", "Times New Roman", serif; color: #0f5e9c; padding: 0 2px; }
+    .ole { color: #9a3412; background: #fff7ed; border: 1px solid #fed7aa; border-radius: 4px; padding: 0 4px; }
+    img { display: block; max-width: min(680px, 100%); margin: 12px 0; border: 1px solid #c5cad3; }
+    pre { white-space: pre-wrap; word-break: break-word; background: #f8fafc; border: 1px solid #d6d9df; border-radius: 6px; padding: 12px; font-size: 12px; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>示例学校高二周测（7） Q16</h1>
+  <div class="meta">ID: szzx2024g2week7_q016 | answer: (1) a的取值范围是 [(e^2)/2, +∞)；(2) 见解析 | formulas: 52 | images: 0 | OLE: 0</div>
+  <h2>题目</h2>
+  <p>16．已知函数<span class="formula" data-formula-id="f001">g(x)=e^x-2a(x-1)</span>，e为自然对数的底数.</p>
+<p>(1)若函数<span class="formula" data-formula-id="f002">g(x)</span>在<span class="formula" data-formula-id="f003">(1,+∞)</span>上有零点，求<span class="formula" data-formula-id="f004">a</span>的取值范围；</p>
+<p>(2)当<span class="formula" data-formula-id="f005">a&gt;0</span>，<span class="formula" data-formula-id="f006">x_1≠x_2</span>，且<span class="formula" data-formula-id="f007">g(x_1)=g(x_2)</span>，求证：<span class="formula" data-formula-id="f008">x_1+x_2&lt;2ln(2a)</span>.</p>
+  <h2>答案与解析</h2>
+  <p>16.【详解】（1）令<span class="formula" data-formula-id="f009">g(x)=0</span>，即<span class="formula" data-formula-id="f010">e^x-2a(x-1)=0</span>，则<span class="formula" data-formula-id="f011">2a=(e^x)/(x-1)</span></p>
+<p>函数<span class="formula" data-formula-id="f012">g(x)</span>在<span class="formula" data-formula-id="f013">(1,+∞)</span>上有零点等价于方程<span class="formula" data-formula-id="f014">2a=(e^x)/(x-1)</span>在<span class="formula" data-formula-id="f015">(1,+∞)</span>上有解，</p>
+<p>设<span class="formula" data-formula-id="f016">h(x)=(e^x)/(x-1)</span>，则<span class="formula" data-formula-id="f017">h^&#x27;(x)=((x-2)e^x)/((x−1)^2)</span>，故函数<span class="formula" data-formula-id="f018">h(x)</span>在<span class="formula" data-formula-id="f019">(1,2)</span>上是减函数，在<span class="formula" data-formula-id="f020">(2,+∞)</span>上是增函数，</p>
+<p>故<span class="formula" data-formula-id="f021">h(x)≥h(2)=e^2</span>，所以a的范围是<span class="formula" data-formula-id="f022">[(e^2)/(2),+∞)</span>.</p>
+<p>（2）因为<span class="formula" data-formula-id="f023">g(x)=e^x-2a(x-1)</span>，故<span class="formula" data-formula-id="f024">g^&#x27;(x)=e^x-2a</span>，</p>
+<p>因为<span class="formula" data-formula-id="f025">a&gt;0</span>，所以<span class="formula" data-formula-id="f026">g^&#x27;(x)=e^x-2a=0</span>得<span class="formula" data-formula-id="f027">x=ln(2a)</span>，</p>
+<p>故<span class="formula" data-formula-id="f028">g(x)</span>在<span class="formula" data-formula-id="f029">(-∞,ln(2a))</span>上是减函数，在<span class="formula" data-formula-id="f030">(ln(2a),+∞)</span>上是增函数</p>
+<p>因为<span class="formula" data-formula-id="f031">x_1≠x_2</span>，<span class="formula" data-formula-id="f032">g(x_1)=g(x_2)</span>，所以不妨设<span class="formula" data-formula-id="f033">x_1&lt;ln(2a)</span>，<span class="formula" data-formula-id="f034">x_2&gt;ln(2a)</span>，</p>
+<p>设<span class="formula" data-formula-id="f035">F(x)=g(x)-g(2ln(2a)-x)</span>（<span class="formula" data-formula-id="f036">x&gt;ln(2a)</span>）<span class="formula" data-formula-id="f037">=e^x-4a^2e^-x+4aln(2a)-4ax</span>，</p>
+<p>故<span class="formula" data-formula-id="f038">F^&#x27;(x)=e^x+4a^2e^-x-4a≥2sqrt(e^x⋅4a^2e^-x)-4a=0</span>，</p>
+<p>所以<span class="formula" data-formula-id="f039">F(x)</span>在<span class="formula" data-formula-id="f040">(ln(2a),+∞)</span>上是增函数，所以<span class="formula" data-formula-id="f041">F(x)&gt;F(ln(2a))</span>，即<span class="formula" data-formula-id="f042">F(x)&gt;F(ln(2a))=0</span>，</p>
+<p>故<span class="formula" data-formula-id="f043">g(x_2)-g(2ln(2a)-x_2)&gt;0</span>，即<span class="formula" data-formula-id="f044">g(x_2)&gt;g(2ln(2a)-x_2)</span>，</p>
+<p>因为<span class="formula" data-formula-id="f045">x_1&lt;ln(2a)</span>，<span class="formula" data-formula-id="f046">x_2&gt;ln(2a)</span>，且<span class="formula" data-formula-id="f047">g(x_1)=g(x_2)</span>，</p>
+<p>所以<span class="formula" data-formula-id="f048">2ln(2a)-x_2&lt;ln(2a)</span>，</p>
+<p>因为<span class="formula" data-formula-id="f049">g(x)</span>在<span class="formula" data-formula-id="f050">(-∞,ln(2a))</span>上是减函数，所以<span class="formula" data-formula-id="f051">x_1&lt;2ln(2a)-x_2</span>，故<span class="formula" data-formula-id="f052">x_1+x_2&lt;2ln(2a)</span>.</p>
+  <h2>结构化摘要</h2>
+  <pre>{
+  &quot;question_id&quot;: &quot;szzx2024g2week7_q016&quot;,
+  &quot;answer&quot;: &quot;(1) a的取值范围是 [(e^2)/2, +∞)；(2) 见解析&quot;,
+  &quot;assets&quot;: [],
+  &quot;ole_objects&quot;: [],
+  &quot;extraction&quot;: {
+    &quot;source_paragraph_range&quot;: [
+      70,
+      72
+    ],
+    &quot;solution_paragraph_range&quot;: [
+      53,
+      67
+    ],
+    &quot;formula_count&quot;: 52,
+    &quot;image_count&quot;: 0,
+    &quot;ole_count&quot;: 0,
+    &quot;quality_flags&quot;: [
+      &quot;contains_omml&quot;
+    ]
+  }
+}</pre>
+</main>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_ed507f8efdc5_q011",
+  "display_id": "EXAM-ED507F8EFDC5-Q011",
+  "source_exam": "深圳中学 2024 级高二数学周测（2）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（2）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（2）解析.md",
+  "question_number": 11,
+  "question_type": "multiple_choice",
+  "stem_markdown": "### 11. 已知函数 $f(x) = \\frac{\\ln(e^x + 1)}{x}$ ，则下列结论中正确地是( )\n\nA. 当 $x < 0$ 时， $f(x) < 0$\n\nB. $f(x)$ 的图象关于(0,1)中心对称\n\nC. 若 $m + n = 0$ ，则 $|f(m) - f(n)| > 1$\n\nD. $f(x)$ 在 $(0, +\\infty)$ 上单调递减\n\n#",
+  "stem_html": "<h3>11. 已知函数 $f(x) = \\frac{\\ln(e^x + 1)}{x}$ ，则下列结论中正确地是( )</h3>\n<p>A. 当 $x &lt; 0$ 时， $f(x) &lt; 0$</p>\n<p>B. $f(x)$ 的图象关于(0,1)中心对称</p>\n<p>C. 若 $m + n = 0$ ，则 $|f(m) - f(n)| &gt; 1$</p>\n<p>D. $f(x)$ 在 $(0, +\\infty)$ 上单调递减</p>\n<h1></h1>",
+  "options": {
+    "A": "当 $x < 0$ 时， $f(x) < 0$",
+    "B": "$f(x)$ 的图象关于(0,1)中心对称",
+    "C": "若 $m + n = 0$ ，则 $|f(m) - f(n)| > 1$",
+    "D": "$f(x)$ 在 $(0, +\\infty)$ 上单调递减\n\n#"
+  },
+  "answer": "ACD",
+  "solution_markdown": "### 11. ACD\n\n**详解**对于A，因为函数 $f(x)=\\frac{\\ln(e^{x}+1)}{x}$ ，当x<0时， $\\ln(e^{x}+1)>\\ln1=0$ ，所以这时 $f(x)<0$ ，A正确；对于B，因为 $f(x)+f(-x)=\\frac{\\ln(e^{x}+1)}{x}-\\frac{\\ln(e^{-x}+1)}{x}=\\frac{\\ln(e^{x}+1)-\\ln(e^{-x}+1)}{x}=$ $\\frac{1}{x}\\ln\\frac{e^{x}+1}{e^{-x}+1}=\\frac{1}{x}\\ln e^{x}=1$ ，所以 $f(x)$ 的图象关于 $(0,\\frac{1}{2})$ 中心对称，B错误；\n\n$$m + n = 0$$\n\n$$| f (m) - f (n) | = | f (m) - f (- m) | = \\left| \\frac {\\ln (e ^ {m} + 1)}{m} + \\frac {\\ln (e ^ {- m} + 1)}{m} \\right|$$\n\n$= \\left|\\frac{\\ln(e^m + 1) + \\ln(e^{-m} + 1)}{m}\\right| = \\left|\\frac{\\ln[(e^m + 1) \\cdot (e^{-m} + 1)]}{m}\\right| = \\left|\\frac{\\ln(e^m + e^{-m} + 2)}{m}\\right| > \\left|\\frac{\\ln e^m}{m}\\right| = 1$ ，所以 $C$ 正确；\n\n对于 $D$ ，当 $x\\in (0, + \\infty)$ 时， $f^{\\prime}(x) = \\frac{\\frac{xe^{x}}{e^{x} + 1} - \\ln(e^{x} + 1)}{x^{2}} = \\frac{xe^{x} - (e^{x} + 1)\\ln(e^{x} + 1)}{x^{2}(e^{x} + 1)}$ ，令 $g(x) = xe^{x}$\n\n$$x \\in (0, + \\infty)$$\n\n$$g ^ {\\prime} (x) = e ^ {x} (x + 1) > 0$$\n\n又 $\\ln (e^x + 1) > \\ln e^x = x$ ，所以 $g(\\ln (e^x + 1)) > g(x)$ ， $e^{\\ln (e^x + 1)} \\cdot \\ln (e^x + 1) > e^x \\cdot x$ ，即 $xe^x <$\n\n$(e^{x} + 1)\\ln (e^{x} + 1)$ ，因此，这时 $f^{\\prime}(x) < 0$ ，函数 $f(x)$ 在 $(0, +\\infty)$ 上单调递减， $D$ 正确；.",
+  "solution_html": "<h3>11. ACD</h3>\n<p><strong>详解</strong>对于A，因为函数 $f(x)=\\frac{\\ln(e^{x}+1)}{x}$ ，当x&lt;0时， $\\ln(e^{x}+1)&gt;\\ln1=0$ ，所以这时 $f(x)&lt;0$ ，A正确；对于B，因为 $f(x)+f(-x)=\\frac{\\ln(e^{x}+1)}{x}-\\frac{\\ln(e^{-x}+1)}{x}=\\frac{\\ln(e^{x}+1)-\\ln(e^{-x}+1)}{x}=$ $\\frac{1}{x}\\ln\\frac{e^{x}+1}{e^{-x}+1}=\\frac{1}{x}\\ln e^{x}=1$ ，所以 $f(x)$ 的图象关于 $(0,\\frac{1}{2})$ 中心对称，B错误；</p>\n<p>$$m + n = 0$$</p>\n<p>$$| f (m) - f (n) | = | f (m) - f (- m) | = \\left| \\frac {\\ln (e ^ {m} + 1)}{m} + \\frac {\\ln (e ^ {- m} + 1)}{m} \\right|$$</p>\n<p>$= \\left|\\frac{\\ln(e^m + 1) + \\ln(e^{-m} + 1)}{m}\\right| = \\left|\\frac{\\ln[(e^m + 1) \\cdot (e^{-m} + 1)]}{m}\\right| = \\left|\\frac{\\ln(e^m + e^{-m} + 2)}{m}\\right| &gt; \\left|\\frac{\\ln e^m}{m}\\right| = 1$ ，所以 $C$ 正确；</p>\n<p>对于 $D$ ，当 $x\\in (0, + \\infty)$ 时， $f^{\\prime}(x) = \\frac{\\frac{xe^{x}}{e^{x} + 1} - \\ln(e^{x} + 1)}{x^{2}} = \\frac{xe^{x} - (e^{x} + 1)\\ln(e^{x} + 1)}{x^{2}(e^{x} + 1)}$ ，令 $g(x) = xe^{x}$</p>\n<p>$$x \\in (0, + \\infty)$$</p>\n<p>$$g ^ {\\prime} (x) = e ^ {x} (x + 1) &gt; 0$$</p>\n<p>又 $\\ln (e^x + 1) &gt; \\ln e^x = x$ ，所以 $g(\\ln (e^x + 1)) &gt; g(x)$ ， $e^{\\ln (e^x + 1)} \\cdot \\ln (e^x + 1) &gt; e^x \\cdot x$ ，即 $xe^x &lt;$</p>\n<p>$(e^{x} + 1)\\ln (e^{x} + 1)$ ，因此，这时 $f^{\\prime}(x) &lt; 0$ ，函数 $f(x)$ 在 $(0, +\\infty)$ 上单调递减， $D$ 正确；.</p>",
+  "score": 6,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.649853+00:00",
+    "question_source_sha256": "7cb6872dd8f9092683f4d213bfc976e0e2eecfc7cc5919b7f6cfa19ef958a3d1",
+    "solution_source_sha256": "ee82da0a88dd9857c44efb8cd3b554ae670a59b5aa1d62f710078f748a7f8a4e"
+  }
+}

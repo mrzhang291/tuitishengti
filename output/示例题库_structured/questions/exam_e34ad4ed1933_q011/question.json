@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_e34ad4ed1933_q011",
+  "display_id": "EXAM-E34AD4ED1933-Q011",
+  "source_exam": "深圳中学 2024 级高二数学周测（4）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（4）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（4）参考答案.md",
+  "question_number": 11,
+  "question_type": "multiple_choice",
+  "stem_markdown": "### 11. 对于函数 $f(x) = \\frac{x}{\\ln x}$ ，下列说法正确的是（）\n\nA. $f(x)$ 在 $(0, e)$ 上单调递减，在 $(e, +\\infty)$ 上单调递增\n\nB. $f(\\pi) < f(2)$\n\nC. 设 $g(x) = |f(x)| - 2k + 1$ 有3个不同的零点，则 $k > \\frac{e+1}{2}$\n\nD. 若方程 $|f(|x|)| = k$ 有6个不等实数根，则 $k > e$\n\n#",
+  "stem_html": "<h3>11. 对于函数 $f(x) = \\frac{x}{\\ln x}$ ，下列说法正确的是（）</h3>\n<p>A. $f(x)$ 在 $(0, e)$ 上单调递减，在 $(e, +\\infty)$ 上单调递增</p>\n<p>B. $f(\\pi) &lt; f(2)$</p>\n<p>C. 设 $g(x) = |f(x)| - 2k + 1$ 有3个不同的零点，则 $k &gt; \\frac{e+1}{2}$</p>\n<p>D. 若方程 $|f(|x|)| = k$ 有6个不等实数根，则 $k &gt; e$</p>\n<h1></h1>",
+  "options": {
+    "A": "$f(x)$ 在 $(0, e)$ 上单调递减，在 $(e, +\\infty)$ 上单调递增",
+    "B": "$f(\\pi) < f(2)$",
+    "C": "设 $g(x) = |f(x)| - 2k + 1$ 有3个不同的零点，则 $k > \\frac{e+1}{2}$",
+    "D": "若方程 $|f(|x|)| = k$ 有6个不等实数根，则 $k > e$\n\n#"
+  },
+  "answer": "BCD",
+  "solution_markdown": "### 11. \n\n**详解**解：对于 A 选项， $f(x)=\\frac{x}{\\ln x}$ 的定义域为 $(0,1)\\cup(1,+\\infty)$ ，所以 A 选项错误；\n\n对于B选项， $f^{\\prime}(x) = \\frac{\\ln x - 1}{\\ln^{2}x}$ ，令 $f^{\\prime}(x) > 0$ 可得 $x > \\mathrm{e}$\n\n即函数 $f(x)$ 在 $(e, +\\infty)$ 上单调递增， $f(2) = \\frac{2}{\\ln 2} = \\frac{4}{2 \\ln 2} = \\frac{4}{\\ln 4} = f(4), e < \\pi < 4$ ，\n\n即 $f(\\pi) < f(4) = f(2)$ ，所以B选项正确；\n\n对于 C 选项，令 $g(x)=\\left|f(x)\\right|-2k+1=0$ ，即 $\\left|f(x)\\right|=2k-1$ ，\n\n$g(x)=\\left|f(x)\\right|-2k+1$ 有 3 个不同的零点等价于函数 $y_{1}=\\left|f(x)\\right|$ 和函数 $y_{2}=2k-1$ 有 3 个不同的交点，\n\n![](assets/f2a5d4b70fe93c00aa85998c39c867ede08280b60f538f8179be5be6e81be684.jpg)\n\n由图像可知， $2k - 1 > \\mathrm{e}$ ，解得 $k > \\frac{\\mathrm{e} + 1}{2}$ ，所以C选项正确；对于D选项，方程 $\\left|f(|x|)\\right| = k$ 有6个不等实数根等价于函数 $y_{1} = \\left|f(|x|)\\right|$ 和函数 $y_{2} = k$ 有6个不同的交点，\n\n![](assets/de1c9123b24f99c03731b7ed3bac6929f3d7eda83c99bd5915dacc6e233660a1.jpg)\n\n由图像可知，k > e，所以 D 选项正确.",
+  "solution_html": "<h3>11.</h3>\n<p><strong>详解</strong>解：对于 A 选项， $f(x)=\\frac{x}{\\ln x}$ 的定义域为 $(0,1)\\cup(1,+\\infty)$ ，所以 A 选项错误；</p>\n<p>对于B选项， $f^{\\prime}(x) = \\frac{\\ln x - 1}{\\ln^{2}x}$ ，令 $f^{\\prime}(x) &gt; 0$ 可得 $x &gt; \\mathrm{e}$</p>\n<p>即函数 $f(x)$ 在 $(e, +\\infty)$ 上单调递增， $f(2) = \\frac{2}{\\ln 2} = \\frac{4}{2 \\ln 2} = \\frac{4}{\\ln 4} = f(4), e &lt; \\pi &lt; 4$ ，</p>\n<p>即 $f(\\pi) &lt; f(4) = f(2)$ ，所以B选项正确；</p>\n<p>对于 C 选项，令 $g(x)=\\left|f(x)\\right|-2k+1=0$ ，即 $\\left|f(x)\\right|=2k-1$ ，</p>\n<p>$g(x)=\\left|f(x)\\right|-2k+1$ 有 3 个不同的零点等价于函数 $y_{1}=\\left|f(x)\\right|$ 和函数 $y_{2}=2k-1$ 有 3 个不同的交点，</p>\n<p><img alt=\"\" src=\"assets/f2a5d4b70fe93c00aa85998c39c867ede08280b60f538f8179be5be6e81be684.jpg\" /></p>\n<p>由图像可知， $2k - 1 &gt; \\mathrm{e}$ ，解得 $k &gt; \\frac{\\mathrm{e} + 1}{2}$ ，所以C选项正确；对于D选项，方程 $\\left|f(|x|)\\right| = k$ 有6个不等实数根等价于函数 $y_{1} = \\left|f(|x|)\\right|$ 和函数 $y_{2} = k$ 有6个不同的交点，</p>\n<p><img alt=\"\" src=\"assets/de1c9123b24f99c03731b7ed3bac6929f3d7eda83c99bd5915dacc6e233660a1.jpg\" /></p>\n<p>由图像可知，k &gt; e，所以 D 选项正确.</p>",
+  "score": 6,
+  "assets": [
+    {
+      "original_ref": "images/f2a5d4b70fe93c00aa85998c39c867ede08280b60f538f8179be5be6e81be684.jpg",
+      "alt": "",
+      "saved": true,
+      "file_name": "f2a5d4b70fe93c00aa85998c39c867ede08280b60f538f8179be5be6e81be684.jpg",
+      "relative_path": "assets/f2a5d4b70fe93c00aa85998c39c867ede08280b60f538f8179be5be6e81be684.jpg",
+      "sha256": "ecd4f1400b2bcda4b015c571911984fc752e26586977dfac699e297c7ed344f0"
+    },
+    {
+      "original_ref": "images/de1c9123b24f99c03731b7ed3bac6929f3d7eda83c99bd5915dacc6e233660a1.jpg",
+      "alt": "",
+      "saved": true,
+      "file_name": "de1c9123b24f99c03731b7ed3bac6929f3d7eda83c99bd5915dacc6e233660a1.jpg",
+      "relative_path": "assets/de1c9123b24f99c03731b7ed3bac6929f3d7eda83c99bd5915dacc6e233660a1.jpg",
+      "sha256": "629f2efb95aca15210d796683f6121be8dfe04bf2f5be05188055de406ce39b5"
+    }
+  ],
+  "quality_flags": [
+    "contains_images"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.885266+00:00",
+    "question_source_sha256": "abb103e1c408892fc4de9c4f369a5605171aaff95278bd1e2fbb72858f7ccac8",
+    "solution_source_sha256": "393e7089ed67ecf54073904de81f72aa4f123dbb02df5f8fd36c76f14bef30c1"
+  }
+}

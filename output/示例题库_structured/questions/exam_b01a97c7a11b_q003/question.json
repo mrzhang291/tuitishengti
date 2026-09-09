@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_b01a97c7a11b_q003",
+  "display_id": "EXAM-B01A97C7A11B-Q003",
+  "source_exam": "深圳中学2024级高二周测（8）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（8）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（8）参考答案.md",
+  "question_number": 3,
+  "question_type": "single_choice",
+  "stem_markdown": "### 3. 假设 A, B 是两个事件，且 $P(A) > 0$ ， $P(B) > 0$ ，则下列结论一定正确的是()\n\nA. $P(B)=P(B|A)$\n\nB. $P(AB)=P(A)P(B)$\n\nC. $P(B|A)=P(A|B)$\n\nD. $P(AB)\\leq P(B|A)$",
+  "stem_html": "<h3>3. 假设 A, B 是两个事件，且 $P(A) &gt; 0$ ， $P(B) &gt; 0$ ，则下列结论一定正确的是()</h3>\n<p>A. $P(B)=P(B|A)$</p>\n<p>B. $P(AB)=P(A)P(B)$</p>\n<p>C. $P(B|A)=P(A|B)$</p>\n<p>D. $P(AB)\\leq P(B|A)$</p>",
+  "options": {
+    "A": "$P(B)=P(B|A)$",
+    "B": "$P(AB)=P(A)P(B)$",
+    "C": "$P(B|A)=P(A|B)$",
+    "D": "$P(AB)\\leq P(B|A)$"
+  },
+  "answer": "D",
+  "solution_markdown": "",
+  "solution_html": "",
+  "score": null,
+  "assets": [],
+  "quality_flags": [
+    "missing_solution"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.048030+00:00",
+    "question_source_sha256": "c94eca08c58bedc15524121a680136ba270a64c9922023c3005a12c4fc409761",
+    "solution_source_sha256": "2c305966ce196e8a17833cd59778cae810c6b4e24eca072eeecc711059b85d1d"
+  }
+}

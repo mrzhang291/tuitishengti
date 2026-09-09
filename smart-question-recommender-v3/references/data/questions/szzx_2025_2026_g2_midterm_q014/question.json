@@ -1,0 +1,120 @@
+{
+  "question_id": "szzx_2025_2026_g2_midterm_q014",
+  "source_exam": "示例学校2025-2026学年度第二学期期中考试",
+  "source_file": "sources/示例学校2025-2026学年度第二学期期中考试试题.docx",
+  "solution_file": "sources/示例学校2025-2026学年度第二学期期中考试参考答案.docx",
+  "grade": "高二",
+  "subject": "数学",
+  "question_number": 14,
+  "question_type": "fill_blank",
+  "score": 5,
+  "score_source": "section_rule",
+  "score_note": "填空题：每小题5分",
+  "stem_markdown": "14．如图，一块边长为6cm的正方形铁片上有四块全等的阴影部分.将这些阴影部分裁下来，然后用余下的四个全等的等腰三角形拼凑成一个正四棱锥形容器（不考虑铁片的损耗），则该容器容积（忽略铁片的厚度）最大时，容器的底面边长为______$cm$.\n[image:rId8]",
+  "stem_text": "14．如图，一块边长为6cm的正方形铁片上有四块全等的阴影部分.将这些阴影部分裁下来，然后用余下的四个全等的等腰三角形拼凑成一个正四棱锥形容器（不考虑铁片的损耗），则该容器容积（忽略铁片的厚度）最大时，容器的底面边长为______cm.\n[image:rId8]",
+  "stem_html": "<p>14．如图，一块边长为6cm的正方形铁片上有四块全等的阴影部分.将这些阴影部分裁下来，然后用余下的四个全等的等腰三角形拼凑成一个正四棱锥形容器（不考虑铁片的损耗），则该容器容积（忽略铁片的厚度）最大时，容器的底面边长为______<span class=\"formula\" data-formula-id=\"f001\">cm</span>.</p>\n<p><img src=\"assets/szzx_2025_2026_g2_midterm_q014_image_01.png\" alt=\"img001\"></p>",
+  "stem_blocks": [
+    {
+      "type": "text",
+      "text": "14"
+    },
+    {
+      "type": "text",
+      "text": "．如图，一块边长为"
+    },
+    {
+      "type": "text",
+      "text": "6cm"
+    },
+    {
+      "type": "text",
+      "text": "的正方形铁片上有四块全等的阴影部分"
+    },
+    {
+      "type": "text",
+      "text": "."
+    },
+    {
+      "type": "text",
+      "text": "将这些阴影部分"
+    },
+    {
+      "type": "text",
+      "text": "裁"
+    },
+    {
+      "type": "text",
+      "text": "下来，然后用余下的四个全等的等腰三角形拼凑成一个正四棱锥形容器（不考虑铁片的损耗），则该容器容积（忽略铁片的厚度）最大"
+    },
+    {
+      "type": "text",
+      "text": "时，"
+    },
+    {
+      "type": "text",
+      "text": "容器的底面边长为"
+    },
+    {
+      "type": "text",
+      "text": "______"
+    },
+    {
+      "type": "math",
+      "formula_id": "f001",
+      "text_approx": "cm"
+    },
+    {
+      "type": "text",
+      "text": "."
+    },
+    {
+      "type": "image",
+      "rel_id": "rId8",
+      "origin": "source",
+      "asset_id": "img001",
+      "path": "assets/szzx_2025_2026_g2_midterm_q014_image_01.png"
+    }
+  ],
+  "answer": "2sqrt(6)",
+  "solution_markdown": "",
+  "solution_text": "",
+  "solution_html": "",
+  "solution_blocks": [],
+  "assets": [
+    {
+      "id": "img001",
+      "type": "image",
+      "origin": "source",
+      "rel_id": "rId8",
+      "source": "word/media/image2.png",
+      "path": "assets/szzx_2025_2026_g2_midterm_q014_image_01.png",
+      "original_path": "assets/szzx_2025_2026_g2_midterm_q014_image_01.png",
+      "preview_generated": false
+    }
+  ],
+  "formulas": [
+    {
+      "id": "f001",
+      "type": "math",
+      "format": "omml",
+      "text_approx": "cm",
+      "omml": "<ns0:oMath xmlns:ns0=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:ns1=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:r><ns1:rPr><ns1:rFonts ns1:ascii=\"Cambria Math\" ns1:hAnsi=\"Cambria Math\" /></ns1:rPr><ns0:t>cm</ns0:t></ns0:r></ns0:oMath>"
+    }
+  ],
+  "ole_objects": [],
+  "extraction": {
+    "source_paragraph_range": [
+      43,
+      46
+    ],
+    "solution_paragraph_range": null,
+    "formula_count": 1,
+    "image_count": 1,
+    "ole_count": 0,
+    "quality_flags": [
+      "contains_images",
+      "contains_omml",
+      "missing_solution"
+    ]
+  }
+}

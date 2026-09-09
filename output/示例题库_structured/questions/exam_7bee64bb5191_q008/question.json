@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_7bee64bb5191_q008",
+  "display_id": "EXAM-7BEE64BB5191-Q008",
+  "source_exam": "深圳中学 2024 级高二数学周测（1）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（1）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（1）解析.md",
+  "question_number": 8,
+  "question_type": "single_choice",
+  "stem_markdown": "### 8. 已知直线 $y = kx + b$ 既是曲线 $y = \\ln x$ 的切线，也是曲线 $y = -\\ln (-x)$ 的切线，则（）\n\nA. $k = \\frac{1}{\\mathrm{e}}, b = 0$\n\nB. $k = 1, b = 0$\n\nC. $k = \\frac{1}{\\mathrm{e}}, b = -1$\n\nD. $k = 1, b = -1$\n\n#",
+  "stem_html": "<h3>8. 已知直线 $y = kx + b$ 既是曲线 $y = \\ln x$ 的切线，也是曲线 $y = -\\ln (-x)$ 的切线，则（）</h3>\n<p>A. $k = \\frac{1}{\\mathrm{e}}, b = 0$</p>\n<p>B. $k = 1, b = 0$</p>\n<p>C. $k = \\frac{1}{\\mathrm{e}}, b = -1$</p>\n<p>D. $k = 1, b = -1$</p>\n<h1></h1>",
+  "options": {
+    "A": "$k = \\frac{1}{\\mathrm{e}}, b = 0$",
+    "B": "$k = 1, b = 0$",
+    "C": "$k = \\frac{1}{\\mathrm{e}}, b = -1$",
+    "D": "$k = 1, b = -1$\n\n#"
+  },
+  "answer": "A",
+  "solution_markdown": "### 8. A\n\n**详解**设直线与曲线 $y=\\ln x$ 的切点为 $(x_{1},\\ln x_{1})$ 且 $x_{1}>0$ ,\n\n与曲线 $y=-\\ln(-x)$ 的切点为 $(x_{2},-\\ln(-x_{2}))$ 且 $x_{2}<0,$\n\n又 $y' = (\\ln x)' = \\frac{1}{x}$ , $y' = [-\\ln (-x)] = -\\frac{1}{x}$ ，则直线 $y = kx + b$ 与曲线 $y = \\ln x$ 的切线方程为 $y - \\ln x_{1} = \\frac{1}{x_{1}} (x - x_{1})$ ，即 $y = \\frac{1}{x_{1}} x + \\ln x_{1} - 1$ ，直线 $y = kx + b$ 与曲线 $y = -\\ln (-x)$ 的切线方程为 $y + \\ln (-x_{2}) = -\\frac{1}{x_{2}} (x - x_{2})$ ，即 $y = -\\frac{1}{x_{2}} x + 1 - \\ln (-x_{2})$ ，则 $\\left\\{ \\begin{array}{l} \\frac{1}{x_1} = -\\frac{1}{x_2} \\\\ \\ln x_1 - 1 = 1 - \\ln (-x_2) \\end{array} \\right.$ ，解得 $\\left\\{ \\begin{array}{l} x_1 = e \\\\ x_2 = -e \\end{array} \\right.$ ，故 $k = \\frac{1}{x_1} = \\frac{1}{e}, b = \\ln x_1 - 1 = 0,$",
+  "solution_html": "<h3>8. A</h3>\n<p><strong>详解</strong>设直线与曲线 $y=\\ln x$ 的切点为 $(x_{1},\\ln x_{1})$ 且 $x_{1}&gt;0$ ,</p>\n<p>与曲线 $y=-\\ln(-x)$ 的切点为 $(x_{2},-\\ln(-x_{2}))$ 且 $x_{2}&lt;0,$</p>\n<p>又 $y' = (\\ln x)' = \\frac{1}{x}$ , $y' = [-\\ln (-x)] = -\\frac{1}{x}$ ，则直线 $y = kx + b$ 与曲线 $y = \\ln x$ 的切线方程为 $y - \\ln x_{1} = \\frac{1}{x_{1}} (x - x_{1})$ ，即 $y = \\frac{1}{x_{1}} x + \\ln x_{1} - 1$ ，直线 $y = kx + b$ 与曲线 $y = -\\ln (-x)$ 的切线方程为 $y + \\ln (-x_{2}) = -\\frac{1}{x_{2}} (x - x_{2})$ ，即 $y = -\\frac{1}{x_{2}} x + 1 - \\ln (-x_{2})$ ，则 $\\left\\{ \\begin{array}{l} \\frac{1}{x_1} = -\\frac{1}{x_2} \\\\ \\ln x_1 - 1 = 1 - \\ln (-x_2) \\end{array} \\right.$ ，解得 $\\left\\{ \\begin{array}{l} x_1 = e \\\\ x_2 = -e \\end{array} \\right.$ ，故 $k = \\frac{1}{x_1} = \\frac{1}{e}, b = \\ln x_1 - 1 = 0,$</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.579492+00:00",
+    "question_source_sha256": "8fa1d650b2c1959ec549afd5bfc248cdd4ddda5307791163f79f93a33acf3cac",
+    "solution_source_sha256": "5b5d55d680204d0e0f86a02ed377845f5652a058ffb31385ed378ad99f44b5f7"
+  }
+}

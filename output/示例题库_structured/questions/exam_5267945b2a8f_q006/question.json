@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_5267945b2a8f_q006",
+  "display_id": "EXAM-5267945B2A8F-Q006",
+  "source_exam": "深圳中学 2024 级高二数学 五一作业",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学２０２４级高二数学五一作业 试卷.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学２０２４级高二数学五一作业 答案.md",
+  "question_number": 6,
+  "question_type": "single_choice",
+  "stem_markdown": "### 6. 当前，AI 已从一个研究领域变成一类赋能技术。在医药健康领域，AI 已应用于靶点发现、药物设计及临床试验等方面，显著提升了科研效率。假设某实验室 AI 辅助新药分子筛选，事件 A 是“AI 模型筛选出候选分子 M”，事件 B 是“AI 模型筛选出候选分子 N”。已知\n\n$P(A)=0.3,\\quad P(B)=0.4,\\quad P(B\\mid\\overline{A})=0.2$ ，则 $P(A\\mid B)=()$\n\nA. $\\frac{13}{20}$\n\nB. $\\frac{9}{10}$\n\nC. $\\frac{3}{4}$\n\nD. $\\frac{33}{40}$",
+  "stem_html": "<h3>6. 当前，AI 已从一个研究领域变成一类赋能技术。在医药健康领域，AI 已应用于靶点发现、药物设计及临床试验等方面，显著提升了科研效率。假设某实验室 AI 辅助新药分子筛选，事件 A 是“AI 模型筛选出候选分子 M”，事件 B 是“AI 模型筛选出候选分子 N”。已知</h3>\n<p>$P(A)=0.3,\\quad P(B)=0.4,\\quad P(B\\mid\\overline{A})=0.2$ ，则 $P(A\\mid B)=()$</p>\n<p>A. $\\frac{13}{20}$</p>\n<p>B. $\\frac{9}{10}$</p>\n<p>C. $\\frac{3}{4}$</p>\n<p>D. $\\frac{33}{40}$</p>",
+  "options": {
+    "A": "$\\frac{13}{20}$",
+    "B": "$\\frac{9}{10}$",
+    "C": "$\\frac{3}{4}$",
+    "D": "$\\frac{33}{40}$"
+  },
+  "answer": "A",
+  "solution_markdown": "",
+  "solution_html": "",
+  "score": null,
+  "assets": [],
+  "quality_flags": [
+    "missing_solution"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.233068+00:00",
+    "question_source_sha256": "15514af6ceb54dc08cbfc8100c7df26b356cb6688fdd3bfe5c4f436c61261dd5",
+    "solution_source_sha256": "07f1865be56a487b402afb470f20fe230f42fb97bd927cee85afc49913075760"
+  }
+}

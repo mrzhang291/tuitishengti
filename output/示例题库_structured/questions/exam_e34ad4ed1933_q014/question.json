@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_e34ad4ed1933_q014",
+  "display_id": "EXAM-E34AD4ED1933-Q014",
+  "source_exam": "深圳中学 2024 级高二数学周测（4）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（4）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（4）参考答案.md",
+  "question_number": 14,
+  "question_type": "fill_blank",
+  "stem_markdown": "### 14. 已知函数 $f(x) = x^{3} + x - \\sin x$ ，则关于 t 的不等式 $f(t^{2} - t) + f(-t) < f(0)$ 的解集为 \\_\\_\\_\\_.",
+  "stem_html": "<h3>14. 已知函数 $f(x) = x^{3} + x - \\sin x$ ，则关于 t 的不等式 $f(t^{2} - t) + f(-t) &lt; f(0)$ 的解集为 ____.</h3>",
+  "options": {},
+  "answer": "(0,2)",
+  "solution_markdown": "### 14. (0,2)\n\n**详解** $f(x)=x^{3}+x-\\sin x$ ，得 $f(-x)=(-x)^{3}-x-\\sin(-x)=-\\left(x^{3}+x-\\sin x\\right)=-f(x)$\n\n故 $f(x)$ 为定义在R上的奇函数.所以 $f(t^{2}-t)+f(-t)<f(0)$ 可写为 $f(t^{2}-t)+f(-t)<0$ ,\n\n即 $f(t^2 - t) < -f(-t)$ ，根据奇函数易得 $f(t^2 - t) < f(t)$ . 函数 $f(x) = x^3 + x - \\sin x$ 的导数为 $f'(x) = 3x^2 + 1 - \\cos x$ ，\n\n而 $\\cos x \\in [-1,1], x^{2} \\geq 0$ ，所以 $f'(x) = 3x^{2} + 1 - \\cos x \\geq 0$ ，故函数 $f(x)$ 在 R 上单调递增，故不等式 $f(t^{2} - t) < f(t)$ 的解集等价于 $t^{2} - t < t$ 的解集，解得 $t \\in (0,2)$ .",
+  "solution_html": "<h3>14. (0,2)</h3>\n<p><strong>详解</strong> $f(x)=x^{3}+x-\\sin x$ ，得 $f(-x)=(-x)^{3}-x-\\sin(-x)=-\\left(x^{3}+x-\\sin x\\right)=-f(x)$</p>\n<p>故 $f(x)$ 为定义在R上的奇函数.所以 $f(t^{2}-t)+f(-t)&lt;f(0)$ 可写为 $f(t^{2}-t)+f(-t)&lt;0$ ,</p>\n<p>即 $f(t^2 - t) &lt; -f(-t)$ ，根据奇函数易得 $f(t^2 - t) &lt; f(t)$ . 函数 $f(x) = x^3 + x - \\sin x$ 的导数为 $f'(x) = 3x^2 + 1 - \\cos x$ ，</p>\n<p>而 $\\cos x \\in [-1,1], x^{2} \\geq 0$ ，所以 $f'(x) = 3x^{2} + 1 - \\cos x \\geq 0$ ，故函数 $f(x)$ 在 R 上单调递增，故不等式 $f(t^{2} - t) &lt; f(t)$ 的解集等价于 $t^{2} - t &lt; t$ 的解集，解得 $t \\in (0,2)$ .</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.897198+00:00",
+    "question_source_sha256": "abb103e1c408892fc4de9c4f369a5605171aaff95278bd1e2fbb72858f7ccac8",
+    "solution_source_sha256": "393e7089ed67ecf54073904de81f72aa4f123dbb02df5f8fd36c76f14bef30c1"
+  }
+}

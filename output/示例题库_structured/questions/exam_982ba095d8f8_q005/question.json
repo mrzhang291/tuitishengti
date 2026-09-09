@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_982ba095d8f8_q005",
+  "display_id": "EXAM-982BA095D8F8-Q005",
+  "source_exam": "深圳中学 2024 级高二数学周测（9）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（9）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（9）参考答案.md",
+  "question_number": 5,
+  "question_type": "single_choice",
+  "stem_markdown": "### 5. 如图所示, 已知一质点在外力的作用下, 从原点 $O$ 出发, 每次向左移动的概率为 $\\frac{2}{3}$ , 向右移动的概率为 $\\frac{1}{3}$ . 若该质点每次移动一个单位长度, 设经过 5 次移动后, 该质点位于 $X$ 的位置, 则 $P(X > 0) = (\\quad)$\n\nA. $\\frac{50}{243}$\n\nB. $\\frac{17}{81}$\n\nC. $\\frac{52}{243}$\n\nD. $\\frac{2}{9}$",
+  "stem_html": "<h3>5. 如图所示, 已知一质点在外力的作用下, 从原点 $O$ 出发, 每次向左移动的概率为 $\\frac{2}{3}$ , 向右移动的概率为 $\\frac{1}{3}$ . 若该质点每次移动一个单位长度, 设经过 5 次移动后, 该质点位于 $X$ 的位置, 则 $P(X &gt; 0) = (\\quad)$</h3>\n<p>A. $\\frac{50}{243}$</p>\n<p>B. $\\frac{17}{81}$</p>\n<p>C. $\\frac{52}{243}$</p>\n<p>D. $\\frac{2}{9}$</p>",
+  "options": {
+    "A": "$\\frac{50}{243}$",
+    "B": "$\\frac{17}{81}$",
+    "C": "$\\frac{52}{243}$",
+    "D": "$\\frac{2}{9}$"
+  },
+  "answer": "B",
+  "solution_markdown": "### 5. B\n\n**详解**方法一：依题意，当 $X > 0$ 时， $X$ 的可能取值为1,3,5，所以\n\n$$P (X > 0) = P (X = 5) + P (X = 3) + P (X = 1) = \\left(\\frac {1}{3}\\right) ^ {5} + C _ {5} ^ {1} \\left(\\frac {1}{3}\\right) ^ {4} \\left(\\frac {2}{3}\\right) + C _ {5} ^ {2} \\left(\\frac {1}{3}\\right) ^ {3} \\left(\\frac {2}{3}\\right) ^ {2} = \\frac {1 7}{8 1}.$$\n\n方法二：设5次移动中向右移动的次数为 $Y$ ，则 $Y\\sim B\\left(5,\\frac{1}{3}\\right)$ ，则\n\n$$P (X > 0) = P (Y = 5) + P (Y = 4) + P (Y = 3) = \\dots)$$",
+  "solution_html": "<h3>5. B</h3>\n<p><strong>详解</strong>方法一：依题意，当 $X &gt; 0$ 时， $X$ 的可能取值为1,3,5，所以</p>\n<p>$$P (X &gt; 0) = P (X = 5) + P (X = 3) + P (X = 1) = \\left(\\frac {1}{3}\\right) ^ {5} + C _ {5} ^ {1} \\left(\\frac {1}{3}\\right) ^ {4} \\left(\\frac {2}{3}\\right) + C _ {5} ^ {2} \\left(\\frac {1}{3}\\right) ^ {3} \\left(\\frac {2}{3}\\right) ^ {2} = \\frac {1 7}{8 1}.$$</p>\n<p>方法二：设5次移动中向右移动的次数为 $Y$ ，则 $Y\\sim B\\left(5,\\frac{1}{3}\\right)$ ，则</p>\n<p>$$P (X &gt; 0) = P (Y = 5) + P (Y = 4) + P (Y = 3) = \\dots)$$</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.138119+00:00",
+    "question_source_sha256": "fd7e09e7361b1a3c423e4a90022e45ec754d1b93b61dd929ba983ee3da41d367",
+    "solution_source_sha256": "49045cdfd752f9f34d7cc2aa89ea2bcec7753750c2327e42b2d465641a0aa9fa"
+  }
+}

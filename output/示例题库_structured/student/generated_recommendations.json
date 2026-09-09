@@ -1,0 +1,391 @@
+{
+  "schema_version": "generated-student-recommendations-v1",
+  "generated_at": "2026-08-05T03:33:11.088236+00:00",
+  "status": "blocked_pending_generation_and_approval",
+  "students": [
+    {
+      "student_id": "SIM-001",
+      "name": "模拟学生001",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-002",
+      "name": "模拟学生002",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-003",
+      "name": "模拟学生003",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-004",
+      "name": "模拟学生004",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-005",
+      "name": "模拟学生005",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-006",
+      "name": "模拟学生006",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-007",
+      "name": "模拟学生007",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-008",
+      "name": "模拟学生008",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-009",
+      "name": "模拟学生009",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-010",
+      "name": "模拟学生010",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-011",
+      "name": "模拟学生011",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-012",
+      "name": "模拟学生012",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-013",
+      "name": "模拟学生013",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-014",
+      "name": "模拟学生014",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-015",
+      "name": "模拟学生015",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-016",
+      "name": "模拟学生016",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-017",
+      "name": "模拟学生017",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-018",
+      "name": "模拟学生018",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-019",
+      "name": "模拟学生019",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-020",
+      "name": "模拟学生020",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-021",
+      "name": "模拟学生021",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-022",
+      "name": "模拟学生022",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-023",
+      "name": "模拟学生023",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-024",
+      "name": "模拟学生024",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-025",
+      "name": "模拟学生025",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-026",
+      "name": "模拟学生026",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-027",
+      "name": "模拟学生027",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-028",
+      "name": "模拟学生028",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-029",
+      "name": "模拟学生029",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-030",
+      "name": "模拟学生030",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-031",
+      "name": "模拟学生031",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-032",
+      "name": "模拟学生032",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-033",
+      "name": "模拟学生033",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-034",
+      "name": "模拟学生034",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-035",
+      "name": "模拟学生035",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-036",
+      "name": "模拟学生036",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-037",
+      "name": "模拟学生037",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-038",
+      "name": "模拟学生038",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-039",
+      "name": "模拟学生039",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-040",
+      "name": "模拟学生040",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-041",
+      "name": "模拟学生041",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-042",
+      "name": "模拟学生042",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-043",
+      "name": "模拟学生043",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-044",
+      "name": "模拟学生044",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-045",
+      "name": "模拟学生045",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-046",
+      "name": "模拟学生046",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-047",
+      "name": "模拟学生047",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    },
+    {
+      "student_id": "SIM-048",
+      "name": "模拟学生048",
+      "recommendations": [],
+      "coverage_gaps": [
+        "5 recommendation slots are awaiting generated questions."
+      ]
+    }
+  ]
+}

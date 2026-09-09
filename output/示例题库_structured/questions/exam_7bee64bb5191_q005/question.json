@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_7bee64bb5191_q005",
+  "display_id": "EXAM-7BEE64BB5191-Q005",
+  "source_exam": "深圳中学 2024 级高二数学周测（1）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（1）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（1）解析.md",
+  "question_number": 5,
+  "question_type": "single_choice",
+  "stem_markdown": "### 5. 点 $P$ 在曲线 $y = x^3 - x + \\frac{2}{3}$ 上，设曲线在点 $P$ 处切线的倾斜角为 $\\alpha$ ，则角 $\\alpha$ 的取值范围是（）\n\nA. $\\left[0, \\frac{\\pi}{2}\\right)$\n\nB. $\\left[0, \\frac{\\pi}{2}\\right) \\cup \\left(-\\frac{\\pi}{2}, 0\\right)$\n\nC. $\\left[\\frac{3\\pi}{4}, \\pi\\right)$\n\nD. $\\left[0, \\frac{\\pi}{2}\\right) \\cup \\left[\\frac{3\\pi}{4}, \\pi\\right)$",
+  "stem_html": "<h3>5. 点 $P$ 在曲线 $y = x^3 - x + \\frac{2}{3}$ 上，设曲线在点 $P$ 处切线的倾斜角为 $\\alpha$ ，则角 $\\alpha$ 的取值范围是（）</h3>\n<p>A. $\\left[0, \\frac{\\pi}{2}\\right)$</p>\n<p>B. $\\left[0, \\frac{\\pi}{2}\\right) \\cup \\left(-\\frac{\\pi}{2}, 0\\right)$</p>\n<p>C. $\\left[\\frac{3\\pi}{4}, \\pi\\right)$</p>\n<p>D. $\\left[0, \\frac{\\pi}{2}\\right) \\cup \\left[\\frac{3\\pi}{4}, \\pi\\right)$</p>",
+  "options": {
+    "A": "$\\left[0, \\frac{\\pi}{2}\\right)$",
+    "B": "$\\left[0, \\frac{\\pi}{2}\\right) \\cup \\left(-\\frac{\\pi}{2}, 0\\right)$",
+    "C": "$\\left[\\frac{3\\pi}{4}, \\pi\\right)$",
+    "D": "$\\left[0, \\frac{\\pi}{2}\\right) \\cup \\left[\\frac{3\\pi}{4}, \\pi\\right)$"
+  },
+  "answer": "D",
+  "solution_markdown": "### 5. D\n\n**详解**由题意得 $y' = 3x^2 - 1 \\geq -1$ ，即 $\\tan \\alpha \\geq -1$ ，又 $\\alpha \\in [0, \\pi)$ ，所以 $\\alpha \\in \\left[0, \\frac{\\pi}{2}\\right) \\cup \\left[\\frac{3\\pi}{4}, \\pi\\right)$ ，故选：D.",
+  "solution_html": "<h3>5. D</h3>\n<p><strong>详解</strong>由题意得 $y' = 3x^2 - 1 \\geq -1$ ，即 $\\tan \\alpha \\geq -1$ ，又 $\\alpha \\in [0, \\pi)$ ，所以 $\\alpha \\in \\left[0, \\frac{\\pi}{2}\\right) \\cup \\left[\\frac{3\\pi}{4}, \\pi\\right)$ ，故选：D.</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.569590+00:00",
+    "question_source_sha256": "8fa1d650b2c1959ec549afd5bfc248cdd4ddda5307791163f79f93a33acf3cac",
+    "solution_source_sha256": "5b5d55d680204d0e0f86a02ed377845f5652a058ffb31385ed378ad99f44b5f7"
+  }
+}

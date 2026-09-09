@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_b01a97c7a11b_q002",
+  "display_id": "EXAM-B01A97C7A11B-Q002",
+  "source_exam": "深圳中学2024级高二周测（8）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（8）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（8）参考答案.md",
+  "question_number": 2,
+  "question_type": "single_choice",
+  "stem_markdown": "### 2. 设函数 $f(x) = \\frac{\\mathrm{e}^x}{x + a}$ . 若 $f'(1) = \\frac{e}{4}$ ，则 $a = (\\quad)$ .\n\nA. 1\n\nB. -1\n\nC. -3+2√2\n\nD. -3-2√2",
+  "stem_html": "<h3>2. 设函数 $f(x) = \\frac{\\mathrm{e}^x}{x + a}$ . 若 $f'(1) = \\frac{e}{4}$ ，则 $a = (\\quad)$ .</h3>\n<p>A. 1</p>\n<p>B. -1</p>\n<p>C. -3+2√2</p>\n<p>D. -3-2√2</p>",
+  "options": {
+    "A": "1",
+    "B": "-1",
+    "C": "-3+2√2",
+    "D": "-3-2√2"
+  },
+  "answer": "A",
+  "solution_markdown": "",
+  "solution_html": "",
+  "score": null,
+  "assets": [],
+  "quality_flags": [
+    "missing_solution"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.044927+00:00",
+    "question_source_sha256": "c94eca08c58bedc15524121a680136ba270a64c9922023c3005a12c4fc409761",
+    "solution_source_sha256": "2c305966ce196e8a17833cd59778cae810c6b4e24eca072eeecc711059b85d1d"
+  }
+}

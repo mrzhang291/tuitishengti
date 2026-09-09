@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_b01a97c7a11b_q007",
+  "display_id": "EXAM-B01A97C7A11B-Q007",
+  "source_exam": "深圳中学2024级高二周测（8）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（8）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（8）参考答案.md",
+  "question_number": 7,
+  "question_type": "single_choice",
+  "stem_markdown": "### 7. 函数 $f(x) = ax^3 + bx^2 + cx + d$ 的图象如图所示，则下列结论成立的是（）\n\nA. $a > 0, b < 0, c > 0, d > 0$\n\nB. $a > 0, b < 0, c < 0, d > 0$\n\nC. $a < 0, b < 0, c > 0, d > 0$\n\nD. $a > 0, b > 0, c > 0, d < 0$\n\n![](assets/3aba69c1f29b6002b0793497ccfadc79ec5f0e438d2d2b6945b29fe908ba8e7d.jpg)",
+  "stem_html": "<h3>7. 函数 $f(x) = ax^3 + bx^2 + cx + d$ 的图象如图所示，则下列结论成立的是（）</h3>\n<p>A. $a &gt; 0, b &lt; 0, c &gt; 0, d &gt; 0$</p>\n<p>B. $a &gt; 0, b &lt; 0, c &lt; 0, d &gt; 0$</p>\n<p>C. $a &lt; 0, b &lt; 0, c &gt; 0, d &gt; 0$</p>\n<p>D. $a &gt; 0, b &gt; 0, c &gt; 0, d &lt; 0$</p>\n<p><img alt=\"\" src=\"assets/3aba69c1f29b6002b0793497ccfadc79ec5f0e438d2d2b6945b29fe908ba8e7d.jpg\" /></p>",
+  "options": {
+    "A": "$a > 0, b < 0, c > 0, d > 0$",
+    "B": "$a > 0, b < 0, c < 0, d > 0$",
+    "C": "$a < 0, b < 0, c > 0, d > 0$",
+    "D": "$a > 0, b > 0, c > 0, d < 0$\n\n![](assets/3aba69c1f29b6002b0793497ccfadc79ec5f0e438d2d2b6945b29fe908ba8e7d.jpg)"
+  },
+  "answer": "A",
+  "solution_markdown": "### 7. \n\n**详解**由图象可知 $f(0)=d>0$ ， $f'(x)=3ax^{2}+2bx+c$ 有两个不相等的正实数根 $x_{1}, x_{2}$ ，\n\n且 $f(x)$ 在 $(-\\infty, x_1), (x_2, +\\infty)$ 上单调递增，在 $(x_1, x_2)$ 上单调递减，\n\n所以 $a > 0, x_{1} + x_{2} = -\\frac{2b}{3a} > 0, x_{1}x_{2} = \\frac{c}{3a} > 0$ ，所以 $b < 0, c > 0$\n\n综上： $a > 0$ ， $b <   0$ ， $c > 0$ ， $d > 0$ .故选：A",
+  "solution_html": "<h3>7.</h3>\n<p><strong>详解</strong>由图象可知 $f(0)=d&gt;0$ ， $f'(x)=3ax^{2}+2bx+c$ 有两个不相等的正实数根 $x_{1}, x_{2}$ ，</p>\n<p>且 $f(x)$ 在 $(-\\infty, x_1), (x_2, +\\infty)$ 上单调递增，在 $(x_1, x_2)$ 上单调递减，</p>\n<p>所以 $a &gt; 0, x_{1} + x_{2} = -\\frac{2b}{3a} &gt; 0, x_{1}x_{2} = \\frac{c}{3a} &gt; 0$ ，所以 $b &lt; 0, c &gt; 0$</p>\n<p>综上： $a &gt; 0$ ， $b &lt;   0$ ， $c &gt; 0$ ， $d &gt; 0$ .故选：A</p>",
+  "score": null,
+  "assets": [
+    {
+      "original_ref": "images/3aba69c1f29b6002b0793497ccfadc79ec5f0e438d2d2b6945b29fe908ba8e7d.jpg",
+      "alt": "",
+      "saved": true,
+      "file_name": "3aba69c1f29b6002b0793497ccfadc79ec5f0e438d2d2b6945b29fe908ba8e7d.jpg",
+      "relative_path": "assets/3aba69c1f29b6002b0793497ccfadc79ec5f0e438d2d2b6945b29fe908ba8e7d.jpg",
+      "sha256": "43fae178b4a3542055d5b736d09b1b9b7e62b10584964302a412a8e54994c1c7"
+    }
+  ],
+  "quality_flags": [
+    "contains_images"
+  ],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:27.069570+00:00",
+    "question_source_sha256": "c94eca08c58bedc15524121a680136ba270a64c9922023c3005a12c4fc409761",
+    "solution_source_sha256": "2c305966ce196e8a17833cd59778cae810c6b4e24eca072eeecc711059b85d1d"
+  }
+}

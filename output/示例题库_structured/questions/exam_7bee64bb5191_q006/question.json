@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "question_id": "exam_7bee64bb5191_q006",
+  "display_id": "EXAM-7BEE64BB5191-Q006",
+  "source_exam": "深圳中学 2024 级高二数学周测（1）",
+  "source_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（1）.md",
+  "solution_file": "C:\\Users\\zcj00\\Desktop\\推题生题\\output\\示例题库_ocr\\深圳中学2024级高二周测（1）解析.md",
+  "question_number": 6,
+  "question_type": "single_choice",
+  "stem_markdown": "### 6. 若点 $P$ 是曲线 $y = \\ln x - x^2$ 上任意一点，则点 $P$ 到直线 $l: x + y - 4 = 0$ 距离的最小值为（）\n\nA. $\\frac{\\sqrt{2}}{2}$\n\nB. $\\sqrt{2}$\n\nC. $2\\sqrt{2}$\n\nD. $4\\sqrt{2}$",
+  "stem_html": "<h3>6. 若点 $P$ 是曲线 $y = \\ln x - x^2$ 上任意一点，则点 $P$ 到直线 $l: x + y - 4 = 0$ 距离的最小值为（）</h3>\n<p>A. $\\frac{\\sqrt{2}}{2}$</p>\n<p>B. $\\sqrt{2}$</p>\n<p>C. $2\\sqrt{2}$</p>\n<p>D. $4\\sqrt{2}$</p>",
+  "options": {
+    "A": "$\\frac{\\sqrt{2}}{2}$",
+    "B": "$\\sqrt{2}$",
+    "C": "$2\\sqrt{2}$",
+    "D": "$4\\sqrt{2}$"
+  },
+  "answer": "C",
+  "solution_markdown": "### 6. C\n\n**详解**解：过点P作曲线 $y=\\ln x-x^{2}$ 的切线，当切线与直线 $l: x+y-4=0$ 平行时，点P到直线 $l: x+y-4=0$ 距离的最小。设切点为 $P(x_{0},y_{0})(x_{0}>0)$ ， $y'=\\frac{1}{x}-2x$ ，所以，切线斜率为 $k=\\frac{1}{x_{0}}-2x_{0}$ ，由题知 $\\frac{1}{x_{0}}-2x_{0}=-1$ 得 $x_{0}=1$ 或 $x_{0}=-\\frac{1}{2}$ （舍），所以， $P(1,-1)$ ，此时点P到直线 $l: x+y-4=0$ 距离 $d=\\frac{|1-1-4|}{\\sqrt{2}}=2\\sqrt{2}$ 。",
+  "solution_html": "<h3>6. C</h3>\n<p><strong>详解</strong>解：过点P作曲线 $y=\\ln x-x^{2}$ 的切线，当切线与直线 $l: x+y-4=0$ 平行时，点P到直线 $l: x+y-4=0$ 距离的最小。设切点为 $P(x_{0},y_{0})(x_{0}&gt;0)$ ， $y'=\\frac{1}{x}-2x$ ，所以，切线斜率为 $k=\\frac{1}{x_{0}}-2x_{0}$ ，由题知 $\\frac{1}{x_{0}}-2x_{0}=-1$ 得 $x_{0}=1$ 或 $x_{0}=-\\frac{1}{2}$ （舍），所以， $P(1,-1)$ ，此时点P到直线 $l: x+y-4=0$ 距离 $d=\\frac{|1-1-4|}{\\sqrt{2}}=2\\sqrt{2}$ 。</p>",
+  "score": 5,
+  "assets": [],
+  "quality_flags": [],
+  "provenance": {
+    "structured_by": "exam-ocr/scripts/structure_outputs.py",
+    "structured_at": "2026-08-05T03:31:26.572912+00:00",
+    "question_source_sha256": "8fa1d650b2c1959ec549afd5bfc248cdd4ddda5307791163f79f93a33acf3cac",
+    "solution_source_sha256": "5b5d55d680204d0e0f86a02ed377845f5652a058ffb31385ed378ad99f44b5f7"
+  }
+}
